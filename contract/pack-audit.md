@@ -1,6 +1,6 @@
 # UI Style Kit Icon Pack Audit
 
-Contract version: `0.1.0`
+Contract version: `1.0.0`
 
 Required core icons: **64**
 

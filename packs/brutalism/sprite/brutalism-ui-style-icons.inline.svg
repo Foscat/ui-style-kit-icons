@@ -18,17 +18,17 @@
 [data-icon-frame="decor"]{opacity:var(--usk-icon-frame-decor-opacity,var(--usk-icon-frame-opacity,1))}
 [data-icon-glyph="play"]{fill:var(--usk-icon-play,var(--usk-icon-foreground,rgb(var(--usk-text-rgb,255 255 255))));stroke:none;opacity:1}
 /* UI Style Kit Icons: generated sprite contrast guard */
-.brutal-i-line{stroke:var(--brutal-icon-border,rgb(var(--usk-border-rgb,100 116 139)));stroke:color-mix(in srgb,var(--brutal-icon-border,rgb(var(--usk-border-rgb,100 116 139))) 28%,rgb(var(--usk-text-rgb,15 23 42)) 72%)}
-.brutal-i-line-2{stroke:var(--brutal-icon-accent,rgb(var(--usk-accent-rgb,14 165 233)));stroke:color-mix(in srgb,var(--brutal-icon-accent,rgb(var(--usk-accent-rgb,14 165 233))) 52%,rgb(var(--usk-text-rgb,15 23 42)) 48%)}
-.brutal-i-line-3{stroke:var(--brutal-icon-secondary,rgb(var(--usk-secondary-rgb,100 116 139)));stroke:color-mix(in srgb,var(--brutal-icon-secondary,rgb(var(--usk-secondary-rgb,100 116 139))) 52%,rgb(var(--usk-text-rgb,15 23 42)) 48%)}
-.brutal-i-primary{stroke:var(--brutal-icon-primary,rgb(var(--usk-primary-rgb,37 99 235)));stroke:color-mix(in srgb,var(--brutal-icon-primary,rgb(var(--usk-primary-rgb,37 99 235))) 58%,rgb(var(--usk-text-rgb,15 23 42)) 42%)}
-.brutal-i-secondary{stroke:var(--brutal-icon-secondary,rgb(var(--usk-secondary-rgb,100 116 139)));stroke:color-mix(in srgb,var(--brutal-icon-secondary,rgb(var(--usk-secondary-rgb,100 116 139))) 52%,rgb(var(--usk-text-rgb,15 23 42)) 48%)}
-.brutal-i-accent{stroke:var(--brutal-icon-accent,rgb(var(--usk-accent-rgb,14 165 233)));stroke:color-mix(in srgb,var(--brutal-icon-accent,rgb(var(--usk-accent-rgb,14 165 233))) 52%,rgb(var(--usk-text-rgb,15 23 42)) 48%)}
-.brutal-i-success{stroke:var(--brutal-icon-success,rgb(var(--usk-success-rgb,22 163 74)));stroke:color-mix(in srgb,var(--brutal-icon-success,rgb(var(--usk-success-rgb,22 163 74))) 52%,rgb(var(--usk-text-rgb,15 23 42)) 48%)}
-.brutal-i-warning{stroke:var(--brutal-icon-warning,rgb(var(--usk-warning-rgb,202 138 4)));stroke:color-mix(in srgb,var(--brutal-icon-warning,rgb(var(--usk-warning-rgb,202 138 4))) 52%,rgb(var(--usk-text-rgb,15 23 42)) 48%)}
-.brutal-i-danger{stroke:var(--brutal-icon-danger,rgb(var(--usk-danger-rgb,220 38 38)));stroke:color-mix(in srgb,var(--brutal-icon-danger,rgb(var(--usk-danger-rgb,220 38 38))) 52%,rgb(var(--usk-text-rgb,15 23 42)) 48%)}
-.brutal-i-muted{stroke:var(--brutal-icon-muted,rgb(var(--usk-text-muted-rgb,100 116 139)));stroke:color-mix(in srgb,var(--brutal-icon-muted,rgb(var(--usk-text-muted-rgb,100 116 139))) 38%,rgb(var(--usk-text-rgb,15 23 42)) 62%)}
-.brutal-i-bg-strong{stroke:var(--brutal-icon-border,rgb(var(--usk-border-rgb,100 116 139)));stroke:color-mix(in srgb,var(--brutal-icon-border,rgb(var(--usk-border-rgb,100 116 139))) 28%,rgb(var(--usk-text-rgb,15 23 42)) 72%);stroke-width:var(--usk-icon-keyline-width,3.5);stroke-linejoin:round}
+.brutal-i-line{stroke:var(--brutal-icon-border,rgb(var(--usk-border-rgb,100 116 139)));stroke:color-mix(in srgb,var(--brutal-icon-border,rgb(var(--usk-border-rgb,100 116 139))) 28%,currentColor 72%)}
+.brutal-i-line-2{stroke:var(--brutal-icon-accent,rgb(var(--usk-accent-rgb,14 165 233)));stroke:color-mix(in srgb,var(--brutal-icon-accent,rgb(var(--usk-accent-rgb,14 165 233))) 52%,currentColor 48%)}
+.brutal-i-line-3{stroke:var(--brutal-icon-secondary,rgb(var(--usk-secondary-rgb,100 116 139)));stroke:color-mix(in srgb,var(--brutal-icon-secondary,rgb(var(--usk-secondary-rgb,100 116 139))) 52%,currentColor 48%)}
+.brutal-i-primary{stroke:var(--brutal-icon-primary,rgb(var(--usk-primary-rgb,37 99 235)));stroke:color-mix(in srgb,var(--brutal-icon-primary,rgb(var(--usk-primary-rgb,37 99 235))) 58%,currentColor 42%)}
+.brutal-i-secondary{stroke:var(--brutal-icon-secondary,rgb(var(--usk-secondary-rgb,100 116 139)));stroke:color-mix(in srgb,var(--brutal-icon-secondary,rgb(var(--usk-secondary-rgb,100 116 139))) 52%,currentColor 48%)}
+.brutal-i-accent{stroke:var(--brutal-icon-accent,rgb(var(--usk-accent-rgb,14 165 233)));stroke:color-mix(in srgb,var(--brutal-icon-accent,rgb(var(--usk-accent-rgb,14 165 233))) 52%,currentColor 48%)}
+.brutal-i-success{stroke:var(--brutal-icon-success,rgb(var(--usk-success-rgb,22 163 74)));stroke:color-mix(in srgb,var(--brutal-icon-success,rgb(var(--usk-success-rgb,22 163 74))) 52%,currentColor 48%)}
+.brutal-i-warning{stroke:var(--brutal-icon-warning,rgb(var(--usk-warning-rgb,202 138 4)));stroke:color-mix(in srgb,var(--brutal-icon-warning,rgb(var(--usk-warning-rgb,202 138 4))) 52%,currentColor 48%)}
+.brutal-i-danger{stroke:var(--brutal-icon-danger,rgb(var(--usk-danger-rgb,220 38 38)));stroke:color-mix(in srgb,var(--brutal-icon-danger,rgb(var(--usk-danger-rgb,220 38 38))) 52%,currentColor 48%)}
+.brutal-i-muted{stroke:var(--brutal-icon-muted,rgb(var(--usk-text-muted-rgb,100 116 139)));stroke:color-mix(in srgb,var(--brutal-icon-muted,rgb(var(--usk-text-muted-rgb,100 116 139))) 38%,currentColor 62%)}
+.brutal-i-bg-strong{stroke:var(--brutal-icon-border,rgb(var(--usk-border-rgb,100 116 139)));stroke:color-mix(in srgb,var(--brutal-icon-border,rgb(var(--usk-border-rgb,100 116 139))) 28%,currentColor 72%);stroke-width:var(--usk-icon-keyline-width,3.5);stroke-linejoin:round}
 </style>
 <symbol id="brutal-icon-home" viewBox="0 0 256 256">
   <title>Home</title>

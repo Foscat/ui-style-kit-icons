@@ -7,7 +7,6 @@ playwright-report/
 .cache/
 .npm-cache/
 .tmp/
-packs/tactile-ui-style-icons/
 *.tgz
 *.log
 *.local

@@ -2,7 +2,8 @@ import {
   getPack,
   packRegistry,
   packs,
-  resolveIconUrl
+  resolveIconUrl,
+  uiStyleKitCssCompatibility
 } from "./dist/ui-style-kit-icons.js";
 
 const defaults = {
@@ -14,19 +15,8 @@ const defaults = {
   extras: false,
   q: ""
 };
-const allowedThemes = new Set([
-  "midnight-gold",
-  "ocean-steel",
-  "forest-moss",
-  "sunset-ember",
-  "royal-plum",
-  "graphite-cyan",
-  "desert-sage",
-  "rose-quartz",
-  "cyber-lime",
-  "arctic-indigo"
-]);
-const allowedModes = new Set(["light", "dark", "contrast"]);
+const allowedThemes = new Set(uiStyleKitCssCompatibility.themes);
+const allowedModes = new Set(uiStyleKitCssCompatibility.modes);
 const allowedFrames = new Set(["auto", "none"]);
 const storageKey = "ui-style-kit-icons:demo-state";
 const query = new URLSearchParams(window.location.search);
@@ -128,6 +118,7 @@ function assertDemoControls() {
     throw new Error("UI Style Kit Icons demo frame controls are incomplete.");
   }
 
+  const themeValues = [...elements.themeSelect.options].map(({ value }) => value);
   const unsupportedModes = elements.modeButtons.filter(
     (button) => !allowedModes.has(button.dataset.modeValue)
   );
@@ -141,6 +132,15 @@ function assertDemoControls() {
 
   if (unsupportedFrames.length > 0) {
     throw new Error("UI Style Kit Icons demo contains an unsupported frame control.");
+  }
+
+  if (
+    themeValues.length !== allowedThemes.size ||
+    themeValues.some((theme) => !allowedThemes.has(theme))
+  ) {
+    throw new Error(
+      "UI Style Kit Icons demo themes do not match ui-style-kit-css."
+    );
   }
 }
 
@@ -300,7 +300,7 @@ function applyState({ updateUrl: shouldUpdateUrl = true } = {}) {
   elements.extrasCount.textContent = String(pack.optionalIconCount);
   elements.extrasToggle.disabled = pack.optionalIconCount === 0;
   elements.extrasToggle.closest("label").toggleAttribute("data-disabled", pack.optionalIconCount === 0);
-  elements.packSourceLink.href = `https://github.com/Foscat/ui-style-kit-icons/tree/main/${pack.sourcePath}`;
+  elements.packSourceLink.href = `https://github.com/Foscat/ui-style-kit-css-icons/tree/main/${pack.sourcePath}`;
 
   if (pack.optionalIconCount === 0) {
     state.extras = false;

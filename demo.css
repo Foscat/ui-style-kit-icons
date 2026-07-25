@@ -434,7 +434,7 @@ pre {
 .library-heading h1 {
   margin: 0;
   max-width: 20ch;
-  font-size: clamp(2rem, 4vw, 3.35rem);
+  font-size: 3.35rem;
   line-height: 1;
   letter-spacing: 0;
 }
@@ -643,7 +643,7 @@ usk-icon[data-error] {
 .usage-section h2,
 .section-heading h2 {
   margin: 0;
-  font-size: clamp(1.5rem, 2vw, 2rem);
+  font-size: 2rem;
 }
 
 .usage-section p,
@@ -796,7 +796,7 @@ pre {
 
 .dialog-content h2 {
   margin: 0.35rem 0 0.3rem;
-  font-size: clamp(1.7rem, 4vw, 2.4rem);
+  font-size: 2.4rem;
 }
 
 .dialog-content > code {
@@ -987,6 +987,11 @@ pre {
     font-size: 2rem;
   }
 
+  .usage-section h2,
+  .section-heading h2 {
+    font-size: 1.65rem;
+  }
+
   .library-stats {
     gap: 0.5rem;
   }
@@ -1020,9 +1025,18 @@ pre {
   }
 
   .dialog-preview {
-    min-height: 18rem;
+    min-height: 13rem;
+    padding: 1.25rem;
     border-inline-end: 0;
     border-block-end: 1px solid var(--demo-border);
+  }
+
+  .dialog-preview usk-icon {
+    --usk-icon-size: min(9rem, 40vw);
+  }
+
+  .dialog-content h2 {
+    font-size: 1.75rem;
   }
 
   .site-footer {

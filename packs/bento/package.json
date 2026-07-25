@@ -1,6 +1,6 @@
 {
   "name": "bento-ui-style-icons",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "Theme-aware Bento SVG icon pack for ui-style-kit-css.",
   "files": [
     "dist",

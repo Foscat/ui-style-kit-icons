@@ -7,6 +7,9 @@ const root = process.cwd();
 const distDir = path.join(root, "dist");
 const packageJson = await readJson("package.json");
 const contract = await readJson("contract/icon-contract.json");
+const { UI_STYLE_KIT_CSS_COMPATIBILITY } = await import(
+  pathToFileURL(path.join(root, "src/ecosystem.mjs"))
+);
 const { PACK_DEFINITIONS, STYLE_ALIASES } = await import(
   pathToFileURL(path.join(root, "src/packs.mjs"))
 );
@@ -35,6 +38,7 @@ const registry = {
   coreIconIds,
   aliases: contract.aliases,
   styleAliases: STYLE_ALIASES,
+  uiStyleKitCssCompatibility: UI_STYLE_KIT_CSS_COMPATIBILITY,
   packs
 };
 
@@ -169,9 +173,15 @@ function extractSvgParts(source, svgPath) {
 }
 
 function registryModule(registry) {
-  return `export const coreIconIds = ${JSON.stringify(registry.coreIconIds, null, 2)};
+  return `export const packageName = ${JSON.stringify(registry.name)};
+export const packageVersion = ${JSON.stringify(registry.version)};
+export const contractVersion = ${JSON.stringify(registry.contractVersion)};
+export const requiredIconCount = ${registry.requiredIconCount};
+export const packCount = ${registry.packCount};
+export const coreIconIds = ${JSON.stringify(registry.coreIconIds, null, 2)};
 export const aliases = ${JSON.stringify(registry.aliases, null, 2)};
 export const styleAliases = ${JSON.stringify(registry.styleAliases, null, 2)};
+export const uiStyleKitCssCompatibility = ${JSON.stringify(registry.uiStyleKitCssCompatibility, null, 2)};
 export const packs = ${JSON.stringify(registry.packs, null, 2)};
 export const packRegistry = Object.fromEntries(packs.map((pack) => [pack.id, pack]));`;
 }
@@ -179,15 +189,77 @@ export const packRegistry = Object.fromEntries(packs.map((pack) => [pack.id, pac
 function typeDefinitions(registry) {
   const iconNames = registry.coreIconIds.map((id) => JSON.stringify(id)).join(" | ");
   const packIds = registry.packs.map(({ id }) => JSON.stringify(id)).join(" | ");
+  const themes = registry.uiStyleKitCssCompatibility.themes
+    .map((theme) => JSON.stringify(theme))
+    .join(" | ");
+  const modes = registry.uiStyleKitCssCompatibility.modes
+    .map((mode) => JSON.stringify(mode))
+    .join(" | ");
 
   return `export type IconName = ${iconNames};
 export type IconPack = ${packIds};
 export type IconFrame = "auto" | "none" | "soft";
-export interface IconRecord { id: string; label: string; file: string; symbol: string; meaning: string; optional?: boolean; }
-export interface PackRecord { id: IconPack; label: string; description: string; sourcePath: string; uiStyle: string; layoutStyle: string; iconClass: string; spritePrefix: string; iconCount: number; requiredIconCount: number; optionalIconCount: number; coreIcons: IconRecord[]; optionalIcons: IconRecord[]; }
+export type UiStyleKitCssTheme = ${themes};
+export type UiStyleKitCssMode = ${modes};
+export interface IconRecord {
+  id: string;
+  label: string;
+  file: string;
+  symbol: string;
+  meaning: string;
+}
+export interface PackRecord {
+  id: IconPack;
+  label: string;
+  sourcePath: string;
+  uiStyle: string;
+  layoutStyle: string;
+  iconClass: string;
+  spritePrefix: string;
+  description: string;
+  tags: string[];
+  name: string;
+  version: string;
+  contractVersion: string;
+  style: string;
+  styleSource: string;
+  iconCount: number;
+  requiredIconCount: number;
+  optionalIconCount: number;
+  css: string;
+  sprite: string;
+  inlineSprite: string;
+  manifest: string;
+  coreIcons: IconRecord[];
+  optionalIcons: IconRecord[];
+  aliases: Record<string, IconName>;
+}
+export interface UiStyleKitCssCompatibility {
+  packageName: "ui-style-kit-css";
+  versionRange: string;
+  themes: UiStyleKitCssTheme[];
+  modes: UiStyleKitCssMode[];
+  requiredRgbTokens: string[];
+}
+export interface IconLoadDetail {
+  name: string;
+  pack: IconPack;
+  url: string;
+}
+export interface IconErrorDetail {
+  name: string;
+  pack: IconPack;
+  error: unknown;
+}
+export declare const packageName: ${JSON.stringify(registry.name)};
+export declare const packageVersion: string;
+export declare const contractVersion: string;
+export declare const requiredIconCount: number;
+export declare const packCount: number;
 export declare const coreIconIds: IconName[];
 export declare const aliases: Record<string, IconName>;
 export declare const styleAliases: Record<string, IconPack>;
+export declare const uiStyleKitCssCompatibility: UiStyleKitCssCompatibility;
 export declare const packs: PackRecord[];
 export declare const packRegistry: Record<IconPack, PackRecord>;
 export declare function normalizeIconName(name: string): IconName | string;
@@ -198,7 +270,16 @@ export declare function getAssetBaseUrl(): string;
 export declare function resolveIconUrl(name: string, packOrStyle?: string, baseUrl?: string | URL): string;
 export declare function iconNames(packOrStyle?: string, options?: { includeOptional?: boolean }): string[];
 export declare class UiStyleIconElement extends HTMLElement { name: string; readonly pack: IconPack; frame: IconFrame; refresh(): void; }
-export declare function defineUiStyleIcon(tagName?: string): typeof UiStyleIconElement;`;
+export declare function defineUiStyleIcon(tagName?: string): typeof UiStyleIconElement;
+declare global {
+  interface HTMLElementTagNameMap {
+    "usk-icon": UiStyleIconElement;
+  }
+  interface HTMLElementEventMap {
+    "usk-icon-load": CustomEvent<IconLoadDetail>;
+    "usk-icon-error": CustomEvent<IconErrorDetail>;
+  }
+}`;
 }
 
 function allPackCss(packsToImport) {
@@ -270,7 +351,7 @@ function spriteContrastStyle(pack) {
           : `--usk-${rgbRole}-rgb`;
     const declarations = [
       `stroke:var(${token},rgb(var(${rgbToken},${roleFallback})))`,
-      `stroke:color-mix(in srgb,var(${token},rgb(var(${rgbToken},${roleFallback}))) ${percentage}%,rgb(var(--usk-text-rgb,15 23 42)) ${100 - percentage}%)`,
+      `stroke:color-mix(in srgb,var(${token},rgb(var(${rgbToken},${roleFallback}))) ${percentage}%,currentColor ${100 - percentage}%)`,
       ...additions
     ];
 

@@ -6,7 +6,7 @@ This pack follows the **Party Dashboard** direction: chunky sticker surfaces, bi
 
 ## Contract
 
-- Contract version: `0.1.0`
+- Contract version: `1.0.0`
 - Required core icons: `64`
 - Included icons: `64`
 - Optional extras: `0`

@@ -5,7 +5,14 @@ import { test } from "node:test";
 import { fileURLToPath } from "node:url";
 
 const root = fileURLToPath(new URL("..", import.meta.url));
+const packageJson = JSON.parse(
+  await readFile(join(root, "package.json"), "utf8")
+);
+const contract = JSON.parse(
+  await readFile(join(root, "contract", "icon-contract.json"), "utf8")
+);
 const markdownDocuments = [
+  "CHANGELOG.md",
   "README.md",
   "CONTRIBUTING.md",
   "SECURITY.md",
@@ -19,7 +26,10 @@ test("published docs describe the supported library and demo surfaces", async ()
   const html = await readFile(join(root, "index.html"), "utf8");
 
   for (const text of [readme, llms, html]) {
-    assert.match(text, /0\.2\.0/u);
+    assert.match(
+      text,
+      new RegExp(escapeRegExp(packageJson.version), "u")
+    );
     assert.match(text, /12/u);
     assert.doesNotMatch(text, /0\.3\.0/u);
   }
@@ -38,8 +48,34 @@ test("published docs describe the supported library and demo surfaces", async ()
 
   assert.match(readme, /npm run demo/u);
   assert.match(readme, /npm run pages:build/u);
+  assert.match(readme, /ui-style-kit-css@2\.1\.0/u);
+  assert.match(readme, /standalone/iu);
   assert.match(llms, /npm run demo/u);
   assert.match(html, /fileProtocolNotice/u);
+  assert.match(
+    html,
+    /https:\/\/github\.com\/Foscat\/ui-style-kit-css-icons/u
+  );
+  assert.match(
+    readme,
+    new RegExp(
+      `Contract version: \`${escapeRegExp(contract.schemaVersion)}\``,
+      "u"
+    )
+  );
+  assert.match(
+    llms,
+    new RegExp(`Contract version: ${escapeRegExp(contract.schemaVersion)}`, "u")
+  );
+  assert.match(
+    html,
+    new RegExp(
+      `<dt>Contract</dt><dd>${escapeRegExp(
+        contract.schemaVersion.replace(/\.0$/u, "")
+      )}</dd>`,
+      "u"
+    )
+  );
 });
 
 test("local Markdown links resolve without requiring a separate wiki checkout", async () => {

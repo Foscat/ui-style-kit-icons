@@ -5,13 +5,15 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { chromium } from "playwright";
+import { findOpenPort } from "./find-open-port.mjs";
+import { installDemoDependencyRoutes } from "./route-demo-dependencies.mjs";
 
 const root = process.cwd();
 const registry = JSON.parse(
   await readFile(join(root, "dist", "registry.json"), "utf8")
 );
 const host = process.env.HOST ?? "127.0.0.1";
-const port = Number(process.env.PORT ?? 4181);
+const port = Number(process.env.PORT ?? (await findOpenPort(host)));
 const baseUrl = `http://${host}:${port}/`;
 const reportOnly = process.argv.includes("--report-only");
 const captureScreenshots = process.argv.includes("--screenshots");
@@ -65,6 +67,7 @@ const browser = await chromium.launch({ headless: true });
 try {
   const page = await browser.newPage({ viewport: { width: 1440, height: 1000 } });
 
+  await installDemoDependencyRoutes(page);
   page.on("console", (message) => {
     if (["error", "warning"].includes(message.type())) {
       browserEvents.push(`${message.type()}: ${message.text()}`);
@@ -114,6 +117,9 @@ try {
     let worstContrast = Number.POSITIVE_INFINITY;
     let worstState = "";
     let contrastFailures = 0;
+    let standaloneWorstContrast = Number.POSITIVE_INFINITY;
+    let standaloneWorstState = "";
+    let standaloneContrastFailures = 0;
 
     for (const theme of themes) {
       for (const mode of modes) {
@@ -148,16 +154,78 @@ try {
       }
     }
 
+    for (const surface of ["light", "dark"]) {
+      for (const frame of ["auto", "none"]) {
+        const standaloneUrl = new URL(
+          "tests/fixtures/standalone-icons.html",
+          baseUrl
+        );
+
+        standaloneUrl.searchParams.set("pack", pack.id);
+        standaloneUrl.searchParams.set("surface", surface);
+        standaloneUrl.searchParams.set("frame", frame);
+        await page.goto(standaloneUrl.href, { waitUntil: "networkidle" });
+        await page.waitForFunction(
+          (count) =>
+            document.body.dataset.ready === "true" &&
+            document.querySelectorAll(".icon-card usk-icon").length === count,
+          expectedCount
+        );
+
+        const standaloneContrast = await inspectIcons(page);
+
+        for (const icon of standaloneContrast) {
+          if (icon.maxContrast === null) {
+            continue;
+          }
+
+          if (icon.maxContrast < standaloneWorstContrast) {
+            standaloneWorstContrast = icon.maxContrast;
+            standaloneWorstState = `${surface}/${frame}/${icon.id}`;
+          }
+
+          if (
+            icon.maxContrast < 3 ||
+            (icon.strongPaintExtent !== null && icon.strongPaintExtent < 48)
+          ) {
+            standaloneContrastFailures += 1;
+            findings.push({
+              type: "standalone-contrast",
+              pack: pack.id,
+              icon: icon.id,
+              state: `${surface}/${frame}`,
+              maxContrast: icon.maxContrast,
+              strongPaintExtent: icon.strongPaintExtent
+            });
+          }
+        }
+      }
+    }
+
     summaries.push({
       pack: pack.id,
       icons: expectedCount,
       contrastFailures,
       worstContrast:
         Number.isFinite(worstContrast) ? Number(worstContrast.toFixed(2)) : null,
-      worstState
+      worstState,
+      standaloneContrastFailures,
+      standaloneWorstContrast: Number.isFinite(standaloneWorstContrast)
+        ? Number(standaloneWorstContrast.toFixed(2))
+        : null,
+      standaloneWorstState
     });
 
     if (captureScreenshots) {
+      await page.goto(url.href, { waitUntil: "networkidle" });
+      await page.waitForFunction(
+        (count) =>
+          [...document.querySelectorAll(".icon-card usk-icon")].length === count &&
+          [...document.querySelectorAll(".icon-card usk-icon")].every(
+            (icon) => Boolean(icon.shadowRoot?.querySelector("svg"))
+          ),
+        expectedCount
+      );
       await applyThemeState(page, "forest-moss", "light");
       await page.screenshot({
         path: join(screenshotDir, `${pack.id}.png`),

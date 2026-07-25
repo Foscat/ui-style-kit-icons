@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://foscat.github.io/ui-style-kit-icons/sitemap.xml
+Sitemap: https://foscat.github.io/ui-style-kit-css-icons/sitemap.xml

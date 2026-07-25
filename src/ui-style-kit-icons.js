@@ -1,14 +1,54 @@
 import {
   aliases,
+  contractVersion,
   coreIconIds,
+  packageName,
+  packageVersion,
+  packCount,
   packs,
   packRegistry,
-  styleAliases
+  requiredIconCount,
+  styleAliases,
+  uiStyleKitCssCompatibility
 } from "./registry.js";
 
 const svgCache = new Map();
 const liveIcons = new Set();
 const moduleBaseUrl = new URL("../", import.meta.url);
+const iconTokenPrefixes = [
+  "usk",
+  "saas",
+  "bento",
+  "max",
+  "brutal",
+  "tactile",
+  "neo",
+  "rg",
+  "y2k",
+  "cp",
+  "sw"
+];
+const iconTokenRoles = [
+  "primary",
+  "secondary",
+  "accent",
+  "success",
+  "warning",
+  "danger",
+  "muted"
+];
+const svgTokenBridge = [
+  ...iconTokenPrefixes.flatMap((prefix) =>
+    iconTokenRoles.map(
+      (role) =>
+        `--${prefix}-icon-${role}: var(--usk-icon-contrast-${role}) !important;`
+    )
+  ),
+  ...iconTokenPrefixes.map(
+    (prefix) =>
+      `--${prefix}-icon-border: var(--usk-icon-contrast-keyline) !important;`
+  )
+].join("\n");
 let fallbackPack = "system";
 let fallbackAssetBaseUrl = moduleBaseUrl;
 let observer;
@@ -118,14 +158,54 @@ function sanitizeSvg(svgText) {
     throw new TypeError("The icon response was not a valid SVG document.");
   }
 
-  svg.querySelectorAll("script, foreignObject").forEach((node) => node.remove());
-  svg.querySelectorAll("*").forEach((node) => {
+  /*
+   * Icons may be loaded from a caller-configured asset host. Preserve SVG
+   * drawing primitives while removing executable and remote-resource surfaces.
+   */
+  svg
+    .querySelectorAll(
+      [
+        "a",
+        "animate",
+        "animateMotion",
+        "animateTransform",
+        "audio",
+        "discard",
+        "embed",
+        "foreignObject",
+        "iframe",
+        "image",
+        "object",
+        "script",
+        "set",
+        "source",
+        "track",
+        "video"
+      ].join(",")
+    )
+    .forEach((node) => node.remove());
+
+  for (const style of svg.querySelectorAll("style")) {
+    if (containsUnsafeCssReference(style.textContent ?? "")) {
+      style.remove();
+    }
+  }
+
+  for (const node of [svg, ...svg.querySelectorAll("*")]) {
     for (const attribute of [...node.attributes]) {
-      if (attribute.name.toLowerCase().startsWith("on")) {
+      const name = attribute.name.toLowerCase();
+      const value = attribute.value.trim();
+
+      if (
+        name.startsWith("on") ||
+        (["href", "xlink:href", "src"].includes(name) &&
+          !value.startsWith("#")) ||
+        containsUnsafeCssReference(value)
+      ) {
         node.removeAttribute(attribute.name);
       }
     }
-  });
+  }
 
   svg.removeAttribute("width");
   svg.removeAttribute("height");
@@ -138,18 +218,32 @@ function sanitizeSvg(svgText) {
   return svg.outerHTML;
 }
 
+function containsUnsafeCssReference(value) {
+  if (/@import\b|expression\s*\(/iu.test(value)) {
+    return true;
+  }
+
+  return [...value.matchAll(/url\(\s*(['"]?)([^)'"]+)\1\s*\)/giu)].some(
+    ([, , target]) => !target.trim().startsWith("#")
+  );
+}
+
 async function loadSvg(url) {
   if (!svgCache.has(url)) {
-    svgCache.set(
-      url,
-      fetch(url).then(async (response) => {
-        if (!response.ok) {
-          throw new Error(`Unable to load icon (${response.status}).`);
-        }
+    const request = fetch(url).then(async (response) => {
+      if (!response.ok) {
+        throw new Error(`Unable to load icon (${response.status}).`);
+      }
 
-        return sanitizeSvg(await response.text());
-      })
-    );
+      return sanitizeSvg(await response.text());
+    });
+
+    svgCache.set(url, request);
+    request.catch(() => {
+      if (svgCache.get(url) === request) {
+        svgCache.delete(url);
+      }
+    });
   }
 
   return svgCache.get(url);
@@ -314,49 +408,49 @@ export class UiStyleIconElement extends HTMLElementBase {
               --usk-icon-contrast-primary: color-mix(
                 in srgb,
                 rgb(var(--usk-primary-rgb, 37 99 235)) 58%,
-                rgb(var(--usk-text-rgb, 15 23 42)) 42%
+                currentColor 42%
               );
               --usk-icon-contrast-secondary: rgb(var(--usk-secondary-rgb, 100 116 139));
               --usk-icon-contrast-secondary: color-mix(
                 in srgb,
                 rgb(var(--usk-secondary-rgb, 100 116 139)) 52%,
-                rgb(var(--usk-text-rgb, 15 23 42)) 48%
+                currentColor 48%
               );
               --usk-icon-contrast-accent: rgb(var(--usk-accent-rgb, 14 165 233));
               --usk-icon-contrast-accent: color-mix(
                 in srgb,
                 rgb(var(--usk-accent-rgb, 14 165 233)) 52%,
-                rgb(var(--usk-text-rgb, 15 23 42)) 48%
+                currentColor 48%
               );
               --usk-icon-contrast-success: rgb(var(--usk-success-rgb, 22 163 74));
               --usk-icon-contrast-success: color-mix(
                 in srgb,
                 rgb(var(--usk-success-rgb, 22 163 74)) 52%,
-                rgb(var(--usk-text-rgb, 15 23 42)) 48%
+                currentColor 48%
               );
               --usk-icon-contrast-warning: rgb(var(--usk-warning-rgb, 202 138 4));
               --usk-icon-contrast-warning: color-mix(
                 in srgb,
                 rgb(var(--usk-warning-rgb, 202 138 4)) 52%,
-                rgb(var(--usk-text-rgb, 15 23 42)) 48%
+                currentColor 48%
               );
               --usk-icon-contrast-danger: rgb(var(--usk-danger-rgb, 220 38 38));
               --usk-icon-contrast-danger: color-mix(
                 in srgb,
                 rgb(var(--usk-danger-rgb, 220 38 38)) 52%,
-                rgb(var(--usk-text-rgb, 15 23 42)) 48%
+                currentColor 48%
               );
               --usk-icon-contrast-muted: rgb(var(--usk-text-muted-rgb, 100 116 139));
               --usk-icon-contrast-muted: color-mix(
                 in srgb,
                 rgb(var(--usk-text-muted-rgb, 100 116 139)) 38%,
-                rgb(var(--usk-text-rgb, 15 23 42)) 62%
+                currentColor 62%
               );
-              --usk-icon-contrast-keyline: rgb(var(--usk-text-rgb, 15 23 42));
+              --usk-icon-contrast-keyline: currentColor;
               --usk-icon-contrast-keyline: color-mix(
                 in srgb,
                 rgb(var(--usk-border-rgb, 100 116 139)) 28%,
-                rgb(var(--usk-text-rgb, 15 23 42)) 72%
+                currentColor 72%
               );
               --usk-icon-primary: var(--usk-icon-contrast-primary);
               --usk-icon-secondary: var(--usk-icon-contrast-secondary);
@@ -462,9 +556,10 @@ export class UiStyleIconElement extends HTMLElementBase {
             }
             svg {
               /*
-               * Standalone pack styles may define their own intrinsic size.
-               * The component viewport remains authoritative when the SVG is embedded.
+               * Authored SVG roots declare standalone fallback tokens and sizes.
+               * The component bridge remains authoritative when artwork is embedded.
                */
+              ${svgTokenBridge}
               inline-size: 100% !important;
               block-size: 100% !important;
               display: block;
@@ -556,8 +651,14 @@ defineUiStyleIcon();
 
 export {
   aliases,
+  contractVersion,
   coreIconIds,
+  packageName,
+  packageVersion,
+  packCount,
   packs,
   packRegistry,
-  styleAliases
+  requiredIconCount,
+  styleAliases,
+  uiStyleKitCssCompatibility
 };

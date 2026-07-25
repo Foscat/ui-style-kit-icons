@@ -1,6 +1,6 @@
 {
   "name": "brutalism-ui-style-icons",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "Theme-aware brutalist SVG icon pack for ui-style-kit-css and layout-style-css projects.",
   "files": [
     "dist",

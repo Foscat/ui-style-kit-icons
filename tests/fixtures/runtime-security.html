@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Runtime sanitizer fixture</title>
+  </head>
+  <body>
+    <main id="fixtureRoot"></main>
+    <script type="module">
+      import {
+        setAssetBaseUrl
+      } from "../../dist/ui-style-kit-icons.js";
+
+      setAssetBaseUrl(new URL("./malicious/", import.meta.url));
+
+      const icon = document.createElement("usk-icon");
+      icon.setAttribute("name", "home");
+      icon.setAttribute("label", "Sanitizer test");
+      icon.addEventListener(
+        "usk-icon-load",
+        () => {
+          document.body.dataset.ready = "true";
+        },
+        { once: true }
+      );
+      icon.addEventListener(
+        "usk-icon-error",
+        () => {
+          document.body.dataset.ready = "error";
+        },
+        { once: true }
+      );
+      document.querySelector("#fixtureRoot").append(icon);
+    </script>
+  </body>
+</html>

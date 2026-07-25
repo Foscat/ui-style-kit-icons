@@ -6,6 +6,7 @@ import { tmpdir } from "node:os";
 import { extname, join, normalize, relative } from "node:path";
 import { fileURLToPath } from "node:url";
 import { chromium, firefox, webkit } from "playwright";
+import { installDemoDependencyRoutes } from "../scripts/route-demo-dependencies.mjs";
 
 const root = fileURLToPath(new URL("..", import.meta.url));
 const siteRoot = join(root, "output", "github-pages");
@@ -70,6 +71,7 @@ const browser = await browsers[browserName].launch({ headless: true });
 
 try {
   const page = await browser.newPage({ viewport: { width: 1440, height: 1000 } });
+  await installDemoDependencyRoutes(page);
   await page.goto(`http://127.0.0.1:${address.port}/`, {
     waitUntil: "networkidle"
   });
@@ -80,6 +82,10 @@ try {
 
   assert.equal(await page.locator(".icon-card").count(), 64);
   assert.equal(await page.locator("body").getAttribute("data-icon-pack"), "minimal-saas");
+  await page.screenshot({
+    path: join(screenshotDir, `${browserName}-desktop-gallery.png`),
+    fullPage: false
+  });
 
   await page.selectOption("#packSelect", "cyberpunk");
   await page.waitForFunction(
@@ -123,6 +129,42 @@ try {
       path: join(screenshotDir, `${browserName}-mobile.png`),
       fullPage: true
     });
+
+    await page.locator(".icon-card").first().click();
+    await page.waitForFunction(
+      () => document.querySelector("#iconDialog")?.open === true
+    );
+    const dialogMetrics = await page.locator("#iconDialog").evaluate((dialog) => {
+      const rect = dialog.getBoundingClientRect();
+
+      return {
+        left: rect.left,
+        right: rect.right,
+        top: rect.top,
+        bottom: rect.bottom,
+        viewportWidth: document.documentElement.clientWidth,
+        viewportHeight: document.documentElement.clientHeight
+      };
+    });
+
+    assert.ok(dialogMetrics.left >= 8, `mobile dialog left edge: ${dialogMetrics.left}px`);
+    assert.ok(
+      dialogMetrics.right <= dialogMetrics.viewportWidth - 8,
+      `mobile dialog right edge: ${dialogMetrics.right}px`
+    );
+    assert.ok(dialogMetrics.top >= 8, `mobile dialog top edge: ${dialogMetrics.top}px`);
+    assert.ok(
+      dialogMetrics.bottom <= dialogMetrics.viewportHeight - 8,
+      `mobile dialog bottom edge: ${dialogMetrics.bottom}px`
+    );
+    await page.screenshot({
+      path: join(screenshotDir, `${browserName}-mobile-dialog.png`),
+      fullPage: false
+    });
+    await page.keyboard.press("Escape");
+    await page.waitForFunction(
+      () => document.querySelector("#iconDialog")?.open === false
+    );
   }
 } finally {
   await browser.close();

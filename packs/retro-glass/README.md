@@ -2,7 +2,7 @@
 
 Theme-aware SVG icon pack aligned to the UI Style Kit icon contract.
 
-- Contract version: `0.1.0`
+- Contract version: `1.0.0`
 - Required core icons: `64`
 - Included icons: `73`
 - Optional extras: `9`

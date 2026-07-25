@@ -24,6 +24,7 @@ const checkedExtensions = new Set([
   ".json",
   ".md",
   ".mjs",
+  ".ts",
   ".txt",
   ".webmanifest",
   ".xml"

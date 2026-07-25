@@ -32,6 +32,8 @@ const safeViewBoxIconIds = new Set([
 ]);
 
 test("registry publishes the complete shared contract", () => {
+  assert.equal(registry.name, packageJson.name);
+  assert.equal(registry.version, packageJson.version);
   assert.equal(registry.contractVersion, contract.schemaVersion);
   assert.equal(registry.requiredIconCount, 64);
   assert.equal(registry.packCount, 12);
@@ -299,11 +301,25 @@ test("style aliases provide deterministic fallbacks", () => {
   assert.equal(registry.styleAliases.retrofuturism, "synthwave");
   assert.equal(registry.styleAliases.bauhaus, "system");
   assert.equal(registry.styleAliases.skeuomorphic, "tactile");
+  assert.deepEqual(registry.uiStyleKitCssCompatibility.modes, [
+    "light",
+    "dark",
+    "contrast"
+  ]);
+  assert.equal(
+    registry.uiStyleKitCssCompatibility.versionRange,
+    packageJson.peerDependencies["ui-style-kit-css"]
+  );
 });
 
 test("runtime resolves self-hosted asset bases", async () => {
   const runtime = await import("../dist/ui-style-kit-icons.js");
 
+  assert.equal(runtime.packageName, packageJson.name);
+  assert.equal(runtime.packageVersion, packageJson.version);
+  assert.equal(runtime.contractVersion, contract.schemaVersion);
+  assert.equal(runtime.requiredIconCount, contract.requiredIconCount);
+  assert.equal(runtime.packCount, registry.packCount);
   assert.equal(
     runtime.setAssetBaseUrl("https://static.example.com/ui-style-kit-icons"),
     "https://static.example.com/ui-style-kit-icons/"

@@ -10,6 +10,7 @@ const host = process.env.HOST ?? "127.0.0.1";
 const mimeTypes = new Map([
   [".css", "text/css; charset=utf-8"],
   [".html", "text/html; charset=utf-8"],
+  [".ico", "image/x-icon"],
   [".js", "text/javascript; charset=utf-8"],
   [".json", "application/json; charset=utf-8"],
   [".md", "text/markdown; charset=utf-8"],
@@ -21,7 +22,16 @@ const mimeTypes = new Map([
 ]);
 
 function fileForRequest(url) {
-  const requestedPath = decodeURIComponent(new URL(url, `http://${host}:${port}`).pathname);
+  let requestedPath;
+
+  try {
+    requestedPath = decodeURIComponent(
+      new URL(url, `http://${host}:${port}`).pathname
+    );
+  } catch {
+    return null;
+  }
+
   const normalizedPath = path.normalize(requestedPath).replace(/^([/\\])+/, "");
   const filePath = path.join(root, normalizedPath || "index.html");
   const resolvedPath = path.resolve(filePath);

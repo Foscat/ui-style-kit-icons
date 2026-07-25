@@ -4,10 +4,12 @@ import { once } from "node:events";
 import path from "node:path";
 import { pathToFileURL } from "node:url";
 import { chromium } from "playwright";
+import { findOpenPort } from "./find-open-port.mjs";
+import { installDemoDependencyRoutes } from "./route-demo-dependencies.mjs";
 
 const root = process.cwd();
-const port = Number(process.env.PORT ?? 4173);
 const host = process.env.HOST ?? "127.0.0.1";
+const port = Number(process.env.PORT ?? (await findOpenPort(host)));
 const baseUrl = `http://${host}:${port}/`;
 const lightThemes = [
   "midnight-gold",
@@ -50,6 +52,8 @@ const browser = await chromium.launch({ headless: true });
 try {
   const desktop = await browser.newPage({ viewport: { width: 1440, height: 1000 } });
   const desktopEvents = [];
+
+  await installDemoDependencyRoutes(desktop);
   desktop.on("console", (message) => {
     if (["error", "warning"].includes(message.type())) {
       desktopEvents.push(`${message.type()}: ${message.text()}`);
@@ -61,6 +65,19 @@ try {
   await desktop.waitForFunction(() =>
     Boolean(document.querySelector('#packSelect option[value="synthwave"]'))
   );
+  const faviconResponse = await desktop.request.get(
+    `${baseUrl}assets/favicon.ico`
+  );
+
+  if (
+    faviconResponse.status() !== 200 ||
+    faviconResponse.headers()["content-type"] !== "image/x-icon"
+  ) {
+    throw new Error(
+      `Unexpected favicon response: ${faviconResponse.status()} ${faviconResponse.headers()["content-type"]}`
+    );
+  }
+
   await desktop.selectOption("#packSelect", "synthwave");
   await desktop.locator("#extrasToggle").check();
   await desktop.selectOption("#themeSelect", "cyber-lime");
@@ -128,6 +145,7 @@ try {
   }
 
   const mobile = await browser.newPage({ viewport: { width: 390, height: 844 } });
+  await installDemoDependencyRoutes(mobile);
   await mobile.goto(baseUrl, { waitUntil: "domcontentloaded" });
   await mobile.waitForFunction(() =>
     Boolean(document.querySelector('#packSelect option[value="minimal-saas"]'))
@@ -152,11 +170,149 @@ try {
     throw new Error("Direct file load did not show the server-required notice.");
   }
 
+  await assertRuntimeSanitizer(browser, baseUrl);
+  await assertRuntimeRetry(browser, baseUrl);
+
   console.log("Demo smoke check passed.");
 } finally {
   await browser.close();
   server.kill();
   await once(server, "exit").catch(() => {});
+}
+
+async function assertRuntimeRetry(browser, url) {
+  const page = await browser.newPage({ viewport: { width: 800, height: 600 } });
+  const iconUrl = `${url}tests/fixtures/retry/icons/home.svg`;
+  let attempts = 0;
+
+  await page.route(iconUrl, async (route) => {
+    attempts += 1;
+
+    if (attempts === 1) {
+      await route.fulfill({
+        status: 503,
+        contentType: "text/plain",
+        body: "Temporary failure"
+      });
+      return;
+    }
+
+    await route.fulfill({
+      status: 200,
+      contentType: "image/svg+xml",
+      path: path.join(root, "icons", "home.svg")
+    });
+  });
+  await page.goto(`${url}tests/fixtures/runtime-retry.html`, {
+    waitUntil: "domcontentloaded"
+  });
+  await page.waitForFunction(() => document.body.dataset.errors === "1");
+  await page.evaluate(() => document.querySelector("usk-icon")?.refresh());
+  await page.waitForFunction(() => document.body.dataset.ready === "true");
+
+  const state = await page.evaluate(() => ({
+    errors: document.body.dataset.errors,
+    hasSvg: Boolean(
+      document.querySelector("usk-icon")?.shadowRoot?.querySelector("svg")
+    )
+  }));
+
+  await page.close();
+
+  if (attempts !== 2 || state.errors !== "1" || !state.hasSvg) {
+    throw new Error(
+      `Runtime retry regression: ${JSON.stringify({ attempts, state })}`
+    );
+  }
+}
+
+async function assertRuntimeSanitizer(browser, url) {
+  const page = await browser.newPage({ viewport: { width: 800, height: 600 } });
+  const externalRequests = [];
+  const browserEvents = [];
+
+  page.on("request", (request) => {
+    if (request.url().includes("example.invalid")) {
+      externalRequests.push(request.url());
+    }
+  });
+  page.on("console", (message) => {
+    if (["error", "warning"].includes(message.type())) {
+      browserEvents.push(`${message.type()}: ${message.text()}`);
+    }
+  });
+  page.on("pageerror", (error) => {
+    browserEvents.push(`pageerror: ${error.message}`);
+  });
+
+  await page.goto(`${url}tests/fixtures/runtime-security.html`, {
+    waitUntil: "networkidle"
+  });
+  await page.waitForFunction(() =>
+    ["true", "error"].includes(document.body.dataset.ready)
+  );
+
+  const state = await page.evaluate(() => {
+    const icon = document.querySelector("usk-icon");
+    const svg = icon?.shadowRoot?.querySelector("svg");
+
+    if (!svg) {
+      return { ready: document.body.dataset.ready, missingSvg: true };
+    }
+
+    const nodes = [svg, ...svg.querySelectorAll("*")];
+    const attributes = nodes.flatMap((node) => [...node.attributes]);
+
+    return {
+      ready: document.body.dataset.ready,
+      blockedElements: svg.querySelectorAll(
+        "a, animate, animateMotion, animateTransform, audio, discard, embed, foreignObject, iframe, image, object, script, set, source, track, video"
+      ).length,
+      eventAttributes: attributes.filter(({ name }) =>
+        name.toLowerCase().startsWith("on")
+      ).length,
+      unsafeReferences: attributes.filter(
+        ({ name, value }) =>
+          !name.toLowerCase().startsWith("xmlns") &&
+          /(?:https?:|javascript:|data:)/iu.test(value)
+      ).length,
+      unsafeStyleSheets: svg.querySelectorAll("#unsafe-style-sheet").length,
+      internalHref: svg.querySelector("#safe-use")?.getAttribute("href"),
+      safeShape: Boolean(svg.querySelector("#safe-shape")),
+      unsafeGlobals: [
+        "__unsafeRoot",
+        "__unsafeScript",
+        "__unsafeForeignObject",
+        "__unsafeLink",
+        "__unsafeAnimation",
+        "__unsafeEvent"
+      ].filter((name) => Boolean(globalThis[name]))
+    };
+  });
+
+  await page.close();
+
+  if (
+    state.ready !== "true" ||
+    state.missingSvg ||
+    state.blockedElements !== 0 ||
+    state.eventAttributes !== 0 ||
+    state.unsafeReferences !== 0 ||
+    state.unsafeStyleSheets !== 0 ||
+    state.internalHref !== "#safe-shape" ||
+    !state.safeShape ||
+    state.unsafeGlobals.length > 0 ||
+    externalRequests.length > 0 ||
+    browserEvents.length > 0
+  ) {
+    throw new Error(
+      `Runtime sanitizer regression: ${JSON.stringify({
+        state,
+        externalRequests,
+        browserEvents
+      })}`
+    );
+  }
 }
 
 async function assertLightThemeContrast(page, url) {

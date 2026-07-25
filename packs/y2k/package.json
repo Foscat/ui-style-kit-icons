@@ -1,6 +1,6 @@
 {
   "name": "y2k-ui-style-icons",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "Theme-aware Y2K SVG icon pack for ui-style-kit-css and layout-style-css projects.",
   "files": [
     "dist",

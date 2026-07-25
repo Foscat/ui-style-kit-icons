@@ -1,6 +1,6 @@
 {
   "name": "webapp-synthwave-icon-pack",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "Synthwave Web App SVG icon pack aligned to the UI Style Kit icon contract.",
   "files": [
     "dist",

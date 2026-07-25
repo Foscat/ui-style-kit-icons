@@ -1,5 +1,7 @@
 # UI Style Kit Icon Standard
 
+Contract version: `1.0.0`
+
 This standard separates **semantic implementation icons** from **style-expression extras**.
 
 The goal: when a project changes `data-ui`, the icon ID stays the same and only the visual language changes.

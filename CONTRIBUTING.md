@@ -5,8 +5,7 @@ This package is a public icon library for the UI Style Kit CSS ecosystem. Keep c
 Before opening a pull request, run:
 
 ```sh
-npm run verify
-npm run check:demo
+npm run release:verify
 npm pack --dry-run --json
 ```
 
