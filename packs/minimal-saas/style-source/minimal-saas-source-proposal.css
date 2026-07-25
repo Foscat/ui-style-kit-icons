@@ -1,0 +1,15 @@
+/* Minimal SaaS icon/source proposal */
+
+[data-ui="minimal-saas"][data-theme][data-mode] {
+  --saas-icon-surface-alpha: .96;
+  --saas-icon-border-alpha: .58;
+  --saas-icon-shadow-alpha: calc(var(--saas-shadow-alpha, .12) * .62);
+  --saas-icon-radius: var(--saas-radius-lg);
+}
+
+.saas-icon-surface {
+  border: 1px solid rgb(var(--saas-border-rgb) / var(--saas-icon-border-alpha));
+  border-radius: var(--saas-icon-radius);
+  background: rgb(var(--saas-surface-rgb) / var(--saas-icon-surface-alpha));
+  box-shadow: 0 8px 22px rgb(15 23 42 / var(--saas-icon-shadow-alpha));
+}

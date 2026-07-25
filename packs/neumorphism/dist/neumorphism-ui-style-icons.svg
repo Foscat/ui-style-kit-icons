@@ -1,0 +1,470 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+<style>
+.neo-i-bg{fill:var(--neo-icon-bg,rgb(var(--usk-surface-rgb,232 238 245)/.96))}
+.neo-i-bg-strong{fill:var(--neo-icon-bg-strong,rgb(var(--usk-surface-strong-rgb,255 255 255)/.72))}
+.neo-i-bg-soft{fill:var(--neo-icon-bg-soft,rgb(var(--usk-surface-soft-rgb,213 222 235)/.78))}
+.neo-i-primary{fill:var(--neo-icon-primary-soft,rgb(var(--usk-primary-rgb,64 104 185)/.12));stroke:var(--neo-icon-primary,rgb(var(--usk-primary-rgb,64 104 185)))}
+.neo-i-secondary{fill:var(--neo-icon-secondary-soft,rgb(var(--usk-secondary-rgb,99 114 135)/.1));stroke:var(--neo-icon-secondary,rgb(var(--usk-secondary-rgb,99 114 135)))}
+.neo-i-accent{fill:var(--neo-icon-accent-soft,rgb(var(--usk-accent-rgb,194 141 72)/.14));stroke:var(--neo-icon-accent,rgb(var(--usk-accent-rgb,194 141 72)))}
+.neo-i-success{fill:rgb(var(--usk-success-rgb,42 153 98)/.12);stroke:var(--neo-icon-success,rgb(var(--usk-success-rgb,42 153 98)))}
+.neo-i-warning{fill:rgb(var(--usk-warning-rgb,190 126 39)/.14);stroke:var(--neo-icon-warning,rgb(var(--usk-warning-rgb,190 126 39)))}
+.neo-i-danger{fill:rgb(var(--usk-danger-rgb,203 72 80)/.13);stroke:var(--neo-icon-danger,rgb(var(--usk-danger-rgb,203 72 80)))}
+.neo-i-line{fill:none;stroke:var(--neo-icon-primary,rgb(var(--usk-primary-rgb,64 104 185)));stroke-width:5.7;stroke-linecap:round;stroke-linejoin:round}
+.neo-i-line-2{fill:none;stroke:var(--neo-icon-secondary,rgb(var(--usk-secondary-rgb,99 114 135)));stroke-width:4.1;stroke-linecap:round;stroke-linejoin:round}
+.neo-i-line-3{fill:none;stroke:var(--neo-icon-accent,rgb(var(--usk-accent-rgb,194 141 72)));stroke-width:3.3;stroke-linecap:round;stroke-linejoin:round}
+.neo-i-muted{fill:none;stroke:var(--neo-icon-muted,rgb(var(--usk-text-muted-rgb,99 114 135)));stroke-width:2.6;stroke-linecap:round;stroke-linejoin:round}
+.neo-i-fill-muted{fill:var(--neo-icon-muted,rgb(var(--usk-text-muted-rgb,99 114 135)));stroke:none}
+.neo-i-surface{fill:var(--neo-icon-bg,rgb(var(--usk-surface-rgb,232 238 245)/.96));stroke:var(--neo-icon-border,rgb(var(--usk-border-rgb,113 128 150)/.28));stroke-width:3}
+.neo-i-shadow-dark{fill:var(--neo-icon-nm-dark,rgb(var(--usk-border-rgb,113 128 150)/.24));stroke:none}
+.neo-i-shadow-light{fill:var(--neo-icon-nm-light,rgb(var(--usk-surface-strong-rgb,255 255 255)/.74));stroke:none}
+.neo-i-highlight{fill:none;stroke:var(--neo-icon-nm-light,rgb(var(--usk-surface-strong-rgb,255 255 255)/.74));stroke-width:4;stroke-linecap:round}
+.neo-i-lowlight{fill:none;stroke:var(--neo-icon-nm-dark,rgb(var(--usk-border-rgb,113 128 150)/.24));stroke-width:4;stroke-linecap:round}
+.neo-i-inset{fill:var(--neo-icon-bg-soft,rgb(var(--usk-surface-soft-rgb,213 222 235)/.78));stroke:var(--neo-icon-inset-dark,rgb(var(--usk-border-rgb,113 128 150)/.2));stroke-width:3}
+.neo-i-glow{filter:none}
+[data-icon-frame]{opacity:var(--usk-icon-frame-opacity,1)}
+[data-icon-frame="decor"]{opacity:var(--usk-icon-frame-decor-opacity,var(--usk-icon-frame-opacity,1))}
+[data-icon-glyph="play"]{fill:var(--usk-icon-play,var(--usk-icon-foreground,rgb(var(--usk-text-rgb,255 255 255))));stroke:none;opacity:1}
+/* UI Style Kit Icons: generated sprite contrast guard */
+.neo-i-line{stroke:var(--neo-icon-primary,rgb(var(--usk-primary-rgb,37 99 235)));stroke:color-mix(in srgb,var(--neo-icon-primary,rgb(var(--usk-primary-rgb,37 99 235))) 58%,rgb(var(--usk-text-rgb,15 23 42)) 42%)}
+.neo-i-line-2{stroke:var(--neo-icon-secondary,rgb(var(--usk-secondary-rgb,100 116 139)));stroke:color-mix(in srgb,var(--neo-icon-secondary,rgb(var(--usk-secondary-rgb,100 116 139))) 52%,rgb(var(--usk-text-rgb,15 23 42)) 48%)}
+.neo-i-line-3{stroke:var(--neo-icon-accent,rgb(var(--usk-accent-rgb,14 165 233)));stroke:color-mix(in srgb,var(--neo-icon-accent,rgb(var(--usk-accent-rgb,14 165 233))) 52%,rgb(var(--usk-text-rgb,15 23 42)) 48%)}
+.neo-i-primary{stroke:var(--neo-icon-primary,rgb(var(--usk-primary-rgb,37 99 235)));stroke:color-mix(in srgb,var(--neo-icon-primary,rgb(var(--usk-primary-rgb,37 99 235))) 58%,rgb(var(--usk-text-rgb,15 23 42)) 42%);stroke-width:var(--usk-icon-fill-keyline-width,3.5);stroke-linejoin:round}
+.neo-i-secondary{stroke:var(--neo-icon-secondary,rgb(var(--usk-secondary-rgb,100 116 139)));stroke:color-mix(in srgb,var(--neo-icon-secondary,rgb(var(--usk-secondary-rgb,100 116 139))) 52%,rgb(var(--usk-text-rgb,15 23 42)) 48%);stroke-width:var(--usk-icon-fill-keyline-width,3.5);stroke-linejoin:round}
+.neo-i-accent{stroke:var(--neo-icon-accent,rgb(var(--usk-accent-rgb,14 165 233)));stroke:color-mix(in srgb,var(--neo-icon-accent,rgb(var(--usk-accent-rgb,14 165 233))) 52%,rgb(var(--usk-text-rgb,15 23 42)) 48%);stroke-width:var(--usk-icon-fill-keyline-width,3.5);stroke-linejoin:round}
+.neo-i-success{stroke:var(--neo-icon-success,rgb(var(--usk-success-rgb,22 163 74)));stroke:color-mix(in srgb,var(--neo-icon-success,rgb(var(--usk-success-rgb,22 163 74))) 52%,rgb(var(--usk-text-rgb,15 23 42)) 48%);stroke-width:var(--usk-icon-fill-keyline-width,3.5);stroke-linejoin:round}
+.neo-i-warning{stroke:var(--neo-icon-warning,rgb(var(--usk-warning-rgb,202 138 4)));stroke:color-mix(in srgb,var(--neo-icon-warning,rgb(var(--usk-warning-rgb,202 138 4))) 52%,rgb(var(--usk-text-rgb,15 23 42)) 48%);stroke-width:var(--usk-icon-fill-keyline-width,3.5);stroke-linejoin:round}
+.neo-i-danger{stroke:var(--neo-icon-danger,rgb(var(--usk-danger-rgb,220 38 38)));stroke:color-mix(in srgb,var(--neo-icon-danger,rgb(var(--usk-danger-rgb,220 38 38))) 52%,rgb(var(--usk-text-rgb,15 23 42)) 48%);stroke-width:var(--usk-icon-fill-keyline-width,3.5);stroke-linejoin:round}
+.neo-i-muted{stroke:var(--neo-icon-muted,rgb(var(--usk-text-muted-rgb,100 116 139)));stroke:color-mix(in srgb,var(--neo-icon-muted,rgb(var(--usk-text-muted-rgb,100 116 139))) 38%,rgb(var(--usk-text-rgb,15 23 42)) 62%)}
+.neo-i-bg-strong{stroke:var(--neo-icon-border,rgb(var(--usk-border-rgb,100 116 139)));stroke:color-mix(in srgb,var(--neo-icon-border,rgb(var(--usk-border-rgb,100 116 139))) 28%,rgb(var(--usk-text-rgb,15 23 42)) 72%);stroke-width:var(--usk-icon-keyline-width,3.5);stroke-linejoin:round}
+</style>
+<defs>
+<symbol id="neo-icon-home" viewBox="0 0 256 256">
+  <title>Home</title>
+  <rect data-icon-frame="decor" class="neo-i-shadow-light" x="17" y="17" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-shadow-dark" x="38" y="38" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-surface" x="28" y="28" width="200" height="200" rx="42"/><path data-icon-frame="decor" class="neo-i-highlight" d="M56 50H166M50 58V132" opacity=".76"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M90 210H194M210 92V174" opacity=".68"/>
+    <path data-icon-frame="decor" class="neo-i-inset" d="M50 72H94M162 72H206" opacity=".68"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M54 188H100M156 188H202" opacity=".48"/>
+    <path data-icon-frame="decor" class="neo-i-highlight" d="M66 214H116M146 214H188" opacity=".44"/>
+    <path class="neo-i-line neo-i-glow" d="M66 130L128 76L190 130"/><path class="neo-i-bg-strong" stroke="var(--neo-icon-secondary,rgb(var(--usk-secondary-rgb,111 134 184)))" stroke-width="6" d="M84 126V188H172V126Z"/><path class="neo-i-line-3" d="M115 188V150H141V188"/>
+</symbol>
+<symbol id="neo-icon-dashboard" viewBox="0 0 256 256">
+  <title>Dashboard</title>
+  <rect data-icon-frame="decor" class="neo-i-shadow-light" x="17" y="17" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-shadow-dark" x="38" y="38" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-surface" x="28" y="28" width="200" height="200" rx="42"/><path data-icon-frame="decor" class="neo-i-highlight" d="M56 50H166M50 58V132" opacity=".76"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M90 210H194M210 92V174" opacity=".68"/>
+    <path data-icon-frame="decor" class="neo-i-inset" d="M50 72H94M162 72H206" opacity=".68"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M54 188H100M156 188H202" opacity=".48"/>
+    <path data-icon-frame="decor" class="neo-i-highlight" d="M66 214H116M146 214H188" opacity=".44"/>
+    <rect class="neo-i-bg-strong" x="62" y="78" width="132" height="104" rx="18"/><path class="neo-i-line neo-i-glow" d="M84 148A44 44 0 0 1 172 148"/><path class="neo-i-line-3" d="M128 148L158 120"/><path class="neo-i-muted" d="M86 174H118M138 174H170"/>
+</symbol>
+<symbol id="neo-icon-browser" viewBox="-8 -8 272 272">
+  <title>Browser</title>
+  <rect data-icon-frame="decor" class="neo-i-shadow-light" x="17" y="17" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-shadow-dark" x="38" y="38" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-surface" x="28" y="28" width="200" height="200" rx="42"/><path data-icon-frame="decor" class="neo-i-highlight" d="M56 50H166M50 58V132" opacity=".76"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M90 210H194M210 92V174" opacity=".68"/><path data-icon-frame="decor" class="neo-i-inset" d="M50 72H94M162 72H206" opacity=".68"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M54 188H100M156 188H202" opacity=".48"/><path data-icon-frame="decor" class="neo-i-highlight" d="M66 214H116M146 214H188" opacity=".44"/>
+    <rect class="neo-i-bg-strong" x="56" y="74" width="144" height="112" rx="18"/><path class="neo-i-line" d="M56 106H200"/><circle class="neo-i-danger" cx="80" cy="90" r="6"/><circle class="neo-i-warning" cx="100" cy="90" r="6"/><circle class="neo-i-success" cx="120" cy="90" r="6"/><path class="neo-i-muted" d="M84 132H172M84 158H142"/>
+</symbol>
+<symbol id="neo-icon-search" viewBox="0 0 256 256">
+  <title>Search</title>
+  <rect data-icon-frame="decor" class="neo-i-shadow-light" x="17" y="17" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-shadow-dark" x="38" y="38" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-surface" x="28" y="28" width="200" height="200" rx="42"/><path data-icon-frame="decor" class="neo-i-highlight" d="M56 50H166M50 58V132" opacity=".76"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M90 210H194M210 92V174" opacity=".68"/>
+    <path data-icon-frame="decor" class="neo-i-inset" d="M50 72H94M162 72H206" opacity=".68"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M54 188H100M156 188H202" opacity=".48"/>
+    <path data-icon-frame="decor" class="neo-i-highlight" d="M66 214H116M146 214H188" opacity=".44"/>
+    <circle class="neo-i-line neo-i-glow" cx="112" cy="112" r="41"/><path class="neo-i-line-2" d="M145 145L194 194"/><path class="neo-i-muted" d="M90 108H132M94 126H118"/>
+</symbol>
+<symbol id="neo-icon-user" viewBox="0 0 256 256">
+  <title>User</title>
+  <rect data-icon-frame="decor" class="neo-i-shadow-light" x="17" y="17" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-shadow-dark" x="38" y="38" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-surface" x="28" y="28" width="200" height="200" rx="42"/><path data-icon-frame="decor" class="neo-i-highlight" d="M56 50H166M50 58V132" opacity=".76"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M90 210H194M210 92V174" opacity=".68"/>
+    <path data-icon-frame="decor" class="neo-i-inset" d="M50 72H94M162 72H206" opacity=".68"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M54 188H100M156 188H202" opacity=".48"/>
+    <path data-icon-frame="decor" class="neo-i-highlight" d="M66 214H116M146 214H188" opacity=".44"/>
+    <circle class="neo-i-bg-strong" cx="128" cy="92" r="32"/><circle class="neo-i-line neo-i-glow" cx="128" cy="92" r="32"/><path class="neo-i-line-2" d="M72 190C81 154 103 136 128 136C153 136 175 154 184 190"/><path class="neo-i-line-3" d="M108 92H148"/>
+</symbol>
+<symbol id="neo-icon-users" viewBox="-8 -8 272 272">
+  <title>Users</title>
+  <rect data-icon-frame="decor" class="neo-i-shadow-light" x="17" y="17" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-shadow-dark" x="38" y="38" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-surface" x="28" y="28" width="200" height="200" rx="42"/><path data-icon-frame="decor" class="neo-i-highlight" d="M56 50H166M50 58V132" opacity=".76"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M90 210H194M210 92V174" opacity=".68"/>
+    <path data-icon-frame="decor" class="neo-i-inset" d="M50 72H94M162 72H206" opacity=".68"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M54 188H100M156 188H202" opacity=".48"/>
+    <path data-icon-frame="decor" class="neo-i-highlight" d="M66 214H116M146 214H188" opacity=".44"/>
+    <circle class="neo-i-line-2" cx="96" cy="104" r="24"/><circle class="neo-i-line-2" cx="160" cy="104" r="24"/><circle class="neo-i-line neo-i-glow" cx="128" cy="86" r="30"/><path class="neo-i-line-2" d="M58 190C65 158 86 140 110 140M198 190C191 158 170 140 146 140M78 198C86 160 105 140 128 140C151 140 170 160 178 198"/>
+</symbol>
+<symbol id="neo-icon-settings" viewBox="0 0 256 256">
+  <title>Settings</title>
+  <rect data-icon-frame="decor" class="neo-i-shadow-light" x="17" y="17" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-shadow-dark" x="38" y="38" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-surface" x="28" y="28" width="200" height="200" rx="42"/><path data-icon-frame="decor" class="neo-i-highlight" d="M56 50H166M50 58V132" opacity=".76"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M90 210H194M210 92V174" opacity=".68"/>
+    <path data-icon-frame="decor" class="neo-i-inset" d="M50 72H94M162 72H206" opacity=".68"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M54 188H100M156 188H202" opacity=".48"/>
+    <path data-icon-frame="decor" class="neo-i-highlight" d="M66 214H116M146 214H188" opacity=".44"/>
+    <path class="neo-i-bg-strong" stroke="var(--neo-icon-primary,rgb(var(--usk-primary-rgb,214 168 79)))" stroke-width="6" d="M128 58L143 78L168 73L176 98L199 111L189 135L199 158L176 171L168 196L143 191L128 211L113 191L88 196L80 171L57 158L67 135L57 111L80 98L88 73L113 78Z"/><circle class="neo-i-line-2 neo-i-glow" cx="128" cy="135" r="30"/><path class="neo-i-line-3" d="M128 105V116M128 154V165M98 135H109M147 135H158"/>
+</symbol>
+<symbol id="neo-icon-bell" viewBox="0 0 256 256">
+  <title>Notifications</title>
+  <rect data-icon-frame="decor" class="neo-i-shadow-light" x="17" y="17" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-shadow-dark" x="38" y="38" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-surface" x="28" y="28" width="200" height="200" rx="42"/><path data-icon-frame="decor" class="neo-i-highlight" d="M56 50H166M50 58V132" opacity=".76"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M90 210H194M210 92V174" opacity=".68"/>
+    <path data-icon-frame="decor" class="neo-i-inset" d="M50 72H94M162 72H206" opacity=".68"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M54 188H100M156 188H202" opacity=".48"/>
+    <path data-icon-frame="decor" class="neo-i-highlight" d="M66 214H116M146 214H188" opacity=".44"/>
+    <path class="neo-i-bg-strong" stroke="var(--neo-icon-primary,rgb(var(--usk-primary-rgb,214 168 79)))" stroke-width="6" d="M84 151V116C84 89 102 70 128 70C154 70 172 89 172 116V151L189 178H67Z"/><path class="neo-i-line-3" d="M112 190C119 202 137 202 144 190"/><circle class="neo-i-danger" cx="176" cy="76" r="16"/>
+</symbol>
+<symbol id="neo-icon-message" viewBox="0 0 256 256">
+  <title>Message</title>
+  <rect data-icon-frame="decor" class="neo-i-shadow-light" x="17" y="17" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-shadow-dark" x="38" y="38" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-surface" x="28" y="28" width="200" height="200" rx="42"/><path data-icon-frame="decor" class="neo-i-highlight" d="M56 50H166M50 58V132" opacity=".76"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M90 210H194M210 92V174" opacity=".68"/>
+    <path data-icon-frame="decor" class="neo-i-inset" d="M50 72H94M162 72H206" opacity=".68"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M54 188H100M156 188H202" opacity=".48"/>
+    <path data-icon-frame="decor" class="neo-i-highlight" d="M66 214H116M146 214H188" opacity=".44"/>
+    <path class="neo-i-bg-strong" stroke="var(--neo-icon-primary,rgb(var(--usk-primary-rgb,214 168 79)))" stroke-width="6" d="M58 80H198V160H132L96 194V160H58Z"/><path class="neo-i-muted" d="M84 108H172M84 132H148"/><path class="neo-i-line-3" d="M164 132H182"/>
+</symbol>
+<symbol id="neo-icon-mail" viewBox="-8 -8 272 272">
+  <title>Email</title>
+  <rect data-icon-frame="decor" class="neo-i-shadow-light" x="17" y="17" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-shadow-dark" x="38" y="38" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-surface" x="28" y="28" width="200" height="200" rx="42"/><path data-icon-frame="decor" class="neo-i-highlight" d="M56 50H166M50 58V132" opacity=".76"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M90 210H194M210 92V174" opacity=".68"/>
+    <path data-icon-frame="decor" class="neo-i-inset" d="M50 72H94M162 72H206" opacity=".68"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M54 188H100M156 188H202" opacity=".48"/>
+    <path data-icon-frame="decor" class="neo-i-highlight" d="M66 214H116M146 214H188" opacity=".44"/>
+    <rect class="neo-i-bg-strong" x="56" y="86" width="144" height="96" rx="16"/><path class="neo-i-line neo-i-glow" d="M64 102L128 143L192 102"/><path class="neo-i-line-2" d="M64 177L110 138M192 177L146 138"/>
+</symbol>
+<symbol id="neo-icon-calendar" viewBox="-8 -8 272 272">
+  <title>Calendar</title>
+  <rect data-icon-frame="decor" class="neo-i-shadow-light" x="17" y="17" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-shadow-dark" x="38" y="38" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-surface" x="28" y="28" width="200" height="200" rx="42"/><path data-icon-frame="decor" class="neo-i-highlight" d="M56 50H166M50 58V132" opacity=".76"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M90 210H194M210 92V174" opacity=".68"/>
+    <path data-icon-frame="decor" class="neo-i-inset" d="M50 72H94M162 72H206" opacity=".68"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M54 188H100M156 188H202" opacity=".48"/>
+    <path data-icon-frame="decor" class="neo-i-highlight" d="M66 214H116M146 214H188" opacity=".44"/>
+    <rect class="neo-i-bg-strong" x="60" y="76" width="136" height="122" rx="16"/><path class="neo-i-line neo-i-glow" d="M90 60V94M166 60V94M64 112H192"/><path class="neo-i-line-3" d="M90 140H106M124 140H140M158 140H174M90 166H106M124 166H140"/>
+</symbol>
+<symbol id="neo-icon-upload" viewBox="0 0 256 256">
+  <title>Upload</title>
+  <rect data-icon-frame="decor" class="neo-i-shadow-light" x="17" y="17" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-shadow-dark" x="38" y="38" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-surface" x="28" y="28" width="200" height="200" rx="42"/><path data-icon-frame="decor" class="neo-i-highlight" d="M56 50H166M50 58V132" opacity=".76"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M90 210H194M210 92V174" opacity=".68"/>
+    <path data-icon-frame="decor" class="neo-i-inset" d="M50 72H94M162 72H206" opacity=".68"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M54 188H100M156 188H202" opacity=".48"/>
+    <path data-icon-frame="decor" class="neo-i-highlight" d="M66 214H116M146 214H188" opacity=".44"/>
+    <path class="neo-i-line neo-i-glow" d="M128 68V158M92 104L128 68L164 104"/><path class="neo-i-line-2" d="M72 152V194H184V152"/><path class="neo-i-line-3" d="M98 194H158"/>
+</symbol>
+<symbol id="neo-icon-download" viewBox="0 0 256 256">
+  <title>Download</title>
+  <rect data-icon-frame="decor" class="neo-i-shadow-light" x="17" y="17" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-shadow-dark" x="38" y="38" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-surface" x="28" y="28" width="200" height="200" rx="42"/><path data-icon-frame="decor" class="neo-i-highlight" d="M56 50H166M50 58V132" opacity=".76"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M90 210H194M210 92V174" opacity=".68"/>
+    <path data-icon-frame="decor" class="neo-i-inset" d="M50 72H94M162 72H206" opacity=".68"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M54 188H100M156 188H202" opacity=".48"/>
+    <path data-icon-frame="decor" class="neo-i-highlight" d="M66 214H116M146 214H188" opacity=".44"/>
+    <path class="neo-i-line neo-i-glow" d="M128 68V158M92 123L128 158L164 123"/><path class="neo-i-line-2" d="M72 152V194H184V152"/><path class="neo-i-line-3" d="M98 194H158"/>
+</symbol>
+<symbol id="neo-icon-folder" viewBox="0 0 256 256">
+  <title>Folder</title>
+  <rect data-icon-frame="decor" class="neo-i-shadow-light" x="17" y="17" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-shadow-dark" x="38" y="38" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-surface" x="28" y="28" width="200" height="200" rx="42"/><path data-icon-frame="decor" class="neo-i-highlight" d="M56 50H166M50 58V132" opacity=".76"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M90 210H194M210 92V174" opacity=".68"/>
+    <path data-icon-frame="decor" class="neo-i-inset" d="M50 72H94M162 72H206" opacity=".68"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M54 188H100M156 188H202" opacity=".48"/>
+    <path data-icon-frame="decor" class="neo-i-highlight" d="M66 214H116M146 214H188" opacity=".44"/>
+    <path class="neo-i-bg-strong" stroke="var(--neo-icon-primary,rgb(var(--usk-primary-rgb,214 168 79)))" stroke-width="6" d="M54 89H110L126 110H202V187H54Z"/><path class="neo-i-line-2" d="M57 116H199"/><path class="neo-i-line-3" d="M86 150H170"/>
+</symbol>
+<symbol id="neo-icon-file" viewBox="0 0 256 256">
+  <title>File</title>
+  <rect data-icon-frame="decor" class="neo-i-shadow-light" x="17" y="17" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-shadow-dark" x="38" y="38" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-surface" x="28" y="28" width="200" height="200" rx="42"/><path data-icon-frame="decor" class="neo-i-highlight" d="M56 50H166M50 58V132" opacity=".76"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M90 210H194M210 92V174" opacity=".68"/>
+    <path data-icon-frame="decor" class="neo-i-inset" d="M50 72H94M162 72H206" opacity=".68"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M54 188H100M156 188H202" opacity=".48"/>
+    <path data-icon-frame="decor" class="neo-i-highlight" d="M66 214H116M146 214H188" opacity=".44"/>
+    <path class="neo-i-bg-strong" stroke="var(--neo-icon-primary,rgb(var(--usk-primary-rgb,214 168 79)))" stroke-width="6" d="M78 58H147L184 95V198H78Z"/><path class="neo-i-line-2" d="M147 58V96H184"/><path class="neo-i-muted" d="M101 126H155M101 153H160M101 179H137"/>
+</symbol>
+<symbol id="neo-icon-image" viewBox="0 0 256 256">
+  <title>Image</title>
+  <rect data-icon-frame="decor" class="neo-i-shadow-light" x="17" y="17" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-shadow-dark" x="38" y="38" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-surface" x="28" y="28" width="200" height="200" rx="42"/><path data-icon-frame="decor" class="neo-i-highlight" d="M56 50H166M50 58V132" opacity=".76"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M90 210H194M210 92V174" opacity=".68"/>
+    <path data-icon-frame="decor" class="neo-i-inset" d="M50 72H94M162 72H206" opacity=".68"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M54 188H100M156 188H202" opacity=".48"/>
+    <path data-icon-frame="decor" class="neo-i-highlight" d="M66 214H116M146 214H188" opacity=".44"/>
+    <rect class="neo-i-bg-strong" x="58" y="74" width="140" height="116" rx="16"/><circle class="neo-i-accent" cx="161" cy="105" r="14"/><path class="neo-i-line neo-i-glow" d="M72 176L107 136L132 162L151 142L187 176Z"/>
+</symbol>
+<symbol id="neo-icon-video" viewBox="0 0 256 256">
+  <title>Video</title>
+  <rect data-icon-frame="decor" class="neo-i-shadow-light" x="17" y="17" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-shadow-dark" x="38" y="38" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-surface" x="28" y="28" width="200" height="200" rx="42"/><path data-icon-frame="decor" class="neo-i-highlight" d="M56 50H166M50 58V132" opacity=".76"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M90 210H194M210 92V174" opacity=".68"/>
+    <path data-icon-frame="decor" class="neo-i-inset" d="M50 72H94M162 72H206" opacity=".68"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M54 188H100M156 188H202" opacity=".48"/>
+    <path data-icon-frame="decor" class="neo-i-highlight" d="M66 214H116M146 214H188" opacity=".44"/>
+    <g data-icon-video="player">
+      <rect data-icon-video="screen" class="neo-i-bg-strong" x="48" y="82" width="132" height="92" rx="18" stroke="var(--neo-icon-primary,rgb(var(--usk-primary-rgb,64 104 185)))" stroke-width="6"/>
+      <path data-icon-video="camera" class="neo-i-accent" d="M180 108L212 90V166L180 148Z" stroke-width="6"/>
+      <path data-icon-video="controls" class="neo-i-muted" d="M68 104H94M68 158H126M144 158H160" opacity=".62"/>
+      <circle data-icon-video="record" class="neo-i-accent" cx="150" cy="104" r="6" stroke-width="4"/>
+      <path d="M96 104L144 128L96 152Z" data-icon-glyph="play"/>
+    </g>
+</symbol>
+<symbol id="neo-icon-camera" viewBox="0 0 256 256">
+  <title>Camera</title>
+  <rect data-icon-frame="decor" class="neo-i-shadow-light" x="17" y="17" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-shadow-dark" x="38" y="38" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-surface" x="28" y="28" width="200" height="200" rx="42"/><path data-icon-frame="decor" class="neo-i-highlight" d="M56 50H166M50 58V132" opacity=".76"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M90 210H194M210 92V174" opacity=".68"/><path data-icon-frame="decor" class="neo-i-inset" d="M50 72H94M162 72H206" opacity=".68"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M54 188H100M156 188H202" opacity=".48"/><path data-icon-frame="decor" class="neo-i-highlight" d="M66 214H116M146 214H188" opacity=".44"/>
+    <path class="neo-i-primary" d="M58 100H96L108 82H148L160 100H198V184H58Z"/><circle class="neo-i-line-2" cx="128" cy="142" r="31"/><circle class="neo-i-accent" cx="128" cy="142" r="12"/>
+</symbol>
+<symbol id="neo-icon-database" viewBox="0 0 256 256">
+  <title>Database</title>
+  <rect data-icon-frame="decor" class="neo-i-shadow-light" x="17" y="17" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-shadow-dark" x="38" y="38" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-surface" x="28" y="28" width="200" height="200" rx="42"/><path data-icon-frame="decor" class="neo-i-highlight" d="M56 50H166M50 58V132" opacity=".76"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M90 210H194M210 92V174" opacity=".68"/>
+    <path data-icon-frame="decor" class="neo-i-inset" d="M50 72H94M162 72H206" opacity=".68"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M54 188H100M156 188H202" opacity=".48"/>
+    <path data-icon-frame="decor" class="neo-i-highlight" d="M66 214H116M146 214H188" opacity=".44"/>
+    <ellipse class="neo-i-bg-strong" cx="128" cy="78" rx="58" ry="24"/><path class="neo-i-line neo-i-glow" d="M70 78V174C70 187 96 198 128 198C160 198 186 187 186 174V78"/><path class="neo-i-line-2" d="M70 110C70 123 96 134 128 134C160 134 186 123 186 110M70 143C70 156 96 167 128 167C160 167 186 156 186 143"/><ellipse class="neo-i-accent" cx="128" cy="78" rx="30" ry="10"/>
+</symbol>
+<symbol id="neo-icon-server" viewBox="-8 -8 272 272">
+  <title>Server</title>
+  <rect data-icon-frame="decor" class="neo-i-shadow-light" x="17" y="17" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-shadow-dark" x="38" y="38" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-surface" x="28" y="28" width="200" height="200" rx="42"/><path data-icon-frame="decor" class="neo-i-highlight" d="M56 50H166M50 58V132" opacity=".76"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M90 210H194M210 92V174" opacity=".68"/>
+    <path data-icon-frame="decor" class="neo-i-inset" d="M50 72H94M162 72H206" opacity=".68"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M54 188H100M156 188H202" opacity=".48"/>
+    <path data-icon-frame="decor" class="neo-i-highlight" d="M66 214H116M146 214H188" opacity=".44"/>
+    <rect class="neo-i-bg-strong" x="62" y="70" width="132" height="48" rx="12"/><rect class="neo-i-bg-strong" x="62" y="138" width="132" height="48" rx="12"/><path class="neo-i-line neo-i-glow" d="M62 94H194M62 162H194"/><circle class="neo-i-accent" cx="91" cy="94" r="7"/><circle class="neo-i-success" cx="91" cy="162" r="7"/><path class="neo-i-muted" d="M115 94H171M115 162H171"/>
+</symbol>
+<symbol id="neo-icon-api" viewBox="0 0 256 256">
+  <title>API</title>
+  <rect data-icon-frame="decor" class="neo-i-shadow-light" x="17" y="17" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-shadow-dark" x="38" y="38" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-surface" x="28" y="28" width="200" height="200" rx="42"/><path data-icon-frame="decor" class="neo-i-highlight" d="M56 50H166M50 58V132" opacity=".76"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M90 210H194M210 92V174" opacity=".68"/>
+    <path data-icon-frame="decor" class="neo-i-inset" d="M50 72H94M162 72H206" opacity=".68"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M54 188H100M156 188H202" opacity=".48"/>
+    <path data-icon-frame="decor" class="neo-i-highlight" d="M66 214H116M146 214H188" opacity=".44"/>
+    <path class="neo-i-line neo-i-glow" d="M78 96L48 128L78 160M178 96L208 128L178 160"/><path class="neo-i-line-3" d="M144 78L112 178"/><path class="neo-i-line-2" d="M101 126H155"/>
+</symbol>
+<symbol id="neo-icon-lock" viewBox="-8 -8 272 272">
+  <title>Lock</title>
+  <rect data-icon-frame="decor" class="neo-i-shadow-light" x="17" y="17" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-shadow-dark" x="38" y="38" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-surface" x="28" y="28" width="200" height="200" rx="42"/><path data-icon-frame="decor" class="neo-i-highlight" d="M56 50H166M50 58V132" opacity=".76"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M90 210H194M210 92V174" opacity=".68"/>
+    <path data-icon-frame="decor" class="neo-i-inset" d="M50 72H94M162 72H206" opacity=".68"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M54 188H100M156 188H202" opacity=".48"/>
+    <path data-icon-frame="decor" class="neo-i-highlight" d="M66 214H116M146 214H188" opacity=".44"/>
+    <rect class="neo-i-bg-strong" x="70" y="112" width="116" height="84" rx="16"/><path class="neo-i-line neo-i-glow" d="M91 112V93C91 70 106 55 128 55C150 55 165 70 165 93V112"/><circle class="neo-i-accent" cx="128" cy="150" r="10"/><path class="neo-i-line-3" d="M128 160V176"/>
+</symbol>
+<symbol id="neo-icon-shield" viewBox="0 0 256 256">
+  <title>Shield</title>
+  <rect data-icon-frame="decor" class="neo-i-shadow-light" x="17" y="17" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-shadow-dark" x="38" y="38" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-surface" x="28" y="28" width="200" height="200" rx="42"/><path data-icon-frame="decor" class="neo-i-highlight" d="M56 50H166M50 58V132" opacity=".76"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M90 210H194M210 92V174" opacity=".68"/>
+    <path data-icon-frame="decor" class="neo-i-inset" d="M50 72H94M162 72H206" opacity=".68"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M54 188H100M156 188H202" opacity=".48"/>
+    <path data-icon-frame="decor" class="neo-i-highlight" d="M66 214H116M146 214H188" opacity=".44"/>
+    <path class="neo-i-bg-strong" stroke="var(--neo-icon-primary,rgb(var(--usk-primary-rgb,214 168 79)))" stroke-width="6" d="M128 55L190 82V126C190 169 164 198 128 215C92 198 66 169 66 126V82Z"/><path class="neo-i-line-3 neo-i-glow" d="M97 132L120 155L160 106"/><path class="neo-i-muted" d="M128 76V194"/>
+</symbol>
+<symbol id="neo-icon-key" viewBox="0 0 256 256">
+  <title>Key</title>
+  <rect data-icon-frame="decor" class="neo-i-shadow-light" x="17" y="17" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-shadow-dark" x="38" y="38" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-surface" x="28" y="28" width="200" height="200" rx="42"/><path data-icon-frame="decor" class="neo-i-highlight" d="M56 50H166M50 58V132" opacity=".76"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M90 210H194M210 92V174" opacity=".68"/>
+    <path data-icon-frame="decor" class="neo-i-inset" d="M50 72H94M162 72H206" opacity=".68"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M54 188H100M156 188H202" opacity=".48"/>
+    <path data-icon-frame="decor" class="neo-i-highlight" d="M66 214H116M146 214H188" opacity=".44"/>
+    <circle class="neo-i-line neo-i-glow" cx="94" cy="128" r="34"/><path class="neo-i-line-2" d="M128 128H202M169 128V150M190 128V143"/><circle class="neo-i-accent" cx="94" cy="128" r="10"/>
+</symbol>
+<symbol id="neo-icon-chart" viewBox="0 0 256 256">
+  <title>Chart</title>
+  <rect data-icon-frame="decor" class="neo-i-shadow-light" x="17" y="17" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-shadow-dark" x="38" y="38" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-surface" x="28" y="28" width="200" height="200" rx="42"/><path data-icon-frame="decor" class="neo-i-highlight" d="M56 50H166M50 58V132" opacity=".76"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M90 210H194M210 92V174" opacity=".68"/>
+    <path data-icon-frame="decor" class="neo-i-inset" d="M50 72H94M162 72H206" opacity=".68"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M54 188H100M156 188H202" opacity=".48"/>
+    <path data-icon-frame="decor" class="neo-i-highlight" d="M66 214H116M146 214H188" opacity=".44"/>
+    <path class="neo-i-line-3" d="M66 188H196"/><rect class="neo-i-primary" x="78" y="132" width="23" height="56" rx="5"/><rect class="neo-i-secondary" x="116" y="101" width="23" height="87" rx="5"/><rect class="neo-i-accent" x="154" y="72" width="23" height="116" rx="5"/><path class="neo-i-muted" d="M72 110L107 126L139 90L183 68"/>
+</symbol>
+<symbol id="neo-icon-activity" viewBox="0 0 256 256">
+  <title>Activity</title>
+  <rect data-icon-frame="decor" class="neo-i-shadow-light" x="17" y="17" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-shadow-dark" x="38" y="38" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-surface" x="28" y="28" width="200" height="200" rx="42"/><path data-icon-frame="decor" class="neo-i-highlight" d="M56 50H166M50 58V132" opacity=".76"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M90 210H194M210 92V174" opacity=".68"/>
+    <path data-icon-frame="decor" class="neo-i-inset" d="M50 72H94M162 72H206" opacity=".68"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M54 188H100M156 188H202" opacity=".48"/>
+    <path data-icon-frame="decor" class="neo-i-highlight" d="M66 214H116M146 214H188" opacity=".44"/>
+    <path class="neo-i-line neo-i-glow" d="M50 137H84L99 94L128 181L148 118H171L184 94L206 137"/><path class="neo-i-line-2" d="M58 170H198M70 94H94M162 94H190"/>
+</symbol>
+<symbol id="neo-icon-credit-card" viewBox="-8 -8 272 272">
+  <title>Credit Card</title>
+  <rect data-icon-frame="decor" class="neo-i-shadow-light" x="17" y="17" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-shadow-dark" x="38" y="38" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-surface" x="28" y="28" width="200" height="200" rx="42"/><path data-icon-frame="decor" class="neo-i-highlight" d="M56 50H166M50 58V132" opacity=".76"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M90 210H194M210 92V174" opacity=".68"/>
+    <path data-icon-frame="decor" class="neo-i-inset" d="M50 72H94M162 72H206" opacity=".68"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M54 188H100M156 188H202" opacity=".48"/>
+    <path data-icon-frame="decor" class="neo-i-highlight" d="M66 214H116M146 214H188" opacity=".44"/>
+    <rect class="neo-i-bg-strong" x="54" y="84" width="148" height="96" rx="16"/><path class="neo-i-line neo-i-glow" d="M58 111H198"/><path class="neo-i-muted" d="M80 148H126M80 166H108"/><circle class="neo-i-accent" cx="166" cy="157" r="12"/><circle class="neo-i-secondary" cx="181" cy="157" r="12" opacity=".8"/>
+</symbol>
+<symbol id="neo-icon-wallet" viewBox="0 0 256 256">
+  <title>Wallet</title>
+  <rect data-icon-frame="decor" class="neo-i-shadow-light" x="17" y="17" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-shadow-dark" x="38" y="38" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-surface" x="28" y="28" width="200" height="200" rx="42"/><path data-icon-frame="decor" class="neo-i-highlight" d="M56 50H166M50 58V132" opacity=".76"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M90 210H194M210 92V174" opacity=".68"/>
+    <path data-icon-frame="decor" class="neo-i-inset" d="M50 72H94M162 72H206" opacity=".68"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M54 188H100M156 188H202" opacity=".48"/>
+    <path data-icon-frame="decor" class="neo-i-highlight" d="M66 214H116M146 214H188" opacity=".44"/>
+    <path class="neo-i-bg-strong" stroke="var(--neo-icon-primary,rgb(var(--usk-primary-rgb,214 168 79)))" stroke-width="6" d="M62 88H176C190 88 198 96 198 110V178C198 190 190 198 176 198H62Z"/><path class="neo-i-line-2" d="M62 110H190M142 128H206V168H142Z"/><circle class="neo-i-accent" cx="174" cy="148" r="8"/>
+</symbol>
+<symbol id="neo-icon-cart" viewBox="0 0 256 256">
+  <title>Cart</title>
+  <rect data-icon-frame="decor" class="neo-i-shadow-light" x="17" y="17" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-shadow-dark" x="38" y="38" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-surface" x="28" y="28" width="200" height="200" rx="42"/><path data-icon-frame="decor" class="neo-i-highlight" d="M56 50H166M50 58V132" opacity=".76"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M90 210H194M210 92V174" opacity=".68"/>
+    <path data-icon-frame="decor" class="neo-i-inset" d="M50 72H94M162 72H206" opacity=".68"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M54 188H100M156 188H202" opacity=".48"/>
+    <path data-icon-frame="decor" class="neo-i-highlight" d="M66 214H116M146 214H188" opacity=".44"/>
+    <path class="neo-i-line neo-i-glow" d="M58 76H80L97 158H174L194 102H93"/><circle class="neo-i-accent" cx="105" cy="187" r="13"/><circle class="neo-i-secondary" cx="165" cy="187" r="13"/><path class="neo-i-muted" d="M108 127H175"/>
+</symbol>
+<symbol id="neo-icon-invoice" viewBox="0 0 256 256">
+  <title>Invoice</title>
+  <rect data-icon-frame="decor" class="neo-i-shadow-light" x="17" y="17" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-shadow-dark" x="38" y="38" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-surface" x="28" y="28" width="200" height="200" rx="42"/><path data-icon-frame="decor" class="neo-i-highlight" d="M56 50H166M50 58V132" opacity=".76"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M90 210H194M210 92V174" opacity=".68"/>
+    <path data-icon-frame="decor" class="neo-i-inset" d="M50 72H94M162 72H206" opacity=".68"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M54 188H100M156 188H202" opacity=".48"/>
+    <path data-icon-frame="decor" class="neo-i-highlight" d="M66 214H116M146 214H188" opacity=".44"/>
+    <path class="neo-i-bg-strong" stroke="var(--neo-icon-primary,rgb(var(--usk-primary-rgb,214 168 79)))" stroke-width="6" d="M78 58H178V198L158 188L138 198L118 188L98 198L78 188Z"/><path class="neo-i-muted" d="M100 91H156M100 119H162M100 147H136"/><path class="neo-i-line-3" d="M94 164H118M148 164H164"/>
+</symbol>
+<symbol id="neo-icon-tax" viewBox="0 0 256 256">
+  <title>Tax</title>
+  <rect data-icon-frame="decor" class="neo-i-shadow-light" x="17" y="17" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-shadow-dark" x="38" y="38" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-surface" x="28" y="28" width="200" height="200" rx="42"/><path data-icon-frame="decor" class="neo-i-highlight" d="M56 50H166M50 58V132" opacity=".76"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M90 210H194M210 92V174" opacity=".68"/>
+    <path data-icon-frame="decor" class="neo-i-inset" d="M50 72H94M162 72H206" opacity=".68"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M54 188H100M156 188H202" opacity=".48"/>
+    <path data-icon-frame="decor" class="neo-i-highlight" d="M66 214H116M146 214H188" opacity=".44"/>
+    <rect class="neo-i-bg-strong" x="65" y="75" width="126" height="108" rx="14"/><path class="neo-i-muted" d="M91 106H165M91 136H138M91 164H116"/><path class="neo-i-line-2" d="M148 136L170 158M170 136L148 158"/><path class="neo-i-line-3" d="M92 96V84H118"/>
+</symbol>
+<symbol id="neo-icon-login" viewBox="0 0 256 256">
+  <title>Login</title>
+  <rect data-icon-frame="decor" class="neo-i-shadow-light" x="17" y="17" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-shadow-dark" x="38" y="38" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-surface" x="28" y="28" width="200" height="200" rx="42"/><path data-icon-frame="decor" class="neo-i-highlight" d="M56 50H166M50 58V132" opacity=".76"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M90 210H194M210 92V174" opacity=".68"/>
+    <path data-icon-frame="decor" class="neo-i-inset" d="M50 72H94M162 72H206" opacity=".68"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M54 188H100M156 188H202" opacity=".48"/>
+    <path data-icon-frame="decor" class="neo-i-highlight" d="M66 214H116M146 214H188" opacity=".44"/>
+    <path class="neo-i-line-2" d="M60 78H133V106M133 150V178H60"/><path class="neo-i-line neo-i-glow" d="M96 128H193M157 94L193 128L157 162"/><circle class="neo-i-accent" cx="63" cy="128" r="9"/>
+</symbol>
+<symbol id="neo-icon-logout" viewBox="0 0 256 256">
+  <title>Logout</title>
+  <rect data-icon-frame="decor" class="neo-i-shadow-light" x="17" y="17" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-shadow-dark" x="38" y="38" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-surface" x="28" y="28" width="200" height="200" rx="42"/><path data-icon-frame="decor" class="neo-i-highlight" d="M56 50H166M50 58V132" opacity=".76"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M90 210H194M210 92V174" opacity=".68"/>
+    <path data-icon-frame="decor" class="neo-i-inset" d="M50 72H94M162 72H206" opacity=".68"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M54 188H100M156 188H202" opacity=".48"/>
+    <path data-icon-frame="decor" class="neo-i-highlight" d="M66 214H116M146 214H188" opacity=".44"/>
+    <path class="neo-i-line-2" d="M196 78H123V106M123 150V178H196"/><path class="neo-i-line neo-i-glow" d="M160 128H63M99 94L63 128L99 162"/><circle class="neo-i-accent" cx="193" cy="128" r="9"/>
+</symbol>
+<symbol id="neo-icon-edit" viewBox="0 0 256 256">
+  <title>Edit</title>
+  <rect data-icon-frame="decor" class="neo-i-shadow-light" x="17" y="17" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-shadow-dark" x="38" y="38" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-surface" x="28" y="28" width="200" height="200" rx="42"/><path data-icon-frame="decor" class="neo-i-highlight" d="M56 50H166M50 58V132" opacity=".76"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M90 210H194M210 92V174" opacity=".68"/>
+    <path data-icon-frame="decor" class="neo-i-inset" d="M50 72H94M162 72H206" opacity=".68"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M54 188H100M156 188H202" opacity=".48"/>
+    <path data-icon-frame="decor" class="neo-i-highlight" d="M66 214H116M146 214H188" opacity=".44"/>
+    <path class="neo-i-bg-strong" stroke="var(--neo-icon-primary,rgb(var(--usk-primary-rgb,214 168 79)))" stroke-width="6" d="M72 171L67 195L91 190L176 105L157 86Z"/><path class="neo-i-line-2" d="M145 98L164 117M82 181L75 188"/><path class="neo-i-accent" stroke="var(--neo-icon-secondary,rgb(var(--usk-secondary-rgb,111 134 184)))" stroke-width="5" d="M161 82L176 67L195 86L180 101Z"/>
+</symbol>
+<symbol id="neo-icon-trash" viewBox="0 0 256 256">
+  <title>Trash</title>
+  <rect data-icon-frame="decor" class="neo-i-shadow-light" x="17" y="17" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-shadow-dark" x="38" y="38" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-surface" x="28" y="28" width="200" height="200" rx="42"/><path data-icon-frame="decor" class="neo-i-highlight" d="M56 50H166M50 58V132" opacity=".76"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M90 210H194M210 92V174" opacity=".68"/>
+    <path data-icon-frame="decor" class="neo-i-inset" d="M50 72H94M162 72H206" opacity=".68"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M54 188H100M156 188H202" opacity=".48"/>
+    <path data-icon-frame="decor" class="neo-i-highlight" d="M66 214H116M146 214H188" opacity=".44"/>
+    <path class="neo-i-line neo-i-glow" d="M83 95H173M108 95V73H148V95M94 111L101 194H155L162 111"/><path class="neo-i-line-2" d="M116 130V173M140 130V173"/><path class="neo-i-line-3" d="M103 194H153"/>
+</symbol>
+<symbol id="neo-icon-plus" viewBox="0 0 256 256">
+  <title>Plus</title>
+  <rect data-icon-frame="decor" class="neo-i-shadow-light" x="17" y="17" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-shadow-dark" x="38" y="38" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-surface" x="28" y="28" width="200" height="200" rx="42"/><path data-icon-frame="decor" class="neo-i-highlight" d="M56 50H166M50 58V132" opacity=".76"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M90 210H194M210 92V174" opacity=".68"/>
+    <path data-icon-frame="decor" class="neo-i-inset" d="M50 72H94M162 72H206" opacity=".68"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M54 188H100M156 188H202" opacity=".48"/>
+    <path data-icon-frame="decor" class="neo-i-highlight" d="M66 214H116M146 214H188" opacity=".44"/>
+    <circle class="neo-i-bg-strong" cx="128" cy="128" r="66"/><circle class="neo-i-line neo-i-glow" cx="128" cy="128" r="66"/><path class="neo-i-line-2" d="M128 88V168M88 128H168"/><path class="neo-i-line-3" d="M128 96V160M96 128H160"/>
+</symbol>
+<symbol id="neo-icon-minus" viewBox="0 0 256 256">
+  <title>Minus</title>
+  <rect data-icon-frame="decor" class="neo-i-shadow-light" x="17" y="17" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-shadow-dark" x="38" y="38" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-surface" x="28" y="28" width="200" height="200" rx="42"/><path data-icon-frame="decor" class="neo-i-highlight" d="M56 50H166M50 58V132" opacity=".76"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M90 210H194M210 92V174" opacity=".68"/>
+    <path data-icon-frame="decor" class="neo-i-inset" d="M50 72H94M162 72H206" opacity=".68"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M54 188H100M156 188H202" opacity=".48"/>
+    <path data-icon-frame="decor" class="neo-i-highlight" d="M66 214H116M146 214H188" opacity=".44"/>
+    <circle class="neo-i-bg-strong" cx="128" cy="128" r="66"/><circle class="neo-i-line neo-i-glow" cx="128" cy="128" r="66"/><path class="neo-i-line-2" d="M88 128H168"/><path class="neo-i-line-3" d="M96 128H160"/>
+</symbol>
+<symbol id="neo-icon-filter" viewBox="0 0 256 256">
+  <title>Filter</title>
+  <rect data-icon-frame="decor" class="neo-i-shadow-light" x="17" y="17" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-shadow-dark" x="38" y="38" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-surface" x="28" y="28" width="200" height="200" rx="42"/><path data-icon-frame="decor" class="neo-i-highlight" d="M56 50H166M50 58V132" opacity=".76"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M90 210H194M210 92V174" opacity=".68"/>
+    <path data-icon-frame="decor" class="neo-i-inset" d="M50 72H94M162 72H206" opacity=".68"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M54 188H100M156 188H202" opacity=".48"/>
+    <path data-icon-frame="decor" class="neo-i-highlight" d="M66 214H116M146 214H188" opacity=".44"/>
+    <path class="neo-i-bg-strong" stroke="var(--neo-icon-primary,rgb(var(--usk-primary-rgb,214 168 79)))" stroke-width="6" d="M60 74H196L145 134V187L111 202V134Z"/><path class="neo-i-line-2" d="M84 96H172M103 124H153"/><path class="neo-i-line-3" d="M111 202L145 187"/>
+</symbol>
+<symbol id="neo-icon-menu" viewBox="0 0 256 256">
+  <title>Menu</title>
+  <rect data-icon-frame="decor" class="neo-i-shadow-light" x="17" y="17" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-shadow-dark" x="38" y="38" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-surface" x="28" y="28" width="200" height="200" rx="42"/><path data-icon-frame="decor" class="neo-i-highlight" d="M56 50H166M50 58V132" opacity=".76"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M90 210H194M210 92V174" opacity=".68"/>
+    <path data-icon-frame="decor" class="neo-i-inset" d="M50 72H94M162 72H206" opacity=".68"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M54 188H100M156 188H202" opacity=".48"/>
+    <path data-icon-frame="decor" class="neo-i-highlight" d="M66 214H116M146 214H188" opacity=".44"/>
+    <path class="neo-i-line neo-i-glow" d="M70 87H186M70 128H186M70 169H186"/><path class="neo-i-line-2" d="M72 99H116M140 140H186M72 181H128"/><circle class="neo-i-accent" cx="84" cy="87" r="6"/>
+</symbol>
+<symbol id="neo-icon-code" viewBox="0 0 256 256">
+  <title>Code</title>
+  <rect data-icon-frame="decor" class="neo-i-shadow-light" x="17" y="17" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-shadow-dark" x="38" y="38" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-surface" x="28" y="28" width="200" height="200" rx="42"/><path data-icon-frame="decor" class="neo-i-highlight" d="M56 50H166M50 58V132" opacity=".76"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M90 210H194M210 92V174" opacity=".68"/>
+    <path data-icon-frame="decor" class="neo-i-inset" d="M50 72H94M162 72H206" opacity=".68"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M54 188H100M156 188H202" opacity=".48"/>
+    <path data-icon-frame="decor" class="neo-i-highlight" d="M66 214H116M146 214H188" opacity=".44"/>
+    <path class="neo-i-line neo-i-glow" d="M82 93L48 128L82 163M174 93L208 128L174 163"/><path class="neo-i-line-3" d="M144 73L112 183"/><path class="neo-i-line-2" d="M95 192H161"/>
+</symbol>
+<symbol id="neo-icon-terminal" viewBox="0 0 256 256">
+  <title>Terminal</title>
+  <rect data-icon-frame="decor" class="neo-i-shadow-light" x="17" y="17" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-shadow-dark" x="38" y="38" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-surface" x="28" y="28" width="200" height="200" rx="42"/><path data-icon-frame="decor" class="neo-i-highlight" d="M56 50H166M50 58V132" opacity=".76"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M90 210H194M210 92V174" opacity=".68"/>
+    <path data-icon-frame="decor" class="neo-i-inset" d="M50 72H94M162 72H206" opacity=".68"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M54 188H100M156 188H202" opacity=".48"/>
+    <path data-icon-frame="decor" class="neo-i-highlight" d="M66 214H116M146 214H188" opacity=".44"/>
+    <rect class="neo-i-bg-strong" x="55" y="72" width="146" height="116" rx="14"/><path class="neo-i-line neo-i-glow" d="M55 100H201"/><path class="neo-i-line-3" d="M82 126L103 143L82 160M117 160H164"/><circle class="neo-i-danger" cx="76" cy="86" r="5"/><circle class="neo-i-warning" cx="94" cy="86" r="5"/><circle class="neo-i-success" cx="112" cy="86" r="5"/>
+</symbol>
+<symbol id="neo-icon-rocket" viewBox="0 0 256 256">
+  <title>Rocket</title>
+  <rect data-icon-frame="decor" class="neo-i-shadow-light" x="17" y="17" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-shadow-dark" x="38" y="38" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-surface" x="28" y="28" width="200" height="200" rx="42"/><path data-icon-frame="decor" class="neo-i-highlight" d="M56 50H166M50 58V132" opacity=".76"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M90 210H194M210 92V174" opacity=".68"/>
+    <path data-icon-frame="decor" class="neo-i-inset" d="M50 72H94M162 72H206" opacity=".68"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M54 188H100M156 188H202" opacity=".48"/>
+    <path data-icon-frame="decor" class="neo-i-highlight" d="M66 214H116M146 214H188" opacity=".44"/>
+    <path class="neo-i-bg-strong" stroke="var(--neo-icon-primary,rgb(var(--usk-primary-rgb,214 168 79)))" stroke-width="6" d="M135 55C169 65 189 87 199 121L161 158L99 96Z"/><circle class="neo-i-line-3" cx="160" cy="94" r="15"/><path class="neo-i-secondary" stroke="var(--neo-icon-accent,rgb(var(--usk-accent-rgb,243 210 122)))" stroke-width="5" d="M96 99L70 109L91 130M158 160L147 186L126 165"/><path class="neo-i-line-2" d="M96 160L67 189M113 176L97 207"/>
+</symbol>
+<symbol id="neo-icon-bug" viewBox="-8 -8 272 272">
+  <title>Bug</title>
+  <rect data-icon-frame="decor" class="neo-i-shadow-light" x="17" y="17" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-shadow-dark" x="38" y="38" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-surface" x="28" y="28" width="200" height="200" rx="42"/><path data-icon-frame="decor" class="neo-i-highlight" d="M56 50H166M50 58V132" opacity=".76"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M90 210H194M210 92V174" opacity=".68"/>
+    <path data-icon-frame="decor" class="neo-i-inset" d="M50 72H94M162 72H206" opacity=".68"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M54 188H100M156 188H202" opacity=".48"/>
+    <path data-icon-frame="decor" class="neo-i-highlight" d="M66 214H116M146 214H188" opacity=".44"/>
+    <ellipse class="neo-i-bg-strong" cx="128" cy="137" rx="45" ry="55"/><ellipse class="neo-i-line neo-i-glow" cx="128" cy="137" rx="45" ry="55"/><circle class="neo-i-secondary" cx="128" cy="80" r="24"/><path class="neo-i-muted" d="M128 106V190M82 118L58 96M174 118L198 96M78 147H50M178 147H206M88 177L61 194M168 177L195 194"/><circle class="neo-i-bg" cx="119" cy="79" r="5"/><circle class="neo-i-bg" cx="137" cy="79" r="5"/>
+</symbol>
+<symbol id="neo-icon-help" viewBox="0 0 256 256">
+  <title>Help</title>
+  <rect data-icon-frame="decor" class="neo-i-shadow-light" x="17" y="17" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-shadow-dark" x="38" y="38" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-surface" x="28" y="28" width="200" height="200" rx="42"/><path data-icon-frame="decor" class="neo-i-highlight" d="M56 50H166M50 58V132" opacity=".76"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M90 210H194M210 92V174" opacity=".68"/>
+    <path data-icon-frame="decor" class="neo-i-inset" d="M50 72H94M162 72H206" opacity=".68"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M54 188H100M156 188H202" opacity=".48"/>
+    <path data-icon-frame="decor" class="neo-i-highlight" d="M66 214H116M146 214H188" opacity=".44"/>
+    <circle class="neo-i-bg-strong" cx="128" cy="128" r="66"/><circle class="neo-i-line neo-i-glow" cx="128" cy="128" r="66"/><path class="neo-i-line-2" d="M105 106C107 86 122 76 140 82C158 88 163 108 151 122C142 132 129 134 128 151"/><circle class="neo-i-accent" cx="128" cy="178" r="9"/>
+</symbol>
+<symbol id="neo-icon-link" viewBox="-8 -8 272 272">
+  <title>Link</title>
+  <rect data-icon-frame="decor" class="neo-i-shadow-light" x="17" y="17" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-shadow-dark" x="38" y="38" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-surface" x="28" y="28" width="200" height="200" rx="42"/><path data-icon-frame="decor" class="neo-i-highlight" d="M56 50H166M50 58V132" opacity=".76"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M90 210H194M210 92V174" opacity=".68"/>
+    <path data-icon-frame="decor" class="neo-i-inset" d="M50 72H94M162 72H206" opacity=".68"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M54 188H100M156 188H202" opacity=".48"/>
+    <path data-icon-frame="decor" class="neo-i-highlight" d="M66 214H116M146 214H188" opacity=".44"/>
+    <path class="neo-i-line neo-i-glow" d="M106 91L121 76C140 57 172 57 191 76C210 95 210 127 191 146L171 166"/><path class="neo-i-line-2" d="M150 165L135 180C116 199 84 199 65 180C46 161 46 129 65 110L85 90"/><path class="neo-i-line-3" d="M104 152L152 104"/>
+</symbol>
+<symbol id="neo-icon-cloud" viewBox="-8 -8 272 272">
+  <title>Cloud</title>
+  <rect data-icon-frame="decor" class="neo-i-shadow-light" x="17" y="17" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-shadow-dark" x="38" y="38" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-surface" x="28" y="28" width="200" height="200" rx="42"/><path data-icon-frame="decor" class="neo-i-highlight" d="M56 50H166M50 58V132" opacity=".76"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M90 210H194M210 92V174" opacity=".68"/>
+    <path data-icon-frame="decor" class="neo-i-inset" d="M50 72H94M162 72H206" opacity=".68"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M54 188H100M156 188H202" opacity=".48"/>
+    <path data-icon-frame="decor" class="neo-i-highlight" d="M66 214H116M146 214H188" opacity=".44"/>
+    <path class="neo-i-bg-strong" stroke="var(--neo-icon-primary,rgb(var(--usk-primary-rgb,214 168 79)))" stroke-width="6" d="M79 172C60 172 47 158 47 140C47 122 61 109 78 109C88 85 109 72 132 77C153 81 168 98 172 119C193 120 209 136 209 156C209 177 192 190 170 190H82"/><path class="neo-i-line-2" d="M104 151H152M128 126V176"/><path class="neo-i-line-3" d="M128 126L106 148M128 126L150 148"/>
+</symbol>
+<symbol id="neo-icon-globe" viewBox="0 0 256 256">
+  <title>Globe</title>
+  <rect data-icon-frame="decor" class="neo-i-shadow-light" x="17" y="17" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-shadow-dark" x="38" y="38" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-surface" x="28" y="28" width="200" height="200" rx="42"/><path data-icon-frame="decor" class="neo-i-highlight" d="M56 50H166M50 58V132" opacity=".76"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M90 210H194M210 92V174" opacity=".68"/>
+    <path data-icon-frame="decor" class="neo-i-inset" d="M50 72H94M162 72H206" opacity=".68"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M54 188H100M156 188H202" opacity=".48"/>
+    <path data-icon-frame="decor" class="neo-i-highlight" d="M66 214H116M146 214H188" opacity=".44"/>
+    <circle class="neo-i-bg-strong" cx="128" cy="128" r="66"/><circle class="neo-i-line neo-i-glow" cx="128" cy="128" r="66"/><path class="neo-i-line-2" d="M62 128H194M128 62C105 84 95 106 95 128C95 150 105 172 128 194M128 62C151 84 161 106 161 128C161 150 151 172 128 194M79 91C104 103 152 103 177 91M79 165C104 153 152 153 177 165"/>
+</symbol>
+<symbol id="neo-icon-warning" viewBox="-8 -8 272 272">
+  <title>Warning</title>
+  <rect data-icon-frame="decor" class="neo-i-shadow-light" x="17" y="17" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-shadow-dark" x="38" y="38" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-surface" x="28" y="28" width="200" height="200" rx="42"/><path data-icon-frame="decor" class="neo-i-highlight" d="M56 50H166M50 58V132" opacity=".76"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M90 210H194M210 92V174" opacity=".68"/>
+    <path data-icon-frame="decor" class="neo-i-inset" d="M50 72H94M162 72H206" opacity=".68"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M54 188H100M156 188H202" opacity=".48"/>
+    <path data-icon-frame="decor" class="neo-i-highlight" d="M66 214H116M146 214H188" opacity=".44"/>
+    <path class="neo-i-bg-strong" stroke="var(--neo-icon-warning,rgb(var(--usk-warning-rgb,255 203 91)))" stroke-width="8" d="M128 55L203 190H53Z"/><path class="neo-i-danger" stroke="var(--neo-icon-danger,rgb(var(--usk-danger-rgb,255 123 123)))" stroke-width="12" d="M128 101V145"/><circle class="neo-i-danger" cx="128" cy="169" r="8"/><path class="neo-i-line" d="M78 190H178"/>
+</symbol>
+<symbol id="neo-icon-scan" viewBox="0 0 256 256">
+  <title>Scan</title>
+  <rect data-icon-frame="decor" class="neo-i-shadow-light" x="17" y="17" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-shadow-dark" x="38" y="38" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-surface" x="28" y="28" width="200" height="200" rx="42"/><path data-icon-frame="decor" class="neo-i-highlight" d="M56 50H166M50 58V132" opacity=".76"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M90 210H194M210 92V174" opacity=".68"/>
+    <path data-icon-frame="decor" class="neo-i-inset" d="M50 72H94M162 72H206" opacity=".68"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M54 188H100M156 188H202" opacity=".48"/>
+    <path data-icon-frame="decor" class="neo-i-highlight" d="M66 214H116M146 214H188" opacity=".44"/>
+    <rect class="neo-i-bg-strong" x="58" y="70" width="140" height="118" rx="14"/><path class="neo-i-line-2" d="M81 100V84H113M143 84H175V100M81 158V174H113M143 174H175V158"/><path class="neo-i-line neo-i-glow" d="M72 129H184"/><circle class="neo-i-line-3" cx="128" cy="129" r="24"/>
+</symbol>
+<symbol id="neo-icon-network" viewBox="-8 -8 272 272">
+  <title>Network</title>
+  <rect data-icon-frame="decor" class="neo-i-shadow-light" x="17" y="17" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-shadow-dark" x="38" y="38" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-surface" x="28" y="28" width="200" height="200" rx="42"/><path data-icon-frame="decor" class="neo-i-highlight" d="M56 50H166M50 58V132" opacity=".76"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M90 210H194M210 92V174" opacity=".68"/>
+    <path data-icon-frame="decor" class="neo-i-inset" d="M50 72H94M162 72H206" opacity=".68"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M54 188H100M156 188H202" opacity=".48"/>
+    <path data-icon-frame="decor" class="neo-i-highlight" d="M66 214H116M146 214H188" opacity=".44"/>
+    <circle class="neo-i-line" cx="82" cy="132" r="18"/><circle class="neo-i-line-2" cx="128" cy="82" r="18"/><circle class="neo-i-line" cx="174" cy="132" r="18"/><circle class="neo-i-line-3" cx="128" cy="184" r="18"/><path class="neo-i-muted" d="M96 119L115 95M141 95L160 119M100 140L114 172M156 172L170 140M100 132H156"/>
+</symbol>
+<symbol id="neo-icon-cpu" viewBox="0 0 256 256">
+  <title>CPU</title>
+  <rect data-icon-frame="decor" class="neo-i-shadow-light" x="17" y="17" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-shadow-dark" x="38" y="38" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-surface" x="28" y="28" width="200" height="200" rx="42"/><path data-icon-frame="decor" class="neo-i-highlight" d="M56 50H166M50 58V132" opacity=".76"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M90 210H194M210 92V174" opacity=".68"/>
+    <path data-icon-frame="decor" class="neo-i-inset" d="M50 72H94M162 72H206" opacity=".68"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M54 188H100M156 188H202" opacity=".48"/>
+    <path data-icon-frame="decor" class="neo-i-highlight" d="M66 214H116M146 214H188" opacity=".44"/>
+    <rect class="neo-i-bg-strong" x="82" y="82" width="92" height="92" rx="14"/><rect class="neo-i-line-2" x="108" y="108" width="40" height="40" rx="8"/><path class="neo-i-line-3" d="M97 58V82M128 58V82M159 58V82M97 174V198M128 174V198M159 174V198M58 97H82M58 128H82M58 159H82M174 97H198M174 128H198M174 159H198"/>
+</symbol>
+<symbol id="neo-icon-layers" viewBox="0 0 256 256">
+  <title>Layers</title>
+  <rect data-icon-frame="decor" class="neo-i-shadow-light" x="17" y="17" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-shadow-dark" x="38" y="38" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-surface" x="28" y="28" width="200" height="200" rx="42"/><path data-icon-frame="decor" class="neo-i-highlight" d="M56 50H166M50 58V132" opacity=".76"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M90 210H194M210 92V174" opacity=".68"/>
+    <path data-icon-frame="decor" class="neo-i-inset" d="M50 72H94M162 72H206" opacity=".68"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M54 188H100M156 188H202" opacity=".48"/>
+    <path data-icon-frame="decor" class="neo-i-highlight" d="M66 214H116M146 214H188" opacity=".44"/>
+    <path class="neo-i-bg-strong" stroke="var(--neo-icon-primary,rgb(var(--usk-primary-rgb,214 168 79)))" stroke-width="6" d="M128 62L203 104L128 146L53 104Z"/><path class="neo-i-line-2" d="M63 132L128 169L193 132M63 160L128 197L193 160"/><path class="neo-i-line-3" d="M100 104H156"/>
+</symbol>
+<symbol id="neo-icon-eye" viewBox="0 0 256 256">
+  <title>Eye</title>
+  <rect data-icon-frame="decor" class="neo-i-shadow-light" x="17" y="17" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-shadow-dark" x="38" y="38" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-surface" x="28" y="28" width="200" height="200" rx="42"/><path data-icon-frame="decor" class="neo-i-highlight" d="M56 50H166M50 58V132" opacity=".76"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M90 210H194M210 92V174" opacity=".68"/>
+    <path data-icon-frame="decor" class="neo-i-inset" d="M50 72H94M162 72H206" opacity=".68"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M54 188H100M156 188H202" opacity=".48"/>
+    <path data-icon-frame="decor" class="neo-i-highlight" d="M66 214H116M146 214H188" opacity=".44"/>
+    <path class="neo-i-bg-strong" stroke="var(--neo-icon-primary,rgb(var(--usk-primary-rgb,214 168 79)))" stroke-width="6" d="M52 128C75 91 104 76 128 76C152 76 181 91 204 128C181 165 152 180 128 180C104 180 75 165 52 128Z"/><circle class="neo-i-line-2" cx="128" cy="128" r="31"/><circle class="neo-i-accent" cx="128" cy="128" r="10"/>
+</symbol>
+<symbol id="neo-icon-grid" viewBox="0 0 256 256">
+  <title>Grid</title>
+  <rect data-icon-frame="decor" class="neo-i-shadow-light" x="17" y="17" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-shadow-dark" x="38" y="38" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-surface" x="28" y="28" width="200" height="200" rx="42"/><path data-icon-frame="decor" class="neo-i-highlight" d="M56 50H166M50 58V132" opacity=".76"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M90 210H194M210 92V174" opacity=".68"/><path data-icon-frame="decor" class="neo-i-inset" d="M50 72H94M162 72H206" opacity=".68"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M54 188H100M156 188H202" opacity=".48"/><path data-icon-frame="decor" class="neo-i-highlight" d="M66 214H116M146 214H188" opacity=".44"/>
+    <rect class="neo-i-primary" x="62" y="72" width="52" height="52" rx="14"/><rect class="neo-i-secondary" x="128" y="72" width="66" height="52" rx="14"/><rect class="neo-i-accent" x="62" y="138" width="66" height="52" rx="14"/><rect class="neo-i-primary" x="142" y="138" width="52" height="52" rx="14"/>
+</symbol>
+<symbol id="neo-icon-module" viewBox="0 0 256 256">
+  <title>Module</title>
+  <rect data-icon-frame="decor" class="neo-i-shadow-light" x="17" y="17" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-shadow-dark" x="38" y="38" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-surface" x="28" y="28" width="200" height="200" rx="42"/><path data-icon-frame="decor" class="neo-i-highlight" d="M56 50H166M50 58V132" opacity=".76"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M90 210H194M210 92V174" opacity=".68"/><path data-icon-frame="decor" class="neo-i-inset" d="M50 72H94M162 72H206" opacity=".68"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M54 188H100M156 188H202" opacity=".48"/><path data-icon-frame="decor" class="neo-i-highlight" d="M66 214H116M146 214H188" opacity=".44"/>
+    <rect class="neo-i-primary" x="64" y="74" width="128" height="116" rx="24"/><rect class="neo-i-bg-strong" x="86" y="96" width="84" height="36" rx="12"/><path class="neo-i-line-2" d="M91 158H120M139 158H168"/><circle class="neo-i-accent" cx="128" cy="158" r="9"/>
+</symbol>
+<symbol id="neo-icon-stack" viewBox="-8 -8 272 272">
+  <title>Stack</title>
+  <rect data-icon-frame="decor" class="neo-i-shadow-light" x="17" y="17" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-shadow-dark" x="38" y="38" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-surface" x="28" y="28" width="200" height="200" rx="42"/><path data-icon-frame="decor" class="neo-i-highlight" d="M56 50H166M50 58V132" opacity=".76"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M90 210H194M210 92V174" opacity=".68"/><path data-icon-frame="decor" class="neo-i-inset" d="M50 72H94M162 72H206" opacity=".68"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M54 188H100M156 188H202" opacity=".48"/><path data-icon-frame="decor" class="neo-i-highlight" d="M66 214H116M146 214H188" opacity=".44"/>
+    <rect class="neo-i-bg-soft" x="78" y="64" width="116" height="76" rx="20"/><rect class="neo-i-secondary" x="66" y="91" width="116" height="76" rx="20"/><rect class="neo-i-primary" x="54" y="118" width="116" height="76" rx="20"/><path class="neo-i-line-3" d="M78 150H134M78 172H112"/>
+</symbol>
+<symbol id="neo-icon-tile" viewBox="0 0 256 256">
+  <title>Tile</title>
+  <rect data-icon-frame="decor" class="neo-i-shadow-light" x="17" y="17" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-shadow-dark" x="38" y="38" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-surface" x="28" y="28" width="200" height="200" rx="42"/><path data-icon-frame="decor" class="neo-i-highlight" d="M56 50H166M50 58V132" opacity=".76"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M90 210H194M210 92V174" opacity=".68"/><path data-icon-frame="decor" class="neo-i-inset" d="M50 72H94M162 72H206" opacity=".68"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M54 188H100M156 188H202" opacity=".48"/><path data-icon-frame="decor" class="neo-i-highlight" d="M66 214H116M146 214H188" opacity=".44"/>
+    <rect class="neo-i-primary" x="58" y="72" width="64" height="64" rx="20"/><rect class="neo-i-secondary" x="136" y="72" width="62" height="38" rx="14"/><rect class="neo-i-accent" x="58" y="150" width="96" height="42" rx="16"/><rect class="neo-i-bg-strong" x="168" y="126" width="30" height="66" rx="12"/>
+</symbol>
+<symbol id="neo-icon-phone" viewBox="0 0 256 256">
+  <title>Phone</title>
+  <rect data-icon-frame="decor" class="neo-i-shadow-light" x="17" y="17" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-shadow-dark" x="38" y="38" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-surface" x="28" y="28" width="200" height="200" rx="42"/><path data-icon-frame="decor" class="neo-i-highlight" d="M56 50H166M50 58V132" opacity=".76"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M90 210H194M210 92V174" opacity=".68"/><path data-icon-frame="decor" class="neo-i-inset" d="M50 72H94M162 72H206" opacity=".68"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M54 188H100M156 188H202" opacity=".48"/><path data-icon-frame="decor" class="neo-i-highlight" d="M66 214H116M146 214H188" opacity=".44"/>
+    <rect class="neo-i-primary" x="88" y="54" width="80" height="148" rx="24"/><path class="neo-i-line-2" d="M110 78H146M112 176H144"/><rect class="neo-i-bg-strong" x="104" y="96" width="48" height="60" rx="12"/>
+</symbol>
+<symbol id="neo-icon-palette" viewBox="-8 -8 272 272">
+  <title>Palette</title>
+  <rect data-icon-frame="decor" class="neo-i-shadow-light" x="17" y="17" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-shadow-dark" x="38" y="38" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-surface" x="28" y="28" width="200" height="200" rx="42"/><path data-icon-frame="decor" class="neo-i-highlight" d="M56 50H166M50 58V132" opacity=".76"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M90 210H194M210 92V174" opacity=".68"/><path data-icon-frame="decor" class="neo-i-inset" d="M50 72H94M162 72H206" opacity=".68"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M54 188H100M156 188H202" opacity=".48"/><path data-icon-frame="decor" class="neo-i-highlight" d="M66 214H116M146 214H188" opacity=".44"/>
+    <path class="neo-i-primary" d="M128 60C89 60 58 89 58 128C58 168 90 196 129 196H145C159 196 168 187 168 175C168 165 176 158 187 158C196 158 204 150 204 137C204 94 171 60 128 60Z"/><circle class="neo-i-accent" cx="98" cy="112" r="10"/><circle class="neo-i-secondary" cx="126" cy="96" r="10"/><circle class="neo-i-warning" cx="154" cy="116" r="10"/><circle class="neo-i-bg-strong" cx="122" cy="154" r="12"/>
+</symbol>
+<symbol id="neo-icon-heart" viewBox="0 0 256 256">
+  <title>Heart</title>
+  <rect data-icon-frame="decor" class="neo-i-shadow-light" x="17" y="17" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-shadow-dark" x="38" y="38" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-surface" x="28" y="28" width="200" height="200" rx="42"/><path data-icon-frame="decor" class="neo-i-highlight" d="M56 50H166M50 58V132" opacity=".76"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M90 210H194M210 92V174" opacity=".68"/><path data-icon-frame="decor" class="neo-i-inset" d="M50 72H94M162 72H206" opacity=".68"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M54 188H100M156 188H202" opacity=".48"/><path data-icon-frame="decor" class="neo-i-highlight" d="M66 214H116M146 214H188" opacity=".44"/>
+    <path class="neo-i-danger" d="M128 194C92 166 66 143 66 111C66 90 81 76 101 76C113 76 123 83 128 94C133 83 143 76 155 76C175 76 190 90 190 111C190 143 164 166 128 194Z"/><path class="neo-i-line-3" d="M91 117C91 101 102 94 114 99"/>
+</symbol>
+<symbol id="neo-icon-star" viewBox="0 0 256 256">
+  <title>Star</title>
+  <rect data-icon-frame="decor" class="neo-i-shadow-light" x="17" y="17" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-shadow-dark" x="38" y="38" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-surface" x="28" y="28" width="200" height="200" rx="42"/><path data-icon-frame="decor" class="neo-i-highlight" d="M56 50H166M50 58V132" opacity=".76"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M90 210H194M210 92V174" opacity=".68"/><path data-icon-frame="decor" class="neo-i-inset" d="M50 72H94M162 72H206" opacity=".68"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M54 188H100M156 188H202" opacity=".48"/><path data-icon-frame="decor" class="neo-i-highlight" d="M66 214H116M146 214H188" opacity=".44"/>
+    <path class="neo-i-warning" d="M128 56L148 104L200 108L160 141L172 192L128 164L84 192L96 141L56 108L108 104Z"/><path class="neo-i-line-3" d="M128 82L140 113L173 116"/>
+</symbol>
+<symbol id="neo-icon-target" viewBox="0 0 256 256">
+  <title>Target</title>
+  <rect data-icon-frame="decor" class="neo-i-shadow-light" x="17" y="17" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-shadow-dark" x="38" y="38" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-surface" x="28" y="28" width="200" height="200" rx="42"/><path data-icon-frame="decor" class="neo-i-highlight" d="M56 50H166M50 58V132" opacity=".76"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M90 210H194M210 92V174" opacity=".68"/><path data-icon-frame="decor" class="neo-i-inset" d="M50 72H94M162 72H206" opacity=".68"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M54 188H100M156 188H202" opacity=".48"/><path data-icon-frame="decor" class="neo-i-highlight" d="M66 214H116M146 214H188" opacity=".44"/>
+    <circle class="neo-i-primary" cx="128" cy="128" r="66"/><circle class="neo-i-line-2" cx="128" cy="128" r="40"/><circle class="neo-i-accent" cx="128" cy="128" r="14"/><path class="neo-i-muted" d="M128 52V84M128 172V204M52 128H84M172 128H204"/>
+</symbol>
+<symbol id="neo-icon-megaphone" viewBox="-8 -8 272 272">
+  <title>Megaphone</title>
+  <rect data-icon-frame="decor" class="neo-i-shadow-light" x="17" y="17" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-shadow-dark" x="38" y="38" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-surface" x="28" y="28" width="200" height="200" rx="42"/><path data-icon-frame="decor" class="neo-i-highlight" d="M56 50H166M50 58V132" opacity=".76"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M90 210H194M210 92V174" opacity=".68"/><path data-icon-frame="decor" class="neo-i-inset" d="M50 72H94M162 72H206" opacity=".68"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M54 188H100M156 188H202" opacity=".48"/><path data-icon-frame="decor" class="neo-i-highlight" d="M66 214H116M146 214H188" opacity=".44"/>
+    <path class="neo-i-primary" d="M74 134H50V94H74L168 66V162Z"/><path class="neo-i-line-2" d="M168 91C188 96 200 111 200 128C200 145 188 160 168 165"/><path class="neo-i-accent" d="M78 134L96 190H122L104 134Z"/>
+</symbol>
+<symbol id="neo-icon-cursor" viewBox="0 0 256 256">
+  <title>Cursor</title>
+  <rect data-icon-frame="decor" class="neo-i-shadow-light" x="17" y="17" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-shadow-dark" x="38" y="38" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-surface" x="28" y="28" width="200" height="200" rx="42"/><path data-icon-frame="decor" class="neo-i-highlight" d="M56 50H166M50 58V132" opacity=".76"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M90 210H194M210 92V174" opacity=".68"/><path data-icon-frame="decor" class="neo-i-inset" d="M50 72H94M162 72H206" opacity=".68"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M54 188H100M156 188H202" opacity=".48"/><path data-icon-frame="decor" class="neo-i-highlight" d="M66 214H116M146 214H188" opacity=".44"/>
+    <path class="neo-i-primary" d="M76 58L190 134L139 146L116 198L76 58Z"/><path class="neo-i-line-3" d="M136 145L168 184"/>
+</symbol>
+</defs>
+</svg>

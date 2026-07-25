@@ -1,0 +1,557 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+<style>
+.bi-bg{fill:var(--bento-icon-bg,rgb(var(--usk-surface-rgb,255 255 255)/.98))}
+.bi-bg-strong{fill:var(--bento-icon-bg-strong,rgb(var(--usk-surface-strong-rgb,245 247 250)/.96))}
+.bi-bg-soft{fill:var(--bento-icon-bg-soft,rgb(var(--usk-surface-soft-rgb,232 238 248)/.82))}
+.bi-primary{fill:var(--bento-icon-primary-soft,rgb(var(--usk-primary-rgb,74 111 255)/.16));stroke:var(--bento-icon-primary,rgb(var(--usk-primary-rgb,74 111 255)))}
+.bi-secondary{fill:var(--bento-icon-secondary-soft,rgb(var(--usk-secondary-rgb,117 132 170)/.16));stroke:var(--bento-icon-secondary,rgb(var(--usk-secondary-rgb,117 132 170)))}
+.bi-accent{fill:var(--bento-icon-accent-soft,rgb(var(--usk-accent-rgb,255 151 94)/.18));stroke:var(--bento-icon-accent,rgb(var(--usk-accent-rgb,255 151 94)))}
+.bi-success{fill:rgb(var(--usk-success-rgb,44 174 118)/.2);stroke:var(--bento-icon-success,rgb(var(--usk-success-rgb,44 174 118)))}
+.bi-warning{fill:rgb(var(--usk-warning-rgb,224 151 45)/.22);stroke:var(--bento-icon-warning,rgb(var(--usk-warning-rgb,224 151 45)))}
+.bi-danger{fill:rgb(var(--usk-danger-rgb,225 79 79)/.18);stroke:var(--bento-icon-danger,rgb(var(--usk-danger-rgb,225 79 79)))}
+.bi-line{fill:none;stroke:var(--bento-icon-primary,rgb(var(--usk-primary-rgb,74 111 255)));stroke-width:6;stroke-linecap:round;stroke-linejoin:round}
+.bi-line-2{fill:none;stroke:var(--bento-icon-secondary,rgb(var(--usk-secondary-rgb,117 132 170)));stroke-width:4.45;stroke-linecap:round;stroke-linejoin:round}
+.bi-line-3{fill:none;stroke:var(--bento-icon-accent,rgb(var(--usk-accent-rgb,255 151 94)));stroke-width:3.75;stroke-linecap:round;stroke-linejoin:round}
+.bi-muted{fill:none;stroke:var(--bento-icon-muted,rgb(var(--usk-text-muted-rgb,105 116 130)));stroke-width:2.65;stroke-linecap:round;stroke-linejoin:round}
+.bi-surface{fill:var(--bento-icon-bg,rgb(var(--usk-surface-rgb,255 255 255)/.98));stroke:var(--bento-icon-border,rgb(var(--usk-border-rgb,190 199 214)/.62));stroke-width:4}
+.bi-chip{fill:var(--bento-icon-bg-soft,rgb(var(--usk-surface-soft-rgb,232 238 248)/.82));stroke:var(--bento-icon-border,rgb(var(--usk-border-rgb,190 199 214)/.62));stroke-width:3}
+[data-icon-frame]{opacity:var(--usk-icon-frame-opacity,1)}
+[data-icon-frame="decor"]{opacity:var(--usk-icon-frame-decor-opacity,var(--usk-icon-frame-opacity,1))}
+[data-icon-glyph="play"]{fill:var(--usk-icon-play,var(--usk-icon-foreground,rgb(var(--usk-text-rgb,255 255 255))));stroke:none;opacity:1}
+/* UI Style Kit Icons: generated sprite contrast guard */
+.bi-line{stroke:var(--bento-icon-primary,rgb(var(--usk-primary-rgb,37 99 235)));stroke:color-mix(in srgb,var(--bento-icon-primary,rgb(var(--usk-primary-rgb,37 99 235))) 58%,rgb(var(--usk-text-rgb,15 23 42)) 42%)}
+.bi-line-2{stroke:var(--bento-icon-secondary,rgb(var(--usk-secondary-rgb,100 116 139)));stroke:color-mix(in srgb,var(--bento-icon-secondary,rgb(var(--usk-secondary-rgb,100 116 139))) 52%,rgb(var(--usk-text-rgb,15 23 42)) 48%)}
+.bi-line-3{stroke:var(--bento-icon-accent,rgb(var(--usk-accent-rgb,14 165 233)));stroke:color-mix(in srgb,var(--bento-icon-accent,rgb(var(--usk-accent-rgb,14 165 233))) 52%,rgb(var(--usk-text-rgb,15 23 42)) 48%)}
+.bi-primary{stroke:var(--bento-icon-primary,rgb(var(--usk-primary-rgb,37 99 235)));stroke:color-mix(in srgb,var(--bento-icon-primary,rgb(var(--usk-primary-rgb,37 99 235))) 58%,rgb(var(--usk-text-rgb,15 23 42)) 42%);stroke-width:var(--usk-icon-fill-keyline-width,3.5);stroke-linejoin:round}
+.bi-secondary{stroke:var(--bento-icon-secondary,rgb(var(--usk-secondary-rgb,100 116 139)));stroke:color-mix(in srgb,var(--bento-icon-secondary,rgb(var(--usk-secondary-rgb,100 116 139))) 52%,rgb(var(--usk-text-rgb,15 23 42)) 48%);stroke-width:var(--usk-icon-fill-keyline-width,3.5);stroke-linejoin:round}
+.bi-accent{stroke:var(--bento-icon-accent,rgb(var(--usk-accent-rgb,14 165 233)));stroke:color-mix(in srgb,var(--bento-icon-accent,rgb(var(--usk-accent-rgb,14 165 233))) 52%,rgb(var(--usk-text-rgb,15 23 42)) 48%);stroke-width:var(--usk-icon-fill-keyline-width,3.5);stroke-linejoin:round}
+.bi-success{stroke:var(--bento-icon-success,rgb(var(--usk-success-rgb,22 163 74)));stroke:color-mix(in srgb,var(--bento-icon-success,rgb(var(--usk-success-rgb,22 163 74))) 52%,rgb(var(--usk-text-rgb,15 23 42)) 48%);stroke-width:var(--usk-icon-fill-keyline-width,3.5);stroke-linejoin:round}
+.bi-warning{stroke:var(--bento-icon-warning,rgb(var(--usk-warning-rgb,202 138 4)));stroke:color-mix(in srgb,var(--bento-icon-warning,rgb(var(--usk-warning-rgb,202 138 4))) 52%,rgb(var(--usk-text-rgb,15 23 42)) 48%);stroke-width:var(--usk-icon-fill-keyline-width,3.5);stroke-linejoin:round}
+.bi-danger{stroke:var(--bento-icon-danger,rgb(var(--usk-danger-rgb,220 38 38)));stroke:color-mix(in srgb,var(--bento-icon-danger,rgb(var(--usk-danger-rgb,220 38 38))) 52%,rgb(var(--usk-text-rgb,15 23 42)) 48%);stroke-width:var(--usk-icon-fill-keyline-width,3.5);stroke-linejoin:round}
+.bi-muted{stroke:var(--bento-icon-muted,rgb(var(--usk-text-muted-rgb,100 116 139)));stroke:color-mix(in srgb,var(--bento-icon-muted,rgb(var(--usk-text-muted-rgb,100 116 139))) 38%,rgb(var(--usk-text-rgb,15 23 42)) 62%)}
+.bi-bg-strong{stroke:var(--bento-icon-border,rgb(var(--usk-border-rgb,100 116 139)));stroke:color-mix(in srgb,var(--bento-icon-border,rgb(var(--usk-border-rgb,100 116 139))) 28%,rgb(var(--usk-text-rgb,15 23 42)) 72%);stroke-width:var(--usk-icon-keyline-width,3.5);stroke-linejoin:round}
+</style>
+<defs>
+<symbol id="bento-icon-home" viewBox="0 0 256 256">
+  <title>Home</title>
+  <rect data-icon-frame="decor" class="bi-surface" x="26" y="28" width="204" height="200" rx="38"/>
+    <rect class="bi-bg-soft" x="48" y="52" width="68" height="48" rx="18" opacity=".88"/>
+    <rect class="bi-bg-soft" x="148" y="164" width="52" height="34" rx="14" opacity=".74"/>
+    <path class="bi-muted" d="M132 53H178M54 118H92M164 112H202" opacity=".42"/>
+    <path class="bi-line" d="M66 132L128 80L190 132"/><rect class="bi-bg-strong" x="84" y="126" width="88" height="62" rx="18"/><path class="bi-line-3" d="M116 188V153H140V188"/>
+</symbol>
+<symbol id="bento-icon-dashboard" viewBox="0 0 256 256">
+  <title>Dashboard</title>
+  <rect data-icon-frame="decor" class="bi-surface" x="26" y="28" width="204" height="200" rx="38"/>
+    <rect class="bi-bg-soft" x="48" y="52" width="68" height="48" rx="18" opacity=".88"/>
+    <rect class="bi-bg-soft" x="148" y="164" width="52" height="34" rx="14" opacity=".74"/>
+    <path class="bi-muted" d="M132 53H178M54 118H92M164 112H202" opacity=".42"/>
+    <rect class="bi-primary" x="62" y="78" width="58" height="72" rx="18"/><rect class="bi-secondary" x="136" y="78" width="58" height="40" rx="16"/><rect class="bi-accent" x="136" y="134" width="58" height="54" rx="18"/><path class="bi-muted" d="M78 169H111M151 101H179M151 161H179"/>
+</symbol>
+<symbol id="bento-icon-browser" viewBox="-8 -8 272 272">
+  <title>Browser</title>
+  <rect data-icon-frame="decor" class="bi-surface" x="26" y="28" width="204" height="200" rx="38"/>
+    <rect class="bi-bg-soft" x="48" y="52" width="68" height="48" rx="18" opacity=".88"/>
+    <rect class="bi-bg-soft" x="148" y="164" width="52" height="34" rx="14" opacity=".74"/>
+    <path class="bi-muted" d="M132 53H178M54 118H92M164 112H202" opacity=".42"/>
+    <rect class="bi-bg-strong" x="56" y="74" width="144" height="112" rx="20"/><path class="bi-line" d="M56 106H200"/><circle class="bi-danger" cx="80" cy="90" r="6"/><circle class="bi-warning" cx="100" cy="90" r="6"/><circle class="bi-success" cx="120" cy="90" r="6"/><rect class="bi-accent" x="84" y="128" width="88" height="34" rx="12"/>
+</symbol>
+<symbol id="bento-icon-search" viewBox="0 0 256 256">
+  <title>Search</title>
+  <rect data-icon-frame="decor" class="bi-surface" x="26" y="28" width="204" height="200" rx="38"/>
+    <rect class="bi-bg-soft" x="48" y="52" width="68" height="48" rx="18" opacity=".88"/>
+    <rect class="bi-bg-soft" x="148" y="164" width="52" height="34" rx="14" opacity=".74"/>
+    <path class="bi-muted" d="M132 53H178M54 118H92M164 112H202" opacity=".42"/>
+    <rect class="bi-bg-strong" x="72" y="72" width="84" height="84" rx="28"/><circle class="bi-line" cx="114" cy="114" r="36"/><path class="bi-line-3" d="M142 142L190 190"/><path class="bi-muted" d="M96 98C106 88 124 87 136 96"/>
+</symbol>
+<symbol id="bento-icon-user" viewBox="0 0 256 256">
+  <title>User</title>
+  <rect data-icon-frame="decor" class="bi-surface" x="26" y="28" width="204" height="200" rx="38"/>
+    <rect class="bi-bg-soft" x="48" y="52" width="68" height="48" rx="18" opacity=".88"/>
+    <rect class="bi-bg-soft" x="148" y="164" width="52" height="34" rx="14" opacity=".74"/>
+    <path class="bi-muted" d="M132 53H178M54 118H92M164 112H202" opacity=".42"/>
+    <circle class="bi-primary" cx="128" cy="90" r="31"/><path class="bi-line-2" d="M74 190C84 154 105 136 128 136C151 136 172 154 182 190"/><rect class="bi-chip" x="94" y="158" width="68" height="26" rx="13"/>
+</symbol>
+<symbol id="bento-icon-users" viewBox="-8 -8 272 272">
+  <title>Users</title>
+  <rect data-icon-frame="decor" class="bi-surface" x="26" y="28" width="204" height="200" rx="38"/>
+    <rect class="bi-bg-soft" x="48" y="52" width="68" height="48" rx="18" opacity=".88"/>
+    <rect class="bi-bg-soft" x="148" y="164" width="52" height="34" rx="14" opacity=".74"/>
+    <path class="bi-muted" d="M132 53H178M54 118H92M164 112H202" opacity=".42"/>
+    <circle class="bi-secondary" cx="91" cy="107" r="22"/><circle class="bi-secondary" cx="165" cy="107" r="22"/><circle class="bi-primary" cx="128" cy="87" r="29"/><path class="bi-line-2" d="M75 193C83 159 104 140 128 140C152 140 173 159 181 193"/>
+</symbol>
+<symbol id="bento-icon-settings" viewBox="0 0 256 256">
+  <title>Settings</title>
+  <rect data-icon-frame="decor" class="bi-surface" x="26" y="28" width="204" height="200" rx="38"/>
+    <rect class="bi-bg-soft" x="48" y="52" width="68" height="48" rx="18" opacity=".88"/>
+    <rect class="bi-bg-soft" x="148" y="164" width="52" height="34" rx="14" opacity=".74"/>
+    <path class="bi-muted" d="M132 53H178M54 118H92M164 112H202" opacity=".42"/>
+    <path class="bi-primary" stroke-width="5" d="M128 58L145 78L171 75L180 100L202 115L191 140L202 163L179 176L171 200L145 196L128 216L111 196L85 200L77 176L54 163L65 140L54 115L76 100L85 75L111 78Z"/><circle class="bi-line-2" cx="128" cy="138" r="29"/><circle class="bi-accent" cx="128" cy="138" r="10"/>
+</symbol>
+<symbol id="bento-icon-bell" viewBox="0 0 256 256">
+  <title>Notifications</title>
+  <rect data-icon-frame="decor" class="bi-surface" x="26" y="28" width="204" height="200" rx="38"/>
+    <rect class="bi-bg-soft" x="48" y="52" width="68" height="48" rx="18" opacity=".88"/>
+    <rect class="bi-bg-soft" x="148" y="164" width="52" height="34" rx="14" opacity=".74"/>
+    <path class="bi-muted" d="M132 53H178M54 118H92M164 112H202" opacity=".42"/>
+    <path class="bi-primary" stroke-width="5" d="M84 150V116C84 89 102 70 128 70C154 70 172 89 172 116V150L190 178H66Z"/><path class="bi-line-3" d="M112 190C119 202 137 202 144 190"/><circle class="bi-danger" cx="178" cy="74" r="15"/>
+</symbol>
+<symbol id="bento-icon-message" viewBox="0 0 256 256">
+  <title>Message</title>
+  <rect data-icon-frame="decor" class="bi-surface" x="26" y="28" width="204" height="200" rx="38"/>
+    <rect class="bi-bg-soft" x="48" y="52" width="68" height="48" rx="18" opacity=".88"/>
+    <rect class="bi-bg-soft" x="148" y="164" width="52" height="34" rx="14" opacity=".74"/>
+    <path class="bi-muted" d="M132 53H178M54 118H92M164 112H202" opacity=".42"/>
+    <path class="bi-primary" stroke-width="5" d="M58 82H198V160H134L96 194V160H58Z"/><path class="bi-muted" d="M84 108H172M84 132H148"/><rect class="bi-accent" x="150" y="121" width="26" height="16" rx="8"/>
+</symbol>
+<symbol id="bento-icon-mail" viewBox="-8 -8 272 272">
+  <title>Email</title>
+  <rect data-icon-frame="decor" class="bi-surface" x="26" y="28" width="204" height="200" rx="38"/>
+    <rect class="bi-bg-soft" x="48" y="52" width="68" height="48" rx="18" opacity=".88"/>
+    <rect class="bi-bg-soft" x="148" y="164" width="52" height="34" rx="14" opacity=".74"/>
+    <path class="bi-muted" d="M132 53H178M54 118H92M164 112H202" opacity=".42"/>
+    <rect class="bi-primary" x="56" y="86" width="144" height="96" rx="20"/><path class="bi-line-2" d="M64 103L128 143L192 103"/><path class="bi-line-3" d="M67 176L111 140M189 176L145 140"/>
+</symbol>
+<symbol id="bento-icon-calendar" viewBox="-8 -8 272 272">
+  <title>Calendar</title>
+  <rect data-icon-frame="decor" class="bi-surface" x="26" y="28" width="204" height="200" rx="38"/>
+    <rect class="bi-bg-soft" x="48" y="52" width="68" height="48" rx="18" opacity=".88"/>
+    <rect class="bi-bg-soft" x="148" y="164" width="52" height="34" rx="14" opacity=".74"/>
+    <path class="bi-muted" d="M132 53H178M54 118H92M164 112H202" opacity=".42"/>
+    <rect class="bi-primary" x="60" y="76" width="136" height="122" rx="20"/><path class="bi-line-2" d="M90 60V94M166 60V94M64 112H192"/><rect class="bi-accent" x="88" y="136" width="24" height="20" rx="7"/><rect class="bi-secondary" x="124" y="136" width="24" height="20" rx="7"/><rect class="bi-bg-strong" x="160" y="136" width="24" height="20" rx="7"/>
+</symbol>
+<symbol id="bento-icon-upload" viewBox="0 0 256 256">
+  <title>Upload</title>
+  <rect data-icon-frame="decor" class="bi-surface" x="26" y="28" width="204" height="200" rx="38"/>
+    <rect class="bi-bg-soft" x="48" y="52" width="68" height="48" rx="18" opacity=".88"/>
+    <rect class="bi-bg-soft" x="148" y="164" width="52" height="34" rx="14" opacity=".74"/>
+    <path class="bi-muted" d="M132 53H178M54 118H92M164 112H202" opacity=".42"/>
+    <path class="bi-line" d="M128 70V157M93 105L128 70L163 105"/><rect class="bi-primary" x="72" y="154" width="112" height="40" rx="16"/><path class="bi-line-3" d="M100 194H156"/>
+</symbol>
+<symbol id="bento-icon-download" viewBox="0 0 256 256">
+  <title>Download</title>
+  <rect data-icon-frame="decor" class="bi-surface" x="26" y="28" width="204" height="200" rx="38"/>
+    <rect class="bi-bg-soft" x="48" y="52" width="68" height="48" rx="18" opacity=".88"/>
+    <rect class="bi-bg-soft" x="148" y="164" width="52" height="34" rx="14" opacity=".74"/>
+    <path class="bi-muted" d="M132 53H178M54 118H92M164 112H202" opacity=".42"/>
+    <path class="bi-line" d="M128 70V157M93 122L128 157L163 122"/><rect class="bi-primary" x="72" y="154" width="112" height="40" rx="16"/><path class="bi-line-3" d="M100 194H156"/>
+</symbol>
+<symbol id="bento-icon-folder" viewBox="0 0 256 256">
+  <title>Folder</title>
+  <rect data-icon-frame="decor" class="bi-surface" x="26" y="28" width="204" height="200" rx="38"/>
+    <rect class="bi-bg-soft" x="48" y="52" width="68" height="48" rx="18" opacity=".88"/>
+    <rect class="bi-bg-soft" x="148" y="164" width="52" height="34" rx="14" opacity=".74"/>
+    <path class="bi-muted" d="M132 53H178M54 118H92M164 112H202" opacity=".42"/>
+    <path class="bi-primary" stroke-width="5" d="M54 91H110L127 110H202V188H54Z"/><path class="bi-line-2" d="M58 118H198"/><rect class="bi-accent" x="82" y="142" width="54" height="26" rx="10"/>
+</symbol>
+<symbol id="bento-icon-file" viewBox="0 0 256 256">
+  <title>File</title>
+  <rect data-icon-frame="decor" class="bi-surface" x="26" y="28" width="204" height="200" rx="38"/>
+    <rect class="bi-bg-soft" x="48" y="52" width="68" height="48" rx="18" opacity=".88"/>
+    <rect class="bi-bg-soft" x="148" y="164" width="52" height="34" rx="14" opacity=".74"/>
+    <path class="bi-muted" d="M132 53H178M54 118H92M164 112H202" opacity=".42"/>
+    <path class="bi-primary" stroke-width="5" d="M78 58H147L184 95V198H78Z"/><path class="bi-line-2" d="M147 58V96H184"/><path class="bi-muted" d="M101 126H157M101 153H162M101 180H136"/>
+</symbol>
+<symbol id="bento-icon-image" viewBox="0 0 256 256">
+  <title>Image</title>
+  <rect data-icon-frame="decor" class="bi-surface" x="26" y="28" width="204" height="200" rx="38"/>
+    <rect class="bi-bg-soft" x="48" y="52" width="68" height="48" rx="18" opacity=".88"/>
+    <rect class="bi-bg-soft" x="148" y="164" width="52" height="34" rx="14" opacity=".74"/>
+    <path class="bi-muted" d="M132 53H178M54 118H92M164 112H202" opacity=".42"/>
+    <rect class="bi-primary" x="58" y="74" width="140" height="116" rx="20"/><circle class="bi-warning" cx="161" cy="105" r="14"/><path class="bi-line-2" d="M72 176L107 136L132 162L151 142L187 176Z"/>
+</symbol>
+<symbol id="bento-icon-video" viewBox="0 0 256 256">
+  <title>Video</title>
+  <rect data-icon-frame="decor" class="bi-surface" x="26" y="28" width="204" height="200" rx="38"/>
+    <rect class="bi-bg-soft" x="48" y="52" width="68" height="48" rx="18" opacity=".88"/>
+    <rect class="bi-bg-soft" x="148" y="164" width="52" height="34" rx="14" opacity=".74"/>
+    <path class="bi-muted" d="M132 53H178M54 118H92M164 112H202" opacity=".42"/>
+    <g data-icon-video="player">
+      <rect data-icon-video="screen" class="bi-bg-strong" x="48" y="82" width="132" height="92" rx="18" stroke="var(--bento-icon-primary,rgb(var(--usk-primary-rgb,74 111 255)))" stroke-width="6"/>
+      <path data-icon-video="camera" class="bi-accent" d="M180 108L212 90V166L180 148Z" stroke-width="6"/>
+      <path data-icon-video="controls" class="bi-muted" d="M68 104H94M68 158H126M144 158H160" opacity=".62"/>
+      <circle data-icon-video="record" class="bi-accent" cx="150" cy="104" r="6" stroke-width="4"/>
+      <path d="M96 104L144 128L96 152Z" data-icon-glyph="play"/>
+    </g>
+</symbol>
+<symbol id="bento-icon-camera" viewBox="0 0 256 256">
+  <title>Camera</title>
+  <rect data-icon-frame="decor" class="bi-surface" x="26" y="28" width="204" height="200" rx="38"/>
+    <rect class="bi-bg-soft" x="48" y="52" width="68" height="48" rx="18" opacity=".88"/>
+    <rect class="bi-bg-soft" x="148" y="164" width="52" height="34" rx="14" opacity=".74"/>
+    <path class="bi-muted" d="M132 53H178M54 118H92M164 112H202" opacity=".42"/>
+    <path class="bi-primary" stroke-width="5" d="M58 100H96L108 82H148L160 100H198V184H58Z"/><circle class="bi-line-2" cx="128" cy="142" r="31"/><circle class="bi-accent" cx="128" cy="142" r="12"/><rect class="bi-bg-strong" x="165" y="110" width="22" height="16" rx="8"/>
+</symbol>
+<symbol id="bento-icon-database" viewBox="0 0 256 256">
+  <title>Database</title>
+  <rect data-icon-frame="decor" class="bi-surface" x="26" y="28" width="204" height="200" rx="38"/>
+    <rect class="bi-bg-soft" x="48" y="52" width="68" height="48" rx="18" opacity=".88"/>
+    <rect class="bi-bg-soft" x="148" y="164" width="52" height="34" rx="14" opacity=".74"/>
+    <path class="bi-muted" d="M132 53H178M54 118H92M164 112H202" opacity=".42"/>
+    <ellipse class="bi-primary" cx="128" cy="78" rx="58" ry="24"/><path class="bi-line" d="M70 78V174C70 187 96 198 128 198C160 198 186 187 186 174V78"/><path class="bi-line-2" d="M70 111C70 124 96 135 128 135C160 135 186 124 186 111M70 144C70 157 96 168 128 168C160 168 186 157 186 144"/>
+</symbol>
+<symbol id="bento-icon-server" viewBox="-8 -8 272 272">
+  <title>Server</title>
+  <rect data-icon-frame="decor" class="bi-surface" x="26" y="28" width="204" height="200" rx="38"/>
+    <rect class="bi-bg-soft" x="48" y="52" width="68" height="48" rx="18" opacity=".88"/>
+    <rect class="bi-bg-soft" x="148" y="164" width="52" height="34" rx="14" opacity=".74"/>
+    <path class="bi-muted" d="M132 53H178M54 118H92M164 112H202" opacity=".42"/>
+    <rect class="bi-primary" x="62" y="70" width="132" height="48" rx="15"/><rect class="bi-secondary" x="62" y="138" width="132" height="48" rx="15"/><circle class="bi-success" cx="91" cy="94" r="7"/><circle class="bi-accent" cx="91" cy="162" r="7"/><path class="bi-muted" d="M116 94H171M116 162H171"/>
+</symbol>
+<symbol id="bento-icon-api" viewBox="0 0 256 256">
+  <title>API</title>
+  <rect data-icon-frame="decor" class="bi-surface" x="26" y="28" width="204" height="200" rx="38"/>
+    <rect class="bi-bg-soft" x="48" y="52" width="68" height="48" rx="18" opacity=".88"/>
+    <rect class="bi-bg-soft" x="148" y="164" width="52" height="34" rx="14" opacity=".74"/>
+    <path class="bi-muted" d="M132 53H178M54 118H92M164 112H202" opacity=".42"/>
+    <path class="bi-line" d="M78 96L48 128L78 160M178 96L208 128L178 160"/><path class="bi-line-3" d="M144 78L112 178"/><rect class="bi-chip" x="99" y="112" width="58" height="32" rx="12"/>
+</symbol>
+<symbol id="bento-icon-lock" viewBox="-8 -8 272 272">
+  <title>Lock</title>
+  <rect data-icon-frame="decor" class="bi-surface" x="26" y="28" width="204" height="200" rx="38"/>
+    <rect class="bi-bg-soft" x="48" y="52" width="68" height="48" rx="18" opacity=".88"/>
+    <rect class="bi-bg-soft" x="148" y="164" width="52" height="34" rx="14" opacity=".74"/>
+    <path class="bi-muted" d="M132 53H178M54 118H92M164 112H202" opacity=".42"/>
+    <rect class="bi-primary" x="70" y="112" width="116" height="84" rx="20"/><path class="bi-line" d="M91 112V94C91 71 106 56 128 56C150 56 165 71 165 94V112"/><circle class="bi-bg-strong" cx="128" cy="150" r="10"/><path class="bi-line-3" d="M128 160V176"/>
+</symbol>
+<symbol id="bento-icon-shield" viewBox="0 0 256 256">
+  <title>Shield</title>
+  <rect data-icon-frame="decor" class="bi-surface" x="26" y="28" width="204" height="200" rx="38"/>
+    <rect class="bi-bg-soft" x="48" y="52" width="68" height="48" rx="18" opacity=".88"/>
+    <rect class="bi-bg-soft" x="148" y="164" width="52" height="34" rx="14" opacity=".74"/>
+    <path class="bi-muted" d="M132 53H178M54 118H92M164 112H202" opacity=".42"/>
+    <path class="bi-primary" stroke-width="5" d="M128 55L190 82V126C190 169 164 198 128 215C92 198 66 169 66 126V82Z"/><path class="bi-line-3" d="M97 132L120 155L160 106"/><path class="bi-muted" d="M128 76V194"/>
+</symbol>
+<symbol id="bento-icon-key" viewBox="0 0 256 256">
+  <title>Key</title>
+  <rect data-icon-frame="decor" class="bi-surface" x="26" y="28" width="204" height="200" rx="38"/>
+    <rect class="bi-bg-soft" x="48" y="52" width="68" height="48" rx="18" opacity=".88"/>
+    <rect class="bi-bg-soft" x="148" y="164" width="52" height="34" rx="14" opacity=".74"/>
+    <path class="bi-muted" d="M132 53H178M54 118H92M164 112H202" opacity=".42"/>
+    <rect class="bi-primary" x="62" y="96" width="66" height="66" rx="24"/><circle class="bi-line-2" cx="95" cy="129" r="22"/><path class="bi-line" d="M128 129H202M170 129V151M190 129V144"/>
+</symbol>
+<symbol id="bento-icon-chart" viewBox="0 0 256 256">
+  <title>Chart</title>
+  <rect data-icon-frame="decor" class="bi-surface" x="26" y="28" width="204" height="200" rx="38"/>
+    <rect class="bi-bg-soft" x="48" y="52" width="68" height="48" rx="18" opacity=".88"/>
+    <rect class="bi-bg-soft" x="148" y="164" width="52" height="34" rx="14" opacity=".74"/>
+    <path class="bi-muted" d="M132 53H178M54 118H92M164 112H202" opacity=".42"/>
+    <path class="bi-muted" d="M66 188H196"/><rect class="bi-primary" x="78" y="134" width="24" height="54" rx="8"/><rect class="bi-secondary" x="116" y="102" width="24" height="86" rx="8"/><rect class="bi-accent" x="154" y="72" width="24" height="116" rx="8"/><path class="bi-line-2" d="M76 116L106 128L138 94L184 70"/>
+</symbol>
+<symbol id="bento-icon-activity" viewBox="0 0 256 256">
+  <title>Activity</title>
+  <rect data-icon-frame="decor" class="bi-surface" x="26" y="28" width="204" height="200" rx="38"/>
+    <rect class="bi-bg-soft" x="48" y="52" width="68" height="48" rx="18" opacity=".88"/>
+    <rect class="bi-bg-soft" x="148" y="164" width="52" height="34" rx="14" opacity=".74"/>
+    <path class="bi-muted" d="M132 53H178M54 118H92M164 112H202" opacity=".42"/>
+    <rect class="bi-chip" x="60" y="82" width="136" height="92" rx="22"/><path class="bi-line" d="M62 137H84L99 94L128 181L148 118H171L184 94L206 137"/><path class="bi-line-3" d="M74 190H182"/>
+</symbol>
+<symbol id="bento-icon-credit-card" viewBox="-8 -8 272 272">
+  <title>Credit Card</title>
+  <rect data-icon-frame="decor" class="bi-surface" x="26" y="28" width="204" height="200" rx="38"/>
+    <rect class="bi-bg-soft" x="48" y="52" width="68" height="48" rx="18" opacity=".88"/>
+    <rect class="bi-bg-soft" x="148" y="164" width="52" height="34" rx="14" opacity=".74"/>
+    <path class="bi-muted" d="M132 53H178M54 118H92M164 112H202" opacity=".42"/>
+    <rect class="bi-primary" x="54" y="84" width="148" height="96" rx="20"/><path class="bi-line-2" d="M58 112H198"/><path class="bi-muted" d="M80 148H126M80 166H108"/><circle class="bi-accent" cx="166" cy="157" r="12"/><circle class="bi-secondary" cx="181" cy="157" r="12"/>
+</symbol>
+<symbol id="bento-icon-wallet" viewBox="0 0 256 256">
+  <title>Wallet</title>
+  <rect data-icon-frame="decor" class="bi-surface" x="26" y="28" width="204" height="200" rx="38"/>
+    <rect class="bi-bg-soft" x="48" y="52" width="68" height="48" rx="18" opacity=".88"/>
+    <rect class="bi-bg-soft" x="148" y="164" width="52" height="34" rx="14" opacity=".74"/>
+    <path class="bi-muted" d="M132 53H178M54 118H92M164 112H202" opacity=".42"/>
+    <path class="bi-primary" stroke-width="5" d="M62 88H176C190 88 198 96 198 110V178C198 190 190 198 176 198H62Z"/><rect class="bi-accent" x="142" y="128" width="64" height="40" rx="14"/><circle class="bi-bg-strong" cx="174" cy="148" r="8"/>
+</symbol>
+<symbol id="bento-icon-cart" viewBox="0 0 256 256">
+  <title>Cart</title>
+  <rect data-icon-frame="decor" class="bi-surface" x="26" y="28" width="204" height="200" rx="38"/>
+    <rect class="bi-bg-soft" x="48" y="52" width="68" height="48" rx="18" opacity=".88"/>
+    <rect class="bi-bg-soft" x="148" y="164" width="52" height="34" rx="14" opacity=".74"/>
+    <path class="bi-muted" d="M132 53H178M54 118H92M164 112H202" opacity=".42"/>
+    <path class="bi-line" d="M58 76H80L97 158H174L194 102H93"/><circle class="bi-accent" cx="105" cy="187" r="13"/><circle class="bi-secondary" cx="165" cy="187" r="13"/><rect class="bi-chip" x="108" y="120" width="60" height="24" rx="10"/>
+</symbol>
+<symbol id="bento-icon-invoice" viewBox="0 0 256 256">
+  <title>Invoice</title>
+  <rect data-icon-frame="decor" class="bi-surface" x="26" y="28" width="204" height="200" rx="38"/>
+    <rect class="bi-bg-soft" x="48" y="52" width="68" height="48" rx="18" opacity=".88"/>
+    <rect class="bi-bg-soft" x="148" y="164" width="52" height="34" rx="14" opacity=".74"/>
+    <path class="bi-muted" d="M132 53H178M54 118H92M164 112H202" opacity=".42"/>
+    <path class="bi-primary" stroke-width="5" d="M78 58H178V198L158 188L138 198L118 188L98 198L78 188Z"/><path class="bi-muted" d="M100 91H156M100 119H162M100 147H136"/><rect class="bi-accent" x="98" y="161" width="68" height="20" rx="8"/>
+</symbol>
+<symbol id="bento-icon-tax" viewBox="0 0 256 256">
+  <title>Tax</title>
+  <rect data-icon-frame="decor" class="bi-surface" x="26" y="28" width="204" height="200" rx="38"/>
+    <rect class="bi-bg-soft" x="48" y="52" width="68" height="48" rx="18" opacity=".88"/>
+    <rect class="bi-bg-soft" x="148" y="164" width="52" height="34" rx="14" opacity=".74"/>
+    <path class="bi-muted" d="M132 53H178M54 118H92M164 112H202" opacity=".42"/>
+    <rect class="bi-primary" x="65" y="75" width="126" height="108" rx="18"/><path class="bi-muted" d="M91 106H165M91 136H138M91 164H116"/><path class="bi-line-3" d="M148 136L170 158M170 136L148 158"/><path class="bi-line-2" d="M92 96V84H118"/>
+</symbol>
+<symbol id="bento-icon-login" viewBox="0 0 256 256">
+  <title>Login</title>
+  <rect data-icon-frame="decor" class="bi-surface" x="26" y="28" width="204" height="200" rx="38"/>
+    <rect class="bi-bg-soft" x="48" y="52" width="68" height="48" rx="18" opacity=".88"/>
+    <rect class="bi-bg-soft" x="148" y="164" width="52" height="34" rx="14" opacity=".74"/>
+    <path class="bi-muted" d="M132 53H178M54 118H92M164 112H202" opacity=".42"/>
+    <path class="bi-line-2" d="M60 78H133V106M133 150V178H60"/><path class="bi-line" d="M96 128H193M157 94L193 128L157 162"/><rect class="bi-accent" x="58" y="116" width="26" height="24" rx="10"/>
+</symbol>
+<symbol id="bento-icon-logout" viewBox="0 0 256 256">
+  <title>Logout</title>
+  <rect data-icon-frame="decor" class="bi-surface" x="26" y="28" width="204" height="200" rx="38"/>
+    <rect class="bi-bg-soft" x="48" y="52" width="68" height="48" rx="18" opacity=".88"/>
+    <rect class="bi-bg-soft" x="148" y="164" width="52" height="34" rx="14" opacity=".74"/>
+    <path class="bi-muted" d="M132 53H178M54 118H92M164 112H202" opacity=".42"/>
+    <path class="bi-line-2" d="M196 78H123V106M123 150V178H196"/><path class="bi-line" d="M160 128H63M99 94L63 128L99 162"/><rect class="bi-accent" x="172" y="116" width="26" height="24" rx="10"/>
+</symbol>
+<symbol id="bento-icon-edit" viewBox="0 0 256 256">
+  <title>Edit</title>
+  <rect data-icon-frame="decor" class="bi-surface" x="26" y="28" width="204" height="200" rx="38"/>
+    <rect class="bi-bg-soft" x="48" y="52" width="68" height="48" rx="18" opacity=".88"/>
+    <rect class="bi-bg-soft" x="148" y="164" width="52" height="34" rx="14" opacity=".74"/>
+    <path class="bi-muted" d="M132 53H178M54 118H92M164 112H202" opacity=".42"/>
+    <path class="bi-primary" stroke-width="5" d="M72 171L67 195L91 190L176 105L157 86Z"/><path class="bi-line-2" d="M145 98L164 117"/><rect class="bi-accent" x="159" y="75" width="36" height="28" rx="9" transform="rotate(45 177 89)"/>
+</symbol>
+<symbol id="bento-icon-trash" viewBox="0 0 256 256">
+  <title>Trash</title>
+  <rect data-icon-frame="decor" class="bi-surface" x="26" y="28" width="204" height="200" rx="38"/>
+    <rect class="bi-bg-soft" x="48" y="52" width="68" height="48" rx="18" opacity=".88"/>
+    <rect class="bi-bg-soft" x="148" y="164" width="52" height="34" rx="14" opacity=".74"/>
+    <path class="bi-muted" d="M132 53H178M54 118H92M164 112H202" opacity=".42"/>
+    <path class="bi-line" d="M83 95H173M108 95V73H148V95M94 111L101 194H155L162 111"/><path class="bi-line-2" d="M116 130V173M140 130V173"/><rect class="bi-danger" x="101" y="181" width="54" height="14" rx="7"/>
+</symbol>
+<symbol id="bento-icon-plus" viewBox="0 0 256 256">
+  <title>Plus</title>
+  <rect data-icon-frame="decor" class="bi-surface" x="26" y="28" width="204" height="200" rx="38"/>
+    <rect class="bi-bg-soft" x="48" y="52" width="68" height="48" rx="18" opacity=".88"/>
+    <rect class="bi-bg-soft" x="148" y="164" width="52" height="34" rx="14" opacity=".74"/>
+    <path class="bi-muted" d="M132 53H178M54 118H92M164 112H202" opacity=".42"/>
+    <rect class="bi-primary" x="67" y="67" width="122" height="122" rx="36"/><path class="bi-line-2" d="M128 88V168M88 128H168"/><rect class="bi-bg-strong" x="112" y="112" width="32" height="32" rx="10"/>
+</symbol>
+<symbol id="bento-icon-minus" viewBox="0 0 256 256">
+  <title>Minus</title>
+  <rect data-icon-frame="decor" class="bi-surface" x="26" y="28" width="204" height="200" rx="38"/>
+    <rect class="bi-bg-soft" x="48" y="52" width="68" height="48" rx="18" opacity=".88"/>
+    <rect class="bi-bg-soft" x="148" y="164" width="52" height="34" rx="14" opacity=".74"/>
+    <path class="bi-muted" d="M132 53H178M54 118H92M164 112H202" opacity=".42"/>
+    <rect class="bi-primary" x="67" y="67" width="122" height="122" rx="36"/><path class="bi-line-2" d="M88 128H168"/><rect class="bi-bg-strong" x="100" y="116" width="56" height="24" rx="10"/>
+</symbol>
+<symbol id="bento-icon-filter" viewBox="0 0 256 256">
+  <title>Filter</title>
+  <rect data-icon-frame="decor" class="bi-surface" x="26" y="28" width="204" height="200" rx="38"/>
+    <rect class="bi-bg-soft" x="48" y="52" width="68" height="48" rx="18" opacity=".88"/>
+    <rect class="bi-bg-soft" x="148" y="164" width="52" height="34" rx="14" opacity=".74"/>
+    <path class="bi-muted" d="M132 53H178M54 118H92M164 112H202" opacity=".42"/>
+    <path class="bi-primary" stroke-width="5" d="M60 74H196L145 134V187L111 202V134Z"/><path class="bi-line-2" d="M84 96H172M103 124H153"/><rect class="bi-accent" x="111" y="165" width="34" height="26" rx="10"/>
+</symbol>
+<symbol id="bento-icon-menu" viewBox="0 0 256 256">
+  <title>Menu</title>
+  <rect data-icon-frame="decor" class="bi-surface" x="26" y="28" width="204" height="200" rx="38"/>
+    <rect class="bi-bg-soft" x="48" y="52" width="68" height="48" rx="18" opacity=".88"/>
+    <rect class="bi-bg-soft" x="148" y="164" width="52" height="34" rx="14" opacity=".74"/>
+    <path class="bi-muted" d="M132 53H178M54 118H92M164 112H202" opacity=".42"/>
+    <rect class="bi-primary" x="68" y="76" width="120" height="26" rx="13"/><rect class="bi-secondary" x="68" y="116" width="120" height="26" rx="13"/><rect class="bi-accent" x="68" y="156" width="120" height="26" rx="13"/><path class="bi-muted" d="M88 89H146M88 129H170M88 169H132"/>
+</symbol>
+<symbol id="bento-icon-code" viewBox="0 0 256 256">
+  <title>Code</title>
+  <rect data-icon-frame="decor" class="bi-surface" x="26" y="28" width="204" height="200" rx="38"/>
+    <rect class="bi-bg-soft" x="48" y="52" width="68" height="48" rx="18" opacity=".88"/>
+    <rect class="bi-bg-soft" x="148" y="164" width="52" height="34" rx="14" opacity=".74"/>
+    <path class="bi-muted" d="M132 53H178M54 118H92M164 112H202" opacity=".42"/>
+    <path class="bi-line" d="M82 93L48 128L82 163M174 93L208 128L174 163"/><path class="bi-line-3" d="M144 73L112 183"/><rect class="bi-chip" x="96" y="184" width="64" height="18" rx="9"/>
+</symbol>
+<symbol id="bento-icon-terminal" viewBox="0 0 256 256">
+  <title>Terminal</title>
+  <rect data-icon-frame="decor" class="bi-surface" x="26" y="28" width="204" height="200" rx="38"/>
+    <rect class="bi-bg-soft" x="48" y="52" width="68" height="48" rx="18" opacity=".88"/>
+    <rect class="bi-bg-soft" x="148" y="164" width="52" height="34" rx="14" opacity=".74"/>
+    <path class="bi-muted" d="M132 53H178M54 118H92M164 112H202" opacity=".42"/>
+    <rect class="bi-primary" x="55" y="72" width="146" height="116" rx="20"/><path class="bi-line-2" d="M55 100H201"/><path class="bi-line-3" d="M82 126L103 143L82 160M117 160H164"/><circle class="bi-danger" cx="76" cy="86" r="5"/><circle class="bi-warning" cx="94" cy="86" r="5"/><circle class="bi-success" cx="112" cy="86" r="5"/>
+</symbol>
+<symbol id="bento-icon-rocket" viewBox="0 0 256 256">
+  <title>Rocket</title>
+  <rect data-icon-frame="decor" class="bi-surface" x="26" y="28" width="204" height="200" rx="38"/>
+    <rect class="bi-bg-soft" x="48" y="52" width="68" height="48" rx="18" opacity=".88"/>
+    <rect class="bi-bg-soft" x="148" y="164" width="52" height="34" rx="14" opacity=".74"/>
+    <path class="bi-muted" d="M132 53H178M54 118H92M164 112H202" opacity=".42"/>
+    <path class="bi-primary" stroke-width="5" d="M135 55C169 65 189 87 199 121L161 158L99 96Z"/><circle class="bi-line-3" cx="160" cy="94" r="15"/><path class="bi-accent" stroke-width="5" d="M96 99L70 109L91 130M158 160L147 186L126 165"/><path class="bi-line-2" d="M96 160L67 189M113 176L97 207"/>
+</symbol>
+<symbol id="bento-icon-bug" viewBox="-8 -8 272 272">
+  <title>Bug</title>
+  <rect data-icon-frame="decor" class="bi-surface" x="26" y="28" width="204" height="200" rx="38"/>
+    <rect class="bi-bg-soft" x="48" y="52" width="68" height="48" rx="18" opacity=".88"/>
+    <rect class="bi-bg-soft" x="148" y="164" width="52" height="34" rx="14" opacity=".74"/>
+    <path class="bi-muted" d="M132 53H178M54 118H92M164 112H202" opacity=".42"/>
+    <ellipse class="bi-primary" cx="128" cy="137" rx="45" ry="55"/><circle class="bi-secondary" cx="128" cy="80" r="24"/><path class="bi-muted" d="M128 106V190M82 118L58 96M174 118L198 96M78 147H50M178 147H206M88 177L61 194M168 177L195 194"/><circle class="bi-bg-strong" cx="119" cy="79" r="5"/><circle class="bi-bg-strong" cx="137" cy="79" r="5"/>
+</symbol>
+<symbol id="bento-icon-help" viewBox="0 0 256 256">
+  <title>Help</title>
+  <rect data-icon-frame="decor" class="bi-surface" x="26" y="28" width="204" height="200" rx="38"/>
+    <rect class="bi-bg-soft" x="48" y="52" width="68" height="48" rx="18" opacity=".88"/>
+    <rect class="bi-bg-soft" x="148" y="164" width="52" height="34" rx="14" opacity=".74"/>
+    <path class="bi-muted" d="M132 53H178M54 118H92M164 112H202" opacity=".42"/>
+    <rect class="bi-primary" x="66" y="66" width="124" height="124" rx="38"/><path class="bi-line-2" d="M105 106C107 86 122 76 140 82C158 88 163 108 151 122C142 132 129 134 128 151"/><circle class="bi-accent" cx="128" cy="178" r="9"/>
+</symbol>
+<symbol id="bento-icon-link" viewBox="-8 -8 272 272">
+  <title>Link</title>
+  <rect data-icon-frame="decor" class="bi-surface" x="26" y="28" width="204" height="200" rx="38"/>
+    <rect class="bi-bg-soft" x="48" y="52" width="68" height="48" rx="18" opacity=".88"/>
+    <rect class="bi-bg-soft" x="148" y="164" width="52" height="34" rx="14" opacity=".74"/>
+    <path class="bi-muted" d="M132 53H178M54 118H92M164 112H202" opacity=".42"/>
+    <path class="bi-line" d="M106 91L121 76C140 57 172 57 191 76C210 95 210 127 191 146L171 166"/><path class="bi-line-2" d="M150 165L135 180C116 199 84 199 65 180C46 161 46 129 65 110L85 90"/><rect class="bi-chip" x="104" y="116" width="48" height="24" rx="12"/>
+</symbol>
+<symbol id="bento-icon-cloud" viewBox="-8 -8 272 272">
+  <title>Cloud</title>
+  <rect data-icon-frame="decor" class="bi-surface" x="26" y="28" width="204" height="200" rx="38"/>
+    <rect class="bi-bg-soft" x="48" y="52" width="68" height="48" rx="18" opacity=".88"/>
+    <rect class="bi-bg-soft" x="148" y="164" width="52" height="34" rx="14" opacity=".74"/>
+    <path class="bi-muted" d="M132 53H178M54 118H92M164 112H202" opacity=".42"/>
+    <path class="bi-primary" stroke-width="5" d="M79 172C60 172 47 158 47 140C47 122 61 109 78 109C88 85 109 72 132 77C153 81 168 98 172 119C193 120 209 136 209 156C209 177 192 190 170 190H82"/><path class="bi-line-2" d="M104 151H152M128 126V176"/><path class="bi-line-3" d="M128 126L106 148M128 126L150 148"/>
+</symbol>
+<symbol id="bento-icon-globe" viewBox="0 0 256 256">
+  <title>Globe</title>
+  <rect data-icon-frame="decor" class="bi-surface" x="26" y="28" width="204" height="200" rx="38"/>
+    <rect class="bi-bg-soft" x="48" y="52" width="68" height="48" rx="18" opacity=".88"/>
+    <rect class="bi-bg-soft" x="148" y="164" width="52" height="34" rx="14" opacity=".74"/>
+    <path class="bi-muted" d="M132 53H178M54 118H92M164 112H202" opacity=".42"/>
+    <circle class="bi-primary" cx="128" cy="128" r="66"/><path class="bi-line-2" d="M62 128H194M128 62C105 84 95 106 95 128C95 150 105 172 128 194M128 62C151 84 161 106 161 128C161 150 151 172 128 194M79 91C104 103 152 103 177 91M79 165C104 153 152 153 177 165"/>
+</symbol>
+<symbol id="bento-icon-warning" viewBox="-8 -8 272 272">
+  <title>Warning</title>
+  <rect data-icon-frame="decor" class="bi-surface" x="26" y="28" width="204" height="200" rx="38"/>
+    <rect class="bi-bg-soft" x="48" y="52" width="68" height="48" rx="18" opacity=".88"/>
+    <rect class="bi-bg-soft" x="148" y="164" width="52" height="34" rx="14" opacity=".74"/>
+    <path class="bi-muted" d="M132 53H178M54 118H92M164 112H202" opacity=".42"/>
+    <path class="bi-warning" stroke-width="5" d="M128 55L203 190H53Z"/><path class="bi-danger" stroke-width="10" d="M128 101V145"/><circle class="bi-danger" cx="128" cy="169" r="8"/><rect class="bi-bg-strong" x="86" y="181" width="84" height="14" rx="7"/>
+</symbol>
+<symbol id="bento-icon-scan" viewBox="0 0 256 256">
+  <title>Scan</title>
+  <rect data-icon-frame="decor" class="bi-surface" x="26" y="28" width="204" height="200" rx="38"/>
+    <rect class="bi-bg-soft" x="48" y="52" width="68" height="48" rx="18" opacity=".88"/>
+    <rect class="bi-bg-soft" x="148" y="164" width="52" height="34" rx="14" opacity=".74"/>
+    <path class="bi-muted" d="M132 53H178M54 118H92M164 112H202" opacity=".42"/>
+    <rect class="bi-primary" x="58" y="70" width="140" height="118" rx="20"/><path class="bi-line-2" d="M81 100V84H113M143 84H175V100M81 158V174H113M143 174H175V158"/><path class="bi-line" d="M72 129H184"/><rect class="bi-accent" x="106" y="107" width="44" height="44" rx="14"/>
+</symbol>
+<symbol id="bento-icon-network" viewBox="-8 -8 272 272">
+  <title>Network</title>
+  <rect data-icon-frame="decor" class="bi-surface" x="26" y="28" width="204" height="200" rx="38"/>
+    <rect class="bi-bg-soft" x="48" y="52" width="68" height="48" rx="18" opacity=".88"/>
+    <rect class="bi-bg-soft" x="148" y="164" width="52" height="34" rx="14" opacity=".74"/>
+    <path class="bi-muted" d="M132 53H178M54 118H92M164 112H202" opacity=".42"/>
+    <rect class="bi-primary" x="64" y="114" width="38" height="38" rx="14"/><rect class="bi-secondary" x="109" y="64" width="38" height="38" rx="14"/><rect class="bi-primary" x="154" y="114" width="38" height="38" rx="14"/><rect class="bi-accent" x="109" y="174" width="38" height="38" rx="14"/><path class="bi-muted" d="M99 119L114 99M142 99L157 119M101 143L115 176M141 176L155 143M102 133H154"/>
+</symbol>
+<symbol id="bento-icon-cpu" viewBox="0 0 256 256">
+  <title>CPU</title>
+  <rect data-icon-frame="decor" class="bi-surface" x="26" y="28" width="204" height="200" rx="38"/>
+    <rect class="bi-bg-soft" x="48" y="52" width="68" height="48" rx="18" opacity=".88"/>
+    <rect class="bi-bg-soft" x="148" y="164" width="52" height="34" rx="14" opacity=".74"/>
+    <path class="bi-muted" d="M132 53H178M54 118H92M164 112H202" opacity=".42"/>
+    <rect class="bi-primary" x="82" y="82" width="92" height="92" rx="18"/><rect class="bi-bg-strong" x="108" y="108" width="40" height="40" rx="10"/><path class="bi-line-3" d="M97 58V82M128 58V82M159 58V82M97 174V198M128 174V198M159 174V198M58 97H82M58 128H82M58 159H82M174 97H198M174 128H198M174 159H198"/>
+</symbol>
+<symbol id="bento-icon-layers" viewBox="0 0 256 256">
+  <title>Layers</title>
+  <rect data-icon-frame="decor" class="bi-surface" x="26" y="28" width="204" height="200" rx="38"/>
+    <rect class="bi-bg-soft" x="48" y="52" width="68" height="48" rx="18" opacity=".88"/>
+    <rect class="bi-bg-soft" x="148" y="164" width="52" height="34" rx="14" opacity=".74"/>
+    <path class="bi-muted" d="M132 53H178M54 118H92M164 112H202" opacity=".42"/>
+    <path class="bi-primary" stroke-width="5" d="M128 62L203 104L128 146L53 104Z"/><path class="bi-line-2" d="M63 132L128 169L193 132M63 160L128 197L193 160"/><rect class="bi-bg-strong" x="102" y="94" width="52" height="20" rx="10"/>
+</symbol>
+<symbol id="bento-icon-eye" viewBox="0 0 256 256">
+  <title>Eye</title>
+  <rect data-icon-frame="decor" class="bi-surface" x="26" y="28" width="204" height="200" rx="38"/>
+    <rect class="bi-bg-soft" x="48" y="52" width="68" height="48" rx="18" opacity=".88"/>
+    <rect class="bi-bg-soft" x="148" y="164" width="52" height="34" rx="14" opacity=".74"/>
+    <path class="bi-muted" d="M132 53H178M54 118H92M164 112H202" opacity=".42"/>
+    <path class="bi-primary" stroke-width="5" d="M52 128C75 91 104 76 128 76C152 76 181 91 204 128C181 165 152 180 128 180C104 180 75 165 52 128Z"/><circle class="bi-line-2" cx="128" cy="128" r="31"/><rect class="bi-accent" x="118" y="118" width="20" height="20" rx="10"/>
+</symbol>
+<symbol id="bento-icon-grid" viewBox="0 0 256 256">
+  <title>Grid</title>
+  <rect data-icon-frame="decor" class="bi-surface" x="26" y="28" width="204" height="200" rx="38"/>
+    <rect class="bi-bg-soft" x="48" y="52" width="68" height="48" rx="18" opacity=".88"/>
+    <rect class="bi-bg-soft" x="148" y="164" width="52" height="34" rx="14" opacity=".74"/>
+    <path class="bi-muted" d="M132 53H178M54 118H92M164 112H202" opacity=".42"/>
+    <rect class="bi-primary" x="62" y="72" width="52" height="52" rx="16"/><rect class="bi-secondary" x="128" y="72" width="66" height="52" rx="16"/><rect class="bi-accent" x="62" y="138" width="66" height="52" rx="16"/><rect class="bi-primary" x="142" y="138" width="52" height="52" rx="16"/>
+</symbol>
+<symbol id="bento-icon-module" viewBox="0 0 256 256">
+  <title>Module</title>
+  <rect data-icon-frame="decor" class="bi-surface" x="26" y="28" width="204" height="200" rx="38"/>
+    <rect class="bi-bg-soft" x="48" y="52" width="68" height="48" rx="18" opacity=".88"/>
+    <rect class="bi-bg-soft" x="148" y="164" width="52" height="34" rx="14" opacity=".74"/>
+    <path class="bi-muted" d="M132 53H178M54 118H92M164 112H202" opacity=".42"/>
+    <rect class="bi-primary" x="64" y="74" width="128" height="116" rx="26"/><rect class="bi-bg-strong" x="86" y="96" width="84" height="36" rx="14"/><path class="bi-line-2" d="M91 158H120M139 158H168"/><circle class="bi-accent" cx="128" cy="158" r="9"/>
+</symbol>
+<symbol id="bento-icon-stack" viewBox="-8 -8 272 272">
+  <title>Stack</title>
+  <rect data-icon-frame="decor" class="bi-surface" x="26" y="28" width="204" height="200" rx="38"/>
+    <rect class="bi-bg-soft" x="48" y="52" width="68" height="48" rx="18" opacity=".88"/>
+    <rect class="bi-bg-soft" x="148" y="164" width="52" height="34" rx="14" opacity=".74"/>
+    <path class="bi-muted" d="M132 53H178M54 118H92M164 112H202" opacity=".42"/>
+    <rect class="bi-bg-soft" x="78" y="64" width="116" height="76" rx="22"/><rect class="bi-secondary" x="66" y="91" width="116" height="76" rx="22"/><rect class="bi-primary" x="54" y="118" width="116" height="76" rx="22"/><path class="bi-line-3" d="M78 150H134M78 172H112"/>
+</symbol>
+<symbol id="bento-icon-tile" viewBox="0 0 256 256">
+  <title>Tile</title>
+  <rect data-icon-frame="decor" class="bi-surface" x="26" y="28" width="204" height="200" rx="38"/>
+    <rect class="bi-bg-soft" x="48" y="52" width="68" height="48" rx="18" opacity=".88"/>
+    <rect class="bi-bg-soft" x="148" y="164" width="52" height="34" rx="14" opacity=".74"/>
+    <path class="bi-muted" d="M132 53H178M54 118H92M164 112H202" opacity=".42"/>
+    <rect class="bi-primary" x="58" y="72" width="64" height="64" rx="22"/><rect class="bi-secondary" x="136" y="72" width="62" height="38" rx="16"/><rect class="bi-accent" x="58" y="150" width="96" height="42" rx="18"/><rect class="bi-bg-strong" x="168" y="126" width="30" height="66" rx="14"/>
+</symbol>
+<symbol id="bento-icon-phone" viewBox="0 0 256 256">
+  <title>Phone</title>
+  <rect data-icon-frame="decor" class="bi-surface" x="26" y="28" width="204" height="200" rx="38"/><rect class="bi-bg-soft" x="48" y="52" width="68" height="48" rx="18" opacity=".88"/><rect class="bi-bg-soft" x="148" y="164" width="52" height="34" rx="14" opacity=".74"/><path class="bi-muted" d="M132 53H178M54 118H92M164 112H202" opacity=".42"/>
+    <rect class="bi-primary" x="88" y="54" width="80" height="148" rx="24"/><path class="bi-line-2" d="M110 78H146M112 176H144"/><rect class="bi-bg-strong" x="104" y="96" width="48" height="60" rx="12"/>
+</symbol>
+<symbol id="bento-icon-palette" viewBox="-8 -8 272 272">
+  <title>Palette</title>
+  <rect data-icon-frame="decor" class="bi-surface" x="26" y="28" width="204" height="200" rx="38"/><rect class="bi-bg-soft" x="48" y="52" width="68" height="48" rx="18" opacity=".88"/><rect class="bi-bg-soft" x="148" y="164" width="52" height="34" rx="14" opacity=".74"/><path class="bi-muted" d="M132 53H178M54 118H92M164 112H202" opacity=".42"/>
+    <path class="bi-primary" d="M128 60C89 60 58 89 58 128C58 168 90 196 129 196H145C159 196 168 187 168 175C168 165 176 158 187 158C196 158 204 150 204 137C204 94 171 60 128 60Z"/><circle class="bi-accent" cx="98" cy="112" r="10"/><circle class="bi-secondary" cx="126" cy="96" r="10"/><circle class="bi-warning" cx="154" cy="116" r="10"/><circle class="bi-bg-strong" cx="122" cy="154" r="12"/>
+</symbol>
+<symbol id="bento-icon-heart" viewBox="0 0 256 256">
+  <title>Heart</title>
+  <rect data-icon-frame="decor" class="bi-surface" x="26" y="28" width="204" height="200" rx="38"/><rect class="bi-bg-soft" x="48" y="52" width="68" height="48" rx="18" opacity=".88"/><rect class="bi-bg-soft" x="148" y="164" width="52" height="34" rx="14" opacity=".74"/><path class="bi-muted" d="M132 53H178M54 118H92M164 112H202" opacity=".42"/>
+    <path class="bi-danger" d="M128 194C92 166 66 143 66 111C66 90 81 76 101 76C113 76 123 83 128 94C133 83 143 76 155 76C175 76 190 90 190 111C190 143 164 166 128 194Z"/><path class="bi-line-3" d="M91 117C91 101 102 94 114 99"/>
+</symbol>
+<symbol id="bento-icon-star" viewBox="0 0 256 256">
+  <title>Star</title>
+  <rect data-icon-frame="decor" class="bi-surface" x="26" y="28" width="204" height="200" rx="38"/><rect class="bi-bg-soft" x="48" y="52" width="68" height="48" rx="18" opacity=".88"/><rect class="bi-bg-soft" x="148" y="164" width="52" height="34" rx="14" opacity=".74"/><path class="bi-muted" d="M132 53H178M54 118H92M164 112H202" opacity=".42"/>
+    <path class="bi-warning" d="M128 56L148 104L200 108L160 141L172 192L128 164L84 192L96 141L56 108L108 104Z"/><path class="bi-line-3" d="M128 82L140 113L173 116"/>
+</symbol>
+<symbol id="bento-icon-target" viewBox="0 0 256 256">
+  <title>Target</title>
+  <rect data-icon-frame="decor" class="bi-surface" x="26" y="28" width="204" height="200" rx="38"/><rect class="bi-bg-soft" x="48" y="52" width="68" height="48" rx="18" opacity=".88"/><rect class="bi-bg-soft" x="148" y="164" width="52" height="34" rx="14" opacity=".74"/><path class="bi-muted" d="M132 53H178M54 118H92M164 112H202" opacity=".42"/>
+    <circle class="bi-primary" cx="128" cy="128" r="66"/><circle class="bi-line-2" cx="128" cy="128" r="40"/><circle class="bi-accent" cx="128" cy="128" r="14"/><path class="bi-muted" d="M128 52V84M128 172V204M52 128H84M172 128H204"/>
+</symbol>
+<symbol id="bento-icon-megaphone" viewBox="-8 -8 272 272">
+  <title>Megaphone</title>
+  <rect data-icon-frame="decor" class="bi-surface" x="26" y="28" width="204" height="200" rx="38"/><rect class="bi-bg-soft" x="48" y="52" width="68" height="48" rx="18" opacity=".88"/><rect class="bi-bg-soft" x="148" y="164" width="52" height="34" rx="14" opacity=".74"/><path class="bi-muted" d="M132 53H178M54 118H92M164 112H202" opacity=".42"/>
+    <path class="bi-primary" d="M74 134H50V94H74L168 66V162Z"/><path class="bi-line-2" d="M168 91C188 96 200 111 200 128C200 145 188 160 168 165"/><path class="bi-accent" d="M78 134L96 190H122L104 134Z"/>
+</symbol>
+<symbol id="bento-icon-cursor" viewBox="0 0 256 256">
+  <title>Cursor</title>
+  <rect data-icon-frame="decor" class="bi-surface" x="26" y="28" width="204" height="200" rx="38"/><rect class="bi-bg-soft" x="48" y="52" width="68" height="48" rx="18" opacity=".88"/><rect class="bi-bg-soft" x="148" y="164" width="52" height="34" rx="14" opacity=".74"/><path class="bi-muted" d="M132 53H178M54 118H92M164 112H202" opacity=".42"/>
+    <path class="bi-primary" d="M76 58L190 134L139 146L116 198L76 58Z"/><path class="bi-line-3" d="M136 145L168 184"/>
+</symbol>
+<symbol id="bento-icon-mosaic" viewBox="0 0 256 256">
+  <title>Mosaic</title>
+  <rect data-icon-frame="decor" class="bi-surface" x="26" y="28" width="204" height="200" rx="38"/>
+    <rect class="bi-bg-soft" x="48" y="52" width="68" height="48" rx="18" opacity=".88"/>
+    <rect class="bi-bg-soft" x="148" y="164" width="52" height="34" rx="14" opacity=".74"/>
+    <path class="bi-muted" d="M132 53H178M54 118H92M164 112H202" opacity=".42"/>
+    <rect class="bi-primary" x="58" y="70" width="42" height="42" rx="14"/><rect class="bi-secondary" x="112" y="70" width="86" height="42" rx="16"/><rect class="bi-accent" x="58" y="124" width="78" height="68" rx="20"/><rect class="bi-primary" x="148" y="124" width="50" height="68" rx="18"/>
+</symbol>
+<symbol id="bento-icon-split" viewBox="0 0 256 256">
+  <title>Split</title>
+  <rect data-icon-frame="decor" class="bi-surface" x="26" y="28" width="204" height="200" rx="38"/>
+    <rect class="bi-bg-soft" x="48" y="52" width="68" height="48" rx="18" opacity=".88"/>
+    <rect class="bi-bg-soft" x="148" y="164" width="52" height="34" rx="14" opacity=".74"/>
+    <path class="bi-muted" d="M132 53H178M54 118H92M164 112H202" opacity=".42"/>
+    <rect class="bi-primary" x="58" y="70" width="140" height="122" rx="24"/><path class="bi-line-2" d="M112 72V190M60 122H196"/><rect class="bi-accent" x="76" y="138" width="20" height="32" rx="8"/><rect class="bi-bg-strong" x="134" y="88" width="42" height="18" rx="9"/>
+</symbol>
+<symbol id="bento-icon-widget" viewBox="0 0 256 256">
+  <title>Widget</title>
+  <rect data-icon-frame="decor" class="bi-surface" x="26" y="28" width="204" height="200" rx="38"/>
+    <rect class="bi-bg-soft" x="48" y="52" width="68" height="48" rx="18" opacity=".88"/>
+    <rect class="bi-bg-soft" x="148" y="164" width="52" height="34" rx="14" opacity=".74"/>
+    <path class="bi-muted" d="M132 53H178M54 118H92M164 112H202" opacity=".42"/>
+    <rect class="bi-primary" x="58" y="74" width="140" height="116" rx="24"/><rect class="bi-bg-strong" x="78" y="96" width="48" height="36" rx="14"/><path class="bi-line-3" d="M82 160H174"/><path class="bi-muted" d="M142 101H176M142 123H166M84 146H118"/>
+</symbol>
+</defs>
+</svg>

@@ -1,0 +1,24 @@
+<svg color="#f4f7ff" xmlns="http://www.w3.org/2000/svg" class="usk-icon" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="palette-title palette-desc">
+  <title id="palette-title">Palette</title>
+  <desc id="palette-desc">Theme-aware SVG icon that follows ui-style-kit-css color scheme variables. Semantic meaning: Theme, color, visual style.</desc>
+  <style>
+.usk-i-bg{fill:rgba(18,26,44,.86)}
+.usk-i-bg-strong{fill:rgba(29,39,63,.94)}
+.usk-i-bg-soft{fill:rgba(24,33,54,.64)}
+.usk-i-primary{fill:rgb(74,194,255);stroke:rgb(74,194,255)}
+.usk-i-secondary{fill:rgb(167,120,255);stroke:rgb(167,120,255)}
+.usk-i-accent{fill:rgb(255,193,92);stroke:rgb(255,193,92)}
+.usk-i-success{fill:rgb(91,219,151);stroke:rgb(91,219,151)}
+.usk-i-warning{fill:rgb(255,203,91);stroke:rgb(255,203,91)}
+.usk-i-danger{fill:rgb(255,112,137);stroke:rgb(255,112,137)}
+.usk-i-line{fill:none;stroke:rgb(74,194,255);stroke-width:7;stroke-linecap:round;stroke-linejoin:round}
+.usk-i-line-2{fill:none;stroke:rgb(167,120,255);stroke-width:5;stroke-linecap:round;stroke-linejoin:round}
+.usk-i-line-3{fill:none;stroke:rgb(255,193,92);stroke-width:4;stroke-linecap:round;stroke-linejoin:round}
+.usk-i-muted{fill:none;stroke:rgb(170,182,203);stroke-width:3.5;stroke-linecap:round;stroke-linejoin:round}
+.usk-i-fill-muted{fill:rgb(170,182,203);stroke:none}
+.usk-i-surface{fill:rgba(18,26,44,.86);stroke:rgba(90,108,142,.72);stroke-width:5}
+.usk-i-glow{filter:drop-shadow(0 0 10px rgba(74,194,255,.26))}
+</style>
+  <rect class="usk-i-surface" x="28" y="28" width="200" height="200" rx="28"/><path class="usk-i-line-2" d="M48 70H90M166 70H208M48 186H88M168 186H208" opacity=".62"/><path class="usk-i-muted" d="M50 212H118M138 212H154M170 212H206" opacity=".7"/>
+  <path class="usk-i-primary" d="M128 60C89 60 58 89 58 128C58 168 90 196 129 196H145C159 196 168 187 168 175C168 165 176 158 187 158C196 158 204 150 204 137C204 94 171 60 128 60Z"/><circle class="usk-i-accent" cx="98" cy="112" r="10"/><circle class="usk-i-secondary" cx="126" cy="96" r="10"/><circle class="usk-i-warning" cx="154" cy="116" r="10"/><circle class="usk-i-bg-strong" cx="122" cy="154" r="12"/>
+</svg>

@@ -1,0 +1,55 @@
+/* Retro Glass standardized icon layer */
+:where(.rg-icon, [data-rg-icon]) {
+  --rg-icon-size: 1.25em;
+  --rg-icon-bg: rgb(var(--usk-surface-rgb, 8 12 24) / .9);
+  --rg-icon-bg-strong: rgb(var(--usk-surface-strong-rgb, 20 28 48) / .94);
+  --rg-icon-bg-soft: rgb(var(--usk-surface-soft-rgb, 26 35 58) / .68);
+  --rg-icon-border: rgb(var(--usk-border-rgb, 100 116 139) / .72);
+  --rg-icon-primary: rgb(var(--usk-primary-rgb, 80 160 255));
+  --rg-icon-secondary: rgb(var(--usk-secondary-rgb, 138 116 255));
+  --rg-icon-accent: rgb(var(--usk-accent-rgb, 255 170 76));
+  --rg-icon-success: rgb(var(--usk-success-rgb, 74 222 128));
+  --rg-icon-warning: rgb(var(--usk-warning-rgb, 255 200 80));
+  --rg-icon-danger: rgb(var(--usk-danger-rgb, 255 92 122));
+  --rg-icon-muted: rgb(var(--usk-text-muted-rgb, 148 163 184));
+  inline-size: var(--rg-icon-size);
+  block-size: var(--rg-icon-size);
+  display: inline-block;
+  vertical-align: -0.125em;
+  overflow: visible;
+}
+:where(.usk-icon--frame-soft, [data-usk-icon-frame="soft"]) {
+  --usk-icon-frame-opacity: 0.42;
+  --usk-icon-frame-decor-opacity: 0.22;
+}
+:where(.usk-icon--frame-none, [data-usk-icon-frame="none"]) {
+  --usk-icon-frame-opacity: 0;
+  --usk-icon-frame-decor-opacity: 0;
+}
+
+:where(.rg-icon--xs) { --rg-icon-size: 1em; }
+:where(.rg-icon--sm) { --rg-icon-size: 1.25em; }
+:where(.rg-icon--md) { --rg-icon-size: 1.5em; }
+:where(.rg-icon--lg) { --rg-icon-size: 2em; }
+:where(.rg-icon--xl) { --rg-icon-size: 3em; }
+:where(.rg-icon .rg-i-bg) { fill: var(--rg-icon-bg); }
+:where(.rg-icon .rg-i-bg-strong) { fill: var(--rg-icon-bg-strong); }
+:where(.rg-icon .rg-i-bg-soft) { fill: var(--rg-icon-bg-soft); }
+:where(.rg-icon .rg-i-primary) { fill: rgb(var(--usk-primary-rgb, 80 160 255) / .2); stroke: var(--rg-icon-primary); }
+:where(.rg-icon .rg-i-secondary) { fill: rgb(var(--usk-secondary-rgb, 138 116 255) / .2); stroke: var(--rg-icon-secondary); }
+:where(.rg-icon .rg-i-accent) { fill: rgb(var(--usk-accent-rgb, 255 170 76) / .22); stroke: var(--rg-icon-accent); }
+:where(.rg-icon .rg-i-success) { fill: rgb(var(--usk-success-rgb, 74 222 128) / .2); stroke: var(--rg-icon-success); }
+:where(.rg-icon .rg-i-warning) { fill: rgb(var(--usk-warning-rgb, 255 200 80) / .22); stroke: var(--rg-icon-warning); }
+:where(.rg-icon .rg-i-danger) { fill: rgb(var(--usk-danger-rgb, 255 92 122) / .2); stroke: var(--rg-icon-danger); }
+:where(.rg-icon .rg-i-line) { fill: none; stroke: var(--rg-icon-primary); stroke-width: 6.5; stroke-linecap: round; stroke-linejoin: round; }
+:where(.rg-icon .rg-i-line-2) { fill: none; stroke: var(--rg-icon-secondary); stroke-width: 4.7; stroke-linecap: round; stroke-linejoin: round; }
+:where(.rg-icon .rg-i-line-3) { fill: none; stroke: var(--rg-icon-accent); stroke-width: 3.8; stroke-linecap: round; stroke-linejoin: round; }
+:where(.rg-icon .rg-i-muted) { fill: none; stroke: var(--rg-icon-muted); stroke-width: 2.8; stroke-linecap: round; stroke-linejoin: round; }
+:where(.rg-icon .rg-i-surface) { fill: var(--rg-icon-bg); stroke: var(--rg-icon-border); stroke-width: 4.5; }
+:where(.rg-icon .rg-i-sheen) {
+  fill: none;
+  stroke: var(--rg-icon-rim, rgb(255 255 255 / .64));
+  stroke-width: 2.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}

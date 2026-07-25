@@ -1,0 +1,37 @@
+{
+  "name": "UI Style Kit Icons",
+  "short_name": "USK Icons",
+  "description": "Interactive gallery for a theme-aware SVG icon library.",
+  "id": "/ui-style-kit-icons/",
+  "start_url": "/ui-style-kit-icons/",
+  "scope": "/ui-style-kit-icons/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0b1020",
+  "theme_color": "#0b1020",
+  "categories": [
+    "developer tools",
+    "design",
+    "productivity"
+  ],
+  "icons": [
+    {
+      "src": "./assets/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "./assets/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

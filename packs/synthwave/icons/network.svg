@@ -1,0 +1,51 @@
+<svg overflow="visible" xmlns="http://www.w3.org/2000/svg" class="sw-icon" width="256" height="256" viewBox="-8 -8 272 272" role="img" aria-labelledby="network-title network-desc">
+  <title id="network-title">Network</title>
+  <desc id="network-desc">Theme-aware synthwave SVG icon with neon styling and UI Style Kit color variables. Semantic meaning: Connected nodes, graph, distributed system.</desc>
+  <style>
+/* Synthwave standardized icon layer */
+.sw-icon, [data-sw-icon]{
+  --sw-icon-size: 1.25em;
+  --sw-icon-bg: rgb(var(--usk-surface-rgb, 8 12 24) / .9);
+  --sw-icon-bg-strong: rgb(var(--usk-surface-strong-rgb, 20 28 48) / .94);
+  --sw-icon-bg-soft: rgb(var(--usk-surface-soft-rgb, 26 35 58) / .68);
+  --sw-icon-border: rgb(var(--usk-border-rgb, 100 116 139) / .72);
+  --sw-icon-primary: rgb(var(--usk-primary-rgb, 80 160 255));
+  --sw-icon-secondary: rgb(var(--usk-secondary-rgb, 138 116 255));
+  --sw-icon-accent: rgb(var(--usk-accent-rgb, 255 170 76));
+  --sw-icon-success: rgb(var(--usk-success-rgb, 74 222 128));
+  --sw-icon-warning: rgb(var(--usk-warning-rgb, 255 200 80));
+  --sw-icon-danger: rgb(var(--usk-danger-rgb, 255 92 122));
+  --sw-icon-muted: rgb(var(--usk-text-muted-rgb, 148 163 184));
+  inline-size: var(--usk-icon-size, var(--sw-icon-size));
+  block-size: var(--usk-icon-size, var(--sw-icon-size));
+  display: inline-block;
+  vertical-align: -0.125em;
+  overflow: visible;
+}
+.sw-icon--xs{ --sw-icon-size: 1em; }
+.sw-icon--sm{ --sw-icon-size: 1.25em; }
+.sw-icon--md{ --sw-icon-size: 1.5em; }
+.sw-icon--lg{ --sw-icon-size: 2em; }
+.sw-icon--xl{ --sw-icon-size: 3em; }
+.sw-i-bg{ fill: var(--sw-icon-bg); }
+.sw-i-bg-strong{ fill: var(--sw-icon-bg-strong); }
+.sw-i-bg-soft{ fill: var(--sw-icon-bg-soft); }
+.sw-i-primary{ fill: rgb(var(--usk-primary-rgb, 80 160 255) / .2); stroke: var(--sw-icon-primary); }
+.sw-i-secondary{ fill: rgb(var(--usk-secondary-rgb, 138 116 255) / .2); stroke: var(--sw-icon-secondary); }
+.sw-i-accent{ fill: rgb(var(--usk-accent-rgb, 255 170 76) / .22); stroke: var(--sw-icon-accent); }
+.sw-i-success{ fill: rgb(var(--usk-success-rgb, 74 222 128) / .2); stroke: var(--sw-icon-success); }
+.sw-i-warning{ fill: rgb(var(--usk-warning-rgb, 255 200 80) / .22); stroke: var(--sw-icon-warning); }
+.sw-i-danger{ fill: rgb(var(--usk-danger-rgb, 255 92 122) / .2); stroke: var(--sw-icon-danger); }
+.sw-i-line{ fill: none; stroke: var(--sw-icon-primary); stroke-width: 6.5; stroke-linecap: round; stroke-linejoin: round; }
+.sw-i-line-2{ fill: none; stroke: var(--sw-icon-secondary); stroke-width: 4.7; stroke-linecap: round; stroke-linejoin: round; }
+.sw-i-line-3{ fill: none; stroke: var(--sw-icon-accent); stroke-width: 3.8; stroke-linecap: round; stroke-linejoin: round; }
+.sw-i-muted{ fill: none; stroke: var(--sw-icon-muted); stroke-width: 2.8; stroke-linecap: round; stroke-linejoin: round; }
+.sw-i-surface{ fill: var(--sw-icon-bg); stroke: var(--sw-icon-border); stroke-width: 4.5; }
+
+[data-icon-frame]{opacity:var(--usk-icon-frame-opacity,1)}
+[data-icon-frame="decor"]{opacity:var(--usk-icon-frame-decor-opacity,var(--usk-icon-frame-opacity,1))}
+[data-icon-glyph="play"]{fill:var(--usk-icon-play,var(--usk-icon-foreground,rgb(var(--usk-text-rgb,255 255 255))));stroke:none;opacity:1}
+</style>
+  <rect data-icon-frame="decor" class="sw-i-surface" x="10" y="10" width="236" height="236" rx="48"/><g data-icon-frame="decor" class="sw-i-horizon-sun" opacity=".44"><path class="sw-i-warning" d="M74 166A54 54 0 0 1 182 166H74Z" opacity=".24"/><path class="sw-i-line-3" d="M86 136H170M80 150H176M74 164H182" opacity=".34"/></g><path class="sw-i-line-3" d="M34 176H222M50 194H206M70 212H186" opacity=".42"/><path class="sw-i-muted" d="M24 232L104 154M232 232L152 154M63 232L116 154M193 232L140 154" opacity=".32"/>
+  <circle class="sw-i-primary" cx="82" cy="132" r="18"/><circle class="sw-i-secondary" cx="128" cy="82" r="18"/><circle class="sw-i-primary" cx="174" cy="132" r="18"/><circle class="sw-i-accent" cx="128" cy="184" r="18"/><path class="sw-i-muted" d="M96 119L115 95M141 95L160 119M100 140L114 172M156 172L170 140M100 132H156"/>
+</svg>

@@ -1,0 +1,48 @@
+/* Brutalism standardized icon layer */
+:where(.brutal-icon, [data-brutal-icon]) {
+  --brutal-icon-size: 1.25em;
+  --brutal-icon-bg: rgb(var(--usk-surface-rgb, 8 12 24) / .9);
+  --brutal-icon-bg-strong: rgb(var(--usk-surface-strong-rgb, 20 28 48) / .94);
+  --brutal-icon-bg-soft: rgb(var(--usk-surface-soft-rgb, 26 35 58) / .68);
+  --brutal-icon-border: rgb(var(--usk-border-rgb, 100 116 139) / .72);
+  --brutal-icon-primary: rgb(var(--usk-primary-rgb, 80 160 255));
+  --brutal-icon-secondary: rgb(var(--usk-secondary-rgb, 138 116 255));
+  --brutal-icon-accent: rgb(var(--usk-accent-rgb, 255 170 76));
+  --brutal-icon-success: rgb(var(--usk-success-rgb, 74 222 128));
+  --brutal-icon-warning: rgb(var(--usk-warning-rgb, 255 200 80));
+  --brutal-icon-danger: rgb(var(--usk-danger-rgb, 255 92 122));
+  --brutal-icon-muted: rgb(var(--usk-text-muted-rgb, 148 163 184));
+  inline-size: var(--brutal-icon-size);
+  block-size: var(--brutal-icon-size);
+  display: inline-block;
+  vertical-align: -0.125em;
+  overflow: visible;
+}
+:where(.usk-icon--frame-soft, [data-usk-icon-frame="soft"]) {
+  --usk-icon-frame-opacity: 0.42;
+  --usk-icon-frame-decor-opacity: 0.22;
+}
+:where(.usk-icon--frame-none, [data-usk-icon-frame="none"]) {
+  --usk-icon-frame-opacity: 0;
+  --usk-icon-frame-decor-opacity: 0;
+}
+
+:where(.brutal-icon--xs) { --brutal-icon-size: 1em; }
+:where(.brutal-icon--sm) { --brutal-icon-size: 1.25em; }
+:where(.brutal-icon--md) { --brutal-icon-size: 1.5em; }
+:where(.brutal-icon--lg) { --brutal-icon-size: 2em; }
+:where(.brutal-icon--xl) { --brutal-icon-size: 3em; }
+:where(.brutal-icon .brutal-i-bg) { fill: var(--brutal-icon-bg); }
+:where(.brutal-icon .brutal-i-bg-strong) { fill: var(--brutal-icon-bg-strong); }
+:where(.brutal-icon .brutal-i-bg-soft) { fill: var(--brutal-icon-bg-soft); }
+:where(.brutal-icon .brutal-i-primary) { fill: rgb(var(--usk-primary-rgb, 80 160 255) / .2); stroke: var(--brutal-icon-primary); }
+:where(.brutal-icon .brutal-i-secondary) { fill: rgb(var(--usk-secondary-rgb, 138 116 255) / .2); stroke: var(--brutal-icon-secondary); }
+:where(.brutal-icon .brutal-i-accent) { fill: rgb(var(--usk-accent-rgb, 255 170 76) / .22); stroke: var(--brutal-icon-accent); }
+:where(.brutal-icon .brutal-i-success) { fill: rgb(var(--usk-success-rgb, 74 222 128) / .2); stroke: var(--brutal-icon-success); }
+:where(.brutal-icon .brutal-i-warning) { fill: rgb(var(--usk-warning-rgb, 255 200 80) / .22); stroke: var(--brutal-icon-warning); }
+:where(.brutal-icon .brutal-i-danger) { fill: rgb(var(--usk-danger-rgb, 255 92 122) / .2); stroke: var(--brutal-icon-danger); }
+:where(.brutal-icon .brutal-i-line) { fill: none; stroke: var(--brutal-icon-primary); stroke-width: 6.5; stroke-linecap: round; stroke-linejoin: round; }
+:where(.brutal-icon .brutal-i-line-2) { fill: none; stroke: var(--brutal-icon-secondary); stroke-width: 4.7; stroke-linecap: round; stroke-linejoin: round; }
+:where(.brutal-icon .brutal-i-line-3) { fill: none; stroke: var(--brutal-icon-accent); stroke-width: 3.8; stroke-linecap: round; stroke-linejoin: round; }
+:where(.brutal-icon .brutal-i-muted) { fill: none; stroke: var(--brutal-icon-muted); stroke-width: 2.8; stroke-linecap: round; stroke-linejoin: round; }
+:where(.brutal-icon .brutal-i-surface) { fill: var(--brutal-icon-bg); stroke: var(--brutal-icon-border); stroke-width: 4.5; }

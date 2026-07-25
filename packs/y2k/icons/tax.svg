@@ -1,0 +1,26 @@
+<svg overflow="visible" xmlns="http://www.w3.org/2000/svg" class="y2k-icon" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="tax-title tax-desc">
+  <title id="tax-title">Tax</title>
+  <desc id="tax-desc">Theme-aware Y2K SVG icon with glossy jelly styling and UI Style Kit color variables. Semantic meaning: Tax document, compliance finance.</desc>
+  <style>
+.y2k-i-bg{fill:var(--y2k-icon-bg,rgb(var(--usk-surface-rgb,248 246 255)/.84))}
+.y2k-i-bg-strong{fill:var(--y2k-icon-bg-strong,rgb(var(--usk-surface-strong-rgb,255 255 255)/.94))}
+.y2k-i-bg-soft{fill:var(--y2k-icon-bg-soft,rgb(var(--usk-surface-soft-rgb,230 238 255)/.7))}
+.y2k-i-primary{fill:var(--y2k-icon-primary,rgb(var(--usk-primary-rgb,55 160 255)));stroke:var(--y2k-icon-primary,rgb(var(--usk-primary-rgb,55 160 255)))}
+.y2k-i-secondary{fill:var(--y2k-icon-secondary,rgb(var(--usk-secondary-rgb,255 96 190)));stroke:var(--y2k-icon-secondary,rgb(var(--usk-secondary-rgb,255 96 190)))}
+.y2k-i-accent{fill:var(--y2k-icon-accent,rgb(var(--usk-accent-rgb,149 255 241)));stroke:var(--y2k-icon-accent,rgb(var(--usk-accent-rgb,149 255 241)))}
+.y2k-i-success{fill:var(--y2k-icon-success,rgb(var(--usk-success-rgb,78 214 145)));stroke:var(--y2k-icon-success,rgb(var(--usk-success-rgb,78 214 145)))}
+.y2k-i-warning{fill:var(--y2k-icon-warning,rgb(var(--usk-warning-rgb,255 200 78)));stroke:var(--y2k-icon-warning,rgb(var(--usk-warning-rgb,255 200 78)))}
+.y2k-i-danger{fill:var(--y2k-icon-danger,rgb(var(--usk-danger-rgb,255 92 122)));stroke:var(--y2k-icon-danger,rgb(var(--usk-danger-rgb,255 92 122)))}
+.y2k-i-gloss{fill:var(--y2k-icon-gloss,rgb(255 255 255/.78));stroke:none}
+.y2k-i-line{fill:none;stroke:var(--y2k-icon-primary,rgb(var(--usk-primary-rgb,55 160 255)));stroke-width:7;stroke-linecap:round;stroke-linejoin:round}
+.y2k-i-line-2{fill:none;stroke:var(--y2k-icon-secondary,rgb(var(--usk-secondary-rgb,255 96 190)));stroke-width:5;stroke-linecap:round;stroke-linejoin:round}
+.y2k-i-line-3{fill:none;stroke:var(--y2k-icon-accent,rgb(var(--usk-accent-rgb,149 255 241)));stroke-width:4;stroke-linecap:round;stroke-linejoin:round}
+.y2k-i-muted{fill:none;stroke:var(--y2k-icon-muted,rgb(var(--usk-text-muted-rgb,104 99 132)));stroke-width:3.2;stroke-linecap:round;stroke-linejoin:round}
+.y2k-i-surface{fill:var(--y2k-icon-bg,rgb(var(--usk-surface-rgb,248 246 255)/.84));stroke:var(--y2k-icon-border,rgb(var(--usk-border-rgb,176 191 228)/.72));stroke-width:5}
+[data-icon-frame]{opacity:var(--usk-icon-frame-opacity,1)}
+[data-icon-frame="decor"]{opacity:var(--usk-icon-frame-decor-opacity,var(--usk-icon-frame-opacity,1))}
+[data-icon-glyph="play"]{fill:var(--usk-icon-play,var(--usk-icon-foreground,rgb(var(--usk-text-rgb,255 255 255))));stroke:none;opacity:1}
+</style>
+  <rect data-icon-frame="decor" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/><ellipse data-icon-frame="decor" class="y2k-i-gloss" cx="96" cy="62" rx="50" ry="14" opacity=".72"/><path class="y2k-i-muted" d="M54 206H106M146 206H202" opacity=".55"/><path class="y2k-i-line-3" d="M54 52H78M188 52H204" opacity=".7"/>
+  <rect class="y2k-i-primary" x="65" y="75" width="126" height="108" rx="16"/><path class="y2k-i-muted" d="M91 106H165M91 136H138M91 164H116"/><path class="y2k-i-line-3" d="M148 136L170 158M170 136L148 158"/>
+</svg>

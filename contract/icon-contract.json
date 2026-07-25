@@ -1,0 +1,475 @@
+{
+  "schemaVersion": "0.1.0",
+  "packageFamily": "ui-style-kit-css-icons",
+  "requiredIconCount": 64,
+  "naming": {
+    "idCase": "kebab-case",
+    "fileName": "<icon-id>.svg",
+    "symbolId": "<style-prefix>-icon-<icon-id>",
+    "cssClass": "<style-prefix>-icon",
+    "aliasesAreBuildTimeOnly": true
+  },
+  "requiredExports": [
+    "icons/<icon-id>.svg",
+    "sprite/<pack-name>.inline.svg",
+    "dist/<pack-name>.svg",
+    "dist/<pack-name>.css",
+    "manifest.json",
+    "package.json",
+    "README.md",
+    "style-source/<style>-style-source.md"
+  ],
+  "requiredCssBehavior": [
+    "All fills and strokes must resolve through UI Style Kit CSS variables.",
+    "Inline SVG and inline sprite usage must support live style/theme changes.",
+    "External image usage can be supported but is not the primary integration path.",
+    "Every SVG must include title and desc metadata.",
+    "Every style pack must ship the exact required icon IDs even when a style also has optional extras."
+  ],
+  "icons": [
+    {
+      "order": 0,
+      "id": "home",
+      "label": "Home",
+      "meaning": "Primary landing or app home destination"
+    },
+    {
+      "order": 1,
+      "id": "dashboard",
+      "label": "Dashboard",
+      "meaning": "Main overview, admin home, metrics hub"
+    },
+    {
+      "order": 2,
+      "id": "browser",
+      "label": "Browser",
+      "meaning": "Web page, app shell, external web surface"
+    },
+    {
+      "order": 3,
+      "id": "search",
+      "label": "Search",
+      "meaning": "Find, query, inspect"
+    },
+    {
+      "order": 4,
+      "id": "user",
+      "label": "User",
+      "meaning": "Single account, profile, member"
+    },
+    {
+      "order": 5,
+      "id": "users",
+      "label": "Users",
+      "meaning": "Audience, team, members, group"
+    },
+    {
+      "order": 6,
+      "id": "settings",
+      "label": "Settings",
+      "meaning": "Configuration and preferences"
+    },
+    {
+      "order": 7,
+      "id": "bell",
+      "label": "Notifications",
+      "meaning": "Alerts, reminders, updates"
+    },
+    {
+      "order": 8,
+      "id": "message",
+      "label": "Message",
+      "meaning": "Chat, comments, support conversation"
+    },
+    {
+      "order": 9,
+      "id": "mail",
+      "label": "Email",
+      "meaning": "Email, inbox, message delivery"
+    },
+    {
+      "order": 10,
+      "id": "calendar",
+      "label": "Calendar",
+      "meaning": "Dates, schedule, publishing plan"
+    },
+    {
+      "order": 11,
+      "id": "upload",
+      "label": "Upload",
+      "meaning": "Send local content into the app"
+    },
+    {
+      "order": 12,
+      "id": "download",
+      "label": "Download",
+      "meaning": "Export or retrieve content"
+    },
+    {
+      "order": 13,
+      "id": "folder",
+      "label": "Folder",
+      "meaning": "Collection, directory, grouped files"
+    },
+    {
+      "order": 14,
+      "id": "file",
+      "label": "File",
+      "meaning": "Single document or generic file"
+    },
+    {
+      "order": 15,
+      "id": "image",
+      "label": "Image",
+      "meaning": "Photo, visual asset, thumbnail"
+    },
+    {
+      "order": 16,
+      "id": "video",
+      "label": "Video",
+      "meaning": "Video media, player, reel"
+    },
+    {
+      "order": 17,
+      "id": "camera",
+      "label": "Camera",
+      "meaning": "Capture, photo/video source"
+    },
+    {
+      "order": 18,
+      "id": "database",
+      "label": "Database",
+      "meaning": "Persistent data store"
+    },
+    {
+      "order": 19,
+      "id": "server",
+      "label": "Server",
+      "meaning": "Backend service or infrastructure"
+    },
+    {
+      "order": 20,
+      "id": "api",
+      "label": "API",
+      "meaning": "Integration, endpoint, developer interface"
+    },
+    {
+      "order": 21,
+      "id": "lock",
+      "label": "Lock",
+      "meaning": "Private, secured, restricted"
+    },
+    {
+      "order": 22,
+      "id": "shield",
+      "label": "Shield",
+      "meaning": "Safety, moderation, protection"
+    },
+    {
+      "order": 23,
+      "id": "key",
+      "label": "Key",
+      "meaning": "Credentials, access keys, permissions"
+    },
+    {
+      "order": 24,
+      "id": "chart",
+      "label": "Chart",
+      "meaning": "Analytics, reports, graph"
+    },
+    {
+      "order": 25,
+      "id": "activity",
+      "label": "Activity",
+      "meaning": "Pulse, usage, live status"
+    },
+    {
+      "order": 26,
+      "id": "credit-card",
+      "label": "Credit Card",
+      "meaning": "Payment card, billing method"
+    },
+    {
+      "order": 27,
+      "id": "wallet",
+      "label": "Wallet",
+      "meaning": "Balance, payouts, money account"
+    },
+    {
+      "order": 28,
+      "id": "cart",
+      "label": "Cart",
+      "meaning": "Checkout cart, purchase flow"
+    },
+    {
+      "order": 29,
+      "id": "invoice",
+      "label": "Invoice",
+      "meaning": "Receipt, billing document"
+    },
+    {
+      "order": 30,
+      "id": "tax",
+      "label": "Tax",
+      "meaning": "Tax document, compliance finance"
+    },
+    {
+      "order": 31,
+      "id": "login",
+      "label": "Login",
+      "meaning": "Sign in, enter account"
+    },
+    {
+      "order": 32,
+      "id": "logout",
+      "label": "Logout",
+      "meaning": "Sign out, leave account"
+    },
+    {
+      "order": 33,
+      "id": "edit",
+      "label": "Edit",
+      "meaning": "Modify, compose, revise"
+    },
+    {
+      "order": 34,
+      "id": "trash",
+      "label": "Trash",
+      "meaning": "Delete, remove, discard"
+    },
+    {
+      "order": 35,
+      "id": "plus",
+      "label": "Plus",
+      "meaning": "Add, create, increase"
+    },
+    {
+      "order": 36,
+      "id": "minus",
+      "label": "Minus",
+      "meaning": "Remove, decrease, collapse"
+    },
+    {
+      "order": 37,
+      "id": "filter",
+      "label": "Filter",
+      "meaning": "Refine visible results"
+    },
+    {
+      "order": 38,
+      "id": "menu",
+      "label": "Menu",
+      "meaning": "Navigation menu, list"
+    },
+    {
+      "order": 39,
+      "id": "code",
+      "label": "Code",
+      "meaning": "Source code, embed, developer"
+    },
+    {
+      "order": 40,
+      "id": "terminal",
+      "label": "Terminal",
+      "meaning": "Console, command line, logs"
+    },
+    {
+      "order": 41,
+      "id": "rocket",
+      "label": "Rocket",
+      "meaning": "Launch, publish, deploy"
+    },
+    {
+      "order": 42,
+      "id": "bug",
+      "label": "Bug",
+      "meaning": "Issue, defect, debug"
+    },
+    {
+      "order": 43,
+      "id": "help",
+      "label": "Help",
+      "meaning": "Question, support, guidance"
+    },
+    {
+      "order": 44,
+      "id": "link",
+      "label": "Link",
+      "meaning": "URL, connection, relationship"
+    },
+    {
+      "order": 45,
+      "id": "cloud",
+      "label": "Cloud",
+      "meaning": "Cloud sync, hosted storage"
+    },
+    {
+      "order": 46,
+      "id": "globe",
+      "label": "Globe",
+      "meaning": "Public web, world, domain"
+    },
+    {
+      "order": 47,
+      "id": "warning",
+      "label": "Warning",
+      "meaning": "Caution, risk, validation issue"
+    },
+    {
+      "order": 48,
+      "id": "scan",
+      "label": "Scan",
+      "meaning": "Scan, detect, verify, focus target"
+    },
+    {
+      "order": 49,
+      "id": "network",
+      "label": "Network",
+      "meaning": "Connected nodes, graph, distributed system"
+    },
+    {
+      "order": 50,
+      "id": "cpu",
+      "label": "CPU",
+      "meaning": "Compute, processor, AI/system resource"
+    },
+    {
+      "order": 51,
+      "id": "layers",
+      "label": "Layers",
+      "meaning": "Stacked layers, versions, z-order"
+    },
+    {
+      "order": 52,
+      "id": "eye",
+      "label": "Eye",
+      "meaning": "View, visibility, preview"
+    },
+    {
+      "order": 53,
+      "id": "grid",
+      "label": "Grid",
+      "meaning": "Grid view, layout matrix"
+    },
+    {
+      "order": 54,
+      "id": "module",
+      "label": "Module",
+      "meaning": "Component, widget, reusable block"
+    },
+    {
+      "order": 55,
+      "id": "stack",
+      "label": "Stack",
+      "meaning": "Stacked cards, queue, layered set"
+    },
+    {
+      "order": 56,
+      "id": "tile",
+      "label": "Tile",
+      "meaning": "Bento tile, card tile, app block"
+    },
+    {
+      "order": 57,
+      "id": "phone",
+      "label": "Phone",
+      "meaning": "Mobile device, call, responsive preview"
+    },
+    {
+      "order": 58,
+      "id": "palette",
+      "label": "Palette",
+      "meaning": "Theme, color, visual style"
+    },
+    {
+      "order": 59,
+      "id": "heart",
+      "label": "Heart",
+      "meaning": "Favorite, like, affinity"
+    },
+    {
+      "order": 60,
+      "id": "star",
+      "label": "Star",
+      "meaning": "Featured, rating, saved item"
+    },
+    {
+      "order": 61,
+      "id": "target",
+      "label": "Target",
+      "meaning": "Goal, campaign, precision"
+    },
+    {
+      "order": 62,
+      "id": "megaphone",
+      "label": "Megaphone",
+      "meaning": "Announcement, marketing, broadcast"
+    },
+    {
+      "order": 63,
+      "id": "cursor",
+      "label": "Cursor",
+      "meaning": "Pointer, click, interaction"
+    }
+  ],
+  "aliases": {
+    "chat": "message",
+    "credit": "credit-card",
+    "card": "credit-card",
+    "media-image": "image",
+    "media-video": "video",
+    "brush": "palette",
+    "sticker": "star",
+    "stamp": "target",
+    "flag": "target",
+    "bolt": "activity",
+    "lightning": "activity"
+  },
+  "optionalStyleExtras": {
+    "synthwave": [
+      "cassette",
+      "cd",
+      "horizon-grid",
+      "neon-sunset",
+      "night-drive",
+      "skyline",
+      "wave"
+    ],
+    "cyberpunk": [
+      "circuit",
+      "chrome-palm",
+      "crystal",
+      "orbit",
+      "starburst"
+    ],
+    "y2k": [
+      "cd",
+      "floppy",
+      "gamepad",
+      "music",
+      "sparkle",
+      "sticker"
+    ],
+    "brutalism": [
+      "bolt",
+      "flag",
+      "stamp"
+    ],
+    "retro-glass": [
+      "aurora",
+      "cube",
+      "droplet",
+      "lens",
+      "orb",
+      "pane",
+      "prism",
+      "sparkle",
+      "window-stack"
+    ],
+    "bento": [
+      "mosaic",
+      "split",
+      "widget"
+    ]
+  }
+}

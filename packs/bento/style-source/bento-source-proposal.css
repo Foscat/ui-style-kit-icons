@@ -1,0 +1,39 @@
+/* Bento style source proposal: Modular App Tiles */
+
+[data-ui="bento"][data-theme][data-mode] {
+  --bento-tile-gap: var(--bento-space-5);
+  --bento-tile-radius: var(--bento-radius-lg);
+  --bento-tile-radius-lg: var(--bento-radius-xl);
+  --bento-tile-border: rgb(var(--bento-border-rgb) / var(--bento-border-alpha));
+  --bento-tile-shadow:
+    0 16px 40px rgb(0 0 0 / var(--bento-shadow-alpha));
+  --bento-tile-bg:
+    linear-gradient(135deg, rgb(var(--bento-primary-rgb) / .08), transparent 38%),
+    linear-gradient(180deg, rgb(255 255 255 / .08), transparent),
+    var(--bento-surface);
+}
+
+.bento-tile {
+  position: relative;
+  min-inline-size: 0;
+  padding: var(--bento-space-6);
+  border: 1px solid var(--bento-tile-border);
+  border-radius: var(--bento-tile-radius);
+  background: var(--bento-tile-bg);
+  color: var(--bento-text);
+  box-shadow: var(--bento-tile-shadow);
+}
+
+.bento-tile--wide { grid-column: span 2; }
+.bento-tile--tall { grid-row: span 2; }
+.bento-tile--hero {
+  grid-column: span 2;
+  grid-row: span 2;
+  border-radius: var(--bento-tile-radius-lg);
+}
+
+.bento-module-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 13rem), 1fr));
+  gap: var(--bento-tile-gap);
+}

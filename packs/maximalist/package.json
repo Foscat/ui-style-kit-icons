@@ -1,0 +1,34 @@
+{
+  "name": "maximalist-ui-style-icons",
+  "version": "0.2.0",
+  "description": "Theme-aware Maximalist / Playful SVG icon pack aligned to the UI Style Kit icon contract.",
+  "files": [
+    "dist",
+    "icons",
+    "sprite",
+    "style-source",
+    "manifest.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "style": "dist/maximalist-ui-style-icons.css",
+  "exports": {
+    ".": "./dist/maximalist-ui-style-icons.css",
+    "./css": "./dist/maximalist-ui-style-icons.css",
+    "./css.css": "./dist/maximalist-ui-style-icons.css",
+    "./sprite": "./dist/maximalist-ui-style-icons.svg",
+    "./sprite.svg": "./dist/maximalist-ui-style-icons.svg",
+    "./inline-sprite": "./sprite/maximalist-ui-style-icons.inline.svg",
+    "./manifest.json": "./manifest.json",
+    "./icons/*": "./icons/*"
+  },
+  "keywords": [
+    "svg",
+    "icons",
+    "maximalist",
+    "playful",
+    "ui-style-kit-css",
+    "theme-aware"
+  ],
+  "license": "MIT"
+}

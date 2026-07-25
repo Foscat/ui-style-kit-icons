@@ -1,0 +1,36 @@
+{
+  "name": "y2k-ui-style-icons",
+  "version": "0.2.0",
+  "description": "Theme-aware Y2K SVG icon pack for ui-style-kit-css and layout-style-css projects.",
+  "files": [
+    "dist",
+    "icons",
+    "sprite",
+    "style-source",
+    "manifest.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "style": "dist/y2k-ui-style-icons.css",
+  "exports": {
+    ".": "./dist/y2k-ui-style-icons.css",
+    "./css": "./dist/y2k-ui-style-icons.css",
+    "./css.css": "./dist/y2k-ui-style-icons.css",
+    "./sprite": "./dist/y2k-ui-style-icons.svg",
+    "./sprite.svg": "./dist/y2k-ui-style-icons.svg",
+    "./inline-sprite": "./sprite/y2k-ui-style-icons.inline.svg",
+    "./manifest.json": "./manifest.json",
+    "./icons/*": "./icons/*"
+  },
+  "keywords": [
+    "css",
+    "icons",
+    "svg",
+    "ui-style-kit",
+    "y2k",
+    "aqua",
+    "jelly",
+    "theme-aware"
+  ],
+  "license": "MIT"
+}

@@ -1,0 +1,34 @@
+<svg overflow="visible" xmlns="http://www.w3.org/2000/svg" class="neo-icon" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="settings-title settings-desc">
+  <title id="settings-title">Settings</title>
+  <desc id="settings-desc">Theme-aware Neumorphism SVG icon with soft extruded surfaces, dual light and dark shadows, inset grooves, and UI Style Kit color variables. Semantic meaning: Configuration and preferences.</desc>
+  <style>
+.neo-i-bg{fill:var(--neo-icon-bg,rgb(var(--usk-surface-rgb,232 238 245)/.96))}
+.neo-i-bg-strong{fill:var(--neo-icon-bg-strong,rgb(var(--usk-surface-strong-rgb,255 255 255)/.72))}
+.neo-i-bg-soft{fill:var(--neo-icon-bg-soft,rgb(var(--usk-surface-soft-rgb,213 222 235)/.78))}
+.neo-i-primary{fill:var(--neo-icon-primary-soft,rgb(var(--usk-primary-rgb,64 104 185)/.12));stroke:var(--neo-icon-primary,rgb(var(--usk-primary-rgb,64 104 185)))}
+.neo-i-secondary{fill:var(--neo-icon-secondary-soft,rgb(var(--usk-secondary-rgb,99 114 135)/.1));stroke:var(--neo-icon-secondary,rgb(var(--usk-secondary-rgb,99 114 135)))}
+.neo-i-accent{fill:var(--neo-icon-accent-soft,rgb(var(--usk-accent-rgb,194 141 72)/.14));stroke:var(--neo-icon-accent,rgb(var(--usk-accent-rgb,194 141 72)))}
+.neo-i-success{fill:rgb(var(--usk-success-rgb,42 153 98)/.12);stroke:var(--neo-icon-success,rgb(var(--usk-success-rgb,42 153 98)))}
+.neo-i-warning{fill:rgb(var(--usk-warning-rgb,190 126 39)/.14);stroke:var(--neo-icon-warning,rgb(var(--usk-warning-rgb,190 126 39)))}
+.neo-i-danger{fill:rgb(var(--usk-danger-rgb,203 72 80)/.13);stroke:var(--neo-icon-danger,rgb(var(--usk-danger-rgb,203 72 80)))}
+.neo-i-line{fill:none;stroke:var(--neo-icon-primary,rgb(var(--usk-primary-rgb,64 104 185)));stroke-width:5.7;stroke-linecap:round;stroke-linejoin:round}
+.neo-i-line-2{fill:none;stroke:var(--neo-icon-secondary,rgb(var(--usk-secondary-rgb,99 114 135)));stroke-width:4.1;stroke-linecap:round;stroke-linejoin:round}
+.neo-i-line-3{fill:none;stroke:var(--neo-icon-accent,rgb(var(--usk-accent-rgb,194 141 72)));stroke-width:3.3;stroke-linecap:round;stroke-linejoin:round}
+.neo-i-muted{fill:none;stroke:var(--neo-icon-muted,rgb(var(--usk-text-muted-rgb,99 114 135)));stroke-width:2.6;stroke-linecap:round;stroke-linejoin:round}
+.neo-i-fill-muted{fill:var(--neo-icon-muted,rgb(var(--usk-text-muted-rgb,99 114 135)));stroke:none}
+.neo-i-surface{fill:var(--neo-icon-bg,rgb(var(--usk-surface-rgb,232 238 245)/.96));stroke:var(--neo-icon-border,rgb(var(--usk-border-rgb,113 128 150)/.28));stroke-width:3}
+.neo-i-shadow-dark{fill:var(--neo-icon-nm-dark,rgb(var(--usk-border-rgb,113 128 150)/.24));stroke:none}
+.neo-i-shadow-light{fill:var(--neo-icon-nm-light,rgb(var(--usk-surface-strong-rgb,255 255 255)/.74));stroke:none}
+.neo-i-highlight{fill:none;stroke:var(--neo-icon-nm-light,rgb(var(--usk-surface-strong-rgb,255 255 255)/.74));stroke-width:4;stroke-linecap:round}
+.neo-i-lowlight{fill:none;stroke:var(--neo-icon-nm-dark,rgb(var(--usk-border-rgb,113 128 150)/.24));stroke-width:4;stroke-linecap:round}
+.neo-i-inset{fill:var(--neo-icon-bg-soft,rgb(var(--usk-surface-soft-rgb,213 222 235)/.78));stroke:var(--neo-icon-inset-dark,rgb(var(--usk-border-rgb,113 128 150)/.2));stroke-width:3}
+.neo-i-glow{filter:none}
+[data-icon-frame]{opacity:var(--usk-icon-frame-opacity,1)}
+[data-icon-frame="decor"]{opacity:var(--usk-icon-frame-decor-opacity,var(--usk-icon-frame-opacity,1))}
+[data-icon-glyph="play"]{fill:var(--usk-icon-play,var(--usk-icon-foreground,rgb(var(--usk-text-rgb,255 255 255))));stroke:none;opacity:1}
+</style>
+  <rect data-icon-frame="decor" class="neo-i-shadow-light" x="17" y="17" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-shadow-dark" x="38" y="38" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-surface" x="28" y="28" width="200" height="200" rx="42"/><path data-icon-frame="decor" class="neo-i-highlight" d="M56 50H166M50 58V132" opacity=".76"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M90 210H194M210 92V174" opacity=".68"/>
+  <path data-icon-frame="decor" class="neo-i-inset" d="M50 72H94M162 72H206" opacity=".68"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M54 188H100M156 188H202" opacity=".48"/>
+  <path data-icon-frame="decor" class="neo-i-highlight" d="M66 214H116M146 214H188" opacity=".44"/>
+  <path class="neo-i-bg-strong" stroke="var(--neo-icon-primary,rgb(var(--usk-primary-rgb,214 168 79)))" stroke-width="6" d="M128 58L143 78L168 73L176 98L199 111L189 135L199 158L176 171L168 196L143 191L128 211L113 191L88 196L80 171L57 158L67 135L57 111L80 98L88 73L113 78Z"/><circle class="neo-i-line-2 neo-i-glow" cx="128" cy="135" r="30"/><path class="neo-i-line-3" d="M128 105V116M128 154V165M98 135H109M147 135H158"/>
+</svg>

@@ -1,0 +1,112 @@
+{
+  "name": "ui-style-kit-icons",
+  "version": "0.2.0",
+  "description": "Theme-aware SVG icon library for ui-style-kit-css and layout-style-css projects.",
+  "type": "module",
+  "main": "dist/ui-style-kit-icons.js",
+  "module": "dist/ui-style-kit-icons.js",
+  "types": "dist/ui-style-kit-icons.d.ts",
+  "homepage": "https://foscat.github.io/ui-style-kit-icons/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Foscat/ui-style-kit-icons.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Foscat/ui-style-kit-icons/issues"
+  },
+  "sideEffects": [
+    "dist/ui-style-kit-icons.js",
+    "dist/*.css",
+    "packs/**/*.css"
+  ],
+  "scripts": {
+    "build": "node scripts/build-dist.mjs",
+    "demo": "node scripts/serve-demo.mjs",
+    "pages:build": "node scripts/build-pages.mjs",
+    "check:js": "node scripts/check-js.mjs",
+    "check:contracts": "node scripts/check-contracts.mjs",
+    "check:demo": "node scripts/demo-smoke.mjs",
+    "check:svg": "node scripts/check-svg-visuals.mjs",
+    "check:package": "node scripts/check-package.mjs",
+    "format:check": "node scripts/format-check.mjs",
+    "pack:audit": "node scripts/pack-audit.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "verify": "npm run build && npm run pack:audit && npm run check:js && npm run check:contracts && npm run check:svg && npm run pages:build && npm test && npm run format:check && npm run check:package"
+  },
+  "files": [
+    "contract",
+    "dist",
+    "icons",
+    "packs/bento",
+    "packs/brutalism",
+    "packs/cyberpunk",
+    "packs/maximalist",
+    "packs/minimal-saas",
+    "packs/neumorphism",
+    "packs/retro-glass",
+    "packs/synthwave",
+    "packs/synthwave-webapp",
+    "packs/tactile",
+    "packs/y2k",
+    "sprite",
+    "style-source",
+    "manifest.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "style": "dist/ui-style-kit-icons.css",
+  "exports": {
+    ".": {
+      "types": "./dist/ui-style-kit-icons.d.ts",
+      "import": "./dist/ui-style-kit-icons.js",
+      "default": "./dist/ui-style-kit-icons.js"
+    },
+    "./element": {
+      "types": "./dist/ui-style-kit-icons.d.ts",
+      "import": "./dist/ui-style-kit-icons.js",
+      "default": "./dist/ui-style-kit-icons.js"
+    },
+    "./runtime": {
+      "types": "./dist/ui-style-kit-icons.d.ts",
+      "import": "./dist/ui-style-kit-icons.js",
+      "default": "./dist/ui-style-kit-icons.js"
+    },
+    "./registry": {
+      "import": "./dist/registry.js",
+      "default": "./dist/registry.js"
+    },
+    "./registry.js": {
+      "import": "./dist/registry.js",
+      "default": "./dist/registry.js"
+    },
+    "./registry.json": "./dist/registry.json",
+    "./contract": "./contract/icon-contract.json",
+    "./contract.json": "./contract/icon-contract.json",
+    "./contract/*": "./contract/*",
+    "./css": "./dist/ui-style-kit-icons.css",
+    "./css.css": "./dist/ui-style-kit-icons.css",
+    "./all.css": "./dist/ui-style-kit-icons.all.css",
+    "./dist/*": "./dist/*",
+    "./sprite": "./dist/ui-style-kit-icons.svg",
+    "./sprite.svg": "./dist/ui-style-kit-icons.svg",
+    "./inline-sprite": "./sprite/ui-style-kit-icons.inline.svg",
+    "./manifest.json": "./manifest.json",
+    "./package.json": "./package.json",
+    "./style-source/*": "./style-source/*",
+    "./icons/*": "./icons/*",
+    "./packs/*": "./packs/*"
+  },
+  "keywords": [
+    "css",
+    "icons",
+    "svg",
+    "ui-style-kit",
+    "theme-aware",
+    "cyberpunk",
+    "synthwave"
+  ],
+  "devDependencies": {
+    "playwright": "1.62.0"
+  },
+  "license": "MIT"
+}
