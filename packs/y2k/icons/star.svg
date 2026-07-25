@@ -1,4 +1,4 @@
-<svg overflow="visible" xmlns="http://www.w3.org/2000/svg" class="y2k-icon" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="star-title star-desc">
+<svg overflow="hidden" xmlns="http://www.w3.org/2000/svg" class="y2k-icon" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="star-title star-desc">
   <title id="star-title">Star</title>
   <desc id="star-desc">Theme-aware Y2K SVG icon with glossy jelly styling and UI Style Kit color variables. Semantic meaning: Featured, rating, saved item.</desc>
   <style>
@@ -23,7 +23,7 @@
 </style>
   <rect data-icon-frame="decor" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
   <ellipse data-icon-frame="decor" class="y2k-i-gloss" cx="96" cy="62" rx="50" ry="14" opacity=".72"/>
-  <path class="y2k-i-muted" d="M54 206H106M146 206H202" opacity=".55"/>
-  <path class="y2k-i-line-3" d="M54 52H78M188 52H204" opacity=".7"/>
+  <path data-icon-frame="decor" class="y2k-i-muted" d="M52 206H104M152 206H204" opacity=".55"/>
+  <path data-icon-frame="decor" class="y2k-i-line-3" d="M52 52H76M180 52H204" opacity=".7"/>
   <path class="y2k-i-warning" stroke="var(--y2k-icon-secondary,rgb(var(--usk-secondary-rgb,255 96 190)))" stroke-width="6" d="M128 58L149 104L199 110L162 144L172 194L128 168L84 194L94 144L57 110L107 104Z"/><ellipse class="y2k-i-gloss" cx="118" cy="99" rx="28" ry="10" transform="rotate(-18 118 99)"/>
 </svg>

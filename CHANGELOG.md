@@ -34,6 +34,10 @@ All notable changes to UI Style Kit Icons are documented in this file.
 
 - Reworked low-contrast and clipped icon artwork across all packs, including a
   clear video-player silhouette.
+- Normalized Y2K icon scaling and safe areas, centered complex glyphs, and made
+  its decorative guide marks honor borderless rendering.
+- Prevented embedded standalone SVG titles from obscuring interactive icon
+  previews with native hover labels.
 - Repaired the demo sidebar, frame controls, light modes, URL state, icon
   dialog, direct-file warning, and GitHub Pages metadata.
 - Removed stale duplicate pack and favicon drop-in folders.

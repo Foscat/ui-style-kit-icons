@@ -150,7 +150,7 @@ test("standalone SVGs expose frame controls and video contrast hooks", async () 
         );
       }
 
-      if (safeViewBoxIconIds.has(icon.id)) {
+      if (pack.id !== "y2k" && safeViewBoxIconIds.has(icon.id)) {
         assert.match(
           source,
           /viewBox="-8 -8 272 272"/u,
@@ -158,6 +158,65 @@ test("standalone SVGs expose frame controls and video contrast hooks", async () 
         );
       }
     }
+  }
+});
+
+test("Y2K icons share a centered viewport and frame-aware guide marks", async () => {
+  const y2kPack = registry.packs.find(({ id }) => id === "y2k");
+  assert.ok(y2kPack, "y2k pack is registered");
+
+  for (const icon of [...y2kPack.coreIcons, ...y2kPack.optionalIcons]) {
+    const source = await readFile(join(root, y2kPack.sourcePath, icon.file), "utf8");
+
+    assert.match(
+      source,
+      /^<svg overflow="hidden"[^>]*\bviewBox="0 0 256 256"/u,
+      `y2k/${icon.id} uses the standard clipped viewport`
+    );
+    assert.doesNotMatch(
+      source,
+      /<path class="y2k-i-(?:muted|line-3)" d="M(?:54 206|54 52)/u,
+      `y2k/${icon.id} has no persistent guide fragments`
+    );
+    assert.match(
+      source,
+      /<path data-icon-frame="decor" class="y2k-i-muted" d="M52 206H104M152 206H204"/u,
+      `y2k/${icon.id} footer guides hide with frame="none"`
+    );
+    assert.match(
+      source,
+      /<path data-icon-frame="decor" class="y2k-i-line-3" d="M52 52H76M180 52H204"/u,
+      `y2k/${icon.id} header guides hide with frame="none"`
+    );
+  }
+
+  const network = await readFile(
+    join(root, y2kPack.sourcePath, "icons", "network.svg"),
+    "utf8"
+  );
+  assert.ok(
+    network.indexOf('<path class="y2k-i-muted"') <
+      network.indexOf('<circle class="y2k-i-primary"'),
+    "y2k/network draws connectors behind its nodes"
+  );
+
+  const cloud = await readFile(
+    join(root, y2kPack.sourcePath, "icons", "cloud.svg"),
+    "utf8"
+  );
+  assert.match(cloud, /C209 171 192 184 170 184H79Z/u, "y2k/cloud is closed");
+
+  for (const spritePath of [y2kPack.sprite, y2kPack.inlineSprite]) {
+    const sprite = await readFile(join(root, spritePath), "utf8");
+    const viewBoxes = [
+      ...sprite.matchAll(/<symbol\b[^>]*\bviewBox="([^"]+)"/gu)
+    ].map(([, viewBox]) => viewBox);
+
+    assert.equal(viewBoxes.length, 69, `${spritePath} contains every Y2K symbol`);
+    assert.ok(
+      viewBoxes.every((viewBox) => viewBox === "0 0 256 256"),
+      `${spritePath} preserves the centered Y2K viewport`
+    );
   }
 });
 

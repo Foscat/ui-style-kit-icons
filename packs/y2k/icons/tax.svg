@@ -1,4 +1,4 @@
-<svg overflow="visible" xmlns="http://www.w3.org/2000/svg" class="y2k-icon" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="tax-title tax-desc">
+<svg overflow="hidden" xmlns="http://www.w3.org/2000/svg" class="y2k-icon" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="tax-title tax-desc">
   <title id="tax-title">Tax</title>
   <desc id="tax-desc">Theme-aware Y2K SVG icon with glossy jelly styling and UI Style Kit color variables. Semantic meaning: Tax document, compliance finance.</desc>
   <style>
@@ -21,6 +21,6 @@
 [data-icon-frame="decor"]{opacity:var(--usk-icon-frame-decor-opacity,var(--usk-icon-frame-opacity,1))}
 [data-icon-glyph="play"]{fill:var(--usk-icon-play,var(--usk-icon-foreground,rgb(var(--usk-text-rgb,255 255 255))));stroke:none;opacity:1}
 </style>
-  <rect data-icon-frame="decor" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/><ellipse data-icon-frame="decor" class="y2k-i-gloss" cx="96" cy="62" rx="50" ry="14" opacity=".72"/><path class="y2k-i-muted" d="M54 206H106M146 206H202" opacity=".55"/><path class="y2k-i-line-3" d="M54 52H78M188 52H204" opacity=".7"/>
+  <rect data-icon-frame="decor" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/><ellipse data-icon-frame="decor" class="y2k-i-gloss" cx="96" cy="62" rx="50" ry="14" opacity=".72"/><path data-icon-frame="decor" class="y2k-i-muted" d="M52 206H104M152 206H204" opacity=".55"/><path data-icon-frame="decor" class="y2k-i-line-3" d="M52 52H76M180 52H204" opacity=".7"/>
   <rect class="y2k-i-primary" x="65" y="75" width="126" height="108" rx="16"/><path class="y2k-i-muted" d="M91 106H165M91 136H138M91 164H116"/><path class="y2k-i-line-3" d="M148 136L170 158M170 136L148 158"/>
 </svg>

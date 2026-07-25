@@ -1,4 +1,4 @@
-<svg overflow="visible" xmlns="http://www.w3.org/2000/svg" class="y2k-icon" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="plus-title plus-desc">
+<svg overflow="hidden" xmlns="http://www.w3.org/2000/svg" class="y2k-icon" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="plus-title plus-desc">
   <title id="plus-title">Plus</title>
   <desc id="plus-desc">Theme-aware Y2K SVG icon with glossy jelly styling and UI Style Kit color variables. Semantic meaning: Add, create, increase.</desc>
   <style>
@@ -23,7 +23,7 @@
 </style>
   <rect data-icon-frame="decor" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
   <ellipse data-icon-frame="decor" class="y2k-i-gloss" cx="96" cy="62" rx="50" ry="14" opacity=".72"/>
-  <path class="y2k-i-muted" d="M54 206H106M146 206H202" opacity=".55"/>
-  <path class="y2k-i-line-3" d="M54 52H78M188 52H204" opacity=".7"/>
+  <path data-icon-frame="decor" class="y2k-i-muted" d="M52 206H104M152 206H204" opacity=".55"/>
+  <path data-icon-frame="decor" class="y2k-i-line-3" d="M52 52H76M180 52H204" opacity=".7"/>
   <circle class="y2k-i-bg-strong" cx="128" cy="128" r="66"/><circle class="y2k-i-line" cx="128" cy="128" r="66"/><path class="y2k-i-line-2" d="M128 88V168M88 128H168"/><path class="y2k-i-line-3" d="M128 96V160M96 128H160"/>
 </svg>

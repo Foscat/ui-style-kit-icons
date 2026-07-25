@@ -30,6 +30,18 @@ const themes = [
   "arctic-indigo"
 ];
 const modes = ["light", "dark", "contrast"];
+const y2kGeometryCriticalIds = new Set([
+  "camera",
+  "cloud",
+  "link",
+  "megaphone",
+  "module",
+  "network",
+  "palette",
+  "stack",
+  "target",
+  "users"
+]);
 const screenshotDir = join(tmpdir(), "ui-style-kit-icons-svg-audit");
 const reportPath = join(tmpdir(), "ui-style-kit-icons-svg-audit.json");
 const findings = [];
@@ -298,6 +310,29 @@ function inspectGeometry(packId, icons) {
         overflow: icon.overflow
       });
     }
+
+    if (
+      packId === "y2k" &&
+      y2kGeometryCriticalIds.has(icon.id) &&
+      (Math.abs(icon.centerOffsetX) > 6 || Math.abs(icon.centerOffsetY) > 6)
+    ) {
+      findings.push({
+        type: "glyph-alignment",
+        pack: packId,
+        icon: icon.id,
+        centerOffsetX: icon.centerOffsetX,
+        centerOffsetY: icon.centerOffsetY
+      });
+    }
+
+    if (packId === "y2k" && icon.edgeInset < 12) {
+      findings.push({
+        type: "glyph-safe-area",
+        pack: packId,
+        icon: icon.id,
+        edgeInset: icon.edgeInset
+      });
+    }
   }
 }
 
@@ -428,6 +463,9 @@ async function inspectIcons(page) {
           renderRatio: 0,
           glyphExtent: 0,
           overflow: 0,
+          centerOffsetX: 0,
+          centerOffsetY: 0,
+          edgeInset: 0,
           maxContrast: null,
           strongPaintExtent: null
         };
@@ -506,6 +544,20 @@ async function inspectIcons(page) {
           (glyphBox?.height ?? 0) -
           (viewBox.y + viewBox.height)
       );
+      const centerOffsetX = glyphBox
+        ? glyphBox.x + glyphBox.width / 2 - (viewBox.x + viewBox.width / 2)
+        : 0;
+      const centerOffsetY = glyphBox
+        ? glyphBox.y + glyphBox.height / 2 - (viewBox.y + viewBox.height / 2)
+        : 0;
+      const edgeInset = glyphBox
+        ? Math.min(
+            glyphBox.x - viewBox.x,
+            glyphBox.y - viewBox.y,
+            viewBox.x + viewBox.width - (glyphBox.x + glyphBox.width),
+            viewBox.y + viewBox.height - (glyphBox.y + glyphBox.height)
+          )
+        : 0;
 
       return {
         id: card.dataset.iconId,
@@ -520,6 +572,9 @@ async function inspectIcons(page) {
         overflow: Number(
           Math.max(leftOverflow, topOverflow, rightOverflow, bottomOverflow).toFixed(2)
         ),
+        centerOffsetX: Number(centerOffsetX.toFixed(2)),
+        centerOffsetY: Number(centerOffsetY.toFixed(2)),
+        edgeInset: Number(edgeInset.toFixed(2)),
         maxContrast:
           paintContrasts.length > 0
             ? Number(Math.max(...paintContrasts).toFixed(2))

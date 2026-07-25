@@ -115,6 +115,35 @@ try {
 
   await page.keyboard.press("Escape");
   await page.waitForFunction(() => document.querySelector("#iconDialog")?.open === false);
+  await page.selectOption("#packSelect", "y2k");
+  await page.waitForFunction(() => {
+    const icon = document.querySelector(".icon-card usk-icon");
+
+    return (
+      icon?.dataset.pack === "y2k" &&
+      !icon.hasAttribute("data-loading") &&
+      Boolean(icon.shadowRoot?.querySelector("svg.y2k-icon"))
+    );
+  });
+  const y2kEmbedding = await page.locator(".icon-card usk-icon").first().evaluate((icon) => {
+    const svg = icon.shadowRoot?.querySelector("svg");
+    const visibleFrameParts = svg
+      ? [...svg.querySelectorAll("[data-icon-frame]")].filter(
+          (element) => Number.parseFloat(getComputedStyle(element).opacity) > 0
+        ).length
+      : -1;
+
+    return {
+      overflow: svg ? getComputedStyle(svg).overflow : "",
+      pointerEvents: svg ? getComputedStyle(svg).pointerEvents : "",
+      visibleFrameParts
+    };
+  });
+  assert.deepEqual(y2kEmbedding, {
+    overflow: "hidden",
+    pointerEvents: "none",
+    visibleFrameParts: 0
+  });
   await assertLightThemeContrast(page, `http://127.0.0.1:${address.port}/`);
 
   if (!quick) {

@@ -564,6 +564,10 @@ export class UiStyleIconElement extends HTMLElementBase {
               block-size: 100% !important;
               display: block;
               overflow: visible;
+              pointer-events: none;
+            }
+            svg.y2k-icon {
+              overflow: hidden;
             }
             svg [data-icon-frame] {
               opacity: var(--usk-icon-frame-opacity, 1);
