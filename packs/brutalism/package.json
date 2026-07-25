@@ -1,0 +1,35 @@
+{
+  "name": "brutalism-ui-style-icons",
+  "version": "0.2.0",
+  "description": "Theme-aware brutalist SVG icon pack for ui-style-kit-css and layout-style-css projects.",
+  "files": [
+    "dist",
+    "icons",
+    "sprite",
+    "style-source",
+    "manifest.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "style": "dist/brutalism-ui-style-icons.css",
+  "exports": {
+    ".": "./dist/brutalism-ui-style-icons.css",
+    "./css": "./dist/brutalism-ui-style-icons.css",
+    "./css.css": "./dist/brutalism-ui-style-icons.css",
+    "./sprite": "./dist/brutalism-ui-style-icons.svg",
+    "./sprite.svg": "./dist/brutalism-ui-style-icons.svg",
+    "./inline-sprite": "./sprite/brutalism-ui-style-icons.inline.svg",
+    "./manifest.json": "./manifest.json",
+    "./icons/*": "./icons/*"
+  },
+  "keywords": [
+    "css",
+    "icons",
+    "svg",
+    "ui-style-kit",
+    "brutalism",
+    "neo-brutalism",
+    "theme-aware"
+  ],
+  "license": "MIT"
+}

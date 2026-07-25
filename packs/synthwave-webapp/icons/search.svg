@@ -1,0 +1,48 @@
+<svg overflow="visible" class="sw-icon" xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="search-title search-desc">
+  <title id="search-title">Search</title>
+  <desc id="search-desc">Theme-aware synthwave web application SVG icon with neon styling and UI Style Kit color variables. Semantic meaning: Find, query, inspect.</desc>
+  <style>
+[data-icon-frame]{opacity:var(--usk-icon-frame-opacity,1)}
+[data-icon-frame="decor"]{opacity:var(--usk-icon-frame-decor-opacity,var(--usk-icon-frame-opacity,1))}
+[data-icon-glyph="play"]{fill:var(--usk-icon-play,var(--usk-icon-foreground,rgb(var(--usk-text-rgb,255 255 255))));stroke:none;opacity:1}
+</style>
+  
+  <defs>
+    <linearGradient id="search-bg" x1="28" y1="24" x2="228" y2="232" gradientUnits="userSpaceOnUse">
+      <stop stop-color="rgb(var(--usk-surface-strong-rgb, 37 17 91))"/>
+      <stop offset=".48" stop-color="rgb(var(--usk-surface-rgb, 19 8 47))"/>
+      <stop offset="1" stop-color="rgb(var(--usk-bg-rgb, 9 5 28))"/>
+    </linearGradient>
+    <linearGradient id="search-neon" x1="48" y1="36" x2="214" y2="218" gradientUnits="userSpaceOnUse">
+      <stop stop-color="rgb(var(--usk-primary-rgb, 32 244 255))"/>
+      <stop offset=".45" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+      <stop offset="1" stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+    </linearGradient>
+    <linearGradient id="search-chrome" x1="56" y1="42" x2="204" y2="214" gradientUnits="userSpaceOnUse">
+      <stop stop-color="rgb(var(--usk-surface-strong-rgb, 255 247 255))"/>
+      <stop offset=".18" stop-color="rgb(var(--usk-primary-rgb, 32 244 255))"/>
+      <stop offset=".48" stop-color="rgb(var(--usk-secondary-rgb, 111 44 255))"/>
+      <stop offset=".76" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+      <stop offset="1" stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+    </linearGradient>
+    <linearGradient id="search-sun" x1="70" y1="52" x2="185" y2="164" gradientUnits="userSpaceOnUse">
+      <stop stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+      <stop offset=".5" stop-color="rgb(var(--usk-warning-rgb, 255 138 61))"/>
+      <stop offset="1" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+    </linearGradient>
+    <filter id="search-glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4.5" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0.9 0 1 0 0 0.18 0 0 1 0 1 0 0 0 .82 0"/>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="search-clip"><rect x="18" y="18" width="220" height="220" rx="48"/></clipPath>
+  </defs>
+  <rect data-icon-frame="decor" x="18" y="18" width="220" height="220" rx="48" fill="url(#search-bg)"/>
+  <g clip-path="url(#search-clip)">
+    <g data-icon-frame="decor" class="sw-i-horizon-sun" opacity=".42"><path d="M74 166A54 54 0 0 1 182 166H74Z" fill="url(#search-sun)" opacity=".46"/><path d="M86 136H170M80 150H176M74 164H182" fill="none" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="3" stroke-linecap="round" opacity=".34"/></g>
+    <path d="M34 176H222M50 194H206M70 212H186" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="3" opacity=".42"/>
+    <path d="M24 232L104 154M232 232L152 154M63 232L116 154M193 232L140 154M100 232L124 154M156 232L132 154" stroke="rgb(var(--usk-secondary-rgb, 255 43 214))" stroke-width="2" opacity=".34"/>
+    <circle cx="112" cy="112" r="44" fill="rgb(var(--usk-surface-rgb, 19 8 47))" stroke="url(#search-chrome)" stroke-width="12" filter="url(#search-glow)"/><path d="M146 146L195 195" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/><circle cx="112" cy="112" r="20" fill="rgb(var(--usk-primary-rgb, 32 244 255))" opacity=".35"/>
+  </g>
+  <rect data-icon-frame="decor" x="18" y="18" width="220" height="220" rx="48" fill="none" stroke="url(#search-neon)" stroke-width="4"/>
+</svg>

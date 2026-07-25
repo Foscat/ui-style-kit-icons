@@ -1,0 +1,83 @@
+/* tactile-ui-style-icons
+   Theme-aware icon tokens for the Skeuomorphic / Tactile UI personality.
+   Designed for ui-style-kit-css and layout-style-css projects.
+*/
+
+:where(.tactile-icon, [data-tactile-icon]) {
+  --tactile-icon-size: 1.25em;
+  --tactile-icon-bg: rgb(var(--usk-surface-rgb, 248 250 252) / var(--tactile-icon-bg-alpha, .96));
+  --tactile-icon-bg-strong: rgb(var(--usk-surface-strong-rgb, 255 255 255) / var(--tactile-icon-bg-strong-alpha, .98));
+  --tactile-icon-bg-soft: rgb(var(--usk-surface-soft-rgb, 226 232 240) / var(--tactile-icon-bg-soft-alpha, .82));
+  --tactile-icon-border: rgb(var(--usk-border-rgb, 100 116 139) / var(--tactile-icon-border-alpha, .66));
+  --tactile-icon-primary: rgb(var(--usk-primary-rgb, 37 99 235));
+  --tactile-icon-primary-soft: rgb(var(--usk-primary-rgb, 37 99 235) / .16);
+  --tactile-icon-secondary: rgb(var(--usk-secondary-rgb, 100 116 139));
+  --tactile-icon-secondary-soft: rgb(var(--usk-secondary-rgb, 100 116 139) / .14);
+  --tactile-icon-accent: rgb(var(--usk-accent-rgb, 14 165 233));
+  --tactile-icon-accent-soft: rgb(var(--usk-accent-rgb, 14 165 233) / .16);
+  --tactile-icon-success: rgb(var(--usk-success-rgb, 22 163 74));
+  --tactile-icon-warning: rgb(var(--usk-warning-rgb, 202 138 4));
+  --tactile-icon-danger: rgb(var(--usk-danger-rgb, 220 38 38));
+  --tactile-icon-muted: rgb(var(--usk-text-muted-rgb, 100 116 139));
+  --tactile-icon-shadow: rgb(var(--usk-border-rgb, 15 23 42) / var(--tactile-icon-shadow-alpha, .2));
+  --tactile-icon-highlight: rgb(var(--usk-surface-strong-rgb, 255 255 255) / var(--tactile-icon-highlight-alpha, .64));
+  --tactile-icon-lowlight: rgb(var(--usk-border-rgb, 15 23 42) / var(--tactile-icon-lowlight-alpha, .22));
+  --tactile-icon-stroke: 6.3;
+  inline-size: var(--tactile-icon-size);
+  block-size: var(--tactile-icon-size);
+  display: inline-block;
+  vertical-align: -0.125em;
+  overflow: visible;
+  color: rgb(var(--usk-text-rgb, 15 23 42));
+  fill: none;
+  stroke: currentColor;
+  flex: 0 0 auto;
+  filter: drop-shadow(0 .24em .42em var(--tactile-icon-shadow));
+}
+
+:where(.usk-icon--frame-soft, [data-usk-icon-frame="soft"]) {
+  --usk-icon-frame-opacity: 0.42;
+  --usk-icon-frame-decor-opacity: 0.22;
+}
+:where(.usk-icon--frame-none, [data-usk-icon-frame="none"]) {
+  --usk-icon-frame-opacity: 0;
+  --usk-icon-frame-decor-opacity: 0;
+}
+
+:where(.tactile-icon--xs) { --tactile-icon-size: 1em; }
+:where(.tactile-icon--sm) { --tactile-icon-size: 1.25em; }
+:where(.tactile-icon--md) { --tactile-icon-size: 1.5em; }
+:where(.tactile-icon--lg) { --tactile-icon-size: 2em; }
+:where(.tactile-icon--xl) { --tactile-icon-size: 3em; }
+
+:where(.tactile-icon--quiet) { --tactile-icon-bg-alpha: .84; --tactile-icon-shadow-alpha: .08; --tactile-icon-highlight-alpha: .42; }
+:where(.tactile-icon--raised) { --tactile-icon-bg-alpha: 1; --tactile-icon-shadow-alpha: .32; --tactile-icon-highlight-alpha: .78; }
+:where(.tactile-icon--flat) { --tactile-icon-shadow-alpha: 0; --tactile-icon-lowlight-alpha: .12; }
+
+:where([data-ui="tactile"] .tactile-icon, [data-ui="tactile"][data-tactile-icon]) {
+  --tactile-icon-bg-alpha: var(--tactile-panel-alpha, .96);
+  --tactile-icon-bg-soft-alpha: var(--tactile-panel-soft-alpha, .82);
+  --tactile-icon-border-alpha: var(--tactile-border-alpha, .66);
+  --tactile-icon-shadow-alpha: calc(var(--tactile-shadow-alpha, .2) + .08);
+}
+
+:where(.tactile-icon .tactile-i-bg) { fill: var(--tactile-icon-bg); }
+:where(.tactile-icon .tactile-i-bg-strong) { fill: var(--tactile-icon-bg-strong); }
+:where(.tactile-icon .tactile-i-bg-soft) { fill: var(--tactile-icon-bg-soft); }
+:where(.tactile-icon .tactile-i-primary) { fill: var(--tactile-icon-primary-soft); stroke: var(--tactile-icon-primary); }
+:where(.tactile-icon .tactile-i-secondary) { fill: var(--tactile-icon-secondary-soft); stroke: var(--tactile-icon-secondary); }
+:where(.tactile-icon .tactile-i-accent) { fill: var(--tactile-icon-accent-soft); stroke: var(--tactile-icon-accent); }
+:where(.tactile-icon .tactile-i-success) { fill: rgb(var(--usk-success-rgb, 22 163 74) / .16); stroke: var(--tactile-icon-success); }
+:where(.tactile-icon .tactile-i-warning) { fill: rgb(var(--usk-warning-rgb, 202 138 4) / .17); stroke: var(--tactile-icon-warning); }
+:where(.tactile-icon .tactile-i-danger) { fill: rgb(var(--usk-danger-rgb, 220 38 38) / .15); stroke: var(--tactile-icon-danger); }
+:where(.tactile-icon .tactile-i-line) { fill: none; stroke: var(--tactile-icon-primary); stroke-width: var(--tactile-icon-stroke); stroke-linecap: round; stroke-linejoin: round; }
+:where(.tactile-icon .tactile-i-line-2) { fill: none; stroke: var(--tactile-icon-secondary); stroke-width: calc(var(--tactile-icon-stroke) * .75); stroke-linecap: round; stroke-linejoin: round; }
+:where(.tactile-icon .tactile-i-line-3) { fill: none; stroke: var(--tactile-icon-accent); stroke-width: calc(var(--tactile-icon-stroke) * .62); stroke-linecap: round; stroke-linejoin: round; }
+:where(.tactile-icon .tactile-i-muted) { fill: none; stroke: var(--tactile-icon-muted); stroke-width: calc(var(--tactile-icon-stroke) * .48); stroke-linecap: round; stroke-linejoin: round; }
+:where(.tactile-icon .tactile-i-fill-muted) { fill: var(--tactile-icon-muted); stroke: none; }
+:where(.tactile-icon .tactile-i-surface) { fill: var(--tactile-icon-bg); stroke: var(--tactile-icon-border); stroke-width: 4.4; }
+:where(.tactile-icon .tactile-i-shadow) { fill: var(--tactile-icon-shadow); stroke: none; }
+:where(.tactile-icon .tactile-i-highlight) { fill: none; stroke: var(--tactile-icon-highlight); stroke-width: 4.2; stroke-linecap: round; }
+:where(.tactile-icon .tactile-i-lowlight) { fill: none; stroke: var(--tactile-icon-lowlight); stroke-width: 4.2; stroke-linecap: round; }
+:where(.tactile-icon .tactile-i-inset) { fill: var(--tactile-icon-bg-soft); stroke: var(--tactile-icon-lowlight); stroke-width: 3.2; }
+:where(.tactile-icon .tactile-i-glow) { filter: drop-shadow(0 .08em .1em var(--tactile-icon-highlight)); }

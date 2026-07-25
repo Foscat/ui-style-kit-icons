@@ -1,0 +1,28 @@
+<svg overflow="visible" xmlns="http://www.w3.org/2000/svg" class="rg-icon" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="module-title module-desc">
+  <title id="module-title">Module</title>
+  <desc id="module-desc">Theme-aware retro-glass SVG icon with translucent glassmorphism styling and UI Style Kit color variables. Semantic meaning: Component, widget, reusable block.</desc>
+  <style>
+.rg-i-bg{fill:var(--rg-icon-bg,rgb(var(--usk-surface-rgb,255 255 255)/.42))}
+.rg-i-bg-strong{fill:var(--rg-icon-bg-strong,rgb(var(--usk-surface-strong-rgb,255 255 255)/.62))}
+.rg-i-bg-soft{fill:var(--rg-icon-bg-soft,rgb(var(--usk-surface-soft-rgb,230 238 255)/.28))}
+.rg-i-primary{fill:var(--rg-icon-primary-soft,rgb(var(--usk-primary-rgb,54 196 221)/.2));stroke:var(--rg-icon-primary,rgb(var(--usk-primary-rgb,54 196 221)))}
+.rg-i-secondary{fill:var(--rg-icon-secondary-soft,rgb(var(--usk-secondary-rgb,140 183 201)/.2));stroke:var(--rg-icon-secondary,rgb(var(--usk-secondary-rgb,140 183 201)))}
+.rg-i-accent{fill:var(--rg-icon-accent-soft,rgb(var(--usk-accent-rgb,83 240 255)/.25));stroke:var(--rg-icon-accent,rgb(var(--usk-accent-rgb,83 240 255)))}
+.rg-i-success{fill:rgb(var(--usk-success-rgb,103 216 166)/.22);stroke:var(--rg-icon-success,rgb(var(--usk-success-rgb,103 216 166)))}
+.rg-i-warning{fill:rgb(var(--usk-warning-rgb,255 192 97)/.24);stroke:var(--rg-icon-warning,rgb(var(--usk-warning-rgb,255 192 97)))}
+.rg-i-danger{fill:rgb(var(--usk-danger-rgb,255 123 123)/.22);stroke:var(--rg-icon-danger,rgb(var(--usk-danger-rgb,255 123 123)))}
+.rg-i-gloss{fill:var(--rg-icon-rim,rgb(255 255 255/.64));stroke:none}
+.rg-i-sheen{fill:none;stroke:var(--rg-icon-rim,rgb(255 255 255/.64));stroke-width:2.8;stroke-linecap:round;stroke-linejoin:round}
+.rg-i-line{fill:none;stroke:var(--rg-icon-primary,rgb(var(--usk-primary-rgb,54 196 221)));stroke-width:6.5;stroke-linecap:round;stroke-linejoin:round}
+.rg-i-line-2{fill:none;stroke:var(--rg-icon-secondary,rgb(var(--usk-secondary-rgb,140 183 201)));stroke-width:4.7;stroke-linecap:round;stroke-linejoin:round}
+.rg-i-line-3{fill:none;stroke:var(--rg-icon-accent,rgb(var(--usk-accent-rgb,83 240 255)));stroke-width:3.8;stroke-linecap:round;stroke-linejoin:round}
+.rg-i-muted{fill:none;stroke:var(--rg-icon-muted,rgb(var(--usk-text-muted-rgb,167 192 201)));stroke-width:2.8;stroke-linecap:round;stroke-linejoin:round}
+.rg-i-surface{fill:var(--rg-icon-bg,rgb(var(--usk-surface-rgb,255 255 255)/.42));stroke:var(--rg-icon-border,rgb(var(--usk-border-rgb,184 211 221)/.48));stroke-width:4.5}
+.rg-i-rim{fill:none;stroke:var(--rg-icon-rim,rgb(255 255 255/.64));stroke-width:2.25;stroke-linecap:round;stroke-linejoin:round}
+[data-icon-frame]{opacity:var(--usk-icon-frame-opacity,1)}
+[data-icon-frame="decor"]{opacity:var(--usk-icon-frame-decor-opacity,var(--usk-icon-frame-opacity,1))}
+[data-icon-glyph="play"]{fill:var(--usk-icon-play,var(--usk-icon-foreground,rgb(var(--usk-text-rgb,255 255 255))));stroke:none;opacity:1}
+</style>
+  <rect data-icon-frame="decor" class="rg-i-surface" x="28" y="30" width="200" height="196" rx="42"/><path class="rg-i-bg-soft" d="M48 162C72 116 102 98 132 104C164 110 177 88 208 72V226H48Z" opacity=".72"/><path data-icon-frame="decor" class="rg-i-sheen" d="M70 48C56 51 48 62 47 80M88 46H122" opacity=".66"/><path data-icon-frame="decor" class="rg-i-rim" d="M174 46H196M50 194H112M152 194H206" opacity=".62"/>
+  <rect class="rg-i-primary" x="64" y="74" width="128" height="116" rx="24"/><rect class="rg-i-bg-strong" x="86" y="96" width="84" height="36" rx="12"/><path class="rg-i-line-2" d="M91 158H120M139 158H168"/><circle class="rg-i-accent" cx="128" cy="158" r="9"/>
+</svg>

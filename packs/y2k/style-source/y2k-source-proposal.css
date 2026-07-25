@@ -1,0 +1,44 @@
+/* Draft source tokens for a stronger Y2K personality.
+   This is a workshop file, not a drop-in replacement yet.
+*/
+
+@layer ui-style-kit.y2k.source-proposal {
+  [data-ui="y2k"][data-theme][data-mode] {
+    --y2k-gloss-alpha: .72;
+    --y2k-jelly-alpha: .74;
+    --y2k-chrome-alpha: .36;
+    --y2k-bubble-alpha: .22;
+    --y2k-sticker-border-alpha: .88;
+    --y2k-highlight: rgb(255 255 255 / var(--y2k-gloss-alpha));
+    --y2k-jelly-surface:
+      linear-gradient(180deg,
+        rgb(255 255 255 / var(--y2k-gloss-alpha)),
+        rgb(var(--y2k-surface-strong-rgb) / var(--y2k-jelly-alpha)) 38%,
+        rgb(var(--y2k-surface-rgb) / var(--y2k-panel-alpha)));
+    --y2k-bubble-bg:
+      radial-gradient(circle at 20% 15%, rgb(255 255 255 / .55), transparent 18%),
+      radial-gradient(circle at 85% 5%, rgb(var(--y2k-accent-rgb) / var(--y2k-bubble-alpha)), transparent 28rem),
+      radial-gradient(circle at 8% 92%, rgb(var(--y2k-secondary-rgb) / .18), transparent 26rem),
+      var(--y2k-bg);
+    --y2k-sticker-shadow:
+      0 1px 0 rgb(255 255 255 / .7) inset,
+      0 .75rem 1.8rem rgb(var(--y2k-secondary-rgb) / .18);
+  }
+
+  [data-ui="y2k"] .y2k-card,
+  [data-ui="y2k"] .y2k-panel {
+    background: var(--y2k-jelly-surface);
+    box-shadow: var(--y2k-sticker-shadow);
+    border: 1px solid rgb(var(--y2k-border-rgb) / var(--y2k-sticker-border-alpha));
+    border-radius: var(--y2k-radius-xl);
+  }
+
+  [data-ui="y2k"] .y2k-button,
+  [data-ui="y2k"] .y2k-chip {
+    background:
+      linear-gradient(180deg, rgb(255 255 255 / .72), rgb(var(--y2k-primary-rgb) / .26) 44%, rgb(var(--y2k-primary-rgb) / .18)),
+      var(--y2k-control-bg);
+    border-radius: var(--y2k-radius-pill);
+    box-shadow: 0 1px 0 rgb(255 255 255 / .8) inset, 0 .5rem 1.2rem rgb(var(--y2k-primary-rgb) / .16);
+  }
+}

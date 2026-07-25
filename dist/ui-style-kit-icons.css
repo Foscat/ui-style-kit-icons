@@ -1,0 +1,42 @@
+/* UI Style Kit standardized icon layer */
+:where(.usk-icon, [data-usk-icon]) {
+  --usk-icon-size: 1.25em;
+  --usk-icon-bg: rgb(var(--usk-surface-rgb, 8 12 24) / .9);
+  --usk-icon-bg-strong: rgb(var(--usk-surface-strong-rgb, 20 28 48) / .94);
+  --usk-icon-bg-soft: rgb(var(--usk-surface-soft-rgb, 26 35 58) / .68);
+  --usk-icon-border: rgb(var(--usk-border-rgb, 100 116 139) / .72);
+  --usk-icon-primary: rgb(var(--usk-primary-rgb, 80 160 255));
+  --usk-icon-secondary: rgb(var(--usk-secondary-rgb, 138 116 255));
+  --usk-icon-accent: rgb(var(--usk-accent-rgb, 255 170 76));
+  --usk-icon-success: rgb(var(--usk-success-rgb, 74 222 128));
+  --usk-icon-warning: rgb(var(--usk-warning-rgb, 255 200 80));
+  --usk-icon-danger: rgb(var(--usk-danger-rgb, 255 92 122));
+  --usk-icon-muted: rgb(var(--usk-text-muted-rgb, 148 163 184));
+  inline-size: var(--usk-icon-size);
+  block-size: var(--usk-icon-size);
+  display: inline-block;
+  vertical-align: -0.125em;
+  overflow: visible;
+}
+:where(.usk-icon--xs) { --usk-icon-size: 1em; }
+:where(.usk-icon--sm) { --usk-icon-size: 1.25em; }
+:where(.usk-icon--md) { --usk-icon-size: 1.5em; }
+:where(.usk-icon--lg) { --usk-icon-size: 2em; }
+:where(.usk-icon--xl) { --usk-icon-size: 3em; }
+:where(.usk-icon .usk-i-bg) { fill: var(--usk-icon-bg); }
+:where(.usk-icon .usk-i-bg-strong) { fill: var(--usk-icon-bg-strong); }
+:where(.usk-icon .usk-i-bg-soft) { fill: var(--usk-icon-bg-soft); }
+:where(.usk-icon .usk-i-primary) { fill: rgb(var(--usk-primary-rgb, 80 160 255) / .2); stroke: var(--usk-icon-primary); }
+:where(.usk-icon .usk-i-secondary) { fill: rgb(var(--usk-secondary-rgb, 138 116 255) / .2); stroke: var(--usk-icon-secondary); }
+:where(.usk-icon .usk-i-accent) { fill: rgb(var(--usk-accent-rgb, 255 170 76) / .22); stroke: var(--usk-icon-accent); }
+:where(.usk-icon .usk-i-success) { fill: rgb(var(--usk-success-rgb, 74 222 128) / .2); stroke: var(--usk-icon-success); }
+:where(.usk-icon .usk-i-warning) { fill: rgb(var(--usk-warning-rgb, 255 200 80) / .22); stroke: var(--usk-icon-warning); }
+:where(.usk-icon .usk-i-danger) { fill: rgb(var(--usk-danger-rgb, 255 92 122) / .2); stroke: var(--usk-icon-danger); }
+:where(.usk-icon .usk-i-line) { fill: none; stroke: var(--usk-icon-primary); stroke-width: 6.5; stroke-linecap: round; stroke-linejoin: round; }
+:where(.usk-icon .usk-i-line-2) { fill: none; stroke: var(--usk-icon-secondary); stroke-width: 4.7; stroke-linecap: round; stroke-linejoin: round; }
+:where(.usk-icon .usk-i-line-3) { fill: none; stroke: var(--usk-icon-accent); stroke-width: 3.8; stroke-linecap: round; stroke-linejoin: round; }
+:where(.usk-icon .usk-i-muted) { fill: none; stroke: var(--usk-icon-muted); stroke-width: 2.8; stroke-linecap: round; stroke-linejoin: round; }
+:where(.usk-icon .usk-i-surface) { fill: var(--usk-icon-bg); stroke: var(--usk-icon-border); stroke-width: 4.5; }
+:where(.usk-icon [data-icon-frame]) { opacity: var(--usk-icon-frame-opacity, 1); }
+:where(.usk-icon [data-icon-frame="decor"]) { opacity: var(--usk-icon-frame-decor-opacity, var(--usk-icon-frame-opacity, 1)); }
+:where(.usk-icon [data-icon-glyph="play"]) { fill: var(--usk-icon-play, var(--usk-icon-foreground, rgb(var(--usk-text-rgb, 255 255 255)))); stroke: none; opacity: 1; }

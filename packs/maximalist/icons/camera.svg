@@ -1,0 +1,30 @@
+<svg overflow="visible" xmlns="http://www.w3.org/2000/svg" class="max-icon" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="camera-title camera-desc">
+  <title id="camera-title">Camera</title>
+  <desc id="camera-desc">Theme-aware Maximalist / Playful SVG icon with chunky sticker styling, loud token colors, and UI Style Kit color variables. Semantic meaning: Capture, photo/video source.</desc>
+  <style>
+.max-i-bg{fill:var(--max-icon-bg,rgb(var(--usk-surface-rgb,255 247 232)/.98))}
+.max-i-bg-strong{fill:var(--max-icon-bg-strong,rgb(var(--usk-surface-strong-rgb,255 255 255)/1))}
+.max-i-bg-soft{fill:var(--max-icon-bg-soft,rgb(var(--usk-surface-soft-rgb,255 223 245)/.92))}
+.max-i-primary{fill:var(--max-icon-primary-soft,rgb(var(--usk-primary-rgb,255 77 141)/.28));stroke:var(--max-icon-primary,rgb(var(--usk-primary-rgb,255 77 141)))}
+.max-i-secondary{fill:var(--max-icon-secondary-soft,rgb(var(--usk-secondary-rgb,57 222 255)/.26));stroke:var(--max-icon-secondary,rgb(var(--usk-secondary-rgb,57 222 255)))}
+.max-i-accent{fill:var(--max-icon-accent-soft,rgb(var(--usk-accent-rgb,255 203 43)/.32));stroke:var(--max-icon-accent,rgb(var(--usk-accent-rgb,255 203 43)))}
+.max-i-success{fill:rgb(var(--usk-success-rgb,22 201 121)/.26);stroke:var(--max-icon-success,rgb(var(--usk-success-rgb,22 201 121)))}
+.max-i-warning{fill:rgb(var(--usk-warning-rgb,255 171 37)/.3);stroke:var(--max-icon-warning,rgb(var(--usk-warning-rgb,255 171 37)))}
+.max-i-danger{fill:rgb(var(--usk-danger-rgb,255 59 92)/.26);stroke:var(--max-icon-danger,rgb(var(--usk-danger-rgb,255 59 92)))}
+.max-i-line{fill:none;stroke:var(--max-icon-primary,rgb(var(--usk-primary-rgb,255 77 141)));stroke-width:8.6;stroke-linecap:round;stroke-linejoin:round}
+.max-i-line-2{fill:none;stroke:var(--max-icon-secondary,rgb(var(--usk-secondary-rgb,57 222 255)));stroke-width:6.4;stroke-linecap:round;stroke-linejoin:round}
+.max-i-line-3{fill:none;stroke:var(--max-icon-accent,rgb(var(--usk-accent-rgb,255 203 43)));stroke-width:5.4;stroke-linecap:round;stroke-linejoin:round}
+.max-i-muted{fill:none;stroke:var(--max-icon-muted,rgb(var(--usk-text-muted-rgb,71 57 96)));stroke-width:3.8;stroke-linecap:round;stroke-linejoin:round}
+.max-i-fill-muted{fill:var(--max-icon-muted,rgb(var(--usk-text-muted-rgb,71 57 96)));stroke:none}
+.max-i-surface{fill:var(--max-icon-bg,rgb(var(--usk-surface-rgb,255 247 232)/.98));stroke:var(--max-icon-border,rgb(var(--usk-border-rgb,22 18 35)/.94));stroke-width:6.4}
+.max-i-shadow{fill:var(--max-icon-shadow,rgb(var(--usk-border-rgb,22 18 35)/.8));stroke:none}
+.max-i-confetti{fill:var(--max-icon-accent,rgb(var(--usk-accent-rgb,255 203 43)));stroke:var(--max-icon-border,rgb(var(--usk-border-rgb,22 18 35)/.94));stroke-width:3.2}
+.max-i-pop{fill:var(--max-icon-secondary,rgb(var(--usk-secondary-rgb,57 222 255)));stroke:var(--max-icon-border,rgb(var(--usk-border-rgb,22 18 35)/.94));stroke-width:3.2}
+.max-i-glow{filter:drop-shadow(0 0 8px rgb(var(--usk-primary-rgb,255 77 141)/.38))}
+[data-icon-frame]{opacity:var(--usk-icon-frame-opacity,1)}
+[data-icon-frame="decor"]{opacity:var(--usk-icon-frame-decor-opacity,var(--usk-icon-frame-opacity,1))}
+[data-icon-glyph="play"]{fill:var(--usk-icon-play,var(--usk-icon-foreground,rgb(var(--usk-text-rgb,255 255 255))));stroke:none;opacity:1}
+</style>
+  <rect data-icon-frame="decor" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="decor" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="58" cy="70" r="9"/><rect data-icon-frame="decor" class="max-i-pop" x="169" y="49" width="29" height="18" rx="9" transform="rotate(12 184 58)"/><path class="max-i-line-2" d="M46 198H92M152 198H204" opacity=".7"/><path class="max-i-line-3" d="M44 92L60 108M196 154L214 172" opacity=".76"/><path class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
+  <path class="max-i-primary" d="M58 100H96L108 82H148L160 100H198V184H58Z"/><circle class="max-i-line-2" cx="128" cy="142" r="31"/><circle class="max-i-accent" cx="128" cy="142" r="12"/>
+</svg>

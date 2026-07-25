@@ -1,0 +1,409 @@
+{
+  "name": "ui-style-kit-icons",
+  "version": "0.2.0",
+  "contractVersion": "0.1.0",
+  "style": "system",
+  "styleSource": "UI Style Kit",
+  "requiredIconCount": 64,
+  "iconCount": 64,
+  "coreIcons": [
+    {
+      "id": "home",
+      "label": "Home",
+      "file": "icons/home.svg",
+      "symbol": "#usk-icon-home"
+    },
+    {
+      "id": "dashboard",
+      "label": "Dashboard",
+      "file": "icons/dashboard.svg",
+      "symbol": "#usk-icon-dashboard"
+    },
+    {
+      "id": "browser",
+      "label": "Browser",
+      "file": "icons/browser.svg",
+      "symbol": "#usk-icon-browser"
+    },
+    {
+      "id": "search",
+      "label": "Search",
+      "file": "icons/search.svg",
+      "symbol": "#usk-icon-search"
+    },
+    {
+      "id": "user",
+      "label": "User",
+      "file": "icons/user.svg",
+      "symbol": "#usk-icon-user"
+    },
+    {
+      "id": "users",
+      "label": "Users",
+      "file": "icons/users.svg",
+      "symbol": "#usk-icon-users"
+    },
+    {
+      "id": "settings",
+      "label": "Settings",
+      "file": "icons/settings.svg",
+      "symbol": "#usk-icon-settings"
+    },
+    {
+      "id": "bell",
+      "label": "Notifications",
+      "file": "icons/bell.svg",
+      "symbol": "#usk-icon-bell"
+    },
+    {
+      "id": "message",
+      "label": "Message",
+      "file": "icons/message.svg",
+      "symbol": "#usk-icon-message"
+    },
+    {
+      "id": "mail",
+      "label": "Email",
+      "file": "icons/mail.svg",
+      "symbol": "#usk-icon-mail"
+    },
+    {
+      "id": "calendar",
+      "label": "Calendar",
+      "file": "icons/calendar.svg",
+      "symbol": "#usk-icon-calendar"
+    },
+    {
+      "id": "upload",
+      "label": "Upload",
+      "file": "icons/upload.svg",
+      "symbol": "#usk-icon-upload"
+    },
+    {
+      "id": "download",
+      "label": "Download",
+      "file": "icons/download.svg",
+      "symbol": "#usk-icon-download"
+    },
+    {
+      "id": "folder",
+      "label": "Folder",
+      "file": "icons/folder.svg",
+      "symbol": "#usk-icon-folder"
+    },
+    {
+      "id": "file",
+      "label": "File",
+      "file": "icons/file.svg",
+      "symbol": "#usk-icon-file"
+    },
+    {
+      "id": "image",
+      "label": "Image",
+      "file": "icons/image.svg",
+      "symbol": "#usk-icon-image"
+    },
+    {
+      "id": "video",
+      "label": "Video",
+      "file": "icons/video.svg",
+      "symbol": "#usk-icon-video"
+    },
+    {
+      "id": "camera",
+      "label": "Camera",
+      "file": "icons/camera.svg",
+      "symbol": "#usk-icon-camera"
+    },
+    {
+      "id": "database",
+      "label": "Database",
+      "file": "icons/database.svg",
+      "symbol": "#usk-icon-database"
+    },
+    {
+      "id": "server",
+      "label": "Server",
+      "file": "icons/server.svg",
+      "symbol": "#usk-icon-server"
+    },
+    {
+      "id": "api",
+      "label": "API",
+      "file": "icons/api.svg",
+      "symbol": "#usk-icon-api"
+    },
+    {
+      "id": "lock",
+      "label": "Lock",
+      "file": "icons/lock.svg",
+      "symbol": "#usk-icon-lock"
+    },
+    {
+      "id": "shield",
+      "label": "Shield",
+      "file": "icons/shield.svg",
+      "symbol": "#usk-icon-shield"
+    },
+    {
+      "id": "key",
+      "label": "Key",
+      "file": "icons/key.svg",
+      "symbol": "#usk-icon-key"
+    },
+    {
+      "id": "chart",
+      "label": "Chart",
+      "file": "icons/chart.svg",
+      "symbol": "#usk-icon-chart"
+    },
+    {
+      "id": "activity",
+      "label": "Activity",
+      "file": "icons/activity.svg",
+      "symbol": "#usk-icon-activity"
+    },
+    {
+      "id": "credit-card",
+      "label": "Credit Card",
+      "file": "icons/credit-card.svg",
+      "symbol": "#usk-icon-credit-card"
+    },
+    {
+      "id": "wallet",
+      "label": "Wallet",
+      "file": "icons/wallet.svg",
+      "symbol": "#usk-icon-wallet"
+    },
+    {
+      "id": "cart",
+      "label": "Cart",
+      "file": "icons/cart.svg",
+      "symbol": "#usk-icon-cart"
+    },
+    {
+      "id": "invoice",
+      "label": "Invoice",
+      "file": "icons/invoice.svg",
+      "symbol": "#usk-icon-invoice"
+    },
+    {
+      "id": "tax",
+      "label": "Tax",
+      "file": "icons/tax.svg",
+      "symbol": "#usk-icon-tax"
+    },
+    {
+      "id": "login",
+      "label": "Login",
+      "file": "icons/login.svg",
+      "symbol": "#usk-icon-login"
+    },
+    {
+      "id": "logout",
+      "label": "Logout",
+      "file": "icons/logout.svg",
+      "symbol": "#usk-icon-logout"
+    },
+    {
+      "id": "edit",
+      "label": "Edit",
+      "file": "icons/edit.svg",
+      "symbol": "#usk-icon-edit"
+    },
+    {
+      "id": "trash",
+      "label": "Trash",
+      "file": "icons/trash.svg",
+      "symbol": "#usk-icon-trash"
+    },
+    {
+      "id": "plus",
+      "label": "Plus",
+      "file": "icons/plus.svg",
+      "symbol": "#usk-icon-plus"
+    },
+    {
+      "id": "minus",
+      "label": "Minus",
+      "file": "icons/minus.svg",
+      "symbol": "#usk-icon-minus"
+    },
+    {
+      "id": "filter",
+      "label": "Filter",
+      "file": "icons/filter.svg",
+      "symbol": "#usk-icon-filter"
+    },
+    {
+      "id": "menu",
+      "label": "Menu",
+      "file": "icons/menu.svg",
+      "symbol": "#usk-icon-menu"
+    },
+    {
+      "id": "code",
+      "label": "Code",
+      "file": "icons/code.svg",
+      "symbol": "#usk-icon-code"
+    },
+    {
+      "id": "terminal",
+      "label": "Terminal",
+      "file": "icons/terminal.svg",
+      "symbol": "#usk-icon-terminal"
+    },
+    {
+      "id": "rocket",
+      "label": "Rocket",
+      "file": "icons/rocket.svg",
+      "symbol": "#usk-icon-rocket"
+    },
+    {
+      "id": "bug",
+      "label": "Bug",
+      "file": "icons/bug.svg",
+      "symbol": "#usk-icon-bug"
+    },
+    {
+      "id": "help",
+      "label": "Help",
+      "file": "icons/help.svg",
+      "symbol": "#usk-icon-help"
+    },
+    {
+      "id": "link",
+      "label": "Link",
+      "file": "icons/link.svg",
+      "symbol": "#usk-icon-link"
+    },
+    {
+      "id": "cloud",
+      "label": "Cloud",
+      "file": "icons/cloud.svg",
+      "symbol": "#usk-icon-cloud"
+    },
+    {
+      "id": "globe",
+      "label": "Globe",
+      "file": "icons/globe.svg",
+      "symbol": "#usk-icon-globe"
+    },
+    {
+      "id": "warning",
+      "label": "Warning",
+      "file": "icons/warning.svg",
+      "symbol": "#usk-icon-warning"
+    },
+    {
+      "id": "scan",
+      "label": "Scan",
+      "file": "icons/scan.svg",
+      "symbol": "#usk-icon-scan"
+    },
+    {
+      "id": "network",
+      "label": "Network",
+      "file": "icons/network.svg",
+      "symbol": "#usk-icon-network"
+    },
+    {
+      "id": "cpu",
+      "label": "CPU",
+      "file": "icons/cpu.svg",
+      "symbol": "#usk-icon-cpu"
+    },
+    {
+      "id": "layers",
+      "label": "Layers",
+      "file": "icons/layers.svg",
+      "symbol": "#usk-icon-layers"
+    },
+    {
+      "id": "eye",
+      "label": "Eye",
+      "file": "icons/eye.svg",
+      "symbol": "#usk-icon-eye"
+    },
+    {
+      "id": "grid",
+      "label": "Grid",
+      "file": "icons/grid.svg",
+      "symbol": "#usk-icon-grid"
+    },
+    {
+      "id": "module",
+      "label": "Module",
+      "file": "icons/module.svg",
+      "symbol": "#usk-icon-module"
+    },
+    {
+      "id": "stack",
+      "label": "Stack",
+      "file": "icons/stack.svg",
+      "symbol": "#usk-icon-stack"
+    },
+    {
+      "id": "tile",
+      "label": "Tile",
+      "file": "icons/tile.svg",
+      "symbol": "#usk-icon-tile"
+    },
+    {
+      "id": "phone",
+      "label": "Phone",
+      "file": "icons/phone.svg",
+      "symbol": "#usk-icon-phone"
+    },
+    {
+      "id": "palette",
+      "label": "Palette",
+      "file": "icons/palette.svg",
+      "symbol": "#usk-icon-palette"
+    },
+    {
+      "id": "heart",
+      "label": "Heart",
+      "file": "icons/heart.svg",
+      "symbol": "#usk-icon-heart"
+    },
+    {
+      "id": "star",
+      "label": "Star",
+      "file": "icons/star.svg",
+      "symbol": "#usk-icon-star"
+    },
+    {
+      "id": "target",
+      "label": "Target",
+      "file": "icons/target.svg",
+      "symbol": "#usk-icon-target"
+    },
+    {
+      "id": "megaphone",
+      "label": "Megaphone",
+      "file": "icons/megaphone.svg",
+      "symbol": "#usk-icon-megaphone"
+    },
+    {
+      "id": "cursor",
+      "label": "Cursor",
+      "file": "icons/cursor.svg",
+      "symbol": "#usk-icon-cursor"
+    }
+  ],
+  "optionalIcons": [],
+  "aliases": {
+    "chat": "message",
+    "credit": "credit-card",
+    "card": "credit-card",
+    "media-image": "image",
+    "media-video": "video",
+    "brush": "palette",
+    "sticker": "star",
+    "stamp": "target",
+    "flag": "target",
+    "bolt": "activity",
+    "lightning": "activity"
+  }
+}

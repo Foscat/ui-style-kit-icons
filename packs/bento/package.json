@@ -1,0 +1,33 @@
+{
+  "name": "bento-ui-style-icons",
+  "version": "0.2.0",
+  "description": "Theme-aware Bento SVG icon pack for ui-style-kit-css.",
+  "files": [
+    "dist",
+    "icons",
+    "sprite",
+    "style-source",
+    "manifest.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "style": "dist/bento-ui-style-icons.css",
+  "exports": {
+    ".": "./dist/bento-ui-style-icons.css",
+    "./css": "./dist/bento-ui-style-icons.css",
+    "./css.css": "./dist/bento-ui-style-icons.css",
+    "./sprite": "./dist/bento-ui-style-icons.svg",
+    "./sprite.svg": "./dist/bento-ui-style-icons.svg",
+    "./inline-sprite": "./sprite/bento-ui-style-icons.inline.svg",
+    "./manifest.json": "./manifest.json",
+    "./icons/*": "./icons/*"
+  },
+  "keywords": [
+    "svg",
+    "icons",
+    "bento",
+    "ui-style-kit-css",
+    "theme-aware"
+  ],
+  "license": "MIT"
+}

@@ -1,0 +1,48 @@
+/* Y2K standardized icon layer */
+:where(.y2k-icon, [data-y2k-icon]) {
+  --y2k-icon-size: 1.25em;
+  --y2k-icon-bg: rgb(var(--usk-surface-rgb, 8 12 24) / .9);
+  --y2k-icon-bg-strong: rgb(var(--usk-surface-strong-rgb, 20 28 48) / .94);
+  --y2k-icon-bg-soft: rgb(var(--usk-surface-soft-rgb, 26 35 58) / .68);
+  --y2k-icon-border: rgb(var(--usk-border-rgb, 100 116 139) / .72);
+  --y2k-icon-primary: rgb(var(--usk-primary-rgb, 80 160 255));
+  --y2k-icon-secondary: rgb(var(--usk-secondary-rgb, 138 116 255));
+  --y2k-icon-accent: rgb(var(--usk-accent-rgb, 255 170 76));
+  --y2k-icon-success: rgb(var(--usk-success-rgb, 74 222 128));
+  --y2k-icon-warning: rgb(var(--usk-warning-rgb, 255 200 80));
+  --y2k-icon-danger: rgb(var(--usk-danger-rgb, 255 92 122));
+  --y2k-icon-muted: rgb(var(--usk-text-muted-rgb, 148 163 184));
+  inline-size: var(--y2k-icon-size);
+  block-size: var(--y2k-icon-size);
+  display: inline-block;
+  vertical-align: -0.125em;
+  overflow: visible;
+}
+:where(.usk-icon--frame-soft, [data-usk-icon-frame="soft"]) {
+  --usk-icon-frame-opacity: 0.42;
+  --usk-icon-frame-decor-opacity: 0.22;
+}
+:where(.usk-icon--frame-none, [data-usk-icon-frame="none"]) {
+  --usk-icon-frame-opacity: 0;
+  --usk-icon-frame-decor-opacity: 0;
+}
+
+:where(.y2k-icon--xs) { --y2k-icon-size: 1em; }
+:where(.y2k-icon--sm) { --y2k-icon-size: 1.25em; }
+:where(.y2k-icon--md) { --y2k-icon-size: 1.5em; }
+:where(.y2k-icon--lg) { --y2k-icon-size: 2em; }
+:where(.y2k-icon--xl) { --y2k-icon-size: 3em; }
+:where(.y2k-icon .y2k-i-bg) { fill: var(--y2k-icon-bg); }
+:where(.y2k-icon .y2k-i-bg-strong) { fill: var(--y2k-icon-bg-strong); }
+:where(.y2k-icon .y2k-i-bg-soft) { fill: var(--y2k-icon-bg-soft); }
+:where(.y2k-icon .y2k-i-primary) { fill: rgb(var(--usk-primary-rgb, 80 160 255) / .2); stroke: var(--y2k-icon-primary); }
+:where(.y2k-icon .y2k-i-secondary) { fill: rgb(var(--usk-secondary-rgb, 138 116 255) / .2); stroke: var(--y2k-icon-secondary); }
+:where(.y2k-icon .y2k-i-accent) { fill: rgb(var(--usk-accent-rgb, 255 170 76) / .22); stroke: var(--y2k-icon-accent); }
+:where(.y2k-icon .y2k-i-success) { fill: rgb(var(--usk-success-rgb, 74 222 128) / .2); stroke: var(--y2k-icon-success); }
+:where(.y2k-icon .y2k-i-warning) { fill: rgb(var(--usk-warning-rgb, 255 200 80) / .22); stroke: var(--y2k-icon-warning); }
+:where(.y2k-icon .y2k-i-danger) { fill: rgb(var(--usk-danger-rgb, 255 92 122) / .2); stroke: var(--y2k-icon-danger); }
+:where(.y2k-icon .y2k-i-line) { fill: none; stroke: var(--y2k-icon-primary); stroke-width: 6.5; stroke-linecap: round; stroke-linejoin: round; }
+:where(.y2k-icon .y2k-i-line-2) { fill: none; stroke: var(--y2k-icon-secondary); stroke-width: 4.7; stroke-linecap: round; stroke-linejoin: round; }
+:where(.y2k-icon .y2k-i-line-3) { fill: none; stroke: var(--y2k-icon-accent); stroke-width: 3.8; stroke-linecap: round; stroke-linejoin: round; }
+:where(.y2k-icon .y2k-i-muted) { fill: none; stroke: var(--y2k-icon-muted); stroke-width: 2.8; stroke-linecap: round; stroke-linejoin: round; }
+:where(.y2k-icon .y2k-i-surface) { fill: var(--y2k-icon-bg); stroke: var(--y2k-icon-border); stroke-width: 4.5; }

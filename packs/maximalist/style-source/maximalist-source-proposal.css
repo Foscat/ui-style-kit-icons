@@ -1,0 +1,19 @@
+/* Maximalist / Playful icon/source proposal */
+
+[data-ui="maximalist"][data-theme][data-mode] {
+  --max-icon-surface-alpha: var(--max-surface-alpha, .98);
+  --max-icon-border-alpha: var(--max-border-alpha, .94);
+  --max-icon-shadow-alpha: var(--max-shadow-alpha, .8);
+  --max-icon-radius: var(--max-radius-xl, 2.5rem);
+  --max-icon-stroke: 8.6;
+}
+
+.max-icon-surface {
+  border: 3px solid rgb(var(--max-border-rgb) / var(--max-icon-border-alpha));
+  border-radius: var(--max-icon-radius);
+  background:
+    radial-gradient(circle at 20% 16%, rgb(var(--usk-accent-rgb) / .34), transparent 32%),
+    radial-gradient(circle at 82% 20%, rgb(var(--usk-secondary-rgb) / .32), transparent 28%),
+    rgb(var(--max-surface-rgb) / var(--max-icon-surface-alpha));
+  box-shadow: 8px 8px 0 rgb(var(--max-border-rgb) / var(--max-icon-shadow-alpha));
+}

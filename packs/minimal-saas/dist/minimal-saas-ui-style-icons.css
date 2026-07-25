@@ -1,0 +1,77 @@
+/* minimal-saas-ui-style-icons
+   Theme-aware icon tokens for the Minimal SaaS UI personality.
+   Designed for ui-style-kit-css and layout-style-css projects.
+*/
+
+:where(.saas-icon, [data-saas-icon]) {
+  --saas-icon-size: 1.25em;
+  --saas-icon-bg: rgb(var(--usk-surface-rgb, 255 255 255) / var(--saas-icon-bg-alpha, .96));
+  --saas-icon-bg-strong: rgb(var(--usk-surface-strong-rgb, 255 255 255) / var(--saas-icon-bg-strong-alpha, .98));
+  --saas-icon-bg-soft: rgb(var(--usk-surface-soft-rgb, 241 245 249) / var(--saas-icon-bg-soft-alpha, .78));
+  --saas-icon-border: rgb(var(--usk-border-rgb, 203 213 225) / var(--saas-icon-border-alpha, .62));
+  --saas-icon-primary: rgb(var(--usk-primary-rgb, 37 99 235));
+  --saas-icon-primary-soft: rgb(var(--usk-primary-rgb, 37 99 235) / .12);
+  --saas-icon-secondary: rgb(var(--usk-secondary-rgb, 100 116 139));
+  --saas-icon-secondary-soft: rgb(var(--usk-secondary-rgb, 100 116 139) / .1);
+  --saas-icon-accent: rgb(var(--usk-accent-rgb, 14 165 233));
+  --saas-icon-accent-soft: rgb(var(--usk-accent-rgb, 14 165 233) / .12);
+  --saas-icon-success: rgb(var(--usk-success-rgb, 22 163 74));
+  --saas-icon-warning: rgb(var(--usk-warning-rgb, 202 138 4));
+  --saas-icon-danger: rgb(var(--usk-danger-rgb, 220 38 38));
+  --saas-icon-muted: rgb(var(--usk-text-muted-rgb, 100 116 139));
+  --saas-icon-shadow: rgb(15 23 42 / var(--saas-icon-shadow-alpha, .08));
+  --saas-icon-stroke: 5.4;
+  inline-size: var(--saas-icon-size);
+  block-size: var(--saas-icon-size);
+  display: inline-block;
+  vertical-align: -0.125em;
+  overflow: visible;
+  color: rgb(var(--usk-text-rgb, 15 23 42));
+  fill: none;
+  stroke: currentColor;
+  flex: 0 0 auto;
+  filter: drop-shadow(0 .18em .45em var(--saas-icon-shadow));
+}
+
+:where(.usk-icon--frame-soft, [data-usk-icon-frame="soft"]) {
+  --usk-icon-frame-opacity: 0.42;
+  --usk-icon-frame-decor-opacity: 0.22;
+}
+:where(.usk-icon--frame-none, [data-usk-icon-frame="none"]) {
+  --usk-icon-frame-opacity: 0;
+  --usk-icon-frame-decor-opacity: 0;
+}
+
+:where(.saas-icon--xs) { --saas-icon-size: 1em; }
+:where(.saas-icon--sm) { --saas-icon-size: 1.25em; }
+:where(.saas-icon--md) { --saas-icon-size: 1.5em; }
+:where(.saas-icon--lg) { --saas-icon-size: 2em; }
+:where(.saas-icon--xl) { --saas-icon-size: 3em; }
+
+:where(.saas-icon--quiet) { --saas-icon-bg-alpha: .74; --saas-icon-border-alpha: .38; --saas-icon-shadow-alpha: .02; }
+:where(.saas-icon--raised) { --saas-icon-bg-alpha: 1; --saas-icon-border-alpha: .7; --saas-icon-shadow-alpha: .14; }
+:where(.saas-icon--flat) { --saas-icon-shadow-alpha: 0; }
+
+:where([data-ui="minimal-saas"] .saas-icon, [data-ui="minimal-saas"][data-saas-icon]) {
+  --saas-icon-bg-alpha: var(--saas-panel-alpha, .98);
+  --saas-icon-bg-soft-alpha: var(--saas-panel-soft-alpha, .78);
+  --saas-icon-border-alpha: var(--saas-border-alpha, .58);
+  --saas-icon-shadow-alpha: calc(var(--saas-shadow-alpha, .12) * .62);
+}
+
+:where(.saas-icon .saas-i-bg) { fill: var(--saas-icon-bg); }
+:where(.saas-icon .saas-i-bg-strong) { fill: var(--saas-icon-bg-strong); }
+:where(.saas-icon .saas-i-bg-soft) { fill: var(--saas-icon-bg-soft); }
+:where(.saas-icon .saas-i-primary) { fill: var(--saas-icon-primary-soft); stroke: var(--saas-icon-primary); }
+:where(.saas-icon .saas-i-secondary) { fill: var(--saas-icon-secondary-soft); stroke: var(--saas-icon-secondary); }
+:where(.saas-icon .saas-i-accent) { fill: var(--saas-icon-accent-soft); stroke: var(--saas-icon-accent); }
+:where(.saas-icon .saas-i-success) { fill: rgb(var(--usk-success-rgb, 22 163 74) / .13); stroke: var(--saas-icon-success); }
+:where(.saas-icon .saas-i-warning) { fill: rgb(var(--usk-warning-rgb, 202 138 4) / .14); stroke: var(--saas-icon-warning); }
+:where(.saas-icon .saas-i-danger) { fill: rgb(var(--usk-danger-rgb, 220 38 38) / .12); stroke: var(--saas-icon-danger); }
+:where(.saas-icon .saas-i-line) { fill: none; stroke: var(--saas-icon-primary); stroke-width: var(--saas-icon-stroke); stroke-linecap: round; stroke-linejoin: round; }
+:where(.saas-icon .saas-i-line-2) { fill: none; stroke: var(--saas-icon-secondary); stroke-width: calc(var(--saas-icon-stroke) * .82); stroke-linecap: round; stroke-linejoin: round; }
+:where(.saas-icon .saas-i-line-3) { fill: none; stroke: var(--saas-icon-accent); stroke-width: calc(var(--saas-icon-stroke) * .74); stroke-linecap: round; stroke-linejoin: round; }
+:where(.saas-icon .saas-i-muted) { fill: none; stroke: var(--saas-icon-muted); stroke-width: calc(var(--saas-icon-stroke) * .56); stroke-linecap: round; stroke-linejoin: round; }
+:where(.saas-icon .saas-i-fill-muted) { fill: var(--saas-icon-muted); stroke: none; }
+:where(.saas-icon .saas-i-surface) { fill: var(--saas-icon-bg); stroke: var(--saas-icon-border); stroke-width: 3.2; }
+:where(.saas-icon .saas-i-glow) { filter: none; }

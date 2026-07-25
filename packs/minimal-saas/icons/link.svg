@@ -1,0 +1,29 @@
+<svg overflow="visible" xmlns="http://www.w3.org/2000/svg" class="saas-icon" width="256" height="256" viewBox="-8 -8 272 272" role="img" aria-labelledby="link-title link-desc">
+  <title id="link-title">Link</title>
+  <desc id="link-desc">Theme-aware Minimal SaaS SVG icon with quiet product UI styling and UI Style Kit color variables. Semantic meaning: URL, connection, relationship.</desc>
+  <style>
+.saas-i-bg{fill:var(--saas-icon-bg,rgb(var(--usk-surface-rgb,255 255 255)/.96))}
+.saas-i-bg-strong{fill:var(--saas-icon-bg-strong,rgb(var(--usk-surface-strong-rgb,255 255 255)/.98))}
+.saas-i-bg-soft{fill:var(--saas-icon-bg-soft,rgb(var(--usk-surface-soft-rgb,241 245 249)/.78))}
+.saas-i-primary{fill:var(--saas-icon-primary-soft,rgb(var(--usk-primary-rgb,37 99 235)/.12));stroke:var(--saas-icon-primary,rgb(var(--usk-primary-rgb,37 99 235)))}
+.saas-i-secondary{fill:var(--saas-icon-secondary-soft,rgb(var(--usk-secondary-rgb,100 116 139)/.1));stroke:var(--saas-icon-secondary,rgb(var(--usk-secondary-rgb,100 116 139)))}
+.saas-i-accent{fill:var(--saas-icon-accent-soft,rgb(var(--usk-accent-rgb,14 165 233)/.12));stroke:var(--saas-icon-accent,rgb(var(--usk-accent-rgb,14 165 233)))}
+.saas-i-success{fill:rgb(var(--usk-success-rgb,22 163 74)/.13);stroke:var(--saas-icon-success,rgb(var(--usk-success-rgb,22 163 74)))}
+.saas-i-warning{fill:rgb(var(--usk-warning-rgb,202 138 4)/.14);stroke:var(--saas-icon-warning,rgb(var(--usk-warning-rgb,202 138 4)))}
+.saas-i-danger{fill:rgb(var(--usk-danger-rgb,220 38 38)/.12);stroke:var(--saas-icon-danger,rgb(var(--usk-danger-rgb,220 38 38)))}
+.saas-i-line{fill:none;stroke:var(--saas-icon-primary,rgb(var(--usk-primary-rgb,37 99 235)));stroke-width:5.4;stroke-linecap:round;stroke-linejoin:round}
+.saas-i-line-2{fill:none;stroke:var(--saas-icon-secondary,rgb(var(--usk-secondary-rgb,100 116 139)));stroke-width:4.45;stroke-linecap:round;stroke-linejoin:round}
+.saas-i-line-3{fill:none;stroke:var(--saas-icon-accent,rgb(var(--usk-accent-rgb,14 165 233)));stroke-width:4.05;stroke-linecap:round;stroke-linejoin:round}
+.saas-i-muted{fill:none;stroke:var(--saas-icon-muted,rgb(var(--usk-text-muted-rgb,100 116 139)));stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+.saas-i-fill-muted{fill:var(--saas-icon-muted,rgb(var(--usk-text-muted-rgb,100 116 139)));stroke:none}
+.saas-i-surface{fill:var(--saas-icon-bg,rgb(var(--usk-surface-rgb,255 255 255)/.96));stroke:var(--saas-icon-border,rgb(var(--usk-border-rgb,203 213 225)/.62));stroke-width:3.2}
+.saas-i-glow{filter:none}
+[data-icon-frame]{opacity:var(--usk-icon-frame-opacity,1)}
+[data-icon-frame="decor"]{opacity:var(--usk-icon-frame-decor-opacity,var(--usk-icon-frame-opacity,1))}
+[data-icon-glyph="play"]{fill:var(--usk-icon-play,var(--usk-icon-foreground,rgb(var(--usk-text-rgb,255 255 255))));stroke:none;opacity:1}
+</style>
+  <rect data-icon-frame="decor" class="saas-i-surface" x="34" y="34" width="188" height="188" rx="24"/>
+  <path data-icon-frame="decor" class="saas-i-muted" d="M58 74H92M164 74H198M58 184H96M160 184H198" opacity=".42"/>
+  <path data-icon-frame="decor" class="saas-i-muted" d="M68 206H116M140 206H188" opacity=".38"/>
+  <path class="saas-i-line saas-i-glow" d="M106 91L121 76C140 57 172 57 191 76C210 95 210 127 191 146L171 166"/><path class="saas-i-line-2" d="M150 165L135 180C116 199 84 199 65 180C46 161 46 129 65 110L85 90"/><path class="saas-i-line-3" d="M104 152L152 104"/>
+</svg>

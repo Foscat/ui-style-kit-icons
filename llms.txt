@@ -1,0 +1,40 @@
+# UI Style Kit Icons
+
+UI Style Kit Icons is a dependency-free, theme-aware SVG icon library for the Foscat CSS ecosystem.
+It owns icon runtime and SVG assets; ui-style-kit-css owns visual theme paint, layout-style-css owns layout primitives, and interactive-surface-css owns interaction affordances.
+
+## Canonical links
+
+- Demo: https://foscat.github.io/ui-style-kit-icons/
+- GitHub: https://github.com/Foscat/ui-style-kit-icons
+- npm: https://www.npmjs.com/package/ui-style-kit-icons
+- Wiki: https://github.com/Foscat/ui-style-kit-icons/wiki
+- UI Style Kit CSS: https://github.com/Foscat/ui-style-kit-css
+- Layout Style CSS: https://github.com/Foscat/Layout-Style-CSS
+- Interactive Surface CSS: https://github.com/Foscat/Interactive-Surface-CSS
+
+## Public contract
+
+- Package version: 0.2.0
+- Contract version: 0.1.0
+- Required semantic icons: 64
+- Selectable packs: 12
+- Runtime dependencies: none
+
+Import `ui-style-kit-icons/element`, then use `<usk-icon name="dashboard"></usk-icon>`.
+The custom element resolves the closest `data-icon-pack` first, then the closest `data-ui`.
+Set `label` when the icon conveys meaning. Omit `label` when adjacent text already names the action.
+
+Use `ui-style-kit-icons/registry` for pack metadata and `ui-style-kit-icons/contract.json` for the canonical semantic list.
+The interactive demo must be served over HTTP, for example with `npm run demo`; opening `index.html` directly from disk leaves ES module controls blocked by browser security.
+Build the GitHub Pages artifact with `npm run pages:build`; the deployable output is `output/github-pages/`.
+Run `npm run check:svg` to render every registered pack across all supported color schemes and modes and verify icon sizing, clipping, and graphical contrast.
+
+## Documentation map
+
+- README: https://github.com/Foscat/ui-style-kit-icons/blob/main/README.md
+- Getting started: https://github.com/Foscat/ui-style-kit-icons/wiki/Getting-Started
+- Icon API: https://github.com/Foscat/ui-style-kit-icons/wiki/Icon-API
+- Theme switching: https://github.com/Foscat/ui-style-kit-icons/wiki/Theme-And-Style-Switching
+- Accessibility: https://github.com/Foscat/ui-style-kit-icons/wiki/Accessibility
+- Contributing a pack: https://github.com/Foscat/ui-style-kit-icons/wiki/Contributing-A-Pack

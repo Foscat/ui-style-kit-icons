@@ -1,0 +1,1758 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+<style>
+[data-icon-frame]{opacity:var(--usk-icon-frame-opacity,1)}
+[data-icon-frame="decor"]{opacity:var(--usk-icon-frame-decor-opacity,var(--usk-icon-frame-opacity,1))}
+[data-icon-glyph="play"]{fill:var(--usk-icon-play,var(--usk-icon-foreground,rgb(var(--usk-text-rgb,255 255 255))));stroke:none;opacity:1}
+/* Synthwave Web App standardized icon layer */
+.sw-icon, [data-sw-icon]{
+  --sw-icon-size: 1.25em;
+  --sw-icon-bg: rgb(var(--usk-surface-rgb, 8 12 24) / .9);
+  --sw-icon-bg-strong: rgb(var(--usk-surface-strong-rgb, 20 28 48) / .94);
+  --sw-icon-bg-soft: rgb(var(--usk-surface-soft-rgb, 26 35 58) / .68);
+  --sw-icon-border: rgb(var(--usk-border-rgb, 100 116 139) / .72);
+  --sw-icon-primary: rgb(var(--usk-primary-rgb, 80 160 255));
+  --sw-icon-secondary: rgb(var(--usk-secondary-rgb, 138 116 255));
+  --sw-icon-accent: rgb(var(--usk-accent-rgb, 255 170 76));
+  --sw-icon-success: rgb(var(--usk-success-rgb, 74 222 128));
+  --sw-icon-warning: rgb(var(--usk-warning-rgb, 255 200 80));
+  --sw-icon-danger: rgb(var(--usk-danger-rgb, 255 92 122));
+  --sw-icon-muted: rgb(var(--usk-text-muted-rgb, 148 163 184));
+  inline-size: var(--usk-icon-size, var(--sw-icon-size));
+  block-size: var(--usk-icon-size, var(--sw-icon-size));
+  display: inline-block;
+  vertical-align: -0.125em;
+  overflow: visible;
+}
+.sw-icon--xs{ --sw-icon-size: 1em; }
+.sw-icon--sm{ --sw-icon-size: 1.25em; }
+.sw-icon--md{ --sw-icon-size: 1.5em; }
+.sw-icon--lg{ --sw-icon-size: 2em; }
+.sw-icon--xl{ --sw-icon-size: 3em; }
+.sw-i-bg{ fill: var(--sw-icon-bg); }
+.sw-i-bg-strong{ fill: var(--sw-icon-bg-strong); }
+.sw-i-bg-soft{ fill: var(--sw-icon-bg-soft); }
+.sw-i-primary{ fill: rgb(var(--usk-primary-rgb, 80 160 255) / .2); stroke: var(--sw-icon-primary); }
+.sw-i-secondary{ fill: rgb(var(--usk-secondary-rgb, 138 116 255) / .2); stroke: var(--sw-icon-secondary); }
+.sw-i-accent{ fill: rgb(var(--usk-accent-rgb, 255 170 76) / .22); stroke: var(--sw-icon-accent); }
+.sw-i-success{ fill: rgb(var(--usk-success-rgb, 74 222 128) / .2); stroke: var(--sw-icon-success); }
+.sw-i-warning{ fill: rgb(var(--usk-warning-rgb, 255 200 80) / .22); stroke: var(--sw-icon-warning); }
+.sw-i-danger{ fill: rgb(var(--usk-danger-rgb, 255 92 122) / .2); stroke: var(--sw-icon-danger); }
+.sw-i-line{ fill: none; stroke: var(--sw-icon-primary); stroke-width: 6.5; stroke-linecap: round; stroke-linejoin: round; }
+.sw-i-line-2{ fill: none; stroke: var(--sw-icon-secondary); stroke-width: 4.7; stroke-linecap: round; stroke-linejoin: round; }
+.sw-i-line-3{ fill: none; stroke: var(--sw-icon-accent); stroke-width: 3.8; stroke-linecap: round; stroke-linejoin: round; }
+.sw-i-muted{ fill: none; stroke: var(--sw-icon-muted); stroke-width: 2.8; stroke-linecap: round; stroke-linejoin: round; }
+.sw-i-surface{ fill: var(--sw-icon-bg); stroke: var(--sw-icon-border); stroke-width: 4.5; }
+
+[data-icon-frame]{opacity:var(--usk-icon-frame-opacity,1)}
+[data-icon-frame="decor"]{opacity:var(--usk-icon-frame-decor-opacity,var(--usk-icon-frame-opacity,1))}
+[data-icon-glyph="play"]{fill:var(--usk-icon-play,var(--usk-icon-foreground,rgb(var(--usk-text-rgb,255 255 255))));stroke:none;opacity:1}
+/* UI Style Kit Icons: generated sprite contrast guard */
+.sw-i-line{stroke:var(--sw-icon-primary,rgb(var(--usk-primary-rgb,37 99 235)));stroke:color-mix(in srgb,var(--sw-icon-primary,rgb(var(--usk-primary-rgb,37 99 235))) 58%,rgb(var(--usk-text-rgb,15 23 42)) 42%)}
+.sw-i-line-2{stroke:var(--sw-icon-secondary,rgb(var(--usk-secondary-rgb,100 116 139)));stroke:color-mix(in srgb,var(--sw-icon-secondary,rgb(var(--usk-secondary-rgb,100 116 139))) 52%,rgb(var(--usk-text-rgb,15 23 42)) 48%)}
+.sw-i-line-3{stroke:var(--sw-icon-accent,rgb(var(--usk-accent-rgb,14 165 233)));stroke:color-mix(in srgb,var(--sw-icon-accent,rgb(var(--usk-accent-rgb,14 165 233))) 52%,rgb(var(--usk-text-rgb,15 23 42)) 48%)}
+.sw-i-primary{stroke:var(--sw-icon-primary,rgb(var(--usk-primary-rgb,37 99 235)));stroke:color-mix(in srgb,var(--sw-icon-primary,rgb(var(--usk-primary-rgb,37 99 235))) 58%,rgb(var(--usk-text-rgb,15 23 42)) 42%);stroke-width:var(--usk-icon-fill-keyline-width,3.5);stroke-linejoin:round}
+.sw-i-secondary{stroke:var(--sw-icon-secondary,rgb(var(--usk-secondary-rgb,100 116 139)));stroke:color-mix(in srgb,var(--sw-icon-secondary,rgb(var(--usk-secondary-rgb,100 116 139))) 52%,rgb(var(--usk-text-rgb,15 23 42)) 48%);stroke-width:var(--usk-icon-fill-keyline-width,3.5);stroke-linejoin:round}
+.sw-i-accent{stroke:var(--sw-icon-accent,rgb(var(--usk-accent-rgb,14 165 233)));stroke:color-mix(in srgb,var(--sw-icon-accent,rgb(var(--usk-accent-rgb,14 165 233))) 52%,rgb(var(--usk-text-rgb,15 23 42)) 48%);stroke-width:var(--usk-icon-fill-keyline-width,3.5);stroke-linejoin:round}
+.sw-i-success{stroke:var(--sw-icon-success,rgb(var(--usk-success-rgb,22 163 74)));stroke:color-mix(in srgb,var(--sw-icon-success,rgb(var(--usk-success-rgb,22 163 74))) 52%,rgb(var(--usk-text-rgb,15 23 42)) 48%);stroke-width:var(--usk-icon-fill-keyline-width,3.5);stroke-linejoin:round}
+.sw-i-warning{stroke:var(--sw-icon-warning,rgb(var(--usk-warning-rgb,202 138 4)));stroke:color-mix(in srgb,var(--sw-icon-warning,rgb(var(--usk-warning-rgb,202 138 4))) 52%,rgb(var(--usk-text-rgb,15 23 42)) 48%);stroke-width:var(--usk-icon-fill-keyline-width,3.5);stroke-linejoin:round}
+.sw-i-danger{stroke:var(--sw-icon-danger,rgb(var(--usk-danger-rgb,220 38 38)));stroke:color-mix(in srgb,var(--sw-icon-danger,rgb(var(--usk-danger-rgb,220 38 38))) 52%,rgb(var(--usk-text-rgb,15 23 42)) 48%);stroke-width:var(--usk-icon-fill-keyline-width,3.5);stroke-linejoin:round}
+.sw-i-muted{stroke:var(--sw-icon-muted,rgb(var(--usk-text-muted-rgb,100 116 139)));stroke:color-mix(in srgb,var(--sw-icon-muted,rgb(var(--usk-text-muted-rgb,100 116 139))) 38%,rgb(var(--usk-text-rgb,15 23 42)) 62%)}
+.sw-i-bg-strong{stroke:var(--sw-icon-border,rgb(var(--usk-border-rgb,100 116 139)));stroke:color-mix(in srgb,var(--sw-icon-border,rgb(var(--usk-border-rgb,100 116 139))) 28%,rgb(var(--usk-text-rgb,15 23 42)) 72%);stroke-width:var(--usk-icon-keyline-width,3.5);stroke-linejoin:round}
+</style>
+<defs>
+<symbol id="sw-icon-home" viewBox="0 0 256 256">
+  <title>Home</title>
+  <defs>
+      <linearGradient id="home-bg" x1="28" y1="24" x2="228" y2="232" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-surface-strong-rgb, 37 17 91))"/>
+        <stop offset=".48" stop-color="rgb(var(--usk-surface-rgb, 19 8 47))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-bg-rgb, 9 5 28))"/>
+      </linearGradient>
+      <linearGradient id="home-neon" x1="48" y1="36" x2="214" y2="218" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-primary-rgb, 32 244 255))"/>
+        <stop offset=".45" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+      </linearGradient>
+      <linearGradient id="home-chrome" x1="56" y1="42" x2="204" y2="214" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-surface-strong-rgb, 255 247 255))"/>
+        <stop offset=".18" stop-color="rgb(var(--usk-primary-rgb, 32 244 255))"/>
+        <stop offset=".48" stop-color="rgb(var(--usk-secondary-rgb, 111 44 255))"/>
+        <stop offset=".76" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+      </linearGradient>
+      <linearGradient id="home-sun" x1="70" y1="52" x2="185" y2="164" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+        <stop offset=".5" stop-color="rgb(var(--usk-warning-rgb, 255 138 61))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+      </linearGradient>
+      <filter id="home-glow" x="-50%" y="-50%" width="200%" height="200%">
+        <feGaussianBlur stdDeviation="4.5" result="blur"/>
+        <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0.9 0 1 0 0 0.18 0 0 1 0 1 0 0 0 .82 0"/>
+        <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+      </filter>
+      <clipPath id="home-clip"><rect x="18" y="18" width="220" height="220" rx="48"/></clipPath>
+    </defs>
+    <rect data-icon-frame="decor" x="18" y="18" width="220" height="220" rx="48" fill="url(#home-bg)"/>
+    <g clip-path="url(#home-clip)">
+      <g data-icon-frame="decor" class="sw-i-horizon-sun" opacity=".42"><path d="M74 166A54 54 0 0 1 182 166H74Z" fill="url(#home-sun)" opacity=".46"/><path d="M86 136H170M80 150H176M74 164H182" fill="none" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="3" stroke-linecap="round" opacity=".34"/></g>
+      <path d="M34 176H222M50 194H206M70 212H186" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="3" opacity=".42"/>
+      <path d="M24 232L104 154M232 232L152 154M63 232L116 154M193 232L140 154M100 232L124 154M156 232L132 154" stroke="rgb(var(--usk-secondary-rgb, 255 43 214))" stroke-width="2" opacity=".34"/>
+      <path d="M62 130L128 72L194 130" fill="none" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" filter="url(#home-glow)"/><path d="M82 126V194H174V126" fill="url(#home-chrome)" stroke="rgb(var(--usk-secondary-rgb, 255 43 214))" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><path d="M115 194V152H141V194" fill="rgb(var(--usk-surface-rgb, 19 8 47))" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <rect data-icon-frame="decor" x="18" y="18" width="220" height="220" rx="48" fill="none" stroke="url(#home-neon)" stroke-width="4"/>
+</symbol>
+<symbol id="sw-icon-dashboard" viewBox="0 0 256 256">
+  <title>Dashboard</title>
+  <defs>
+      <linearGradient id="dashboard-bg" x1="28" y1="24" x2="228" y2="232" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-surface-strong-rgb, 37 17 91))"/>
+        <stop offset=".48" stop-color="rgb(var(--usk-surface-rgb, 19 8 47))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-bg-rgb, 9 5 28))"/>
+      </linearGradient>
+      <linearGradient id="dashboard-neon" x1="48" y1="36" x2="214" y2="218" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-primary-rgb, 32 244 255))"/>
+        <stop offset=".45" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+      </linearGradient>
+      <linearGradient id="dashboard-chrome" x1="56" y1="42" x2="204" y2="214" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-surface-strong-rgb, 255 247 255))"/>
+        <stop offset=".18" stop-color="rgb(var(--usk-primary-rgb, 32 244 255))"/>
+        <stop offset=".48" stop-color="rgb(var(--usk-secondary-rgb, 111 44 255))"/>
+        <stop offset=".76" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+      </linearGradient>
+      <linearGradient id="dashboard-sun" x1="70" y1="52" x2="185" y2="164" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+        <stop offset=".5" stop-color="rgb(var(--usk-warning-rgb, 255 138 61))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+      </linearGradient>
+      <filter id="dashboard-glow" x="-50%" y="-50%" width="200%" height="200%">
+        <feGaussianBlur stdDeviation="4.5" result="blur"/>
+        <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0.9 0 1 0 0 0.18 0 0 1 0 1 0 0 0 .82 0"/>
+        <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+      </filter>
+      <clipPath id="dashboard-clip"><rect x="18" y="18" width="220" height="220" rx="48"/></clipPath>
+    </defs>
+    <rect data-icon-frame="decor" x="18" y="18" width="220" height="220" rx="48" fill="url(#dashboard-bg)"/>
+    <g clip-path="url(#dashboard-clip)">
+      <g data-icon-frame="decor" class="sw-i-horizon-sun" opacity=".42"><path d="M74 166A54 54 0 0 1 182 166H74Z" fill="url(#dashboard-sun)" opacity=".46"/><path d="M86 136H170M80 150H176M74 164H182" fill="none" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="3" stroke-linecap="round" opacity=".34"/></g>
+      <path d="M34 176H222M50 194H206M70 212H186" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="3" opacity=".42"/>
+      <path d="M24 232L104 154M232 232L152 154M63 232L116 154M193 232L140 154M100 232L124 154M156 232L132 154" stroke="rgb(var(--usk-secondary-rgb, 255 43 214))" stroke-width="2" opacity=".34"/>
+      <rect x="62" y="72" width="132" height="116" rx="22" fill="url(#dashboard-chrome)" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="6"/><path d="M86 150A42 42 0 0 1 170 150" fill="none" stroke="rgb(var(--usk-surface-rgb, 19 8 47))" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/><path d="M128 150L158 119" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/><circle cx="128" cy="150" r="9" fill="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+    </g>
+    <rect data-icon-frame="decor" x="18" y="18" width="220" height="220" rx="48" fill="none" stroke="url(#dashboard-neon)" stroke-width="4"/>
+</symbol>
+<symbol id="sw-icon-browser" viewBox="-8 -8 272 272">
+  <title>Browser</title>
+  <rect data-icon-frame="decor" class="sw-i-surface" x="18" y="18" width="220" height="220" rx="48"/><g data-icon-frame="decor" class="sw-i-horizon-sun" opacity=".44"><path class="sw-i-warning" d="M74 166A54 54 0 0 1 182 166H74Z" opacity=".24"/><path class="sw-i-line-3" d="M86 136H170M80 150H176M74 164H182" opacity=".34"/></g><path class="sw-i-line-3" d="M34 176H222M50 194H206M70 212H186" opacity=".42"/><path class="sw-i-muted" d="M24 232L104 154M232 232L152 154M63 232L116 154M193 232L140 154" opacity=".32"/>
+    <rect class="sw-i-bg-strong" x="56" y="74" width="144" height="112" rx="18"/><path class="sw-i-line" d="M56 106H200"/><circle class="sw-i-danger" cx="80" cy="90" r="6"/><circle class="sw-i-warning" cx="100" cy="90" r="6"/><circle class="sw-i-success" cx="120" cy="90" r="6"/><path class="sw-i-muted" d="M84 132H172M84 158H142"/>
+</symbol>
+<symbol id="sw-icon-search" viewBox="0 0 256 256">
+  <title>Search</title>
+  <defs>
+      <linearGradient id="search-bg" x1="28" y1="24" x2="228" y2="232" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-surface-strong-rgb, 37 17 91))"/>
+        <stop offset=".48" stop-color="rgb(var(--usk-surface-rgb, 19 8 47))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-bg-rgb, 9 5 28))"/>
+      </linearGradient>
+      <linearGradient id="search-neon" x1="48" y1="36" x2="214" y2="218" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-primary-rgb, 32 244 255))"/>
+        <stop offset=".45" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+      </linearGradient>
+      <linearGradient id="search-chrome" x1="56" y1="42" x2="204" y2="214" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-surface-strong-rgb, 255 247 255))"/>
+        <stop offset=".18" stop-color="rgb(var(--usk-primary-rgb, 32 244 255))"/>
+        <stop offset=".48" stop-color="rgb(var(--usk-secondary-rgb, 111 44 255))"/>
+        <stop offset=".76" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+      </linearGradient>
+      <linearGradient id="search-sun" x1="70" y1="52" x2="185" y2="164" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+        <stop offset=".5" stop-color="rgb(var(--usk-warning-rgb, 255 138 61))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+      </linearGradient>
+      <filter id="search-glow" x="-50%" y="-50%" width="200%" height="200%">
+        <feGaussianBlur stdDeviation="4.5" result="blur"/>
+        <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0.9 0 1 0 0 0.18 0 0 1 0 1 0 0 0 .82 0"/>
+        <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+      </filter>
+      <clipPath id="search-clip"><rect x="18" y="18" width="220" height="220" rx="48"/></clipPath>
+    </defs>
+    <rect data-icon-frame="decor" x="18" y="18" width="220" height="220" rx="48" fill="url(#search-bg)"/>
+    <g clip-path="url(#search-clip)">
+      <g data-icon-frame="decor" class="sw-i-horizon-sun" opacity=".42"><path d="M74 166A54 54 0 0 1 182 166H74Z" fill="url(#search-sun)" opacity=".46"/><path d="M86 136H170M80 150H176M74 164H182" fill="none" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="3" stroke-linecap="round" opacity=".34"/></g>
+      <path d="M34 176H222M50 194H206M70 212H186" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="3" opacity=".42"/>
+      <path d="M24 232L104 154M232 232L152 154M63 232L116 154M193 232L140 154M100 232L124 154M156 232L132 154" stroke="rgb(var(--usk-secondary-rgb, 255 43 214))" stroke-width="2" opacity=".34"/>
+      <circle cx="112" cy="112" r="44" fill="rgb(var(--usk-surface-rgb, 19 8 47))" stroke="url(#search-chrome)" stroke-width="12" filter="url(#search-glow)"/><path d="M146 146L195 195" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/><circle cx="112" cy="112" r="20" fill="rgb(var(--usk-primary-rgb, 32 244 255))" opacity=".35"/>
+    </g>
+    <rect data-icon-frame="decor" x="18" y="18" width="220" height="220" rx="48" fill="none" stroke="url(#search-neon)" stroke-width="4"/>
+</symbol>
+<symbol id="sw-icon-user" viewBox="0 0 256 256">
+  <title>User</title>
+  <defs>
+      <linearGradient id="user-bg" x1="28" y1="24" x2="228" y2="232" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-surface-strong-rgb, 37 17 91))"/>
+        <stop offset=".48" stop-color="rgb(var(--usk-surface-rgb, 19 8 47))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-bg-rgb, 9 5 28))"/>
+      </linearGradient>
+      <linearGradient id="user-neon" x1="48" y1="36" x2="214" y2="218" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-primary-rgb, 32 244 255))"/>
+        <stop offset=".45" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+      </linearGradient>
+      <linearGradient id="user-chrome" x1="56" y1="42" x2="204" y2="214" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-surface-strong-rgb, 255 247 255))"/>
+        <stop offset=".18" stop-color="rgb(var(--usk-primary-rgb, 32 244 255))"/>
+        <stop offset=".48" stop-color="rgb(var(--usk-secondary-rgb, 111 44 255))"/>
+        <stop offset=".76" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+      </linearGradient>
+      <linearGradient id="user-sun" x1="70" y1="52" x2="185" y2="164" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+        <stop offset=".5" stop-color="rgb(var(--usk-warning-rgb, 255 138 61))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+      </linearGradient>
+      <filter id="user-glow" x="-50%" y="-50%" width="200%" height="200%">
+        <feGaussianBlur stdDeviation="4.5" result="blur"/>
+        <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0.9 0 1 0 0 0.18 0 0 1 0 1 0 0 0 .82 0"/>
+        <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+      </filter>
+      <clipPath id="user-clip"><rect x="18" y="18" width="220" height="220" rx="48"/></clipPath>
+    </defs>
+    <rect data-icon-frame="decor" x="18" y="18" width="220" height="220" rx="48" fill="url(#user-bg)"/>
+    <g clip-path="url(#user-clip)">
+      <g data-icon-frame="decor" class="sw-i-horizon-sun" opacity=".42"><path d="M74 166A54 54 0 0 1 182 166H74Z" fill="url(#user-sun)" opacity=".46"/><path d="M86 136H170M80 150H176M74 164H182" fill="none" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="3" stroke-linecap="round" opacity=".34"/></g>
+      <path d="M34 176H222M50 194H206M70 212H186" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="3" opacity=".42"/>
+      <path d="M24 232L104 154M232 232L152 154M63 232L116 154M193 232L140 154M100 232L124 154M156 232L132 154" stroke="rgb(var(--usk-secondary-rgb, 255 43 214))" stroke-width="2" opacity=".34"/>
+      <circle cx="128" cy="91" r="35" fill="url(#user-chrome)" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="6" filter="url(#user-glow)"/><path d="M70 192C79 154 103 136 128 136C153 136 177 154 186 192" fill="url(#user-sun)" stroke="rgb(var(--usk-secondary-rgb, 255 43 214))" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <rect data-icon-frame="decor" x="18" y="18" width="220" height="220" rx="48" fill="none" stroke="url(#user-neon)" stroke-width="4"/>
+</symbol>
+<symbol id="sw-icon-users" viewBox="-8 -8 272 272">
+  <title>Users</title>
+  <defs>
+      <linearGradient id="users-bg" x1="28" y1="24" x2="228" y2="232" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-surface-strong-rgb, 37 17 91))"/>
+        <stop offset=".48" stop-color="rgb(var(--usk-surface-rgb, 19 8 47))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-bg-rgb, 9 5 28))"/>
+      </linearGradient>
+      <linearGradient id="users-neon" x1="48" y1="36" x2="214" y2="218" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-primary-rgb, 32 244 255))"/>
+        <stop offset=".45" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+      </linearGradient>
+      <linearGradient id="users-chrome" x1="56" y1="42" x2="204" y2="214" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-surface-strong-rgb, 255 247 255))"/>
+        <stop offset=".18" stop-color="rgb(var(--usk-primary-rgb, 32 244 255))"/>
+        <stop offset=".48" stop-color="rgb(var(--usk-secondary-rgb, 111 44 255))"/>
+        <stop offset=".76" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+      </linearGradient>
+      <linearGradient id="users-sun" x1="70" y1="52" x2="185" y2="164" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+        <stop offset=".5" stop-color="rgb(var(--usk-warning-rgb, 255 138 61))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+      </linearGradient>
+      <filter id="users-glow" x="-50%" y="-50%" width="200%" height="200%">
+        <feGaussianBlur stdDeviation="4.5" result="blur"/>
+        <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0.9 0 1 0 0 0.18 0 0 1 0 1 0 0 0 .82 0"/>
+        <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+      </filter>
+      <clipPath id="users-clip"><rect x="10" y="10" width="236" height="236" rx="48"/></clipPath>
+    </defs>
+    <rect data-icon-frame="decor" x="10" y="10" width="236" height="236" rx="48" fill="url(#users-bg)"/>
+    <g clip-path="url(#users-clip)">
+      <g data-icon-frame="decor" class="sw-i-horizon-sun" opacity=".42"><path d="M74 166A54 54 0 0 1 182 166H74Z" fill="url(#users-sun)" opacity=".46"/><path d="M86 136H170M80 150H176M74 164H182" fill="none" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="3" stroke-linecap="round" opacity=".34"/></g>
+      <path d="M34 176H222M50 194H206M70 212H186" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="3" opacity=".42"/>
+      <path d="M24 232L104 154M232 232L152 154M63 232L116 154M193 232L140 154M100 232L124 154M156 232L132 154" stroke="rgb(var(--usk-secondary-rgb, 255 43 214))" stroke-width="2" opacity=".34"/>
+      <circle cx="104" cy="101" r="26" fill="rgb(var(--usk-primary-rgb, 32 244 255))" opacity=".9"/><circle cx="154" cy="101" r="26" fill="rgb(var(--usk-secondary-rgb, 255 43 214))" opacity=".9"/><circle cx="128" cy="84" r="32" fill="url(#users-chrome)" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="5"/><path d="M58 190C66 155 86 139 108 139M198 190C190 155 170 139 148 139M76 198C84 158 104 139 128 139C152 139 172 158 180 198" fill="none" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" filter="url(#users-glow)"/>
+    </g>
+    <rect data-icon-frame="decor" x="10" y="10" width="236" height="236" rx="48" fill="none" stroke="url(#users-neon)" stroke-width="4"/>
+</symbol>
+<symbol id="sw-icon-settings" viewBox="0 0 256 256">
+  <title>Settings</title>
+  <defs>
+      <linearGradient id="settings-bg" x1="28" y1="24" x2="228" y2="232" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-surface-strong-rgb, 37 17 91))"/>
+        <stop offset=".48" stop-color="rgb(var(--usk-surface-rgb, 19 8 47))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-bg-rgb, 9 5 28))"/>
+      </linearGradient>
+      <linearGradient id="settings-neon" x1="48" y1="36" x2="214" y2="218" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-primary-rgb, 32 244 255))"/>
+        <stop offset=".45" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+      </linearGradient>
+      <linearGradient id="settings-chrome" x1="56" y1="42" x2="204" y2="214" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-surface-strong-rgb, 255 247 255))"/>
+        <stop offset=".18" stop-color="rgb(var(--usk-primary-rgb, 32 244 255))"/>
+        <stop offset=".48" stop-color="rgb(var(--usk-secondary-rgb, 111 44 255))"/>
+        <stop offset=".76" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+      </linearGradient>
+      <linearGradient id="settings-sun" x1="70" y1="52" x2="185" y2="164" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+        <stop offset=".5" stop-color="rgb(var(--usk-warning-rgb, 255 138 61))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+      </linearGradient>
+      <filter id="settings-glow" x="-50%" y="-50%" width="200%" height="200%">
+        <feGaussianBlur stdDeviation="4.5" result="blur"/>
+        <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0.9 0 1 0 0 0.18 0 0 1 0 1 0 0 0 .82 0"/>
+        <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+      </filter>
+      <clipPath id="settings-clip"><rect x="18" y="18" width="220" height="220" rx="48"/></clipPath>
+    </defs>
+    <rect data-icon-frame="decor" x="18" y="18" width="220" height="220" rx="48" fill="url(#settings-bg)"/>
+    <g clip-path="url(#settings-clip)">
+      <g data-icon-frame="decor" class="sw-i-horizon-sun" opacity=".42"><path d="M74 166A54 54 0 0 1 182 166H74Z" fill="url(#settings-sun)" opacity=".46"/><path d="M86 136H170M80 150H176M74 164H182" fill="none" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="3" stroke-linecap="round" opacity=".34"/></g>
+      <path d="M34 176H222M50 194H206M70 212H186" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="3" opacity=".42"/>
+      <path d="M24 232L104 154M232 232L152 154M63 232L116 154M193 232L140 154M100 232L124 154M156 232L132 154" stroke="rgb(var(--usk-secondary-rgb, 255 43 214))" stroke-width="2" opacity=".34"/>
+      <path d="M128 59L143 78L168 73L176 98L199 110L189 135L199 158L176 171L168 196L143 191L128 211L113 191L88 196L80 171L57 158L67 135L57 110L80 98L88 73L113 78Z" fill="url(#settings-chrome)" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" filter="url(#settings-glow)"/><circle cx="128" cy="135" r="31" fill="rgb(var(--usk-surface-rgb, 19 8 47))" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="8"/>
+    </g>
+    <rect data-icon-frame="decor" x="18" y="18" width="220" height="220" rx="48" fill="none" stroke="url(#settings-neon)" stroke-width="4"/>
+</symbol>
+<symbol id="sw-icon-bell" viewBox="0 0 256 256">
+  <title>Notifications</title>
+  <defs>
+      <linearGradient id="bell-bg" x1="28" y1="24" x2="228" y2="232" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-surface-strong-rgb, 37 17 91))"/>
+        <stop offset=".48" stop-color="rgb(var(--usk-surface-rgb, 19 8 47))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-bg-rgb, 9 5 28))"/>
+      </linearGradient>
+      <linearGradient id="bell-neon" x1="48" y1="36" x2="214" y2="218" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-primary-rgb, 32 244 255))"/>
+        <stop offset=".45" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+      </linearGradient>
+      <linearGradient id="bell-chrome" x1="56" y1="42" x2="204" y2="214" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-surface-strong-rgb, 255 247 255))"/>
+        <stop offset=".18" stop-color="rgb(var(--usk-primary-rgb, 32 244 255))"/>
+        <stop offset=".48" stop-color="rgb(var(--usk-secondary-rgb, 111 44 255))"/>
+        <stop offset=".76" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+      </linearGradient>
+      <linearGradient id="bell-sun" x1="70" y1="52" x2="185" y2="164" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+        <stop offset=".5" stop-color="rgb(var(--usk-warning-rgb, 255 138 61))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+      </linearGradient>
+      <filter id="bell-glow" x="-50%" y="-50%" width="200%" height="200%">
+        <feGaussianBlur stdDeviation="4.5" result="blur"/>
+        <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0.9 0 1 0 0 0.18 0 0 1 0 1 0 0 0 .82 0"/>
+        <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+      </filter>
+      <clipPath id="bell-clip"><rect x="18" y="18" width="220" height="220" rx="48"/></clipPath>
+    </defs>
+    <rect data-icon-frame="decor" x="18" y="18" width="220" height="220" rx="48" fill="url(#bell-bg)"/>
+    <g clip-path="url(#bell-clip)">
+      <g data-icon-frame="decor" class="sw-i-horizon-sun" opacity=".42"><path d="M74 166A54 54 0 0 1 182 166H74Z" fill="url(#bell-sun)" opacity=".46"/><path d="M86 136H170M80 150H176M74 164H182" fill="none" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="3" stroke-linecap="round" opacity=".34"/></g>
+      <path d="M34 176H222M50 194H206M70 212H186" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="3" opacity=".42"/>
+      <path d="M24 232L104 154M232 232L152 154M63 232L116 154M193 232L140 154M100 232L124 154M156 232L132 154" stroke="rgb(var(--usk-secondary-rgb, 255 43 214))" stroke-width="2" opacity=".34"/>
+      <path d="M84 151V116C84 89 102 70 128 70C154 70 172 89 172 116V151L189 178H67Z" fill="url(#bell-chrome)" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" filter="url(#bell-glow)"/><path d="M112 190C119 203 137 203 144 190" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/><circle cx="174" cy="76" r="18" fill="rgb(var(--usk-secondary-rgb, 255 43 214))" stroke="rgb(var(--usk-surface-strong-rgb, 255 247 255))" stroke-width="4"/>
+    </g>
+    <rect data-icon-frame="decor" x="18" y="18" width="220" height="220" rx="48" fill="none" stroke="url(#bell-neon)" stroke-width="4"/>
+</symbol>
+<symbol id="sw-icon-message" viewBox="0 0 256 256">
+  <title>Message</title>
+  <defs>
+      <linearGradient id="message-bg" x1="28" y1="24" x2="228" y2="232" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-surface-strong-rgb, 37 17 91))"/>
+        <stop offset=".48" stop-color="rgb(var(--usk-surface-rgb, 19 8 47))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-bg-rgb, 9 5 28))"/>
+      </linearGradient>
+      <linearGradient id="message-neon" x1="48" y1="36" x2="214" y2="218" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-primary-rgb, 32 244 255))"/>
+        <stop offset=".45" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+      </linearGradient>
+      <linearGradient id="message-chrome" x1="56" y1="42" x2="204" y2="214" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-surface-strong-rgb, 255 247 255))"/>
+        <stop offset=".18" stop-color="rgb(var(--usk-primary-rgb, 32 244 255))"/>
+        <stop offset=".48" stop-color="rgb(var(--usk-secondary-rgb, 111 44 255))"/>
+        <stop offset=".76" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+      </linearGradient>
+      <linearGradient id="message-sun" x1="70" y1="52" x2="185" y2="164" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+        <stop offset=".5" stop-color="rgb(var(--usk-warning-rgb, 255 138 61))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+      </linearGradient>
+      <filter id="message-glow" x="-50%" y="-50%" width="200%" height="200%">
+        <feGaussianBlur stdDeviation="4.5" result="blur"/>
+        <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0.9 0 1 0 0 0.18 0 0 1 0 1 0 0 0 .82 0"/>
+        <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+      </filter>
+      <clipPath id="message-clip"><rect x="18" y="18" width="220" height="220" rx="48"/></clipPath>
+    </defs>
+    <rect data-icon-frame="decor" x="18" y="18" width="220" height="220" rx="48" fill="url(#message-bg)"/>
+    <g clip-path="url(#message-clip)">
+      <g data-icon-frame="decor" class="sw-i-horizon-sun" opacity=".42"><path d="M74 166A54 54 0 0 1 182 166H74Z" fill="url(#message-sun)" opacity=".46"/><path d="M86 136H170M80 150H176M74 164H182" fill="none" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="3" stroke-linecap="round" opacity=".34"/></g>
+      <path d="M34 176H222M50 194H206M70 212H186" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="3" opacity=".42"/>
+      <path d="M24 232L104 154M232 232L152 154M63 232L116 154M193 232L140 154M100 232L124 154M156 232L132 154" stroke="rgb(var(--usk-secondary-rgb, 255 43 214))" stroke-width="2" opacity=".34"/>
+      <path d="M58 78H198V160H132L96 194V160H58Z" fill="url(#message-chrome)" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" filter="url(#message-glow)"/><path d="M84 106H172M84 132H148" stroke="rgb(var(--usk-surface-rgb, 19 8 47))" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="179" cy="133" r="9" fill="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+    </g>
+    <rect data-icon-frame="decor" x="18" y="18" width="220" height="220" rx="48" fill="none" stroke="url(#message-neon)" stroke-width="4"/>
+</symbol>
+<symbol id="sw-icon-mail" viewBox="-8 -8 272 272">
+  <title>Email</title>
+  <defs>
+      <linearGradient id="mail-bg" x1="28" y1="24" x2="228" y2="232" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-surface-strong-rgb, 37 17 91))"/>
+        <stop offset=".48" stop-color="rgb(var(--usk-surface-rgb, 19 8 47))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-bg-rgb, 9 5 28))"/>
+      </linearGradient>
+      <linearGradient id="mail-neon" x1="48" y1="36" x2="214" y2="218" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-primary-rgb, 32 244 255))"/>
+        <stop offset=".45" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+      </linearGradient>
+      <linearGradient id="mail-chrome" x1="56" y1="42" x2="204" y2="214" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-surface-strong-rgb, 255 247 255))"/>
+        <stop offset=".18" stop-color="rgb(var(--usk-primary-rgb, 32 244 255))"/>
+        <stop offset=".48" stop-color="rgb(var(--usk-secondary-rgb, 111 44 255))"/>
+        <stop offset=".76" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+      </linearGradient>
+      <linearGradient id="mail-sun" x1="70" y1="52" x2="185" y2="164" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+        <stop offset=".5" stop-color="rgb(var(--usk-warning-rgb, 255 138 61))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+      </linearGradient>
+      <filter id="mail-glow" x="-50%" y="-50%" width="200%" height="200%">
+        <feGaussianBlur stdDeviation="4.5" result="blur"/>
+        <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0.9 0 1 0 0 0.18 0 0 1 0 1 0 0 0 .82 0"/>
+        <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+      </filter>
+      <clipPath id="mail-clip"><rect x="18" y="18" width="220" height="220" rx="48"/></clipPath>
+    </defs>
+    <rect data-icon-frame="decor" x="18" y="18" width="220" height="220" rx="48" fill="url(#mail-bg)"/>
+    <g clip-path="url(#mail-clip)">
+      <g data-icon-frame="decor" class="sw-i-horizon-sun" opacity=".42"><path d="M74 166A54 54 0 0 1 182 166H74Z" fill="url(#mail-sun)" opacity=".46"/><path d="M86 136H170M80 150H176M74 164H182" fill="none" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="3" stroke-linecap="round" opacity=".34"/></g>
+      <path d="M34 176H222M50 194H206M70 212H186" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="3" opacity=".42"/>
+      <path d="M24 232L104 154M232 232L152 154M63 232L116 154M193 232L140 154M100 232L124 154M156 232L132 154" stroke="rgb(var(--usk-secondary-rgb, 255 43 214))" stroke-width="2" opacity=".34"/>
+      <rect x="56" y="84" width="144" height="100" rx="18" fill="url(#mail-chrome)" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="6" filter="url(#mail-glow)"/><path d="M64 101L128 143L192 101M64 177L110 137M192 177L146 137" fill="none" stroke="rgb(var(--usk-surface-rgb, 19 8 47))" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <rect data-icon-frame="decor" x="18" y="18" width="220" height="220" rx="48" fill="none" stroke="url(#mail-neon)" stroke-width="4"/>
+</symbol>
+<symbol id="sw-icon-calendar" viewBox="-8 -8 272 272">
+  <title>Calendar</title>
+  <defs>
+      <linearGradient id="calendar-bg" x1="28" y1="24" x2="228" y2="232" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-surface-strong-rgb, 37 17 91))"/>
+        <stop offset=".48" stop-color="rgb(var(--usk-surface-rgb, 19 8 47))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-bg-rgb, 9 5 28))"/>
+      </linearGradient>
+      <linearGradient id="calendar-neon" x1="48" y1="36" x2="214" y2="218" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-primary-rgb, 32 244 255))"/>
+        <stop offset=".45" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+      </linearGradient>
+      <linearGradient id="calendar-chrome" x1="56" y1="42" x2="204" y2="214" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-surface-strong-rgb, 255 247 255))"/>
+        <stop offset=".18" stop-color="rgb(var(--usk-primary-rgb, 32 244 255))"/>
+        <stop offset=".48" stop-color="rgb(var(--usk-secondary-rgb, 111 44 255))"/>
+        <stop offset=".76" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+      </linearGradient>
+      <linearGradient id="calendar-sun" x1="70" y1="52" x2="185" y2="164" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+        <stop offset=".5" stop-color="rgb(var(--usk-warning-rgb, 255 138 61))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+      </linearGradient>
+      <filter id="calendar-glow" x="-50%" y="-50%" width="200%" height="200%">
+        <feGaussianBlur stdDeviation="4.5" result="blur"/>
+        <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0.9 0 1 0 0 0.18 0 0 1 0 1 0 0 0 .82 0"/>
+        <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+      </filter>
+      <clipPath id="calendar-clip"><rect x="18" y="18" width="220" height="220" rx="48"/></clipPath>
+    </defs>
+    <rect data-icon-frame="decor" x="18" y="18" width="220" height="220" rx="48" fill="url(#calendar-bg)"/>
+    <g clip-path="url(#calendar-clip)">
+      <g data-icon-frame="decor" class="sw-i-horizon-sun" opacity=".42"><path d="M74 166A54 54 0 0 1 182 166H74Z" fill="url(#calendar-sun)" opacity=".46"/><path d="M86 136H170M80 150H176M74 164H182" fill="none" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="3" stroke-linecap="round" opacity=".34"/></g>
+      <path d="M34 176H222M50 194H206M70 212H186" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="3" opacity=".42"/>
+      <path d="M24 232L104 154M232 232L152 154M63 232L116 154M193 232L140 154M100 232L124 154M156 232L132 154" stroke="rgb(var(--usk-secondary-rgb, 255 43 214))" stroke-width="2" opacity=".34"/>
+      <rect x="60" y="74" width="136" height="124" rx="20" fill="url(#calendar-chrome)" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="6" filter="url(#calendar-glow)"/><path d="M90 58V91M166 58V91M64 111H192" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/><path d="M90 139H106M124 139H140M158 139H174M90 166H106M124 166H140" stroke="rgb(var(--usk-surface-rgb, 19 8 47))" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <rect data-icon-frame="decor" x="18" y="18" width="220" height="220" rx="48" fill="none" stroke="url(#calendar-neon)" stroke-width="4"/>
+</symbol>
+<symbol id="sw-icon-upload" viewBox="0 0 256 256">
+  <title>Upload</title>
+  <defs>
+      <linearGradient id="upload-bg" x1="28" y1="24" x2="228" y2="232" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-surface-strong-rgb, 37 17 91))"/>
+        <stop offset=".48" stop-color="rgb(var(--usk-surface-rgb, 19 8 47))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-bg-rgb, 9 5 28))"/>
+      </linearGradient>
+      <linearGradient id="upload-neon" x1="48" y1="36" x2="214" y2="218" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-primary-rgb, 32 244 255))"/>
+        <stop offset=".45" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+      </linearGradient>
+      <linearGradient id="upload-chrome" x1="56" y1="42" x2="204" y2="214" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-surface-strong-rgb, 255 247 255))"/>
+        <stop offset=".18" stop-color="rgb(var(--usk-primary-rgb, 32 244 255))"/>
+        <stop offset=".48" stop-color="rgb(var(--usk-secondary-rgb, 111 44 255))"/>
+        <stop offset=".76" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+      </linearGradient>
+      <linearGradient id="upload-sun" x1="70" y1="52" x2="185" y2="164" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+        <stop offset=".5" stop-color="rgb(var(--usk-warning-rgb, 255 138 61))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+      </linearGradient>
+      <filter id="upload-glow" x="-50%" y="-50%" width="200%" height="200%">
+        <feGaussianBlur stdDeviation="4.5" result="blur"/>
+        <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0.9 0 1 0 0 0.18 0 0 1 0 1 0 0 0 .82 0"/>
+        <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+      </filter>
+      <clipPath id="upload-clip"><rect x="18" y="18" width="220" height="220" rx="48"/></clipPath>
+    </defs>
+    <rect data-icon-frame="decor" x="18" y="18" width="220" height="220" rx="48" fill="url(#upload-bg)"/>
+    <g clip-path="url(#upload-clip)">
+      <g data-icon-frame="decor" class="sw-i-horizon-sun" opacity=".42"><path d="M74 166A54 54 0 0 1 182 166H74Z" fill="url(#upload-sun)" opacity=".46"/><path d="M86 136H170M80 150H176M74 164H182" fill="none" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="3" stroke-linecap="round" opacity=".34"/></g>
+      <path d="M34 176H222M50 194H206M70 212H186" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="3" opacity=".42"/>
+      <path d="M24 232L104 154M232 232L152 154M63 232L116 154M193 232L140 154M100 232L124 154M156 232L132 154" stroke="rgb(var(--usk-secondary-rgb, 255 43 214))" stroke-width="2" opacity=".34"/>
+      <path d="M128 68V159M92 104L128 68L164 104" fill="none" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="13" stroke-linecap="round" stroke-linejoin="round" filter="url(#upload-glow)"/><path d="M72 152V194H184V152" fill="none" stroke="rgb(var(--usk-secondary-rgb, 255 43 214))" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/><path d="M102 194H154" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <rect data-icon-frame="decor" x="18" y="18" width="220" height="220" rx="48" fill="none" stroke="url(#upload-neon)" stroke-width="4"/>
+</symbol>
+<symbol id="sw-icon-download" viewBox="0 0 256 256">
+  <title>Download</title>
+  <defs>
+      <linearGradient id="download-bg" x1="28" y1="24" x2="228" y2="232" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-surface-strong-rgb, 37 17 91))"/>
+        <stop offset=".48" stop-color="rgb(var(--usk-surface-rgb, 19 8 47))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-bg-rgb, 9 5 28))"/>
+      </linearGradient>
+      <linearGradient id="download-neon" x1="48" y1="36" x2="214" y2="218" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-primary-rgb, 32 244 255))"/>
+        <stop offset=".45" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+      </linearGradient>
+      <linearGradient id="download-chrome" x1="56" y1="42" x2="204" y2="214" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-surface-strong-rgb, 255 247 255))"/>
+        <stop offset=".18" stop-color="rgb(var(--usk-primary-rgb, 32 244 255))"/>
+        <stop offset=".48" stop-color="rgb(var(--usk-secondary-rgb, 111 44 255))"/>
+        <stop offset=".76" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+      </linearGradient>
+      <linearGradient id="download-sun" x1="70" y1="52" x2="185" y2="164" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+        <stop offset=".5" stop-color="rgb(var(--usk-warning-rgb, 255 138 61))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+      </linearGradient>
+      <filter id="download-glow" x="-50%" y="-50%" width="200%" height="200%">
+        <feGaussianBlur stdDeviation="4.5" result="blur"/>
+        <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0.9 0 1 0 0 0.18 0 0 1 0 1 0 0 0 .82 0"/>
+        <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+      </filter>
+      <clipPath id="download-clip"><rect x="18" y="18" width="220" height="220" rx="48"/></clipPath>
+    </defs>
+    <rect data-icon-frame="decor" x="18" y="18" width="220" height="220" rx="48" fill="url(#download-bg)"/>
+    <g clip-path="url(#download-clip)">
+      <g data-icon-frame="decor" class="sw-i-horizon-sun" opacity=".42"><path d="M74 166A54 54 0 0 1 182 166H74Z" fill="url(#download-sun)" opacity=".46"/><path d="M86 136H170M80 150H176M74 164H182" fill="none" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="3" stroke-linecap="round" opacity=".34"/></g>
+      <path d="M34 176H222M50 194H206M70 212H186" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="3" opacity=".42"/>
+      <path d="M24 232L104 154M232 232L152 154M63 232L116 154M193 232L140 154M100 232L124 154M156 232L132 154" stroke="rgb(var(--usk-secondary-rgb, 255 43 214))" stroke-width="2" opacity=".34"/>
+      <path d="M128 68V159M92 123L128 159L164 123" fill="none" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="13" stroke-linecap="round" stroke-linejoin="round" filter="url(#download-glow)"/><path d="M72 152V194H184V152" fill="none" stroke="rgb(var(--usk-secondary-rgb, 255 43 214))" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/><path d="M102 194H154" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <rect data-icon-frame="decor" x="18" y="18" width="220" height="220" rx="48" fill="none" stroke="url(#download-neon)" stroke-width="4"/>
+</symbol>
+<symbol id="sw-icon-folder" viewBox="0 0 256 256">
+  <title>Folder</title>
+  <defs>
+      <linearGradient id="folder-bg" x1="28" y1="24" x2="228" y2="232" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-surface-strong-rgb, 37 17 91))"/>
+        <stop offset=".48" stop-color="rgb(var(--usk-surface-rgb, 19 8 47))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-bg-rgb, 9 5 28))"/>
+      </linearGradient>
+      <linearGradient id="folder-neon" x1="48" y1="36" x2="214" y2="218" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-primary-rgb, 32 244 255))"/>
+        <stop offset=".45" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+      </linearGradient>
+      <linearGradient id="folder-chrome" x1="56" y1="42" x2="204" y2="214" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-surface-strong-rgb, 255 247 255))"/>
+        <stop offset=".18" stop-color="rgb(var(--usk-primary-rgb, 32 244 255))"/>
+        <stop offset=".48" stop-color="rgb(var(--usk-secondary-rgb, 111 44 255))"/>
+        <stop offset=".76" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+      </linearGradient>
+      <linearGradient id="folder-sun" x1="70" y1="52" x2="185" y2="164" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+        <stop offset=".5" stop-color="rgb(var(--usk-warning-rgb, 255 138 61))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+      </linearGradient>
+      <filter id="folder-glow" x="-50%" y="-50%" width="200%" height="200%">
+        <feGaussianBlur stdDeviation="4.5" result="blur"/>
+        <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0.9 0 1 0 0 0.18 0 0 1 0 1 0 0 0 .82 0"/>
+        <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+      </filter>
+      <clipPath id="folder-clip"><rect x="18" y="18" width="220" height="220" rx="48"/></clipPath>
+    </defs>
+    <rect data-icon-frame="decor" x="18" y="18" width="220" height="220" rx="48" fill="url(#folder-bg)"/>
+    <g clip-path="url(#folder-clip)">
+      <g data-icon-frame="decor" class="sw-i-horizon-sun" opacity=".42"><path d="M74 166A54 54 0 0 1 182 166H74Z" fill="url(#folder-sun)" opacity=".46"/><path d="M86 136H170M80 150H176M74 164H182" fill="none" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="3" stroke-linecap="round" opacity=".34"/></g>
+      <path d="M34 176H222M50 194H206M70 212H186" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="3" opacity=".42"/>
+      <path d="M24 232L104 154M232 232L152 154M63 232L116 154M193 232L140 154M100 232L124 154M156 232L132 154" stroke="rgb(var(--usk-secondary-rgb, 255 43 214))" stroke-width="2" opacity=".34"/>
+      <path d="M54 89H110L126 110H202V187H54Z" fill="url(#folder-chrome)" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" filter="url(#folder-glow)"/><path d="M57 116H199" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><path d="M86 150H170" stroke="rgb(var(--usk-surface-rgb, 19 8 47))" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <rect data-icon-frame="decor" x="18" y="18" width="220" height="220" rx="48" fill="none" stroke="url(#folder-neon)" stroke-width="4"/>
+</symbol>
+<symbol id="sw-icon-file" viewBox="0 0 256 256">
+  <title>File</title>
+  <defs>
+      <linearGradient id="file-bg" x1="28" y1="24" x2="228" y2="232" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-surface-strong-rgb, 37 17 91))"/>
+        <stop offset=".48" stop-color="rgb(var(--usk-surface-rgb, 19 8 47))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-bg-rgb, 9 5 28))"/>
+      </linearGradient>
+      <linearGradient id="file-neon" x1="48" y1="36" x2="214" y2="218" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-primary-rgb, 32 244 255))"/>
+        <stop offset=".45" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+      </linearGradient>
+      <linearGradient id="file-chrome" x1="56" y1="42" x2="204" y2="214" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-surface-strong-rgb, 255 247 255))"/>
+        <stop offset=".18" stop-color="rgb(var(--usk-primary-rgb, 32 244 255))"/>
+        <stop offset=".48" stop-color="rgb(var(--usk-secondary-rgb, 111 44 255))"/>
+        <stop offset=".76" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+      </linearGradient>
+      <linearGradient id="file-sun" x1="70" y1="52" x2="185" y2="164" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+        <stop offset=".5" stop-color="rgb(var(--usk-warning-rgb, 255 138 61))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+      </linearGradient>
+      <filter id="file-glow" x="-50%" y="-50%" width="200%" height="200%">
+        <feGaussianBlur stdDeviation="4.5" result="blur"/>
+        <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0.9 0 1 0 0 0.18 0 0 1 0 1 0 0 0 .82 0"/>
+        <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+      </filter>
+      <clipPath id="file-clip"><rect x="18" y="18" width="220" height="220" rx="48"/></clipPath>
+    </defs>
+    <rect data-icon-frame="decor" x="18" y="18" width="220" height="220" rx="48" fill="url(#file-bg)"/>
+    <g clip-path="url(#file-clip)">
+      <g data-icon-frame="decor" class="sw-i-horizon-sun" opacity=".42"><path d="M74 166A54 54 0 0 1 182 166H74Z" fill="url(#file-sun)" opacity=".46"/><path d="M86 136H170M80 150H176M74 164H182" fill="none" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="3" stroke-linecap="round" opacity=".34"/></g>
+      <path d="M34 176H222M50 194H206M70 212H186" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="3" opacity=".42"/>
+      <path d="M24 232L104 154M232 232L152 154M63 232L116 154M193 232L140 154M100 232L124 154M156 232L132 154" stroke="rgb(var(--usk-secondary-rgb, 255 43 214))" stroke-width="2" opacity=".34"/>
+      <path d="M78 58H147L184 95V198H78Z" fill="url(#file-chrome)" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" filter="url(#file-glow)"/><path d="M147 58V96H184" fill="rgb(var(--usk-surface-rgb, 19 8 47))" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><path d="M101 127H155M101 153H160M101 179H137" stroke="rgb(var(--usk-surface-rgb, 19 8 47))" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <rect data-icon-frame="decor" x="18" y="18" width="220" height="220" rx="48" fill="none" stroke="url(#file-neon)" stroke-width="4"/>
+</symbol>
+<symbol id="sw-icon-image" viewBox="0 0 256 256">
+  <title>Image</title>
+  <defs>
+      <linearGradient id="media-image-bg" x1="28" y1="24" x2="228" y2="232" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-surface-strong-rgb, 37 17 91))"/>
+        <stop offset=".48" stop-color="rgb(var(--usk-surface-rgb, 19 8 47))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-bg-rgb, 9 5 28))"/>
+      </linearGradient>
+      <linearGradient id="media-image-neon" x1="48" y1="36" x2="214" y2="218" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-primary-rgb, 32 244 255))"/>
+        <stop offset=".45" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+      </linearGradient>
+      <linearGradient id="media-image-chrome" x1="56" y1="42" x2="204" y2="214" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-surface-strong-rgb, 255 247 255))"/>
+        <stop offset=".18" stop-color="rgb(var(--usk-primary-rgb, 32 244 255))"/>
+        <stop offset=".48" stop-color="rgb(var(--usk-secondary-rgb, 111 44 255))"/>
+        <stop offset=".76" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+      </linearGradient>
+      <linearGradient id="media-image-sun" x1="70" y1="52" x2="185" y2="164" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+        <stop offset=".5" stop-color="rgb(var(--usk-warning-rgb, 255 138 61))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+      </linearGradient>
+      <filter id="media-image-glow" x="-50%" y="-50%" width="200%" height="200%">
+        <feGaussianBlur stdDeviation="4.5" result="blur"/>
+        <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0.9 0 1 0 0 0.18 0 0 1 0 1 0 0 0 .82 0"/>
+        <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+      </filter>
+      <clipPath id="media-image-clip"><rect x="18" y="18" width="220" height="220" rx="48"/></clipPath>
+    </defs>
+    <rect data-icon-frame="decor" x="18" y="18" width="220" height="220" rx="48" fill="url(#media-image-bg)"/>
+    <g clip-path="url(#media-image-clip)">
+      <g data-icon-frame="decor" class="sw-i-horizon-sun" opacity=".42"><path d="M74 166A54 54 0 0 1 182 166H74Z" fill="url(#media-image-sun)" opacity=".46"/><path d="M86 136H170M80 150H176M74 164H182" fill="none" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="3" stroke-linecap="round" opacity=".34"/></g>
+      <path d="M34 176H222M50 194H206M70 212H186" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="3" opacity=".42"/>
+      <path d="M24 232L104 154M232 232L152 154M63 232L116 154M193 232L140 154M100 232L124 154M156 232L132 154" stroke="rgb(var(--usk-secondary-rgb, 255 43 214))" stroke-width="2" opacity=".34"/>
+      <rect x="58" y="74" width="140" height="116" rx="20" fill="url(#media-image-chrome)" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="6" filter="url(#media-image-glow)"/><circle cx="161" cy="105" r="15" fill="rgb(var(--usk-accent-rgb, 255 209 102))"/><path d="M72 176L107 136L132 162L151 142L187 176Z" fill="rgb(var(--usk-surface-rgb, 19 8 47))" stroke="rgb(var(--usk-secondary-rgb, 255 43 214))" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <rect data-icon-frame="decor" x="18" y="18" width="220" height="220" rx="48" fill="none" stroke="url(#media-image-neon)" stroke-width="4"/>
+</symbol>
+<symbol id="sw-icon-video" viewBox="0 0 256 256">
+  <title>Video</title>
+  <defs>
+      <linearGradient id="video-bg" x1="28" y1="24" x2="228" y2="232" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-surface-strong-rgb, 37 17 91))"/>
+        <stop offset=".48" stop-color="rgb(var(--usk-surface-rgb, 19 8 47))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-bg-rgb, 9 5 28))"/>
+      </linearGradient>
+      <linearGradient id="video-neon" x1="48" y1="36" x2="214" y2="218" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-primary-rgb, 32 244 255))"/>
+        <stop offset=".45" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+      </linearGradient>
+      <linearGradient id="video-chrome" x1="56" y1="42" x2="204" y2="214" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-surface-strong-rgb, 255 247 255))"/>
+        <stop offset=".18" stop-color="rgb(var(--usk-primary-rgb, 32 244 255))"/>
+        <stop offset=".48" stop-color="rgb(var(--usk-secondary-rgb, 111 44 255))"/>
+        <stop offset=".76" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+      </linearGradient>
+      <linearGradient id="video-sun" x1="70" y1="52" x2="185" y2="164" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+        <stop offset=".5" stop-color="rgb(var(--usk-warning-rgb, 255 138 61))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+      </linearGradient>
+      <filter id="video-glow" x="-50%" y="-50%" width="200%" height="200%">
+        <feGaussianBlur stdDeviation="4.5" result="blur"/>
+        <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0.9 0 1 0 0 0.18 0 0 1 0 1 0 0 0 .82 0"/>
+        <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+      </filter>
+      <clipPath id="video-clip"><rect x="18" y="18" width="220" height="220" rx="48"/></clipPath>
+    </defs>
+    <rect data-icon-frame="decor" x="18" y="18" width="220" height="220" rx="48" fill="url(#video-bg)"/>
+    <g clip-path="url(#video-clip)">
+      <g data-icon-frame="decor" class="sw-i-horizon-sun" opacity=".42"><path d="M74 166A54 54 0 0 1 182 166H74Z" fill="url(#video-sun)" opacity=".46"/><path d="M86 136H170M80 150H176M74 164H182" fill="none" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="3" stroke-linecap="round" opacity=".34"/></g>
+      <path d="M34 176H222M50 194H206M70 212H186" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="3" opacity=".42"/>
+      <path d="M24 232L104 154M232 232L152 154M63 232L116 154M193 232L140 154M100 232L124 154M156 232L132 154" stroke="rgb(var(--usk-secondary-rgb, 255 43 214))" stroke-width="2" opacity=".34"/>
+      <g data-icon-video="player" filter="url(#video-glow)">
+        <rect data-icon-video="screen" x="48" y="82" width="132" height="92" rx="18" fill="rgb(var(--usk-surface-rgb, 19 8 47))" stroke="url(#video-chrome)" stroke-width="7"/>
+        <path data-icon-video="camera" d="M180 108L214 90V166L180 148Z" fill="rgb(var(--usk-secondary-rgb, 255 43 214))" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+        <path data-icon-video="controls" d="M68 104H96M68 158H126M144 158H160" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="3" stroke-linecap="round" opacity=".72"/>
+        <circle data-icon-video="record" cx="150" cy="104" r="6" fill="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+        <path d="M96 104L146 128L96 152Z" data-icon-glyph="play"/>
+      </g>
+    </g>
+    <rect data-icon-frame="decor" x="18" y="18" width="220" height="220" rx="48" fill="none" stroke="url(#video-neon)" stroke-width="4"/>
+</symbol>
+<symbol id="sw-icon-camera" viewBox="0 0 256 256">
+  <title>Camera</title>
+  <rect data-icon-frame="decor" class="sw-i-surface" x="18" y="18" width="220" height="220" rx="48"/><g data-icon-frame="decor" class="sw-i-horizon-sun" opacity=".44"><path class="sw-i-warning" d="M74 166A54 54 0 0 1 182 166H74Z" opacity=".24"/><path class="sw-i-line-3" d="M86 136H170M80 150H176M74 164H182" opacity=".34"/></g><path class="sw-i-line-3" d="M34 176H222M50 194H206M70 212H186" opacity=".42"/><path class="sw-i-muted" d="M24 232L104 154M232 232L152 154M63 232L116 154M193 232L140 154" opacity=".32"/>
+    <path class="sw-i-primary" d="M58 100H96L108 82H148L160 100H198V184H58Z"/><circle class="sw-i-line-2" cx="128" cy="142" r="31"/><circle class="sw-i-accent" cx="128" cy="142" r="12"/>
+</symbol>
+<symbol id="sw-icon-database" viewBox="0 0 256 256">
+  <title>Database</title>
+  <defs>
+      <linearGradient id="database-bg" x1="28" y1="24" x2="228" y2="232" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-surface-strong-rgb, 37 17 91))"/>
+        <stop offset=".48" stop-color="rgb(var(--usk-surface-rgb, 19 8 47))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-bg-rgb, 9 5 28))"/>
+      </linearGradient>
+      <linearGradient id="database-neon" x1="48" y1="36" x2="214" y2="218" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-primary-rgb, 32 244 255))"/>
+        <stop offset=".45" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+      </linearGradient>
+      <linearGradient id="database-chrome" x1="56" y1="42" x2="204" y2="214" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-surface-strong-rgb, 255 247 255))"/>
+        <stop offset=".18" stop-color="rgb(var(--usk-primary-rgb, 32 244 255))"/>
+        <stop offset=".48" stop-color="rgb(var(--usk-secondary-rgb, 111 44 255))"/>
+        <stop offset=".76" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+      </linearGradient>
+      <linearGradient id="database-sun" x1="70" y1="52" x2="185" y2="164" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+        <stop offset=".5" stop-color="rgb(var(--usk-warning-rgb, 255 138 61))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+      </linearGradient>
+      <filter id="database-glow" x="-50%" y="-50%" width="200%" height="200%">
+        <feGaussianBlur stdDeviation="4.5" result="blur"/>
+        <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0.9 0 1 0 0 0.18 0 0 1 0 1 0 0 0 .82 0"/>
+        <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+      </filter>
+      <clipPath id="database-clip"><rect x="18" y="18" width="220" height="220" rx="48"/></clipPath>
+    </defs>
+    <rect data-icon-frame="decor" x="18" y="18" width="220" height="220" rx="48" fill="url(#database-bg)"/>
+    <g clip-path="url(#database-clip)">
+      <g data-icon-frame="decor" class="sw-i-horizon-sun" opacity=".42"><path d="M74 166A54 54 0 0 1 182 166H74Z" fill="url(#database-sun)" opacity=".46"/><path d="M86 136H170M80 150H176M74 164H182" fill="none" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="3" stroke-linecap="round" opacity=".34"/></g>
+      <path d="M34 176H222M50 194H206M70 212H186" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="3" opacity=".42"/>
+      <path d="M24 232L104 154M232 232L152 154M63 232L116 154M193 232L140 154M100 232L124 154M156 232L132 154" stroke="rgb(var(--usk-secondary-rgb, 255 43 214))" stroke-width="2" opacity=".34"/>
+      <ellipse cx="128" cy="78" rx="58" ry="24" fill="url(#database-chrome)" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="6" filter="url(#database-glow)"/><path d="M70 78V174C70 187 96 198 128 198C160 198 186 187 186 174V78" fill="url(#database-chrome)" opacity=".9" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="6"/><path d="M70 110C70 123 96 134 128 134C160 134 186 123 186 110M70 143C70 156 96 167 128 167C160 167 186 156 186 143" fill="none" stroke="rgb(var(--usk-surface-rgb, 19 8 47))" stroke-width="6"/><ellipse cx="128" cy="78" rx="34" ry="11" fill="rgb(var(--usk-accent-rgb, 255 209 102))" opacity=".7"/>
+    </g>
+    <rect data-icon-frame="decor" x="18" y="18" width="220" height="220" rx="48" fill="none" stroke="url(#database-neon)" stroke-width="4"/>
+</symbol>
+<symbol id="sw-icon-server" viewBox="-8 -8 272 272">
+  <title>Server</title>
+  <defs>
+      <linearGradient id="server-bg" x1="28" y1="24" x2="228" y2="232" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-surface-strong-rgb, 37 17 91))"/>
+        <stop offset=".48" stop-color="rgb(var(--usk-surface-rgb, 19 8 47))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-bg-rgb, 9 5 28))"/>
+      </linearGradient>
+      <linearGradient id="server-neon" x1="48" y1="36" x2="214" y2="218" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-primary-rgb, 32 244 255))"/>
+        <stop offset=".45" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+      </linearGradient>
+      <linearGradient id="server-chrome" x1="56" y1="42" x2="204" y2="214" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-surface-strong-rgb, 255 247 255))"/>
+        <stop offset=".18" stop-color="rgb(var(--usk-primary-rgb, 32 244 255))"/>
+        <stop offset=".48" stop-color="rgb(var(--usk-secondary-rgb, 111 44 255))"/>
+        <stop offset=".76" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+      </linearGradient>
+      <linearGradient id="server-sun" x1="70" y1="52" x2="185" y2="164" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+        <stop offset=".5" stop-color="rgb(var(--usk-warning-rgb, 255 138 61))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+      </linearGradient>
+      <filter id="server-glow" x="-50%" y="-50%" width="200%" height="200%">
+        <feGaussianBlur stdDeviation="4.5" result="blur"/>
+        <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0.9 0 1 0 0 0.18 0 0 1 0 1 0 0 0 .82 0"/>
+        <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+      </filter>
+      <clipPath id="server-clip"><rect x="18" y="18" width="220" height="220" rx="48"/></clipPath>
+    </defs>
+    <rect data-icon-frame="decor" x="18" y="18" width="220" height="220" rx="48" fill="url(#server-bg)"/>
+    <g clip-path="url(#server-clip)">
+      <g data-icon-frame="decor" class="sw-i-horizon-sun" opacity=".42"><path d="M74 166A54 54 0 0 1 182 166H74Z" fill="url(#server-sun)" opacity=".46"/><path d="M86 136H170M80 150H176M74 164H182" fill="none" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="3" stroke-linecap="round" opacity=".34"/></g>
+      <path d="M34 176H222M50 194H206M70 212H186" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="3" opacity=".42"/>
+      <path d="M24 232L104 154M232 232L152 154M63 232L116 154M193 232L140 154M100 232L124 154M156 232L132 154" stroke="rgb(var(--usk-secondary-rgb, 255 43 214))" stroke-width="2" opacity=".34"/>
+      <rect x="62" y="70" width="132" height="48" rx="14" fill="url(#server-chrome)" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="6" filter="url(#server-glow)"/><rect x="62" y="138" width="132" height="48" rx="14" fill="url(#server-sun)" stroke="rgb(var(--usk-secondary-rgb, 255 43 214))" stroke-width="6"/><circle cx="91" cy="94" r="8" fill="rgb(var(--usk-surface-rgb, 19 8 47))"/><circle cx="91" cy="162" r="8" fill="rgb(var(--usk-surface-rgb, 19 8 47))"/><path d="M115 94H171M115 162H171" stroke="rgb(var(--usk-surface-rgb, 19 8 47))" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <rect data-icon-frame="decor" x="18" y="18" width="220" height="220" rx="48" fill="none" stroke="url(#server-neon)" stroke-width="4"/>
+</symbol>
+<symbol id="sw-icon-api" viewBox="0 0 256 256">
+  <title>API</title>
+  <defs>
+      <linearGradient id="api-bg" x1="28" y1="24" x2="228" y2="232" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-surface-strong-rgb, 37 17 91))"/>
+        <stop offset=".48" stop-color="rgb(var(--usk-surface-rgb, 19 8 47))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-bg-rgb, 9 5 28))"/>
+      </linearGradient>
+      <linearGradient id="api-neon" x1="48" y1="36" x2="214" y2="218" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-primary-rgb, 32 244 255))"/>
+        <stop offset=".45" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+      </linearGradient>
+      <linearGradient id="api-chrome" x1="56" y1="42" x2="204" y2="214" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-surface-strong-rgb, 255 247 255))"/>
+        <stop offset=".18" stop-color="rgb(var(--usk-primary-rgb, 32 244 255))"/>
+        <stop offset=".48" stop-color="rgb(var(--usk-secondary-rgb, 111 44 255))"/>
+        <stop offset=".76" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+      </linearGradient>
+      <linearGradient id="api-sun" x1="70" y1="52" x2="185" y2="164" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+        <stop offset=".5" stop-color="rgb(var(--usk-warning-rgb, 255 138 61))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+      </linearGradient>
+      <filter id="api-glow" x="-50%" y="-50%" width="200%" height="200%">
+        <feGaussianBlur stdDeviation="4.5" result="blur"/>
+        <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0.9 0 1 0 0 0.18 0 0 1 0 1 0 0 0 .82 0"/>
+        <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+      </filter>
+      <clipPath id="api-clip"><rect x="18" y="18" width="220" height="220" rx="48"/></clipPath>
+    </defs>
+    <rect data-icon-frame="decor" x="18" y="18" width="220" height="220" rx="48" fill="url(#api-bg)"/>
+    <g clip-path="url(#api-clip)">
+      <g data-icon-frame="decor" class="sw-i-horizon-sun" opacity=".42"><path d="M74 166A54 54 0 0 1 182 166H74Z" fill="url(#api-sun)" opacity=".46"/><path d="M86 136H170M80 150H176M74 164H182" fill="none" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="3" stroke-linecap="round" opacity=".34"/></g>
+      <path d="M34 176H222M50 194H206M70 212H186" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="3" opacity=".42"/>
+      <path d="M24 232L104 154M232 232L152 154M63 232L116 154M193 232L140 154M100 232L124 154M156 232L132 154" stroke="rgb(var(--usk-secondary-rgb, 255 43 214))" stroke-width="2" opacity=".34"/>
+      <path d="M78 96L48 128L78 160M178 96L208 128L178 160" fill="none" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" filter="url(#api-glow)"/><path d="M144 78L112 178" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/><path d="M102 126H154" stroke="rgb(var(--usk-secondary-rgb, 255 43 214))" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <rect data-icon-frame="decor" x="18" y="18" width="220" height="220" rx="48" fill="none" stroke="url(#api-neon)" stroke-width="4"/>
+</symbol>
+<symbol id="sw-icon-lock" viewBox="-8 -8 272 272">
+  <title>Lock</title>
+  <defs>
+      <linearGradient id="lock-bg" x1="28" y1="24" x2="228" y2="232" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-surface-strong-rgb, 37 17 91))"/>
+        <stop offset=".48" stop-color="rgb(var(--usk-surface-rgb, 19 8 47))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-bg-rgb, 9 5 28))"/>
+      </linearGradient>
+      <linearGradient id="lock-neon" x1="48" y1="36" x2="214" y2="218" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-primary-rgb, 32 244 255))"/>
+        <stop offset=".45" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+      </linearGradient>
+      <linearGradient id="lock-chrome" x1="56" y1="42" x2="204" y2="214" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-surface-strong-rgb, 255 247 255))"/>
+        <stop offset=".18" stop-color="rgb(var(--usk-primary-rgb, 32 244 255))"/>
+        <stop offset=".48" stop-color="rgb(var(--usk-secondary-rgb, 111 44 255))"/>
+        <stop offset=".76" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+      </linearGradient>
+      <linearGradient id="lock-sun" x1="70" y1="52" x2="185" y2="164" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+        <stop offset=".5" stop-color="rgb(var(--usk-warning-rgb, 255 138 61))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+      </linearGradient>
+      <filter id="lock-glow" x="-50%" y="-50%" width="200%" height="200%">
+        <feGaussianBlur stdDeviation="4.5" result="blur"/>
+        <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0.9 0 1 0 0 0.18 0 0 1 0 1 0 0 0 .82 0"/>
+        <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+      </filter>
+      <clipPath id="lock-clip"><rect x="18" y="18" width="220" height="220" rx="48"/></clipPath>
+    </defs>
+    <rect data-icon-frame="decor" x="18" y="18" width="220" height="220" rx="48" fill="url(#lock-bg)"/>
+    <g clip-path="url(#lock-clip)">
+      <g data-icon-frame="decor" class="sw-i-horizon-sun" opacity=".42"><path d="M74 166A54 54 0 0 1 182 166H74Z" fill="url(#lock-sun)" opacity=".46"/><path d="M86 136H170M80 150H176M74 164H182" fill="none" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="3" stroke-linecap="round" opacity=".34"/></g>
+      <path d="M34 176H222M50 194H206M70 212H186" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="3" opacity=".42"/>
+      <path d="M24 232L104 154M232 232L152 154M63 232L116 154M193 232L140 154M100 232L124 154M156 232L132 154" stroke="rgb(var(--usk-secondary-rgb, 255 43 214))" stroke-width="2" opacity=".34"/>
+      <rect x="70" y="112" width="116" height="84" rx="20" fill="url(#lock-chrome)" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="6" filter="url(#lock-glow)"/><path d="M91 112V93C91 70 106 55 128 55C150 55 165 70 165 93V112" fill="none" stroke="rgb(var(--usk-secondary-rgb, 255 43 214))" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/><circle cx="128" cy="150" r="11" fill="rgb(var(--usk-surface-rgb, 19 8 47))"/><path d="M128 160V177" stroke="rgb(var(--usk-surface-rgb, 19 8 47))" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <rect data-icon-frame="decor" x="18" y="18" width="220" height="220" rx="48" fill="none" stroke="url(#lock-neon)" stroke-width="4"/>
+</symbol>
+<symbol id="sw-icon-shield" viewBox="0 0 256 256">
+  <title>Shield</title>
+  <rect data-icon-frame="decor" class="sw-i-surface" x="18" y="18" width="220" height="220" rx="48"/><g data-icon-frame="decor" class="sw-i-horizon-sun" opacity=".44"><path class="sw-i-warning" d="M74 166A54 54 0 0 1 182 166H74Z" opacity=".24"/><path class="sw-i-line-3" d="M86 136H170M80 150H176M74 164H182" opacity=".34"/></g><path class="sw-i-line-3" d="M34 176H222M50 194H206M70 212H186" opacity=".42"/><path class="sw-i-muted" d="M24 232L104 154M232 232L152 154M63 232L116 154M193 232L140 154" opacity=".32"/>
+    <path class="sw-i-primary" d="M128 55L190 82V126C190 169 164 198 128 215C92 198 66 169 66 126V82Z"/><path class="sw-i-line-3" d="M97 132L120 155L160 106"/>
+</symbol>
+<symbol id="sw-icon-key" viewBox="0 0 256 256">
+  <title>Key</title>
+  <rect data-icon-frame="decor" class="sw-i-surface" x="18" y="18" width="220" height="220" rx="48"/><g data-icon-frame="decor" class="sw-i-horizon-sun" opacity=".44"><path class="sw-i-warning" d="M74 166A54 54 0 0 1 182 166H74Z" opacity=".24"/><path class="sw-i-line-3" d="M86 136H170M80 150H176M74 164H182" opacity=".34"/></g><path class="sw-i-line-3" d="M34 176H222M50 194H206M70 212H186" opacity=".42"/><path class="sw-i-muted" d="M24 232L104 154M232 232L152 154M63 232L116 154M193 232L140 154" opacity=".32"/>
+    <circle class="sw-i-primary" cx="94" cy="128" r="34"/><path class="sw-i-line" d="M128 128H202M169 128V150M190 128V143"/><circle class="sw-i-bg-strong" cx="94" cy="128" r="10"/>
+</symbol>
+<symbol id="sw-icon-chart" viewBox="0 0 256 256">
+  <title>Chart</title>
+  <defs>
+      <linearGradient id="chart-bg" x1="28" y1="24" x2="228" y2="232" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-surface-strong-rgb, 37 17 91))"/>
+        <stop offset=".48" stop-color="rgb(var(--usk-surface-rgb, 19 8 47))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-bg-rgb, 9 5 28))"/>
+      </linearGradient>
+      <linearGradient id="chart-neon" x1="48" y1="36" x2="214" y2="218" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-primary-rgb, 32 244 255))"/>
+        <stop offset=".45" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+      </linearGradient>
+      <linearGradient id="chart-chrome" x1="56" y1="42" x2="204" y2="214" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-surface-strong-rgb, 255 247 255))"/>
+        <stop offset=".18" stop-color="rgb(var(--usk-primary-rgb, 32 244 255))"/>
+        <stop offset=".48" stop-color="rgb(var(--usk-secondary-rgb, 111 44 255))"/>
+        <stop offset=".76" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+      </linearGradient>
+      <linearGradient id="chart-sun" x1="70" y1="52" x2="185" y2="164" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+        <stop offset=".5" stop-color="rgb(var(--usk-warning-rgb, 255 138 61))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+      </linearGradient>
+      <filter id="chart-glow" x="-50%" y="-50%" width="200%" height="200%">
+        <feGaussianBlur stdDeviation="4.5" result="blur"/>
+        <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0.9 0 1 0 0 0.18 0 0 1 0 1 0 0 0 .82 0"/>
+        <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+      </filter>
+      <clipPath id="chart-clip"><rect x="18" y="18" width="220" height="220" rx="48"/></clipPath>
+    </defs>
+    <rect data-icon-frame="decor" x="18" y="18" width="220" height="220" rx="48" fill="url(#chart-bg)"/>
+    <g clip-path="url(#chart-clip)">
+      <g data-icon-frame="decor" class="sw-i-horizon-sun" opacity=".42"><path d="M74 166A54 54 0 0 1 182 166H74Z" fill="url(#chart-sun)" opacity=".46"/><path d="M86 136H170M80 150H176M74 164H182" fill="none" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="3" stroke-linecap="round" opacity=".34"/></g>
+      <path d="M34 176H222M50 194H206M70 212H186" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="3" opacity=".42"/>
+      <path d="M24 232L104 154M232 232L152 154M63 232L116 154M193 232L140 154M100 232L124 154M156 232L132 154" stroke="rgb(var(--usk-secondary-rgb, 255 43 214))" stroke-width="2" opacity=".34"/>
+      <path d="M66 188H196" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/><rect x="78" y="131" width="24" height="57" rx="8" fill="rgb(var(--usk-primary-rgb, 32 244 255))" filter="url(#chart-glow)"/><rect x="116" y="102" width="24" height="86" rx="8" fill="rgb(var(--usk-secondary-rgb, 255 43 214))"/><rect x="154" y="70" width="24" height="118" rx="8" fill="rgb(var(--usk-accent-rgb, 255 209 102))"/><path d="M72 110L107 126L139 90L183 68" fill="none" stroke="rgb(var(--usk-surface-strong-rgb, 255 247 255))" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <rect data-icon-frame="decor" x="18" y="18" width="220" height="220" rx="48" fill="none" stroke="url(#chart-neon)" stroke-width="4"/>
+</symbol>
+<symbol id="sw-icon-activity" viewBox="0 0 256 256">
+  <title>Activity</title>
+  <rect data-icon-frame="decor" class="sw-i-surface" x="18" y="18" width="220" height="220" rx="48"/><g data-icon-frame="decor" class="sw-i-horizon-sun" opacity=".44"><path class="sw-i-warning" d="M74 166A54 54 0 0 1 182 166H74Z" opacity=".24"/><path class="sw-i-line-3" d="M86 136H170M80 150H176M74 164H182" opacity=".34"/></g><path class="sw-i-line-3" d="M34 176H222M50 194H206M70 212H186" opacity=".42"/><path class="sw-i-muted" d="M24 232L104 154M232 232L152 154M63 232L116 154M193 232L140 154" opacity=".32"/>
+    <path class="sw-i-line" d="M50 137H84L99 94L128 181L148 118H171L184 94L206 137"/><path class="sw-i-line-2" d="M58 170H198"/>
+</symbol>
+<symbol id="sw-icon-credit-card" viewBox="-8 -8 272 272">
+  <title>Credit Card</title>
+  <defs>
+      <linearGradient id="credit-card-bg" x1="28" y1="24" x2="228" y2="232" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-surface-strong-rgb, 37 17 91))"/>
+        <stop offset=".48" stop-color="rgb(var(--usk-surface-rgb, 19 8 47))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-bg-rgb, 9 5 28))"/>
+      </linearGradient>
+      <linearGradient id="credit-card-neon" x1="48" y1="36" x2="214" y2="218" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-primary-rgb, 32 244 255))"/>
+        <stop offset=".45" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+      </linearGradient>
+      <linearGradient id="credit-card-chrome" x1="56" y1="42" x2="204" y2="214" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-surface-strong-rgb, 255 247 255))"/>
+        <stop offset=".18" stop-color="rgb(var(--usk-primary-rgb, 32 244 255))"/>
+        <stop offset=".48" stop-color="rgb(var(--usk-secondary-rgb, 111 44 255))"/>
+        <stop offset=".76" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+      </linearGradient>
+      <linearGradient id="credit-card-sun" x1="70" y1="52" x2="185" y2="164" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+        <stop offset=".5" stop-color="rgb(var(--usk-warning-rgb, 255 138 61))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+      </linearGradient>
+      <filter id="credit-card-glow" x="-50%" y="-50%" width="200%" height="200%">
+        <feGaussianBlur stdDeviation="4.5" result="blur"/>
+        <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0.9 0 1 0 0 0.18 0 0 1 0 1 0 0 0 .82 0"/>
+        <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+      </filter>
+      <clipPath id="credit-card-clip"><rect x="18" y="18" width="220" height="220" rx="48"/></clipPath>
+    </defs>
+    <rect data-icon-frame="decor" x="18" y="18" width="220" height="220" rx="48" fill="url(#credit-card-bg)"/>
+    <g clip-path="url(#credit-card-clip)">
+      <g data-icon-frame="decor" class="sw-i-horizon-sun" opacity=".42"><path d="M74 166A54 54 0 0 1 182 166H74Z" fill="url(#credit-card-sun)" opacity=".46"/><path d="M86 136H170M80 150H176M74 164H182" fill="none" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="3" stroke-linecap="round" opacity=".34"/></g>
+      <path d="M34 176H222M50 194H206M70 212H186" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="3" opacity=".42"/>
+      <path d="M24 232L104 154M232 232L152 154M63 232L116 154M193 232L140 154M100 232L124 154M156 232L132 154" stroke="rgb(var(--usk-secondary-rgb, 255 43 214))" stroke-width="2" opacity=".34"/>
+      <rect x="54" y="84" width="148" height="96" rx="20" fill="url(#credit-card-chrome)" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="6" filter="url(#credit-card-glow)"/><path d="M58 111H198" stroke="rgb(var(--usk-surface-rgb, 19 8 47))" stroke-width="13"/><path d="M80 148H126M80 166H108" stroke="rgb(var(--usk-surface-rgb, 19 8 47))" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><circle cx="166" cy="157" r="13" fill="rgb(var(--usk-accent-rgb, 255 209 102))"/><circle cx="181" cy="157" r="13" fill="rgb(var(--usk-secondary-rgb, 255 43 214))" opacity=".78"/>
+    </g>
+    <rect data-icon-frame="decor" x="18" y="18" width="220" height="220" rx="48" fill="none" stroke="url(#credit-card-neon)" stroke-width="4"/>
+</symbol>
+<symbol id="sw-icon-wallet" viewBox="0 0 256 256">
+  <title>Wallet</title>
+  <rect data-icon-frame="decor" class="sw-i-surface" x="18" y="18" width="220" height="220" rx="48"/><g data-icon-frame="decor" class="sw-i-horizon-sun" opacity=".44"><path class="sw-i-warning" d="M74 166A54 54 0 0 1 182 166H74Z" opacity=".24"/><path class="sw-i-line-3" d="M86 136H170M80 150H176M74 164H182" opacity=".34"/></g><path class="sw-i-line-3" d="M34 176H222M50 194H206M70 212H186" opacity=".42"/><path class="sw-i-muted" d="M24 232L104 154M232 232L152 154M63 232L116 154M193 232L140 154" opacity=".32"/>
+    <path class="sw-i-primary" d="M62 88H176C190 88 198 96 198 110V178C198 190 190 198 176 198H62Z"/><rect class="sw-i-accent" x="142" y="128" width="64" height="40" rx="14"/><circle class="sw-i-bg-strong" cx="174" cy="148" r="8"/>
+</symbol>
+<symbol id="sw-icon-cart" viewBox="0 0 256 256">
+  <title>Cart</title>
+  <defs>
+      <linearGradient id="cart-bg" x1="28" y1="24" x2="228" y2="232" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-surface-strong-rgb, 37 17 91))"/>
+        <stop offset=".48" stop-color="rgb(var(--usk-surface-rgb, 19 8 47))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-bg-rgb, 9 5 28))"/>
+      </linearGradient>
+      <linearGradient id="cart-neon" x1="48" y1="36" x2="214" y2="218" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-primary-rgb, 32 244 255))"/>
+        <stop offset=".45" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+      </linearGradient>
+      <linearGradient id="cart-chrome" x1="56" y1="42" x2="204" y2="214" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-surface-strong-rgb, 255 247 255))"/>
+        <stop offset=".18" stop-color="rgb(var(--usk-primary-rgb, 32 244 255))"/>
+        <stop offset=".48" stop-color="rgb(var(--usk-secondary-rgb, 111 44 255))"/>
+        <stop offset=".76" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+      </linearGradient>
+      <linearGradient id="cart-sun" x1="70" y1="52" x2="185" y2="164" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+        <stop offset=".5" stop-color="rgb(var(--usk-warning-rgb, 255 138 61))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+      </linearGradient>
+      <filter id="cart-glow" x="-50%" y="-50%" width="200%" height="200%">
+        <feGaussianBlur stdDeviation="4.5" result="blur"/>
+        <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0.9 0 1 0 0 0.18 0 0 1 0 1 0 0 0 .82 0"/>
+        <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+      </filter>
+      <clipPath id="cart-clip"><rect x="18" y="18" width="220" height="220" rx="48"/></clipPath>
+    </defs>
+    <rect data-icon-frame="decor" x="18" y="18" width="220" height="220" rx="48" fill="url(#cart-bg)"/>
+    <g clip-path="url(#cart-clip)">
+      <g data-icon-frame="decor" class="sw-i-horizon-sun" opacity=".42"><path d="M74 166A54 54 0 0 1 182 166H74Z" fill="url(#cart-sun)" opacity=".46"/><path d="M86 136H170M80 150H176M74 164H182" fill="none" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="3" stroke-linecap="round" opacity=".34"/></g>
+      <path d="M34 176H222M50 194H206M70 212H186" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="3" opacity=".42"/>
+      <path d="M24 232L104 154M232 232L152 154M63 232L116 154M193 232L140 154M100 232L124 154M156 232L132 154" stroke="rgb(var(--usk-secondary-rgb, 255 43 214))" stroke-width="2" opacity=".34"/>
+      <path d="M58 76H80L97 158H174L194 102H93" fill="none" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="11" stroke-linecap="round" stroke-linejoin="round" filter="url(#cart-glow)"/><circle cx="105" cy="187" r="14" fill="rgb(var(--usk-accent-rgb, 255 209 102))"/><circle cx="165" cy="187" r="14" fill="rgb(var(--usk-secondary-rgb, 255 43 214))"/><path d="M108 127H175" stroke="rgb(var(--usk-surface-rgb, 19 8 47))" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <rect data-icon-frame="decor" x="18" y="18" width="220" height="220" rx="48" fill="none" stroke="url(#cart-neon)" stroke-width="4"/>
+</symbol>
+<symbol id="sw-icon-invoice" viewBox="0 0 256 256">
+  <title>Invoice</title>
+  <rect data-icon-frame="decor" class="sw-i-surface" x="18" y="18" width="220" height="220" rx="48"/><g data-icon-frame="decor" class="sw-i-horizon-sun" opacity=".44"><path class="sw-i-warning" d="M74 166A54 54 0 0 1 182 166H74Z" opacity=".24"/><path class="sw-i-line-3" d="M86 136H170M80 150H176M74 164H182" opacity=".34"/></g><path class="sw-i-line-3" d="M34 176H222M50 194H206M70 212H186" opacity=".42"/><path class="sw-i-muted" d="M24 232L104 154M232 232L152 154M63 232L116 154M193 232L140 154" opacity=".32"/>
+    <path class="sw-i-primary" d="M78 58H178V198L158 188L138 198L118 188L98 198L78 188Z"/><path class="sw-i-muted" d="M100 91H156M100 119H162M100 147H136"/><rect class="sw-i-accent" x="98" y="161" width="68" height="20" rx="8"/>
+</symbol>
+<symbol id="sw-icon-tax" viewBox="0 0 256 256">
+  <title>Tax</title>
+  <rect data-icon-frame="decor" class="sw-i-surface" x="18" y="18" width="220" height="220" rx="48"/><g data-icon-frame="decor" class="sw-i-horizon-sun" opacity=".44"><path class="sw-i-warning" d="M74 166A54 54 0 0 1 182 166H74Z" opacity=".24"/><path class="sw-i-line-3" d="M86 136H170M80 150H176M74 164H182" opacity=".34"/></g><path class="sw-i-line-3" d="M34 176H222M50 194H206M70 212H186" opacity=".42"/><path class="sw-i-muted" d="M24 232L104 154M232 232L152 154M63 232L116 154M193 232L140 154" opacity=".32"/>
+    <rect class="sw-i-primary" x="65" y="75" width="126" height="108" rx="16"/><path class="sw-i-muted" d="M91 106H165M91 136H138M91 164H116"/><path class="sw-i-line-3" d="M148 136L170 158M170 136L148 158"/>
+</symbol>
+<symbol id="sw-icon-login" viewBox="0 0 256 256">
+  <title>Login</title>
+  <defs>
+      <linearGradient id="login-bg" x1="28" y1="24" x2="228" y2="232" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-surface-strong-rgb, 37 17 91))"/>
+        <stop offset=".48" stop-color="rgb(var(--usk-surface-rgb, 19 8 47))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-bg-rgb, 9 5 28))"/>
+      </linearGradient>
+      <linearGradient id="login-neon" x1="48" y1="36" x2="214" y2="218" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-primary-rgb, 32 244 255))"/>
+        <stop offset=".45" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+      </linearGradient>
+      <linearGradient id="login-chrome" x1="56" y1="42" x2="204" y2="214" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-surface-strong-rgb, 255 247 255))"/>
+        <stop offset=".18" stop-color="rgb(var(--usk-primary-rgb, 32 244 255))"/>
+        <stop offset=".48" stop-color="rgb(var(--usk-secondary-rgb, 111 44 255))"/>
+        <stop offset=".76" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+      </linearGradient>
+      <linearGradient id="login-sun" x1="70" y1="52" x2="185" y2="164" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+        <stop offset=".5" stop-color="rgb(var(--usk-warning-rgb, 255 138 61))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+      </linearGradient>
+      <filter id="login-glow" x="-50%" y="-50%" width="200%" height="200%">
+        <feGaussianBlur stdDeviation="4.5" result="blur"/>
+        <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0.9 0 1 0 0 0.18 0 0 1 0 1 0 0 0 .82 0"/>
+        <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+      </filter>
+      <clipPath id="login-clip"><rect x="18" y="18" width="220" height="220" rx="48"/></clipPath>
+    </defs>
+    <rect data-icon-frame="decor" x="18" y="18" width="220" height="220" rx="48" fill="url(#login-bg)"/>
+    <g clip-path="url(#login-clip)">
+      <g data-icon-frame="decor" class="sw-i-horizon-sun" opacity=".42"><path d="M74 166A54 54 0 0 1 182 166H74Z" fill="url(#login-sun)" opacity=".46"/><path d="M86 136H170M80 150H176M74 164H182" fill="none" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="3" stroke-linecap="round" opacity=".34"/></g>
+      <path d="M34 176H222M50 194H206M70 212H186" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="3" opacity=".42"/>
+      <path d="M24 232L104 154M232 232L152 154M63 232L116 154M193 232L140 154M100 232L124 154M156 232L132 154" stroke="rgb(var(--usk-secondary-rgb, 255 43 214))" stroke-width="2" opacity=".34"/>
+      <path d="M60 78H133V106M133 150V178H60" fill="none" stroke="rgb(var(--usk-secondary-rgb, 255 43 214))" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/><path d="M96 128H193M157 94L193 128L157 162" fill="none" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="13" stroke-linecap="round" stroke-linejoin="round" filter="url(#login-glow)"/><circle cx="63" cy="128" r="10" fill="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+    </g>
+    <rect data-icon-frame="decor" x="18" y="18" width="220" height="220" rx="48" fill="none" stroke="url(#login-neon)" stroke-width="4"/>
+</symbol>
+<symbol id="sw-icon-logout" viewBox="0 0 256 256">
+  <title>Logout</title>
+  <defs>
+      <linearGradient id="logout-bg" x1="28" y1="24" x2="228" y2="232" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-surface-strong-rgb, 37 17 91))"/>
+        <stop offset=".48" stop-color="rgb(var(--usk-surface-rgb, 19 8 47))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-bg-rgb, 9 5 28))"/>
+      </linearGradient>
+      <linearGradient id="logout-neon" x1="48" y1="36" x2="214" y2="218" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-primary-rgb, 32 244 255))"/>
+        <stop offset=".45" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+      </linearGradient>
+      <linearGradient id="logout-chrome" x1="56" y1="42" x2="204" y2="214" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-surface-strong-rgb, 255 247 255))"/>
+        <stop offset=".18" stop-color="rgb(var(--usk-primary-rgb, 32 244 255))"/>
+        <stop offset=".48" stop-color="rgb(var(--usk-secondary-rgb, 111 44 255))"/>
+        <stop offset=".76" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+      </linearGradient>
+      <linearGradient id="logout-sun" x1="70" y1="52" x2="185" y2="164" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+        <stop offset=".5" stop-color="rgb(var(--usk-warning-rgb, 255 138 61))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+      </linearGradient>
+      <filter id="logout-glow" x="-50%" y="-50%" width="200%" height="200%">
+        <feGaussianBlur stdDeviation="4.5" result="blur"/>
+        <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0.9 0 1 0 0 0.18 0 0 1 0 1 0 0 0 .82 0"/>
+        <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+      </filter>
+      <clipPath id="logout-clip"><rect x="18" y="18" width="220" height="220" rx="48"/></clipPath>
+    </defs>
+    <rect data-icon-frame="decor" x="18" y="18" width="220" height="220" rx="48" fill="url(#logout-bg)"/>
+    <g clip-path="url(#logout-clip)">
+      <g data-icon-frame="decor" class="sw-i-horizon-sun" opacity=".42"><path d="M74 166A54 54 0 0 1 182 166H74Z" fill="url(#logout-sun)" opacity=".46"/><path d="M86 136H170M80 150H176M74 164H182" fill="none" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="3" stroke-linecap="round" opacity=".34"/></g>
+      <path d="M34 176H222M50 194H206M70 212H186" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="3" opacity=".42"/>
+      <path d="M24 232L104 154M232 232L152 154M63 232L116 154M193 232L140 154M100 232L124 154M156 232L132 154" stroke="rgb(var(--usk-secondary-rgb, 255 43 214))" stroke-width="2" opacity=".34"/>
+      <path d="M196 78H123V106M123 150V178H196" fill="none" stroke="rgb(var(--usk-secondary-rgb, 255 43 214))" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/><path d="M160 128H63M99 94L63 128L99 162" fill="none" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="13" stroke-linecap="round" stroke-linejoin="round" filter="url(#logout-glow)"/><circle cx="193" cy="128" r="10" fill="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+    </g>
+    <rect data-icon-frame="decor" x="18" y="18" width="220" height="220" rx="48" fill="none" stroke="url(#logout-neon)" stroke-width="4"/>
+</symbol>
+<symbol id="sw-icon-edit" viewBox="0 0 256 256">
+  <title>Edit</title>
+  <defs>
+      <linearGradient id="edit-bg" x1="28" y1="24" x2="228" y2="232" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-surface-strong-rgb, 37 17 91))"/>
+        <stop offset=".48" stop-color="rgb(var(--usk-surface-rgb, 19 8 47))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-bg-rgb, 9 5 28))"/>
+      </linearGradient>
+      <linearGradient id="edit-neon" x1="48" y1="36" x2="214" y2="218" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-primary-rgb, 32 244 255))"/>
+        <stop offset=".45" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+      </linearGradient>
+      <linearGradient id="edit-chrome" x1="56" y1="42" x2="204" y2="214" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-surface-strong-rgb, 255 247 255))"/>
+        <stop offset=".18" stop-color="rgb(var(--usk-primary-rgb, 32 244 255))"/>
+        <stop offset=".48" stop-color="rgb(var(--usk-secondary-rgb, 111 44 255))"/>
+        <stop offset=".76" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+      </linearGradient>
+      <linearGradient id="edit-sun" x1="70" y1="52" x2="185" y2="164" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+        <stop offset=".5" stop-color="rgb(var(--usk-warning-rgb, 255 138 61))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+      </linearGradient>
+      <filter id="edit-glow" x="-50%" y="-50%" width="200%" height="200%">
+        <feGaussianBlur stdDeviation="4.5" result="blur"/>
+        <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0.9 0 1 0 0 0.18 0 0 1 0 1 0 0 0 .82 0"/>
+        <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+      </filter>
+      <clipPath id="edit-clip"><rect x="18" y="18" width="220" height="220" rx="48"/></clipPath>
+    </defs>
+    <rect data-icon-frame="decor" x="18" y="18" width="220" height="220" rx="48" fill="url(#edit-bg)"/>
+    <g clip-path="url(#edit-clip)">
+      <g data-icon-frame="decor" class="sw-i-horizon-sun" opacity=".42"><path d="M74 166A54 54 0 0 1 182 166H74Z" fill="url(#edit-sun)" opacity=".46"/><path d="M86 136H170M80 150H176M74 164H182" fill="none" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="3" stroke-linecap="round" opacity=".34"/></g>
+      <path d="M34 176H222M50 194H206M70 212H186" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="3" opacity=".42"/>
+      <path d="M24 232L104 154M232 232L152 154M63 232L116 154M193 232L140 154M100 232L124 154M156 232L132 154" stroke="rgb(var(--usk-secondary-rgb, 255 43 214))" stroke-width="2" opacity=".34"/>
+      <path d="M72 171L67 195L91 190L176 105L157 86Z" fill="url(#edit-chrome)" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" filter="url(#edit-glow)"/><path d="M145 98L164 117M82 181L75 188" stroke="rgb(var(--usk-surface-rgb, 19 8 47))" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><path d="M161 82L176 67L195 86L180 101Z" fill="rgb(var(--usk-accent-rgb, 255 209 102))" stroke="rgb(var(--usk-secondary-rgb, 255 43 214))" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <rect data-icon-frame="decor" x="18" y="18" width="220" height="220" rx="48" fill="none" stroke="url(#edit-neon)" stroke-width="4"/>
+</symbol>
+<symbol id="sw-icon-trash" viewBox="0 0 256 256">
+  <title>Trash</title>
+  <defs>
+      <linearGradient id="trash-bg" x1="28" y1="24" x2="228" y2="232" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-surface-strong-rgb, 37 17 91))"/>
+        <stop offset=".48" stop-color="rgb(var(--usk-surface-rgb, 19 8 47))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-bg-rgb, 9 5 28))"/>
+      </linearGradient>
+      <linearGradient id="trash-neon" x1="48" y1="36" x2="214" y2="218" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-primary-rgb, 32 244 255))"/>
+        <stop offset=".45" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+      </linearGradient>
+      <linearGradient id="trash-chrome" x1="56" y1="42" x2="204" y2="214" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-surface-strong-rgb, 255 247 255))"/>
+        <stop offset=".18" stop-color="rgb(var(--usk-primary-rgb, 32 244 255))"/>
+        <stop offset=".48" stop-color="rgb(var(--usk-secondary-rgb, 111 44 255))"/>
+        <stop offset=".76" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+      </linearGradient>
+      <linearGradient id="trash-sun" x1="70" y1="52" x2="185" y2="164" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+        <stop offset=".5" stop-color="rgb(var(--usk-warning-rgb, 255 138 61))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+      </linearGradient>
+      <filter id="trash-glow" x="-50%" y="-50%" width="200%" height="200%">
+        <feGaussianBlur stdDeviation="4.5" result="blur"/>
+        <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0.9 0 1 0 0 0.18 0 0 1 0 1 0 0 0 .82 0"/>
+        <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+      </filter>
+      <clipPath id="trash-clip"><rect x="18" y="18" width="220" height="220" rx="48"/></clipPath>
+    </defs>
+    <rect data-icon-frame="decor" x="18" y="18" width="220" height="220" rx="48" fill="url(#trash-bg)"/>
+    <g clip-path="url(#trash-clip)">
+      <g data-icon-frame="decor" class="sw-i-horizon-sun" opacity=".42"><path d="M74 166A54 54 0 0 1 182 166H74Z" fill="url(#trash-sun)" opacity=".46"/><path d="M86 136H170M80 150H176M74 164H182" fill="none" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="3" stroke-linecap="round" opacity=".34"/></g>
+      <path d="M34 176H222M50 194H206M70 212H186" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="3" opacity=".42"/>
+      <path d="M24 232L104 154M232 232L152 154M63 232L116 154M193 232L140 154M100 232L124 154M156 232L132 154" stroke="rgb(var(--usk-secondary-rgb, 255 43 214))" stroke-width="2" opacity=".34"/>
+      <path d="M83 95H173M108 95V73H148V95M94 111L101 194H155L162 111" fill="none" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" filter="url(#trash-glow)"/><path d="M116 130V173M140 130V173" stroke="rgb(var(--usk-secondary-rgb, 255 43 214))" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/><path d="M103 194H153" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <rect data-icon-frame="decor" x="18" y="18" width="220" height="220" rx="48" fill="none" stroke="url(#trash-neon)" stroke-width="4"/>
+</symbol>
+<symbol id="sw-icon-plus" viewBox="0 0 256 256">
+  <title>Plus</title>
+  <defs>
+      <linearGradient id="plus-bg" x1="28" y1="24" x2="228" y2="232" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-surface-strong-rgb, 37 17 91))"/>
+        <stop offset=".48" stop-color="rgb(var(--usk-surface-rgb, 19 8 47))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-bg-rgb, 9 5 28))"/>
+      </linearGradient>
+      <linearGradient id="plus-neon" x1="48" y1="36" x2="214" y2="218" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-primary-rgb, 32 244 255))"/>
+        <stop offset=".45" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+      </linearGradient>
+      <linearGradient id="plus-chrome" x1="56" y1="42" x2="204" y2="214" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-surface-strong-rgb, 255 247 255))"/>
+        <stop offset=".18" stop-color="rgb(var(--usk-primary-rgb, 32 244 255))"/>
+        <stop offset=".48" stop-color="rgb(var(--usk-secondary-rgb, 111 44 255))"/>
+        <stop offset=".76" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+      </linearGradient>
+      <linearGradient id="plus-sun" x1="70" y1="52" x2="185" y2="164" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+        <stop offset=".5" stop-color="rgb(var(--usk-warning-rgb, 255 138 61))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+      </linearGradient>
+      <filter id="plus-glow" x="-50%" y="-50%" width="200%" height="200%">
+        <feGaussianBlur stdDeviation="4.5" result="blur"/>
+        <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0.9 0 1 0 0 0.18 0 0 1 0 1 0 0 0 .82 0"/>
+        <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+      </filter>
+      <clipPath id="plus-clip"><rect x="18" y="18" width="220" height="220" rx="48"/></clipPath>
+    </defs>
+    <rect data-icon-frame="decor" x="18" y="18" width="220" height="220" rx="48" fill="url(#plus-bg)"/>
+    <g clip-path="url(#plus-clip)">
+      <g data-icon-frame="decor" class="sw-i-horizon-sun" opacity=".42"><path d="M74 166A54 54 0 0 1 182 166H74Z" fill="url(#plus-sun)" opacity=".46"/><path d="M86 136H170M80 150H176M74 164H182" fill="none" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="3" stroke-linecap="round" opacity=".34"/></g>
+      <path d="M34 176H222M50 194H206M70 212H186" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="3" opacity=".42"/>
+      <path d="M24 232L104 154M232 232L152 154M63 232L116 154M193 232L140 154M100 232L124 154M156 232L132 154" stroke="rgb(var(--usk-secondary-rgb, 255 43 214))" stroke-width="2" opacity=".34"/>
+      <circle cx="128" cy="128" r="67" fill="url(#plus-chrome)" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="6" filter="url(#plus-glow)"/><path d="M128 88V168M88 128H168" stroke="rgb(var(--usk-surface-rgb, 19 8 47))" stroke-width="17" stroke-linecap="round" stroke-linejoin="round"/><path d="M128 92V164M92 128H164" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <rect data-icon-frame="decor" x="18" y="18" width="220" height="220" rx="48" fill="none" stroke="url(#plus-neon)" stroke-width="4"/>
+</symbol>
+<symbol id="sw-icon-minus" viewBox="0 0 256 256">
+  <title>Minus</title>
+  <defs>
+      <linearGradient id="minus-bg" x1="28" y1="24" x2="228" y2="232" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-surface-strong-rgb, 37 17 91))"/>
+        <stop offset=".48" stop-color="rgb(var(--usk-surface-rgb, 19 8 47))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-bg-rgb, 9 5 28))"/>
+      </linearGradient>
+      <linearGradient id="minus-neon" x1="48" y1="36" x2="214" y2="218" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-primary-rgb, 32 244 255))"/>
+        <stop offset=".45" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+      </linearGradient>
+      <linearGradient id="minus-chrome" x1="56" y1="42" x2="204" y2="214" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-surface-strong-rgb, 255 247 255))"/>
+        <stop offset=".18" stop-color="rgb(var(--usk-primary-rgb, 32 244 255))"/>
+        <stop offset=".48" stop-color="rgb(var(--usk-secondary-rgb, 111 44 255))"/>
+        <stop offset=".76" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+      </linearGradient>
+      <linearGradient id="minus-sun" x1="70" y1="52" x2="185" y2="164" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+        <stop offset=".5" stop-color="rgb(var(--usk-warning-rgb, 255 138 61))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+      </linearGradient>
+      <filter id="minus-glow" x="-50%" y="-50%" width="200%" height="200%">
+        <feGaussianBlur stdDeviation="4.5" result="blur"/>
+        <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0.9 0 1 0 0 0.18 0 0 1 0 1 0 0 0 .82 0"/>
+        <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+      </filter>
+      <clipPath id="minus-clip"><rect x="18" y="18" width="220" height="220" rx="48"/></clipPath>
+    </defs>
+    <rect data-icon-frame="decor" x="18" y="18" width="220" height="220" rx="48" fill="url(#minus-bg)"/>
+    <g clip-path="url(#minus-clip)">
+      <g data-icon-frame="decor" class="sw-i-horizon-sun" opacity=".42"><path d="M74 166A54 54 0 0 1 182 166H74Z" fill="url(#minus-sun)" opacity=".46"/><path d="M86 136H170M80 150H176M74 164H182" fill="none" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="3" stroke-linecap="round" opacity=".34"/></g>
+      <path d="M34 176H222M50 194H206M70 212H186" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="3" opacity=".42"/>
+      <path d="M24 232L104 154M232 232L152 154M63 232L116 154M193 232L140 154M100 232L124 154M156 232L132 154" stroke="rgb(var(--usk-secondary-rgb, 255 43 214))" stroke-width="2" opacity=".34"/>
+      <circle cx="128" cy="128" r="67" fill="url(#minus-chrome)" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="6" filter="url(#minus-glow)"/><path d="M88 128H168" stroke="rgb(var(--usk-surface-rgb, 19 8 47))" stroke-width="17" stroke-linecap="round" stroke-linejoin="round"/><path d="M92 128H164" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <rect data-icon-frame="decor" x="18" y="18" width="220" height="220" rx="48" fill="none" stroke="url(#minus-neon)" stroke-width="4"/>
+</symbol>
+<symbol id="sw-icon-filter" viewBox="0 0 256 256">
+  <title>Filter</title>
+  <defs>
+      <linearGradient id="filter-bg" x1="28" y1="24" x2="228" y2="232" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-surface-strong-rgb, 37 17 91))"/>
+        <stop offset=".48" stop-color="rgb(var(--usk-surface-rgb, 19 8 47))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-bg-rgb, 9 5 28))"/>
+      </linearGradient>
+      <linearGradient id="filter-neon" x1="48" y1="36" x2="214" y2="218" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-primary-rgb, 32 244 255))"/>
+        <stop offset=".45" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+      </linearGradient>
+      <linearGradient id="filter-chrome" x1="56" y1="42" x2="204" y2="214" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-surface-strong-rgb, 255 247 255))"/>
+        <stop offset=".18" stop-color="rgb(var(--usk-primary-rgb, 32 244 255))"/>
+        <stop offset=".48" stop-color="rgb(var(--usk-secondary-rgb, 111 44 255))"/>
+        <stop offset=".76" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+      </linearGradient>
+      <linearGradient id="filter-sun" x1="70" y1="52" x2="185" y2="164" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+        <stop offset=".5" stop-color="rgb(var(--usk-warning-rgb, 255 138 61))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+      </linearGradient>
+      <filter id="filter-glow" x="-50%" y="-50%" width="200%" height="200%">
+        <feGaussianBlur stdDeviation="4.5" result="blur"/>
+        <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0.9 0 1 0 0 0.18 0 0 1 0 1 0 0 0 .82 0"/>
+        <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+      </filter>
+      <clipPath id="filter-clip"><rect x="18" y="18" width="220" height="220" rx="48"/></clipPath>
+    </defs>
+    <rect data-icon-frame="decor" x="18" y="18" width="220" height="220" rx="48" fill="url(#filter-bg)"/>
+    <g clip-path="url(#filter-clip)">
+      <g data-icon-frame="decor" class="sw-i-horizon-sun" opacity=".42"><path d="M74 166A54 54 0 0 1 182 166H74Z" fill="url(#filter-sun)" opacity=".46"/><path d="M86 136H170M80 150H176M74 164H182" fill="none" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="3" stroke-linecap="round" opacity=".34"/></g>
+      <path d="M34 176H222M50 194H206M70 212H186" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="3" opacity=".42"/>
+      <path d="M24 232L104 154M232 232L152 154M63 232L116 154M193 232L140 154M100 232L124 154M156 232L132 154" stroke="rgb(var(--usk-secondary-rgb, 255 43 214))" stroke-width="2" opacity=".34"/>
+      <path d="M60 74H196L145 134V187L111 202V134Z" fill="url(#filter-chrome)" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" filter="url(#filter-glow)"/><path d="M84 96H172M103 124H153" stroke="rgb(var(--usk-surface-rgb, 19 8 47))" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/><path d="M111 202L145 187" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <rect data-icon-frame="decor" x="18" y="18" width="220" height="220" rx="48" fill="none" stroke="url(#filter-neon)" stroke-width="4"/>
+</symbol>
+<symbol id="sw-icon-menu" viewBox="0 0 256 256">
+  <title>Menu</title>
+  <defs>
+      <linearGradient id="menu-bg" x1="28" y1="24" x2="228" y2="232" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-surface-strong-rgb, 37 17 91))"/>
+        <stop offset=".48" stop-color="rgb(var(--usk-surface-rgb, 19 8 47))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-bg-rgb, 9 5 28))"/>
+      </linearGradient>
+      <linearGradient id="menu-neon" x1="48" y1="36" x2="214" y2="218" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-primary-rgb, 32 244 255))"/>
+        <stop offset=".45" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+      </linearGradient>
+      <linearGradient id="menu-chrome" x1="56" y1="42" x2="204" y2="214" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-surface-strong-rgb, 255 247 255))"/>
+        <stop offset=".18" stop-color="rgb(var(--usk-primary-rgb, 32 244 255))"/>
+        <stop offset=".48" stop-color="rgb(var(--usk-secondary-rgb, 111 44 255))"/>
+        <stop offset=".76" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+      </linearGradient>
+      <linearGradient id="menu-sun" x1="70" y1="52" x2="185" y2="164" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+        <stop offset=".5" stop-color="rgb(var(--usk-warning-rgb, 255 138 61))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+      </linearGradient>
+      <filter id="menu-glow" x="-50%" y="-50%" width="200%" height="200%">
+        <feGaussianBlur stdDeviation="4.5" result="blur"/>
+        <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0.9 0 1 0 0 0.18 0 0 1 0 1 0 0 0 .82 0"/>
+        <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+      </filter>
+      <clipPath id="menu-clip"><rect x="18" y="18" width="220" height="220" rx="48"/></clipPath>
+    </defs>
+    <rect data-icon-frame="decor" x="18" y="18" width="220" height="220" rx="48" fill="url(#menu-bg)"/>
+    <g clip-path="url(#menu-clip)">
+      <g data-icon-frame="decor" class="sw-i-horizon-sun" opacity=".42"><path d="M74 166A54 54 0 0 1 182 166H74Z" fill="url(#menu-sun)" opacity=".46"/><path d="M86 136H170M80 150H176M74 164H182" fill="none" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="3" stroke-linecap="round" opacity=".34"/></g>
+      <path d="M34 176H222M50 194H206M70 212H186" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="3" opacity=".42"/>
+      <path d="M24 232L104 154M232 232L152 154M63 232L116 154M193 232L140 154M100 232L124 154M156 232L132 154" stroke="rgb(var(--usk-secondary-rgb, 255 43 214))" stroke-width="2" opacity=".34"/>
+      <path d="M70 87H186M70 128H186M70 169H186" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" filter="url(#menu-glow)"/><circle cx="82" cy="87" r="7" fill="rgb(var(--usk-accent-rgb, 255 209 102))"/><circle cx="174" cy="128" r="7" fill="rgb(var(--usk-secondary-rgb, 255 43 214))"/><circle cx="82" cy="169" r="7" fill="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+    </g>
+    <rect data-icon-frame="decor" x="18" y="18" width="220" height="220" rx="48" fill="none" stroke="url(#menu-neon)" stroke-width="4"/>
+</symbol>
+<symbol id="sw-icon-code" viewBox="0 0 256 256">
+  <title>Code</title>
+  <defs>
+      <linearGradient id="code-bg" x1="28" y1="24" x2="228" y2="232" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-surface-strong-rgb, 37 17 91))"/>
+        <stop offset=".48" stop-color="rgb(var(--usk-surface-rgb, 19 8 47))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-bg-rgb, 9 5 28))"/>
+      </linearGradient>
+      <linearGradient id="code-neon" x1="48" y1="36" x2="214" y2="218" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-primary-rgb, 32 244 255))"/>
+        <stop offset=".45" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+      </linearGradient>
+      <linearGradient id="code-chrome" x1="56" y1="42" x2="204" y2="214" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-surface-strong-rgb, 255 247 255))"/>
+        <stop offset=".18" stop-color="rgb(var(--usk-primary-rgb, 32 244 255))"/>
+        <stop offset=".48" stop-color="rgb(var(--usk-secondary-rgb, 111 44 255))"/>
+        <stop offset=".76" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+      </linearGradient>
+      <linearGradient id="code-sun" x1="70" y1="52" x2="185" y2="164" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+        <stop offset=".5" stop-color="rgb(var(--usk-warning-rgb, 255 138 61))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+      </linearGradient>
+      <filter id="code-glow" x="-50%" y="-50%" width="200%" height="200%">
+        <feGaussianBlur stdDeviation="4.5" result="blur"/>
+        <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0.9 0 1 0 0 0.18 0 0 1 0 1 0 0 0 .82 0"/>
+        <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+      </filter>
+      <clipPath id="code-clip"><rect x="18" y="18" width="220" height="220" rx="48"/></clipPath>
+    </defs>
+    <rect data-icon-frame="decor" x="18" y="18" width="220" height="220" rx="48" fill="url(#code-bg)"/>
+    <g clip-path="url(#code-clip)">
+      <g data-icon-frame="decor" class="sw-i-horizon-sun" opacity=".42"><path d="M74 166A54 54 0 0 1 182 166H74Z" fill="url(#code-sun)" opacity=".46"/><path d="M86 136H170M80 150H176M74 164H182" fill="none" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="3" stroke-linecap="round" opacity=".34"/></g>
+      <path d="M34 176H222M50 194H206M70 212H186" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="3" opacity=".42"/>
+      <path d="M24 232L104 154M232 232L152 154M63 232L116 154M193 232L140 154M100 232L124 154M156 232L132 154" stroke="rgb(var(--usk-secondary-rgb, 255 43 214))" stroke-width="2" opacity=".34"/>
+      <path d="M82 93L48 128L82 163M174 93L208 128L174 163" fill="none" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" filter="url(#code-glow)"/><path d="M144 73L112 183" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/><path d="M95 192H161" stroke="rgb(var(--usk-secondary-rgb, 255 43 214))" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <rect data-icon-frame="decor" x="18" y="18" width="220" height="220" rx="48" fill="none" stroke="url(#code-neon)" stroke-width="4"/>
+</symbol>
+<symbol id="sw-icon-terminal" viewBox="0 0 256 256">
+  <title>Terminal</title>
+  <rect data-icon-frame="decor" class="sw-i-surface" x="18" y="18" width="220" height="220" rx="48"/><g data-icon-frame="decor" class="sw-i-horizon-sun" opacity=".44"><path class="sw-i-warning" d="M74 166A54 54 0 0 1 182 166H74Z" opacity=".24"/><path class="sw-i-line-3" d="M86 136H170M80 150H176M74 164H182" opacity=".34"/></g><path class="sw-i-line-3" d="M34 176H222M50 194H206M70 212H186" opacity=".42"/><path class="sw-i-muted" d="M24 232L104 154M232 232L152 154M63 232L116 154M193 232L140 154" opacity=".32"/>
+    <rect class="sw-i-primary" x="55" y="72" width="146" height="116" rx="18"/><path class="sw-i-line-2" d="M55 100H201"/><path class="sw-i-line-3" d="M82 126L103 143L82 160M117 160H164"/>
+</symbol>
+<symbol id="sw-icon-rocket" viewBox="0 0 256 256">
+  <title>Rocket</title>
+  <defs>
+      <linearGradient id="rocket-bg" x1="28" y1="24" x2="228" y2="232" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-surface-strong-rgb, 37 17 91))"/>
+        <stop offset=".48" stop-color="rgb(var(--usk-surface-rgb, 19 8 47))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-bg-rgb, 9 5 28))"/>
+      </linearGradient>
+      <linearGradient id="rocket-neon" x1="48" y1="36" x2="214" y2="218" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-primary-rgb, 32 244 255))"/>
+        <stop offset=".45" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+      </linearGradient>
+      <linearGradient id="rocket-chrome" x1="56" y1="42" x2="204" y2="214" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-surface-strong-rgb, 255 247 255))"/>
+        <stop offset=".18" stop-color="rgb(var(--usk-primary-rgb, 32 244 255))"/>
+        <stop offset=".48" stop-color="rgb(var(--usk-secondary-rgb, 111 44 255))"/>
+        <stop offset=".76" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+      </linearGradient>
+      <linearGradient id="rocket-sun" x1="70" y1="52" x2="185" y2="164" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+        <stop offset=".5" stop-color="rgb(var(--usk-warning-rgb, 255 138 61))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+      </linearGradient>
+      <filter id="rocket-glow" x="-50%" y="-50%" width="200%" height="200%">
+        <feGaussianBlur stdDeviation="4.5" result="blur"/>
+        <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0.9 0 1 0 0 0.18 0 0 1 0 1 0 0 0 .82 0"/>
+        <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+      </filter>
+      <clipPath id="rocket-clip"><rect x="18" y="18" width="220" height="220" rx="48"/></clipPath>
+    </defs>
+    <rect data-icon-frame="decor" x="18" y="18" width="220" height="220" rx="48" fill="url(#rocket-bg)"/>
+    <g clip-path="url(#rocket-clip)">
+      <g data-icon-frame="decor" class="sw-i-horizon-sun" opacity=".42"><path d="M74 166A54 54 0 0 1 182 166H74Z" fill="url(#rocket-sun)" opacity=".46"/><path d="M86 136H170M80 150H176M74 164H182" fill="none" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="3" stroke-linecap="round" opacity=".34"/></g>
+      <path d="M34 176H222M50 194H206M70 212H186" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="3" opacity=".42"/>
+      <path d="M24 232L104 154M232 232L152 154M63 232L116 154M193 232L140 154M100 232L124 154M156 232L132 154" stroke="rgb(var(--usk-secondary-rgb, 255 43 214))" stroke-width="2" opacity=".34"/>
+      <path d="M135 55C169 65 189 87 199 121L161 158L99 96Z" fill="url(#rocket-chrome)" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" filter="url(#rocket-glow)"/><circle cx="160" cy="94" r="15" fill="rgb(var(--usk-surface-rgb, 19 8 47))" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="5"/><path d="M96 99L70 109L91 130M158 160L147 186L126 165" fill="rgb(var(--usk-secondary-rgb, 255 43 214))" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><path d="M96 160L67 189M113 176L97 207" stroke="rgb(var(--usk-warning-rgb, 255 138 61))" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <rect data-icon-frame="decor" x="18" y="18" width="220" height="220" rx="48" fill="none" stroke="url(#rocket-neon)" stroke-width="4"/>
+</symbol>
+<symbol id="sw-icon-bug" viewBox="-8 -8 272 272">
+  <title>Bug</title>
+  <defs>
+      <linearGradient id="bug-bg" x1="28" y1="24" x2="228" y2="232" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-surface-strong-rgb, 37 17 91))"/>
+        <stop offset=".48" stop-color="rgb(var(--usk-surface-rgb, 19 8 47))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-bg-rgb, 9 5 28))"/>
+      </linearGradient>
+      <linearGradient id="bug-neon" x1="48" y1="36" x2="214" y2="218" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-primary-rgb, 32 244 255))"/>
+        <stop offset=".45" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+      </linearGradient>
+      <linearGradient id="bug-chrome" x1="56" y1="42" x2="204" y2="214" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-surface-strong-rgb, 255 247 255))"/>
+        <stop offset=".18" stop-color="rgb(var(--usk-primary-rgb, 32 244 255))"/>
+        <stop offset=".48" stop-color="rgb(var(--usk-secondary-rgb, 111 44 255))"/>
+        <stop offset=".76" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+      </linearGradient>
+      <linearGradient id="bug-sun" x1="70" y1="52" x2="185" y2="164" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+        <stop offset=".5" stop-color="rgb(var(--usk-warning-rgb, 255 138 61))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+      </linearGradient>
+      <filter id="bug-glow" x="-50%" y="-50%" width="200%" height="200%">
+        <feGaussianBlur stdDeviation="4.5" result="blur"/>
+        <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0.9 0 1 0 0 0.18 0 0 1 0 1 0 0 0 .82 0"/>
+        <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+      </filter>
+      <clipPath id="bug-clip"><rect x="10" y="10" width="236" height="236" rx="48"/></clipPath>
+    </defs>
+    <rect data-icon-frame="decor" x="10" y="10" width="236" height="236" rx="48" fill="url(#bug-bg)"/>
+    <g clip-path="url(#bug-clip)">
+      <g data-icon-frame="decor" class="sw-i-horizon-sun" opacity=".42"><path d="M74 166A54 54 0 0 1 182 166H74Z" fill="url(#bug-sun)" opacity=".46"/><path d="M86 136H170M80 150H176M74 164H182" fill="none" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="3" stroke-linecap="round" opacity=".34"/></g>
+      <path d="M34 176H222M50 194H206M70 212H186" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="3" opacity=".42"/>
+      <path d="M24 232L104 154M232 232L152 154M63 232L116 154M193 232L140 154M100 232L124 154M156 232L132 154" stroke="rgb(var(--usk-secondary-rgb, 255 43 214))" stroke-width="2" opacity=".34"/>
+      <ellipse cx="128" cy="137" rx="46" ry="56" fill="url(#bug-chrome)" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="6" filter="url(#bug-glow)"/><circle cx="128" cy="80" r="25" fill="rgb(var(--usk-secondary-rgb, 255 43 214))" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="5"/><path d="M128 106V190M82 118L58 96M174 118L198 96M78 147H50M178 147H206M88 177L61 194M168 177L195 194" stroke="rgb(var(--usk-surface-rgb, 19 8 47))" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><circle cx="119" cy="79" r="5" fill="rgb(var(--usk-surface-strong-rgb, 255 247 255))"/><circle cx="137" cy="79" r="5" fill="rgb(var(--usk-surface-strong-rgb, 255 247 255))"/>
+    </g>
+    <rect data-icon-frame="decor" x="10" y="10" width="236" height="236" rx="48" fill="none" stroke="url(#bug-neon)" stroke-width="4"/>
+</symbol>
+<symbol id="sw-icon-help" viewBox="0 0 256 256">
+  <title>Help</title>
+  <defs>
+      <linearGradient id="help-bg" x1="28" y1="24" x2="228" y2="232" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-surface-strong-rgb, 37 17 91))"/>
+        <stop offset=".48" stop-color="rgb(var(--usk-surface-rgb, 19 8 47))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-bg-rgb, 9 5 28))"/>
+      </linearGradient>
+      <linearGradient id="help-neon" x1="48" y1="36" x2="214" y2="218" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-primary-rgb, 32 244 255))"/>
+        <stop offset=".45" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+      </linearGradient>
+      <linearGradient id="help-chrome" x1="56" y1="42" x2="204" y2="214" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-surface-strong-rgb, 255 247 255))"/>
+        <stop offset=".18" stop-color="rgb(var(--usk-primary-rgb, 32 244 255))"/>
+        <stop offset=".48" stop-color="rgb(var(--usk-secondary-rgb, 111 44 255))"/>
+        <stop offset=".76" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+      </linearGradient>
+      <linearGradient id="help-sun" x1="70" y1="52" x2="185" y2="164" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+        <stop offset=".5" stop-color="rgb(var(--usk-warning-rgb, 255 138 61))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+      </linearGradient>
+      <filter id="help-glow" x="-50%" y="-50%" width="200%" height="200%">
+        <feGaussianBlur stdDeviation="4.5" result="blur"/>
+        <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0.9 0 1 0 0 0.18 0 0 1 0 1 0 0 0 .82 0"/>
+        <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+      </filter>
+      <clipPath id="help-clip"><rect x="18" y="18" width="220" height="220" rx="48"/></clipPath>
+    </defs>
+    <rect data-icon-frame="decor" x="18" y="18" width="220" height="220" rx="48" fill="url(#help-bg)"/>
+    <g clip-path="url(#help-clip)">
+      <g data-icon-frame="decor" class="sw-i-horizon-sun" opacity=".42"><path d="M74 166A54 54 0 0 1 182 166H74Z" fill="url(#help-sun)" opacity=".46"/><path d="M86 136H170M80 150H176M74 164H182" fill="none" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="3" stroke-linecap="round" opacity=".34"/></g>
+      <path d="M34 176H222M50 194H206M70 212H186" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="3" opacity=".42"/>
+      <path d="M24 232L104 154M232 232L152 154M63 232L116 154M193 232L140 154M100 232L124 154M156 232L132 154" stroke="rgb(var(--usk-secondary-rgb, 255 43 214))" stroke-width="2" opacity=".34"/>
+      <circle cx="128" cy="128" r="68" fill="url(#help-chrome)" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="6" filter="url(#help-glow)"/><path d="M105 106C107 86 122 76 140 82C158 88 163 108 151 122C142 132 129 134 128 151" fill="none" stroke="rgb(var(--usk-surface-rgb, 19 8 47))" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/><circle cx="128" cy="178" r="9" fill="rgb(var(--usk-surface-rgb, 19 8 47))"/><path d="M106 106C108 89 123 79 139 84" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <rect data-icon-frame="decor" x="18" y="18" width="220" height="220" rx="48" fill="none" stroke="url(#help-neon)" stroke-width="4"/>
+</symbol>
+<symbol id="sw-icon-link" viewBox="-8 -8 272 272">
+  <title>Link</title>
+  <defs>
+      <linearGradient id="link-bg" x1="28" y1="24" x2="228" y2="232" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-surface-strong-rgb, 37 17 91))"/>
+        <stop offset=".48" stop-color="rgb(var(--usk-surface-rgb, 19 8 47))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-bg-rgb, 9 5 28))"/>
+      </linearGradient>
+      <linearGradient id="link-neon" x1="48" y1="36" x2="214" y2="218" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-primary-rgb, 32 244 255))"/>
+        <stop offset=".45" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+      </linearGradient>
+      <linearGradient id="link-chrome" x1="56" y1="42" x2="204" y2="214" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-surface-strong-rgb, 255 247 255))"/>
+        <stop offset=".18" stop-color="rgb(var(--usk-primary-rgb, 32 244 255))"/>
+        <stop offset=".48" stop-color="rgb(var(--usk-secondary-rgb, 111 44 255))"/>
+        <stop offset=".76" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+      </linearGradient>
+      <linearGradient id="link-sun" x1="70" y1="52" x2="185" y2="164" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+        <stop offset=".5" stop-color="rgb(var(--usk-warning-rgb, 255 138 61))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+      </linearGradient>
+      <filter id="link-glow" x="-50%" y="-50%" width="200%" height="200%">
+        <feGaussianBlur stdDeviation="4.5" result="blur"/>
+        <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0.9 0 1 0 0 0.18 0 0 1 0 1 0 0 0 .82 0"/>
+        <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+      </filter>
+      <clipPath id="link-clip"><rect x="18" y="18" width="220" height="220" rx="48"/></clipPath>
+    </defs>
+    <rect data-icon-frame="decor" x="18" y="18" width="220" height="220" rx="48" fill="url(#link-bg)"/>
+    <g clip-path="url(#link-clip)">
+      <g data-icon-frame="decor" class="sw-i-horizon-sun" opacity=".42"><path d="M74 166A54 54 0 0 1 182 166H74Z" fill="url(#link-sun)" opacity=".46"/><path d="M86 136H170M80 150H176M74 164H182" fill="none" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="3" stroke-linecap="round" opacity=".34"/></g>
+      <path d="M34 176H222M50 194H206M70 212H186" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="3" opacity=".42"/>
+      <path d="M24 232L104 154M232 232L152 154M63 232L116 154M193 232L140 154M100 232L124 154M156 232L132 154" stroke="rgb(var(--usk-secondary-rgb, 255 43 214))" stroke-width="2" opacity=".34"/>
+      <path d="M106 91L121 76C140 57 172 57 191 76C210 95 210 127 191 146L171 166" fill="none" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" filter="url(#link-glow)"/><path d="M150 165L135 180C116 199 84 199 65 180C46 161 46 129 65 110L85 90" fill="none" stroke="rgb(var(--usk-secondary-rgb, 255 43 214))" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/><path d="M104 152L152 104" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <rect data-icon-frame="decor" x="18" y="18" width="220" height="220" rx="48" fill="none" stroke="url(#link-neon)" stroke-width="4"/>
+</symbol>
+<symbol id="sw-icon-cloud" viewBox="-8 -8 272 272">
+  <title>Cloud</title>
+  <defs>
+      <linearGradient id="cloud-bg" x1="28" y1="24" x2="228" y2="232" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-surface-strong-rgb, 37 17 91))"/>
+        <stop offset=".48" stop-color="rgb(var(--usk-surface-rgb, 19 8 47))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-bg-rgb, 9 5 28))"/>
+      </linearGradient>
+      <linearGradient id="cloud-neon" x1="48" y1="36" x2="214" y2="218" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-primary-rgb, 32 244 255))"/>
+        <stop offset=".45" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+      </linearGradient>
+      <linearGradient id="cloud-chrome" x1="56" y1="42" x2="204" y2="214" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-surface-strong-rgb, 255 247 255))"/>
+        <stop offset=".18" stop-color="rgb(var(--usk-primary-rgb, 32 244 255))"/>
+        <stop offset=".48" stop-color="rgb(var(--usk-secondary-rgb, 111 44 255))"/>
+        <stop offset=".76" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+      </linearGradient>
+      <linearGradient id="cloud-sun" x1="70" y1="52" x2="185" y2="164" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+        <stop offset=".5" stop-color="rgb(var(--usk-warning-rgb, 255 138 61))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+      </linearGradient>
+      <filter id="cloud-glow" x="-50%" y="-50%" width="200%" height="200%">
+        <feGaussianBlur stdDeviation="4.5" result="blur"/>
+        <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0.9 0 1 0 0 0.18 0 0 1 0 1 0 0 0 .82 0"/>
+        <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+      </filter>
+      <clipPath id="cloud-clip"><rect x="10" y="10" width="236" height="236" rx="48"/></clipPath>
+    </defs>
+    <rect data-icon-frame="decor" x="10" y="10" width="236" height="236" rx="48" fill="url(#cloud-bg)"/>
+    <g clip-path="url(#cloud-clip)">
+      <g data-icon-frame="decor" class="sw-i-horizon-sun" opacity=".42"><path d="M74 166A54 54 0 0 1 182 166H74Z" fill="url(#cloud-sun)" opacity=".46"/><path d="M86 136H170M80 150H176M74 164H182" fill="none" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="3" stroke-linecap="round" opacity=".34"/></g>
+      <path d="M34 176H222M50 194H206M70 212H186" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="3" opacity=".42"/>
+      <path d="M24 232L104 154M232 232L152 154M63 232L116 154M193 232L140 154M100 232L124 154M156 232L132 154" stroke="rgb(var(--usk-secondary-rgb, 255 43 214))" stroke-width="2" opacity=".34"/>
+      <path d="M79 172C60 172 47 158 47 140C47 122 61 109 78 109C88 85 109 72 132 77C153 81 168 98 172 119C193 120 209 136 209 156C209 177 192 190 170 190H82" fill="url(#cloud-chrome)" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" filter="url(#cloud-glow)"/><path d="M104 151H152M128 126V176" stroke="rgb(var(--usk-surface-rgb, 19 8 47))" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/><path d="M128 126L106 148M128 126L150 148" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <rect data-icon-frame="decor" x="10" y="10" width="236" height="236" rx="48" fill="none" stroke="url(#cloud-neon)" stroke-width="4"/>
+</symbol>
+<symbol id="sw-icon-globe" viewBox="0 0 256 256">
+  <title>Globe</title>
+  <defs>
+      <linearGradient id="globe-bg" x1="28" y1="24" x2="228" y2="232" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-surface-strong-rgb, 37 17 91))"/>
+        <stop offset=".48" stop-color="rgb(var(--usk-surface-rgb, 19 8 47))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-bg-rgb, 9 5 28))"/>
+      </linearGradient>
+      <linearGradient id="globe-neon" x1="48" y1="36" x2="214" y2="218" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-primary-rgb, 32 244 255))"/>
+        <stop offset=".45" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+      </linearGradient>
+      <linearGradient id="globe-chrome" x1="56" y1="42" x2="204" y2="214" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-surface-strong-rgb, 255 247 255))"/>
+        <stop offset=".18" stop-color="rgb(var(--usk-primary-rgb, 32 244 255))"/>
+        <stop offset=".48" stop-color="rgb(var(--usk-secondary-rgb, 111 44 255))"/>
+        <stop offset=".76" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+      </linearGradient>
+      <linearGradient id="globe-sun" x1="70" y1="52" x2="185" y2="164" gradientUnits="userSpaceOnUse">
+        <stop stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+        <stop offset=".5" stop-color="rgb(var(--usk-warning-rgb, 255 138 61))"/>
+        <stop offset="1" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+      </linearGradient>
+      <filter id="globe-glow" x="-50%" y="-50%" width="200%" height="200%">
+        <feGaussianBlur stdDeviation="4.5" result="blur"/>
+        <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0.9 0 1 0 0 0.18 0 0 1 0 1 0 0 0 .82 0"/>
+        <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+      </filter>
+      <clipPath id="globe-clip"><rect x="18" y="18" width="220" height="220" rx="48"/></clipPath>
+    </defs>
+    <rect data-icon-frame="decor" x="18" y="18" width="220" height="220" rx="48" fill="url(#globe-bg)"/>
+    <g clip-path="url(#globe-clip)">
+      <g data-icon-frame="decor" class="sw-i-horizon-sun" opacity=".42"><path d="M74 166A54 54 0 0 1 182 166H74Z" fill="url(#globe-sun)" opacity=".46"/><path d="M86 136H170M80 150H176M74 164H182" fill="none" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="3" stroke-linecap="round" opacity=".34"/></g>
+      <path d="M34 176H222M50 194H206M70 212H186" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="3" opacity=".42"/>
+      <path d="M24 232L104 154M232 232L152 154M63 232L116 154M193 232L140 154M100 232L124 154M156 232L132 154" stroke="rgb(var(--usk-secondary-rgb, 255 43 214))" stroke-width="2" opacity=".34"/>
+      <circle cx="128" cy="128" r="67" fill="url(#globe-chrome)" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="6" filter="url(#globe-glow)"/><path d="M61 128H195M128 61C105 84 95 106 95 128C95 150 105 172 128 195M128 61C151 84 161 106 161 128C161 150 151 172 128 195M79 91C104 103 152 103 177 91M79 165C104 153 152 153 177 165" fill="none" stroke="rgb(var(--usk-surface-rgb, 19 8 47))" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <rect data-icon-frame="decor" x="18" y="18" width="220" height="220" rx="48" fill="none" stroke="url(#globe-neon)" stroke-width="4"/>
+</symbol>
+<symbol id="sw-icon-warning" viewBox="-8 -8 272 272">
+  <title>Warning</title>
+  <rect data-icon-frame="decor" class="sw-i-surface" x="10" y="10" width="236" height="236" rx="48"/><g data-icon-frame="decor" class="sw-i-horizon-sun" opacity=".44"><path class="sw-i-warning" d="M74 166A54 54 0 0 1 182 166H74Z" opacity=".24"/><path class="sw-i-line-3" d="M86 136H170M80 150H176M74 164H182" opacity=".34"/></g><path class="sw-i-line-3" d="M34 176H222M50 194H206M70 212H186" opacity=".42"/><path class="sw-i-muted" d="M24 232L104 154M232 232L152 154M63 232L116 154M193 232L140 154" opacity=".32"/>
+    <path class="sw-i-warning" d="M128 55L203 190H53Z"/><path class="sw-i-danger" d="M128 101V145"/><circle class="sw-i-danger" cx="128" cy="169" r="8"/>
+</symbol>
+<symbol id="sw-icon-scan" viewBox="0 0 256 256">
+  <title>Scan</title>
+  <rect data-icon-frame="decor" class="sw-i-surface" x="18" y="18" width="220" height="220" rx="48"/><g data-icon-frame="decor" class="sw-i-horizon-sun" opacity=".44"><path class="sw-i-warning" d="M74 166A54 54 0 0 1 182 166H74Z" opacity=".24"/><path class="sw-i-line-3" d="M86 136H170M80 150H176M74 164H182" opacity=".34"/></g><path class="sw-i-line-3" d="M34 176H222M50 194H206M70 212H186" opacity=".42"/><path class="sw-i-muted" d="M24 232L104 154M232 232L152 154M63 232L116 154M193 232L140 154" opacity=".32"/>
+    <rect class="sw-i-primary" x="58" y="70" width="140" height="118" rx="18"/><path class="sw-i-line-2" d="M81 100V84H113M143 84H175V100M81 158V174H113M143 174H175V158"/><path class="sw-i-line" d="M72 129H184"/><circle class="sw-i-line-3" cx="128" cy="129" r="24"/>
+</symbol>
+<symbol id="sw-icon-network" viewBox="-8 -8 272 272">
+  <title>Network</title>
+  <rect data-icon-frame="decor" class="sw-i-surface" x="10" y="10" width="236" height="236" rx="48"/><g data-icon-frame="decor" class="sw-i-horizon-sun" opacity=".44"><path class="sw-i-warning" d="M74 166A54 54 0 0 1 182 166H74Z" opacity=".24"/><path class="sw-i-line-3" d="M86 136H170M80 150H176M74 164H182" opacity=".34"/></g><path class="sw-i-line-3" d="M34 176H222M50 194H206M70 212H186" opacity=".42"/><path class="sw-i-muted" d="M24 232L104 154M232 232L152 154M63 232L116 154M193 232L140 154" opacity=".32"/>
+    <circle class="sw-i-primary" cx="82" cy="132" r="18"/><circle class="sw-i-secondary" cx="128" cy="82" r="18"/><circle class="sw-i-primary" cx="174" cy="132" r="18"/><circle class="sw-i-accent" cx="128" cy="184" r="18"/><path class="sw-i-muted" d="M96 119L115 95M141 95L160 119M100 140L114 172M156 172L170 140M100 132H156"/>
+</symbol>
+<symbol id="sw-icon-cpu" viewBox="0 0 256 256">
+  <title>CPU</title>
+  <rect data-icon-frame="decor" class="sw-i-surface" x="18" y="18" width="220" height="220" rx="48"/><g data-icon-frame="decor" class="sw-i-horizon-sun" opacity=".44"><path class="sw-i-warning" d="M74 166A54 54 0 0 1 182 166H74Z" opacity=".24"/><path class="sw-i-line-3" d="M86 136H170M80 150H176M74 164H182" opacity=".34"/></g><path class="sw-i-line-3" d="M34 176H222M50 194H206M70 212H186" opacity=".42"/><path class="sw-i-muted" d="M24 232L104 154M232 232L152 154M63 232L116 154M193 232L140 154" opacity=".32"/>
+    <rect class="sw-i-primary" x="82" y="82" width="92" height="92" rx="16"/><rect class="sw-i-bg-strong" x="108" y="108" width="40" height="40" rx="8"/><path class="sw-i-line-3" d="M97 58V82M128 58V82M159 58V82M97 174V198M128 174V198M159 174V198M58 97H82M58 128H82M58 159H82M174 97H198M174 128H198M174 159H198"/>
+</symbol>
+<symbol id="sw-icon-layers" viewBox="0 0 256 256">
+  <title>Layers</title>
+  <rect data-icon-frame="decor" class="sw-i-surface" x="18" y="18" width="220" height="220" rx="48"/><g data-icon-frame="decor" class="sw-i-horizon-sun" opacity=".44"><path class="sw-i-warning" d="M74 166A54 54 0 0 1 182 166H74Z" opacity=".24"/><path class="sw-i-line-3" d="M86 136H170M80 150H176M74 164H182" opacity=".34"/></g><path class="sw-i-line-3" d="M34 176H222M50 194H206M70 212H186" opacity=".42"/><path class="sw-i-muted" d="M24 232L104 154M232 232L152 154M63 232L116 154M193 232L140 154" opacity=".32"/>
+    <path class="sw-i-primary" d="M128 62L203 104L128 146L53 104Z"/><path class="sw-i-line-2" d="M63 132L128 169L193 132M63 160L128 197L193 160"/>
+</symbol>
+<symbol id="sw-icon-eye" viewBox="0 0 256 256">
+  <title>Eye</title>
+  <rect data-icon-frame="decor" class="sw-i-surface" x="18" y="18" width="220" height="220" rx="48"/><g data-icon-frame="decor" class="sw-i-horizon-sun" opacity=".44"><path class="sw-i-warning" d="M74 166A54 54 0 0 1 182 166H74Z" opacity=".24"/><path class="sw-i-line-3" d="M86 136H170M80 150H176M74 164H182" opacity=".34"/></g><path class="sw-i-line-3" d="M34 176H222M50 194H206M70 212H186" opacity=".42"/><path class="sw-i-muted" d="M24 232L104 154M232 232L152 154M63 232L116 154M193 232L140 154" opacity=".32"/>
+    <path class="sw-i-primary" d="M52 128C75 91 104 76 128 76C152 76 181 91 204 128C181 165 152 180 128 180C104 180 75 165 52 128Z"/><circle class="sw-i-line-2" cx="128" cy="128" r="31"/><circle class="sw-i-accent" cx="128" cy="128" r="10"/>
+</symbol>
+<symbol id="sw-icon-grid" viewBox="0 0 256 256">
+  <title>Grid</title>
+  <rect data-icon-frame="decor" class="sw-i-surface" x="18" y="18" width="220" height="220" rx="48"/><g data-icon-frame="decor" class="sw-i-horizon-sun" opacity=".44"><path class="sw-i-warning" d="M74 166A54 54 0 0 1 182 166H74Z" opacity=".24"/><path class="sw-i-line-3" d="M86 136H170M80 150H176M74 164H182" opacity=".34"/></g><path class="sw-i-line-3" d="M34 176H222M50 194H206M70 212H186" opacity=".42"/><path class="sw-i-muted" d="M24 232L104 154M232 232L152 154M63 232L116 154M193 232L140 154" opacity=".32"/>
+    <rect class="sw-i-primary" x="62" y="72" width="52" height="52" rx="14"/><rect class="sw-i-secondary" x="128" y="72" width="66" height="52" rx="14"/><rect class="sw-i-accent" x="62" y="138" width="66" height="52" rx="14"/><rect class="sw-i-primary" x="142" y="138" width="52" height="52" rx="14"/>
+</symbol>
+<symbol id="sw-icon-module" viewBox="0 0 256 256">
+  <title>Module</title>
+  <rect data-icon-frame="decor" class="sw-i-surface" x="18" y="18" width="220" height="220" rx="48"/><g data-icon-frame="decor" class="sw-i-horizon-sun" opacity=".44"><path class="sw-i-warning" d="M74 166A54 54 0 0 1 182 166H74Z" opacity=".24"/><path class="sw-i-line-3" d="M86 136H170M80 150H176M74 164H182" opacity=".34"/></g><path class="sw-i-line-3" d="M34 176H222M50 194H206M70 212H186" opacity=".42"/><path class="sw-i-muted" d="M24 232L104 154M232 232L152 154M63 232L116 154M193 232L140 154" opacity=".32"/>
+    <rect class="sw-i-primary" x="64" y="74" width="128" height="116" rx="24"/><rect class="sw-i-bg-strong" x="86" y="96" width="84" height="36" rx="12"/><path class="sw-i-line-2" d="M91 158H120M139 158H168"/><circle class="sw-i-accent" cx="128" cy="158" r="9"/>
+</symbol>
+<symbol id="sw-icon-stack" viewBox="-8 -8 272 272">
+  <title>Stack</title>
+  <rect data-icon-frame="decor" class="sw-i-surface" x="10" y="10" width="236" height="236" rx="48"/><g data-icon-frame="decor" class="sw-i-horizon-sun" opacity=".44"><path class="sw-i-warning" d="M74 166A54 54 0 0 1 182 166H74Z" opacity=".24"/><path class="sw-i-line-3" d="M86 136H170M80 150H176M74 164H182" opacity=".34"/></g><path class="sw-i-line-3" d="M34 176H222M50 194H206M70 212H186" opacity=".42"/><path class="sw-i-muted" d="M24 232L104 154M232 232L152 154M63 232L116 154M193 232L140 154" opacity=".32"/>
+    <rect class="sw-i-bg-soft" x="78" y="64" width="116" height="76" rx="20"/><rect class="sw-i-secondary" x="66" y="91" width="116" height="76" rx="20"/><rect class="sw-i-primary" x="54" y="118" width="116" height="76" rx="20"/><path class="sw-i-line-3" d="M78 150H134M78 172H112"/>
+</symbol>
+<symbol id="sw-icon-tile" viewBox="0 0 256 256">
+  <title>Tile</title>
+  <rect data-icon-frame="decor" class="sw-i-surface" x="18" y="18" width="220" height="220" rx="48"/><g data-icon-frame="decor" class="sw-i-horizon-sun" opacity=".44"><path class="sw-i-warning" d="M74 166A54 54 0 0 1 182 166H74Z" opacity=".24"/><path class="sw-i-line-3" d="M86 136H170M80 150H176M74 164H182" opacity=".34"/></g><path class="sw-i-line-3" d="M34 176H222M50 194H206M70 212H186" opacity=".42"/><path class="sw-i-muted" d="M24 232L104 154M232 232L152 154M63 232L116 154M193 232L140 154" opacity=".32"/>
+    <rect class="sw-i-primary" x="58" y="72" width="64" height="64" rx="20"/><rect class="sw-i-secondary" x="136" y="72" width="62" height="38" rx="14"/><rect class="sw-i-accent" x="58" y="150" width="96" height="42" rx="16"/><rect class="sw-i-bg-strong" x="168" y="126" width="30" height="66" rx="12"/>
+</symbol>
+<symbol id="sw-icon-phone" viewBox="0 0 256 256">
+  <title>Phone</title>
+  <rect data-icon-frame="decor" class="sw-i-surface" x="18" y="18" width="220" height="220" rx="48"/><g data-icon-frame="decor" class="sw-i-horizon-sun" opacity=".44"><path class="sw-i-warning" d="M74 166A54 54 0 0 1 182 166H74Z" opacity=".24"/><path class="sw-i-line-3" d="M86 136H170M80 150H176M74 164H182" opacity=".34"/></g><path class="sw-i-line-3" d="M34 176H222M50 194H206M70 212H186" opacity=".42"/><path class="sw-i-muted" d="M24 232L104 154M232 232L152 154M63 232L116 154M193 232L140 154" opacity=".32"/>
+    <rect class="sw-i-primary" x="88" y="54" width="80" height="148" rx="24"/><path class="sw-i-line-2" d="M110 78H146M112 176H144"/><rect class="sw-i-bg-strong" x="104" y="96" width="48" height="60" rx="12"/>
+</symbol>
+<symbol id="sw-icon-palette" viewBox="-8 -8 272 272">
+  <title>Palette</title>
+  <rect data-icon-frame="decor" class="sw-i-surface" x="18" y="18" width="220" height="220" rx="48"/><g data-icon-frame="decor" class="sw-i-horizon-sun" opacity=".44"><path class="sw-i-warning" d="M74 166A54 54 0 0 1 182 166H74Z" opacity=".24"/><path class="sw-i-line-3" d="M86 136H170M80 150H176M74 164H182" opacity=".34"/></g><path class="sw-i-line-3" d="M34 176H222M50 194H206M70 212H186" opacity=".42"/><path class="sw-i-muted" d="M24 232L104 154M232 232L152 154M63 232L116 154M193 232L140 154" opacity=".32"/>
+    <path class="sw-i-primary" d="M128 60C89 60 58 89 58 128C58 168 90 196 129 196H145C159 196 168 187 168 175C168 165 176 158 187 158C196 158 204 150 204 137C204 94 171 60 128 60Z"/><circle class="sw-i-accent" cx="98" cy="112" r="10"/><circle class="sw-i-secondary" cx="126" cy="96" r="10"/><circle class="sw-i-warning" cx="154" cy="116" r="10"/><circle class="sw-i-bg-strong" cx="122" cy="154" r="12"/>
+</symbol>
+<symbol id="sw-icon-heart" viewBox="0 0 256 256">
+  <title>Heart</title>
+  <rect data-icon-frame="decor" class="sw-i-surface" x="18" y="18" width="220" height="220" rx="48"/><g data-icon-frame="decor" class="sw-i-horizon-sun" opacity=".44"><path class="sw-i-warning" d="M74 166A54 54 0 0 1 182 166H74Z" opacity=".24"/><path class="sw-i-line-3" d="M86 136H170M80 150H176M74 164H182" opacity=".34"/></g><path class="sw-i-line-3" d="M34 176H222M50 194H206M70 212H186" opacity=".42"/><path class="sw-i-muted" d="M24 232L104 154M232 232L152 154M63 232L116 154M193 232L140 154" opacity=".32"/>
+    <path class="sw-i-danger" d="M128 194C92 166 66 143 66 111C66 90 81 76 101 76C113 76 123 83 128 94C133 83 143 76 155 76C175 76 190 90 190 111C190 143 164 166 128 194Z"/><path class="sw-i-line-3" d="M91 117C91 101 102 94 114 99"/>
+</symbol>
+<symbol id="sw-icon-star" viewBox="0 0 256 256">
+  <title>Star</title>
+  <rect data-icon-frame="decor" class="sw-i-surface" x="18" y="18" width="220" height="220" rx="48"/><g data-icon-frame="decor" class="sw-i-horizon-sun" opacity=".44"><path class="sw-i-warning" d="M74 166A54 54 0 0 1 182 166H74Z" opacity=".24"/><path class="sw-i-line-3" d="M86 136H170M80 150H176M74 164H182" opacity=".34"/></g><path class="sw-i-line-3" d="M34 176H222M50 194H206M70 212H186" opacity=".42"/><path class="sw-i-muted" d="M24 232L104 154M232 232L152 154M63 232L116 154M193 232L140 154" opacity=".32"/>
+    <path class="sw-i-warning" d="M128 56L148 104L200 108L160 141L172 192L128 164L84 192L96 141L56 108L108 104Z"/><path class="sw-i-line-3" d="M128 82L140 113L173 116"/>
+</symbol>
+<symbol id="sw-icon-target" viewBox="0 0 256 256">
+  <title>Target</title>
+  <rect data-icon-frame="decor" class="sw-i-surface" x="18" y="18" width="220" height="220" rx="48"/><g data-icon-frame="decor" class="sw-i-horizon-sun" opacity=".44"><path class="sw-i-warning" d="M74 166A54 54 0 0 1 182 166H74Z" opacity=".24"/><path class="sw-i-line-3" d="M86 136H170M80 150H176M74 164H182" opacity=".34"/></g><path class="sw-i-line-3" d="M34 176H222M50 194H206M70 212H186" opacity=".42"/><path class="sw-i-muted" d="M24 232L104 154M232 232L152 154M63 232L116 154M193 232L140 154" opacity=".32"/>
+    <circle class="sw-i-primary" cx="128" cy="128" r="66"/><circle class="sw-i-line-2" cx="128" cy="128" r="40"/><circle class="sw-i-accent" cx="128" cy="128" r="14"/><path class="sw-i-muted" d="M128 52V84M128 172V204M52 128H84M172 128H204"/>
+</symbol>
+<symbol id="sw-icon-megaphone" viewBox="-8 -8 272 272">
+  <title>Megaphone</title>
+  <rect data-icon-frame="decor" class="sw-i-surface" x="10" y="10" width="236" height="236" rx="48"/><g data-icon-frame="decor" class="sw-i-horizon-sun" opacity=".44"><path class="sw-i-warning" d="M74 166A54 54 0 0 1 182 166H74Z" opacity=".24"/><path class="sw-i-line-3" d="M86 136H170M80 150H176M74 164H182" opacity=".34"/></g><path class="sw-i-line-3" d="M34 176H222M50 194H206M70 212H186" opacity=".42"/><path class="sw-i-muted" d="M24 232L104 154M232 232L152 154M63 232L116 154M193 232L140 154" opacity=".32"/>
+    <path class="sw-i-primary" d="M74 134H50V94H74L168 66V162Z"/><path class="sw-i-line-2" d="M168 91C188 96 200 111 200 128C200 145 188 160 168 165"/><path class="sw-i-accent" d="M78 134L96 190H122L104 134Z"/>
+</symbol>
+<symbol id="sw-icon-cursor" viewBox="0 0 256 256">
+  <title>Cursor</title>
+  <rect data-icon-frame="decor" class="sw-i-surface" x="18" y="18" width="220" height="220" rx="48"/><g data-icon-frame="decor" class="sw-i-horizon-sun" opacity=".44"><path class="sw-i-warning" d="M74 166A54 54 0 0 1 182 166H74Z" opacity=".24"/><path class="sw-i-line-3" d="M86 136H170M80 150H176M74 164H182" opacity=".34"/></g><path class="sw-i-line-3" d="M34 176H222M50 194H206M70 212H186" opacity=".42"/><path class="sw-i-muted" d="M24 232L104 154M232 232L152 154M63 232L116 154M193 232L140 154" opacity=".32"/>
+    <path class="sw-i-primary" d="M76 58L190 134L139 146L116 198L76 58Z"/><path class="sw-i-line-3" d="M136 145L168 184"/>
+</symbol>
+</defs>
+</svg>

@@ -1,0 +1,43 @@
+/* Draft source tokens for a stronger retro-glass personality.
+   Workshop file, not a drop-in replacement yet.
+*/
+
+@layer ui-style-kit.retro_glass.source-proposal {
+  [data-ui="retro-glass"][data-theme][data-mode] {
+    --rg-glass-alpha: .46;
+    --rg-glass-strong-alpha: .64;
+    --rg-glass-border-alpha: .48;
+    --rg-glass-rim-alpha: .62;
+    --rg-glass-blur: 18px;
+    --rg-glass-saturate: 155%;
+    --rg-glass-shadow:
+      0 1px 0 rgb(255 255 255 / .38) inset,
+      0 18px 44px rgb(0 0 0 / calc(var(--rg-shadow-alpha) + .04)),
+      0 0 34px rgb(var(--rg-primary-rgb) / var(--rg-glow-alpha));
+    --rg-glass-surface:
+      linear-gradient(135deg, rgb(255 255 255 / .2), rgb(255 255 255 / .04)),
+      linear-gradient(135deg, rgb(var(--rg-primary-rgb) / .08), rgb(var(--rg-accent-rgb) / .045)),
+      rgb(var(--rg-surface-rgb) / var(--rg-glass-alpha));
+  }
+
+  [data-ui="retro-glass"] .rg-pane,
+  [data-ui="retro-glass"] .rg-frost,
+  [data-ui="retro-glass"] .rg-card {
+    background: var(--rg-glass-surface);
+    border: 1px solid rgb(var(--rg-border-rgb) / var(--rg-glass-border-alpha));
+    border-top-color: rgb(255 255 255 / var(--rg-glass-rim-alpha));
+    border-left-color: rgb(255 255 255 / calc(var(--rg-glass-rim-alpha) * .72));
+    box-shadow: var(--rg-glass-shadow);
+    -webkit-backdrop-filter: blur(var(--rg-glass-blur)) saturate(var(--rg-glass-saturate));
+    backdrop-filter: blur(var(--rg-glass-blur)) saturate(var(--rg-glass-saturate));
+  }
+
+  [data-ui="retro-glass"] .rg-orb {
+    background:
+      radial-gradient(circle at 32% 22%, rgb(255 255 255 / .72), transparent 18%),
+      radial-gradient(circle at 70% 80%, rgb(var(--rg-accent-rgb) / .28), transparent 38%),
+      rgb(var(--rg-surface-rgb) / .34);
+    border: 1px solid rgb(255 255 255 / .42);
+    box-shadow: var(--rg-glass-shadow);
+  }
+}
