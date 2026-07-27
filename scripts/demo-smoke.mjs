@@ -4,12 +4,15 @@ import { once } from "node:events";
 import path from "node:path";
 import { pathToFileURL } from "node:url";
 import { chromium } from "playwright";
+import { assertDemoEcosystemOwnership } from "./demo-browser-contract.mjs";
+import { findOpenPort } from "./find-open-port.mjs";
+import { installDemoDependencyRoutes } from "./route-demo-dependencies.mjs";
 
 const root = process.cwd();
-const port = Number(process.env.PORT ?? 4173);
 const host = process.env.HOST ?? "127.0.0.1";
+const port = Number(process.env.PORT ?? (await findOpenPort(host)));
 const baseUrl = `http://${host}:${port}/`;
-const lightThemes = [
+const colorThemes = [
   "midnight-gold",
   "ocean-steel",
   "forest-moss",
@@ -21,6 +24,7 @@ const lightThemes = [
   "cyber-lime",
   "arctic-indigo"
 ];
+const colorModes = ["light", "dark", "contrast"];
 const server = spawn(process.execPath, ["scripts/serve-demo.mjs", String(port)], {
   cwd: root,
   env: { ...process.env, HOST: host, PORT: String(port) },
@@ -45,11 +49,13 @@ if (!serverReady) {
   throw new Error("The demo server did not start.");
 }
 
-const browser = await chromium.launch({ headless: true });
+const browser = await chromium.launch({ channel: "chrome", headless: true });
 
 try {
   const desktop = await browser.newPage({ viewport: { width: 1440, height: 1000 } });
   const desktopEvents = [];
+
+  await installDemoDependencyRoutes(desktop);
   desktop.on("console", (message) => {
     if (["error", "warning"].includes(message.type())) {
       desktopEvents.push(`${message.type()}: ${message.text()}`);
@@ -61,6 +67,20 @@ try {
   await desktop.waitForFunction(() =>
     Boolean(document.querySelector('#packSelect option[value="synthwave"]'))
   );
+  await assertDemoEcosystemOwnership(desktop);
+  const faviconResponse = await desktop.request.get(
+    `${baseUrl}assets/favicon.ico`
+  );
+
+  if (
+    faviconResponse.status() !== 200 ||
+    faviconResponse.headers()["content-type"] !== "image/x-icon"
+  ) {
+    throw new Error(
+      `Unexpected favicon response: ${faviconResponse.status()} ${faviconResponse.headers()["content-type"]}`
+    );
+  }
+
   await desktop.selectOption("#packSelect", "synthwave");
   await desktop.locator("#extrasToggle").check();
   await desktop.selectOption("#themeSelect", "cyber-lime");
@@ -121,13 +141,14 @@ try {
 
   await desktop.keyboard.press("Escape");
   await desktop.waitForFunction(() => document.querySelector("#iconDialog")?.open === false);
-  await assertLightThemeContrast(desktop, baseUrl);
+  await assertThemeModeContrast(desktop, baseUrl);
 
   if (desktopEvents.length > 0) {
     throw new Error(`Console/page errors:\n${desktopEvents.join("\n")}`);
   }
 
   const mobile = await browser.newPage({ viewport: { width: 390, height: 844 } });
+  await installDemoDependencyRoutes(mobile);
   await mobile.goto(baseUrl, { waitUntil: "domcontentloaded" });
   await mobile.waitForFunction(() =>
     Boolean(document.querySelector('#packSelect option[value="minimal-saas"]'))
@@ -152,6 +173,9 @@ try {
     throw new Error("Direct file load did not show the server-required notice.");
   }
 
+  await assertRuntimeSanitizer(browser, baseUrl);
+  await assertRuntimeRetry(browser, baseUrl);
+
   console.log("Demo smoke check passed.");
 } finally {
   await browser.close();
@@ -159,60 +183,223 @@ try {
   await once(server, "exit").catch(() => {});
 }
 
-async function assertLightThemeContrast(page, url) {
-  const failures = [];
+async function assertRuntimeRetry(browser, url) {
+  const page = await browser.newPage({ viewport: { width: 800, height: 600 } });
+  const iconUrl = `${url}tests/fixtures/retry/icons/home.svg`;
+  let attempts = 0;
 
-  // Light theme checks keep the demo from regressing into mixed dark/light surfaces.
-  for (const theme of lightThemes) {
-    await page.goto(`${url}?mode=light&theme=${theme}&pack=minimal-saas`, {
-      waitUntil: "networkidle"
-    });
-    await page.waitForFunction(
-      (expectedTheme) =>
-        document.body.dataset.mode === "light" && document.body.dataset.theme === expectedTheme,
-      theme
-    );
+  await page.route(iconUrl, async (route) => {
+    attempts += 1;
 
-    const metrics = await getLightThemeMetrics(page);
-
-    if (metrics.bodyLuminance < 0.72 || metrics.cardLuminance < 0.72) {
-      failures.push(
-        `${theme}: light surfaces too dark ${JSON.stringify({
-          bodyLuminance: metrics.bodyLuminance,
-          cardLuminance: metrics.cardLuminance
-        })}`
-      );
+    if (attempts === 1) {
+      await route.fulfill({
+        status: 503,
+        contentType: "text/plain",
+        body: "Temporary failure"
+      });
+      return;
     }
 
-    for (const check of metrics.checks) {
-      if (check.contrast < 4.5) {
-        failures.push(`${theme}: ${check.name} contrast ${check.contrast}`);
+    await route.fulfill({
+      status: 200,
+      contentType: "image/svg+xml",
+      path: path.join(root, "icons", "home.svg")
+    });
+  });
+  await page.goto(`${url}tests/fixtures/runtime-retry.html`, {
+    waitUntil: "domcontentloaded"
+  });
+  await page.waitForFunction(() => document.body.dataset.errors === "1");
+  await page.evaluate(() => document.querySelector("usk-icon")?.refresh());
+  await page.waitForFunction(() => document.body.dataset.ready === "true");
+
+  const state = await page.evaluate(() => ({
+    errors: document.body.dataset.errors,
+    hasSvg: Boolean(
+      document.querySelector("usk-icon")?.shadowRoot?.querySelector("svg")
+    )
+  }));
+
+  await page.close();
+
+  if (attempts !== 2 || state.errors !== "1" || !state.hasSvg) {
+    throw new Error(
+      `Runtime retry regression: ${JSON.stringify({ attempts, state })}`
+    );
+  }
+}
+
+async function assertRuntimeSanitizer(browser, url) {
+  const page = await browser.newPage({ viewport: { width: 800, height: 600 } });
+  const externalRequests = [];
+  const browserEvents = [];
+
+  page.on("request", (request) => {
+    if (request.url().includes("example.invalid")) {
+      externalRequests.push(request.url());
+    }
+  });
+  page.on("console", (message) => {
+    if (["error", "warning"].includes(message.type())) {
+      browserEvents.push(`${message.type()}: ${message.text()}`);
+    }
+  });
+  page.on("pageerror", (error) => {
+    browserEvents.push(`pageerror: ${error.message}`);
+  });
+
+  await page.goto(`${url}tests/fixtures/runtime-security.html`, {
+    waitUntil: "networkidle"
+  });
+  await page.waitForFunction(() =>
+    ["true", "error"].includes(document.body.dataset.ready)
+  );
+
+  const state = await page.evaluate(() => {
+    const icon = document.querySelector("usk-icon");
+    const svg = icon?.shadowRoot?.querySelector("svg");
+
+    if (!svg) {
+      return { ready: document.body.dataset.ready, missingSvg: true };
+    }
+
+    const nodes = [svg, ...svg.querySelectorAll("*")];
+    const attributes = nodes.flatMap((node) => [...node.attributes]);
+
+    return {
+      ready: document.body.dataset.ready,
+      blockedElements: svg.querySelectorAll(
+        "a, animate, animateMotion, animateTransform, audio, discard, embed, foreignObject, iframe, image, object, script, set, source, track, video"
+      ).length,
+      eventAttributes: attributes.filter(({ name }) =>
+        name.toLowerCase().startsWith("on")
+      ).length,
+      unsafeReferences: attributes.filter(
+        ({ name, value }) =>
+          !name.toLowerCase().startsWith("xmlns") &&
+          /(?:https?:|javascript:|data:)/iu.test(value)
+      ).length,
+      unsafeStyleSheets: svg.querySelectorAll("#unsafe-style-sheet").length,
+      internalHref: svg.querySelector("#safe-use")?.getAttribute("href"),
+      safeShape: Boolean(svg.querySelector("#safe-shape")),
+      unsafeGlobals: [
+        "__unsafeRoot",
+        "__unsafeScript",
+        "__unsafeForeignObject",
+        "__unsafeLink",
+        "__unsafeAnimation",
+        "__unsafeEvent"
+      ].filter((name) => Boolean(globalThis[name]))
+    };
+  });
+
+  await page.close();
+
+  if (
+    state.ready !== "true" ||
+    state.missingSvg ||
+    state.blockedElements !== 0 ||
+    state.eventAttributes !== 0 ||
+    state.unsafeReferences !== 0 ||
+    state.unsafeStyleSheets !== 0 ||
+    state.internalHref !== "#safe-shape" ||
+    !state.safeShape ||
+    state.unsafeGlobals.length > 0 ||
+    externalRequests.length > 0 ||
+    browserEvents.length > 0
+  ) {
+    throw new Error(
+      `Runtime sanitizer regression: ${JSON.stringify({
+        state,
+        externalRequests,
+        browserEvents
+      })}`
+    );
+  }
+}
+
+async function assertThemeModeContrast(page, url) {
+  const failures = [];
+
+  for (const mode of colorModes) {
+    for (const theme of colorThemes) {
+      await page.goto(
+        `${url}?mode=${mode}&theme=${theme}&pack=minimal-saas`,
+        { waitUntil: "networkidle" }
+      );
+      await page.waitForFunction(
+        ({ expectedMode, expectedTheme }) =>
+          document.body.dataset.mode === expectedMode &&
+          document.body.dataset.theme === expectedTheme,
+        { expectedMode: mode, expectedTheme: theme }
+      );
+
+      const metrics = await getThemeMetrics(page);
+
+      if (
+        mode === "light" &&
+        (metrics.bodyLuminance < 0.72 || metrics.cardLuminance < 0.72)
+      ) {
+        failures.push(
+          `${theme}/${mode}: light surfaces too dark ${JSON.stringify({
+            bodyLuminance: metrics.bodyLuminance,
+            cardLuminance: metrics.cardLuminance
+          })}`
+        );
+      }
+
+      for (const check of metrics.checks) {
+        if (check.contrast < 4.5) {
+          failures.push(
+            `${theme}/${mode}: ${check.name} contrast ${check.contrast}`
+          );
+        }
       }
     }
   }
 
   if (failures.length > 0) {
-    throw new Error(`Light mode theme regressions:\n${failures.join("\n")}`);
+    throw new Error(`Theme and mode regressions:\n${failures.join("\n")}`);
   }
 }
 
-async function getLightThemeMetrics(page) {
+async function getThemeMetrics(page) {
   return page.evaluate(() => {
     function parseColor(value) {
       const match = value.match(/rgba?\(([^)]+)\)/i);
 
-      if (!match) {
-        throw new Error(`Unsupported computed color: ${value}`);
+      if (match) {
+        const [r, g, b, alpha] = match[1]
+          .split(/[ ,/]+/)
+          .filter(Boolean)
+          .map(Number);
+
+        return {
+          r,
+          g,
+          b,
+          a: Number.isFinite(alpha) ? alpha : 1
+        };
       }
 
-      const [r, g, b, alpha] = match[1].split(/[ ,/]+/).filter(Boolean).map(Number);
+      const srgbMatch = value.match(/^color\(srgb\s+([^)]+)\)$/i);
 
-      return {
-        r,
-        g,
-        b,
-        a: Number.isFinite(alpha) ? alpha : 1
-      };
+      if (srgbMatch) {
+        const [r, g, b, alpha] = srgbMatch[1]
+          .split(/[\s/]+/)
+          .filter(Boolean)
+          .map(Number);
+
+        // CSS Color 4 serializes sRGB channels from zero to one.
+        return {
+          r: r * 255,
+          g: g * 255,
+          b: b * 255,
+          a: Number.isFinite(alpha) ? alpha : 1
+        };
+      }
+
+      throw new Error(`Unsupported computed color: ${value}`);
     }
 
     function blend(top, bottom) {
@@ -247,13 +434,13 @@ async function getLightThemeMetrics(page) {
     const checks = [
       ["body", "body"],
       ["top nav", ".top-nav a"],
-      ["control heading", ".control-heading h2"],
+      ["control heading", ".control-heading [role='heading']"],
       ["control label", ".control-field > span"],
       ["select control", "#themeSelect"],
       ["search input", "#iconSearch"],
       ["card label", ".icon-card strong"],
       ["card code", ".icon-card code"],
-      ["toolbar", ".gallery-toolbar h2"],
+      ["toolbar", ".gallery-toolbar [role='heading']"],
       ["stat label", ".pack-summary dt"],
       ["stat value", ".pack-summary dd"],
       ["install command", ".install-block code"],
@@ -263,7 +450,7 @@ async function getLightThemeMetrics(page) {
       const element = document.querySelector(selector);
 
       if (!element) {
-        throw new Error(`Missing light mode contrast target: ${selector}`);
+        throw new Error(`Missing theme contrast target: ${selector}`);
       }
 
       const styles = getComputedStyle(element);
@@ -287,7 +474,7 @@ async function getLightThemeMetrics(page) {
     const cardElement = document.querySelector(".icon-card");
 
     if (!cardElement) {
-      throw new Error("Missing light mode surface target: .icon-card");
+      throw new Error("Missing theme surface target: .icon-card");
     }
 
     const cardBackground = parseColor(getComputedStyle(cardElement).backgroundColor);

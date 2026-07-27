@@ -1,4 +1,4 @@
-<svg overflow="visible" xmlns="http://www.w3.org/2000/svg" class="rg-icon" width="256" height="256" viewBox="-8 -8 272 272" role="img" aria-labelledby="network-title network-desc">
+<svg overflow="visible" xmlns="http://www.w3.org/2000/svg" class="rg-icon" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="network-title network-desc">
   <title id="network-title">Network</title>
   <desc id="network-desc">Theme-aware retro-glass SVG icon with translucent glassmorphism styling and UI Style Kit color variables. Semantic meaning: Connected nodes, graph, distributed system.</desc>
   <style>
@@ -20,12 +20,26 @@
 .rg-i-surface{fill:var(--rg-icon-bg,rgb(var(--usk-surface-rgb,255 255 255)/.42));stroke:var(--rg-icon-border,rgb(var(--usk-border-rgb,184 211 221)/.48));stroke-width:4.5}
 .rg-i-rim{fill:none;stroke:var(--rg-icon-rim,rgb(255 255 255/.64));stroke-width:2.25;stroke-linecap:round;stroke-linejoin:round}
 [data-icon-frame]{opacity:var(--usk-icon-frame-opacity,1)}
-[data-icon-frame="decor"]{opacity:var(--usk-icon-frame-decor-opacity,var(--usk-icon-frame-opacity,1))}
+[data-icon-frame="decor"]{opacity:var(--usk-icon-frame-decor-opacity,.18)}
 [data-icon-glyph="play"]{fill:var(--usk-icon-play,var(--usk-icon-foreground,rgb(var(--usk-text-rgb,255 255 255))));stroke:none;opacity:1}
 </style>
-  <rect data-icon-frame="decor" class="rg-i-surface" x="28" y="30" width="200" height="196" rx="42"/>
-  <path class="rg-i-bg-soft" d="M48 162C72 116 102 98 132 104C164 110 177 88 208 72V226H48Z" opacity=".72"/>
+  <rect data-icon-frame="surface" class="rg-i-surface" x="28" y="30" width="200" height="196" rx="42"/>
   <path data-icon-frame="decor" class="rg-i-sheen" d="M70 48C56 51 48 62 47 80M88 46H122" opacity=".66"/>
-  <path data-icon-frame="decor" class="rg-i-rim" d="M174 46H196M50 194H112M152 194H206" opacity=".62"/>
-  <circle class="rg-i-line" cx="82" cy="132" r="18"/><circle class="rg-i-line-2" cx="128" cy="82" r="18"/><circle class="rg-i-line" cx="174" cy="132" r="18"/><circle class="rg-i-line-3" cx="128" cy="184" r="18"/><path class="rg-i-muted" d="M96 119L115 95M141 95L160 119M100 140L114 172M156 172L170 140M100 132H156"/>
+  <path data-icon-frame="decor" class="rg-i-rim" d="M174 46H196M50 194H96M168 194H206" opacity=".62"/>
+  <g data-icon-glyph="semantic" data-icon-prototype="reference-led-v1">
+    <!-- Transparent link bars terminate behind four lens-like glass nodes. -->
+    <path data-icon-part="network-connector" class="rg-i-line-2" d="M82 113L114 81"/>
+    <path data-icon-part="network-connector" class="rg-i-line-2" d="M142 81L174 113"/>
+    <path data-icon-part="network-connector" class="rg-i-line-2" d="M82 143L114 175"/>
+    <path data-icon-part="network-connector" class="rg-i-line-2" d="M174 143L142 175"/>
+    <path data-icon-part="network-connector" class="rg-i-line-2" d="M90 128L166 128"/>
+    <circle data-icon-part="network-node" data-icon-glass="body" class="rg-i-secondary" cx="68" cy="128" r="22" stroke-width="4.7"/>
+    <circle data-icon-part="network-node" data-icon-glass="body" class="rg-i-primary" cx="128" cy="64" r="22" stroke-width="6.2"/>
+    <circle data-icon-part="network-node" data-icon-glass="body" class="rg-i-secondary" cx="188" cy="128" r="22" stroke-width="4.7"/>
+    <circle data-icon-part="network-node" data-icon-glass="body" class="rg-i-accent" cx="128" cy="192" r="22" stroke-width="4.7"/>
+    <path data-icon-glass="refraction" data-icon-detail="node-refraction" class="rg-i-line-3" d="M53 120L78 137M113 56L138 73M173 120L198 137M113 184L138 201"/>
+    <path data-icon-glass="refraction" data-icon-detail="link-refraction" class="rg-i-line-2" d="M96 100L108 112M148 144L160 156"/>
+    <path data-icon-audit="decorative" data-icon-glass="rim" class="rg-i-rim" d="M46 128A22 22 0 0 1 68 106M106 64A22 22 0 0 1 128 42M166 128A22 22 0 0 1 188 106M106 192A22 22 0 0 1 128 170M68 150A22 22 0 0 0 90 128M128 86A22 22 0 0 0 150 64M188 150A22 22 0 0 0 210 128M128 214A22 22 0 0 0 150 192"/>
+    <path data-icon-audit="decorative" class="rg-i-sheen" d="M53 114C58 109 63 108 69 108M113 50C118 45 123 44 129 44M173 114C178 109 183 108 189 108M113 178C118 173 123 172 129 172"/>
+  </g>
 </svg>

@@ -15,7 +15,7 @@
 <g transform="translate(54, 160) scale(.44)">
   <title id="home-title">Home</title>
   <desc id="home-desc">A fully colored synthwave web application icon with neon cyan, magenta, gold, and midnight purple details.</desc>
-  
+
   <defs>
     <linearGradient id="home-bg" x1="28" y1="24" x2="228" y2="232" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 37 17 91))"/>
@@ -61,7 +61,7 @@
 <g transform="translate(254, 160) scale(.44)">
   <title id="dashboard-title">Dashboard</title>
   <desc id="dashboard-desc">A fully colored synthwave web application icon with neon cyan, magenta, gold, and midnight purple details.</desc>
-  
+
   <defs>
     <linearGradient id="dashboard-bg" x1="28" y1="24" x2="228" y2="232" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 37 17 91))"/>
@@ -107,7 +107,7 @@
 <g transform="translate(454, 160) scale(.44)">
   <title id="search-title">Search</title>
   <desc id="search-desc">A fully colored synthwave web application icon with neon cyan, magenta, gold, and midnight purple details.</desc>
-  
+
   <defs>
     <linearGradient id="search-bg" x1="28" y1="24" x2="228" y2="232" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 37 17 91))"/>
@@ -153,7 +153,7 @@
 <g transform="translate(654, 160) scale(.44)">
   <title id="user-title">User</title>
   <desc id="user-desc">A fully colored synthwave web application icon with neon cyan, magenta, gold, and midnight purple details.</desc>
-  
+
   <defs>
     <linearGradient id="user-bg" x1="28" y1="24" x2="228" y2="232" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 37 17 91))"/>
@@ -199,7 +199,7 @@
 <g transform="translate(854, 160) scale(.44)">
   <title id="users-title">Users</title>
   <desc id="users-desc">A fully colored synthwave web application icon with neon cyan, magenta, gold, and midnight purple details.</desc>
-  
+
   <defs>
     <linearGradient id="users-bg" x1="28" y1="24" x2="228" y2="232" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 37 17 91))"/>
@@ -245,7 +245,7 @@
 <g transform="translate(1054, 160) scale(.44)">
   <title id="settings-title">Settings</title>
   <desc id="settings-desc">A fully colored synthwave web application icon with neon cyan, magenta, gold, and midnight purple details.</desc>
-  
+
   <defs>
     <linearGradient id="settings-bg" x1="28" y1="24" x2="228" y2="232" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 37 17 91))"/>
@@ -291,7 +291,7 @@
 <g transform="translate(54, 330) scale(.44)">
   <title id="bell-title">Notifications</title>
   <desc id="bell-desc">A fully colored synthwave web application icon with neon cyan, magenta, gold, and midnight purple details.</desc>
-  
+
   <defs>
     <linearGradient id="bell-bg" x1="28" y1="24" x2="228" y2="232" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 37 17 91))"/>
@@ -337,7 +337,7 @@
 <g transform="translate(254, 330) scale(.44)">
   <title id="message-title">Messages</title>
   <desc id="message-desc">A fully colored synthwave web application icon with neon cyan, magenta, gold, and midnight purple details.</desc>
-  
+
   <defs>
     <linearGradient id="message-bg" x1="28" y1="24" x2="228" y2="232" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 37 17 91))"/>
@@ -383,7 +383,7 @@
 <g transform="translate(454, 330) scale(.44)">
   <title id="mail-title">Email</title>
   <desc id="mail-desc">A fully colored synthwave web application icon with neon cyan, magenta, gold, and midnight purple details.</desc>
-  
+
   <defs>
     <linearGradient id="mail-bg" x1="28" y1="24" x2="228" y2="232" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 37 17 91))"/>
@@ -429,7 +429,7 @@
 <g transform="translate(654, 330) scale(.44)">
   <title id="calendar-title">Calendar</title>
   <desc id="calendar-desc">A fully colored synthwave web application icon with neon cyan, magenta, gold, and midnight purple details.</desc>
-  
+
   <defs>
     <linearGradient id="calendar-bg" x1="28" y1="24" x2="228" y2="232" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 37 17 91))"/>
@@ -475,7 +475,7 @@
 <g transform="translate(854, 330) scale(.44)">
   <title id="upload-title">Upload</title>
   <desc id="upload-desc">A fully colored synthwave web application icon with neon cyan, magenta, gold, and midnight purple details.</desc>
-  
+
   <defs>
     <linearGradient id="upload-bg" x1="28" y1="24" x2="228" y2="232" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 37 17 91))"/>
@@ -521,7 +521,7 @@
 <g transform="translate(1054, 330) scale(.44)">
   <title id="download-title">Download</title>
   <desc id="download-desc">A fully colored synthwave web application icon with neon cyan, magenta, gold, and midnight purple details.</desc>
-  
+
   <defs>
     <linearGradient id="download-bg" x1="28" y1="24" x2="228" y2="232" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 37 17 91))"/>
@@ -567,7 +567,7 @@
 <g transform="translate(54, 500) scale(.44)">
   <title id="file-title">File</title>
   <desc id="file-desc">A fully colored synthwave web application icon with neon cyan, magenta, gold, and midnight purple details.</desc>
-  
+
   <defs>
     <linearGradient id="file-bg" x1="28" y1="24" x2="228" y2="232" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 37 17 91))"/>
@@ -613,7 +613,7 @@
 <g transform="translate(254, 500) scale(.44)">
   <title id="folder-title">Folder</title>
   <desc id="folder-desc">A fully colored synthwave web application icon with neon cyan, magenta, gold, and midnight purple details.</desc>
-  
+
   <defs>
     <linearGradient id="folder-bg" x1="28" y1="24" x2="228" y2="232" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 37 17 91))"/>
@@ -659,7 +659,7 @@
 <g transform="translate(454, 500) scale(.44)">
   <title id="database-title">Database</title>
   <desc id="database-desc">A fully colored synthwave web application icon with neon cyan, magenta, gold, and midnight purple details.</desc>
-  
+
   <defs>
     <linearGradient id="database-bg" x1="28" y1="24" x2="228" y2="232" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 37 17 91))"/>
@@ -705,7 +705,7 @@
 <g transform="translate(654, 500) scale(.44)">
   <title id="server-title">Server</title>
   <desc id="server-desc">A fully colored synthwave web application icon with neon cyan, magenta, gold, and midnight purple details.</desc>
-  
+
   <defs>
     <linearGradient id="server-bg" x1="28" y1="24" x2="228" y2="232" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 37 17 91))"/>
@@ -751,7 +751,7 @@
 <g transform="translate(854, 500) scale(.44)">
   <title id="api-title">API</title>
   <desc id="api-desc">A fully colored synthwave web application icon with neon cyan, magenta, gold, and midnight purple details.</desc>
-  
+
   <defs>
     <linearGradient id="api-bg" x1="28" y1="24" x2="228" y2="232" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 37 17 91))"/>
@@ -797,7 +797,7 @@
 <g transform="translate(1054, 500) scale(.44)">
   <title id="lock-title">Security Lock</title>
   <desc id="lock-desc">A fully colored synthwave web application icon with neon cyan, magenta, gold, and midnight purple details.</desc>
-  
+
   <defs>
     <linearGradient id="lock-bg" x1="28" y1="24" x2="228" y2="232" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 37 17 91))"/>
@@ -843,7 +843,7 @@
 <g transform="translate(54, 670) scale(.44)">
   <title id="chart-title">Analytics Chart</title>
   <desc id="chart-desc">A fully colored synthwave web application icon with neon cyan, magenta, gold, and midnight purple details.</desc>
-  
+
   <defs>
     <linearGradient id="chart-bg" x1="28" y1="24" x2="228" y2="232" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 37 17 91))"/>
@@ -889,7 +889,7 @@
 <g transform="translate(254, 670) scale(.44)">
   <title id="credit-card-title">Payments</title>
   <desc id="credit-card-desc">A fully colored synthwave web application icon with neon cyan, magenta, gold, and midnight purple details.</desc>
-  
+
   <defs>
     <linearGradient id="credit-card-bg" x1="28" y1="24" x2="228" y2="232" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 37 17 91))"/>
@@ -935,7 +935,7 @@
 <g transform="translate(454, 670) scale(.44)">
   <title id="cart-title">Cart</title>
   <desc id="cart-desc">A fully colored synthwave web application icon with neon cyan, magenta, gold, and midnight purple details.</desc>
-  
+
   <defs>
     <linearGradient id="cart-bg" x1="28" y1="24" x2="228" y2="232" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 37 17 91))"/>
@@ -981,7 +981,7 @@
 <g transform="translate(654, 670) scale(.44)">
   <title id="login-title">Login</title>
   <desc id="login-desc">A fully colored synthwave web application icon with neon cyan, magenta, gold, and midnight purple details.</desc>
-  
+
   <defs>
     <linearGradient id="login-bg" x1="28" y1="24" x2="228" y2="232" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 37 17 91))"/>
@@ -1027,7 +1027,7 @@
 <g transform="translate(854, 670) scale(.44)">
   <title id="logout-title">Logout</title>
   <desc id="logout-desc">A fully colored synthwave web application icon with neon cyan, magenta, gold, and midnight purple details.</desc>
-  
+
   <defs>
     <linearGradient id="logout-bg" x1="28" y1="24" x2="228" y2="232" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 37 17 91))"/>
@@ -1073,7 +1073,7 @@
 <g transform="translate(1054, 670) scale(.44)">
   <title id="edit-title">Edit</title>
   <desc id="edit-desc">A fully colored synthwave web application icon with neon cyan, magenta, gold, and midnight purple details.</desc>
-  
+
   <defs>
     <linearGradient id="edit-bg" x1="28" y1="24" x2="228" y2="232" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 37 17 91))"/>
@@ -1119,7 +1119,7 @@
 <g transform="translate(54, 840) scale(.44)">
   <title id="trash-title">Trash</title>
   <desc id="trash-desc">A fully colored synthwave web application icon with neon cyan, magenta, gold, and midnight purple details.</desc>
-  
+
   <defs>
     <linearGradient id="trash-bg" x1="28" y1="24" x2="228" y2="232" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 37 17 91))"/>
@@ -1165,7 +1165,7 @@
 <g transform="translate(254, 840) scale(.44)">
   <title id="plus-title">Add</title>
   <desc id="plus-desc">A fully colored synthwave web application icon with neon cyan, magenta, gold, and midnight purple details.</desc>
-  
+
   <defs>
     <linearGradient id="plus-bg" x1="28" y1="24" x2="228" y2="232" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 37 17 91))"/>
@@ -1211,7 +1211,7 @@
 <g transform="translate(454, 840) scale(.44)">
   <title id="minus-title">Remove</title>
   <desc id="minus-desc">A fully colored synthwave web application icon with neon cyan, magenta, gold, and midnight purple details.</desc>
-  
+
   <defs>
     <linearGradient id="minus-bg" x1="28" y1="24" x2="228" y2="232" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 37 17 91))"/>
@@ -1257,7 +1257,7 @@
 <g transform="translate(654, 840) scale(.44)">
   <title id="filter-title">Filter</title>
   <desc id="filter-desc">A fully colored synthwave web application icon with neon cyan, magenta, gold, and midnight purple details.</desc>
-  
+
   <defs>
     <linearGradient id="filter-bg" x1="28" y1="24" x2="228" y2="232" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 37 17 91))"/>
@@ -1303,7 +1303,7 @@
 <g transform="translate(854, 840) scale(.44)">
   <title id="menu-title">Menu</title>
   <desc id="menu-desc">A fully colored synthwave web application icon with neon cyan, magenta, gold, and midnight purple details.</desc>
-  
+
   <defs>
     <linearGradient id="menu-bg" x1="28" y1="24" x2="228" y2="232" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 37 17 91))"/>
@@ -1349,7 +1349,7 @@
 <g transform="translate(1054, 840) scale(.44)">
   <title id="media-image-title">Image Media</title>
   <desc id="media-image-desc">A fully colored synthwave web application icon with neon cyan, magenta, gold, and midnight purple details.</desc>
-  
+
   <defs>
     <linearGradient id="media-image-bg" x1="28" y1="24" x2="228" y2="232" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 37 17 91))"/>
@@ -1395,7 +1395,7 @@
 <g transform="translate(54, 1010) scale(.44)">
   <title id="video-title">Video</title>
   <desc id="video-desc">A fully colored synthwave web application icon with neon cyan, magenta, gold, and midnight purple details.</desc>
-  
+
   <defs>
     <linearGradient id="video-bg" x1="28" y1="24" x2="228" y2="232" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 37 17 91))"/>
@@ -1441,7 +1441,7 @@
 <g transform="translate(254, 1010) scale(.44)">
   <title id="code-title">Code</title>
   <desc id="code-desc">A fully colored synthwave web application icon with neon cyan, magenta, gold, and midnight purple details.</desc>
-  
+
   <defs>
     <linearGradient id="code-bg" x1="28" y1="24" x2="228" y2="232" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 37 17 91))"/>
@@ -1487,7 +1487,7 @@
 <g transform="translate(454, 1010) scale(.44)">
   <title id="rocket-title">Deploy Rocket</title>
   <desc id="rocket-desc">A fully colored synthwave web application icon with neon cyan, magenta, gold, and midnight purple details.</desc>
-  
+
   <defs>
     <linearGradient id="rocket-bg" x1="28" y1="24" x2="228" y2="232" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 37 17 91))"/>
@@ -1533,7 +1533,7 @@
 <g transform="translate(654, 1010) scale(.44)">
   <title id="bug-title">Bug</title>
   <desc id="bug-desc">A fully colored synthwave web application icon with neon cyan, magenta, gold, and midnight purple details.</desc>
-  
+
   <defs>
     <linearGradient id="bug-bg" x1="28" y1="24" x2="228" y2="232" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 37 17 91))"/>
@@ -1579,7 +1579,7 @@
 <g transform="translate(854, 1010) scale(.44)">
   <title id="help-title">Help</title>
   <desc id="help-desc">A fully colored synthwave web application icon with neon cyan, magenta, gold, and midnight purple details.</desc>
-  
+
   <defs>
     <linearGradient id="help-bg" x1="28" y1="24" x2="228" y2="232" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 37 17 91))"/>
@@ -1625,7 +1625,7 @@
 <g transform="translate(1054, 1010) scale(.44)">
   <title id="link-title">Link</title>
   <desc id="link-desc">A fully colored synthwave web application icon with neon cyan, magenta, gold, and midnight purple details.</desc>
-  
+
   <defs>
     <linearGradient id="link-bg" x1="28" y1="24" x2="228" y2="232" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 37 17 91))"/>
@@ -1671,7 +1671,7 @@
 <g transform="translate(54, 1180) scale(.44)">
   <title id="cloud-title">Cloud</title>
   <desc id="cloud-desc">A fully colored synthwave web application icon with neon cyan, magenta, gold, and midnight purple details.</desc>
-  
+
   <defs>
     <linearGradient id="cloud-bg" x1="28" y1="24" x2="228" y2="232" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 37 17 91))"/>
@@ -1717,7 +1717,7 @@
 <g transform="translate(254, 1180) scale(.44)">
   <title id="globe-title">Globe</title>
   <desc id="globe-desc">A fully colored synthwave web application icon with neon cyan, magenta, gold, and midnight purple details.</desc>
-  
+
   <defs>
     <linearGradient id="globe-bg" x1="28" y1="24" x2="228" y2="232" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 37 17 91))"/>

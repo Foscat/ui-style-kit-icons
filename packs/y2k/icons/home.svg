@@ -1,4 +1,4 @@
-<svg overflow="visible" xmlns="http://www.w3.org/2000/svg" class="y2k-icon" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="home-title home-desc">
+<svg overflow="hidden" xmlns="http://www.w3.org/2000/svg" class="y2k-icon" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="home-title home-desc">
   <title id="home-title">Home</title>
   <desc id="home-desc">Theme-aware Y2K SVG icon with glossy jelly styling and UI Style Kit color variables. Semantic meaning: Primary landing or app home destination.</desc>
   <style>
@@ -12,6 +12,7 @@
 .y2k-i-warning{fill:var(--y2k-icon-warning,rgb(var(--usk-warning-rgb,255 200 78)));stroke:var(--y2k-icon-warning,rgb(var(--usk-warning-rgb,255 200 78)))}
 .y2k-i-danger{fill:var(--y2k-icon-danger,rgb(var(--usk-danger-rgb,255 92 122)));stroke:var(--y2k-icon-danger,rgb(var(--usk-danger-rgb,255 92 122)))}
 .y2k-i-gloss{fill:var(--y2k-icon-gloss,rgb(255 255 255/.78));stroke:none}
+.y2k-i-shine{fill:none;stroke:var(--y2k-icon-gloss,rgb(255 255 255/.78));stroke-width:7;stroke-linecap:round}
 .y2k-i-line{fill:none;stroke:var(--y2k-icon-primary,rgb(var(--usk-primary-rgb,55 160 255)));stroke-width:7;stroke-linecap:round;stroke-linejoin:round}
 .y2k-i-line-2{fill:none;stroke:var(--y2k-icon-secondary,rgb(var(--usk-secondary-rgb,255 96 190)));stroke-width:5;stroke-linecap:round;stroke-linejoin:round}
 .y2k-i-line-3{fill:none;stroke:var(--y2k-icon-accent,rgb(var(--usk-accent-rgb,149 255 241)));stroke-width:4;stroke-linecap:round;stroke-linejoin:round}
@@ -21,9 +22,17 @@
 [data-icon-frame="decor"]{opacity:var(--usk-icon-frame-decor-opacity,var(--usk-icon-frame-opacity,1))}
 [data-icon-glyph="play"]{fill:var(--usk-icon-play,var(--usk-icon-foreground,rgb(var(--usk-text-rgb,255 255 255))));stroke:none;opacity:1}
 </style>
-  <rect data-icon-frame="decor" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
-  <ellipse data-icon-frame="decor" class="y2k-i-gloss" cx="96" cy="62" rx="50" ry="14" opacity=".72"/>
-  <path class="y2k-i-muted" d="M54 206H106M146 206H202" opacity=".55"/>
-  <path class="y2k-i-line-3" d="M54 52H78M188 52H204" opacity=".7"/>
-  <path class="y2k-i-line" d="M66 130L128 78L190 130"/><path class="y2k-i-bg-strong" stroke="var(--y2k-icon-secondary,rgb(var(--usk-secondary-rgb,255 96 190)))" stroke-width="6" d="M84 126V188H172V126Z"/><path class="y2k-i-line-3" d="M115 188V152H141V188"/>
+<rect data-icon-frame="surface" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
+  <path data-icon-frame="decor" data-icon-audit="decorative" class="y2k-i-shine" fill="none" d="M48 78C54 58 68 46 88 42H102" opacity=".58"/>
+  <path data-icon-frame="decor" class="y2k-i-muted" d="M52 206H104M152 206H204" opacity=".55"/>
+  <path data-icon-frame="decor" class="y2k-i-line-3" d="M52 52H76M180 52H204" opacity=".7"/>
+  <g data-icon-glyph="semantic" data-icon-prototype="reference-led-v1">
+    <path data-icon-y2k="body" class="y2k-i-bg-strong" d="M68 128Q68 116 78 107L112 77Q128 63 144 77L178 107Q188 116 188 128V183Q188 196 175 196H81Q68 196 68 183Z" stroke="var(--y2k-icon-primary,rgb(var(--usk-primary-rgb,55 160 255)))" stroke-width="7" stroke-linejoin="round"/>
+    <path class="y2k-i-line-2" d="M68 130L118 85Q128 76 138 85L188 130"/>
+    <rect class="y2k-i-secondary" x="111" y="145" width="34" height="51" rx="17" stroke-width="5"/>
+    <circle class="y2k-i-accent" cx="92" cy="153" r="10" stroke-width="4"/>
+    <circle class="y2k-i-accent" cx="164" cy="153" r="10" stroke-width="4"/>
+    <path data-icon-audit="decorative" data-icon-y2k="shine" class="y2k-i-shine" d="M84 116L116 88Q128 78 140 88L154 100" opacity=".88"/>
+  </g>
+
 </svg>

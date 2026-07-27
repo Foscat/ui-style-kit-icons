@@ -1,4 +1,4 @@
-<svg overflow="visible" xmlns="http://www.w3.org/2000/svg" class="tactile-icon" width="256" height="256" viewBox="-8 -8 272 272" role="img" aria-labelledby="users-title users-desc">
+<svg overflow="visible" xmlns="http://www.w3.org/2000/svg" class="tactile-icon" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="users-title users-desc">
   <title id="users-title">Users</title>
   <desc id="users-desc">Theme-aware Skeuomorphic / Tactile SVG icon with raised surfaces, inset grooves, bevel highlights, and UI Style Kit color variables. Semantic meaning: Audience, team, members, group.</desc>
   <style>
@@ -26,8 +26,23 @@
 [data-icon-frame="decor"]{opacity:var(--usk-icon-frame-decor-opacity,var(--usk-icon-frame-opacity,1))}
 [data-icon-glyph="play"]{fill:var(--usk-icon-play,var(--usk-icon-foreground,rgb(var(--usk-text-rgb,255 255 255))));stroke:none;opacity:1}
 </style>
-  <rect data-icon-frame="decor" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="decor" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H175M45 56V138" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M82 210H198M211 86V178" opacity=".74"/>
-  <path data-icon-frame="decor" class="tactile-i-inset" d="M48 68H92M164 68H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 190H100M158 190H204" opacity=".58"/>
-  <path data-icon-frame="decor" class="tactile-i-highlight" d="M58 214H112M142 214H184" opacity=".5"/>
-  <circle class="tactile-i-line-2" cx="96" cy="104" r="24"/><circle class="tactile-i-line-2" cx="160" cy="104" r="24"/><circle class="tactile-i-line tactile-i-glow" cx="128" cy="86" r="30"/><path class="tactile-i-line-2" d="M58 190C65 158 86 140 110 140M198 190C191 158 170 140 146 140M78 198C86 160 105 140 128 140C151 140 170 160 178 198"/>
+  <rect data-icon-frame="surface" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/>
+  <rect data-icon-frame="surface" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/>
+  <path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H104M45 56V92" opacity=".82"/>
+  <path data-icon-frame="decor" class="tactile-i-lowlight" d="M152 210H198M211 194V208" opacity=".74"/>
+  <g data-icon-glyph="semantic" data-icon-prototype="reference-led-v1">
+    <!-- Jackets, collars, and badges distinguish three raised desk figurines. -->
+    <path data-icon-audit="decorative" data-icon-material="shadow" class="tactile-i-shadow" d="M49 188C52 153 65 138 84 138C103 138 116 153 119 188ZM88 205C91 154 106 132 130 132C154 132 169 154 172 205ZM141 188C144 153 157 138 176 138C195 138 208 153 211 188Z" opacity=".5"/>
+    <circle data-icon-part="users-head" data-icon-material="body" class="tactile-i-secondary" cx="80" cy="101" r="15" stroke-width="5.2"/>
+    <circle data-icon-part="users-head" data-icon-material="body" class="tactile-i-primary" cx="128" cy="82" r="19" stroke-width="6"/>
+    <circle data-icon-part="users-head" data-icon-material="body" class="tactile-i-accent" cx="176" cy="101" r="15" stroke-width="5.2"/>
+    <path data-icon-part="users-shoulders" data-icon-material="body" class="tactile-i-secondary" stroke-width="5.2" d="M45 181C48 147 61 132 80 132C99 132 112 147 115 181Z"/>
+    <path data-icon-part="users-shoulders" data-icon-material="body" class="tactile-i-primary" stroke-width="6" d="M84 198C87 148 103 126 128 126C153 126 169 148 172 198Z"/>
+    <path data-icon-part="users-shoulders" data-icon-material="body" class="tactile-i-accent" stroke-width="5.2" d="M141 181C144 147 157 132 176 132C195 132 208 147 211 181Z"/>
+    <path data-icon-detail="jacket-collars" class="tactile-i-line-2" d="M67 136L80 153L93 136M108 132L128 157L148 132M163 136L176 153L189 136"/>
+    <path data-icon-detail="jacket-seams" class="tactile-i-line-3" d="M80 153V178M128 157V195M176 153V178"/>
+    <rect data-icon-detail="name-badge" class="tactile-i-warning" x="137" y="164" width="17" height="10" rx="3" stroke-width="3"/>
+    <path data-icon-audit="decorative" data-icon-material="highlight" class="tactile-i-highlight" d="M65 101A15 15 0 0 1 80 86M109 82A19 19 0 0 1 128 63M161 101A15 15 0 0 1 176 86"/>
+    <path data-icon-audit="decorative" data-icon-material="lowlight" class="tactile-i-lowlight" d="M80 116A15 15 0 0 0 95 101M128 101A19 19 0 0 0 147 82M176 116A15 15 0 0 0 191 101M45 181H115M84 198H172M141 181H211"/>
+  </g>
 </svg>

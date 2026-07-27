@@ -25,14 +25,15 @@
 [data-icon-frame="decor"]{opacity:var(--usk-icon-frame-decor-opacity,var(--usk-icon-frame-opacity,1))}
 [data-icon-glyph="play"]{fill:var(--usk-icon-play,var(--usk-icon-foreground,rgb(var(--usk-text-rgb,255 255 255))));stroke:none;opacity:1}
 </style>
-  <rect data-icon-frame="decor" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="decor" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="58" cy="70" r="9"/><rect data-icon-frame="decor" class="max-i-pop" x="169" y="49" width="29" height="18" rx="9" transform="rotate(12 184 58)"/>
-  <path class="max-i-line-2" d="M46 198H92M152 198H204" opacity=".7"/><path class="max-i-line-3" d="M44 92L60 108M196 154L214 172" opacity=".76"/>
-  <path class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
-  <g data-icon-video="player">
-    <rect data-icon-video="screen" class="max-i-bg-strong" x="48" y="82" width="132" height="92" rx="18" stroke="var(--max-icon-primary,rgb(var(--usk-primary-rgb,255 77 141)))" stroke-width="7"/>
-    <path data-icon-video="camera" class="max-i-secondary" d="M180 108L212 90V166L180 148Z" stroke-width="7"/>
-    <path data-icon-video="controls" class="max-i-muted" d="M68 104H94M68 158H126M144 158H160" opacity=".62"/>
-    <circle data-icon-video="record" class="max-i-accent" cx="150" cy="104" r="6" stroke-width="4"/>
-    <path d="M96 104L144 128L96 152Z" data-icon-glyph="play"/>
-  </g>
+<rect data-icon-frame="surface" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="surface" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="48" cy="48" r="7"/><rect data-icon-frame="decor" class="max-i-pop" x="184" y="196" width="24" height="14" rx="7" transform="rotate(12 196 203)"/>
+  <path data-icon-frame="decor" class="max-i-line-2" d="M46 204H86M166 204H204" opacity=".7"/>
+  <path data-icon-frame="decor" class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
+<g data-icon-glyph="semantic" data-icon-prototype="reference-led-v1" data-icon-video="player">
+  <rect data-icon-part="video-body" data-icon-video="screen" class="max-i-secondary" x="44" y="75" width="140" height="108" rx="19" style="fill:var(--max-icon-secondary,rgb(var(--usk-secondary-rgb,57 222 255)));stroke:var(--max-icon-border,rgb(var(--usk-border-rgb,22 18 35)/.94));stroke-width:7"/>
+  <path data-icon-part="video-camera" data-icon-video="camera" class="max-i-primary" d="M184 101L215 83V173L184 153Z" style="fill:var(--max-icon-primary,rgb(var(--usk-primary-rgb,255 77 141)));stroke:var(--max-icon-border,rgb(var(--usk-border-rgb,22 18 35)/.94));stroke-width:7;stroke-linejoin:round"/>
+  <path data-icon-part="video-controls" data-icon-video="controls" class="max-i-accent" d="M61 148H167V171H61Q54 171 54 164V155Q54 148 61 148Z" style="fill:var(--max-icon-accent,rgb(var(--usk-accent-rgb,255 203 43)));stroke:var(--max-icon-border,rgb(var(--usk-border-rgb,22 18 35)/.94));stroke-width:5;stroke-linejoin:round"/>
+  <circle data-icon-part="video-record" data-icon-video="record" class="max-i-danger" cx="157" cy="96" r="8" style="fill:var(--max-icon-danger,rgb(var(--usk-danger-rgb,255 59 92)));stroke:var(--max-icon-border,rgb(var(--usk-border-rgb,22 18 35)/.94));stroke-width:4"/>
+  <path data-icon-part="video-highlight" class="max-i-bg-strong" d="M62 91H113Q119 91 119 97Q119 103 113 103H62Z"/>
+  <path data-icon-part="video-play" d="M93 104L145 129L93 154Z" data-icon-glyph="play"/>
+</g>
 </svg>

@@ -20,8 +20,14 @@
 [data-icon-frame="decor"]{opacity:var(--usk-icon-frame-decor-opacity,var(--usk-icon-frame-opacity,1))}
 [data-icon-glyph="play"]{fill:var(--usk-icon-play,var(--usk-icon-foreground,rgb(var(--usk-text-rgb,255 255 255))));stroke:none;opacity:1}
 </style>
-  <rect data-icon-frame="decor" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
-  <rect data-icon-frame="decor" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
-  <path class="brutal-i-muted" d="M48 64H94M150 64H196M48 194H104M144 194H196"/>
-  <circle class="brutal-i-bg-strong" cx="112" cy="112" r="42" stroke="var(--brutal-icon-border,rgb(var(--usk-border-rgb,0 0 0)))" stroke-width="9"/><path class="brutal-i-line" d="M145 145L194 194"/><path class="brutal-i-line-2" d="M88 112H136"/>
+<rect data-icon-frame="surface" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
+  <rect data-icon-frame="surface" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
+  <path data-icon-frame="decor" class="brutal-i-muted" d="M48 52H84M160 52H196M48 204H88M156 204H196"/>
+
+
+
+<circle class="brutal-i-bg-strong" cx="112" cy="112" r="42" stroke="var(--brutal-icon-border,rgb(var(--usk-border-rgb,0 0 0)))" stroke-width="9"/>
+<path class="brutal-i-line" d="M145 145L194 194"/>
+<path class="brutal-i-line-2" d="M88 112H136"/>
+
 </svg>

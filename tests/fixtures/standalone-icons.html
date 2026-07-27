@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Standalone icon matrix</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        padding: 24px;
+        font-family: system-ui, sans-serif;
+      }
+
+      body[data-surface="light"] {
+        color: #111827;
+        background: #ffffff;
+      }
+
+      body[data-surface="dark"] {
+        color: #f8fafc;
+        background: #070c18;
+      }
+
+      main {
+        display: grid;
+        grid-template-columns: repeat(8, 112px);
+        gap: 12px;
+      }
+
+      .icon-card {
+        min-block-size: 112px;
+        display: grid;
+        place-items: center;
+        border: 1px solid currentColor;
+        border-radius: 6px;
+      }
+
+      [data-surface="light"] .icon-card {
+        background: #f8fafc;
+      }
+
+      [data-surface="dark"] .icon-card {
+        background: #111827;
+      }
+
+      usk-icon {
+        --usk-icon-size: 76px;
+      }
+    </style>
+  </head>
+  <body data-surface="light">
+    <main id="iconGrid" aria-label="Standalone icon audit"></main>
+    <script type="module">
+      import {
+        getPack,
+        setAssetBaseUrl
+      } from "../../dist/ui-style-kit-icons.js";
+
+      const query = new URLSearchParams(location.search);
+      const surface = query.get("surface") === "dark" ? "dark" : "light";
+      const pack = getPack(query.get("pack"));
+      const frame = query.get("frame") === "none" ? "none" : "auto";
+      const grid = document.querySelector("#iconGrid");
+      const loadEvents = [];
+
+      document.body.dataset.surface = surface;
+      document.body.dataset.pack = pack.id;
+      setAssetBaseUrl(new URL("../../", import.meta.url));
+
+      for (const iconRecord of [...pack.coreIcons, ...pack.optionalIcons]) {
+        const card = document.createElement("div");
+        const icon = document.createElement("usk-icon");
+
+        card.className = "icon-card";
+        card.dataset.iconId = iconRecord.id;
+        icon.setAttribute("name", iconRecord.id);
+        icon.setAttribute("pack", pack.id);
+        if (frame === "none") {
+          icon.setAttribute("frame", "none");
+        }
+
+        loadEvents.push(
+          new Promise((resolve, reject) => {
+            icon.addEventListener("usk-icon-load", resolve, { once: true });
+            icon.addEventListener(
+              "usk-icon-error",
+              (event) => reject(event.detail.error),
+              { once: true }
+            );
+          })
+        );
+        card.append(icon);
+        grid.append(card);
+      }
+
+      await Promise.all(loadEvents);
+      document.body.dataset.ready = "true";
+    </script>
+  </body>
+</html>

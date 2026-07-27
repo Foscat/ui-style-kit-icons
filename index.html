@@ -31,27 +31,30 @@
     <meta property="og:site_name" content="UI Style Kit Icons">
     <meta property="og:title" content="UI Style Kit Icons - One semantic API, twelve visual languages">
     <meta property="og:description" content="Browse 64 standardized web application icons across theme-aware Minimal SaaS, Bento, Cyberpunk, Y2K, Neumorphism, Synthwave, and more.">
-    <meta property="og:url" content="https://foscat.github.io/ui-style-kit-icons/">
-    <meta property="og:image" content="https://foscat.github.io/ui-style-kit-icons/assets/social-card.png">
-    <meta property="og:image:secure_url" content="https://foscat.github.io/ui-style-kit-icons/assets/social-card.png">
+    <meta property="og:url" content="https://foscat.github.io/ui-style-kit-css-icons/">
+    <meta property="og:image" content="https://foscat.github.io/ui-style-kit-css-icons/assets/social-card.png">
+    <meta property="og:image:secure_url" content="https://foscat.github.io/ui-style-kit-css-icons/assets/social-card.png">
     <meta property="og:image:type" content="image/png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:image:alt" content="UI Style Kit Icons gallery showing the same web application icons in multiple visual styles">
-    <meta property="og:updated_time" content="2026-07-24T00:00:00-05:00">
+    <meta property="og:updated_time" content="2026-07-25T00:00:00-05:00">
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="UI Style Kit Icons">
     <meta name="twitter:description" content="A theme-aware SVG icon library with 64 shared semantic names and 12 visual packs.">
-    <meta name="twitter:image" content="https://foscat.github.io/ui-style-kit-icons/assets/social-card.png">
+    <meta name="twitter:image" content="https://foscat.github.io/ui-style-kit-css-icons/assets/social-card.png">
     <meta name="twitter:image:alt" content="UI Style Kit Icons gallery">
 
-    <link rel="canonical" href="https://foscat.github.io/ui-style-kit-icons/">
+    <link rel="canonical" href="https://foscat.github.io/ui-style-kit-css-icons/">
     <link rel="alternate" type="text/plain" href="./llms.txt" title="LLM documentation">
     <link rel="sitemap" type="application/xml" href="./sitemap.xml" title="Sitemap">
     <link rel="manifest" href="./site.webmanifest">
+    <link rel="shortcut icon" href="./assets/favicon.ico">
     <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon-16x16.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="48x48" href="./assets/favicon-48x48.png">
     <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-touch-icon.png">
     <link rel="image_src" href="./assets/social-card.png">
     <link rel="preconnect" href="https://unpkg.com" crossorigin>
@@ -59,8 +62,13 @@
 
     <title>UI Style Kit Icons - Theme-aware SVG icon library</title>
 
+    <style>
+      @layer demo, ui-style-kit, ly;
+    </style>
     <link rel="stylesheet" href="https://unpkg.com/ui-style-kit-css@2.1.0/dist/ui-style-kit.visual.min.css" integrity="sha384-DUhB5MkNLJffjy7NRg13prdEcPTUR6zdPtameCyfq3tId/cM8o3ojpyvU/xdxZ8t" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://unpkg.com/layout-style-css@2.1.0/dist/layout-style-css.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/ui-style-kit-css@2.1.0/styles/interactive-surface-theme.css" integrity="sha384-t7ZuirMM/Qoeoz+/5+S4JxIGXs076pqlgMxv6FymZW3tGj7snT8J2ZlV2+sH6++j" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/interactive-surface-css@1.5.0/state-core.css" integrity="sha384-v2NwNOzOcQ5ed7W7OHahaKHXspqfD0p8XO+kueqrsyfEcuBO2izsAQb/J/PxF0eX" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/layout-style-css@2.1.0/dist/layout-style-css.min.css" integrity="sha384-N27RNO4bJUbxMEYnkDQivcxDdlUcFBDMJfPERpYe/CbnYL86XU4vaY6TtWqIkSUg" crossorigin="anonymous">
     <link rel="stylesheet" href="./dist/ui-style-kit-icons.css">
     <link rel="stylesheet" href="./demo.css">
 
@@ -70,47 +78,47 @@
         "@graph": [
           {
             "@type": "WebSite",
-            "@id": "https://foscat.github.io/ui-style-kit-icons/#website",
-            "url": "https://foscat.github.io/ui-style-kit-icons/",
+            "@id": "https://foscat.github.io/ui-style-kit-css-icons/#website",
+            "url": "https://foscat.github.io/ui-style-kit-css-icons/",
             "name": "UI Style Kit Icons",
             "description": "Interactive gallery and documentation for the UI Style Kit Icons package.",
             "inLanguage": "en-US",
             "potentialAction": {
               "@type": "SearchAction",
-              "target": "https://foscat.github.io/ui-style-kit-icons/?q={search_term_string}",
+              "target": "https://foscat.github.io/ui-style-kit-css-icons/?q={search_term_string}",
               "query-input": "required name=search_term_string"
             }
           },
           {
             "@type": "SoftwareSourceCode",
-            "@id": "https://foscat.github.io/ui-style-kit-icons/#software",
+            "@id": "https://foscat.github.io/ui-style-kit-css-icons/#software",
             "name": "ui-style-kit-icons",
-            "version": "0.2.0",
+            "version": "1.0.0",
             "description": "A dependency-free, theme-aware SVG icon library with a standardized semantic contract and automatic UI style switching.",
             "programmingLanguage": ["JavaScript", "CSS", "SVG"],
             "runtimePlatform": "Web browser",
             "applicationCategory": "DeveloperApplication",
-            "codeRepository": "https://github.com/Foscat/ui-style-kit-icons",
+            "codeRepository": "https://github.com/Foscat/ui-style-kit-css-icons",
             "downloadUrl": "https://www.npmjs.com/package/ui-style-kit-icons",
-            "license": "https://github.com/Foscat/ui-style-kit-icons/blob/main/LICENSE",
-            "url": "https://foscat.github.io/ui-style-kit-icons/",
-            "image": "https://foscat.github.io/ui-style-kit-icons/assets/social-card.png",
-            "datePublished": "2026-07-24",
-            "dateModified": "2026-07-24",
+            "license": "https://github.com/Foscat/ui-style-kit-css-icons/blob/main/LICENSE",
+            "url": "https://foscat.github.io/ui-style-kit-css-icons/",
+            "image": "https://foscat.github.io/ui-style-kit-css-icons/assets/social-card.png",
+            "datePublished": "2026-07-25",
+            "dateModified": "2026-07-25",
             "author": {
               "@type": "Person",
               "name": "Kyle Foster",
               "url": "https://github.com/Foscat"
             },
             "isPartOf": {
-              "@id": "https://foscat.github.io/ui-style-kit-icons/#website"
+              "@id": "https://foscat.github.io/ui-style-kit-css-icons/#website"
             },
             "keywords": "SVG icons, UI design system, CSS themes, web components, theme-aware icons"
           },
           {
             "@type": "CollectionPage",
             "name": "UI Style Kit Icon Pack Gallery",
-            "url": "https://foscat.github.io/ui-style-kit-icons/",
+            "url": "https://foscat.github.io/ui-style-kit-css-icons/",
             "numberOfItems": 12,
             "mainEntity": {
               "@type": "ItemList",
@@ -142,25 +150,27 @@
     </script>
   </head>
   <body class="ly-root" data-ui="minimal-saas" data-theme="arctic-indigo" data-mode="dark" data-ly-layout="minimal-saas" data-icon-pack="minimal-saas">
-    <a class="skip-link" href="#iconGallery">Skip to icon gallery</a>
+    <div class="skip-link-shell">
+      <a class="interactive-surface size-sm" data-surface-level="3" data-surface-variant="primary" href="#iconGallery">Skip to icon gallery</a>
+    </div>
 
-    <header class="site-header">
+    <header class="site-header ly-cluster ly-justify-between">
       <a class="brand" href="./" aria-label="UI Style Kit Icons home">
         <usk-icon name="palette" pack="minimal-saas" aria-hidden="true"></usk-icon>
         <span>UI Style Kit Icons</span>
       </a>
-      <nav class="top-nav" aria-label="Project">
+      <nav class="top-nav ly-cluster ly-justify-end" aria-label="Project">
         <a href="#ecosystem">Ecosystem</a>
-        <a href="https://github.com/Foscat/ui-style-kit-icons/wiki">Wiki</a>
-        <a href="https://github.com/Foscat/ui-style-kit-icons">GitHub</a>
+        <a href="https://github.com/Foscat/ui-style-kit-css-icons/wiki">Wiki</a>
+        <a href="https://github.com/Foscat/ui-style-kit-css-icons">GitHub</a>
       </nav>
     </header>
 
-    <div class="app-layout">
-      <aside class="control-rail" aria-labelledby="controlsTitle">
-        <div class="control-heading">
-          <h2 id="controlsTitle">Icon lab</h2>
-          <button id="resetButton" class="text-button" type="button">Reset</button>
+    <div class="app-layout ly-sidebar">
+      <aside class="control-rail ly-stack" data-ly-sidebar="side" aria-labelledby="controlsTitle">
+        <div class="control-heading ly-cluster ly-justify-between">
+          <strong id="controlsTitle" role="heading" aria-level="2">Icon lab</strong>
+          <button id="resetButton" class="text-button interactive-surface size-sm" type="button" data-surface-level="1" data-surface-variant="subtle">Reset</button>
         </div>
 
         <label class="control-field">
@@ -187,17 +197,17 @@
         <fieldset class="control-field mode-field">
           <legend>Mode</legend>
           <div class="segmented-control" role="group" aria-label="Color mode">
-            <button type="button" data-mode-value="light">Light</button>
-            <button type="button" data-mode-value="dark">Dark</button>
-            <button type="button" data-mode-value="contrast">Contrast</button>
+            <button class="interactive-surface size-sm" type="button" data-mode-value="light" data-surface-level="1" data-surface-variant="subtle">Light</button>
+            <button class="interactive-surface size-sm" type="button" data-mode-value="dark" data-surface-level="1" data-surface-variant="subtle">Dark</button>
+            <button class="interactive-surface size-sm" type="button" data-mode-value="contrast" data-surface-level="1" data-surface-variant="subtle">Contrast</button>
           </div>
         </fieldset>
 
         <fieldset class="control-field frame-field">
           <legend>Icon border</legend>
           <div class="segmented-control segmented-control--two" role="group" aria-label="Icon border">
-            <button type="button" data-frame-value="auto">Border</button>
-            <button type="button" data-frame-value="none">No border</button>
+            <button class="interactive-surface size-sm" type="button" data-frame-value="auto" data-surface-level="1" data-surface-variant="subtle">Border</button>
+            <button class="interactive-surface size-sm" type="button" data-frame-value="none" data-surface-level="1" data-surface-variant="subtle">No border</button>
           </div>
         </fieldset>
 
@@ -218,15 +228,15 @@
           <dl>
             <div><dt>Core</dt><dd>64</dd></div>
             <div><dt>Extras</dt><dd id="packExtraStat">0</dd></div>
-            <div><dt>Contract</dt><dd>0.1</dd></div>
+            <div><dt>Contract</dt><dd>1.0</dd></div>
           </dl>
-          <a id="packSourceLink" href="https://github.com/Foscat/ui-style-kit-icons/tree/main/packs/minimal-saas">View pack source</a>
+          <a id="packSourceLink" href="https://github.com/Foscat/ui-style-kit-css-icons/tree/main/packs/minimal-saas">View pack source</a>
         </div>
 
         <div class="install-block">
           <span>Install</span>
           <code>npm i ui-style-kit-icons</code>
-          <button type="button" data-copy-text="npm i ui-style-kit-icons">Copy</button>
+          <button class="interactive-surface size-sm" type="button" data-surface-level="1" data-surface-variant="subtle" data-copy-text="npm i ui-style-kit-icons">Copy</button>
         </div>
 
         <p id="fileProtocolNotice" class="runtime-notice" role="alert">
@@ -234,8 +244,8 @@
         </p>
       </aside>
 
-      <main class="main-content">
-        <section class="library-heading" aria-labelledby="pageTitle">
+      <main class="main-content" data-ly-sidebar="content">
+        <section class="library-heading ly-switcher ly-items-end" aria-labelledby="pageTitle">
           <div>
             <h1 id="pageTitle">UI Style Kit Icons</h1>
             <p>One semantic icon contract, twelve visual languages, and live color from <code>ui-style-kit-css</code>.</p>
@@ -248,9 +258,9 @@
         </section>
 
         <section id="iconGallery" class="gallery-section" aria-labelledby="galleryTitle">
-          <div class="gallery-toolbar">
-            <div>
-              <h2 id="galleryTitle">Icon gallery</h2>
+          <div class="gallery-toolbar ly-switcher ly-items-center">
+            <div class="ly-cluster ly-items-end">
+              <strong id="galleryTitle" role="heading" aria-level="2">Icon gallery</strong>
               <output id="resultCount">64 icons</output>
             </div>
             <label class="search-field">
@@ -262,322 +272,322 @@
 
           <div id="iconGrid" class="icon-grid" aria-live="polite">
 
-            <button class="icon-card" type="button" data-icon-id="home" aria-label="Inspect Home">
+            <button class="icon-card interactive-surface" type="button" data-surface-level="1" data-surface-variant="subtle" data-icon-id="home" aria-label="Inspect Home">
               <usk-icon name="home" pack="minimal-saas" aria-hidden="true"><img src="./packs/minimal-saas/icons/home.svg" alt=""></usk-icon>
               <strong>Home</strong>
               <code>home</code>
             </button>
-            <button class="icon-card" type="button" data-icon-id="dashboard" aria-label="Inspect Dashboard">
+            <button class="icon-card interactive-surface" type="button" data-surface-level="1" data-surface-variant="subtle" data-icon-id="dashboard" aria-label="Inspect Dashboard">
               <usk-icon name="dashboard" pack="minimal-saas" aria-hidden="true"><img src="./packs/minimal-saas/icons/dashboard.svg" alt=""></usk-icon>
               <strong>Dashboard</strong>
               <code>dashboard</code>
             </button>
-            <button class="icon-card" type="button" data-icon-id="browser" aria-label="Inspect Browser">
+            <button class="icon-card interactive-surface" type="button" data-surface-level="1" data-surface-variant="subtle" data-icon-id="browser" aria-label="Inspect Browser">
               <usk-icon name="browser" pack="minimal-saas" aria-hidden="true"><img src="./packs/minimal-saas/icons/browser.svg" alt=""></usk-icon>
               <strong>Browser</strong>
               <code>browser</code>
             </button>
-            <button class="icon-card" type="button" data-icon-id="search" aria-label="Inspect Search">
+            <button class="icon-card interactive-surface" type="button" data-surface-level="1" data-surface-variant="subtle" data-icon-id="search" aria-label="Inspect Search">
               <usk-icon name="search" pack="minimal-saas" aria-hidden="true"><img src="./packs/minimal-saas/icons/search.svg" alt=""></usk-icon>
               <strong>Search</strong>
               <code>search</code>
             </button>
-            <button class="icon-card" type="button" data-icon-id="user" aria-label="Inspect User">
+            <button class="icon-card interactive-surface" type="button" data-surface-level="1" data-surface-variant="subtle" data-icon-id="user" aria-label="Inspect User">
               <usk-icon name="user" pack="minimal-saas" aria-hidden="true"><img src="./packs/minimal-saas/icons/user.svg" alt=""></usk-icon>
               <strong>User</strong>
               <code>user</code>
             </button>
-            <button class="icon-card" type="button" data-icon-id="users" aria-label="Inspect Users">
+            <button class="icon-card interactive-surface" type="button" data-surface-level="1" data-surface-variant="subtle" data-icon-id="users" aria-label="Inspect Users">
               <usk-icon name="users" pack="minimal-saas" aria-hidden="true"><img src="./packs/minimal-saas/icons/users.svg" alt=""></usk-icon>
               <strong>Users</strong>
               <code>users</code>
             </button>
-            <button class="icon-card" type="button" data-icon-id="settings" aria-label="Inspect Settings">
+            <button class="icon-card interactive-surface" type="button" data-surface-level="1" data-surface-variant="subtle" data-icon-id="settings" aria-label="Inspect Settings">
               <usk-icon name="settings" pack="minimal-saas" aria-hidden="true"><img src="./packs/minimal-saas/icons/settings.svg" alt=""></usk-icon>
               <strong>Settings</strong>
               <code>settings</code>
             </button>
-            <button class="icon-card" type="button" data-icon-id="bell" aria-label="Inspect Notifications">
+            <button class="icon-card interactive-surface" type="button" data-surface-level="1" data-surface-variant="subtle" data-icon-id="bell" aria-label="Inspect Notifications">
               <usk-icon name="bell" pack="minimal-saas" aria-hidden="true"><img src="./packs/minimal-saas/icons/bell.svg" alt=""></usk-icon>
               <strong>Notifications</strong>
               <code>bell</code>
             </button>
-            <button class="icon-card" type="button" data-icon-id="message" aria-label="Inspect Message">
+            <button class="icon-card interactive-surface" type="button" data-surface-level="1" data-surface-variant="subtle" data-icon-id="message" aria-label="Inspect Message">
               <usk-icon name="message" pack="minimal-saas" aria-hidden="true"><img src="./packs/minimal-saas/icons/message.svg" alt=""></usk-icon>
               <strong>Message</strong>
               <code>message</code>
             </button>
-            <button class="icon-card" type="button" data-icon-id="mail" aria-label="Inspect Email">
+            <button class="icon-card interactive-surface" type="button" data-surface-level="1" data-surface-variant="subtle" data-icon-id="mail" aria-label="Inspect Email">
               <usk-icon name="mail" pack="minimal-saas" aria-hidden="true"><img src="./packs/minimal-saas/icons/mail.svg" alt=""></usk-icon>
               <strong>Email</strong>
               <code>mail</code>
             </button>
-            <button class="icon-card" type="button" data-icon-id="calendar" aria-label="Inspect Calendar">
+            <button class="icon-card interactive-surface" type="button" data-surface-level="1" data-surface-variant="subtle" data-icon-id="calendar" aria-label="Inspect Calendar">
               <usk-icon name="calendar" pack="minimal-saas" aria-hidden="true"><img src="./packs/minimal-saas/icons/calendar.svg" alt=""></usk-icon>
               <strong>Calendar</strong>
               <code>calendar</code>
             </button>
-            <button class="icon-card" type="button" data-icon-id="upload" aria-label="Inspect Upload">
+            <button class="icon-card interactive-surface" type="button" data-surface-level="1" data-surface-variant="subtle" data-icon-id="upload" aria-label="Inspect Upload">
               <usk-icon name="upload" pack="minimal-saas" aria-hidden="true"><img src="./packs/minimal-saas/icons/upload.svg" alt=""></usk-icon>
               <strong>Upload</strong>
               <code>upload</code>
             </button>
-            <button class="icon-card" type="button" data-icon-id="download" aria-label="Inspect Download">
+            <button class="icon-card interactive-surface" type="button" data-surface-level="1" data-surface-variant="subtle" data-icon-id="download" aria-label="Inspect Download">
               <usk-icon name="download" pack="minimal-saas" aria-hidden="true"><img src="./packs/minimal-saas/icons/download.svg" alt=""></usk-icon>
               <strong>Download</strong>
               <code>download</code>
             </button>
-            <button class="icon-card" type="button" data-icon-id="folder" aria-label="Inspect Folder">
+            <button class="icon-card interactive-surface" type="button" data-surface-level="1" data-surface-variant="subtle" data-icon-id="folder" aria-label="Inspect Folder">
               <usk-icon name="folder" pack="minimal-saas" aria-hidden="true"><img src="./packs/minimal-saas/icons/folder.svg" alt=""></usk-icon>
               <strong>Folder</strong>
               <code>folder</code>
             </button>
-            <button class="icon-card" type="button" data-icon-id="file" aria-label="Inspect File">
+            <button class="icon-card interactive-surface" type="button" data-surface-level="1" data-surface-variant="subtle" data-icon-id="file" aria-label="Inspect File">
               <usk-icon name="file" pack="minimal-saas" aria-hidden="true"><img src="./packs/minimal-saas/icons/file.svg" alt=""></usk-icon>
               <strong>File</strong>
               <code>file</code>
             </button>
-            <button class="icon-card" type="button" data-icon-id="image" aria-label="Inspect Image">
+            <button class="icon-card interactive-surface" type="button" data-surface-level="1" data-surface-variant="subtle" data-icon-id="image" aria-label="Inspect Image">
               <usk-icon name="image" pack="minimal-saas" aria-hidden="true"><img src="./packs/minimal-saas/icons/image.svg" alt=""></usk-icon>
               <strong>Image</strong>
               <code>image</code>
             </button>
-            <button class="icon-card" type="button" data-icon-id="video" aria-label="Inspect Video">
+            <button class="icon-card interactive-surface" type="button" data-surface-level="1" data-surface-variant="subtle" data-icon-id="video" aria-label="Inspect Video">
               <usk-icon name="video" pack="minimal-saas" aria-hidden="true"><img src="./packs/minimal-saas/icons/video.svg" alt=""></usk-icon>
               <strong>Video</strong>
               <code>video</code>
             </button>
-            <button class="icon-card" type="button" data-icon-id="camera" aria-label="Inspect Camera">
+            <button class="icon-card interactive-surface" type="button" data-surface-level="1" data-surface-variant="subtle" data-icon-id="camera" aria-label="Inspect Camera">
               <usk-icon name="camera" pack="minimal-saas" aria-hidden="true"><img src="./packs/minimal-saas/icons/camera.svg" alt=""></usk-icon>
               <strong>Camera</strong>
               <code>camera</code>
             </button>
-            <button class="icon-card" type="button" data-icon-id="database" aria-label="Inspect Database">
+            <button class="icon-card interactive-surface" type="button" data-surface-level="1" data-surface-variant="subtle" data-icon-id="database" aria-label="Inspect Database">
               <usk-icon name="database" pack="minimal-saas" aria-hidden="true"><img src="./packs/minimal-saas/icons/database.svg" alt=""></usk-icon>
               <strong>Database</strong>
               <code>database</code>
             </button>
-            <button class="icon-card" type="button" data-icon-id="server" aria-label="Inspect Server">
+            <button class="icon-card interactive-surface" type="button" data-surface-level="1" data-surface-variant="subtle" data-icon-id="server" aria-label="Inspect Server">
               <usk-icon name="server" pack="minimal-saas" aria-hidden="true"><img src="./packs/minimal-saas/icons/server.svg" alt=""></usk-icon>
               <strong>Server</strong>
               <code>server</code>
             </button>
-            <button class="icon-card" type="button" data-icon-id="api" aria-label="Inspect API">
+            <button class="icon-card interactive-surface" type="button" data-surface-level="1" data-surface-variant="subtle" data-icon-id="api" aria-label="Inspect API">
               <usk-icon name="api" pack="minimal-saas" aria-hidden="true"><img src="./packs/minimal-saas/icons/api.svg" alt=""></usk-icon>
               <strong>API</strong>
               <code>api</code>
             </button>
-            <button class="icon-card" type="button" data-icon-id="lock" aria-label="Inspect Lock">
+            <button class="icon-card interactive-surface" type="button" data-surface-level="1" data-surface-variant="subtle" data-icon-id="lock" aria-label="Inspect Lock">
               <usk-icon name="lock" pack="minimal-saas" aria-hidden="true"><img src="./packs/minimal-saas/icons/lock.svg" alt=""></usk-icon>
               <strong>Lock</strong>
               <code>lock</code>
             </button>
-            <button class="icon-card" type="button" data-icon-id="shield" aria-label="Inspect Shield">
+            <button class="icon-card interactive-surface" type="button" data-surface-level="1" data-surface-variant="subtle" data-icon-id="shield" aria-label="Inspect Shield">
               <usk-icon name="shield" pack="minimal-saas" aria-hidden="true"><img src="./packs/minimal-saas/icons/shield.svg" alt=""></usk-icon>
               <strong>Shield</strong>
               <code>shield</code>
             </button>
-            <button class="icon-card" type="button" data-icon-id="key" aria-label="Inspect Key">
+            <button class="icon-card interactive-surface" type="button" data-surface-level="1" data-surface-variant="subtle" data-icon-id="key" aria-label="Inspect Key">
               <usk-icon name="key" pack="minimal-saas" aria-hidden="true"><img src="./packs/minimal-saas/icons/key.svg" alt=""></usk-icon>
               <strong>Key</strong>
               <code>key</code>
             </button>
-            <button class="icon-card" type="button" data-icon-id="chart" aria-label="Inspect Chart">
+            <button class="icon-card interactive-surface" type="button" data-surface-level="1" data-surface-variant="subtle" data-icon-id="chart" aria-label="Inspect Chart">
               <usk-icon name="chart" pack="minimal-saas" aria-hidden="true"><img src="./packs/minimal-saas/icons/chart.svg" alt=""></usk-icon>
               <strong>Chart</strong>
               <code>chart</code>
             </button>
-            <button class="icon-card" type="button" data-icon-id="activity" aria-label="Inspect Activity">
+            <button class="icon-card interactive-surface" type="button" data-surface-level="1" data-surface-variant="subtle" data-icon-id="activity" aria-label="Inspect Activity">
               <usk-icon name="activity" pack="minimal-saas" aria-hidden="true"><img src="./packs/minimal-saas/icons/activity.svg" alt=""></usk-icon>
               <strong>Activity</strong>
               <code>activity</code>
             </button>
-            <button class="icon-card" type="button" data-icon-id="credit-card" aria-label="Inspect Credit Card">
+            <button class="icon-card interactive-surface" type="button" data-surface-level="1" data-surface-variant="subtle" data-icon-id="credit-card" aria-label="Inspect Credit Card">
               <usk-icon name="credit-card" pack="minimal-saas" aria-hidden="true"><img src="./packs/minimal-saas/icons/credit-card.svg" alt=""></usk-icon>
               <strong>Credit Card</strong>
               <code>credit-card</code>
             </button>
-            <button class="icon-card" type="button" data-icon-id="wallet" aria-label="Inspect Wallet">
+            <button class="icon-card interactive-surface" type="button" data-surface-level="1" data-surface-variant="subtle" data-icon-id="wallet" aria-label="Inspect Wallet">
               <usk-icon name="wallet" pack="minimal-saas" aria-hidden="true"><img src="./packs/minimal-saas/icons/wallet.svg" alt=""></usk-icon>
               <strong>Wallet</strong>
               <code>wallet</code>
             </button>
-            <button class="icon-card" type="button" data-icon-id="cart" aria-label="Inspect Cart">
+            <button class="icon-card interactive-surface" type="button" data-surface-level="1" data-surface-variant="subtle" data-icon-id="cart" aria-label="Inspect Cart">
               <usk-icon name="cart" pack="minimal-saas" aria-hidden="true"><img src="./packs/minimal-saas/icons/cart.svg" alt=""></usk-icon>
               <strong>Cart</strong>
               <code>cart</code>
             </button>
-            <button class="icon-card" type="button" data-icon-id="invoice" aria-label="Inspect Invoice">
+            <button class="icon-card interactive-surface" type="button" data-surface-level="1" data-surface-variant="subtle" data-icon-id="invoice" aria-label="Inspect Invoice">
               <usk-icon name="invoice" pack="minimal-saas" aria-hidden="true"><img src="./packs/minimal-saas/icons/invoice.svg" alt=""></usk-icon>
               <strong>Invoice</strong>
               <code>invoice</code>
             </button>
-            <button class="icon-card" type="button" data-icon-id="tax" aria-label="Inspect Tax">
+            <button class="icon-card interactive-surface" type="button" data-surface-level="1" data-surface-variant="subtle" data-icon-id="tax" aria-label="Inspect Tax">
               <usk-icon name="tax" pack="minimal-saas" aria-hidden="true"><img src="./packs/minimal-saas/icons/tax.svg" alt=""></usk-icon>
               <strong>Tax</strong>
               <code>tax</code>
             </button>
-            <button class="icon-card" type="button" data-icon-id="login" aria-label="Inspect Login">
+            <button class="icon-card interactive-surface" type="button" data-surface-level="1" data-surface-variant="subtle" data-icon-id="login" aria-label="Inspect Login">
               <usk-icon name="login" pack="minimal-saas" aria-hidden="true"><img src="./packs/minimal-saas/icons/login.svg" alt=""></usk-icon>
               <strong>Login</strong>
               <code>login</code>
             </button>
-            <button class="icon-card" type="button" data-icon-id="logout" aria-label="Inspect Logout">
+            <button class="icon-card interactive-surface" type="button" data-surface-level="1" data-surface-variant="subtle" data-icon-id="logout" aria-label="Inspect Logout">
               <usk-icon name="logout" pack="minimal-saas" aria-hidden="true"><img src="./packs/minimal-saas/icons/logout.svg" alt=""></usk-icon>
               <strong>Logout</strong>
               <code>logout</code>
             </button>
-            <button class="icon-card" type="button" data-icon-id="edit" aria-label="Inspect Edit">
+            <button class="icon-card interactive-surface" type="button" data-surface-level="1" data-surface-variant="subtle" data-icon-id="edit" aria-label="Inspect Edit">
               <usk-icon name="edit" pack="minimal-saas" aria-hidden="true"><img src="./packs/minimal-saas/icons/edit.svg" alt=""></usk-icon>
               <strong>Edit</strong>
               <code>edit</code>
             </button>
-            <button class="icon-card" type="button" data-icon-id="trash" aria-label="Inspect Trash">
+            <button class="icon-card interactive-surface" type="button" data-surface-level="1" data-surface-variant="subtle" data-icon-id="trash" aria-label="Inspect Trash">
               <usk-icon name="trash" pack="minimal-saas" aria-hidden="true"><img src="./packs/minimal-saas/icons/trash.svg" alt=""></usk-icon>
               <strong>Trash</strong>
               <code>trash</code>
             </button>
-            <button class="icon-card" type="button" data-icon-id="plus" aria-label="Inspect Plus">
+            <button class="icon-card interactive-surface" type="button" data-surface-level="1" data-surface-variant="subtle" data-icon-id="plus" aria-label="Inspect Plus">
               <usk-icon name="plus" pack="minimal-saas" aria-hidden="true"><img src="./packs/minimal-saas/icons/plus.svg" alt=""></usk-icon>
               <strong>Plus</strong>
               <code>plus</code>
             </button>
-            <button class="icon-card" type="button" data-icon-id="minus" aria-label="Inspect Minus">
+            <button class="icon-card interactive-surface" type="button" data-surface-level="1" data-surface-variant="subtle" data-icon-id="minus" aria-label="Inspect Minus">
               <usk-icon name="minus" pack="minimal-saas" aria-hidden="true"><img src="./packs/minimal-saas/icons/minus.svg" alt=""></usk-icon>
               <strong>Minus</strong>
               <code>minus</code>
             </button>
-            <button class="icon-card" type="button" data-icon-id="filter" aria-label="Inspect Filter">
+            <button class="icon-card interactive-surface" type="button" data-surface-level="1" data-surface-variant="subtle" data-icon-id="filter" aria-label="Inspect Filter">
               <usk-icon name="filter" pack="minimal-saas" aria-hidden="true"><img src="./packs/minimal-saas/icons/filter.svg" alt=""></usk-icon>
               <strong>Filter</strong>
               <code>filter</code>
             </button>
-            <button class="icon-card" type="button" data-icon-id="menu" aria-label="Inspect Menu">
+            <button class="icon-card interactive-surface" type="button" data-surface-level="1" data-surface-variant="subtle" data-icon-id="menu" aria-label="Inspect Menu">
               <usk-icon name="menu" pack="minimal-saas" aria-hidden="true"><img src="./packs/minimal-saas/icons/menu.svg" alt=""></usk-icon>
               <strong>Menu</strong>
               <code>menu</code>
             </button>
-            <button class="icon-card" type="button" data-icon-id="code" aria-label="Inspect Code">
+            <button class="icon-card interactive-surface" type="button" data-surface-level="1" data-surface-variant="subtle" data-icon-id="code" aria-label="Inspect Code">
               <usk-icon name="code" pack="minimal-saas" aria-hidden="true"><img src="./packs/minimal-saas/icons/code.svg" alt=""></usk-icon>
               <strong>Code</strong>
               <code>code</code>
             </button>
-            <button class="icon-card" type="button" data-icon-id="terminal" aria-label="Inspect Terminal">
+            <button class="icon-card interactive-surface" type="button" data-surface-level="1" data-surface-variant="subtle" data-icon-id="terminal" aria-label="Inspect Terminal">
               <usk-icon name="terminal" pack="minimal-saas" aria-hidden="true"><img src="./packs/minimal-saas/icons/terminal.svg" alt=""></usk-icon>
               <strong>Terminal</strong>
               <code>terminal</code>
             </button>
-            <button class="icon-card" type="button" data-icon-id="rocket" aria-label="Inspect Rocket">
+            <button class="icon-card interactive-surface" type="button" data-surface-level="1" data-surface-variant="subtle" data-icon-id="rocket" aria-label="Inspect Rocket">
               <usk-icon name="rocket" pack="minimal-saas" aria-hidden="true"><img src="./packs/minimal-saas/icons/rocket.svg" alt=""></usk-icon>
               <strong>Rocket</strong>
               <code>rocket</code>
             </button>
-            <button class="icon-card" type="button" data-icon-id="bug" aria-label="Inspect Bug">
+            <button class="icon-card interactive-surface" type="button" data-surface-level="1" data-surface-variant="subtle" data-icon-id="bug" aria-label="Inspect Bug">
               <usk-icon name="bug" pack="minimal-saas" aria-hidden="true"><img src="./packs/minimal-saas/icons/bug.svg" alt=""></usk-icon>
               <strong>Bug</strong>
               <code>bug</code>
             </button>
-            <button class="icon-card" type="button" data-icon-id="help" aria-label="Inspect Help">
+            <button class="icon-card interactive-surface" type="button" data-surface-level="1" data-surface-variant="subtle" data-icon-id="help" aria-label="Inspect Help">
               <usk-icon name="help" pack="minimal-saas" aria-hidden="true"><img src="./packs/minimal-saas/icons/help.svg" alt=""></usk-icon>
               <strong>Help</strong>
               <code>help</code>
             </button>
-            <button class="icon-card" type="button" data-icon-id="link" aria-label="Inspect Link">
+            <button class="icon-card interactive-surface" type="button" data-surface-level="1" data-surface-variant="subtle" data-icon-id="link" aria-label="Inspect Link">
               <usk-icon name="link" pack="minimal-saas" aria-hidden="true"><img src="./packs/minimal-saas/icons/link.svg" alt=""></usk-icon>
               <strong>Link</strong>
               <code>link</code>
             </button>
-            <button class="icon-card" type="button" data-icon-id="cloud" aria-label="Inspect Cloud">
+            <button class="icon-card interactive-surface" type="button" data-surface-level="1" data-surface-variant="subtle" data-icon-id="cloud" aria-label="Inspect Cloud">
               <usk-icon name="cloud" pack="minimal-saas" aria-hidden="true"><img src="./packs/minimal-saas/icons/cloud.svg" alt=""></usk-icon>
               <strong>Cloud</strong>
               <code>cloud</code>
             </button>
-            <button class="icon-card" type="button" data-icon-id="globe" aria-label="Inspect Globe">
+            <button class="icon-card interactive-surface" type="button" data-surface-level="1" data-surface-variant="subtle" data-icon-id="globe" aria-label="Inspect Globe">
               <usk-icon name="globe" pack="minimal-saas" aria-hidden="true"><img src="./packs/minimal-saas/icons/globe.svg" alt=""></usk-icon>
               <strong>Globe</strong>
               <code>globe</code>
             </button>
-            <button class="icon-card" type="button" data-icon-id="warning" aria-label="Inspect Warning">
+            <button class="icon-card interactive-surface" type="button" data-surface-level="1" data-surface-variant="subtle" data-icon-id="warning" aria-label="Inspect Warning">
               <usk-icon name="warning" pack="minimal-saas" aria-hidden="true"><img src="./packs/minimal-saas/icons/warning.svg" alt=""></usk-icon>
               <strong>Warning</strong>
               <code>warning</code>
             </button>
-            <button class="icon-card" type="button" data-icon-id="scan" aria-label="Inspect Scan">
+            <button class="icon-card interactive-surface" type="button" data-surface-level="1" data-surface-variant="subtle" data-icon-id="scan" aria-label="Inspect Scan">
               <usk-icon name="scan" pack="minimal-saas" aria-hidden="true"><img src="./packs/minimal-saas/icons/scan.svg" alt=""></usk-icon>
               <strong>Scan</strong>
               <code>scan</code>
             </button>
-            <button class="icon-card" type="button" data-icon-id="network" aria-label="Inspect Network">
+            <button class="icon-card interactive-surface" type="button" data-surface-level="1" data-surface-variant="subtle" data-icon-id="network" aria-label="Inspect Network">
               <usk-icon name="network" pack="minimal-saas" aria-hidden="true"><img src="./packs/minimal-saas/icons/network.svg" alt=""></usk-icon>
               <strong>Network</strong>
               <code>network</code>
             </button>
-            <button class="icon-card" type="button" data-icon-id="cpu" aria-label="Inspect CPU">
+            <button class="icon-card interactive-surface" type="button" data-surface-level="1" data-surface-variant="subtle" data-icon-id="cpu" aria-label="Inspect CPU">
               <usk-icon name="cpu" pack="minimal-saas" aria-hidden="true"><img src="./packs/minimal-saas/icons/cpu.svg" alt=""></usk-icon>
               <strong>CPU</strong>
               <code>cpu</code>
             </button>
-            <button class="icon-card" type="button" data-icon-id="layers" aria-label="Inspect Layers">
+            <button class="icon-card interactive-surface" type="button" data-surface-level="1" data-surface-variant="subtle" data-icon-id="layers" aria-label="Inspect Layers">
               <usk-icon name="layers" pack="minimal-saas" aria-hidden="true"><img src="./packs/minimal-saas/icons/layers.svg" alt=""></usk-icon>
               <strong>Layers</strong>
               <code>layers</code>
             </button>
-            <button class="icon-card" type="button" data-icon-id="eye" aria-label="Inspect Eye">
+            <button class="icon-card interactive-surface" type="button" data-surface-level="1" data-surface-variant="subtle" data-icon-id="eye" aria-label="Inspect Eye">
               <usk-icon name="eye" pack="minimal-saas" aria-hidden="true"><img src="./packs/minimal-saas/icons/eye.svg" alt=""></usk-icon>
               <strong>Eye</strong>
               <code>eye</code>
             </button>
-            <button class="icon-card" type="button" data-icon-id="grid" aria-label="Inspect Grid">
+            <button class="icon-card interactive-surface" type="button" data-surface-level="1" data-surface-variant="subtle" data-icon-id="grid" aria-label="Inspect Grid">
               <usk-icon name="grid" pack="minimal-saas" aria-hidden="true"><img src="./packs/minimal-saas/icons/grid.svg" alt=""></usk-icon>
               <strong>Grid</strong>
               <code>grid</code>
             </button>
-            <button class="icon-card" type="button" data-icon-id="module" aria-label="Inspect Module">
+            <button class="icon-card interactive-surface" type="button" data-surface-level="1" data-surface-variant="subtle" data-icon-id="module" aria-label="Inspect Module">
               <usk-icon name="module" pack="minimal-saas" aria-hidden="true"><img src="./packs/minimal-saas/icons/module.svg" alt=""></usk-icon>
               <strong>Module</strong>
               <code>module</code>
             </button>
-            <button class="icon-card" type="button" data-icon-id="stack" aria-label="Inspect Stack">
+            <button class="icon-card interactive-surface" type="button" data-surface-level="1" data-surface-variant="subtle" data-icon-id="stack" aria-label="Inspect Stack">
               <usk-icon name="stack" pack="minimal-saas" aria-hidden="true"><img src="./packs/minimal-saas/icons/stack.svg" alt=""></usk-icon>
               <strong>Stack</strong>
               <code>stack</code>
             </button>
-            <button class="icon-card" type="button" data-icon-id="tile" aria-label="Inspect Tile">
+            <button class="icon-card interactive-surface" type="button" data-surface-level="1" data-surface-variant="subtle" data-icon-id="tile" aria-label="Inspect Tile">
               <usk-icon name="tile" pack="minimal-saas" aria-hidden="true"><img src="./packs/minimal-saas/icons/tile.svg" alt=""></usk-icon>
               <strong>Tile</strong>
               <code>tile</code>
             </button>
-            <button class="icon-card" type="button" data-icon-id="phone" aria-label="Inspect Phone">
+            <button class="icon-card interactive-surface" type="button" data-surface-level="1" data-surface-variant="subtle" data-icon-id="phone" aria-label="Inspect Phone">
               <usk-icon name="phone" pack="minimal-saas" aria-hidden="true"><img src="./packs/minimal-saas/icons/phone.svg" alt=""></usk-icon>
               <strong>Phone</strong>
               <code>phone</code>
             </button>
-            <button class="icon-card" type="button" data-icon-id="palette" aria-label="Inspect Palette">
+            <button class="icon-card interactive-surface" type="button" data-surface-level="1" data-surface-variant="subtle" data-icon-id="palette" aria-label="Inspect Palette">
               <usk-icon name="palette" pack="minimal-saas" aria-hidden="true"><img src="./packs/minimal-saas/icons/palette.svg" alt=""></usk-icon>
               <strong>Palette</strong>
               <code>palette</code>
             </button>
-            <button class="icon-card" type="button" data-icon-id="heart" aria-label="Inspect Heart">
+            <button class="icon-card interactive-surface" type="button" data-surface-level="1" data-surface-variant="subtle" data-icon-id="heart" aria-label="Inspect Heart">
               <usk-icon name="heart" pack="minimal-saas" aria-hidden="true"><img src="./packs/minimal-saas/icons/heart.svg" alt=""></usk-icon>
               <strong>Heart</strong>
               <code>heart</code>
             </button>
-            <button class="icon-card" type="button" data-icon-id="star" aria-label="Inspect Star">
+            <button class="icon-card interactive-surface" type="button" data-surface-level="1" data-surface-variant="subtle" data-icon-id="star" aria-label="Inspect Star">
               <usk-icon name="star" pack="minimal-saas" aria-hidden="true"><img src="./packs/minimal-saas/icons/star.svg" alt=""></usk-icon>
               <strong>Star</strong>
               <code>star</code>
             </button>
-            <button class="icon-card" type="button" data-icon-id="target" aria-label="Inspect Target">
+            <button class="icon-card interactive-surface" type="button" data-surface-level="1" data-surface-variant="subtle" data-icon-id="target" aria-label="Inspect Target">
               <usk-icon name="target" pack="minimal-saas" aria-hidden="true"><img src="./packs/minimal-saas/icons/target.svg" alt=""></usk-icon>
               <strong>Target</strong>
               <code>target</code>
             </button>
-            <button class="icon-card" type="button" data-icon-id="megaphone" aria-label="Inspect Megaphone">
+            <button class="icon-card interactive-surface" type="button" data-surface-level="1" data-surface-variant="subtle" data-icon-id="megaphone" aria-label="Inspect Megaphone">
               <usk-icon name="megaphone" pack="minimal-saas" aria-hidden="true"><img src="./packs/minimal-saas/icons/megaphone.svg" alt=""></usk-icon>
               <strong>Megaphone</strong>
               <code>megaphone</code>
             </button>
-            <button class="icon-card" type="button" data-icon-id="cursor" aria-label="Inspect Cursor">
+            <button class="icon-card interactive-surface" type="button" data-surface-level="1" data-surface-variant="subtle" data-icon-id="cursor" aria-label="Inspect Cursor">
               <usk-icon name="cursor" pack="minimal-saas" aria-hidden="true"><img src="./packs/minimal-saas/icons/cursor.svg" alt=""></usk-icon>
               <strong>Cursor</strong>
               <code>cursor</code>
@@ -586,11 +596,11 @@
 
           <div id="emptyState" class="empty-state" hidden>
             <h3>No icons match that search.</h3>
-            <button id="clearSearchButton" type="button">Clear search</button>
+            <button id="clearSearchButton" class="interactive-surface" type="button" data-surface-level="3" data-surface-variant="primary">Clear search</button>
           </div>
         </section>
 
-        <section class="usage-section" aria-labelledby="usageTitle">
+        <section class="usage-section ly-switcher ly-items-center" aria-labelledby="usageTitle">
           <div>
             <h2 id="usageTitle">Style changes without semantic changes</h2>
             <p>Keep <code>name="dashboard"</code> in your markup. Change <code>data-ui</code>, and the icon runtime resolves the matching visual pack while UI Style Kit supplies the active color roles.</p>
@@ -605,12 +615,12 @@
             <h2 id="ecosystemTitle">The complementary CSS system</h2>
             <p>Each package owns one layer, so projects can adopt them independently or together.</p>
           </div>
-          <div class="ecosystem-grid">
+          <div class="ecosystem-grid ly-grid ly-grid--auto">
             <article class="ecosystem-card">
               <usk-icon name="palette" pack="minimal-saas" aria-hidden="true"></usk-icon>
               <h3>UI Style Kit CSS</h3>
               <p>Visual identity, color themes, native element paint, and eleven UI systems.</p>
-              <div class="link-row">
+              <div class="link-row ly-cluster">
                 <a href="https://foscat.github.io/ui-style-kit-css/">Demo</a>
                 <a href="https://github.com/Foscat/ui-style-kit-css">GitHub</a>
                 <a href="https://www.npmjs.com/package/ui-style-kit-css">npm</a>
@@ -621,8 +631,8 @@
               <usk-icon name="grid" pack="minimal-saas" aria-hidden="true"></usk-icon>
               <h3>Layout Style CSS</h3>
               <p>Container-first wrappers, composition primitives, recipes, and spatial personalities.</p>
-              <div class="link-row">
-                <a href="https://foscat.github.io/layout-style-css/">Demo</a>
+              <div class="link-row ly-cluster">
+                <a href="https://foscat.github.io/Layout-Style-CSS/">Demo</a>
                 <a href="https://github.com/Foscat/Layout-Style-CSS">GitHub</a>
                 <a href="https://www.npmjs.com/package/layout-style-css">npm</a>
                 <a href="https://github.com/Foscat/Layout-Style-CSS/wiki">Wiki</a>
@@ -632,8 +642,8 @@
               <usk-icon name="cursor" pack="minimal-saas" aria-hidden="true"></usk-icon>
               <h3>Interactive Surface CSS</h3>
               <p>Interaction states, surface behavior, focus treatment, and input affordances.</p>
-              <div class="link-row">
-                <a href="https://foscat.github.io/interactive-surface-css/">Demo</a>
+              <div class="link-row ly-cluster">
+                <a href="https://foscat.github.io/Interactive-Surface-CSS/">Demo</a>
                 <a href="https://github.com/Foscat/Interactive-Surface-CSS">GitHub</a>
                 <a href="https://www.npmjs.com/package/interactive-surface-css">npm</a>
                 <a href="https://github.com/Foscat/Interactive-Surface-CSS/wiki">Wiki</a>
@@ -644,18 +654,18 @@
       </main>
     </div>
 
-    <footer class="site-footer">
-      <span>UI Style Kit Icons 0.2.0 &middot; MIT</span>
-      <div>
-        <a href="https://github.com/Foscat/ui-style-kit-icons/blob/main/README.md">README</a>
-        <a href="https://github.com/Foscat/ui-style-kit-icons/blob/main/CONTRIBUTING.md">Contributing</a>
-        <a href="https://github.com/Foscat/ui-style-kit-icons/blob/main/SECURITY.md">Security</a>
+    <footer class="site-footer ly-switcher ly-items-center">
+      <span>UI Style Kit Icons 1.0.0 &middot; MIT</span>
+      <div class="ly-cluster ly-justify-end">
+        <a href="https://github.com/Foscat/ui-style-kit-css-icons/blob/main/README.md">README</a>
+        <a href="https://github.com/Foscat/ui-style-kit-css-icons/blob/main/CONTRIBUTING.md">Contributing</a>
+        <a href="https://github.com/Foscat/ui-style-kit-css-icons/blob/main/SECURITY.md">Security</a>
       </div>
     </footer>
 
-    <dialog id="iconDialog" class="icon-dialog" aria-labelledby="dialogTitle">
-      <form method="dialog">
-        <button class="dialog-close" type="submit" aria-label="Close icon details">Close</button>
+    <dialog id="iconDialog" class="icon-dialog" style="max-inline-size: min(62rem, calc(100vw - 2rem));" aria-labelledby="dialogTitle">
+      <form class="ly-cluster ly-justify-end" method="dialog">
+        <button class="dialog-close interactive-surface size-sm" type="submit" data-surface-level="1" data-surface-variant="subtle" aria-label="Close icon details">Close</button>
       </form>
       <div class="dialog-layout">
         <div class="dialog-preview">
@@ -669,16 +679,16 @@
           <p id="dialogMeaning">Main overview, admin home, metrics hub.</p>
 
           <div class="snippet">
-            <div><strong>Automatic web component</strong><button type="button" data-copy-target="componentSnippet">Copy</button></div>
+            <div class="ly-cluster ly-justify-between"><strong>Automatic web component</strong><button class="interactive-surface size-sm" type="button" data-surface-level="1" data-surface-variant="subtle" data-copy-target="componentSnippet">Copy</button></div>
             <pre><code id="componentSnippet"></code></pre>
           </div>
           <div class="snippet">
-            <div><strong>SVG sprite</strong><button type="button" data-copy-target="spriteSnippet">Copy</button></div>
+            <div class="ly-cluster ly-justify-between"><strong>SVG sprite</strong><button class="interactive-surface size-sm" type="button" data-surface-level="1" data-surface-variant="subtle" data-copy-target="spriteSnippet">Copy</button></div>
             <pre><code id="spriteSnippet"></code></pre>
           </div>
-          <div class="dialog-actions">
-            <a id="downloadIconLink" href="#" download>Download SVG</a>
-            <button id="copyLinkButton" type="button">Copy deep link</button>
+          <div class="dialog-actions ly-cluster ly-justify-start">
+            <a id="downloadIconLink" class="interactive-surface" data-surface-level="3" data-surface-variant="primary" href="#" download>Download SVG</a>
+            <button id="copyLinkButton" class="interactive-surface" type="button" data-surface-level="1" data-surface-variant="subtle">Copy deep link</button>
           </div>
         </div>
       </div>

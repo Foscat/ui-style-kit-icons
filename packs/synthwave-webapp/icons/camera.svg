@@ -43,9 +43,14 @@
 .sw-i-surface{ fill: var(--sw-icon-bg); stroke: var(--sw-icon-border); stroke-width: 4.5; }
 
 [data-icon-frame]{opacity:var(--usk-icon-frame-opacity,1)}
-[data-icon-frame="decor"]{opacity:var(--usk-icon-frame-decor-opacity,var(--usk-icon-frame-opacity,1))}
+[data-icon-frame="decor"]{opacity:var(--usk-icon-frame-decor-opacity,.18)}
 [data-icon-glyph="play"]{fill:var(--usk-icon-play,var(--usk-icon-foreground,rgb(var(--usk-text-rgb,255 255 255))));stroke:none;opacity:1}
 </style>
-  <rect data-icon-frame="decor" class="sw-i-surface" x="18" y="18" width="220" height="220" rx="48"/><g data-icon-frame="decor" class="sw-i-horizon-sun" opacity=".44"><path class="sw-i-warning" d="M74 166A54 54 0 0 1 182 166H74Z" opacity=".24"/><path class="sw-i-line-3" d="M86 136H170M80 150H176M74 164H182" opacity=".34"/></g><path class="sw-i-line-3" d="M34 176H222M50 194H206M70 212H186" opacity=".42"/><path class="sw-i-muted" d="M24 232L104 154M232 232L152 154M63 232L116 154M193 232L140 154" opacity=".32"/>
-  <path class="sw-i-primary" d="M58 100H96L108 82H148L160 100H198V184H58Z"/><circle class="sw-i-line-2" cx="128" cy="142" r="31"/><circle class="sw-i-accent" cx="128" cy="142" r="12"/>
+<rect data-icon-frame="surface" class="sw-i-surface" x="18" y="18" width="220" height="220" rx="48"/><path data-icon-frame="decor" class="sw-i-line-3" d="M48 204H208M76 218H180" opacity=".72"/>
+
+
+<path class="sw-i-primary" d="M58 100H96L108 82H148L160 100H198V184H58Z"/>
+<circle class="sw-i-line-2" cx="128" cy="142" r="31"/>
+<circle class="sw-i-accent" cx="128" cy="142" r="12"/>
+
 </svg>

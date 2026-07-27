@@ -23,446 +23,813 @@
 [data-icon-frame="decor"]{opacity:var(--usk-icon-frame-decor-opacity,var(--usk-icon-frame-opacity,1))}
 [data-icon-glyph="play"]{fill:var(--usk-icon-play,var(--usk-icon-foreground,rgb(var(--usk-text-rgb,255 255 255))));stroke:none;opacity:1}
 /* UI Style Kit Icons: generated sprite contrast guard */
-.max-i-line{stroke:var(--max-icon-primary,rgb(var(--usk-primary-rgb,37 99 235)));stroke:color-mix(in srgb,var(--max-icon-primary,rgb(var(--usk-primary-rgb,37 99 235))) 58%,rgb(var(--usk-text-rgb,15 23 42)) 42%)}
-.max-i-line-2{stroke:var(--max-icon-secondary,rgb(var(--usk-secondary-rgb,100 116 139)));stroke:color-mix(in srgb,var(--max-icon-secondary,rgb(var(--usk-secondary-rgb,100 116 139))) 52%,rgb(var(--usk-text-rgb,15 23 42)) 48%)}
-.max-i-line-3{stroke:var(--max-icon-accent,rgb(var(--usk-accent-rgb,14 165 233)));stroke:color-mix(in srgb,var(--max-icon-accent,rgb(var(--usk-accent-rgb,14 165 233))) 52%,rgb(var(--usk-text-rgb,15 23 42)) 48%)}
-.max-i-primary{stroke:var(--max-icon-primary,rgb(var(--usk-primary-rgb,37 99 235)));stroke:color-mix(in srgb,var(--max-icon-primary,rgb(var(--usk-primary-rgb,37 99 235))) 58%,rgb(var(--usk-text-rgb,15 23 42)) 42%);stroke-width:var(--usk-icon-fill-keyline-width,3.5);stroke-linejoin:round}
-.max-i-secondary{stroke:var(--max-icon-secondary,rgb(var(--usk-secondary-rgb,100 116 139)));stroke:color-mix(in srgb,var(--max-icon-secondary,rgb(var(--usk-secondary-rgb,100 116 139))) 52%,rgb(var(--usk-text-rgb,15 23 42)) 48%);stroke-width:var(--usk-icon-fill-keyline-width,3.5);stroke-linejoin:round}
-.max-i-accent{stroke:var(--max-icon-accent,rgb(var(--usk-accent-rgb,14 165 233)));stroke:color-mix(in srgb,var(--max-icon-accent,rgb(var(--usk-accent-rgb,14 165 233))) 52%,rgb(var(--usk-text-rgb,15 23 42)) 48%);stroke-width:var(--usk-icon-fill-keyline-width,3.5);stroke-linejoin:round}
-.max-i-success{stroke:var(--max-icon-success,rgb(var(--usk-success-rgb,22 163 74)));stroke:color-mix(in srgb,var(--max-icon-success,rgb(var(--usk-success-rgb,22 163 74))) 52%,rgb(var(--usk-text-rgb,15 23 42)) 48%);stroke-width:var(--usk-icon-fill-keyline-width,3.5);stroke-linejoin:round}
-.max-i-warning{stroke:var(--max-icon-warning,rgb(var(--usk-warning-rgb,202 138 4)));stroke:color-mix(in srgb,var(--max-icon-warning,rgb(var(--usk-warning-rgb,202 138 4))) 52%,rgb(var(--usk-text-rgb,15 23 42)) 48%);stroke-width:var(--usk-icon-fill-keyline-width,3.5);stroke-linejoin:round}
-.max-i-danger{stroke:var(--max-icon-danger,rgb(var(--usk-danger-rgb,220 38 38)));stroke:color-mix(in srgb,var(--max-icon-danger,rgb(var(--usk-danger-rgb,220 38 38))) 52%,rgb(var(--usk-text-rgb,15 23 42)) 48%);stroke-width:var(--usk-icon-fill-keyline-width,3.5);stroke-linejoin:round}
-.max-i-muted{stroke:var(--max-icon-muted,rgb(var(--usk-text-muted-rgb,100 116 139)));stroke:color-mix(in srgb,var(--max-icon-muted,rgb(var(--usk-text-muted-rgb,100 116 139))) 38%,rgb(var(--usk-text-rgb,15 23 42)) 62%)}
-.max-i-bg-strong{stroke:var(--max-icon-border,rgb(var(--usk-border-rgb,100 116 139)));stroke:color-mix(in srgb,var(--max-icon-border,rgb(var(--usk-border-rgb,100 116 139))) 28%,rgb(var(--usk-text-rgb,15 23 42)) 72%);stroke-width:var(--usk-icon-keyline-width,3.5);stroke-linejoin:round}
+.max-i-line{stroke:var(--max-icon-primary,rgb(var(--usk-primary-rgb,37 99 235)));stroke:color-mix(in srgb,var(--max-icon-primary,rgb(var(--usk-primary-rgb,37 99 235))) 58%,currentColor 42%)}
+.max-i-line-2{stroke:var(--max-icon-secondary,rgb(var(--usk-secondary-rgb,100 116 139)));stroke:color-mix(in srgb,var(--max-icon-secondary,rgb(var(--usk-secondary-rgb,100 116 139))) 52%,currentColor 48%)}
+.max-i-line-3{stroke:var(--max-icon-accent,rgb(var(--usk-accent-rgb,14 165 233)));stroke:color-mix(in srgb,var(--max-icon-accent,rgb(var(--usk-accent-rgb,14 165 233))) 52%,currentColor 48%)}
+.max-i-primary{stroke:var(--max-icon-primary,rgb(var(--usk-primary-rgb,37 99 235)));stroke:color-mix(in srgb,var(--max-icon-primary,rgb(var(--usk-primary-rgb,37 99 235))) 58%,currentColor 42%);stroke-width:var(--usk-icon-fill-keyline-width,3.5);stroke-linejoin:round}
+.max-i-secondary{stroke:var(--max-icon-secondary,rgb(var(--usk-secondary-rgb,100 116 139)));stroke:color-mix(in srgb,var(--max-icon-secondary,rgb(var(--usk-secondary-rgb,100 116 139))) 52%,currentColor 48%);stroke-width:var(--usk-icon-fill-keyline-width,3.5);stroke-linejoin:round}
+.max-i-accent{stroke:var(--max-icon-accent,rgb(var(--usk-accent-rgb,14 165 233)));stroke:color-mix(in srgb,var(--max-icon-accent,rgb(var(--usk-accent-rgb,14 165 233))) 52%,currentColor 48%);stroke-width:var(--usk-icon-fill-keyline-width,3.5);stroke-linejoin:round}
+.max-i-success{stroke:var(--max-icon-success,rgb(var(--usk-success-rgb,22 163 74)));stroke:color-mix(in srgb,var(--max-icon-success,rgb(var(--usk-success-rgb,22 163 74))) 52%,currentColor 48%);stroke-width:var(--usk-icon-fill-keyline-width,3.5);stroke-linejoin:round}
+.max-i-warning{stroke:var(--max-icon-warning,rgb(var(--usk-warning-rgb,202 138 4)));stroke:color-mix(in srgb,var(--max-icon-warning,rgb(var(--usk-warning-rgb,202 138 4))) 52%,currentColor 48%);stroke-width:var(--usk-icon-fill-keyline-width,3.5);stroke-linejoin:round}
+.max-i-danger{stroke:var(--max-icon-danger,rgb(var(--usk-danger-rgb,220 38 38)));stroke:color-mix(in srgb,var(--max-icon-danger,rgb(var(--usk-danger-rgb,220 38 38))) 52%,currentColor 48%);stroke-width:var(--usk-icon-fill-keyline-width,3.5);stroke-linejoin:round}
+.max-i-muted{stroke:var(--max-icon-muted,rgb(var(--usk-text-muted-rgb,100 116 139)));stroke:color-mix(in srgb,var(--max-icon-muted,rgb(var(--usk-text-muted-rgb,100 116 139))) 38%,currentColor 62%)}
+.max-i-bg-strong{stroke:var(--max-icon-border,rgb(var(--usk-border-rgb,100 116 139)));stroke:color-mix(in srgb,var(--max-icon-border,rgb(var(--usk-border-rgb,100 116 139))) 28%,currentColor 72%);stroke-width:var(--usk-icon-keyline-width,3.5);stroke-linejoin:round}
 </style>
 <defs>
 <symbol id="max-icon-home" viewBox="0 0 256 256">
   <title>Home</title>
-  <rect data-icon-frame="decor" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="decor" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="58" cy="70" r="9"/><rect data-icon-frame="decor" class="max-i-pop" x="169" y="49" width="29" height="18" rx="9" transform="rotate(12 184 58)"/>
-    <path class="max-i-line-2" d="M46 198H92M152 198H204" opacity=".7"/><path class="max-i-line-3" d="M44 92L60 108M196 154L214 172" opacity=".76"/>
-    <path class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
-    <path class="max-i-line max-i-glow" d="M66 130L128 76L190 130"/><path class="max-i-bg-strong" stroke="var(--max-icon-secondary,rgb(var(--usk-secondary-rgb,111 134 184)))" stroke-width="6" d="M84 126V188H172V126Z"/><path class="max-i-line-3" d="M115 188V150H141V188"/>
+  <rect data-icon-frame="surface" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="surface" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="48" cy="48" r="7"/><rect data-icon-frame="decor" class="max-i-pop" x="184" y="196" width="24" height="14" rx="7" transform="rotate(12 196 203)"/>
+    <path data-icon-frame="decor" class="max-i-line-2" d="M46 204H86M166 204H204" opacity=".7"/>
+    <path data-icon-frame="decor" class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
+  <g data-icon-glyph="semantic" data-icon-prototype="reference-led-v1">
+    <path data-icon-part="home-body" class="max-i-secondary" d="M75 119L128 76L181 119V190H75Z" style="fill:var(--max-icon-secondary,rgb(var(--usk-secondary-rgb,57 222 255)));stroke:var(--max-icon-border,rgb(var(--usk-border-rgb,22 18 35)/.94));stroke-width:7;stroke-linejoin:round"/>
+    <path data-icon-part="home-roof" class="max-i-primary" d="M55 124L128 61L202 124L187 140L128 89L70 140Z" style="fill:var(--max-icon-primary,rgb(var(--usk-primary-rgb,255 77 141)));stroke:var(--max-icon-border,rgb(var(--usk-border-rgb,22 18 35)/.94));stroke-width:7;stroke-linejoin:round"/>
+    <path data-icon-part="home-door" class="max-i-accent" d="M113 190V149Q113 141 121 141H143V190Z" style="fill:var(--max-icon-accent,rgb(var(--usk-accent-rgb,255 203 43)));stroke:var(--max-icon-border,rgb(var(--usk-border-rgb,22 18 35)/.94));stroke-width:6;stroke-linejoin:round"/>
+    <rect data-icon-part="home-window" class="max-i-success" x="84" y="136" width="25" height="26" rx="6" style="fill:var(--max-icon-success,rgb(var(--usk-success-rgb,22 201 121)));stroke:var(--max-icon-border,rgb(var(--usk-border-rgb,22 18 35)/.94));stroke-width:6"/>
+    <path data-icon-part="home-highlight" class="max-i-bg-strong" d="M90 111L126 80L138 90L102 121Z"/>
+  </g>
 </symbol>
 <symbol id="max-icon-dashboard" viewBox="0 0 256 256">
   <title>Dashboard</title>
-  <rect data-icon-frame="decor" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="decor" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="58" cy="70" r="9"/><rect data-icon-frame="decor" class="max-i-pop" x="169" y="49" width="29" height="18" rx="9" transform="rotate(12 184 58)"/>
-    <path class="max-i-line-2" d="M46 198H92M152 198H204" opacity=".7"/><path class="max-i-line-3" d="M44 92L60 108M196 154L214 172" opacity=".76"/>
-    <path class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
-    <rect class="max-i-bg-strong" x="62" y="78" width="132" height="104" rx="18"/><path class="max-i-line max-i-glow" d="M84 148A44 44 0 0 1 172 148"/><path class="max-i-line-3" d="M128 148L158 120"/><path class="max-i-muted" d="M86 174H118M138 174H170"/>
+  <rect data-icon-frame="surface" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="surface" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="48" cy="48" r="7"/><rect data-icon-frame="decor" class="max-i-pop" x="184" y="196" width="24" height="14" rx="7" transform="rotate(12 196 203)"/>
+    <path data-icon-frame="decor" class="max-i-line-2" d="M46 204H86M166 204H204" opacity=".7"/>
+    <path data-icon-frame="decor" class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
+
+
+
+  <rect class="max-i-bg-strong" x="62" y="78" width="132" height="104" rx="18"/>
+  <path class="max-i-line max-i-glow" d="M84 148A44 44 0 0 1 172 148"/>
+  <path class="max-i-line-3" d="M128 148L158 120"/>
+  <path class="max-i-muted" d="M86 174H118M138 174H170"/>
 </symbol>
-<symbol id="max-icon-browser" viewBox="-8 -8 272 272">
+<symbol id="max-icon-browser" viewBox="0 0 256 256">
   <title>Browser</title>
-  <rect data-icon-frame="decor" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="decor" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="58" cy="70" r="9"/><rect data-icon-frame="decor" class="max-i-pop" x="169" y="49" width="29" height="18" rx="9" transform="rotate(12 184 58)"/><path class="max-i-line-2" d="M46 198H92M152 198H204" opacity=".7"/><path class="max-i-line-3" d="M44 92L60 108M196 154L214 172" opacity=".76"/><path class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
-    <rect class="max-i-bg-strong" x="56" y="74" width="144" height="112" rx="18"/><path class="max-i-line" d="M56 106H200"/><circle class="max-i-danger" cx="80" cy="90" r="6"/><circle class="max-i-warning" cx="100" cy="90" r="6"/><circle class="max-i-success" cx="120" cy="90" r="6"/><path class="max-i-muted" d="M84 132H172M84 158H142"/>
+  <rect data-icon-frame="surface" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="surface" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="48" cy="48" r="7"/><rect data-icon-frame="decor" class="max-i-pop" x="184" y="196" width="24" height="14" rx="7" transform="rotate(12 196 203)"/><path data-icon-frame="decor" class="max-i-line-2" d="M46 204H86M166 204H204" opacity=".7"/><path data-icon-frame="decor" class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
+
+
+
+  <rect class="max-i-bg-strong" x="56" y="74" width="144" height="112" rx="18"/>
+  <path class="max-i-line" d="M56 106H200"/>
+  <circle class="max-i-danger" cx="80" cy="90" r="6"/>
+  <circle class="max-i-warning" cx="100" cy="90" r="6"/>
+  <circle class="max-i-success" cx="120" cy="90" r="6"/>
+  <path class="max-i-muted" d="M84 132H172M84 158H142"/>
 </symbol>
 <symbol id="max-icon-search" viewBox="0 0 256 256">
   <title>Search</title>
-  <rect data-icon-frame="decor" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="decor" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="58" cy="70" r="9"/><rect data-icon-frame="decor" class="max-i-pop" x="169" y="49" width="29" height="18" rx="9" transform="rotate(12 184 58)"/>
-    <path class="max-i-line-2" d="M46 198H92M152 198H204" opacity=".7"/><path class="max-i-line-3" d="M44 92L60 108M196 154L214 172" opacity=".76"/>
-    <path class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
-    <circle class="max-i-line max-i-glow" cx="112" cy="112" r="41"/><path class="max-i-line-2" d="M145 145L194 194"/><path class="max-i-muted" d="M90 108H132M94 126H118"/>
+  <rect data-icon-frame="surface" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="surface" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="48" cy="48" r="7"/><rect data-icon-frame="decor" class="max-i-pop" x="184" y="196" width="24" height="14" rx="7" transform="rotate(12 196 203)"/>
+    <path data-icon-frame="decor" class="max-i-line-2" d="M46 204H86M166 204H204" opacity=".7"/>
+    <path data-icon-frame="decor" class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
+
+
+
+  <circle class="max-i-line max-i-glow" cx="112" cy="112" r="41"/>
+  <path class="max-i-line-2" d="M145 145L194 194"/>
+  <path class="max-i-muted" d="M90 108H132M94 126H118"/>
 </symbol>
 <symbol id="max-icon-user" viewBox="0 0 256 256">
   <title>User</title>
-  <rect data-icon-frame="decor" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="decor" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="58" cy="70" r="9"/><rect data-icon-frame="decor" class="max-i-pop" x="169" y="49" width="29" height="18" rx="9" transform="rotate(12 184 58)"/>
-    <path class="max-i-line-2" d="M46 198H92M152 198H204" opacity=".7"/><path class="max-i-line-3" d="M44 92L60 108M196 154L214 172" opacity=".76"/>
-    <path class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
-    <circle class="max-i-bg-strong" cx="128" cy="92" r="32"/><circle class="max-i-line max-i-glow" cx="128" cy="92" r="32"/><path class="max-i-line-2" d="M72 190C81 154 103 136 128 136C153 136 175 154 184 190"/><path class="max-i-line-3" d="M108 92H148"/>
+  <rect data-icon-frame="surface" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="surface" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="48" cy="48" r="7"/><rect data-icon-frame="decor" class="max-i-pop" x="184" y="196" width="24" height="14" rx="7" transform="rotate(12 196 203)"/>
+    <path data-icon-frame="decor" class="max-i-line-2" d="M46 204H86M166 204H204" opacity=".7"/>
+    <path data-icon-frame="decor" class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
+
+
+
+  <circle class="max-i-bg-strong" cx="128" cy="92" r="32"/>
+  <circle class="max-i-line max-i-glow" cx="128" cy="92" r="32"/>
+  <path class="max-i-line-2" d="M72 190C81 154 103 136 128 136C153 136 175 154 184 190"/>
+  <path class="max-i-line-3" d="M108 92H148"/>
 </symbol>
-<symbol id="max-icon-users" viewBox="-8 -8 272 272">
+<symbol id="max-icon-users" viewBox="0 0 256 256">
   <title>Users</title>
-  <rect data-icon-frame="decor" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="decor" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="58" cy="70" r="9"/><rect data-icon-frame="decor" class="max-i-pop" x="169" y="49" width="29" height="18" rx="9" transform="rotate(12 184 58)"/>
-    <path class="max-i-line-2" d="M46 198H92M152 198H204" opacity=".7"/><path class="max-i-line-3" d="M44 92L60 108M196 154L214 172" opacity=".76"/>
-    <path class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
-    <circle class="max-i-line-2" cx="96" cy="104" r="24"/><circle class="max-i-line-2" cx="160" cy="104" r="24"/><circle class="max-i-line max-i-glow" cx="128" cy="86" r="30"/><path class="max-i-line-2" d="M58 190C65 158 86 140 110 140M198 190C191 158 170 140 146 140M78 198C86 160 105 140 128 140C151 140 170 160 178 198"/>
+  <rect data-icon-frame="surface" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/>
+    <rect data-icon-frame="surface" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/>
+    <circle data-icon-frame="decor" class="max-i-confetti" cx="48" cy="48" r="7"/>
+    <rect data-icon-frame="decor" class="max-i-pop" x="184" y="196" width="24" height="14" rx="7" transform="rotate(12 196 203)"/>
+    <g data-icon-glyph="semantic" data-icon-prototype="reference-led-v1">
+      <path data-icon-part="users-shoulders" class="max-i-secondary" d="M49 183C53 154 65 138 82 138C95 138 104 146 111 160L104 183Z" style="fill:var(--max-icon-secondary,rgb(var(--usk-secondary-rgb,57 222 255)));stroke:var(--max-icon-border,rgb(var(--usk-border-rgb,22 18 35)/.94));stroke-width:6;stroke-linejoin:round"/>
+      <path data-icon-part="users-shoulders" class="max-i-primary" d="M88 192C90 154 105 132 128 132C151 132 166 154 168 192Z" style="fill:var(--max-icon-primary,rgb(var(--usk-primary-rgb,255 77 141)));stroke:var(--max-icon-border,rgb(var(--usk-border-rgb,22 18 35)/.94));stroke-width:7;stroke-linejoin:round"/>
+      <path data-icon-part="users-shoulders" class="max-i-accent" d="M145 160C152 146 161 138 174 138C191 138 203 154 207 183H152Z" style="fill:var(--max-icon-accent,rgb(var(--usk-accent-rgb,255 203 43)));stroke:var(--max-icon-border,rgb(var(--usk-border-rgb,22 18 35)/.94));stroke-width:6;stroke-linejoin:round"/>
+      <circle data-icon-part="users-head" class="max-i-secondary" cx="82" cy="111" r="16" style="fill:var(--max-icon-secondary,rgb(var(--usk-secondary-rgb,57 222 255)));stroke:var(--max-icon-border,rgb(var(--usk-border-rgb,22 18 35)/.94));stroke-width:6"/>
+      <circle data-icon-part="users-head" class="max-i-primary" cx="128" cy="91" r="20" style="fill:var(--max-icon-primary,rgb(var(--usk-primary-rgb,255 77 141)));stroke:var(--max-icon-border,rgb(var(--usk-border-rgb,22 18 35)/.94));stroke-width:7"/>
+      <circle data-icon-part="users-head" class="max-i-accent" cx="174" cy="111" r="16" style="fill:var(--max-icon-accent,rgb(var(--usk-accent-rgb,255 203 43)));stroke:var(--max-icon-border,rgb(var(--usk-border-rgb,22 18 35)/.94));stroke-width:6"/>
+      <path data-icon-part="users-highlight" class="max-i-success" d="M110 88C113 75 122 69 133 71C141 73 147 80 148 91L138 84L130 91L121 83Z" style="fill:var(--max-icon-success,rgb(var(--usk-success-rgb,22 201 121)));stroke:var(--max-icon-border,rgb(var(--usk-border-rgb,22 18 35)/.94));stroke-width:4;stroke-linejoin:round"/>
+    </g>
 </symbol>
 <symbol id="max-icon-settings" viewBox="0 0 256 256">
   <title>Settings</title>
-  <rect data-icon-frame="decor" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="decor" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="58" cy="70" r="9"/><rect data-icon-frame="decor" class="max-i-pop" x="169" y="49" width="29" height="18" rx="9" transform="rotate(12 184 58)"/>
-    <path class="max-i-line-2" d="M46 198H92M152 198H204" opacity=".7"/><path class="max-i-line-3" d="M44 92L60 108M196 154L214 172" opacity=".76"/>
-    <path class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
-    <path class="max-i-bg-strong" stroke="var(--max-icon-primary,rgb(var(--usk-primary-rgb,214 168 79)))" stroke-width="6" d="M128 58L143 78L168 73L176 98L199 111L189 135L199 158L176 171L168 196L143 191L128 211L113 191L88 196L80 171L57 158L67 135L57 111L80 98L88 73L113 78Z"/><circle class="max-i-line-2 max-i-glow" cx="128" cy="135" r="30"/><path class="max-i-line-3" d="M128 105V116M128 154V165M98 135H109M147 135H158"/>
+  <rect data-icon-frame="surface" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="surface" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="48" cy="48" r="7"/><rect data-icon-frame="decor" class="max-i-pop" x="184" y="196" width="24" height="14" rx="7" transform="rotate(12 196 203)"/>
+    <path data-icon-frame="decor" class="max-i-line-2" d="M46 204H86M166 204H204" opacity=".7"/>
+    <path data-icon-frame="decor" class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
+
+
+
+  <path class="max-i-bg-strong" stroke="var(--max-icon-primary,rgb(var(--usk-primary-rgb,214 168 79)))" stroke-width="6" d="M128 58L143 78L168 73L176 98L199 111L189 135L199 158L176 171L168 196L143 191L128 211L113 191L88 196L80 171L57 158L67 135L57 111L80 98L88 73L113 78Z"/>
+  <circle class="max-i-line-2 max-i-glow" cx="128" cy="135" r="30"/>
+  <path class="max-i-line-3" d="M128 105V116M128 154V165M98 135H109M147 135H158"/>
 </symbol>
 <symbol id="max-icon-bell" viewBox="0 0 256 256">
   <title>Notifications</title>
-  <rect data-icon-frame="decor" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="decor" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="58" cy="70" r="9"/><rect data-icon-frame="decor" class="max-i-pop" x="169" y="49" width="29" height="18" rx="9" transform="rotate(12 184 58)"/>
-    <path class="max-i-line-2" d="M46 198H92M152 198H204" opacity=".7"/><path class="max-i-line-3" d="M44 92L60 108M196 154L214 172" opacity=".76"/>
-    <path class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
-    <path class="max-i-bg-strong" stroke="var(--max-icon-primary,rgb(var(--usk-primary-rgb,214 168 79)))" stroke-width="6" d="M84 151V116C84 89 102 70 128 70C154 70 172 89 172 116V151L189 178H67Z"/><path class="max-i-line-3" d="M112 190C119 202 137 202 144 190"/><circle class="max-i-danger" cx="176" cy="76" r="16"/>
+  <rect data-icon-frame="surface" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="surface" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="48" cy="48" r="7"/><rect data-icon-frame="decor" class="max-i-pop" x="184" y="196" width="24" height="14" rx="7" transform="rotate(12 196 203)"/>
+    <path data-icon-frame="decor" class="max-i-line-2" d="M46 204H86M166 204H204" opacity=".7"/>
+    <path data-icon-frame="decor" class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
+
+
+
+  <path class="max-i-bg-strong" stroke="var(--max-icon-primary,rgb(var(--usk-primary-rgb,214 168 79)))" stroke-width="6" d="M84 151V116C84 89 102 70 128 70C154 70 172 89 172 116V151L189 178H67Z"/>
+  <path class="max-i-line-3" d="M112 190C119 202 137 202 144 190"/>
+  <circle class="max-i-danger" cx="176" cy="76" r="16"/>
 </symbol>
 <symbol id="max-icon-message" viewBox="0 0 256 256">
   <title>Message</title>
-  <rect data-icon-frame="decor" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="decor" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="58" cy="70" r="9"/><rect data-icon-frame="decor" class="max-i-pop" x="169" y="49" width="29" height="18" rx="9" transform="rotate(12 184 58)"/>
-    <path class="max-i-line-2" d="M46 198H92M152 198H204" opacity=".7"/><path class="max-i-line-3" d="M44 92L60 108M196 154L214 172" opacity=".76"/>
-    <path class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
-    <path class="max-i-bg-strong" stroke="var(--max-icon-primary,rgb(var(--usk-primary-rgb,214 168 79)))" stroke-width="6" d="M58 80H198V160H132L96 194V160H58Z"/><path class="max-i-muted" d="M84 108H172M84 132H148"/><path class="max-i-line-3" d="M164 132H182"/>
+  <rect data-icon-frame="surface" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="surface" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="48" cy="48" r="7"/><rect data-icon-frame="decor" class="max-i-pop" x="184" y="196" width="24" height="14" rx="7" transform="rotate(12 196 203)"/>
+    <path data-icon-frame="decor" class="max-i-line-2" d="M46 204H86M166 204H204" opacity=".7"/>
+    <path data-icon-frame="decor" class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
+
+
+
+  <path class="max-i-bg-strong" stroke="var(--max-icon-primary,rgb(var(--usk-primary-rgb,214 168 79)))" stroke-width="6" d="M58 80H198V160H132L96 194V160H58Z"/>
+  <path class="max-i-muted" d="M84 108H172M84 132H148"/>
+  <path class="max-i-line-3" d="M164 132H182"/>
 </symbol>
-<symbol id="max-icon-mail" viewBox="-8 -8 272 272">
+<symbol id="max-icon-mail" viewBox="0 0 256 256">
   <title>Email</title>
-  <rect data-icon-frame="decor" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="decor" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="58" cy="70" r="9"/><rect data-icon-frame="decor" class="max-i-pop" x="169" y="49" width="29" height="18" rx="9" transform="rotate(12 184 58)"/>
-    <path class="max-i-line-2" d="M46 198H92M152 198H204" opacity=".7"/><path class="max-i-line-3" d="M44 92L60 108M196 154L214 172" opacity=".76"/>
-    <path class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
-    <rect class="max-i-bg-strong" x="56" y="86" width="144" height="96" rx="16"/><path class="max-i-line max-i-glow" d="M64 102L128 143L192 102"/><path class="max-i-line-2" d="M64 177L110 138M192 177L146 138"/>
+  <rect data-icon-frame="surface" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="surface" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="48" cy="48" r="7"/><rect data-icon-frame="decor" class="max-i-pop" x="184" y="196" width="24" height="14" rx="7" transform="rotate(12 196 203)"/>
+    <path data-icon-frame="decor" class="max-i-line-2" d="M46 204H86M166 204H204" opacity=".7"/>
+    <path data-icon-frame="decor" class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
+
+
+
+  <rect class="max-i-bg-strong" x="56" y="86" width="144" height="96" rx="16"/>
+  <path class="max-i-line max-i-glow" d="M64 102L128 143L192 102"/>
+  <path class="max-i-line-2" d="M64 177L110 138M192 177L146 138"/>
 </symbol>
-<symbol id="max-icon-calendar" viewBox="-8 -8 272 272">
+<symbol id="max-icon-calendar" viewBox="0 0 256 256">
   <title>Calendar</title>
-  <rect data-icon-frame="decor" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="decor" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="58" cy="70" r="9"/><rect data-icon-frame="decor" class="max-i-pop" x="169" y="49" width="29" height="18" rx="9" transform="rotate(12 184 58)"/>
-    <path class="max-i-line-2" d="M46 198H92M152 198H204" opacity=".7"/><path class="max-i-line-3" d="M44 92L60 108M196 154L214 172" opacity=".76"/>
-    <path class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
-    <rect class="max-i-bg-strong" x="60" y="76" width="136" height="122" rx="16"/><path class="max-i-line max-i-glow" d="M90 60V94M166 60V94M64 112H192"/><path class="max-i-line-3" d="M90 140H106M124 140H140M158 140H174M90 166H106M124 166H140"/>
+  <rect data-icon-frame="surface" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="surface" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="48" cy="48" r="7"/><rect data-icon-frame="decor" class="max-i-pop" x="184" y="196" width="24" height="14" rx="7" transform="rotate(12 196 203)"/>
+    <path data-icon-frame="decor" class="max-i-line-2" d="M46 204H86M166 204H204" opacity=".7"/>
+    <path data-icon-frame="decor" class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
+
+
+
+  <rect class="max-i-bg-strong" x="60" y="76" width="136" height="122" rx="16"/>
+  <path class="max-i-line max-i-glow" d="M90 60V94M166 60V94M64 112H192"/>
+  <path class="max-i-line-3" d="M90 140H106M124 140H140M158 140H174M90 166H106M124 166H140"/>
 </symbol>
 <symbol id="max-icon-upload" viewBox="0 0 256 256">
   <title>Upload</title>
-  <rect data-icon-frame="decor" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="decor" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="58" cy="70" r="9"/><rect data-icon-frame="decor" class="max-i-pop" x="169" y="49" width="29" height="18" rx="9" transform="rotate(12 184 58)"/>
-    <path class="max-i-line-2" d="M46 198H92M152 198H204" opacity=".7"/><path class="max-i-line-3" d="M44 92L60 108M196 154L214 172" opacity=".76"/>
-    <path class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
-    <path class="max-i-line max-i-glow" d="M128 68V158M92 104L128 68L164 104"/><path class="max-i-line-2" d="M72 152V194H184V152"/><path class="max-i-line-3" d="M98 194H158"/>
+  <rect data-icon-frame="surface" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="surface" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="48" cy="48" r="7"/><rect data-icon-frame="decor" class="max-i-pop" x="184" y="196" width="24" height="14" rx="7" transform="rotate(12 196 203)"/>
+    <path data-icon-frame="decor" class="max-i-line-2" d="M46 204H86M166 204H204" opacity=".7"/>
+    <path data-icon-frame="decor" class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
+
+
+
+  <path class="max-i-line max-i-glow" d="M128 68V158M92 104L128 68L164 104"/>
+  <path class="max-i-line-2" d="M72 152V194H184V152"/>
+  <path class="max-i-line-3" d="M98 194H158"/>
 </symbol>
 <symbol id="max-icon-download" viewBox="0 0 256 256">
   <title>Download</title>
-  <rect data-icon-frame="decor" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="decor" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="58" cy="70" r="9"/><rect data-icon-frame="decor" class="max-i-pop" x="169" y="49" width="29" height="18" rx="9" transform="rotate(12 184 58)"/>
-    <path class="max-i-line-2" d="M46 198H92M152 198H204" opacity=".7"/><path class="max-i-line-3" d="M44 92L60 108M196 154L214 172" opacity=".76"/>
-    <path class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
-    <path class="max-i-line max-i-glow" d="M128 68V158M92 123L128 158L164 123"/><path class="max-i-line-2" d="M72 152V194H184V152"/><path class="max-i-line-3" d="M98 194H158"/>
+  <rect data-icon-frame="surface" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="surface" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="48" cy="48" r="7"/><rect data-icon-frame="decor" class="max-i-pop" x="184" y="196" width="24" height="14" rx="7" transform="rotate(12 196 203)"/>
+    <path data-icon-frame="decor" class="max-i-line-2" d="M46 204H86M166 204H204" opacity=".7"/>
+    <path data-icon-frame="decor" class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
+
+
+
+  <path class="max-i-line max-i-glow" d="M128 68V158M92 123L128 158L164 123"/>
+  <path class="max-i-line-2" d="M72 152V194H184V152"/>
+  <path class="max-i-line-3" d="M98 194H158"/>
 </symbol>
 <symbol id="max-icon-folder" viewBox="0 0 256 256">
   <title>Folder</title>
-  <rect data-icon-frame="decor" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="decor" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="58" cy="70" r="9"/><rect data-icon-frame="decor" class="max-i-pop" x="169" y="49" width="29" height="18" rx="9" transform="rotate(12 184 58)"/>
-    <path class="max-i-line-2" d="M46 198H92M152 198H204" opacity=".7"/><path class="max-i-line-3" d="M44 92L60 108M196 154L214 172" opacity=".76"/>
-    <path class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
-    <path class="max-i-bg-strong" stroke="var(--max-icon-primary,rgb(var(--usk-primary-rgb,214 168 79)))" stroke-width="6" d="M54 89H110L126 110H202V187H54Z"/><path class="max-i-line-2" d="M57 116H199"/><path class="max-i-line-3" d="M86 150H170"/>
+  <rect data-icon-frame="surface" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="surface" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="48" cy="48" r="7"/><rect data-icon-frame="decor" class="max-i-pop" x="184" y="196" width="24" height="14" rx="7" transform="rotate(12 196 203)"/>
+    <path data-icon-frame="decor" class="max-i-line-2" d="M46 204H86M166 204H204" opacity=".7"/>
+    <path data-icon-frame="decor" class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
+
+
+
+  <path class="max-i-bg-strong" stroke="var(--max-icon-primary,rgb(var(--usk-primary-rgb,214 168 79)))" stroke-width="6" d="M54 89H110L126 110H202V187H54Z"/>
+  <path class="max-i-line-2" d="M57 116H199"/>
+  <path class="max-i-line-3" d="M86 150H170"/>
 </symbol>
 <symbol id="max-icon-file" viewBox="0 0 256 256">
   <title>File</title>
-  <rect data-icon-frame="decor" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="decor" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="58" cy="70" r="9"/><rect data-icon-frame="decor" class="max-i-pop" x="169" y="49" width="29" height="18" rx="9" transform="rotate(12 184 58)"/>
-    <path class="max-i-line-2" d="M46 198H92M152 198H204" opacity=".7"/><path class="max-i-line-3" d="M44 92L60 108M196 154L214 172" opacity=".76"/>
-    <path class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
-    <path class="max-i-bg-strong" stroke="var(--max-icon-primary,rgb(var(--usk-primary-rgb,214 168 79)))" stroke-width="6" d="M78 58H147L184 95V198H78Z"/><path class="max-i-line-2" d="M147 58V96H184"/><path class="max-i-muted" d="M101 126H155M101 153H160M101 179H137"/>
+  <rect data-icon-frame="surface" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="surface" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="48" cy="48" r="7"/><rect data-icon-frame="decor" class="max-i-pop" x="184" y="196" width="24" height="14" rx="7" transform="rotate(12 196 203)"/>
+    <path data-icon-frame="decor" class="max-i-line-2" d="M46 204H86M166 204H204" opacity=".7"/>
+    <path data-icon-frame="decor" class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
+
+
+
+  <path class="max-i-bg-strong" stroke="var(--max-icon-primary,rgb(var(--usk-primary-rgb,214 168 79)))" stroke-width="6" d="M78 58H147L184 95V198H78Z"/>
+  <path class="max-i-line-2" d="M147 58V96H184"/>
+  <path class="max-i-muted" d="M101 126H155M101 153H160M101 179H137"/>
 </symbol>
 <symbol id="max-icon-image" viewBox="0 0 256 256">
   <title>Image</title>
-  <rect data-icon-frame="decor" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="decor" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="58" cy="70" r="9"/><rect data-icon-frame="decor" class="max-i-pop" x="169" y="49" width="29" height="18" rx="9" transform="rotate(12 184 58)"/>
-    <path class="max-i-line-2" d="M46 198H92M152 198H204" opacity=".7"/><path class="max-i-line-3" d="M44 92L60 108M196 154L214 172" opacity=".76"/>
-    <path class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
-    <rect class="max-i-bg-strong" x="58" y="74" width="140" height="116" rx="16"/><circle class="max-i-accent" cx="161" cy="105" r="14"/><path class="max-i-line max-i-glow" d="M72 176L107 136L132 162L151 142L187 176Z"/>
+  <rect data-icon-frame="surface" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="surface" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="48" cy="48" r="7"/><rect data-icon-frame="decor" class="max-i-pop" x="184" y="196" width="24" height="14" rx="7" transform="rotate(12 196 203)"/>
+    <path data-icon-frame="decor" class="max-i-line-2" d="M46 204H86M166 204H204" opacity=".7"/>
+    <path data-icon-frame="decor" class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
+
+
+
+  <rect class="max-i-bg-strong" x="58" y="74" width="140" height="116" rx="16"/>
+  <circle class="max-i-accent" cx="161" cy="105" r="14"/>
+  <path class="max-i-line max-i-glow" d="M72 176L107 136L132 162L151 142L187 176Z"/>
 </symbol>
 <symbol id="max-icon-video" viewBox="0 0 256 256">
   <title>Video</title>
-  <rect data-icon-frame="decor" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="decor" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="58" cy="70" r="9"/><rect data-icon-frame="decor" class="max-i-pop" x="169" y="49" width="29" height="18" rx="9" transform="rotate(12 184 58)"/>
-    <path class="max-i-line-2" d="M46 198H92M152 198H204" opacity=".7"/><path class="max-i-line-3" d="M44 92L60 108M196 154L214 172" opacity=".76"/>
-    <path class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
-    <g data-icon-video="player">
-      <rect data-icon-video="screen" class="max-i-bg-strong" x="48" y="82" width="132" height="92" rx="18" stroke="var(--max-icon-primary,rgb(var(--usk-primary-rgb,255 77 141)))" stroke-width="7"/>
-      <path data-icon-video="camera" class="max-i-secondary" d="M180 108L212 90V166L180 148Z" stroke-width="7"/>
-      <path data-icon-video="controls" class="max-i-muted" d="M68 104H94M68 158H126M144 158H160" opacity=".62"/>
-      <circle data-icon-video="record" class="max-i-accent" cx="150" cy="104" r="6" stroke-width="4"/>
-      <path d="M96 104L144 128L96 152Z" data-icon-glyph="play"/>
-    </g>
+  <rect data-icon-frame="surface" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="surface" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="48" cy="48" r="7"/><rect data-icon-frame="decor" class="max-i-pop" x="184" y="196" width="24" height="14" rx="7" transform="rotate(12 196 203)"/>
+    <path data-icon-frame="decor" class="max-i-line-2" d="M46 204H86M166 204H204" opacity=".7"/>
+    <path data-icon-frame="decor" class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
+  <g data-icon-glyph="semantic" data-icon-prototype="reference-led-v1" data-icon-video="player">
+    <rect data-icon-part="video-body" data-icon-video="screen" class="max-i-secondary" x="44" y="75" width="140" height="108" rx="19" style="fill:var(--max-icon-secondary,rgb(var(--usk-secondary-rgb,57 222 255)));stroke:var(--max-icon-border,rgb(var(--usk-border-rgb,22 18 35)/.94));stroke-width:7"/>
+    <path data-icon-part="video-camera" data-icon-video="camera" class="max-i-primary" d="M184 101L215 83V173L184 153Z" style="fill:var(--max-icon-primary,rgb(var(--usk-primary-rgb,255 77 141)));stroke:var(--max-icon-border,rgb(var(--usk-border-rgb,22 18 35)/.94));stroke-width:7;stroke-linejoin:round"/>
+    <path data-icon-part="video-controls" data-icon-video="controls" class="max-i-accent" d="M61 148H167V171H61Q54 171 54 164V155Q54 148 61 148Z" style="fill:var(--max-icon-accent,rgb(var(--usk-accent-rgb,255 203 43)));stroke:var(--max-icon-border,rgb(var(--usk-border-rgb,22 18 35)/.94));stroke-width:5;stroke-linejoin:round"/>
+    <circle data-icon-part="video-record" data-icon-video="record" class="max-i-danger" cx="157" cy="96" r="8" style="fill:var(--max-icon-danger,rgb(var(--usk-danger-rgb,255 59 92)));stroke:var(--max-icon-border,rgb(var(--usk-border-rgb,22 18 35)/.94));stroke-width:4"/>
+    <path data-icon-part="video-highlight" class="max-i-bg-strong" d="M62 91H113Q119 91 119 97Q119 103 113 103H62Z"/>
+    <path data-icon-part="video-play" d="M93 104L145 129L93 154Z" data-icon-glyph="play"/>
+  </g>
 </symbol>
 <symbol id="max-icon-camera" viewBox="0 0 256 256">
   <title>Camera</title>
-  <rect data-icon-frame="decor" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="decor" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="58" cy="70" r="9"/><rect data-icon-frame="decor" class="max-i-pop" x="169" y="49" width="29" height="18" rx="9" transform="rotate(12 184 58)"/><path class="max-i-line-2" d="M46 198H92M152 198H204" opacity=".7"/><path class="max-i-line-3" d="M44 92L60 108M196 154L214 172" opacity=".76"/><path class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
-    <path class="max-i-primary" d="M58 100H96L108 82H148L160 100H198V184H58Z"/><circle class="max-i-line-2" cx="128" cy="142" r="31"/><circle class="max-i-accent" cx="128" cy="142" r="12"/>
+  <rect data-icon-frame="surface" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="surface" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="48" cy="48" r="7"/><rect data-icon-frame="decor" class="max-i-pop" x="184" y="196" width="24" height="14" rx="7" transform="rotate(12 196 203)"/><path data-icon-frame="decor" class="max-i-line-2" d="M46 204H86M166 204H204" opacity=".7"/><path data-icon-frame="decor" class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
+
+
+
+  <path class="max-i-primary" d="M58 100H96L108 82H148L160 100H198V184H58Z"/>
+  <circle class="max-i-line-2" cx="128" cy="142" r="31"/>
+  <circle class="max-i-accent" cx="128" cy="142" r="12"/>
 </symbol>
 <symbol id="max-icon-database" viewBox="0 0 256 256">
   <title>Database</title>
-  <rect data-icon-frame="decor" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="decor" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="58" cy="70" r="9"/><rect data-icon-frame="decor" class="max-i-pop" x="169" y="49" width="29" height="18" rx="9" transform="rotate(12 184 58)"/>
-    <path class="max-i-line-2" d="M46 198H92M152 198H204" opacity=".7"/><path class="max-i-line-3" d="M44 92L60 108M196 154L214 172" opacity=".76"/>
-    <path class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
-    <ellipse class="max-i-bg-strong" cx="128" cy="78" rx="58" ry="24"/><path class="max-i-line max-i-glow" d="M70 78V174C70 187 96 198 128 198C160 198 186 187 186 174V78"/><path class="max-i-line-2" d="M70 110C70 123 96 134 128 134C160 134 186 123 186 110M70 143C70 156 96 167 128 167C160 167 186 156 186 143"/><ellipse class="max-i-accent" cx="128" cy="78" rx="30" ry="10"/>
+  <rect data-icon-frame="surface" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="surface" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="48" cy="48" r="7"/><rect data-icon-frame="decor" class="max-i-pop" x="184" y="196" width="24" height="14" rx="7" transform="rotate(12 196 203)"/>
+    <path data-icon-frame="decor" class="max-i-line-2" d="M46 204H86M166 204H204" opacity=".7"/>
+    <path data-icon-frame="decor" class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
+
+
+
+  <ellipse class="max-i-bg-strong" cx="128" cy="78" rx="58" ry="24"/>
+  <path class="max-i-line max-i-glow" d="M70 78V174C70 187 96 198 128 198C160 198 186 187 186 174V78"/>
+  <path class="max-i-line-2" d="M70 110C70 123 96 134 128 134C160 134 186 123 186 110M70 143C70 156 96 167 128 167C160 167 186 156 186 143"/>
+  <ellipse class="max-i-accent" cx="128" cy="78" rx="30" ry="10"/>
 </symbol>
-<symbol id="max-icon-server" viewBox="-8 -8 272 272">
+<symbol id="max-icon-server" viewBox="0 0 256 256">
   <title>Server</title>
-  <rect data-icon-frame="decor" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="decor" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="58" cy="70" r="9"/><rect data-icon-frame="decor" class="max-i-pop" x="169" y="49" width="29" height="18" rx="9" transform="rotate(12 184 58)"/>
-    <path class="max-i-line-2" d="M46 198H92M152 198H204" opacity=".7"/><path class="max-i-line-3" d="M44 92L60 108M196 154L214 172" opacity=".76"/>
-    <path class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
-    <rect class="max-i-bg-strong" x="62" y="70" width="132" height="48" rx="12"/><rect class="max-i-bg-strong" x="62" y="138" width="132" height="48" rx="12"/><path class="max-i-line max-i-glow" d="M62 94H194M62 162H194"/><circle class="max-i-accent" cx="91" cy="94" r="7"/><circle class="max-i-success" cx="91" cy="162" r="7"/><path class="max-i-muted" d="M115 94H171M115 162H171"/>
+  <rect data-icon-frame="surface" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="surface" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="48" cy="48" r="7"/><rect data-icon-frame="decor" class="max-i-pop" x="184" y="196" width="24" height="14" rx="7" transform="rotate(12 196 203)"/>
+    <path data-icon-frame="decor" class="max-i-line-2" d="M46 204H86M166 204H204" opacity=".7"/>
+    <path data-icon-frame="decor" class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
+
+
+
+  <rect class="max-i-bg-strong" x="62" y="70" width="132" height="48" rx="12"/>
+  <rect class="max-i-bg-strong" x="62" y="138" width="132" height="48" rx="12"/>
+  <path class="max-i-line max-i-glow" d="M62 94H194M62 162H194"/>
+  <circle class="max-i-accent" cx="91" cy="94" r="7"/>
+  <circle class="max-i-success" cx="91" cy="162" r="7"/>
+  <path class="max-i-muted" d="M115 94H171M115 162H171"/>
 </symbol>
 <symbol id="max-icon-api" viewBox="0 0 256 256">
   <title>API</title>
-  <rect data-icon-frame="decor" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="decor" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="58" cy="70" r="9"/><rect data-icon-frame="decor" class="max-i-pop" x="169" y="49" width="29" height="18" rx="9" transform="rotate(12 184 58)"/>
-    <path class="max-i-line-2" d="M46 198H92M152 198H204" opacity=".7"/><path class="max-i-line-3" d="M44 92L60 108M196 154L214 172" opacity=".76"/>
-    <path class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
-    <path class="max-i-line max-i-glow" d="M78 96L48 128L78 160M178 96L208 128L178 160"/><path class="max-i-line-3" d="M144 78L112 178"/><path class="max-i-line-2" d="M101 126H155"/>
+  <rect data-icon-frame="surface" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="surface" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="48" cy="48" r="7"/><rect data-icon-frame="decor" class="max-i-pop" x="184" y="196" width="24" height="14" rx="7" transform="rotate(12 196 203)"/>
+    <path data-icon-frame="decor" class="max-i-line-2" d="M46 204H86M166 204H204" opacity=".7"/>
+    <path data-icon-frame="decor" class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
+
+
+
+  <path class="max-i-line max-i-glow" d="M78 96L48 128L78 160M178 96L208 128L178 160"/>
+  <path class="max-i-line-3" d="M144 78L112 178"/>
+  <path class="max-i-line-2" d="M101 126H155"/>
 </symbol>
-<symbol id="max-icon-lock" viewBox="-8 -8 272 272">
+<symbol id="max-icon-lock" viewBox="0 0 256 256">
   <title>Lock</title>
-  <rect data-icon-frame="decor" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="decor" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="58" cy="70" r="9"/><rect data-icon-frame="decor" class="max-i-pop" x="169" y="49" width="29" height="18" rx="9" transform="rotate(12 184 58)"/>
-    <path class="max-i-line-2" d="M46 198H92M152 198H204" opacity=".7"/><path class="max-i-line-3" d="M44 92L60 108M196 154L214 172" opacity=".76"/>
-    <path class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
-    <rect class="max-i-bg-strong" x="70" y="112" width="116" height="84" rx="16"/><path class="max-i-line max-i-glow" d="M91 112V93C91 70 106 55 128 55C150 55 165 70 165 93V112"/><circle class="max-i-accent" cx="128" cy="150" r="10"/><path class="max-i-line-3" d="M128 160V176"/>
+  <rect data-icon-frame="surface" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="surface" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="48" cy="48" r="7"/><rect data-icon-frame="decor" class="max-i-pop" x="184" y="196" width="24" height="14" rx="7" transform="rotate(12 196 203)"/>
+    <path data-icon-frame="decor" class="max-i-line-2" d="M46 204H86M166 204H204" opacity=".7"/>
+    <path data-icon-frame="decor" class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
+
+
+
+  <rect class="max-i-bg-strong" x="70" y="112" width="116" height="84" rx="16"/>
+  <path class="max-i-line max-i-glow" d="M91 112V93C91 70 106 55 128 55C150 55 165 70 165 93V112"/>
+  <circle class="max-i-accent" cx="128" cy="150" r="10"/>
+  <path class="max-i-line-3" d="M128 160V176"/>
 </symbol>
 <symbol id="max-icon-shield" viewBox="0 0 256 256">
   <title>Shield</title>
-  <rect data-icon-frame="decor" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="decor" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="58" cy="70" r="9"/><rect data-icon-frame="decor" class="max-i-pop" x="169" y="49" width="29" height="18" rx="9" transform="rotate(12 184 58)"/>
-    <path class="max-i-line-2" d="M46 198H92M152 198H204" opacity=".7"/><path class="max-i-line-3" d="M44 92L60 108M196 154L214 172" opacity=".76"/>
-    <path class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
-    <path class="max-i-bg-strong" stroke="var(--max-icon-primary,rgb(var(--usk-primary-rgb,214 168 79)))" stroke-width="6" d="M128 55L190 82V126C190 169 164 198 128 215C92 198 66 169 66 126V82Z"/><path class="max-i-line-3 max-i-glow" d="M97 132L120 155L160 106"/><path class="max-i-muted" d="M128 76V194"/>
+  <rect data-icon-frame="surface" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="surface" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="48" cy="48" r="7"/><rect data-icon-frame="decor" class="max-i-pop" x="184" y="196" width="24" height="14" rx="7" transform="rotate(12 196 203)"/>
+    <path data-icon-frame="decor" class="max-i-line-2" d="M46 204H86M166 204H204" opacity=".7"/>
+    <path data-icon-frame="decor" class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
+
+
+
+  <path class="max-i-bg-strong" stroke="var(--max-icon-primary,rgb(var(--usk-primary-rgb,214 168 79)))" stroke-width="6" d="M128 55L190 82V126C190 169 164 198 128 215C92 198 66 169 66 126V82Z"/>
+  <path class="max-i-line-3 max-i-glow" d="M97 132L120 155L160 106"/>
+  <path class="max-i-muted" d="M128 76V194"/>
 </symbol>
 <symbol id="max-icon-key" viewBox="0 0 256 256">
   <title>Key</title>
-  <rect data-icon-frame="decor" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="decor" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="58" cy="70" r="9"/><rect data-icon-frame="decor" class="max-i-pop" x="169" y="49" width="29" height="18" rx="9" transform="rotate(12 184 58)"/>
-    <path class="max-i-line-2" d="M46 198H92M152 198H204" opacity=".7"/><path class="max-i-line-3" d="M44 92L60 108M196 154L214 172" opacity=".76"/>
-    <path class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
-    <circle class="max-i-line max-i-glow" cx="94" cy="128" r="34"/><path class="max-i-line-2" d="M128 128H202M169 128V150M190 128V143"/><circle class="max-i-accent" cx="94" cy="128" r="10"/>
+  <rect data-icon-frame="surface" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="surface" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="48" cy="48" r="7"/><rect data-icon-frame="decor" class="max-i-pop" x="184" y="196" width="24" height="14" rx="7" transform="rotate(12 196 203)"/>
+    <path data-icon-frame="decor" class="max-i-line-2" d="M46 204H86M166 204H204" opacity=".7"/>
+    <path data-icon-frame="decor" class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
+
+
+
+  <circle class="max-i-line max-i-glow" cx="94" cy="128" r="34"/>
+  <path class="max-i-line-2" d="M128 128H202M169 128V150M190 128V143"/>
+  <circle class="max-i-accent" cx="94" cy="128" r="10"/>
 </symbol>
 <symbol id="max-icon-chart" viewBox="0 0 256 256">
   <title>Chart</title>
-  <rect data-icon-frame="decor" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="decor" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="58" cy="70" r="9"/><rect data-icon-frame="decor" class="max-i-pop" x="169" y="49" width="29" height="18" rx="9" transform="rotate(12 184 58)"/>
-    <path class="max-i-line-2" d="M46 198H92M152 198H204" opacity=".7"/><path class="max-i-line-3" d="M44 92L60 108M196 154L214 172" opacity=".76"/>
-    <path class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
-    <path class="max-i-line-3" d="M66 188H196"/><rect class="max-i-primary" x="78" y="132" width="23" height="56" rx="5"/><rect class="max-i-secondary" x="116" y="101" width="23" height="87" rx="5"/><rect class="max-i-accent" x="154" y="72" width="23" height="116" rx="5"/><path class="max-i-muted" d="M72 110L107 126L139 90L183 68"/>
+  <rect data-icon-frame="surface" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="surface" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="48" cy="48" r="7"/><rect data-icon-frame="decor" class="max-i-pop" x="184" y="196" width="24" height="14" rx="7" transform="rotate(12 196 203)"/>
+    <path data-icon-frame="decor" class="max-i-line-2" d="M46 204H86M166 204H204" opacity=".7"/>
+    <path data-icon-frame="decor" class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
+
+
+
+  <path class="max-i-line-3" d="M66 188H196"/>
+  <rect class="max-i-primary" x="78" y="132" width="23" height="56" rx="5"/>
+  <rect class="max-i-secondary" x="116" y="101" width="23" height="87" rx="5"/>
+  <rect class="max-i-accent" x="154" y="72" width="23" height="116" rx="5"/>
+  <path class="max-i-muted" d="M72 110L107 126L139 90L183 68"/>
 </symbol>
 <symbol id="max-icon-activity" viewBox="0 0 256 256">
   <title>Activity</title>
-  <rect data-icon-frame="decor" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="decor" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="58" cy="70" r="9"/><rect data-icon-frame="decor" class="max-i-pop" x="169" y="49" width="29" height="18" rx="9" transform="rotate(12 184 58)"/>
-    <path class="max-i-line-2" d="M46 198H92M152 198H204" opacity=".7"/><path class="max-i-line-3" d="M44 92L60 108M196 154L214 172" opacity=".76"/>
-    <path class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
-    <path class="max-i-line max-i-glow" d="M50 137H84L99 94L128 181L148 118H171L184 94L206 137"/><path class="max-i-line-2" d="M58 170H198M70 94H94M162 94H190"/>
+  <rect data-icon-frame="surface" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="surface" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="48" cy="48" r="7"/><rect data-icon-frame="decor" class="max-i-pop" x="184" y="196" width="24" height="14" rx="7" transform="rotate(12 196 203)"/>
+    <path data-icon-frame="decor" class="max-i-line-2" d="M46 204H86M166 204H204" opacity=".7"/>
+    <path data-icon-frame="decor" class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
+
+
+
+  <path class="max-i-line max-i-glow" d="M50 137H84L99 94L128 181L148 118H171L184 94L206 137"/>
+  <path class="max-i-line-2" d="M58 170H198M70 94H94M162 94H190"/>
 </symbol>
-<symbol id="max-icon-credit-card" viewBox="-8 -8 272 272">
+<symbol id="max-icon-credit-card" viewBox="0 0 256 256">
   <title>Credit Card</title>
-  <rect data-icon-frame="decor" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="decor" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="58" cy="70" r="9"/><rect data-icon-frame="decor" class="max-i-pop" x="169" y="49" width="29" height="18" rx="9" transform="rotate(12 184 58)"/>
-    <path class="max-i-line-2" d="M46 198H92M152 198H204" opacity=".7"/><path class="max-i-line-3" d="M44 92L60 108M196 154L214 172" opacity=".76"/>
-    <path class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
-    <rect class="max-i-bg-strong" x="54" y="84" width="148" height="96" rx="16"/><path class="max-i-line max-i-glow" d="M58 111H198"/><path class="max-i-muted" d="M80 148H126M80 166H108"/><circle class="max-i-accent" cx="166" cy="157" r="12"/><circle class="max-i-secondary" cx="181" cy="157" r="12" opacity=".8"/>
+  <rect data-icon-frame="surface" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="surface" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="48" cy="48" r="7"/><rect data-icon-frame="decor" class="max-i-pop" x="184" y="196" width="24" height="14" rx="7" transform="rotate(12 196 203)"/>
+    <path data-icon-frame="decor" class="max-i-line-2" d="M46 204H86M166 204H204" opacity=".7"/>
+    <path data-icon-frame="decor" class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
+
+
+
+  <rect class="max-i-bg-strong" x="54" y="84" width="148" height="96" rx="16"/>
+  <path class="max-i-line max-i-glow" d="M58 111H198"/>
+  <path class="max-i-muted" d="M80 148H126M80 166H108"/>
+  <circle class="max-i-accent" cx="166" cy="157" r="12"/>
+  <circle class="max-i-secondary" cx="181" cy="157" r="12" opacity=".8"/>
 </symbol>
 <symbol id="max-icon-wallet" viewBox="0 0 256 256">
   <title>Wallet</title>
-  <rect data-icon-frame="decor" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="decor" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="58" cy="70" r="9"/><rect data-icon-frame="decor" class="max-i-pop" x="169" y="49" width="29" height="18" rx="9" transform="rotate(12 184 58)"/>
-    <path class="max-i-line-2" d="M46 198H92M152 198H204" opacity=".7"/><path class="max-i-line-3" d="M44 92L60 108M196 154L214 172" opacity=".76"/>
-    <path class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
-    <path class="max-i-bg-strong" stroke="var(--max-icon-primary,rgb(var(--usk-primary-rgb,214 168 79)))" stroke-width="6" d="M62 88H176C190 88 198 96 198 110V178C198 190 190 198 176 198H62Z"/><path class="max-i-line-2" d="M62 110H190M142 128H206V168H142Z"/><circle class="max-i-accent" cx="174" cy="148" r="8"/>
+  <rect data-icon-frame="surface" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="surface" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="48" cy="48" r="7"/><rect data-icon-frame="decor" class="max-i-pop" x="184" y="196" width="24" height="14" rx="7" transform="rotate(12 196 203)"/>
+    <path data-icon-frame="decor" class="max-i-line-2" d="M46 204H86M166 204H204" opacity=".7"/>
+    <path data-icon-frame="decor" class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
+
+
+
+  <path class="max-i-bg-strong" stroke="var(--max-icon-primary,rgb(var(--usk-primary-rgb,214 168 79)))" stroke-width="6" d="M62 88H176C190 88 198 96 198 110V178C198 190 190 198 176 198H62Z"/>
+  <path class="max-i-line-2" d="M62 110H190M142 128H206V168H142Z"/>
+  <circle class="max-i-accent" cx="174" cy="148" r="8"/>
 </symbol>
 <symbol id="max-icon-cart" viewBox="0 0 256 256">
   <title>Cart</title>
-  <rect data-icon-frame="decor" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="decor" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="58" cy="70" r="9"/><rect data-icon-frame="decor" class="max-i-pop" x="169" y="49" width="29" height="18" rx="9" transform="rotate(12 184 58)"/>
-    <path class="max-i-line-2" d="M46 198H92M152 198H204" opacity=".7"/><path class="max-i-line-3" d="M44 92L60 108M196 154L214 172" opacity=".76"/>
-    <path class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
-    <path class="max-i-line max-i-glow" d="M58 76H80L97 158H174L194 102H93"/><circle class="max-i-accent" cx="105" cy="187" r="13"/><circle class="max-i-secondary" cx="165" cy="187" r="13"/><path class="max-i-muted" d="M108 127H175"/>
+  <rect data-icon-frame="surface" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="surface" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="48" cy="48" r="7"/><rect data-icon-frame="decor" class="max-i-pop" x="184" y="196" width="24" height="14" rx="7" transform="rotate(12 196 203)"/>
+    <path data-icon-frame="decor" class="max-i-line-2" d="M46 204H86M166 204H204" opacity=".7"/>
+    <path data-icon-frame="decor" class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
+
+
+
+  <path class="max-i-line max-i-glow" d="M58 76H80L97 158H174L194 102H93"/>
+  <circle class="max-i-accent" cx="105" cy="187" r="13"/>
+  <circle class="max-i-secondary" cx="165" cy="187" r="13"/>
+  <path class="max-i-muted" d="M108 127H175"/>
 </symbol>
 <symbol id="max-icon-invoice" viewBox="0 0 256 256">
   <title>Invoice</title>
-  <rect data-icon-frame="decor" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="decor" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="58" cy="70" r="9"/><rect data-icon-frame="decor" class="max-i-pop" x="169" y="49" width="29" height="18" rx="9" transform="rotate(12 184 58)"/>
-    <path class="max-i-line-2" d="M46 198H92M152 198H204" opacity=".7"/><path class="max-i-line-3" d="M44 92L60 108M196 154L214 172" opacity=".76"/>
-    <path class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
-    <path class="max-i-bg-strong" stroke="var(--max-icon-primary,rgb(var(--usk-primary-rgb,214 168 79)))" stroke-width="6" d="M78 58H178V198L158 188L138 198L118 188L98 198L78 188Z"/><path class="max-i-muted" d="M100 91H156M100 119H162M100 147H136"/><path class="max-i-line-3" d="M94 164H118M148 164H164"/>
+  <rect data-icon-frame="surface" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="surface" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="48" cy="48" r="7"/><rect data-icon-frame="decor" class="max-i-pop" x="184" y="196" width="24" height="14" rx="7" transform="rotate(12 196 203)"/>
+    <path data-icon-frame="decor" class="max-i-line-2" d="M46 204H86M166 204H204" opacity=".7"/>
+    <path data-icon-frame="decor" class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
+
+
+
+  <path class="max-i-bg-strong" stroke="var(--max-icon-primary,rgb(var(--usk-primary-rgb,214 168 79)))" stroke-width="6" d="M78 58H178V198L158 188L138 198L118 188L98 198L78 188Z"/>
+  <path class="max-i-muted" d="M100 91H156M100 119H162M100 147H136"/>
+  <path class="max-i-line-3" d="M94 164H118M148 164H164"/>
 </symbol>
 <symbol id="max-icon-tax" viewBox="0 0 256 256">
   <title>Tax</title>
-  <rect data-icon-frame="decor" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="decor" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="58" cy="70" r="9"/><rect data-icon-frame="decor" class="max-i-pop" x="169" y="49" width="29" height="18" rx="9" transform="rotate(12 184 58)"/>
-    <path class="max-i-line-2" d="M46 198H92M152 198H204" opacity=".7"/><path class="max-i-line-3" d="M44 92L60 108M196 154L214 172" opacity=".76"/>
-    <path class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
-    <rect class="max-i-bg-strong" x="65" y="75" width="126" height="108" rx="14"/><path class="max-i-muted" d="M91 106H165M91 136H138M91 164H116"/><path class="max-i-line-2" d="M148 136L170 158M170 136L148 158"/><path class="max-i-line-3" d="M92 96V84H118"/>
+  <rect data-icon-frame="surface" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="surface" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="48" cy="48" r="7"/><rect data-icon-frame="decor" class="max-i-pop" x="184" y="196" width="24" height="14" rx="7" transform="rotate(12 196 203)"/>
+    <path data-icon-frame="decor" class="max-i-line-2" d="M46 204H86M166 204H204" opacity=".7"/>
+    <path data-icon-frame="decor" class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
+
+
+
+  <rect class="max-i-bg-strong" x="65" y="75" width="126" height="108" rx="14"/>
+  <path class="max-i-muted" d="M91 106H165M91 136H138M91 164H116"/>
+  <path class="max-i-line-2" d="M148 136L170 158M170 136L148 158"/>
+  <path class="max-i-line-3" d="M92 96V84H118"/>
 </symbol>
 <symbol id="max-icon-login" viewBox="0 0 256 256">
   <title>Login</title>
-  <rect data-icon-frame="decor" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="decor" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="58" cy="70" r="9"/><rect data-icon-frame="decor" class="max-i-pop" x="169" y="49" width="29" height="18" rx="9" transform="rotate(12 184 58)"/>
-    <path class="max-i-line-2" d="M46 198H92M152 198H204" opacity=".7"/><path class="max-i-line-3" d="M44 92L60 108M196 154L214 172" opacity=".76"/>
-    <path class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
-    <path class="max-i-line-2" d="M60 78H133V106M133 150V178H60"/><path class="max-i-line max-i-glow" d="M96 128H193M157 94L193 128L157 162"/><circle class="max-i-accent" cx="63" cy="128" r="9"/>
+  <rect data-icon-frame="surface" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="surface" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="48" cy="48" r="7"/><rect data-icon-frame="decor" class="max-i-pop" x="184" y="196" width="24" height="14" rx="7" transform="rotate(12 196 203)"/>
+    <path data-icon-frame="decor" class="max-i-line-2" d="M46 204H86M166 204H204" opacity=".7"/>
+    <path data-icon-frame="decor" class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
+
+
+
+  <path class="max-i-line-2" d="M60 78H133V106M133 150V178H60"/>
+  <path class="max-i-line max-i-glow" d="M96 128H193M157 94L193 128L157 162"/>
+  <circle class="max-i-accent" cx="63" cy="128" r="9"/>
 </symbol>
 <symbol id="max-icon-logout" viewBox="0 0 256 256">
   <title>Logout</title>
-  <rect data-icon-frame="decor" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="decor" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="58" cy="70" r="9"/><rect data-icon-frame="decor" class="max-i-pop" x="169" y="49" width="29" height="18" rx="9" transform="rotate(12 184 58)"/>
-    <path class="max-i-line-2" d="M46 198H92M152 198H204" opacity=".7"/><path class="max-i-line-3" d="M44 92L60 108M196 154L214 172" opacity=".76"/>
-    <path class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
-    <path class="max-i-line-2" d="M196 78H123V106M123 150V178H196"/><path class="max-i-line max-i-glow" d="M160 128H63M99 94L63 128L99 162"/><circle class="max-i-accent" cx="193" cy="128" r="9"/>
+  <rect data-icon-frame="surface" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="surface" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="48" cy="48" r="7"/><rect data-icon-frame="decor" class="max-i-pop" x="184" y="196" width="24" height="14" rx="7" transform="rotate(12 196 203)"/>
+    <path data-icon-frame="decor" class="max-i-line-2" d="M46 204H86M166 204H204" opacity=".7"/>
+    <path data-icon-frame="decor" class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
+
+
+
+  <path class="max-i-line-2" d="M196 78H123V106M123 150V178H196"/>
+  <path class="max-i-line max-i-glow" d="M160 128H63M99 94L63 128L99 162"/>
+  <circle class="max-i-accent" cx="193" cy="128" r="9"/>
 </symbol>
 <symbol id="max-icon-edit" viewBox="0 0 256 256">
   <title>Edit</title>
-  <rect data-icon-frame="decor" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="decor" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="58" cy="70" r="9"/><rect data-icon-frame="decor" class="max-i-pop" x="169" y="49" width="29" height="18" rx="9" transform="rotate(12 184 58)"/>
-    <path class="max-i-line-2" d="M46 198H92M152 198H204" opacity=".7"/><path class="max-i-line-3" d="M44 92L60 108M196 154L214 172" opacity=".76"/>
-    <path class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
-    <path class="max-i-bg-strong" stroke="var(--max-icon-primary,rgb(var(--usk-primary-rgb,214 168 79)))" stroke-width="6" d="M72 171L67 195L91 190L176 105L157 86Z"/><path class="max-i-line-2" d="M145 98L164 117M82 181L75 188"/><path class="max-i-accent" stroke="var(--max-icon-secondary,rgb(var(--usk-secondary-rgb,111 134 184)))" stroke-width="5" d="M161 82L176 67L195 86L180 101Z"/>
+  <rect data-icon-frame="surface" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="surface" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="48" cy="48" r="7"/><rect data-icon-frame="decor" class="max-i-pop" x="184" y="196" width="24" height="14" rx="7" transform="rotate(12 196 203)"/>
+    <path data-icon-frame="decor" class="max-i-line-2" d="M46 204H86M166 204H204" opacity=".7"/>
+    <path data-icon-frame="decor" class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
+
+
+
+  <path class="max-i-bg-strong" stroke="var(--max-icon-primary,rgb(var(--usk-primary-rgb,214 168 79)))" stroke-width="6" d="M72 171L67 195L91 190L176 105L157 86Z"/>
+  <path class="max-i-line-2" d="M145 98L164 117M82 181L75 188"/>
+  <path class="max-i-accent" stroke="var(--max-icon-secondary,rgb(var(--usk-secondary-rgb,111 134 184)))" stroke-width="5" d="M161 82L176 67L195 86L180 101Z"/>
 </symbol>
 <symbol id="max-icon-trash" viewBox="0 0 256 256">
   <title>Trash</title>
-  <rect data-icon-frame="decor" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="decor" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="58" cy="70" r="9"/><rect data-icon-frame="decor" class="max-i-pop" x="169" y="49" width="29" height="18" rx="9" transform="rotate(12 184 58)"/>
-    <path class="max-i-line-2" d="M46 198H92M152 198H204" opacity=".7"/><path class="max-i-line-3" d="M44 92L60 108M196 154L214 172" opacity=".76"/>
-    <path class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
-    <path class="max-i-line max-i-glow" d="M83 95H173M108 95V73H148V95M94 111L101 194H155L162 111"/><path class="max-i-line-2" d="M116 130V173M140 130V173"/><path class="max-i-line-3" d="M103 194H153"/>
+  <rect data-icon-frame="surface" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="surface" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="48" cy="48" r="7"/><rect data-icon-frame="decor" class="max-i-pop" x="184" y="196" width="24" height="14" rx="7" transform="rotate(12 196 203)"/>
+    <path data-icon-frame="decor" class="max-i-line-2" d="M46 204H86M166 204H204" opacity=".7"/>
+    <path data-icon-frame="decor" class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
+
+
+
+  <path class="max-i-line max-i-glow" d="M83 95H173M108 95V73H148V95M94 111L101 194H155L162 111"/>
+  <path class="max-i-line-2" d="M116 130V173M140 130V173"/>
+  <path class="max-i-line-3" d="M103 194H153"/>
 </symbol>
 <symbol id="max-icon-plus" viewBox="0 0 256 256">
   <title>Plus</title>
-  <rect data-icon-frame="decor" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="decor" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="58" cy="70" r="9"/><rect data-icon-frame="decor" class="max-i-pop" x="169" y="49" width="29" height="18" rx="9" transform="rotate(12 184 58)"/>
-    <path class="max-i-line-2" d="M46 198H92M152 198H204" opacity=".7"/><path class="max-i-line-3" d="M44 92L60 108M196 154L214 172" opacity=".76"/>
-    <path class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
-    <circle class="max-i-bg-strong" cx="128" cy="128" r="66"/><circle class="max-i-line max-i-glow" cx="128" cy="128" r="66"/><path class="max-i-line-2" d="M128 88V168M88 128H168"/><path class="max-i-line-3" d="M128 96V160M96 128H160"/>
+  <rect data-icon-frame="surface" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="surface" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="48" cy="48" r="7"/><rect data-icon-frame="decor" class="max-i-pop" x="184" y="196" width="24" height="14" rx="7" transform="rotate(12 196 203)"/>
+    <path data-icon-frame="decor" class="max-i-line-2" d="M46 204H86M166 204H204" opacity=".7"/>
+    <path data-icon-frame="decor" class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
+
+
+
+  <circle class="max-i-bg-strong" cx="128" cy="128" r="66"/>
+  <circle class="max-i-line max-i-glow" cx="128" cy="128" r="66"/>
+  <path class="max-i-line-2" d="M128 88V168M88 128H168"/>
+  <path class="max-i-line-3" d="M128 96V160M96 128H160"/>
 </symbol>
 <symbol id="max-icon-minus" viewBox="0 0 256 256">
   <title>Minus</title>
-  <rect data-icon-frame="decor" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="decor" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="58" cy="70" r="9"/><rect data-icon-frame="decor" class="max-i-pop" x="169" y="49" width="29" height="18" rx="9" transform="rotate(12 184 58)"/>
-    <path class="max-i-line-2" d="M46 198H92M152 198H204" opacity=".7"/><path class="max-i-line-3" d="M44 92L60 108M196 154L214 172" opacity=".76"/>
-    <path class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
-    <circle class="max-i-bg-strong" cx="128" cy="128" r="66"/><circle class="max-i-line max-i-glow" cx="128" cy="128" r="66"/><path class="max-i-line-2" d="M88 128H168"/><path class="max-i-line-3" d="M96 128H160"/>
+  <rect data-icon-frame="surface" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="surface" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="48" cy="48" r="7"/><rect data-icon-frame="decor" class="max-i-pop" x="184" y="196" width="24" height="14" rx="7" transform="rotate(12 196 203)"/>
+    <path data-icon-frame="decor" class="max-i-line-2" d="M46 204H86M166 204H204" opacity=".7"/>
+    <path data-icon-frame="decor" class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
+
+
+
+  <circle class="max-i-bg-strong" cx="128" cy="128" r="66"/>
+  <circle class="max-i-line max-i-glow" cx="128" cy="128" r="66"/>
+  <path class="max-i-line-2" d="M88 128H168"/>
+  <path class="max-i-line-3" d="M96 128H160"/>
 </symbol>
 <symbol id="max-icon-filter" viewBox="0 0 256 256">
   <title>Filter</title>
-  <rect data-icon-frame="decor" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="decor" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="58" cy="70" r="9"/><rect data-icon-frame="decor" class="max-i-pop" x="169" y="49" width="29" height="18" rx="9" transform="rotate(12 184 58)"/>
-    <path class="max-i-line-2" d="M46 198H92M152 198H204" opacity=".7"/><path class="max-i-line-3" d="M44 92L60 108M196 154L214 172" opacity=".76"/>
-    <path class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
-    <path class="max-i-bg-strong" stroke="var(--max-icon-primary,rgb(var(--usk-primary-rgb,214 168 79)))" stroke-width="6" d="M60 74H196L145 134V187L111 202V134Z"/><path class="max-i-line-2" d="M84 96H172M103 124H153"/><path class="max-i-line-3" d="M111 202L145 187"/>
+  <rect data-icon-frame="surface" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="surface" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="48" cy="48" r="7"/><rect data-icon-frame="decor" class="max-i-pop" x="184" y="196" width="24" height="14" rx="7" transform="rotate(12 196 203)"/>
+    <path data-icon-frame="decor" class="max-i-line-2" d="M46 204H86M166 204H204" opacity=".7"/>
+    <path data-icon-frame="decor" class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
+
+
+
+  <path class="max-i-bg-strong" stroke="var(--max-icon-primary,rgb(var(--usk-primary-rgb,214 168 79)))" stroke-width="6" d="M60 74H196L145 134V187L111 202V134Z"/>
+  <path class="max-i-line-2" d="M84 96H172M103 124H153"/>
+  <path class="max-i-line-3" d="M111 202L145 187"/>
 </symbol>
 <symbol id="max-icon-menu" viewBox="0 0 256 256">
   <title>Menu</title>
-  <rect data-icon-frame="decor" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="decor" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="58" cy="70" r="9"/><rect data-icon-frame="decor" class="max-i-pop" x="169" y="49" width="29" height="18" rx="9" transform="rotate(12 184 58)"/>
-    <path class="max-i-line-2" d="M46 198H92M152 198H204" opacity=".7"/><path class="max-i-line-3" d="M44 92L60 108M196 154L214 172" opacity=".76"/>
-    <path class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
-    <path class="max-i-line max-i-glow" d="M70 87H186M70 128H186M70 169H186"/><path class="max-i-line-2" d="M72 99H116M140 140H186M72 181H128"/><circle class="max-i-accent" cx="84" cy="87" r="6"/>
+  <rect data-icon-frame="surface" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="surface" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="48" cy="48" r="7"/><rect data-icon-frame="decor" class="max-i-pop" x="184" y="196" width="24" height="14" rx="7" transform="rotate(12 196 203)"/>
+    <path data-icon-frame="decor" class="max-i-line-2" d="M46 204H86M166 204H204" opacity=".7"/>
+    <path data-icon-frame="decor" class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
+
+
+
+  <path class="max-i-line max-i-glow" d="M70 87H186M70 128H186M70 169H186"/>
+  <path class="max-i-line-2" d="M72 99H116M140 140H186M72 181H128"/>
+  <circle class="max-i-accent" cx="84" cy="87" r="6"/>
 </symbol>
 <symbol id="max-icon-code" viewBox="0 0 256 256">
   <title>Code</title>
-  <rect data-icon-frame="decor" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="decor" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="58" cy="70" r="9"/><rect data-icon-frame="decor" class="max-i-pop" x="169" y="49" width="29" height="18" rx="9" transform="rotate(12 184 58)"/>
-    <path class="max-i-line-2" d="M46 198H92M152 198H204" opacity=".7"/><path class="max-i-line-3" d="M44 92L60 108M196 154L214 172" opacity=".76"/>
-    <path class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
-    <path class="max-i-line max-i-glow" d="M82 93L48 128L82 163M174 93L208 128L174 163"/><path class="max-i-line-3" d="M144 73L112 183"/><path class="max-i-line-2" d="M95 192H161"/>
+  <rect data-icon-frame="surface" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="surface" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="48" cy="48" r="7"/><rect data-icon-frame="decor" class="max-i-pop" x="184" y="196" width="24" height="14" rx="7" transform="rotate(12 196 203)"/>
+    <path data-icon-frame="decor" class="max-i-line-2" d="M46 204H86M166 204H204" opacity=".7"/>
+    <path data-icon-frame="decor" class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
+
+
+
+  <path class="max-i-line max-i-glow" d="M82 93L48 128L82 163M174 93L208 128L174 163"/>
+  <path class="max-i-line-3" d="M144 73L112 183"/>
+  <path class="max-i-line-2" d="M95 192H161"/>
 </symbol>
 <symbol id="max-icon-terminal" viewBox="0 0 256 256">
   <title>Terminal</title>
-  <rect data-icon-frame="decor" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="decor" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="58" cy="70" r="9"/><rect data-icon-frame="decor" class="max-i-pop" x="169" y="49" width="29" height="18" rx="9" transform="rotate(12 184 58)"/>
-    <path class="max-i-line-2" d="M46 198H92M152 198H204" opacity=".7"/><path class="max-i-line-3" d="M44 92L60 108M196 154L214 172" opacity=".76"/>
-    <path class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
-    <rect class="max-i-bg-strong" x="55" y="72" width="146" height="116" rx="14"/><path class="max-i-line max-i-glow" d="M55 100H201"/><path class="max-i-line-3" d="M82 126L103 143L82 160M117 160H164"/><circle class="max-i-danger" cx="76" cy="86" r="5"/><circle class="max-i-warning" cx="94" cy="86" r="5"/><circle class="max-i-success" cx="112" cy="86" r="5"/>
+  <rect data-icon-frame="surface" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="surface" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="48" cy="48" r="7"/><rect data-icon-frame="decor" class="max-i-pop" x="184" y="196" width="24" height="14" rx="7" transform="rotate(12 196 203)"/>
+    <path data-icon-frame="decor" class="max-i-line-2" d="M46 204H86M166 204H204" opacity=".7"/>
+    <path data-icon-frame="decor" class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
+
+
+
+  <rect class="max-i-bg-strong" x="55" y="72" width="146" height="116" rx="14"/>
+  <path class="max-i-line max-i-glow" d="M55 100H201"/>
+  <path class="max-i-line-3" d="M82 126L103 143L82 160M117 160H164"/>
+  <circle class="max-i-danger" cx="76" cy="86" r="5"/>
+  <circle class="max-i-warning" cx="94" cy="86" r="5"/>
+  <circle class="max-i-success" cx="112" cy="86" r="5"/>
 </symbol>
 <symbol id="max-icon-rocket" viewBox="0 0 256 256">
   <title>Rocket</title>
-  <rect data-icon-frame="decor" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="decor" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="58" cy="70" r="9"/><rect data-icon-frame="decor" class="max-i-pop" x="169" y="49" width="29" height="18" rx="9" transform="rotate(12 184 58)"/>
-    <path class="max-i-line-2" d="M46 198H92M152 198H204" opacity=".7"/><path class="max-i-line-3" d="M44 92L60 108M196 154L214 172" opacity=".76"/>
-    <path class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
-    <path class="max-i-bg-strong" stroke="var(--max-icon-primary,rgb(var(--usk-primary-rgb,214 168 79)))" stroke-width="6" d="M135 55C169 65 189 87 199 121L161 158L99 96Z"/><circle class="max-i-line-3" cx="160" cy="94" r="15"/><path class="max-i-secondary" stroke="var(--max-icon-accent,rgb(var(--usk-accent-rgb,243 210 122)))" stroke-width="5" d="M96 99L70 109L91 130M158 160L147 186L126 165"/><path class="max-i-line-2" d="M96 160L67 189M113 176L97 207"/>
+  <rect data-icon-frame="surface" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="surface" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="48" cy="48" r="7"/><rect data-icon-frame="decor" class="max-i-pop" x="184" y="196" width="24" height="14" rx="7" transform="rotate(12 196 203)"/>
+    <path data-icon-frame="decor" class="max-i-line-2" d="M46 204H86M166 204H204" opacity=".7"/>
+    <path data-icon-frame="decor" class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
+
+
+
+  <path class="max-i-bg-strong" stroke="var(--max-icon-primary,rgb(var(--usk-primary-rgb,214 168 79)))" stroke-width="6" d="M135 55C169 65 189 87 199 121L161 158L99 96Z"/>
+  <circle class="max-i-line-3" cx="160" cy="94" r="15"/>
+  <path fill="none" class="max-i-secondary" stroke="var(--max-icon-accent,rgb(var(--usk-accent-rgb,243 210 122)))" stroke-width="5" d="M96 99L70 109L91 130M158 160L147 186L126 165"/>
+  <path class="max-i-line-2" d="M96 160L67 189M113 176L97 207"/>
 </symbol>
-<symbol id="max-icon-bug" viewBox="-8 -8 272 272">
+<symbol id="max-icon-bug" viewBox="0 0 256 256">
   <title>Bug</title>
-  <rect data-icon-frame="decor" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="decor" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="58" cy="70" r="9"/><rect data-icon-frame="decor" class="max-i-pop" x="169" y="49" width="29" height="18" rx="9" transform="rotate(12 184 58)"/>
-    <path class="max-i-line-2" d="M46 198H92M152 198H204" opacity=".7"/><path class="max-i-line-3" d="M44 92L60 108M196 154L214 172" opacity=".76"/>
-    <path class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
-    <ellipse class="max-i-bg-strong" cx="128" cy="137" rx="45" ry="55"/><ellipse class="max-i-line max-i-glow" cx="128" cy="137" rx="45" ry="55"/><circle class="max-i-secondary" cx="128" cy="80" r="24"/><path class="max-i-muted" d="M128 106V190M82 118L58 96M174 118L198 96M78 147H50M178 147H206M88 177L61 194M168 177L195 194"/><circle class="max-i-bg" cx="119" cy="79" r="5"/><circle class="max-i-bg" cx="137" cy="79" r="5"/>
+  <rect data-icon-frame="surface" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/>
+    <rect data-icon-frame="surface" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/>
+    <circle data-icon-frame="decor" class="max-i-confetti" cx="48" cy="48" r="7"/>
+    <rect data-icon-frame="decor" class="max-i-pop" x="184" y="196" width="24" height="14" rx="7" transform="rotate(12 196 203)"/>
+    <g data-icon-glyph="semantic">
+      <path data-icon-part="bug-legs" class="max-i-line-2" d="M92 112L63 96M88 136H55M92 160L63 178M164 112L193 96M168 136H201M164 160L193 178M108 80L90 57M148 80L166 57"/>
+      <path data-icon-part="bug-body" class="max-i-line" d="M90 128C90 98 106 82 128 82C150 82 166 98 166 128V151C166 182 150 202 128 202C106 202 90 182 90 151Z"/>
+      <path data-icon-part="bug-head" class="max-i-line-3" d="M102 96C108 82 116 76 128 76C140 76 148 82 154 96"/>
+      <path data-icon-part="bug-body" class="max-i-line-2" d="M128 84V200M92 137H164"/>
+    </g>
 </symbol>
 <symbol id="max-icon-help" viewBox="0 0 256 256">
   <title>Help</title>
-  <rect data-icon-frame="decor" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="decor" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="58" cy="70" r="9"/><rect data-icon-frame="decor" class="max-i-pop" x="169" y="49" width="29" height="18" rx="9" transform="rotate(12 184 58)"/>
-    <path class="max-i-line-2" d="M46 198H92M152 198H204" opacity=".7"/><path class="max-i-line-3" d="M44 92L60 108M196 154L214 172" opacity=".76"/>
-    <path class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
-    <circle class="max-i-bg-strong" cx="128" cy="128" r="66"/><circle class="max-i-line max-i-glow" cx="128" cy="128" r="66"/><path class="max-i-line-2" d="M105 106C107 86 122 76 140 82C158 88 163 108 151 122C142 132 129 134 128 151"/><circle class="max-i-accent" cx="128" cy="178" r="9"/>
+  <rect data-icon-frame="surface" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="surface" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="48" cy="48" r="7"/><rect data-icon-frame="decor" class="max-i-pop" x="184" y="196" width="24" height="14" rx="7" transform="rotate(12 196 203)"/>
+    <path data-icon-frame="decor" class="max-i-line-2" d="M46 204H86M166 204H204" opacity=".7"/>
+    <path data-icon-frame="decor" class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
+
+
+
+  <circle class="max-i-bg-strong" cx="128" cy="128" r="66"/>
+  <circle class="max-i-line max-i-glow" cx="128" cy="128" r="66"/>
+  <path class="max-i-line-2" d="M105 106C107 86 122 76 140 82C158 88 163 108 151 122C142 132 129 134 128 151"/>
+  <circle class="max-i-accent" cx="128" cy="178" r="9"/>
 </symbol>
-<symbol id="max-icon-link" viewBox="-8 -8 272 272">
+<symbol id="max-icon-link" viewBox="0 0 256 256">
   <title>Link</title>
-  <rect data-icon-frame="decor" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="decor" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="58" cy="70" r="9"/><rect data-icon-frame="decor" class="max-i-pop" x="169" y="49" width="29" height="18" rx="9" transform="rotate(12 184 58)"/>
-    <path class="max-i-line-2" d="M46 198H92M152 198H204" opacity=".7"/><path class="max-i-line-3" d="M44 92L60 108M196 154L214 172" opacity=".76"/>
-    <path class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
-    <path class="max-i-line max-i-glow" d="M106 91L121 76C140 57 172 57 191 76C210 95 210 127 191 146L171 166"/><path class="max-i-line-2" d="M150 165L135 180C116 199 84 199 65 180C46 161 46 129 65 110L85 90"/><path class="max-i-line-3" d="M104 152L152 104"/>
+  <rect data-icon-frame="surface" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/>
+    <rect data-icon-frame="surface" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/>
+    <circle data-icon-frame="decor" class="max-i-confetti" cx="48" cy="48" r="7"/>
+    <rect data-icon-frame="decor" class="max-i-pop" x="184" y="196" width="24" height="14" rx="7" transform="rotate(12 196 203)"/>
+    <g data-icon-glyph="semantic" data-icon-prototype="reference-led-v1" transform="rotate(-32 128 128)">
+      <rect data-icon-part="link-loop-a" class="max-i-primary" x="48" y="87" width="108" height="68" rx="30" style="fill:var(--max-icon-primary,rgb(var(--usk-primary-rgb,255 77 141)));stroke:var(--max-icon-border,rgb(var(--usk-border-rgb,22 18 35)/.94));stroke-width:7"/>
+      <rect data-icon-part="link-cutout-a" class="max-i-bg-strong" x="66" y="104" width="72" height="34" rx="16" style="stroke:var(--max-icon-border,rgb(var(--usk-border-rgb,22 18 35)/.94));stroke-width:4"/>
+      <rect data-icon-part="link-loop-b" class="max-i-secondary" x="100" y="103" width="108" height="68" rx="30" style="fill:var(--max-icon-secondary,rgb(var(--usk-secondary-rgb,57 222 255)));stroke:var(--max-icon-border,rgb(var(--usk-border-rgb,22 18 35)/.94));stroke-width:7"/>
+      <rect data-icon-part="link-cutout-b" class="max-i-bg-strong" x="118" y="120" width="72" height="34" rx="16" style="stroke:var(--max-icon-border,rgb(var(--usk-border-rgb,22 18 35)/.94));stroke-width:4"/>
+      <path data-icon-part="link-bridge" class="max-i-accent" d="M107 114C119 108 137 113 149 126L139 143C131 136 123 133 115 138Z" style="fill:var(--max-icon-accent,rgb(var(--usk-accent-rgb,255 203 43)));stroke:var(--max-icon-border,rgb(var(--usk-border-rgb,22 18 35)/.94));stroke-width:5;stroke-linejoin:round"/>
+    </g>
 </symbol>
-<symbol id="max-icon-cloud" viewBox="-8 -8 272 272">
+<symbol id="max-icon-cloud" viewBox="0 0 256 256">
   <title>Cloud</title>
-  <rect data-icon-frame="decor" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="decor" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="58" cy="70" r="9"/><rect data-icon-frame="decor" class="max-i-pop" x="169" y="49" width="29" height="18" rx="9" transform="rotate(12 184 58)"/>
-    <path class="max-i-line-2" d="M46 198H92M152 198H204" opacity=".7"/><path class="max-i-line-3" d="M44 92L60 108M196 154L214 172" opacity=".76"/>
-    <path class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
-    <path class="max-i-bg-strong" stroke="var(--max-icon-primary,rgb(var(--usk-primary-rgb,214 168 79)))" stroke-width="6" d="M79 172C60 172 47 158 47 140C47 122 61 109 78 109C88 85 109 72 132 77C153 81 168 98 172 119C193 120 209 136 209 156C209 177 192 190 170 190H82"/><path class="max-i-line-2" d="M104 151H152M128 126V176"/><path class="max-i-line-3" d="M128 126L106 148M128 126L150 148"/>
+  <rect data-icon-frame="surface" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/>
+    <rect data-icon-frame="surface" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/>
+    <circle data-icon-frame="decor" class="max-i-confetti" cx="48" cy="48" r="7"/>
+    <rect data-icon-frame="decor" class="max-i-pop" x="184" y="196" width="24" height="14" rx="7" transform="rotate(12 196 203)"/>
+    <g data-icon-glyph="semantic" data-icon-prototype="reference-led-v1">
+      <path data-icon-part="cloud-shell" class="max-i-secondary" d="M70 187C48 187 36 171 40 151C43 134 56 123 72 120C76 91 99 70 128 72C155 73 176 91 182 117C202 119 216 133 216 153C216 174 201 187 179 187Z" style="fill:var(--max-icon-secondary,rgb(var(--usk-secondary-rgb,57 222 255)));stroke:var(--max-icon-border,rgb(var(--usk-border-rgb,22 18 35)/.94));stroke-width:7;stroke-linejoin:round"/>
+      <path data-icon-part="cloud-highlight" class="max-i-primary" d="M73 137C77 112 97 92 122 89C104 98 94 113 92 133Z" style="fill:var(--max-icon-primary,rgb(var(--usk-primary-rgb,255 77 141)));stroke:var(--max-icon-border,rgb(var(--usk-border-rgb,22 18 35)/.94));stroke-width:4;stroke-linejoin:round"/>
+      <path data-icon-part="cloud-action" class="max-i-accent" d="M119 174V140H101L128 110L155 140H137V174Z" style="fill:var(--max-icon-accent,rgb(var(--usk-accent-rgb,255 203 43)));stroke:var(--max-icon-border,rgb(var(--usk-border-rgb,22 18 35)/.94));stroke-width:6;stroke-linejoin:round"/>
+    </g>
 </symbol>
 <symbol id="max-icon-globe" viewBox="0 0 256 256">
   <title>Globe</title>
-  <rect data-icon-frame="decor" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="decor" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="58" cy="70" r="9"/><rect data-icon-frame="decor" class="max-i-pop" x="169" y="49" width="29" height="18" rx="9" transform="rotate(12 184 58)"/>
-    <path class="max-i-line-2" d="M46 198H92M152 198H204" opacity=".7"/><path class="max-i-line-3" d="M44 92L60 108M196 154L214 172" opacity=".76"/>
-    <path class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
-    <circle class="max-i-bg-strong" cx="128" cy="128" r="66"/><circle class="max-i-line max-i-glow" cx="128" cy="128" r="66"/><path class="max-i-line-2" d="M62 128H194M128 62C105 84 95 106 95 128C95 150 105 172 128 194M128 62C151 84 161 106 161 128C161 150 151 172 128 194M79 91C104 103 152 103 177 91M79 165C104 153 152 153 177 165"/>
+  <rect data-icon-frame="surface" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="surface" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="48" cy="48" r="7"/><rect data-icon-frame="decor" class="max-i-pop" x="184" y="196" width="24" height="14" rx="7" transform="rotate(12 196 203)"/>
+    <path data-icon-frame="decor" class="max-i-line-2" d="M46 204H86M166 204H204" opacity=".7"/>
+    <path data-icon-frame="decor" class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
+
+
+
+  <circle class="max-i-bg-strong" cx="128" cy="128" r="66"/>
+  <circle class="max-i-line max-i-glow" cx="128" cy="128" r="66"/>
+  <path class="max-i-line-2" d="M62 128H194M128 62C105 84 95 106 95 128C95 150 105 172 128 194M128 62C151 84 161 106 161 128C161 150 151 172 128 194M79 91C104 103 152 103 177 91M79 165C104 153 152 153 177 165"/>
 </symbol>
-<symbol id="max-icon-warning" viewBox="-8 -8 272 272">
+<symbol id="max-icon-warning" viewBox="0 0 256 256">
   <title>Warning</title>
-  <rect data-icon-frame="decor" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="decor" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="58" cy="70" r="9"/><rect data-icon-frame="decor" class="max-i-pop" x="169" y="49" width="29" height="18" rx="9" transform="rotate(12 184 58)"/>
-    <path class="max-i-line-2" d="M46 198H92M152 198H204" opacity=".7"/><path class="max-i-line-3" d="M44 92L60 108M196 154L214 172" opacity=".76"/>
-    <path class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
-    <path class="max-i-bg-strong" stroke="var(--max-icon-warning,rgb(var(--usk-warning-rgb,255 203 91)))" stroke-width="8" d="M128 55L203 190H53Z"/><path class="max-i-danger" stroke="var(--max-icon-danger,rgb(var(--usk-danger-rgb,255 123 123)))" stroke-width="12" d="M128 101V145"/><circle class="max-i-danger" cx="128" cy="169" r="8"/><path class="max-i-line" d="M78 190H178"/>
+  <rect data-icon-frame="surface" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="surface" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="48" cy="48" r="7"/><rect data-icon-frame="decor" class="max-i-pop" x="184" y="196" width="24" height="14" rx="7" transform="rotate(12 196 203)"/>
+    <path data-icon-frame="decor" class="max-i-line-2" d="M46 204H86M166 204H204" opacity=".7"/>
+    <path data-icon-frame="decor" class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
+
+
+
+  <path class="max-i-bg-strong" stroke="var(--max-icon-warning,rgb(var(--usk-warning-rgb,255 203 91)))" stroke-width="8" d="M128 55L203 190H53Z"/>
+  <path fill="none" class="max-i-danger" stroke="var(--max-icon-danger,rgb(var(--usk-danger-rgb,255 123 123)))" stroke-width="12" d="M128 101V145"/>
+  <circle class="max-i-danger" cx="128" cy="169" r="8"/>
+  <path class="max-i-line" d="M78 190H178"/>
 </symbol>
 <symbol id="max-icon-scan" viewBox="0 0 256 256">
   <title>Scan</title>
-  <rect data-icon-frame="decor" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="decor" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="58" cy="70" r="9"/><rect data-icon-frame="decor" class="max-i-pop" x="169" y="49" width="29" height="18" rx="9" transform="rotate(12 184 58)"/>
-    <path class="max-i-line-2" d="M46 198H92M152 198H204" opacity=".7"/><path class="max-i-line-3" d="M44 92L60 108M196 154L214 172" opacity=".76"/>
-    <path class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
-    <rect class="max-i-bg-strong" x="58" y="70" width="140" height="118" rx="14"/><path class="max-i-line-2" d="M81 100V84H113M143 84H175V100M81 158V174H113M143 174H175V158"/><path class="max-i-line max-i-glow" d="M72 129H184"/><circle class="max-i-line-3" cx="128" cy="129" r="24"/>
+  <rect data-icon-frame="surface" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="surface" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="48" cy="48" r="7"/><rect data-icon-frame="decor" class="max-i-pop" x="184" y="196" width="24" height="14" rx="7" transform="rotate(12 196 203)"/>
+    <path data-icon-frame="decor" class="max-i-line-2" d="M46 204H86M166 204H204" opacity=".7"/>
+    <path data-icon-frame="decor" class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
+
+
+
+  <rect class="max-i-bg-strong" x="58" y="70" width="140" height="118" rx="14"/>
+  <path class="max-i-line-2" d="M81 100V84H113M143 84H175V100M81 158V174H113M143 174H175V158"/>
+  <path class="max-i-line max-i-glow" d="M72 129H184"/>
+  <circle class="max-i-line-3" cx="128" cy="129" r="24"/>
 </symbol>
-<symbol id="max-icon-network" viewBox="-8 -8 272 272">
+<symbol id="max-icon-network" viewBox="0 0 256 256">
   <title>Network</title>
-  <rect data-icon-frame="decor" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="decor" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="58" cy="70" r="9"/><rect data-icon-frame="decor" class="max-i-pop" x="169" y="49" width="29" height="18" rx="9" transform="rotate(12 184 58)"/>
-    <path class="max-i-line-2" d="M46 198H92M152 198H204" opacity=".7"/><path class="max-i-line-3" d="M44 92L60 108M196 154L214 172" opacity=".76"/>
-    <path class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
-    <circle class="max-i-line" cx="82" cy="132" r="18"/><circle class="max-i-line-2" cx="128" cy="82" r="18"/><circle class="max-i-line" cx="174" cy="132" r="18"/><circle class="max-i-line-3" cx="128" cy="184" r="18"/><path class="max-i-muted" d="M96 119L115 95M141 95L160 119M100 140L114 172M156 172L170 140M100 132H156"/>
+  <rect data-icon-frame="surface" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/>
+    <rect data-icon-frame="surface" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/>
+    <circle data-icon-frame="decor" class="max-i-confetti" cx="48" cy="48" r="7"/>
+    <rect data-icon-frame="decor" class="max-i-pop" x="184" y="196" width="24" height="14" rx="7" transform="rotate(12 196 203)"/>
+    <g data-icon-glyph="semantic" data-icon-prototype="reference-led-v1">
+      <path data-icon-part="network-connector" class="max-i-line-3" d="M85 116L115 86"/>
+      <path data-icon-part="network-connector" class="max-i-line-3" d="M141 86L171 116"/>
+      <path data-icon-part="network-connector" class="max-i-line-3" d="M85 144L115 174"/>
+      <path data-icon-part="network-connector" class="max-i-line-3" d="M141 174L171 144"/>
+      <path data-icon-part="network-connector" class="max-i-line-3" d="M91 130L165 130"/>
+      <circle data-icon-part="network-node" class="max-i-primary" cx="72" cy="130" r="19" style="fill:var(--max-icon-primary,rgb(var(--usk-primary-rgb,255 77 141)));stroke:var(--max-icon-border,rgb(var(--usk-border-rgb,22 18 35)/.94));stroke-width:6"/>
+      <circle data-icon-part="network-node" class="max-i-secondary" cx="128" cy="72" r="19" style="fill:var(--max-icon-secondary,rgb(var(--usk-secondary-rgb,57 222 255)));stroke:var(--max-icon-border,rgb(var(--usk-border-rgb,22 18 35)/.94));stroke-width:6"/>
+      <circle data-icon-part="network-node" class="max-i-accent" cx="184" cy="130" r="19" style="fill:var(--max-icon-accent,rgb(var(--usk-accent-rgb,255 203 43)));stroke:var(--max-icon-border,rgb(var(--usk-border-rgb,22 18 35)/.94));stroke-width:6"/>
+      <circle data-icon-part="network-node" class="max-i-success" cx="128" cy="188" r="19" style="fill:var(--max-icon-success,rgb(var(--usk-success-rgb,22 201 121)));stroke:var(--max-icon-border,rgb(var(--usk-border-rgb,22 18 35)/.94));stroke-width:6"/>
+      <path data-icon-part="network-highlight" class="max-i-bg-strong" d="M62 122C65 116 70 113 76 114L73 120C70 119 67 121 66 125Z"/>
+      <path data-icon-part="network-highlight" class="max-i-bg-strong" d="M119 65C123 60 130 59 135 62L131 68C128 66 125 67 123 70Z"/>
+      <path data-icon-part="network-highlight" class="max-i-bg-strong" d="M174 122C177 116 182 113 188 114L185 120C182 119 179 121 178 125Z"/>
+      <path data-icon-part="network-highlight" class="max-i-bg-strong" d="M119 181C123 176 130 175 135 178L131 184C128 182 125 183 123 186Z"/>
+    </g>
 </symbol>
 <symbol id="max-icon-cpu" viewBox="0 0 256 256">
   <title>CPU</title>
-  <rect data-icon-frame="decor" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="decor" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="58" cy="70" r="9"/><rect data-icon-frame="decor" class="max-i-pop" x="169" y="49" width="29" height="18" rx="9" transform="rotate(12 184 58)"/>
-    <path class="max-i-line-2" d="M46 198H92M152 198H204" opacity=".7"/><path class="max-i-line-3" d="M44 92L60 108M196 154L214 172" opacity=".76"/>
-    <path class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
-    <rect class="max-i-bg-strong" x="82" y="82" width="92" height="92" rx="14"/><rect class="max-i-line-2" x="108" y="108" width="40" height="40" rx="8"/><path class="max-i-line-3" d="M97 58V82M128 58V82M159 58V82M97 174V198M128 174V198M159 174V198M58 97H82M58 128H82M58 159H82M174 97H198M174 128H198M174 159H198"/>
+  <rect data-icon-frame="surface" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="surface" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="48" cy="48" r="7"/><rect data-icon-frame="decor" class="max-i-pop" x="184" y="196" width="24" height="14" rx="7" transform="rotate(12 196 203)"/>
+    <path data-icon-frame="decor" class="max-i-line-2" d="M46 204H86M166 204H204" opacity=".7"/>
+    <path data-icon-frame="decor" class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
+
+
+
+  <rect class="max-i-bg-strong" x="82" y="82" width="92" height="92" rx="14"/>
+  <rect class="max-i-line-2" x="108" y="108" width="40" height="40" rx="8"/>
+  <path class="max-i-line-3" d="M97 58V82M128 58V82M159 58V82M97 174V198M128 174V198M159 174V198M58 97H82M58 128H82M58 159H82M174 97H198M174 128H198M174 159H198"/>
 </symbol>
 <symbol id="max-icon-layers" viewBox="0 0 256 256">
   <title>Layers</title>
-  <rect data-icon-frame="decor" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="decor" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="58" cy="70" r="9"/><rect data-icon-frame="decor" class="max-i-pop" x="169" y="49" width="29" height="18" rx="9" transform="rotate(12 184 58)"/>
-    <path class="max-i-line-2" d="M46 198H92M152 198H204" opacity=".7"/><path class="max-i-line-3" d="M44 92L60 108M196 154L214 172" opacity=".76"/>
-    <path class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
-    <path class="max-i-bg-strong" stroke="var(--max-icon-primary,rgb(var(--usk-primary-rgb,214 168 79)))" stroke-width="6" d="M128 62L203 104L128 146L53 104Z"/><path class="max-i-line-2" d="M63 132L128 169L193 132M63 160L128 197L193 160"/><path class="max-i-line-3" d="M100 104H156"/>
+  <rect data-icon-frame="surface" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="surface" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="48" cy="48" r="7"/><rect data-icon-frame="decor" class="max-i-pop" x="184" y="196" width="24" height="14" rx="7" transform="rotate(12 196 203)"/>
+    <path data-icon-frame="decor" class="max-i-line-2" d="M46 204H86M166 204H204" opacity=".7"/>
+    <path data-icon-frame="decor" class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
+
+
+
+  <path class="max-i-bg-strong" stroke="var(--max-icon-primary,rgb(var(--usk-primary-rgb,214 168 79)))" stroke-width="6" d="M128 62L203 104L128 146L53 104Z"/>
+  <path class="max-i-line-2" d="M63 132L128 169L193 132M63 160L128 197L193 160"/>
+  <path class="max-i-line-3" d="M100 104H156"/>
 </symbol>
 <symbol id="max-icon-eye" viewBox="0 0 256 256">
   <title>Eye</title>
-  <rect data-icon-frame="decor" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="decor" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="58" cy="70" r="9"/><rect data-icon-frame="decor" class="max-i-pop" x="169" y="49" width="29" height="18" rx="9" transform="rotate(12 184 58)"/>
-    <path class="max-i-line-2" d="M46 198H92M152 198H204" opacity=".7"/><path class="max-i-line-3" d="M44 92L60 108M196 154L214 172" opacity=".76"/>
-    <path class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
-    <path class="max-i-bg-strong" stroke="var(--max-icon-primary,rgb(var(--usk-primary-rgb,214 168 79)))" stroke-width="6" d="M52 128C75 91 104 76 128 76C152 76 181 91 204 128C181 165 152 180 128 180C104 180 75 165 52 128Z"/><circle class="max-i-line-2" cx="128" cy="128" r="31"/><circle class="max-i-accent" cx="128" cy="128" r="10"/>
+  <rect data-icon-frame="surface" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="surface" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="48" cy="48" r="7"/><rect data-icon-frame="decor" class="max-i-pop" x="184" y="196" width="24" height="14" rx="7" transform="rotate(12 196 203)"/>
+    <path data-icon-frame="decor" class="max-i-line-2" d="M46 204H86M166 204H204" opacity=".7"/>
+    <path data-icon-frame="decor" class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
+
+
+
+  <path class="max-i-bg-strong" stroke="var(--max-icon-primary,rgb(var(--usk-primary-rgb,214 168 79)))" stroke-width="6" d="M52 128C75 91 104 76 128 76C152 76 181 91 204 128C181 165 152 180 128 180C104 180 75 165 52 128Z"/>
+  <circle class="max-i-line-2" cx="128" cy="128" r="31"/>
+  <circle class="max-i-accent" cx="128" cy="128" r="10"/>
 </symbol>
 <symbol id="max-icon-grid" viewBox="0 0 256 256">
   <title>Grid</title>
-  <rect data-icon-frame="decor" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="decor" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="58" cy="70" r="9"/><rect data-icon-frame="decor" class="max-i-pop" x="169" y="49" width="29" height="18" rx="9" transform="rotate(12 184 58)"/><path class="max-i-line-2" d="M46 198H92M152 198H204" opacity=".7"/><path class="max-i-line-3" d="M44 92L60 108M196 154L214 172" opacity=".76"/><path class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
-    <rect class="max-i-primary" x="62" y="72" width="52" height="52" rx="14"/><rect class="max-i-secondary" x="128" y="72" width="66" height="52" rx="14"/><rect class="max-i-accent" x="62" y="138" width="66" height="52" rx="14"/><rect class="max-i-primary" x="142" y="138" width="52" height="52" rx="14"/>
+  <rect data-icon-frame="surface" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="surface" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="48" cy="48" r="7"/><rect data-icon-frame="decor" class="max-i-pop" x="184" y="196" width="24" height="14" rx="7" transform="rotate(12 196 203)"/><path data-icon-frame="decor" class="max-i-line-2" d="M46 204H86M166 204H204" opacity=".7"/><path data-icon-frame="decor" class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
+
+
+
+  <rect class="max-i-primary" x="62" y="72" width="52" height="52" rx="14"/>
+  <rect class="max-i-secondary" x="128" y="72" width="66" height="52" rx="14"/>
+  <rect class="max-i-accent" x="62" y="138" width="66" height="52" rx="14"/>
+  <rect class="max-i-primary" x="142" y="138" width="52" height="52" rx="14"/>
 </symbol>
 <symbol id="max-icon-module" viewBox="0 0 256 256">
   <title>Module</title>
-  <rect data-icon-frame="decor" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="decor" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="58" cy="70" r="9"/><rect data-icon-frame="decor" class="max-i-pop" x="169" y="49" width="29" height="18" rx="9" transform="rotate(12 184 58)"/><path class="max-i-line-2" d="M46 198H92M152 198H204" opacity=".7"/><path class="max-i-line-3" d="M44 92L60 108M196 154L214 172" opacity=".76"/><path class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
-    <rect class="max-i-primary" x="64" y="74" width="128" height="116" rx="24"/><rect class="max-i-bg-strong" x="86" y="96" width="84" height="36" rx="12"/><path class="max-i-line-2" d="M91 158H120M139 158H168"/><circle class="max-i-accent" cx="128" cy="158" r="9"/>
+  <rect data-icon-frame="surface" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="surface" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="48" cy="48" r="7"/><rect data-icon-frame="decor" class="max-i-pop" x="184" y="196" width="24" height="14" rx="7" transform="rotate(12 196 203)"/><path data-icon-frame="decor" class="max-i-line-2" d="M46 204H86M166 204H204" opacity=".7"/><path data-icon-frame="decor" class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
+
+
+
+  <rect class="max-i-primary" x="64" y="74" width="128" height="116" rx="24"/>
+  <rect class="max-i-bg-strong" x="86" y="96" width="84" height="36" rx="12"/>
+  <path class="max-i-line-2" d="M91 158H120M139 158H168"/>
+  <circle class="max-i-accent" cx="128" cy="158" r="9"/>
 </symbol>
-<symbol id="max-icon-stack" viewBox="-8 -8 272 272">
+<symbol id="max-icon-stack" viewBox="0 0 256 256">
   <title>Stack</title>
-  <rect data-icon-frame="decor" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="decor" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="58" cy="70" r="9"/><rect data-icon-frame="decor" class="max-i-pop" x="169" y="49" width="29" height="18" rx="9" transform="rotate(12 184 58)"/><path class="max-i-line-2" d="M46 198H92M152 198H204" opacity=".7"/><path class="max-i-line-3" d="M44 92L60 108M196 154L214 172" opacity=".76"/><path class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
-    <rect class="max-i-bg-soft" x="78" y="64" width="116" height="76" rx="20"/><rect class="max-i-secondary" x="66" y="91" width="116" height="76" rx="20"/><rect class="max-i-primary" x="54" y="118" width="116" height="76" rx="20"/><path class="max-i-line-3" d="M78 150H134M78 172H112"/>
+  <rect data-icon-frame="surface" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="surface" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="48" cy="48" r="7"/><rect data-icon-frame="decor" class="max-i-pop" x="184" y="196" width="24" height="14" rx="7" transform="rotate(12 196 203)"/><path data-icon-frame="decor" class="max-i-line-2" d="M46 204H86M166 204H204" opacity=".7"/><path data-icon-frame="decor" class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
+
+
+
+  <rect class="max-i-bg-soft" x="78" y="64" width="116" height="76" rx="20"/>
+  <rect class="max-i-secondary" x="66" y="91" width="116" height="76" rx="20"/>
+  <rect class="max-i-primary" x="54" y="118" width="116" height="76" rx="20"/>
+  <path class="max-i-line-3" d="M78 150H134M78 172H112"/>
 </symbol>
 <symbol id="max-icon-tile" viewBox="0 0 256 256">
   <title>Tile</title>
-  <rect data-icon-frame="decor" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="decor" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="58" cy="70" r="9"/><rect data-icon-frame="decor" class="max-i-pop" x="169" y="49" width="29" height="18" rx="9" transform="rotate(12 184 58)"/><path class="max-i-line-2" d="M46 198H92M152 198H204" opacity=".7"/><path class="max-i-line-3" d="M44 92L60 108M196 154L214 172" opacity=".76"/><path class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
-    <rect class="max-i-primary" x="58" y="72" width="64" height="64" rx="20"/><rect class="max-i-secondary" x="136" y="72" width="62" height="38" rx="14"/><rect class="max-i-accent" x="58" y="150" width="96" height="42" rx="16"/><rect class="max-i-bg-strong" x="168" y="126" width="30" height="66" rx="12"/>
+  <rect data-icon-frame="surface" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="surface" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="48" cy="48" r="7"/><rect data-icon-frame="decor" class="max-i-pop" x="184" y="196" width="24" height="14" rx="7" transform="rotate(12 196 203)"/><path data-icon-frame="decor" class="max-i-line-2" d="M46 204H86M166 204H204" opacity=".7"/><path data-icon-frame="decor" class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
+
+
+
+  <rect class="max-i-primary" x="58" y="72" width="64" height="64" rx="20"/>
+  <rect class="max-i-secondary" x="136" y="72" width="62" height="38" rx="14"/>
+  <rect class="max-i-accent" x="58" y="150" width="96" height="42" rx="16"/>
+  <rect class="max-i-bg-strong" x="168" y="126" width="30" height="66" rx="12"/>
 </symbol>
 <symbol id="max-icon-phone" viewBox="0 0 256 256">
   <title>Phone</title>
-  <rect data-icon-frame="decor" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="decor" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="58" cy="70" r="9"/><rect data-icon-frame="decor" class="max-i-pop" x="169" y="49" width="29" height="18" rx="9" transform="rotate(12 184 58)"/><path class="max-i-line-2" d="M46 198H92M152 198H204" opacity=".7"/><path class="max-i-line-3" d="M44 92L60 108M196 154L214 172" opacity=".76"/><path class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
-    <rect class="max-i-primary" x="88" y="54" width="80" height="148" rx="24"/><path class="max-i-line-2" d="M110 78H146M112 176H144"/><rect class="max-i-bg-strong" x="104" y="96" width="48" height="60" rx="12"/>
+  <rect data-icon-frame="surface" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="surface" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="48" cy="48" r="7"/><rect data-icon-frame="decor" class="max-i-pop" x="184" y="196" width="24" height="14" rx="7" transform="rotate(12 196 203)"/><path data-icon-frame="decor" class="max-i-line-2" d="M46 204H86M166 204H204" opacity=".7"/><path data-icon-frame="decor" class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
+
+
+
+  <rect class="max-i-primary" x="88" y="54" width="80" height="148" rx="24"/>
+  <path class="max-i-line-2" d="M110 78H146M112 176H144"/>
+  <rect class="max-i-bg-strong" x="104" y="96" width="48" height="60" rx="12"/>
 </symbol>
-<symbol id="max-icon-palette" viewBox="-8 -8 272 272">
+<symbol id="max-icon-palette" viewBox="0 0 256 256">
   <title>Palette</title>
-  <rect data-icon-frame="decor" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="decor" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="58" cy="70" r="9"/><rect data-icon-frame="decor" class="max-i-pop" x="169" y="49" width="29" height="18" rx="9" transform="rotate(12 184 58)"/><path class="max-i-line-2" d="M46 198H92M152 198H204" opacity=".7"/><path class="max-i-line-3" d="M44 92L60 108M196 154L214 172" opacity=".76"/><path class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
-    <path class="max-i-primary" d="M128 60C89 60 58 89 58 128C58 168 90 196 129 196H145C159 196 168 187 168 175C168 165 176 158 187 158C196 158 204 150 204 137C204 94 171 60 128 60Z"/><circle class="max-i-accent" cx="98" cy="112" r="10"/><circle class="max-i-secondary" cx="126" cy="96" r="10"/><circle class="max-i-warning" cx="154" cy="116" r="10"/><circle class="max-i-bg-strong" cx="122" cy="154" r="12"/>
+  <rect data-icon-frame="surface" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="surface" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="48" cy="48" r="7"/><rect data-icon-frame="decor" class="max-i-pop" x="184" y="196" width="24" height="14" rx="7" transform="rotate(12 196 203)"/><path data-icon-frame="decor" class="max-i-line-2" d="M46 204H86M166 204H204" opacity=".7"/><path data-icon-frame="decor" class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
+  <g data-icon-glyph="semantic" data-icon-prototype="reference-led-v1">
+    <path data-icon-part="palette-body" class="max-i-warning" d="M127 54C84 54 51 84 51 126C51 169 85 198 130 198H146C163 198 174 187 174 172C174 162 182 155 192 155C203 155 211 145 211 131C211 88 174 54 127 54Z" style="fill:var(--max-icon-warning,rgb(var(--usk-warning-rgb,255 171 37)));stroke:var(--max-icon-border,rgb(var(--usk-border-rgb,22 18 35)/.94));stroke-width:7;stroke-linejoin:round"/>
+    <circle data-icon-part="palette-swatch" class="max-i-primary" cx="88" cy="111" r="11" style="fill:var(--max-icon-primary,rgb(var(--usk-primary-rgb,255 77 141)));stroke:var(--max-icon-border,rgb(var(--usk-border-rgb,22 18 35)/.94));stroke-width:5"/>
+    <circle data-icon-part="palette-swatch" class="max-i-secondary" cx="121" cy="88" r="11" style="fill:var(--max-icon-secondary,rgb(var(--usk-secondary-rgb,57 222 255)));stroke:var(--max-icon-border,rgb(var(--usk-border-rgb,22 18 35)/.94));stroke-width:5"/>
+    <circle data-icon-part="palette-swatch" class="max-i-success" cx="158" cy="104" r="11" style="fill:var(--max-icon-success,rgb(var(--usk-success-rgb,22 201 121)));stroke:var(--max-icon-border,rgb(var(--usk-border-rgb,22 18 35)/.94));stroke-width:5"/>
+    <circle data-icon-part="palette-thumb" class="max-i-bg-strong" cx="126" cy="158" r="14" style="stroke:var(--max-icon-border,rgb(var(--usk-border-rgb,22 18 35)/.94));stroke-width:6"/>
+    <path data-icon-part="palette-highlight" class="max-i-bg-strong" d="M76 89C87 76 103 68 121 66L124 75C107 78 93 85 82 97Z"/>
+  </g>
 </symbol>
 <symbol id="max-icon-heart" viewBox="0 0 256 256">
   <title>Heart</title>
-  <rect data-icon-frame="decor" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="decor" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="58" cy="70" r="9"/><rect data-icon-frame="decor" class="max-i-pop" x="169" y="49" width="29" height="18" rx="9" transform="rotate(12 184 58)"/><path class="max-i-line-2" d="M46 198H92M152 198H204" opacity=".7"/><path class="max-i-line-3" d="M44 92L60 108M196 154L214 172" opacity=".76"/><path class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
-    <path class="max-i-danger" d="M128 194C92 166 66 143 66 111C66 90 81 76 101 76C113 76 123 83 128 94C133 83 143 76 155 76C175 76 190 90 190 111C190 143 164 166 128 194Z"/><path class="max-i-line-3" d="M91 117C91 101 102 94 114 99"/>
+  <rect data-icon-frame="surface" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="surface" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="48" cy="48" r="7"/><rect data-icon-frame="decor" class="max-i-pop" x="184" y="196" width="24" height="14" rx="7" transform="rotate(12 196 203)"/><path data-icon-frame="decor" class="max-i-line-2" d="M46 204H86M166 204H204" opacity=".7"/><path data-icon-frame="decor" class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
+
+
+
+  <path class="max-i-danger" d="M128 194C92 166 66 143 66 111C66 90 81 76 101 76C113 76 123 83 128 94C133 83 143 76 155 76C175 76 190 90 190 111C190 143 164 166 128 194Z"/>
+  <path class="max-i-line-3" d="M91 117C91 101 102 94 114 99"/>
 </symbol>
 <symbol id="max-icon-star" viewBox="0 0 256 256">
   <title>Star</title>
-  <rect data-icon-frame="decor" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="decor" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="58" cy="70" r="9"/><rect data-icon-frame="decor" class="max-i-pop" x="169" y="49" width="29" height="18" rx="9" transform="rotate(12 184 58)"/><path class="max-i-line-2" d="M46 198H92M152 198H204" opacity=".7"/><path class="max-i-line-3" d="M44 92L60 108M196 154L214 172" opacity=".76"/><path class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
-    <path class="max-i-warning" d="M128 56L148 104L200 108L160 141L172 192L128 164L84 192L96 141L56 108L108 104Z"/><path class="max-i-line-3" d="M128 82L140 113L173 116"/>
+  <rect data-icon-frame="surface" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="surface" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="48" cy="48" r="7"/><rect data-icon-frame="decor" class="max-i-pop" x="184" y="196" width="24" height="14" rx="7" transform="rotate(12 196 203)"/><path data-icon-frame="decor" class="max-i-line-2" d="M46 204H86M166 204H204" opacity=".7"/><path data-icon-frame="decor" class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
+
+
+
+  <path class="max-i-warning" d="M128 56L148 104L200 108L160 141L172 192L128 164L84 192L96 141L56 108L108 104Z"/>
+  <path class="max-i-line-3" d="M128 82L140 113L173 116"/>
 </symbol>
 <symbol id="max-icon-target" viewBox="0 0 256 256">
   <title>Target</title>
-  <rect data-icon-frame="decor" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="decor" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="58" cy="70" r="9"/><rect data-icon-frame="decor" class="max-i-pop" x="169" y="49" width="29" height="18" rx="9" transform="rotate(12 184 58)"/><path class="max-i-line-2" d="M46 198H92M152 198H204" opacity=".7"/><path class="max-i-line-3" d="M44 92L60 108M196 154L214 172" opacity=".76"/><path class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
-    <circle class="max-i-primary" cx="128" cy="128" r="66"/><circle class="max-i-line-2" cx="128" cy="128" r="40"/><circle class="max-i-accent" cx="128" cy="128" r="14"/><path class="max-i-muted" d="M128 52V84M128 172V204M52 128H84M172 128H204"/>
+  <rect data-icon-frame="surface" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="surface" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="48" cy="48" r="7"/><rect data-icon-frame="decor" class="max-i-pop" x="184" y="196" width="24" height="14" rx="7" transform="rotate(12 196 203)"/><path data-icon-frame="decor" class="max-i-line-2" d="M46 204H86M166 204H204" opacity=".7"/><path data-icon-frame="decor" class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
+
+
+
+  <circle class="max-i-primary" cx="128" cy="128" r="66"/>
+  <circle class="max-i-line-2" cx="128" cy="128" r="40"/>
+  <circle class="max-i-accent" cx="128" cy="128" r="14"/>
+  <path class="max-i-muted" d="M128 52V84M128 172V204M52 128H84M172 128H204"/>
 </symbol>
-<symbol id="max-icon-megaphone" viewBox="-8 -8 272 272">
+<symbol id="max-icon-megaphone" viewBox="0 0 256 256">
   <title>Megaphone</title>
-  <rect data-icon-frame="decor" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="decor" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="58" cy="70" r="9"/><rect data-icon-frame="decor" class="max-i-pop" x="169" y="49" width="29" height="18" rx="9" transform="rotate(12 184 58)"/><path class="max-i-line-2" d="M46 198H92M152 198H204" opacity=".7"/><path class="max-i-line-3" d="M44 92L60 108M196 154L214 172" opacity=".76"/><path class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
-    <path class="max-i-primary" d="M74 134H50V94H74L168 66V162Z"/><path class="max-i-line-2" d="M168 91C188 96 200 111 200 128C200 145 188 160 168 165"/><path class="max-i-accent" d="M78 134L96 190H122L104 134Z"/>
+  <rect data-icon-frame="surface" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/>
+    <rect data-icon-frame="surface" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/>
+    <circle data-icon-frame="decor" class="max-i-confetti" cx="48" cy="48" r="7"/>
+    <rect data-icon-frame="decor" class="max-i-pop" x="184" y="196" width="24" height="14" rx="7" transform="rotate(12 196 203)"/>
+    <g data-icon-glyph="semantic" data-icon-prototype="reference-led-v1" transform="translate(-2 0)">
+      <path data-icon-part="megaphone-horn" class="max-i-primary" d="M54 112Q54 100 66 100H91L176 70V174L91 145H66Q54 145 54 133Z" style="fill:var(--max-icon-primary,rgb(var(--usk-primary-rgb,255 77 141)));stroke:var(--max-icon-border,rgb(var(--usk-border-rgb,22 18 35)/.94));stroke-width:7;stroke-linejoin:round"/>
+      <path data-icon-part="megaphone-horn" class="max-i-accent" d="M88 98L108 91V157L88 150Z" style="fill:var(--max-icon-accent,rgb(var(--usk-accent-rgb,255 203 43)));stroke:var(--max-icon-border,rgb(var(--usk-border-rgb,22 18 35)/.94));stroke-width:6;stroke-linejoin:round"/>
+      <path data-icon-part="megaphone-handle" class="max-i-secondary" d="M67 149L103 149L120 198H86Z" style="fill:var(--max-icon-secondary,rgb(var(--usk-secondary-rgb,57 222 255)));stroke:var(--max-icon-border,rgb(var(--usk-border-rgb,22 18 35)/.94));stroke-width:7;stroke-linejoin:round"/>
+      <path data-icon-part="megaphone-highlight" class="max-i-bg-strong" d="M116 101L160 84V100L116 116Z"/>
+      <path data-icon-part="megaphone-sound" class="max-i-warning" d="M191 91C209 100 220 117 220 128C220 139 209 156 191 165L186 151C198 144 204 136 204 128C204 120 198 112 186 105Z" style="fill:var(--max-icon-warning,rgb(var(--usk-warning-rgb,255 171 37)));stroke:var(--max-icon-border,rgb(var(--usk-border-rgb,22 18 35)/.94));stroke-width:5;stroke-linejoin:round"/>
+      <path data-icon-part="megaphone-sound" class="max-i-warning" d="M181 111C191 115 196 121 196 128C196 135 191 141 181 145L178 134C182 132 184 130 184 128C184 126 182 124 178 122Z" style="fill:var(--max-icon-warning,rgb(var(--usk-warning-rgb,255 171 37)));stroke:var(--max-icon-border,rgb(var(--usk-border-rgb,22 18 35)/.94));stroke-width:4;stroke-linejoin:round"/>
+    </g>
 </symbol>
 <symbol id="max-icon-cursor" viewBox="0 0 256 256">
   <title>Cursor</title>
-  <rect data-icon-frame="decor" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="decor" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="58" cy="70" r="9"/><rect data-icon-frame="decor" class="max-i-pop" x="169" y="49" width="29" height="18" rx="9" transform="rotate(12 184 58)"/><path class="max-i-line-2" d="M46 198H92M152 198H204" opacity=".7"/><path class="max-i-line-3" d="M44 92L60 108M196 154L214 172" opacity=".76"/><path class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
-    <path class="max-i-primary" d="M76 58L190 134L139 146L116 198L76 58Z"/><path class="max-i-line-3" d="M136 145L168 184"/>
+  <rect data-icon-frame="surface" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="surface" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="48" cy="48" r="7"/><rect data-icon-frame="decor" class="max-i-pop" x="184" y="196" width="24" height="14" rx="7" transform="rotate(12 196 203)"/><path data-icon-frame="decor" class="max-i-line-2" d="M46 204H86M166 204H204" opacity=".7"/><path data-icon-frame="decor" class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
+
+
+
+  <path class="max-i-primary" d="M76 58L190 134L139 146L116 198L76 58Z"/>
+  <path class="max-i-line-3" d="M136 145L168 184"/>
 </symbol>
 </defs>
 </svg>

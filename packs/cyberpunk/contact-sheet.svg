@@ -16,7 +16,7 @@
 <g transform="translate(54, 154) scale(.43)">
   <title id="home-title">Home</title>
   <desc id="home-desc">A fully colored cyberpunk icon with gritty neon HUD styling, cyan and magenta linework, and a dark futuristic panel base.</desc>
-  
+
   <defs>
     <linearGradient id="home-bg" x1="24" y1="18" x2="236" y2="238" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 15 36 68))"/>
@@ -41,7 +41,7 @@
     </filter>
     <clipPath id="home-clip"><rect x="18" y="18" width="220" height="220" rx="28"/></clipPath>
   </defs>
-  
+
     <path d="M42 18H214L238 42V214L214 238H42L18 214V42Z" fill="url(#home-bg)"/>
     <g clip-path="url(#home-clip)" opacity=".65">
       <path d="M28 74H91M163 74H228M28 182H78M178 182H228M74 28V68M182 28V52M74 188V228M182 202V228" stroke="rgb(var(--usk-primary-rgb, 88 244 255))" stroke-width="2"/>
@@ -63,7 +63,7 @@
 <g transform="translate(254, 154) scale(.43)">
   <title id="dashboard-title">Dashboard</title>
   <desc id="dashboard-desc">A fully colored cyberpunk icon with gritty neon HUD styling, cyan and magenta linework, and a dark futuristic panel base.</desc>
-  
+
   <defs>
     <linearGradient id="dashboard-bg" x1="24" y1="18" x2="236" y2="238" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 15 36 68))"/>
@@ -88,7 +88,7 @@
     </filter>
     <clipPath id="dashboard-clip"><rect x="18" y="18" width="220" height="220" rx="28"/></clipPath>
   </defs>
-  
+
     <path d="M42 18H214L238 42V214L214 238H42L18 214V42Z" fill="url(#dashboard-bg)"/>
     <g clip-path="url(#dashboard-clip)" opacity=".65">
       <path d="M28 74H91M163 74H228M28 182H78M178 182H228M74 28V68M182 28V52M74 188V228M182 202V228" stroke="rgb(var(--usk-primary-rgb, 88 244 255))" stroke-width="2"/>
@@ -110,7 +110,7 @@
 <g transform="translate(454, 154) scale(.43)">
   <title id="search-title">Search</title>
   <desc id="search-desc">A fully colored cyberpunk icon with gritty neon HUD styling, cyan and magenta linework, and a dark futuristic panel base.</desc>
-  
+
   <defs>
     <linearGradient id="search-bg" x1="24" y1="18" x2="236" y2="238" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 15 36 68))"/>
@@ -135,7 +135,7 @@
     </filter>
     <clipPath id="search-clip"><rect x="18" y="18" width="220" height="220" rx="28"/></clipPath>
   </defs>
-  
+
     <path d="M42 18H214L238 42V214L214 238H42L18 214V42Z" fill="url(#search-bg)"/>
     <g clip-path="url(#search-clip)" opacity=".65">
       <path d="M28 74H91M163 74H228M28 182H78M178 182H228M74 28V68M182 28V52M74 188V228M182 202V228" stroke="rgb(var(--usk-primary-rgb, 88 244 255))" stroke-width="2"/>
@@ -157,7 +157,7 @@
 <g transform="translate(654, 154) scale(.43)">
   <title id="user-title">User</title>
   <desc id="user-desc">A fully colored cyberpunk icon with gritty neon HUD styling, cyan and magenta linework, and a dark futuristic panel base.</desc>
-  
+
   <defs>
     <linearGradient id="user-bg" x1="24" y1="18" x2="236" y2="238" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 15 36 68))"/>
@@ -182,7 +182,7 @@
     </filter>
     <clipPath id="user-clip"><rect x="18" y="18" width="220" height="220" rx="28"/></clipPath>
   </defs>
-  
+
     <path d="M42 18H214L238 42V214L214 238H42L18 214V42Z" fill="url(#user-bg)"/>
     <g clip-path="url(#user-clip)" opacity=".65">
       <path d="M28 74H91M163 74H228M28 182H78M178 182H228M74 28V68M182 28V52M74 188V228M182 202V228" stroke="rgb(var(--usk-primary-rgb, 88 244 255))" stroke-width="2"/>
@@ -204,7 +204,7 @@
 <g transform="translate(854, 154) scale(.43)">
   <title id="users-title">Users</title>
   <desc id="users-desc">A fully colored cyberpunk icon with gritty neon HUD styling, cyan and magenta linework, and a dark futuristic panel base.</desc>
-  
+
   <defs>
     <linearGradient id="users-bg" x1="24" y1="18" x2="236" y2="238" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 15 36 68))"/>
@@ -229,7 +229,7 @@
     </filter>
     <clipPath id="users-clip"><rect x="18" y="18" width="220" height="220" rx="28"/></clipPath>
   </defs>
-  
+
     <path d="M42 18H214L238 42V214L214 238H42L18 214V42Z" fill="url(#users-bg)"/>
     <g clip-path="url(#users-clip)" opacity=".65">
       <path d="M28 74H91M163 74H228M28 182H78M178 182H228M74 28V68M182 28V52M74 188V228M182 202V228" stroke="rgb(var(--usk-primary-rgb, 88 244 255))" stroke-width="2"/>
@@ -251,7 +251,7 @@
 <g transform="translate(1054, 154) scale(.43)">
   <title id="settings-title">Settings</title>
   <desc id="settings-desc">A fully colored cyberpunk icon with gritty neon HUD styling, cyan and magenta linework, and a dark futuristic panel base.</desc>
-  
+
   <defs>
     <linearGradient id="settings-bg" x1="24" y1="18" x2="236" y2="238" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 15 36 68))"/>
@@ -276,7 +276,7 @@
     </filter>
     <clipPath id="settings-clip"><rect x="18" y="18" width="220" height="220" rx="28"/></clipPath>
   </defs>
-  
+
     <path d="M42 18H214L238 42V214L214 238H42L18 214V42Z" fill="url(#settings-bg)"/>
     <g clip-path="url(#settings-clip)" opacity=".65">
       <path d="M28 74H91M163 74H228M28 182H78M178 182H228M74 28V68M182 28V52M74 188V228M182 202V228" stroke="rgb(var(--usk-primary-rgb, 88 244 255))" stroke-width="2"/>
@@ -298,7 +298,7 @@
 <g transform="translate(54, 318) scale(.43)">
   <title id="bell-title">Notifications</title>
   <desc id="bell-desc">A fully colored cyberpunk icon with gritty neon HUD styling, cyan and magenta linework, and a dark futuristic panel base.</desc>
-  
+
   <defs>
     <linearGradient id="bell-bg" x1="24" y1="18" x2="236" y2="238" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 15 36 68))"/>
@@ -323,7 +323,7 @@
     </filter>
     <clipPath id="bell-clip"><rect x="18" y="18" width="220" height="220" rx="28"/></clipPath>
   </defs>
-  
+
     <path d="M42 18H214L238 42V214L214 238H42L18 214V42Z" fill="url(#bell-bg)"/>
     <g clip-path="url(#bell-clip)" opacity=".65">
       <path d="M28 74H91M163 74H228M28 182H78M178 182H228M74 28V68M182 28V52M74 188V228M182 202V228" stroke="rgb(var(--usk-primary-rgb, 88 244 255))" stroke-width="2"/>
@@ -345,7 +345,7 @@
 <g transform="translate(254, 318) scale(.43)">
   <title id="message-title">Messages</title>
   <desc id="message-desc">A fully colored cyberpunk icon with gritty neon HUD styling, cyan and magenta linework, and a dark futuristic panel base.</desc>
-  
+
   <defs>
     <linearGradient id="message-bg" x1="24" y1="18" x2="236" y2="238" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 15 36 68))"/>
@@ -370,7 +370,7 @@
     </filter>
     <clipPath id="message-clip"><rect x="18" y="18" width="220" height="220" rx="28"/></clipPath>
   </defs>
-  
+
     <path d="M42 18H214L238 42V214L214 238H42L18 214V42Z" fill="url(#message-bg)"/>
     <g clip-path="url(#message-clip)" opacity=".65">
       <path d="M28 74H91M163 74H228M28 182H78M178 182H228M74 28V68M182 28V52M74 188V228M182 202V228" stroke="rgb(var(--usk-primary-rgb, 88 244 255))" stroke-width="2"/>
@@ -392,7 +392,7 @@
 <g transform="translate(454, 318) scale(.43)">
   <title id="mail-title">Email</title>
   <desc id="mail-desc">A fully colored cyberpunk icon with gritty neon HUD styling, cyan and magenta linework, and a dark futuristic panel base.</desc>
-  
+
   <defs>
     <linearGradient id="mail-bg" x1="24" y1="18" x2="236" y2="238" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 15 36 68))"/>
@@ -417,7 +417,7 @@
     </filter>
     <clipPath id="mail-clip"><rect x="18" y="18" width="220" height="220" rx="28"/></clipPath>
   </defs>
-  
+
     <path d="M42 18H214L238 42V214L214 238H42L18 214V42Z" fill="url(#mail-bg)"/>
     <g clip-path="url(#mail-clip)" opacity=".65">
       <path d="M28 74H91M163 74H228M28 182H78M178 182H228M74 28V68M182 28V52M74 188V228M182 202V228" stroke="rgb(var(--usk-primary-rgb, 88 244 255))" stroke-width="2"/>
@@ -439,7 +439,7 @@
 <g transform="translate(654, 318) scale(.43)">
   <title id="calendar-title">Calendar</title>
   <desc id="calendar-desc">A fully colored cyberpunk icon with gritty neon HUD styling, cyan and magenta linework, and a dark futuristic panel base.</desc>
-  
+
   <defs>
     <linearGradient id="calendar-bg" x1="24" y1="18" x2="236" y2="238" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 15 36 68))"/>
@@ -464,7 +464,7 @@
     </filter>
     <clipPath id="calendar-clip"><rect x="18" y="18" width="220" height="220" rx="28"/></clipPath>
   </defs>
-  
+
     <path d="M42 18H214L238 42V214L214 238H42L18 214V42Z" fill="url(#calendar-bg)"/>
     <g clip-path="url(#calendar-clip)" opacity=".65">
       <path d="M28 74H91M163 74H228M28 182H78M178 182H228M74 28V68M182 28V52M74 188V228M182 202V228" stroke="rgb(var(--usk-primary-rgb, 88 244 255))" stroke-width="2"/>
@@ -486,7 +486,7 @@
 <g transform="translate(854, 318) scale(.43)">
   <title id="upload-title">Upload</title>
   <desc id="upload-desc">A fully colored cyberpunk icon with gritty neon HUD styling, cyan and magenta linework, and a dark futuristic panel base.</desc>
-  
+
   <defs>
     <linearGradient id="upload-bg" x1="24" y1="18" x2="236" y2="238" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 15 36 68))"/>
@@ -511,7 +511,7 @@
     </filter>
     <clipPath id="upload-clip"><rect x="18" y="18" width="220" height="220" rx="28"/></clipPath>
   </defs>
-  
+
     <path d="M42 18H214L238 42V214L214 238H42L18 214V42Z" fill="url(#upload-bg)"/>
     <g clip-path="url(#upload-clip)" opacity=".65">
       <path d="M28 74H91M163 74H228M28 182H78M178 182H228M74 28V68M182 28V52M74 188V228M182 202V228" stroke="rgb(var(--usk-primary-rgb, 88 244 255))" stroke-width="2"/>
@@ -533,7 +533,7 @@
 <g transform="translate(1054, 318) scale(.43)">
   <title id="download-title">Download</title>
   <desc id="download-desc">A fully colored cyberpunk icon with gritty neon HUD styling, cyan and magenta linework, and a dark futuristic panel base.</desc>
-  
+
   <defs>
     <linearGradient id="download-bg" x1="24" y1="18" x2="236" y2="238" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 15 36 68))"/>
@@ -558,7 +558,7 @@
     </filter>
     <clipPath id="download-clip"><rect x="18" y="18" width="220" height="220" rx="28"/></clipPath>
   </defs>
-  
+
     <path d="M42 18H214L238 42V214L214 238H42L18 214V42Z" fill="url(#download-bg)"/>
     <g clip-path="url(#download-clip)" opacity=".65">
       <path d="M28 74H91M163 74H228M28 182H78M178 182H228M74 28V68M182 28V52M74 188V228M182 202V228" stroke="rgb(var(--usk-primary-rgb, 88 244 255))" stroke-width="2"/>
@@ -580,7 +580,7 @@
 <g transform="translate(54, 482) scale(.43)">
   <title id="file-title">File</title>
   <desc id="file-desc">A fully colored cyberpunk icon with gritty neon HUD styling, cyan and magenta linework, and a dark futuristic panel base.</desc>
-  
+
   <defs>
     <linearGradient id="file-bg" x1="24" y1="18" x2="236" y2="238" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 15 36 68))"/>
@@ -605,7 +605,7 @@
     </filter>
     <clipPath id="file-clip"><rect x="18" y="18" width="220" height="220" rx="28"/></clipPath>
   </defs>
-  
+
     <path d="M42 18H214L238 42V214L214 238H42L18 214V42Z" fill="url(#file-bg)"/>
     <g clip-path="url(#file-clip)" opacity=".65">
       <path d="M28 74H91M163 74H228M28 182H78M178 182H228M74 28V68M182 28V52M74 188V228M182 202V228" stroke="rgb(var(--usk-primary-rgb, 88 244 255))" stroke-width="2"/>
@@ -627,7 +627,7 @@
 <g transform="translate(254, 482) scale(.43)">
   <title id="folder-title">Folder</title>
   <desc id="folder-desc">A fully colored cyberpunk icon with gritty neon HUD styling, cyan and magenta linework, and a dark futuristic panel base.</desc>
-  
+
   <defs>
     <linearGradient id="folder-bg" x1="24" y1="18" x2="236" y2="238" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 15 36 68))"/>
@@ -652,7 +652,7 @@
     </filter>
     <clipPath id="folder-clip"><rect x="18" y="18" width="220" height="220" rx="28"/></clipPath>
   </defs>
-  
+
     <path d="M42 18H214L238 42V214L214 238H42L18 214V42Z" fill="url(#folder-bg)"/>
     <g clip-path="url(#folder-clip)" opacity=".65">
       <path d="M28 74H91M163 74H228M28 182H78M178 182H228M74 28V68M182 28V52M74 188V228M182 202V228" stroke="rgb(var(--usk-primary-rgb, 88 244 255))" stroke-width="2"/>
@@ -674,7 +674,7 @@
 <g transform="translate(454, 482) scale(.43)">
   <title id="database-title">Database</title>
   <desc id="database-desc">A fully colored cyberpunk icon with gritty neon HUD styling, cyan and magenta linework, and a dark futuristic panel base.</desc>
-  
+
   <defs>
     <linearGradient id="database-bg" x1="24" y1="18" x2="236" y2="238" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 15 36 68))"/>
@@ -699,7 +699,7 @@
     </filter>
     <clipPath id="database-clip"><rect x="18" y="18" width="220" height="220" rx="28"/></clipPath>
   </defs>
-  
+
     <path d="M42 18H214L238 42V214L214 238H42L18 214V42Z" fill="url(#database-bg)"/>
     <g clip-path="url(#database-clip)" opacity=".65">
       <path d="M28 74H91M163 74H228M28 182H78M178 182H228M74 28V68M182 28V52M74 188V228M182 202V228" stroke="rgb(var(--usk-primary-rgb, 88 244 255))" stroke-width="2"/>
@@ -721,7 +721,7 @@
 <g transform="translate(654, 482) scale(.43)">
   <title id="server-title">Server</title>
   <desc id="server-desc">A fully colored cyberpunk icon with gritty neon HUD styling, cyan and magenta linework, and a dark futuristic panel base.</desc>
-  
+
   <defs>
     <linearGradient id="server-bg" x1="24" y1="18" x2="236" y2="238" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 15 36 68))"/>
@@ -746,7 +746,7 @@
     </filter>
     <clipPath id="server-clip"><rect x="18" y="18" width="220" height="220" rx="28"/></clipPath>
   </defs>
-  
+
     <path d="M42 18H214L238 42V214L214 238H42L18 214V42Z" fill="url(#server-bg)"/>
     <g clip-path="url(#server-clip)" opacity=".65">
       <path d="M28 74H91M163 74H228M28 182H78M178 182H228M74 28V68M182 28V52M74 188V228M182 202V228" stroke="rgb(var(--usk-primary-rgb, 88 244 255))" stroke-width="2"/>
@@ -768,7 +768,7 @@
 <g transform="translate(854, 482) scale(.43)">
   <title id="api-title">API</title>
   <desc id="api-desc">A fully colored cyberpunk icon with gritty neon HUD styling, cyan and magenta linework, and a dark futuristic panel base.</desc>
-  
+
   <defs>
     <linearGradient id="api-bg" x1="24" y1="18" x2="236" y2="238" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 15 36 68))"/>
@@ -793,7 +793,7 @@
     </filter>
     <clipPath id="api-clip"><rect x="18" y="18" width="220" height="220" rx="28"/></clipPath>
   </defs>
-  
+
     <path d="M42 18H214L238 42V214L214 238H42L18 214V42Z" fill="url(#api-bg)"/>
     <g clip-path="url(#api-clip)" opacity=".65">
       <path d="M28 74H91M163 74H228M28 182H78M178 182H228M74 28V68M182 28V52M74 188V228M182 202V228" stroke="rgb(var(--usk-primary-rgb, 88 244 255))" stroke-width="2"/>
@@ -815,7 +815,7 @@
 <g transform="translate(1054, 482) scale(.43)">
   <title id="lock-title">Lock</title>
   <desc id="lock-desc">A fully colored cyberpunk icon with gritty neon HUD styling, cyan and magenta linework, and a dark futuristic panel base.</desc>
-  
+
   <defs>
     <linearGradient id="lock-bg" x1="24" y1="18" x2="236" y2="238" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 15 36 68))"/>
@@ -840,7 +840,7 @@
     </filter>
     <clipPath id="lock-clip"><rect x="18" y="18" width="220" height="220" rx="28"/></clipPath>
   </defs>
-  
+
     <path d="M42 18H214L238 42V214L214 238H42L18 214V42Z" fill="url(#lock-bg)"/>
     <g clip-path="url(#lock-clip)" opacity=".65">
       <path d="M28 74H91M163 74H228M28 182H78M178 182H228M74 28V68M182 28V52M74 188V228M182 202V228" stroke="rgb(var(--usk-primary-rgb, 88 244 255))" stroke-width="2"/>
@@ -862,7 +862,7 @@
 <g transform="translate(54, 646) scale(.43)">
   <title id="shield-title">Shield</title>
   <desc id="shield-desc">A fully colored cyberpunk icon with gritty neon HUD styling, cyan and magenta linework, and a dark futuristic panel base.</desc>
-  
+
   <defs>
     <linearGradient id="shield-bg" x1="24" y1="18" x2="236" y2="238" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 15 36 68))"/>
@@ -887,7 +887,7 @@
     </filter>
     <clipPath id="shield-clip"><rect x="18" y="18" width="220" height="220" rx="28"/></clipPath>
   </defs>
-  
+
     <path d="M42 18H214L238 42V214L214 238H42L18 214V42Z" fill="url(#shield-bg)"/>
     <g clip-path="url(#shield-clip)" opacity=".65">
       <path d="M28 74H91M163 74H228M28 182H78M178 182H228M74 28V68M182 28V52M74 188V228M182 202V228" stroke="rgb(var(--usk-primary-rgb, 88 244 255))" stroke-width="2"/>
@@ -909,7 +909,7 @@
 <g transform="translate(254, 646) scale(.43)">
   <title id="key-title">Key</title>
   <desc id="key-desc">A fully colored cyberpunk icon with gritty neon HUD styling, cyan and magenta linework, and a dark futuristic panel base.</desc>
-  
+
   <defs>
     <linearGradient id="key-bg" x1="24" y1="18" x2="236" y2="238" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 15 36 68))"/>
@@ -934,7 +934,7 @@
     </filter>
     <clipPath id="key-clip"><rect x="18" y="18" width="220" height="220" rx="28"/></clipPath>
   </defs>
-  
+
     <path d="M42 18H214L238 42V214L214 238H42L18 214V42Z" fill="url(#key-bg)"/>
     <g clip-path="url(#key-clip)" opacity=".65">
       <path d="M28 74H91M163 74H228M28 182H78M178 182H228M74 28V68M182 28V52M74 188V228M182 202V228" stroke="rgb(var(--usk-primary-rgb, 88 244 255))" stroke-width="2"/>
@@ -956,7 +956,7 @@
 <g transform="translate(454, 646) scale(.43)">
   <title id="chart-title">Analytics</title>
   <desc id="chart-desc">A fully colored cyberpunk icon with gritty neon HUD styling, cyan and magenta linework, and a dark futuristic panel base.</desc>
-  
+
   <defs>
     <linearGradient id="chart-bg" x1="24" y1="18" x2="236" y2="238" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 15 36 68))"/>
@@ -981,7 +981,7 @@
     </filter>
     <clipPath id="chart-clip"><rect x="18" y="18" width="220" height="220" rx="28"/></clipPath>
   </defs>
-  
+
     <path d="M42 18H214L238 42V214L214 238H42L18 214V42Z" fill="url(#chart-bg)"/>
     <g clip-path="url(#chart-clip)" opacity=".65">
       <path d="M28 74H91M163 74H228M28 182H78M178 182H228M74 28V68M182 28V52M74 188V228M182 202V228" stroke="rgb(var(--usk-primary-rgb, 88 244 255))" stroke-width="2"/>
@@ -1003,7 +1003,7 @@
 <g transform="translate(654, 646) scale(.43)">
   <title id="activity-title">Activity</title>
   <desc id="activity-desc">A fully colored cyberpunk icon with gritty neon HUD styling, cyan and magenta linework, and a dark futuristic panel base.</desc>
-  
+
   <defs>
     <linearGradient id="activity-bg" x1="24" y1="18" x2="236" y2="238" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 15 36 68))"/>
@@ -1028,7 +1028,7 @@
     </filter>
     <clipPath id="activity-clip"><rect x="18" y="18" width="220" height="220" rx="28"/></clipPath>
   </defs>
-  
+
     <path d="M42 18H214L238 42V214L214 238H42L18 214V42Z" fill="url(#activity-bg)"/>
     <g clip-path="url(#activity-clip)" opacity=".65">
       <path d="M28 74H91M163 74H228M28 182H78M178 182H228M74 28V68M182 28V52M74 188V228M182 202V228" stroke="rgb(var(--usk-primary-rgb, 88 244 255))" stroke-width="2"/>
@@ -1050,7 +1050,7 @@
 <g transform="translate(854, 646) scale(.43)">
   <title id="credit-card-title">Credit Card</title>
   <desc id="credit-card-desc">A fully colored cyberpunk icon with gritty neon HUD styling, cyan and magenta linework, and a dark futuristic panel base.</desc>
-  
+
   <defs>
     <linearGradient id="credit-card-bg" x1="24" y1="18" x2="236" y2="238" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 15 36 68))"/>
@@ -1075,7 +1075,7 @@
     </filter>
     <clipPath id="credit-card-clip"><rect x="18" y="18" width="220" height="220" rx="28"/></clipPath>
   </defs>
-  
+
     <path d="M42 18H214L238 42V214L214 238H42L18 214V42Z" fill="url(#credit-card-bg)"/>
     <g clip-path="url(#credit-card-clip)" opacity=".65">
       <path d="M28 74H91M163 74H228M28 182H78M178 182H228M74 28V68M182 28V52M74 188V228M182 202V228" stroke="rgb(var(--usk-primary-rgb, 88 244 255))" stroke-width="2"/>
@@ -1097,7 +1097,7 @@
 <g transform="translate(1054, 646) scale(.43)">
   <title id="wallet-title">Wallet</title>
   <desc id="wallet-desc">A fully colored cyberpunk icon with gritty neon HUD styling, cyan and magenta linework, and a dark futuristic panel base.</desc>
-  
+
   <defs>
     <linearGradient id="wallet-bg" x1="24" y1="18" x2="236" y2="238" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 15 36 68))"/>
@@ -1122,7 +1122,7 @@
     </filter>
     <clipPath id="wallet-clip"><rect x="18" y="18" width="220" height="220" rx="28"/></clipPath>
   </defs>
-  
+
     <path d="M42 18H214L238 42V214L214 238H42L18 214V42Z" fill="url(#wallet-bg)"/>
     <g clip-path="url(#wallet-clip)" opacity=".65">
       <path d="M28 74H91M163 74H228M28 182H78M178 182H228M74 28V68M182 28V52M74 188V228M182 202V228" stroke="rgb(var(--usk-primary-rgb, 88 244 255))" stroke-width="2"/>
@@ -1144,7 +1144,7 @@
 <g transform="translate(54, 810) scale(.43)">
   <title id="cart-title">Cart</title>
   <desc id="cart-desc">A fully colored cyberpunk icon with gritty neon HUD styling, cyan and magenta linework, and a dark futuristic panel base.</desc>
-  
+
   <defs>
     <linearGradient id="cart-bg" x1="24" y1="18" x2="236" y2="238" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 15 36 68))"/>
@@ -1169,7 +1169,7 @@
     </filter>
     <clipPath id="cart-clip"><rect x="18" y="18" width="220" height="220" rx="28"/></clipPath>
   </defs>
-  
+
     <path d="M42 18H214L238 42V214L214 238H42L18 214V42Z" fill="url(#cart-bg)"/>
     <g clip-path="url(#cart-clip)" opacity=".65">
       <path d="M28 74H91M163 74H228M28 182H78M178 182H228M74 28V68M182 28V52M74 188V228M182 202V228" stroke="rgb(var(--usk-primary-rgb, 88 244 255))" stroke-width="2"/>
@@ -1191,7 +1191,7 @@
 <g transform="translate(254, 810) scale(.43)">
   <title id="invoice-title">Invoice</title>
   <desc id="invoice-desc">A fully colored cyberpunk icon with gritty neon HUD styling, cyan and magenta linework, and a dark futuristic panel base.</desc>
-  
+
   <defs>
     <linearGradient id="invoice-bg" x1="24" y1="18" x2="236" y2="238" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 15 36 68))"/>
@@ -1216,7 +1216,7 @@
     </filter>
     <clipPath id="invoice-clip"><rect x="18" y="18" width="220" height="220" rx="28"/></clipPath>
   </defs>
-  
+
     <path d="M42 18H214L238 42V214L214 238H42L18 214V42Z" fill="url(#invoice-bg)"/>
     <g clip-path="url(#invoice-clip)" opacity=".65">
       <path d="M28 74H91M163 74H228M28 182H78M178 182H228M74 28V68M182 28V52M74 188V228M182 202V228" stroke="rgb(var(--usk-primary-rgb, 88 244 255))" stroke-width="2"/>
@@ -1238,7 +1238,7 @@
 <g transform="translate(454, 810) scale(.43)">
   <title id="tax-title">Tax</title>
   <desc id="tax-desc">A fully colored cyberpunk icon with gritty neon HUD styling, cyan and magenta linework, and a dark futuristic panel base.</desc>
-  
+
   <defs>
     <linearGradient id="tax-bg" x1="24" y1="18" x2="236" y2="238" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 15 36 68))"/>
@@ -1263,7 +1263,7 @@
     </filter>
     <clipPath id="tax-clip"><rect x="18" y="18" width="220" height="220" rx="28"/></clipPath>
   </defs>
-  
+
     <path d="M42 18H214L238 42V214L214 238H42L18 214V42Z" fill="url(#tax-bg)"/>
     <g clip-path="url(#tax-clip)" opacity=".65">
       <path d="M28 74H91M163 74H228M28 182H78M178 182H228M74 28V68M182 28V52M74 188V228M182 202V228" stroke="rgb(var(--usk-primary-rgb, 88 244 255))" stroke-width="2"/>
@@ -1285,7 +1285,7 @@
 <g transform="translate(654, 810) scale(.43)">
   <title id="login-title">Login</title>
   <desc id="login-desc">A fully colored cyberpunk icon with gritty neon HUD styling, cyan and magenta linework, and a dark futuristic panel base.</desc>
-  
+
   <defs>
     <linearGradient id="login-bg" x1="24" y1="18" x2="236" y2="238" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 15 36 68))"/>
@@ -1310,7 +1310,7 @@
     </filter>
     <clipPath id="login-clip"><rect x="18" y="18" width="220" height="220" rx="28"/></clipPath>
   </defs>
-  
+
     <path d="M42 18H214L238 42V214L214 238H42L18 214V42Z" fill="url(#login-bg)"/>
     <g clip-path="url(#login-clip)" opacity=".65">
       <path d="M28 74H91M163 74H228M28 182H78M178 182H228M74 28V68M182 28V52M74 188V228M182 202V228" stroke="rgb(var(--usk-primary-rgb, 88 244 255))" stroke-width="2"/>
@@ -1332,7 +1332,7 @@
 <g transform="translate(854, 810) scale(.43)">
   <title id="logout-title">Logout</title>
   <desc id="logout-desc">A fully colored cyberpunk icon with gritty neon HUD styling, cyan and magenta linework, and a dark futuristic panel base.</desc>
-  
+
   <defs>
     <linearGradient id="logout-bg" x1="24" y1="18" x2="236" y2="238" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 15 36 68))"/>
@@ -1357,7 +1357,7 @@
     </filter>
     <clipPath id="logout-clip"><rect x="18" y="18" width="220" height="220" rx="28"/></clipPath>
   </defs>
-  
+
     <path d="M42 18H214L238 42V214L214 238H42L18 214V42Z" fill="url(#logout-bg)"/>
     <g clip-path="url(#logout-clip)" opacity=".65">
       <path d="M28 74H91M163 74H228M28 182H78M178 182H228M74 28V68M182 28V52M74 188V228M182 202V228" stroke="rgb(var(--usk-primary-rgb, 88 244 255))" stroke-width="2"/>
@@ -1379,7 +1379,7 @@
 <g transform="translate(1054, 810) scale(.43)">
   <title id="edit-title">Edit</title>
   <desc id="edit-desc">A fully colored cyberpunk icon with gritty neon HUD styling, cyan and magenta linework, and a dark futuristic panel base.</desc>
-  
+
   <defs>
     <linearGradient id="edit-bg" x1="24" y1="18" x2="236" y2="238" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 15 36 68))"/>
@@ -1404,7 +1404,7 @@
     </filter>
     <clipPath id="edit-clip"><rect x="18" y="18" width="220" height="220" rx="28"/></clipPath>
   </defs>
-  
+
     <path d="M42 18H214L238 42V214L214 238H42L18 214V42Z" fill="url(#edit-bg)"/>
     <g clip-path="url(#edit-clip)" opacity=".65">
       <path d="M28 74H91M163 74H228M28 182H78M178 182H228M74 28V68M182 28V52M74 188V228M182 202V228" stroke="rgb(var(--usk-primary-rgb, 88 244 255))" stroke-width="2"/>
@@ -1426,7 +1426,7 @@
 <g transform="translate(54, 974) scale(.43)">
   <title id="trash-title">Trash</title>
   <desc id="trash-desc">A fully colored cyberpunk icon with gritty neon HUD styling, cyan and magenta linework, and a dark futuristic panel base.</desc>
-  
+
   <defs>
     <linearGradient id="trash-bg" x1="24" y1="18" x2="236" y2="238" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 15 36 68))"/>
@@ -1451,7 +1451,7 @@
     </filter>
     <clipPath id="trash-clip"><rect x="18" y="18" width="220" height="220" rx="28"/></clipPath>
   </defs>
-  
+
     <path d="M42 18H214L238 42V214L214 238H42L18 214V42Z" fill="url(#trash-bg)"/>
     <g clip-path="url(#trash-clip)" opacity=".65">
       <path d="M28 74H91M163 74H228M28 182H78M178 182H228M74 28V68M182 28V52M74 188V228M182 202V228" stroke="rgb(var(--usk-primary-rgb, 88 244 255))" stroke-width="2"/>
@@ -1473,7 +1473,7 @@
 <g transform="translate(254, 974) scale(.43)">
   <title id="plus-title">Add</title>
   <desc id="plus-desc">A fully colored cyberpunk icon with gritty neon HUD styling, cyan and magenta linework, and a dark futuristic panel base.</desc>
-  
+
   <defs>
     <linearGradient id="plus-bg" x1="24" y1="18" x2="236" y2="238" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 15 36 68))"/>
@@ -1498,7 +1498,7 @@
     </filter>
     <clipPath id="plus-clip"><rect x="18" y="18" width="220" height="220" rx="28"/></clipPath>
   </defs>
-  
+
     <path d="M42 18H214L238 42V214L214 238H42L18 214V42Z" fill="url(#plus-bg)"/>
     <g clip-path="url(#plus-clip)" opacity=".65">
       <path d="M28 74H91M163 74H228M28 182H78M178 182H228M74 28V68M182 28V52M74 188V228M182 202V228" stroke="rgb(var(--usk-primary-rgb, 88 244 255))" stroke-width="2"/>
@@ -1520,7 +1520,7 @@
 <g transform="translate(454, 974) scale(.43)">
   <title id="minus-title">Remove</title>
   <desc id="minus-desc">A fully colored cyberpunk icon with gritty neon HUD styling, cyan and magenta linework, and a dark futuristic panel base.</desc>
-  
+
   <defs>
     <linearGradient id="minus-bg" x1="24" y1="18" x2="236" y2="238" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 15 36 68))"/>
@@ -1545,7 +1545,7 @@
     </filter>
     <clipPath id="minus-clip"><rect x="18" y="18" width="220" height="220" rx="28"/></clipPath>
   </defs>
-  
+
     <path d="M42 18H214L238 42V214L214 238H42L18 214V42Z" fill="url(#minus-bg)"/>
     <g clip-path="url(#minus-clip)" opacity=".65">
       <path d="M28 74H91M163 74H228M28 182H78M178 182H228M74 28V68M182 28V52M74 188V228M182 202V228" stroke="rgb(var(--usk-primary-rgb, 88 244 255))" stroke-width="2"/>
@@ -1567,7 +1567,7 @@
 <g transform="translate(654, 974) scale(.43)">
   <title id="filter-title">Filter</title>
   <desc id="filter-desc">A fully colored cyberpunk icon with gritty neon HUD styling, cyan and magenta linework, and a dark futuristic panel base.</desc>
-  
+
   <defs>
     <linearGradient id="filter-bg" x1="24" y1="18" x2="236" y2="238" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 15 36 68))"/>
@@ -1592,7 +1592,7 @@
     </filter>
     <clipPath id="filter-clip"><rect x="18" y="18" width="220" height="220" rx="28"/></clipPath>
   </defs>
-  
+
     <path d="M42 18H214L238 42V214L214 238H42L18 214V42Z" fill="url(#filter-bg)"/>
     <g clip-path="url(#filter-clip)" opacity=".65">
       <path d="M28 74H91M163 74H228M28 182H78M178 182H228M74 28V68M182 28V52M74 188V228M182 202V228" stroke="rgb(var(--usk-primary-rgb, 88 244 255))" stroke-width="2"/>
@@ -1614,7 +1614,7 @@
 <g transform="translate(854, 974) scale(.43)">
   <title id="menu-title">Menu</title>
   <desc id="menu-desc">A fully colored cyberpunk icon with gritty neon HUD styling, cyan and magenta linework, and a dark futuristic panel base.</desc>
-  
+
   <defs>
     <linearGradient id="menu-bg" x1="24" y1="18" x2="236" y2="238" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 15 36 68))"/>
@@ -1639,7 +1639,7 @@
     </filter>
     <clipPath id="menu-clip"><rect x="18" y="18" width="220" height="220" rx="28"/></clipPath>
   </defs>
-  
+
     <path d="M42 18H214L238 42V214L214 238H42L18 214V42Z" fill="url(#menu-bg)"/>
     <g clip-path="url(#menu-clip)" opacity=".65">
       <path d="M28 74H91M163 74H228M28 182H78M178 182H228M74 28V68M182 28V52M74 188V228M182 202V228" stroke="rgb(var(--usk-primary-rgb, 88 244 255))" stroke-width="2"/>
@@ -1661,7 +1661,7 @@
 <g transform="translate(1054, 974) scale(.43)">
   <title id="image-title">Image</title>
   <desc id="image-desc">A fully colored cyberpunk icon with gritty neon HUD styling, cyan and magenta linework, and a dark futuristic panel base.</desc>
-  
+
   <defs>
     <linearGradient id="image-bg" x1="24" y1="18" x2="236" y2="238" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 15 36 68))"/>
@@ -1686,7 +1686,7 @@
     </filter>
     <clipPath id="image-clip"><rect x="18" y="18" width="220" height="220" rx="28"/></clipPath>
   </defs>
-  
+
     <path d="M42 18H214L238 42V214L214 238H42L18 214V42Z" fill="url(#image-bg)"/>
     <g clip-path="url(#image-clip)" opacity=".65">
       <path d="M28 74H91M163 74H228M28 182H78M178 182H228M74 28V68M182 28V52M74 188V228M182 202V228" stroke="rgb(var(--usk-primary-rgb, 88 244 255))" stroke-width="2"/>
@@ -1708,7 +1708,7 @@
 <g transform="translate(54, 1138) scale(.43)">
   <title id="video-title">Video</title>
   <desc id="video-desc">A fully colored cyberpunk icon with gritty neon HUD styling, cyan and magenta linework, and a dark futuristic panel base.</desc>
-  
+
   <defs>
     <linearGradient id="video-bg" x1="24" y1="18" x2="236" y2="238" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 15 36 68))"/>
@@ -1733,7 +1733,7 @@
     </filter>
     <clipPath id="video-clip"><rect x="18" y="18" width="220" height="220" rx="28"/></clipPath>
   </defs>
-  
+
     <path d="M42 18H214L238 42V214L214 238H42L18 214V42Z" fill="url(#video-bg)"/>
     <g clip-path="url(#video-clip)" opacity=".65">
       <path d="M28 74H91M163 74H228M28 182H78M178 182H228M74 28V68M182 28V52M74 188V228M182 202V228" stroke="rgb(var(--usk-primary-rgb, 88 244 255))" stroke-width="2"/>
@@ -1755,7 +1755,7 @@
 <g transform="translate(254, 1138) scale(.43)">
   <title id="code-title">Code</title>
   <desc id="code-desc">A fully colored cyberpunk icon with gritty neon HUD styling, cyan and magenta linework, and a dark futuristic panel base.</desc>
-  
+
   <defs>
     <linearGradient id="code-bg" x1="24" y1="18" x2="236" y2="238" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 15 36 68))"/>
@@ -1780,7 +1780,7 @@
     </filter>
     <clipPath id="code-clip"><rect x="18" y="18" width="220" height="220" rx="28"/></clipPath>
   </defs>
-  
+
     <path d="M42 18H214L238 42V214L214 238H42L18 214V42Z" fill="url(#code-bg)"/>
     <g clip-path="url(#code-clip)" opacity=".65">
       <path d="M28 74H91M163 74H228M28 182H78M178 182H228M74 28V68M182 28V52M74 188V228M182 202V228" stroke="rgb(var(--usk-primary-rgb, 88 244 255))" stroke-width="2"/>
@@ -1802,7 +1802,7 @@
 <g transform="translate(454, 1138) scale(.43)">
   <title id="terminal-title">Terminal</title>
   <desc id="terminal-desc">A fully colored cyberpunk icon with gritty neon HUD styling, cyan and magenta linework, and a dark futuristic panel base.</desc>
-  
+
   <defs>
     <linearGradient id="terminal-bg" x1="24" y1="18" x2="236" y2="238" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 15 36 68))"/>
@@ -1827,7 +1827,7 @@
     </filter>
     <clipPath id="terminal-clip"><rect x="18" y="18" width="220" height="220" rx="28"/></clipPath>
   </defs>
-  
+
     <path d="M42 18H214L238 42V214L214 238H42L18 214V42Z" fill="url(#terminal-bg)"/>
     <g clip-path="url(#terminal-clip)" opacity=".65">
       <path d="M28 74H91M163 74H228M28 182H78M178 182H228M74 28V68M182 28V52M74 188V228M182 202V228" stroke="rgb(var(--usk-primary-rgb, 88 244 255))" stroke-width="2"/>
@@ -1849,7 +1849,7 @@
 <g transform="translate(654, 1138) scale(.43)">
   <title id="rocket-title">Deploy</title>
   <desc id="rocket-desc">A fully colored cyberpunk icon with gritty neon HUD styling, cyan and magenta linework, and a dark futuristic panel base.</desc>
-  
+
   <defs>
     <linearGradient id="rocket-bg" x1="24" y1="18" x2="236" y2="238" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 15 36 68))"/>
@@ -1874,7 +1874,7 @@
     </filter>
     <clipPath id="rocket-clip"><rect x="18" y="18" width="220" height="220" rx="28"/></clipPath>
   </defs>
-  
+
     <path d="M42 18H214L238 42V214L214 238H42L18 214V42Z" fill="url(#rocket-bg)"/>
     <g clip-path="url(#rocket-clip)" opacity=".65">
       <path d="M28 74H91M163 74H228M28 182H78M178 182H228M74 28V68M182 28V52M74 188V228M182 202V228" stroke="rgb(var(--usk-primary-rgb, 88 244 255))" stroke-width="2"/>
@@ -1896,7 +1896,7 @@
 <g transform="translate(854, 1138) scale(.43)">
   <title id="bug-title">Bug</title>
   <desc id="bug-desc">A fully colored cyberpunk icon with gritty neon HUD styling, cyan and magenta linework, and a dark futuristic panel base.</desc>
-  
+
   <defs>
     <linearGradient id="bug-bg" x1="24" y1="18" x2="236" y2="238" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 15 36 68))"/>
@@ -1921,7 +1921,7 @@
     </filter>
     <clipPath id="bug-clip"><rect x="18" y="18" width="220" height="220" rx="28"/></clipPath>
   </defs>
-  
+
     <path d="M42 18H214L238 42V214L214 238H42L18 214V42Z" fill="url(#bug-bg)"/>
     <g clip-path="url(#bug-clip)" opacity=".65">
       <path d="M28 74H91M163 74H228M28 182H78M178 182H228M74 28V68M182 28V52M74 188V228M182 202V228" stroke="rgb(var(--usk-primary-rgb, 88 244 255))" stroke-width="2"/>
@@ -1943,7 +1943,7 @@
 <g transform="translate(1054, 1138) scale(.43)">
   <title id="help-title">Help</title>
   <desc id="help-desc">A fully colored cyberpunk icon with gritty neon HUD styling, cyan and magenta linework, and a dark futuristic panel base.</desc>
-  
+
   <defs>
     <linearGradient id="help-bg" x1="24" y1="18" x2="236" y2="238" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 15 36 68))"/>
@@ -1968,7 +1968,7 @@
     </filter>
     <clipPath id="help-clip"><rect x="18" y="18" width="220" height="220" rx="28"/></clipPath>
   </defs>
-  
+
     <path d="M42 18H214L238 42V214L214 238H42L18 214V42Z" fill="url(#help-bg)"/>
     <g clip-path="url(#help-clip)" opacity=".65">
       <path d="M28 74H91M163 74H228M28 182H78M178 182H228M74 28V68M182 28V52M74 188V228M182 202V228" stroke="rgb(var(--usk-primary-rgb, 88 244 255))" stroke-width="2"/>
@@ -1990,7 +1990,7 @@
 <g transform="translate(54, 1302) scale(.43)">
   <title id="link-title">Link</title>
   <desc id="link-desc">A fully colored cyberpunk icon with gritty neon HUD styling, cyan and magenta linework, and a dark futuristic panel base.</desc>
-  
+
   <defs>
     <linearGradient id="link-bg" x1="24" y1="18" x2="236" y2="238" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 15 36 68))"/>
@@ -2015,7 +2015,7 @@
     </filter>
     <clipPath id="link-clip"><rect x="18" y="18" width="220" height="220" rx="28"/></clipPath>
   </defs>
-  
+
     <path d="M42 18H214L238 42V214L214 238H42L18 214V42Z" fill="url(#link-bg)"/>
     <g clip-path="url(#link-clip)" opacity=".65">
       <path d="M28 74H91M163 74H228M28 182H78M178 182H228M74 28V68M182 28V52M74 188V228M182 202V228" stroke="rgb(var(--usk-primary-rgb, 88 244 255))" stroke-width="2"/>
@@ -2037,7 +2037,7 @@
 <g transform="translate(254, 1302) scale(.43)">
   <title id="cloud-title">Cloud</title>
   <desc id="cloud-desc">A fully colored cyberpunk icon with gritty neon HUD styling, cyan and magenta linework, and a dark futuristic panel base.</desc>
-  
+
   <defs>
     <linearGradient id="cloud-bg" x1="24" y1="18" x2="236" y2="238" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 15 36 68))"/>
@@ -2062,7 +2062,7 @@
     </filter>
     <clipPath id="cloud-clip"><rect x="18" y="18" width="220" height="220" rx="28"/></clipPath>
   </defs>
-  
+
     <path d="M42 18H214L238 42V214L214 238H42L18 214V42Z" fill="url(#cloud-bg)"/>
     <g clip-path="url(#cloud-clip)" opacity=".65">
       <path d="M28 74H91M163 74H228M28 182H78M178 182H228M74 28V68M182 28V52M74 188V228M182 202V228" stroke="rgb(var(--usk-primary-rgb, 88 244 255))" stroke-width="2"/>
@@ -2084,7 +2084,7 @@
 <g transform="translate(454, 1302) scale(.43)">
   <title id="globe-title">Globe</title>
   <desc id="globe-desc">A fully colored cyberpunk icon with gritty neon HUD styling, cyan and magenta linework, and a dark futuristic panel base.</desc>
-  
+
   <defs>
     <linearGradient id="globe-bg" x1="24" y1="18" x2="236" y2="238" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 15 36 68))"/>
@@ -2109,7 +2109,7 @@
     </filter>
     <clipPath id="globe-clip"><rect x="18" y="18" width="220" height="220" rx="28"/></clipPath>
   </defs>
-  
+
     <path d="M42 18H214L238 42V214L214 238H42L18 214V42Z" fill="url(#globe-bg)"/>
     <g clip-path="url(#globe-clip)" opacity=".65">
       <path d="M28 74H91M163 74H228M28 182H78M178 182H228M74 28V68M182 28V52M74 188V228M182 202V228" stroke="rgb(var(--usk-primary-rgb, 88 244 255))" stroke-width="2"/>
@@ -2131,7 +2131,7 @@
 <g transform="translate(654, 1302) scale(.43)">
   <title id="warning-title">Warning</title>
   <desc id="warning-desc">A fully colored cyberpunk icon with gritty neon HUD styling, cyan and magenta linework, and a dark futuristic panel base.</desc>
-  
+
   <defs>
     <linearGradient id="warning-bg" x1="24" y1="18" x2="236" y2="238" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 15 36 68))"/>
@@ -2156,7 +2156,7 @@
     </filter>
     <clipPath id="warning-clip"><rect x="18" y="18" width="220" height="220" rx="28"/></clipPath>
   </defs>
-  
+
     <path d="M42 18H214L238 42V214L214 238H42L18 214V42Z" fill="url(#warning-bg)"/>
     <g clip-path="url(#warning-clip)" opacity=".65">
       <path d="M28 74H91M163 74H228M28 182H78M178 182H228M74 28V68M182 28V52M74 188V228M182 202V228" stroke="rgb(var(--usk-primary-rgb, 88 244 255))" stroke-width="2"/>
@@ -2178,7 +2178,7 @@
 <g transform="translate(854, 1302) scale(.43)">
   <title id="scan-title">Scanner</title>
   <desc id="scan-desc">A fully colored cyberpunk icon with gritty neon HUD styling, cyan and magenta linework, and a dark futuristic panel base.</desc>
-  
+
   <defs>
     <linearGradient id="scan-bg" x1="24" y1="18" x2="236" y2="238" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 15 36 68))"/>
@@ -2203,7 +2203,7 @@
     </filter>
     <clipPath id="scan-clip"><rect x="18" y="18" width="220" height="220" rx="28"/></clipPath>
   </defs>
-  
+
     <path d="M42 18H214L238 42V214L214 238H42L18 214V42Z" fill="url(#scan-bg)"/>
     <g clip-path="url(#scan-clip)" opacity=".65">
       <path d="M28 74H91M163 74H228M28 182H78M178 182H228M74 28V68M182 28V52M74 188V228M182 202V228" stroke="rgb(var(--usk-primary-rgb, 88 244 255))" stroke-width="2"/>
@@ -2225,7 +2225,7 @@
 <g transform="translate(1054, 1302) scale(.43)">
   <title id="network-title">Network</title>
   <desc id="network-desc">A fully colored cyberpunk icon with gritty neon HUD styling, cyan and magenta linework, and a dark futuristic panel base.</desc>
-  
+
   <defs>
     <linearGradient id="network-bg" x1="24" y1="18" x2="236" y2="238" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 15 36 68))"/>
@@ -2250,7 +2250,7 @@
     </filter>
     <clipPath id="network-clip"><rect x="18" y="18" width="220" height="220" rx="28"/></clipPath>
   </defs>
-  
+
     <path d="M42 18H214L238 42V214L214 238H42L18 214V42Z" fill="url(#network-bg)"/>
     <g clip-path="url(#network-clip)" opacity=".65">
       <path d="M28 74H91M163 74H228M28 182H78M178 182H228M74 28V68M182 28V52M74 188V228M182 202V228" stroke="rgb(var(--usk-primary-rgb, 88 244 255))" stroke-width="2"/>
@@ -2272,7 +2272,7 @@
 <g transform="translate(54, 1466) scale(.43)">
   <title id="cpu-title">CPU</title>
   <desc id="cpu-desc">A fully colored cyberpunk icon with gritty neon HUD styling, cyan and magenta linework, and a dark futuristic panel base.</desc>
-  
+
   <defs>
     <linearGradient id="cpu-bg" x1="24" y1="18" x2="236" y2="238" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 15 36 68))"/>
@@ -2297,7 +2297,7 @@
     </filter>
     <clipPath id="cpu-clip"><rect x="18" y="18" width="220" height="220" rx="28"/></clipPath>
   </defs>
-  
+
     <path d="M42 18H214L238 42V214L214 238H42L18 214V42Z" fill="url(#cpu-bg)"/>
     <g clip-path="url(#cpu-clip)" opacity=".65">
       <path d="M28 74H91M163 74H228M28 182H78M178 182H228M74 28V68M182 28V52M74 188V228M182 202V228" stroke="rgb(var(--usk-primary-rgb, 88 244 255))" stroke-width="2"/>
@@ -2319,7 +2319,7 @@
 <g transform="translate(254, 1466) scale(.43)">
   <title id="layers-title">Layers</title>
   <desc id="layers-desc">A fully colored cyberpunk icon with gritty neon HUD styling, cyan and magenta linework, and a dark futuristic panel base.</desc>
-  
+
   <defs>
     <linearGradient id="layers-bg" x1="24" y1="18" x2="236" y2="238" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 15 36 68))"/>
@@ -2344,7 +2344,7 @@
     </filter>
     <clipPath id="layers-clip"><rect x="18" y="18" width="220" height="220" rx="28"/></clipPath>
   </defs>
-  
+
     <path d="M42 18H214L238 42V214L214 238H42L18 214V42Z" fill="url(#layers-bg)"/>
     <g clip-path="url(#layers-clip)" opacity=".65">
       <path d="M28 74H91M163 74H228M28 182H78M178 182H228M74 28V68M182 28V52M74 188V228M182 202V228" stroke="rgb(var(--usk-primary-rgb, 88 244 255))" stroke-width="2"/>
@@ -2366,7 +2366,7 @@
 <g transform="translate(454, 1466) scale(.43)">
   <title id="eye-title">Visibility</title>
   <desc id="eye-desc">A fully colored cyberpunk icon with gritty neon HUD styling, cyan and magenta linework, and a dark futuristic panel base.</desc>
-  
+
   <defs>
     <linearGradient id="eye-bg" x1="24" y1="18" x2="236" y2="238" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 15 36 68))"/>
@@ -2391,7 +2391,7 @@
     </filter>
     <clipPath id="eye-clip"><rect x="18" y="18" width="220" height="220" rx="28"/></clipPath>
   </defs>
-  
+
     <path d="M42 18H214L238 42V214L214 238H42L18 214V42Z" fill="url(#eye-bg)"/>
     <g clip-path="url(#eye-clip)" opacity=".65">
       <path d="M28 74H91M163 74H228M28 182H78M178 182H228M74 28V68M182 28V52M74 188V228M182 202V228" stroke="rgb(var(--usk-primary-rgb, 88 244 255))" stroke-width="2"/>

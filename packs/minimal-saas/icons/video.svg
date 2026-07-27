@@ -22,14 +22,17 @@
 [data-icon-frame="decor"]{opacity:var(--usk-icon-frame-decor-opacity,var(--usk-icon-frame-opacity,1))}
 [data-icon-glyph="play"]{fill:var(--usk-icon-play,var(--usk-icon-foreground,rgb(var(--usk-text-rgb,255 255 255))));stroke:none;opacity:1}
 </style>
-  <rect data-icon-frame="decor" class="saas-i-surface" x="34" y="34" width="188" height="188" rx="24"/>
-  <path data-icon-frame="decor" class="saas-i-muted" d="M58 74H92M164 74H198M58 184H96M160 184H198" opacity=".42"/>
-  <path data-icon-frame="decor" class="saas-i-muted" d="M68 206H116M140 206H188" opacity=".38"/>
-  <g data-icon-video="player">
-    <rect data-icon-video="screen" class="saas-i-bg-strong" x="48" y="82" width="132" height="92" rx="18" stroke="var(--saas-icon-primary,rgb(var(--usk-primary-rgb,37 99 235)))" stroke-width="6"/>
-    <path data-icon-video="camera" class="saas-i-accent" d="M180 108L212 90V166L180 148Z" stroke-width="6"/>
-    <path data-icon-video="controls" class="saas-i-muted" d="M68 104H94M68 158H126M144 158H160" opacity=".62"/>
-    <circle data-icon-video="record" class="saas-i-accent" cx="150" cy="104" r="6" stroke-width="4"/>
-    <path d="M96 104L144 128L96 152Z" data-icon-glyph="play"/>
-  </g>
+<rect data-icon-frame="surface" class="saas-i-surface" x="34" y="34" width="188" height="188" rx="24"/>
+  <path data-icon-frame="decor" class="saas-i-muted" d="M58 52H88M168 52H198" opacity=".42"/>
+  <path data-icon-frame="decor" class="saas-i-muted" d="M68 216H108M148 216H188" opacity=".38"/>
+
+
+<g data-icon-glyph="semantic" data-icon-prototype="reference-led-v1" data-icon-video="player">
+  <rect data-icon-video="screen" class="saas-i-line" x="52" y="76" width="132" height="104" rx="12"/>
+  <path data-icon-video="camera" class="saas-i-line" d="M184 106L208 94V162L184 150Z"/>
+  <path data-icon-video="controls" class="saas-i-line" d="M72 162H112M132 162H164"/>
+  <circle data-icon-video="record" class="saas-i-line" cx="166" cy="94" r="4"/>
+  <path data-icon-glyph="play" d="M100 104L100 148L140 126Z"/>
+</g>
+
 </svg>

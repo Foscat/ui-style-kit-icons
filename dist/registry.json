@@ -1,7 +1,7 @@
 {
   "name": "ui-style-kit-icons",
-  "version": "0.2.0",
-  "contractVersion": "0.1.0",
+  "version": "1.0.0",
+  "contractVersion": "1.0.0",
   "requiredIconCount": 64,
   "packCount": 12,
   "coreIconIds": [
@@ -111,6 +111,38 @@
     "webapp-synthwave": "synthwave-webapp",
     "bauhaus": "system"
   },
+  "uiStyleKitCssCompatibility": {
+    "packageName": "ui-style-kit-css",
+    "versionRange": ">=2.1.0 <3",
+    "themes": [
+      "midnight-gold",
+      "ocean-steel",
+      "forest-moss",
+      "sunset-ember",
+      "royal-plum",
+      "graphite-cyan",
+      "desert-sage",
+      "rose-quartz",
+      "cyber-lime",
+      "arctic-indigo"
+    ],
+    "modes": [
+      "light",
+      "dark",
+      "contrast"
+    ],
+    "requiredRgbTokens": [
+      "--usk-text-rgb",
+      "--usk-text-muted-rgb",
+      "--usk-border-rgb",
+      "--usk-primary-rgb",
+      "--usk-secondary-rgb",
+      "--usk-accent-rgb",
+      "--usk-success-rgb",
+      "--usk-warning-rgb",
+      "--usk-danger-rgb"
+    ]
+  },
   "packs": [
     {
       "id": "system",
@@ -127,8 +159,8 @@
         "fallback"
       ],
       "name": "ui-style-kit-icons",
-      "version": "0.2.0",
-      "contractVersion": "0.1.0",
+      "version": "1.0.0",
+      "contractVersion": "1.0.0",
       "style": "system",
       "styleSource": "UI Style Kit",
       "iconCount": 64,
@@ -618,8 +650,8 @@
         "minimal"
       ],
       "name": "minimal-saas-ui-style-icons",
-      "version": "0.2.0",
-      "contractVersion": "0.1.0",
+      "version": "1.0.0",
+      "contractVersion": "1.0.0",
       "style": "minimal-saas",
       "styleSource": "Quiet Product Console",
       "iconCount": 64,
@@ -1109,8 +1141,8 @@
         "dashboard"
       ],
       "name": "bento-ui-style-icons",
-      "version": "0.2.0",
-      "contractVersion": "0.1.0",
+      "version": "1.0.0",
+      "contractVersion": "1.0.0",
       "style": "bento",
       "styleSource": "Bento",
       "iconCount": 67,
@@ -1622,8 +1654,8 @@
         "colorful"
       ],
       "name": "maximalist-ui-style-icons",
-      "version": "0.2.0",
-      "contractVersion": "0.1.0",
+      "version": "1.0.0",
+      "contractVersion": "1.0.0",
       "style": "maximalist",
       "styleSource": "Party Dashboard",
       "iconCount": 64,
@@ -2113,8 +2145,8 @@
         "graphic"
       ],
       "name": "brutalism-ui-style-icons",
-      "version": "0.2.0",
-      "contractVersion": "0.1.0",
+      "version": "1.0.0",
+      "contractVersion": "1.0.0",
       "style": "brutalism",
       "styleSource": "Brutalism",
       "iconCount": 64,
@@ -2604,8 +2636,8 @@
         "dimensional"
       ],
       "name": "tactile-ui-style-icons",
-      "version": "0.2.0",
-      "contractVersion": "0.1.0",
+      "version": "1.0.0",
+      "contractVersion": "1.0.0",
       "style": "tactile",
       "styleSource": "Raised Workbench",
       "iconCount": 64,
@@ -3095,8 +3127,8 @@
         "embossed"
       ],
       "name": "neumorphism-ui-style-icons",
-      "version": "0.2.0",
-      "contractVersion": "0.1.0",
+      "version": "1.0.0",
+      "contractVersion": "1.0.0",
       "style": "neumorphism",
       "styleSource": "Soft Extrusion",
       "iconCount": 64,
@@ -3586,8 +3618,8 @@
         "translucent"
       ],
       "name": "retro-glass-ui-style-icons",
-      "version": "0.2.0",
-      "contractVersion": "0.1.0",
+      "version": "1.0.0",
+      "contractVersion": "1.0.0",
       "style": "retro-glass",
       "styleSource": "Retro Glass",
       "iconCount": 73,
@@ -4141,8 +4173,8 @@
         "nostalgic"
       ],
       "name": "y2k-ui-style-icons",
-      "version": "0.2.0",
-      "contractVersion": "0.1.0",
+      "version": "1.0.0",
+      "contractVersion": "1.0.0",
       "style": "y2k",
       "styleSource": "Y2K",
       "iconCount": 69,
@@ -4668,8 +4700,8 @@
         "hud"
       ],
       "name": "cyberpunk-icon-pack",
-      "version": "0.2.0",
-      "contractVersion": "0.1.0",
+      "version": "1.0.0",
+      "contractVersion": "1.0.0",
       "style": "cyberpunk",
       "styleSource": "Cyberpunk",
       "iconCount": 64,
@@ -5159,8 +5191,8 @@
         "neon"
       ],
       "name": "synthwave-icon-pack",
-      "version": "0.2.0",
-      "contractVersion": "0.1.0",
+      "version": "1.0.0",
+      "contractVersion": "1.0.0",
       "style": "synthwave",
       "styleSource": "Synthwave",
       "iconCount": 78,
@@ -5749,8 +5781,8 @@
         "dashboard"
       ],
       "name": "webapp-synthwave-icon-pack",
-      "version": "0.2.0",
-      "contractVersion": "0.1.0",
+      "version": "1.0.0",
+      "contractVersion": "1.0.0",
       "style": "synthwave",
       "styleSource": "Synthwave Web App",
       "iconCount": 64,

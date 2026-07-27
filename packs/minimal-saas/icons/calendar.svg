@@ -1,4 +1,4 @@
-<svg overflow="visible" xmlns="http://www.w3.org/2000/svg" class="saas-icon" width="256" height="256" viewBox="-8 -8 272 272" role="img" aria-labelledby="calendar-title calendar-desc">
+<svg overflow="visible" xmlns="http://www.w3.org/2000/svg" class="saas-icon" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="calendar-title calendar-desc">
   <title id="calendar-title">Calendar</title>
   <desc id="calendar-desc">Theme-aware Minimal SaaS SVG icon with quiet product UI styling and UI Style Kit color variables. Semantic meaning: Dates, schedule, publishing plan.</desc>
   <style>
@@ -22,8 +22,13 @@
 [data-icon-frame="decor"]{opacity:var(--usk-icon-frame-decor-opacity,var(--usk-icon-frame-opacity,1))}
 [data-icon-glyph="play"]{fill:var(--usk-icon-play,var(--usk-icon-foreground,rgb(var(--usk-text-rgb,255 255 255))));stroke:none;opacity:1}
 </style>
-  <rect data-icon-frame="decor" class="saas-i-surface" x="34" y="34" width="188" height="188" rx="24"/>
-  <path data-icon-frame="decor" class="saas-i-muted" d="M58 74H92M164 74H198M58 184H96M160 184H198" opacity=".42"/>
-  <path data-icon-frame="decor" class="saas-i-muted" d="M68 206H116M140 206H188" opacity=".38"/>
-  <rect class="saas-i-bg-strong" x="60" y="76" width="136" height="122" rx="16"/><path class="saas-i-line saas-i-glow" d="M90 60V94M166 60V94M64 112H192"/><path class="saas-i-line-3" d="M90 140H106M124 140H140M158 140H174M90 166H106M124 166H140"/>
+<rect data-icon-frame="surface" class="saas-i-surface" x="34" y="34" width="188" height="188" rx="24"/>
+  <path data-icon-frame="decor" class="saas-i-muted" d="M58 52H88M168 52H198" opacity=".42"/>
+  <path data-icon-frame="decor" class="saas-i-muted" d="M68 216H108M148 216H188" opacity=".38"/>
+
+
+<rect class="saas-i-bg-strong" x="60" y="76" width="136" height="122" rx="16"/>
+<path class="saas-i-line saas-i-glow" d="M90 60V94M166 60V94M64 112H192"/>
+<path class="saas-i-line-3" d="M90 140H106M124 140H140M158 140H174M90 166H106M124 166H140"/>
+
 </svg>

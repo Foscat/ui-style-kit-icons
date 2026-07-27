@@ -22,8 +22,12 @@
 [data-icon-frame="decor"]{opacity:var(--usk-icon-frame-decor-opacity,var(--usk-icon-frame-opacity,1))}
 [data-icon-glyph="play"]{fill:var(--usk-icon-play,var(--usk-icon-foreground,rgb(var(--usk-text-rgb,255 255 255))));stroke:none;opacity:1}
 </style>
-  <rect data-icon-frame="decor" class="saas-i-surface" x="34" y="34" width="188" height="188" rx="24"/>
-  <path data-icon-frame="decor" class="saas-i-muted" d="M58 74H92M164 74H198M58 184H96M160 184H198" opacity=".42"/>
-  <path data-icon-frame="decor" class="saas-i-muted" d="M68 206H116M140 206H188" opacity=".38"/>
-  <path class="saas-i-line saas-i-glow" d="M50 137H84L99 94L128 181L148 118H171L184 94L206 137"/><path class="saas-i-line-2" d="M58 170H198M70 94H94M162 94H190"/>
+<rect data-icon-frame="surface" class="saas-i-surface" x="34" y="34" width="188" height="188" rx="24"/>
+  <path data-icon-frame="decor" class="saas-i-muted" d="M58 52H88M168 52H198" opacity=".42"/>
+  <path data-icon-frame="decor" class="saas-i-muted" d="M68 216H108M148 216H188" opacity=".38"/>
+
+
+<path class="saas-i-line saas-i-glow" d="M50 137H84L99 94L128 181L148 118H171L184 94L206 137"/>
+<path class="saas-i-line-2" d="M58 170H198M70 94H94M162 94H190"/>
+
 </svg>

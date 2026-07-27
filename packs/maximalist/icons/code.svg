@@ -25,8 +25,14 @@
 [data-icon-frame="decor"]{opacity:var(--usk-icon-frame-decor-opacity,var(--usk-icon-frame-opacity,1))}
 [data-icon-glyph="play"]{fill:var(--usk-icon-play,var(--usk-icon-foreground,rgb(var(--usk-text-rgb,255 255 255))));stroke:none;opacity:1}
 </style>
-  <rect data-icon-frame="decor" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="decor" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="58" cy="70" r="9"/><rect data-icon-frame="decor" class="max-i-pop" x="169" y="49" width="29" height="18" rx="9" transform="rotate(12 184 58)"/>
-  <path class="max-i-line-2" d="M46 198H92M152 198H204" opacity=".7"/><path class="max-i-line-3" d="M44 92L60 108M196 154L214 172" opacity=".76"/>
-  <path class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
-  <path class="max-i-line max-i-glow" d="M82 93L48 128L82 163M174 93L208 128L174 163"/><path class="max-i-line-3" d="M144 73L112 183"/><path class="max-i-line-2" d="M95 192H161"/>
+<rect data-icon-frame="surface" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="surface" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="48" cy="48" r="7"/><rect data-icon-frame="decor" class="max-i-pop" x="184" y="196" width="24" height="14" rx="7" transform="rotate(12 196 203)"/>
+  <path data-icon-frame="decor" class="max-i-line-2" d="M46 204H86M166 204H204" opacity=".7"/>
+  <path data-icon-frame="decor" class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
+
+
+
+<path class="max-i-line max-i-glow" d="M82 93L48 128L82 163M174 93L208 128L174 163"/>
+<path class="max-i-line-3" d="M144 73L112 183"/>
+<path class="max-i-line-2" d="M95 192H161"/>
+
 </svg>

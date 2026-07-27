@@ -27,8 +27,15 @@
 [data-icon-frame="decor"]{opacity:var(--usk-icon-frame-decor-opacity,var(--usk-icon-frame-opacity,1))}
 [data-icon-glyph="play"]{fill:var(--usk-icon-play,var(--usk-icon-foreground,rgb(var(--usk-text-rgb,255 255 255))));stroke:none;opacity:1}
 </style>
-  <rect data-icon-frame="decor" class="neo-i-shadow-light" x="17" y="17" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-shadow-dark" x="38" y="38" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-surface" x="28" y="28" width="200" height="200" rx="42"/><path data-icon-frame="decor" class="neo-i-highlight" d="M56 50H166M50 58V132" opacity=".76"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M90 210H194M210 92V174" opacity=".68"/>
-  <path data-icon-frame="decor" class="neo-i-inset" d="M50 72H94M162 72H206" opacity=".68"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M54 188H100M156 188H202" opacity=".48"/>
+<rect data-icon-frame="surface" class="neo-i-shadow-light" x="17" y="17" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="surface" class="neo-i-shadow-dark" x="38" y="38" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="surface" class="neo-i-surface" x="28" y="28" width="200" height="200" rx="42"/><path data-icon-frame="decor" class="neo-i-highlight" d="M56 50H104M50 58V94" opacity=".76"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M154 210H194M210 164V174" opacity=".68"/>
+  <path data-icon-frame="decor" class="neo-i-inset" d="M50 52H84M172 52H206" opacity=".68"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M54 204H94M162 204H202" opacity=".48"/>
   <path data-icon-frame="decor" class="neo-i-highlight" d="M66 214H116M146 214H188" opacity=".44"/>
-  <rect class="neo-i-bg-strong" x="65" y="75" width="126" height="108" rx="14"/><path class="neo-i-muted" d="M91 106H165M91 136H138M91 164H116"/><path class="neo-i-line-2" d="M148 136L170 158M170 136L148 158"/><path class="neo-i-line-3" d="M92 96V84H118"/>
+
+
+
+<rect class="neo-i-bg-strong" x="65" y="75" width="126" height="108" rx="14"/>
+<path class="neo-i-muted" d="M91 106H165M91 136H138M91 164H116"/>
+<path class="neo-i-line-2" d="M148 136L170 158M170 136L148 158"/>
+<path class="neo-i-line-3" d="M92 96V84H118"/>
+
 </svg>

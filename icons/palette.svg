@@ -1,4 +1,4 @@
-<svg overflow="visible" xmlns="http://www.w3.org/2000/svg" class="usk-icon" width="256" height="256" viewBox="-8 -8 272 272" role="img" aria-labelledby="palette-title palette-desc">
+<svg overflow="visible" xmlns="http://www.w3.org/2000/svg" class="usk-icon" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="palette-title palette-desc">
   <title id="palette-title">Palette</title>
   <desc id="palette-desc">Theme-aware SVG icon that follows ui-style-kit-css color scheme variables. Semantic meaning: Theme, color, visual style.</desc>
   <style>
@@ -22,6 +22,12 @@
 [data-icon-frame="decor"]{opacity:var(--usk-icon-frame-decor-opacity,var(--usk-icon-frame-opacity,1))}
 [data-icon-glyph="play"]{fill:var(--usk-icon-play,var(--usk-icon-foreground,rgb(var(--usk-text-rgb,255 255 255))));stroke:none;opacity:1}
 </style>
-  <rect data-icon-frame="decor" class="usk-i-surface" x="28" y="28" width="200" height="200" rx="28"/><path class="usk-i-line-2" d="M48 70H90M166 70H208M48 186H88M168 186H208" opacity=".62"/><path class="usk-i-muted" d="M50 212H118M138 212H154M170 212H206" opacity=".7"/>
-  <path class="usk-i-primary" d="M128 60C89 60 58 89 58 128C58 168 90 196 129 196H145C159 196 168 187 168 175C168 165 176 158 187 158C196 158 204 150 204 137C204 94 171 60 128 60Z"/><circle class="usk-i-accent" cx="98" cy="112" r="10"/><circle class="usk-i-secondary" cx="126" cy="96" r="10"/><circle class="usk-i-warning" cx="154" cy="116" r="10"/><circle class="usk-i-bg-strong" cx="122" cy="154" r="12"/>
+  <rect data-icon-frame="surface" class="usk-i-surface" x="28" y="28" width="200" height="200" rx="28"/><path data-icon-frame="decor" class="usk-i-line-2" d="M48 52H82M174 52H208" opacity=".62"/><path data-icon-frame="decor" class="usk-i-muted" d="M50 212H104M152 212H206" opacity=".7"/>
+  <g data-icon-glyph="semantic" data-icon-prototype="reference-led-v1">
+    <path class="usk-i-line" d="M128 58C88 58 56 88 56 127C56 168 88 198 132 198H146C161 198 171 189 171 176C171 165 179 158 190 158C201 158 208 149 208 136C208 92 174 58 128 58Z"/>
+    <circle class="usk-i-line" cx="92" cy="115" r="9"/>
+    <circle class="usk-i-line" cx="128" cy="93" r="9"/>
+    <circle class="usk-i-line" cx="163" cy="113" r="9"/>
+    <circle class="usk-i-line" cx="120" cy="157" r="11"/>
+  </g>
 </svg>

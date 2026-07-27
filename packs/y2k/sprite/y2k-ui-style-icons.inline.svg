@@ -10,6 +10,7 @@
 .y2k-i-warning{fill:var(--y2k-icon-warning,rgb(var(--usk-warning-rgb,255 200 78)));stroke:var(--y2k-icon-warning,rgb(var(--usk-warning-rgb,255 200 78)))}
 .y2k-i-danger{fill:var(--y2k-icon-danger,rgb(var(--usk-danger-rgb,255 92 122)));stroke:var(--y2k-icon-danger,rgb(var(--usk-danger-rgb,255 92 122)))}
 .y2k-i-gloss{fill:var(--y2k-icon-gloss,rgb(255 255 255/.78));stroke:none}
+.y2k-i-shine{fill:none;stroke:var(--y2k-icon-gloss,rgb(255 255 255/.78));stroke-width:7;stroke-linecap:round}
 .y2k-i-line{fill:none;stroke:var(--y2k-icon-primary,rgb(var(--usk-primary-rgb,55 160 255)));stroke-width:7;stroke-linecap:round;stroke-linejoin:round}
 .y2k-i-line-2{fill:none;stroke:var(--y2k-icon-secondary,rgb(var(--usk-secondary-rgb,255 96 190)));stroke-width:5;stroke-linecap:round;stroke-linejoin:round}
 .y2k-i-line-3{fill:none;stroke:var(--y2k-icon-accent,rgb(var(--usk-accent-rgb,149 255 241)));stroke-width:4;stroke-linecap:round;stroke-linejoin:round}
@@ -19,514 +20,885 @@
 [data-icon-frame="decor"]{opacity:var(--usk-icon-frame-decor-opacity,var(--usk-icon-frame-opacity,1))}
 [data-icon-glyph="play"]{fill:var(--usk-icon-play,var(--usk-icon-foreground,rgb(var(--usk-text-rgb,255 255 255))));stroke:none;opacity:1}
 /* UI Style Kit Icons: generated sprite contrast guard */
-.y2k-i-line{stroke:var(--y2k-icon-primary,rgb(var(--usk-primary-rgb,37 99 235)));stroke:color-mix(in srgb,var(--y2k-icon-primary,rgb(var(--usk-primary-rgb,37 99 235))) 58%,rgb(var(--usk-text-rgb,15 23 42)) 42%)}
-.y2k-i-line-2{stroke:var(--y2k-icon-secondary,rgb(var(--usk-secondary-rgb,100 116 139)));stroke:color-mix(in srgb,var(--y2k-icon-secondary,rgb(var(--usk-secondary-rgb,100 116 139))) 52%,rgb(var(--usk-text-rgb,15 23 42)) 48%)}
-.y2k-i-line-3{stroke:var(--y2k-icon-accent,rgb(var(--usk-accent-rgb,14 165 233)));stroke:color-mix(in srgb,var(--y2k-icon-accent,rgb(var(--usk-accent-rgb,14 165 233))) 52%,rgb(var(--usk-text-rgb,15 23 42)) 48%)}
-.y2k-i-primary{stroke:var(--y2k-icon-primary,rgb(var(--usk-primary-rgb,37 99 235)));stroke:color-mix(in srgb,var(--y2k-icon-primary,rgb(var(--usk-primary-rgb,37 99 235))) 58%,rgb(var(--usk-text-rgb,15 23 42)) 42%);stroke-width:var(--usk-icon-fill-keyline-width,3.5);stroke-linejoin:round}
-.y2k-i-secondary{stroke:var(--y2k-icon-secondary,rgb(var(--usk-secondary-rgb,100 116 139)));stroke:color-mix(in srgb,var(--y2k-icon-secondary,rgb(var(--usk-secondary-rgb,100 116 139))) 52%,rgb(var(--usk-text-rgb,15 23 42)) 48%);stroke-width:var(--usk-icon-fill-keyline-width,3.5);stroke-linejoin:round}
-.y2k-i-accent{stroke:var(--y2k-icon-accent,rgb(var(--usk-accent-rgb,14 165 233)));stroke:color-mix(in srgb,var(--y2k-icon-accent,rgb(var(--usk-accent-rgb,14 165 233))) 52%,rgb(var(--usk-text-rgb,15 23 42)) 48%);stroke-width:var(--usk-icon-fill-keyline-width,3.5);stroke-linejoin:round}
-.y2k-i-success{stroke:var(--y2k-icon-success,rgb(var(--usk-success-rgb,22 163 74)));stroke:color-mix(in srgb,var(--y2k-icon-success,rgb(var(--usk-success-rgb,22 163 74))) 52%,rgb(var(--usk-text-rgb,15 23 42)) 48%);stroke-width:var(--usk-icon-fill-keyline-width,3.5);stroke-linejoin:round}
-.y2k-i-warning{stroke:var(--y2k-icon-warning,rgb(var(--usk-warning-rgb,202 138 4)));stroke:color-mix(in srgb,var(--y2k-icon-warning,rgb(var(--usk-warning-rgb,202 138 4))) 52%,rgb(var(--usk-text-rgb,15 23 42)) 48%);stroke-width:var(--usk-icon-fill-keyline-width,3.5);stroke-linejoin:round}
-.y2k-i-danger{stroke:var(--y2k-icon-danger,rgb(var(--usk-danger-rgb,220 38 38)));stroke:color-mix(in srgb,var(--y2k-icon-danger,rgb(var(--usk-danger-rgb,220 38 38))) 52%,rgb(var(--usk-text-rgb,15 23 42)) 48%);stroke-width:var(--usk-icon-fill-keyline-width,3.5);stroke-linejoin:round}
-.y2k-i-muted{stroke:var(--y2k-icon-muted,rgb(var(--usk-text-muted-rgb,100 116 139)));stroke:color-mix(in srgb,var(--y2k-icon-muted,rgb(var(--usk-text-muted-rgb,100 116 139))) 38%,rgb(var(--usk-text-rgb,15 23 42)) 62%)}
-.y2k-i-bg-strong{stroke:var(--y2k-icon-border,rgb(var(--usk-border-rgb,100 116 139)));stroke:color-mix(in srgb,var(--y2k-icon-border,rgb(var(--usk-border-rgb,100 116 139))) 28%,rgb(var(--usk-text-rgb,15 23 42)) 72%);stroke-width:var(--usk-icon-keyline-width,3.5);stroke-linejoin:round}
+.y2k-i-line{stroke:var(--y2k-icon-primary,rgb(var(--usk-primary-rgb,37 99 235)));stroke:color-mix(in srgb,var(--y2k-icon-primary,rgb(var(--usk-primary-rgb,37 99 235))) 58%,currentColor 42%)}
+.y2k-i-line-2{stroke:var(--y2k-icon-secondary,rgb(var(--usk-secondary-rgb,100 116 139)));stroke:color-mix(in srgb,var(--y2k-icon-secondary,rgb(var(--usk-secondary-rgb,100 116 139))) 52%,currentColor 48%)}
+.y2k-i-line-3{stroke:var(--y2k-icon-accent,rgb(var(--usk-accent-rgb,14 165 233)));stroke:color-mix(in srgb,var(--y2k-icon-accent,rgb(var(--usk-accent-rgb,14 165 233))) 52%,currentColor 48%)}
+.y2k-i-primary{stroke:var(--y2k-icon-primary,rgb(var(--usk-primary-rgb,37 99 235)));stroke:color-mix(in srgb,var(--y2k-icon-primary,rgb(var(--usk-primary-rgb,37 99 235))) 58%,currentColor 42%);stroke-width:var(--usk-icon-fill-keyline-width,3.5);stroke-linejoin:round}
+.y2k-i-secondary{stroke:var(--y2k-icon-secondary,rgb(var(--usk-secondary-rgb,100 116 139)));stroke:color-mix(in srgb,var(--y2k-icon-secondary,rgb(var(--usk-secondary-rgb,100 116 139))) 52%,currentColor 48%);stroke-width:var(--usk-icon-fill-keyline-width,3.5);stroke-linejoin:round}
+.y2k-i-accent{stroke:var(--y2k-icon-accent,rgb(var(--usk-accent-rgb,14 165 233)));stroke:color-mix(in srgb,var(--y2k-icon-accent,rgb(var(--usk-accent-rgb,14 165 233))) 52%,currentColor 48%);stroke-width:var(--usk-icon-fill-keyline-width,3.5);stroke-linejoin:round}
+.y2k-i-success{stroke:var(--y2k-icon-success,rgb(var(--usk-success-rgb,22 163 74)));stroke:color-mix(in srgb,var(--y2k-icon-success,rgb(var(--usk-success-rgb,22 163 74))) 52%,currentColor 48%);stroke-width:var(--usk-icon-fill-keyline-width,3.5);stroke-linejoin:round}
+.y2k-i-warning{stroke:var(--y2k-icon-warning,rgb(var(--usk-warning-rgb,202 138 4)));stroke:color-mix(in srgb,var(--y2k-icon-warning,rgb(var(--usk-warning-rgb,202 138 4))) 52%,currentColor 48%);stroke-width:var(--usk-icon-fill-keyline-width,3.5);stroke-linejoin:round}
+.y2k-i-danger{stroke:var(--y2k-icon-danger,rgb(var(--usk-danger-rgb,220 38 38)));stroke:color-mix(in srgb,var(--y2k-icon-danger,rgb(var(--usk-danger-rgb,220 38 38))) 52%,currentColor 48%);stroke-width:var(--usk-icon-fill-keyline-width,3.5);stroke-linejoin:round}
+.y2k-i-muted{stroke:var(--y2k-icon-muted,rgb(var(--usk-text-muted-rgb,100 116 139)));stroke:color-mix(in srgb,var(--y2k-icon-muted,rgb(var(--usk-text-muted-rgb,100 116 139))) 38%,currentColor 62%)}
+.y2k-i-bg-strong{stroke:var(--y2k-icon-border,rgb(var(--usk-border-rgb,100 116 139)));stroke:color-mix(in srgb,var(--y2k-icon-border,rgb(var(--usk-border-rgb,100 116 139))) 28%,currentColor 72%);stroke-width:var(--usk-icon-keyline-width,3.5);stroke-linejoin:round}
 </style>
 <symbol id="y2k-icon-home" viewBox="0 0 256 256">
   <title>Home</title>
-  <rect data-icon-frame="decor" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
-    <ellipse data-icon-frame="decor" class="y2k-i-gloss" cx="96" cy="62" rx="50" ry="14" opacity=".72"/>
-    <path class="y2k-i-muted" d="M54 206H106M146 206H202" opacity=".55"/>
-    <path class="y2k-i-line-3" d="M54 52H78M188 52H204" opacity=".7"/>
-    <path class="y2k-i-line" d="M66 130L128 78L190 130"/><path class="y2k-i-bg-strong" stroke="var(--y2k-icon-secondary,rgb(var(--usk-secondary-rgb,255 96 190)))" stroke-width="6" d="M84 126V188H172V126Z"/><path class="y2k-i-line-3" d="M115 188V152H141V188"/>
+  <rect data-icon-frame="surface" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
+    <path data-icon-frame="decor" data-icon-audit="decorative" class="y2k-i-shine" fill="none" d="M48 78C54 58 68 46 88 42H102" opacity=".58"/>
+    <path data-icon-frame="decor" class="y2k-i-muted" d="M52 206H104M152 206H204" opacity=".55"/>
+    <path data-icon-frame="decor" class="y2k-i-line-3" d="M52 52H76M180 52H204" opacity=".7"/>
+    <g data-icon-glyph="semantic" data-icon-prototype="reference-led-v1">
+      <path data-icon-y2k="body" class="y2k-i-bg-strong" d="M68 128Q68 116 78 107L112 77Q128 63 144 77L178 107Q188 116 188 128V183Q188 196 175 196H81Q68 196 68 183Z" stroke="var(--y2k-icon-primary,rgb(var(--usk-primary-rgb,55 160 255)))" stroke-width="7" stroke-linejoin="round"/>
+      <path class="y2k-i-line-2" d="M68 130L118 85Q128 76 138 85L188 130"/>
+      <rect class="y2k-i-secondary" x="111" y="145" width="34" height="51" rx="17" stroke-width="5"/>
+      <circle class="y2k-i-accent" cx="92" cy="153" r="10" stroke-width="4"/>
+      <circle class="y2k-i-accent" cx="164" cy="153" r="10" stroke-width="4"/>
+      <path data-icon-audit="decorative" data-icon-y2k="shine" class="y2k-i-shine" d="M84 116L116 88Q128 78 140 88L154 100" opacity=".88"/>
+    </g>
 </symbol>
 <symbol id="y2k-icon-dashboard" viewBox="0 0 256 256">
   <title>Dashboard</title>
-  <rect data-icon-frame="decor" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
-    <ellipse data-icon-frame="decor" class="y2k-i-gloss" cx="96" cy="62" rx="50" ry="14" opacity=".72"/>
-    <path class="y2k-i-muted" d="M54 206H106M146 206H202" opacity=".55"/>
-    <path class="y2k-i-line-3" d="M54 52H78M188 52H204" opacity=".7"/>
-    <rect class="y2k-i-bg-strong" x="62" y="78" width="132" height="104" rx="28"/><path class="y2k-i-line" d="M84 148A44 44 0 0 1 172 148"/><path class="y2k-i-line-2" d="M128 148L158 120"/><circle class="y2k-i-accent" cx="128" cy="148" r="9"/>
+  <rect data-icon-frame="surface" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
+    <path data-icon-frame="decor" data-icon-audit="decorative" class="y2k-i-shine" fill="none" d="M48 78C54 58 68 46 88 42H102" opacity=".58"/>
+    <path data-icon-frame="decor" class="y2k-i-muted" d="M52 206H104M152 206H204" opacity=".55"/>
+    <path data-icon-frame="decor" class="y2k-i-line-3" d="M52 52H76M180 52H204" opacity=".7"/>
+
+
+
+  <rect class="y2k-i-bg-strong" x="62" y="78" width="132" height="104" rx="28"/>
+  <path class="y2k-i-line" d="M84 148A44 44 0 0 1 172 148"/>
+  <path class="y2k-i-line-2" d="M128 148L158 120"/>
+  <circle class="y2k-i-accent" cx="128" cy="148" r="9"/>
 </symbol>
-<symbol id="y2k-icon-browser" viewBox="-8 -8 272 272">
+<symbol id="y2k-icon-browser" viewBox="0 0 256 256">
   <title>Browser</title>
-  <rect data-icon-frame="decor" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
-    <ellipse data-icon-frame="decor" class="y2k-i-gloss" cx="96" cy="62" rx="50" ry="14" opacity=".72"/>
-    <path class="y2k-i-muted" d="M54 206H106M146 206H202" opacity=".55"/>
-    <path class="y2k-i-line-3" d="M54 52H78M188 52H204" opacity=".7"/>
-    <rect class="y2k-i-bg-strong" x="54" y="72" width="148" height="116" rx="18"/><path class="y2k-i-line" d="M54 102H202"/><circle class="y2k-i-secondary" cx="78" cy="87" r="6"/><circle class="y2k-i-warning" cx="96" cy="87" r="6"/><circle class="y2k-i-success" cx="114" cy="87" r="6"/><path class="y2k-i-muted" d="M82 130H174M82 154H146"/>
+  <rect data-icon-frame="surface" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
+    <path data-icon-frame="decor" data-icon-audit="decorative" class="y2k-i-shine" fill="none" d="M48 78C54 58 68 46 88 42H102" opacity=".58"/>
+    <path data-icon-frame="decor" class="y2k-i-muted" d="M52 206H104M152 206H204" opacity=".55"/>
+    <path data-icon-frame="decor" class="y2k-i-line-3" d="M52 52H76M180 52H204" opacity=".7"/>
+
+
+
+  <rect class="y2k-i-bg-strong" x="54" y="72" width="148" height="116" rx="18"/>
+  <path class="y2k-i-line" d="M54 102H202"/>
+  <circle class="y2k-i-secondary" cx="78" cy="87" r="6"/>
+  <circle class="y2k-i-warning" cx="96" cy="87" r="6"/>
+  <circle class="y2k-i-success" cx="114" cy="87" r="6"/>
+  <path class="y2k-i-muted" d="M82 130H174M82 154H146"/>
 </symbol>
 <symbol id="y2k-icon-search" viewBox="0 0 256 256">
   <title>Search</title>
-  <rect data-icon-frame="decor" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
-    <ellipse data-icon-frame="decor" class="y2k-i-gloss" cx="96" cy="62" rx="50" ry="14" opacity=".72"/>
-    <path class="y2k-i-muted" d="M54 206H106M146 206H202" opacity=".55"/>
-    <path class="y2k-i-line-3" d="M54 52H78M188 52H204" opacity=".7"/>
-    <circle class="y2k-i-line" cx="112" cy="112" r="41"/><path class="y2k-i-line-2" d="M145 145L194 194"/><path class="y2k-i-gloss" d="M88 94C98 82 120 78 134 88" opacity=".75"/>
+  <rect data-icon-frame="surface" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
+    <path data-icon-frame="decor" data-icon-audit="decorative" class="y2k-i-shine" fill="none" d="M48 78C54 58 68 46 88 42H102" opacity=".58"/>
+    <path data-icon-frame="decor" class="y2k-i-muted" d="M52 206H104M152 206H204" opacity=".55"/>
+    <path data-icon-frame="decor" class="y2k-i-line-3" d="M52 52H76M180 52H204" opacity=".7"/>
+
+
+
+  <circle class="y2k-i-line" cx="112" cy="112" r="41"/>
+  <path class="y2k-i-line-2" d="M145 145L194 194"/>
+
+  <path data-icon-audit="decorative" class="y2k-i-gloss" d="M88 94C98 82 120 78 134 88" opacity=".75"/>
 </symbol>
 <symbol id="y2k-icon-user" viewBox="0 0 256 256">
   <title>User</title>
-  <rect data-icon-frame="decor" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
-    <ellipse data-icon-frame="decor" class="y2k-i-gloss" cx="96" cy="62" rx="50" ry="14" opacity=".72"/>
-    <path class="y2k-i-muted" d="M54 206H106M146 206H202" opacity=".55"/>
-    <path class="y2k-i-line-3" d="M54 52H78M188 52H204" opacity=".7"/>
-    <circle class="y2k-i-bg-strong" cx="128" cy="92" r="32"/><circle class="y2k-i-line" cx="128" cy="92" r="32"/><path class="y2k-i-line-2" d="M72 190C81 154 103 136 128 136C153 136 175 154 184 190"/><path class="y2k-i-gloss" d="M111 79C120 71 137 71 145 80" opacity=".75"/>
+  <rect data-icon-frame="surface" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
+    <path data-icon-frame="decor" data-icon-audit="decorative" class="y2k-i-shine" fill="none" d="M48 78C54 58 68 46 88 42H102" opacity=".58"/>
+    <path data-icon-frame="decor" class="y2k-i-muted" d="M52 206H104M152 206H204" opacity=".55"/>
+    <path data-icon-frame="decor" class="y2k-i-line-3" d="M52 52H76M180 52H204" opacity=".7"/>
+
+
+
+  <circle class="y2k-i-bg-strong" cx="128" cy="92" r="32"/>
+  <circle class="y2k-i-line" cx="128" cy="92" r="32"/>
+  <path class="y2k-i-line-2" d="M72 190C81 154 103 136 128 136C153 136 175 154 184 190"/>
+
+  <path data-icon-audit="decorative" class="y2k-i-gloss" d="M111 79C120 71 137 71 145 80" opacity=".75"/>
 </symbol>
-<symbol id="y2k-icon-users" viewBox="-8 -8 272 272">
+<symbol id="y2k-icon-users" viewBox="0 0 256 256">
   <title>Users</title>
-  <rect data-icon-frame="decor" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
-    <ellipse data-icon-frame="decor" class="y2k-i-gloss" cx="96" cy="62" rx="50" ry="14" opacity=".72"/>
-    <path class="y2k-i-muted" d="M54 206H106M146 206H202" opacity=".55"/>
-    <path class="y2k-i-line-3" d="M54 52H78M188 52H204" opacity=".7"/>
-    <circle class="y2k-i-line-2" cx="96" cy="104" r="24"/><circle class="y2k-i-line-2" cx="160" cy="104" r="24"/><circle class="y2k-i-line" cx="128" cy="86" r="30"/><path class="y2k-i-line-2" d="M58 190C65 158 86 140 110 140M198 190C191 158 170 140 146 140M78 198C86 160 105 140 128 140C151 140 170 160 178 198"/>
+  <rect data-icon-frame="surface" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
+    <path data-icon-frame="decor" data-icon-audit="decorative" class="y2k-i-shine" fill="none" d="M48 78C54 58 68 46 88 42H102" opacity=".58"/>
+    <path data-icon-frame="decor" class="y2k-i-muted" d="M52 206H104M152 206H204" opacity=".55"/>
+    <path data-icon-frame="decor" class="y2k-i-line-3" d="M52 52H76M180 52H204" opacity=".7"/>
+    <g data-icon-glyph="semantic" data-icon-prototype="reference-led-v1">
+      <circle data-icon-part="users-head" data-icon-y2k="body" class="y2k-i-secondary" cx="80" cy="105" r="18" stroke-width="5"/>
+      <circle data-icon-part="users-head" data-icon-y2k="body" class="y2k-i-primary" cx="128" cy="82" r="24" stroke-width="6"/>
+      <circle data-icon-part="users-head" data-icon-y2k="body" class="y2k-i-accent" cx="176" cy="105" r="18" stroke-width="5"/>
+      <path data-icon-part="users-shoulders" class="y2k-i-secondary" d="M45 187Q48 142 80 142Q99 142 108 159Q94 171 91 193H52Q45 193 45 187Z" stroke-width="5" stroke-linejoin="round"/>
+      <path data-icon-part="users-shoulders" class="y2k-i-primary" d="M86 195Q90 128 128 128Q166 128 170 195Z" stroke-width="6" stroke-linejoin="round"/>
+      <path data-icon-part="users-shoulders" class="y2k-i-accent" d="M148 159Q157 142 176 142Q208 142 211 187Q211 193 204 193H165Q162 171 148 159Z" stroke-width="5" stroke-linejoin="round"/>
+      <path data-icon-audit="decorative" data-icon-y2k="shine" class="y2k-i-shine" d="M113 70Q128 57 143 70M58 166Q67 151 82 151M174 151Q190 151 198 166" opacity=".86"/>
+    </g>
 </symbol>
 <symbol id="y2k-icon-settings" viewBox="0 0 256 256">
   <title>Settings</title>
-  <rect data-icon-frame="decor" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
-    <ellipse data-icon-frame="decor" class="y2k-i-gloss" cx="96" cy="62" rx="50" ry="14" opacity=".72"/>
-    <path class="y2k-i-muted" d="M54 206H106M146 206H202" opacity=".55"/>
-    <path class="y2k-i-line-3" d="M54 52H78M188 52H204" opacity=".7"/>
-    <path class="y2k-i-bg-strong" stroke="var(--y2k-icon-primary,rgb(var(--usk-primary-rgb,55 160 255)))" stroke-width="6" d="M128 58L143 78L168 73L176 98L199 111L189 135L199 158L176 171L168 196L143 191L128 211L113 191L88 196L80 171L57 158L67 135L57 111L80 98L88 73L113 78Z"/><circle class="y2k-i-line-2" cx="128" cy="135" r="30"/><circle class="y2k-i-accent" cx="128" cy="135" r="12"/>
+  <rect data-icon-frame="surface" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
+    <path data-icon-frame="decor" data-icon-audit="decorative" class="y2k-i-shine" fill="none" d="M48 78C54 58 68 46 88 42H102" opacity=".58"/>
+    <path data-icon-frame="decor" class="y2k-i-muted" d="M52 206H104M152 206H204" opacity=".55"/>
+    <path data-icon-frame="decor" class="y2k-i-line-3" d="M52 52H76M180 52H204" opacity=".7"/>
+
+
+
+  <path class="y2k-i-bg-strong" stroke="var(--y2k-icon-primary,rgb(var(--usk-primary-rgb,55 160 255)))" stroke-width="6" d="M128 58L143 78L168 73L176 98L199 111L189 135L199 158L176 171L168 196L143 191L128 211L113 191L88 196L80 171L57 158L67 135L57 111L80 98L88 73L113 78Z"/>
+  <circle class="y2k-i-line-2" cx="128" cy="135" r="30"/>
+  <circle class="y2k-i-accent" cx="128" cy="135" r="12"/>
 </symbol>
 <symbol id="y2k-icon-bell" viewBox="0 0 256 256">
   <title>Notifications</title>
-  <rect data-icon-frame="decor" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
-    <ellipse data-icon-frame="decor" class="y2k-i-gloss" cx="96" cy="62" rx="50" ry="14" opacity=".72"/>
-    <path class="y2k-i-muted" d="M54 206H106M146 206H202" opacity=".55"/>
-    <path class="y2k-i-line-3" d="M54 52H78M188 52H204" opacity=".7"/>
-    <path class="y2k-i-bg-strong" stroke="var(--y2k-icon-primary,rgb(var(--usk-primary-rgb,55 160 255)))" stroke-width="6" d="M84 151V116C84 89 102 70 128 70C154 70 172 89 172 116V151L189 178H67Z"/><path class="y2k-i-line-3" d="M112 190C119 202 137 202 144 190"/><circle class="y2k-i-secondary" cx="176" cy="76" r="16"/>
+  <rect data-icon-frame="surface" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
+    <path data-icon-frame="decor" data-icon-audit="decorative" class="y2k-i-shine" fill="none" d="M48 78C54 58 68 46 88 42H102" opacity=".58"/>
+    <path data-icon-frame="decor" class="y2k-i-muted" d="M52 206H104M152 206H204" opacity=".55"/>
+    <path data-icon-frame="decor" class="y2k-i-line-3" d="M52 52H76M180 52H204" opacity=".7"/>
+
+
+
+  <path class="y2k-i-bg-strong" stroke="var(--y2k-icon-primary,rgb(var(--usk-primary-rgb,55 160 255)))" stroke-width="6" d="M84 151V116C84 89 102 70 128 70C154 70 172 89 172 116V151L189 178H67Z"/>
+  <path class="y2k-i-line-3" d="M112 190C119 202 137 202 144 190"/>
+  <circle class="y2k-i-secondary" cx="176" cy="76" r="16"/>
 </symbol>
 <symbol id="y2k-icon-message" viewBox="0 0 256 256">
   <title>Message</title>
-  <rect data-icon-frame="decor" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
-    <ellipse data-icon-frame="decor" class="y2k-i-gloss" cx="96" cy="62" rx="50" ry="14" opacity=".72"/>
-    <path class="y2k-i-muted" d="M54 206H106M146 206H202" opacity=".55"/>
-    <path class="y2k-i-line-3" d="M54 52H78M188 52H204" opacity=".7"/>
-    <path class="y2k-i-bg-strong" stroke="var(--y2k-icon-primary,rgb(var(--usk-primary-rgb,55 160 255)))" stroke-width="6" d="M58 80H198V160H132L96 194V160H58Z"/><path class="y2k-i-muted" d="M84 108H172M84 132H148"/><circle class="y2k-i-secondary" cx="166" cy="132" r="7"/>
+  <rect data-icon-frame="surface" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
+    <path data-icon-frame="decor" data-icon-audit="decorative" class="y2k-i-shine" fill="none" d="M48 78C54 58 68 46 88 42H102" opacity=".58"/>
+    <path data-icon-frame="decor" class="y2k-i-muted" d="M52 206H104M152 206H204" opacity=".55"/>
+    <path data-icon-frame="decor" class="y2k-i-line-3" d="M52 52H76M180 52H204" opacity=".7"/>
+
+
+
+  <path class="y2k-i-bg-strong" stroke="var(--y2k-icon-primary,rgb(var(--usk-primary-rgb,55 160 255)))" stroke-width="6" d="M58 80H198V160H132L96 194V160H58Z"/>
+  <path class="y2k-i-muted" d="M84 108H172M84 132H148"/>
+  <circle class="y2k-i-secondary" cx="166" cy="132" r="7"/>
 </symbol>
-<symbol id="y2k-icon-mail" viewBox="-8 -8 272 272">
+<symbol id="y2k-icon-mail" viewBox="0 0 256 256">
   <title>Email</title>
-  <rect data-icon-frame="decor" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
-    <ellipse data-icon-frame="decor" class="y2k-i-gloss" cx="96" cy="62" rx="50" ry="14" opacity=".72"/>
-    <path class="y2k-i-muted" d="M54 206H106M146 206H202" opacity=".55"/>
-    <path class="y2k-i-line-3" d="M54 52H78M188 52H204" opacity=".7"/>
-    <rect class="y2k-i-bg-strong" x="56" y="86" width="144" height="96" rx="22"/><path class="y2k-i-line" d="M64 102L128 143L192 102"/><path class="y2k-i-line-2" d="M64 177L110 138M192 177L146 138"/>
+  <rect data-icon-frame="surface" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
+    <path data-icon-frame="decor" data-icon-audit="decorative" class="y2k-i-shine" fill="none" d="M48 78C54 58 68 46 88 42H102" opacity=".58"/>
+    <path data-icon-frame="decor" class="y2k-i-muted" d="M52 206H104M152 206H204" opacity=".55"/>
+    <path data-icon-frame="decor" class="y2k-i-line-3" d="M52 52H76M180 52H204" opacity=".7"/>
+
+
+
+  <rect class="y2k-i-bg-strong" x="56" y="86" width="144" height="96" rx="22"/>
+  <path class="y2k-i-line" d="M64 102L128 143L192 102"/>
+  <path class="y2k-i-line-2" d="M64 177L110 138M192 177L146 138"/>
 </symbol>
-<symbol id="y2k-icon-calendar" viewBox="-8 -8 272 272">
+<symbol id="y2k-icon-calendar" viewBox="0 0 256 256">
   <title>Calendar</title>
-  <rect data-icon-frame="decor" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
-    <ellipse data-icon-frame="decor" class="y2k-i-gloss" cx="96" cy="62" rx="50" ry="14" opacity=".72"/>
-    <path class="y2k-i-muted" d="M54 206H106M146 206H202" opacity=".55"/>
-    <path class="y2k-i-line-3" d="M54 52H78M188 52H204" opacity=".7"/>
-    <rect class="y2k-i-bg-strong" x="60" y="76" width="136" height="122" rx="24"/><path class="y2k-i-line" d="M90 60V94M166 60V94M64 112H192"/><path class="y2k-i-line-2" d="M90 140H106M124 140H140M158 140H174M90 166H106M124 166H140"/>
+  <rect data-icon-frame="surface" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
+    <path data-icon-frame="decor" data-icon-audit="decorative" class="y2k-i-shine" fill="none" d="M48 78C54 58 68 46 88 42H102" opacity=".58"/>
+    <path data-icon-frame="decor" class="y2k-i-muted" d="M52 206H104M152 206H204" opacity=".55"/>
+    <path data-icon-frame="decor" class="y2k-i-line-3" d="M52 52H76M180 52H204" opacity=".7"/>
+
+
+
+  <rect class="y2k-i-bg-strong" x="60" y="76" width="136" height="122" rx="24"/>
+  <path class="y2k-i-line" d="M90 60V94M166 60V94M64 112H192"/>
+  <path class="y2k-i-line-2" d="M90 140H106M124 140H140M158 140H174M90 166H106M124 166H140"/>
 </symbol>
 <symbol id="y2k-icon-upload" viewBox="0 0 256 256">
   <title>Upload</title>
-  <rect data-icon-frame="decor" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
-    <ellipse data-icon-frame="decor" class="y2k-i-gloss" cx="96" cy="62" rx="50" ry="14" opacity=".72"/>
-    <path class="y2k-i-muted" d="M54 206H106M146 206H202" opacity=".55"/>
-    <path class="y2k-i-line-3" d="M54 52H78M188 52H204" opacity=".7"/>
-    <path class="y2k-i-line" d="M128 68V158M92 104L128 68L164 104"/><path class="y2k-i-line-2" d="M72 152V194H184V152"/><path class="y2k-i-line-3" d="M98 194H158"/>
+  <rect data-icon-frame="surface" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
+    <path data-icon-frame="decor" data-icon-audit="decorative" class="y2k-i-shine" fill="none" d="M48 78C54 58 68 46 88 42H102" opacity=".58"/>
+    <path data-icon-frame="decor" class="y2k-i-muted" d="M52 206H104M152 206H204" opacity=".55"/>
+    <path data-icon-frame="decor" class="y2k-i-line-3" d="M52 52H76M180 52H204" opacity=".7"/>
+
+
+
+  <path class="y2k-i-line" d="M128 68V158M92 104L128 68L164 104"/>
+  <path class="y2k-i-line-2" d="M72 152V194H184V152"/>
+  <path class="y2k-i-line-3" d="M98 194H158"/>
 </symbol>
 <symbol id="y2k-icon-download" viewBox="0 0 256 256">
   <title>Download</title>
-  <rect data-icon-frame="decor" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
-    <ellipse data-icon-frame="decor" class="y2k-i-gloss" cx="96" cy="62" rx="50" ry="14" opacity=".72"/>
-    <path class="y2k-i-muted" d="M54 206H106M146 206H202" opacity=".55"/>
-    <path class="y2k-i-line-3" d="M54 52H78M188 52H204" opacity=".7"/>
-    <path class="y2k-i-line" d="M128 68V158M92 123L128 158L164 123"/><path class="y2k-i-line-2" d="M72 152V194H184V152"/><path class="y2k-i-line-3" d="M98 194H158"/>
+  <rect data-icon-frame="surface" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
+    <path data-icon-frame="decor" data-icon-audit="decorative" class="y2k-i-shine" fill="none" d="M48 78C54 58 68 46 88 42H102" opacity=".58"/>
+    <path data-icon-frame="decor" class="y2k-i-muted" d="M52 206H104M152 206H204" opacity=".55"/>
+    <path data-icon-frame="decor" class="y2k-i-line-3" d="M52 52H76M180 52H204" opacity=".7"/>
+
+
+
+  <path class="y2k-i-line" d="M128 68V158M92 123L128 158L164 123"/>
+  <path class="y2k-i-line-2" d="M72 152V194H184V152"/>
+  <path class="y2k-i-line-3" d="M98 194H158"/>
 </symbol>
 <symbol id="y2k-icon-folder" viewBox="0 0 256 256">
   <title>Folder</title>
-  <rect data-icon-frame="decor" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
-    <ellipse data-icon-frame="decor" class="y2k-i-gloss" cx="96" cy="62" rx="50" ry="14" opacity=".72"/>
-    <path class="y2k-i-muted" d="M54 206H106M146 206H202" opacity=".55"/>
-    <path class="y2k-i-line-3" d="M54 52H78M188 52H204" opacity=".7"/>
-    <path class="y2k-i-bg-strong" stroke="var(--y2k-icon-primary,rgb(var(--usk-primary-rgb,55 160 255)))" stroke-width="6" d="M54 89H110L126 110H202V187H54Z"/><path class="y2k-i-line-2" d="M57 116H199"/><ellipse class="y2k-i-gloss" cx="112" cy="96" rx="34" ry="8"/>
+  <rect data-icon-frame="surface" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
+    <path data-icon-frame="decor" data-icon-audit="decorative" class="y2k-i-shine" fill="none" d="M48 78C54 58 68 46 88 42H102" opacity=".58"/>
+    <path data-icon-frame="decor" class="y2k-i-muted" d="M52 206H104M152 206H204" opacity=".55"/>
+    <path data-icon-frame="decor" class="y2k-i-line-3" d="M52 52H76M180 52H204" opacity=".7"/>
+
+
+
+  <path class="y2k-i-bg-strong" stroke="var(--y2k-icon-primary,rgb(var(--usk-primary-rgb,55 160 255)))" stroke-width="6" d="M54 89H110L126 110H202V187H54Z"/>
+  <path class="y2k-i-line-2" d="M57 116H199"/>
+
+  <path data-icon-audit="decorative" class="y2k-i-line-3" d="M70 98H102L112 108" opacity=".72"/>
 </symbol>
 <symbol id="y2k-icon-file" viewBox="0 0 256 256">
   <title>File</title>
-  <rect data-icon-frame="decor" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
-    <ellipse data-icon-frame="decor" class="y2k-i-gloss" cx="96" cy="62" rx="50" ry="14" opacity=".72"/>
-    <path class="y2k-i-muted" d="M54 206H106M146 206H202" opacity=".55"/>
-    <path class="y2k-i-line-3" d="M54 52H78M188 52H204" opacity=".7"/>
-    <path class="y2k-i-bg-strong" stroke="var(--y2k-icon-primary,rgb(var(--usk-primary-rgb,55 160 255)))" stroke-width="6" d="M78 58H147L184 95V198H78Z"/><path class="y2k-i-line-2" d="M147 58V96H184"/><path class="y2k-i-muted" d="M101 126H155M101 153H160M101 179H137"/>
+  <rect data-icon-frame="surface" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
+    <path data-icon-frame="decor" data-icon-audit="decorative" class="y2k-i-shine" fill="none" d="M48 78C54 58 68 46 88 42H102" opacity=".58"/>
+    <path data-icon-frame="decor" class="y2k-i-muted" d="M52 206H104M152 206H204" opacity=".55"/>
+    <path data-icon-frame="decor" class="y2k-i-line-3" d="M52 52H76M180 52H204" opacity=".7"/>
+
+
+
+  <path class="y2k-i-bg-strong" stroke="var(--y2k-icon-primary,rgb(var(--usk-primary-rgb,55 160 255)))" stroke-width="6" d="M78 58H147L184 95V198H78Z"/>
+  <path class="y2k-i-line-2" d="M147 58V96H184"/>
+  <path class="y2k-i-muted" d="M101 126H155M101 153H160M101 179H137"/>
 </symbol>
 <symbol id="y2k-icon-image" viewBox="0 0 256 256">
   <title>Image</title>
-  <rect data-icon-frame="decor" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
-    <ellipse data-icon-frame="decor" class="y2k-i-gloss" cx="96" cy="62" rx="50" ry="14" opacity=".72"/>
-    <path class="y2k-i-muted" d="M54 206H106M146 206H202" opacity=".55"/>
-    <path class="y2k-i-line-3" d="M54 52H78M188 52H204" opacity=".7"/>
-    <rect class="y2k-i-bg-strong" x="58" y="74" width="140" height="116" rx="24"/><circle class="y2k-i-warning" cx="161" cy="105" r="14"/><path class="y2k-i-line" d="M72 176L107 136L132 162L151 142L187 176Z"/>
+  <rect data-icon-frame="surface" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
+    <path data-icon-frame="decor" data-icon-audit="decorative" class="y2k-i-shine" fill="none" d="M48 78C54 58 68 46 88 42H102" opacity=".58"/>
+    <path data-icon-frame="decor" class="y2k-i-muted" d="M52 206H104M152 206H204" opacity=".55"/>
+    <path data-icon-frame="decor" class="y2k-i-line-3" d="M52 52H76M180 52H204" opacity=".7"/>
+
+
+
+  <rect class="y2k-i-bg-strong" x="58" y="74" width="140" height="116" rx="24"/>
+  <circle class="y2k-i-warning" cx="161" cy="105" r="14"/>
+  <path class="y2k-i-line" d="M72 176L107 136L132 162L151 142L187 176Z"/>
 </symbol>
 <symbol id="y2k-icon-video" viewBox="0 0 256 256">
   <title>Video</title>
-  <rect data-icon-frame="decor" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
-    <ellipse data-icon-frame="decor" class="y2k-i-gloss" cx="96" cy="62" rx="50" ry="14" opacity=".72"/>
-    <path class="y2k-i-muted" d="M54 206H106M146 206H202" opacity=".55"/>
-    <path class="y2k-i-line-3" d="M54 52H78M188 52H204" opacity=".7"/>
-    <g data-icon-video="player">
-      <rect data-icon-video="screen" class="y2k-i-bg-strong" x="48" y="82" width="132" height="92" rx="22" stroke="var(--y2k-icon-primary,rgb(var(--usk-primary-rgb,55 160 255)))" stroke-width="7"/>
-      <path data-icon-video="camera" class="y2k-i-secondary" d="M180 108L212 90V166L180 148Z" stroke-width="7"/>
-      <path data-icon-video="controls" class="y2k-i-muted" d="M68 104H94M68 158H126M144 158H160" opacity=".62"/>
-      <circle data-icon-video="record" class="y2k-i-accent" cx="150" cy="104" r="6" stroke-width="4"/>
-      <path d="M96 104L144 128L96 152Z" data-icon-glyph="play"/>
+  <rect data-icon-frame="surface" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
+    <path data-icon-frame="decor" data-icon-audit="decorative" class="y2k-i-shine" fill="none" d="M48 78C54 58 68 46 88 42H102" opacity=".58"/>
+    <path data-icon-frame="decor" class="y2k-i-muted" d="M52 206H104M152 206H204" opacity=".55"/>
+    <path data-icon-frame="decor" class="y2k-i-line-3" d="M52 52H76M180 52H204" opacity=".7"/>
+    <g data-icon-glyph="semantic" data-icon-prototype="reference-led-v1" data-icon-video="player">
+      <rect data-icon-video="screen" data-icon-y2k="body" class="y2k-i-bg-strong" x="43" y="73" width="145" height="114" rx="34" stroke="var(--y2k-icon-primary,rgb(var(--usk-primary-rgb,55 160 255)))" stroke-width="7"/>
+      <path data-icon-video="camera" class="y2k-i-secondary" d="M188 105Q188 96 196 92L216 82V178L196 168Q188 164 188 155Z" stroke-width="6" stroke-linejoin="round"/>
+      <path data-icon-video="controls" class="y2k-i-line-3" d="M68 160H116M132 160H160" opacity=".9"/>
+      <circle data-icon-video="record" class="y2k-i-danger" cx="158" cy="98" r="7" stroke-width="3"/>
+      <path d="M91 101Q91 94 98 98L145 124Q152 128 145 132L98 158Q91 162 91 155Z" data-icon-glyph="play"/>
+      <path data-icon-audit="decorative" data-icon-y2k="shine" class="y2k-i-shine" d="M65 94Q72 84 88 84H134" opacity=".9"/>
     </g>
 </symbol>
 <symbol id="y2k-icon-camera" viewBox="0 0 256 256">
   <title>Camera</title>
-  <rect data-icon-frame="decor" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
-    <ellipse data-icon-frame="decor" class="y2k-i-gloss" cx="96" cy="62" rx="50" ry="14" opacity=".72"/>
-    <path class="y2k-i-muted" d="M54 206H106M146 206H202" opacity=".55"/>
-    <path class="y2k-i-line-3" d="M54 52H78M188 52H204" opacity=".7"/>
-    <path class="y2k-i-bg-strong" stroke="var(--y2k-icon-primary,rgb(var(--usk-primary-rgb,55 160 255)))" stroke-width="6" d="M58 100H96L108 82H148L160 100H198V184H58Z"/><circle class="y2k-i-line-2" cx="128" cy="142" r="32"/><circle class="y2k-i-accent" cx="128" cy="142" r="13"/><circle class="y2k-i-secondary" cx="176" cy="116" r="8"/>
+  <rect data-icon-frame="surface" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
+    <path data-icon-frame="decor" data-icon-audit="decorative" class="y2k-i-shine" fill="none" d="M48 78C54 58 68 46 88 42H102" opacity=".58"/>
+    <path data-icon-frame="decor" class="y2k-i-muted" d="M52 206H104M152 206H204" opacity=".55"/>
+    <path data-icon-frame="decor" class="y2k-i-line-3" d="M52 52H76M180 52H204" opacity=".7"/>
+
+
+
+  <path class="y2k-i-bg-strong" stroke="var(--y2k-icon-primary,rgb(var(--usk-primary-rgb,55 160 255)))" stroke-width="6" d="M58 95H96L108 77H148L160 95H198V179H58Z"/>
+  <circle class="y2k-i-line-2" cx="128" cy="137" r="32"/>
+  <circle class="y2k-i-accent" cx="128" cy="137" r="13"/>
+  <circle class="y2k-i-secondary" cx="176" cy="111" r="8"/>
 </symbol>
 <symbol id="y2k-icon-database" viewBox="0 0 256 256">
   <title>Database</title>
-  <rect data-icon-frame="decor" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
-    <ellipse data-icon-frame="decor" class="y2k-i-gloss" cx="96" cy="62" rx="50" ry="14" opacity=".72"/>
-    <path class="y2k-i-muted" d="M54 206H106M146 206H202" opacity=".55"/>
-    <path class="y2k-i-line-3" d="M54 52H78M188 52H204" opacity=".7"/>
-    <ellipse class="y2k-i-bg-strong" cx="128" cy="78" rx="58" ry="24"/><path class="y2k-i-line" d="M70 78V174C70 187 96 198 128 198C160 198 186 187 186 174V78"/><path class="y2k-i-line-2" d="M70 110C70 123 96 134 128 134C160 134 186 123 186 110M70 143C70 156 96 167 128 167C160 167 186 156 186 143"/><ellipse class="y2k-i-accent" cx="128" cy="78" rx="30" ry="10"/>
+  <rect data-icon-frame="surface" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
+    <path data-icon-frame="decor" data-icon-audit="decorative" class="y2k-i-shine" fill="none" d="M48 78C54 58 68 46 88 42H102" opacity=".58"/>
+    <path data-icon-frame="decor" class="y2k-i-muted" d="M52 206H104M152 206H204" opacity=".55"/>
+    <path data-icon-frame="decor" class="y2k-i-line-3" d="M52 52H76M180 52H204" opacity=".7"/>
+
+
+
+  <ellipse class="y2k-i-bg-strong" cx="128" cy="78" rx="58" ry="24"/>
+  <path class="y2k-i-line" d="M70 78V174C70 187 96 198 128 198C160 198 186 187 186 174V78"/>
+  <path class="y2k-i-line-2" d="M70 110C70 123 96 134 128 134C160 134 186 123 186 110M70 143C70 156 96 167 128 167C160 167 186 156 186 143"/>
+  <ellipse class="y2k-i-accent" cx="128" cy="78" rx="30" ry="10"/>
 </symbol>
-<symbol id="y2k-icon-server" viewBox="-8 -8 272 272">
+<symbol id="y2k-icon-server" viewBox="0 0 256 256">
   <title>Server</title>
-  <rect data-icon-frame="decor" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
-    <ellipse data-icon-frame="decor" class="y2k-i-gloss" cx="96" cy="62" rx="50" ry="14" opacity=".72"/>
-    <path class="y2k-i-muted" d="M54 206H106M146 206H202" opacity=".55"/>
-    <path class="y2k-i-line-3" d="M54 52H78M188 52H204" opacity=".7"/>
-    <rect class="y2k-i-bg-strong" x="62" y="70" width="132" height="48" rx="16"/><rect class="y2k-i-bg-strong" x="62" y="138" width="132" height="48" rx="16"/><path class="y2k-i-line" d="M62 94H194M62 162H194"/><circle class="y2k-i-accent" cx="91" cy="94" r="7"/><circle class="y2k-i-success" cx="91" cy="162" r="7"/><path class="y2k-i-muted" d="M115 94H171M115 162H171"/>
+  <rect data-icon-frame="surface" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
+    <path data-icon-frame="decor" data-icon-audit="decorative" class="y2k-i-shine" fill="none" d="M48 78C54 58 68 46 88 42H102" opacity=".58"/>
+    <path data-icon-frame="decor" class="y2k-i-muted" d="M52 206H104M152 206H204" opacity=".55"/>
+    <path data-icon-frame="decor" class="y2k-i-line-3" d="M52 52H76M180 52H204" opacity=".7"/>
+
+
+
+  <rect class="y2k-i-bg-strong" x="62" y="70" width="132" height="48" rx="16"/>
+  <rect class="y2k-i-bg-strong" x="62" y="138" width="132" height="48" rx="16"/>
+  <path class="y2k-i-line" d="M62 94H194M62 162H194"/>
+  <circle class="y2k-i-accent" cx="91" cy="94" r="7"/>
+  <circle class="y2k-i-success" cx="91" cy="162" r="7"/>
+  <path class="y2k-i-muted" d="M115 94H171M115 162H171"/>
 </symbol>
 <symbol id="y2k-icon-api" viewBox="0 0 256 256">
   <title>API</title>
-  <rect data-icon-frame="decor" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/><ellipse data-icon-frame="decor" class="y2k-i-gloss" cx="96" cy="62" rx="50" ry="14" opacity=".72"/><path class="y2k-i-muted" d="M54 206H106M146 206H202" opacity=".55"/><path class="y2k-i-line-3" d="M54 52H78M188 52H204" opacity=".7"/>
-    <path class="y2k-i-line" d="M78 96L48 128L78 160M178 96L208 128L178 160"/><path class="y2k-i-line-3" d="M144 78L112 178"/><path class="y2k-i-line-2" d="M101 128H155"/>
+  <rect data-icon-frame="surface" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/><path data-icon-frame="decor" data-icon-audit="decorative" class="y2k-i-shine" fill="none" d="M48 78C54 58 68 46 88 42H102" opacity=".58"/><path data-icon-frame="decor" class="y2k-i-muted" d="M52 206H104M152 206H204" opacity=".55"/><path data-icon-frame="decor" class="y2k-i-line-3" d="M52 52H76M180 52H204" opacity=".7"/>
+
+
+
+  <path class="y2k-i-line" d="M78 96L48 128L78 160M178 96L208 128L178 160"/>
+  <path class="y2k-i-line-3" d="M144 78L112 178"/>
+  <path class="y2k-i-line-2" d="M101 128H155"/>
 </symbol>
-<symbol id="y2k-icon-lock" viewBox="-8 -8 272 272">
+<symbol id="y2k-icon-lock" viewBox="0 0 256 256">
   <title>Lock</title>
-  <rect data-icon-frame="decor" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
-    <ellipse data-icon-frame="decor" class="y2k-i-gloss" cx="96" cy="62" rx="50" ry="14" opacity=".72"/>
-    <path class="y2k-i-muted" d="M54 206H106M146 206H202" opacity=".55"/>
-    <path class="y2k-i-line-3" d="M54 52H78M188 52H204" opacity=".7"/>
-    <rect class="y2k-i-bg-strong" x="70" y="112" width="116" height="84" rx="24"/><path class="y2k-i-line" d="M91 112V93C91 70 106 55 128 55C150 55 165 70 165 93V112"/><circle class="y2k-i-accent" cx="128" cy="150" r="10"/><path class="y2k-i-line-3" d="M128 160V176"/>
+  <rect data-icon-frame="surface" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
+    <path data-icon-frame="decor" data-icon-audit="decorative" class="y2k-i-shine" fill="none" d="M48 78C54 58 68 46 88 42H102" opacity=".58"/>
+    <path data-icon-frame="decor" class="y2k-i-muted" d="M52 206H104M152 206H204" opacity=".55"/>
+    <path data-icon-frame="decor" class="y2k-i-line-3" d="M52 52H76M180 52H204" opacity=".7"/>
+
+
+
+  <rect class="y2k-i-bg-strong" x="70" y="112" width="116" height="84" rx="24"/>
+  <path class="y2k-i-line" d="M91 112V93C91 70 106 55 128 55C150 55 165 70 165 93V112"/>
+  <circle class="y2k-i-accent" cx="128" cy="150" r="10"/>
+  <path class="y2k-i-line-3" d="M128 160V176"/>
 </symbol>
 <symbol id="y2k-icon-shield" viewBox="0 0 256 256">
   <title>Shield</title>
-  <rect data-icon-frame="decor" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/><ellipse data-icon-frame="decor" class="y2k-i-gloss" cx="96" cy="62" rx="50" ry="14" opacity=".72"/><path class="y2k-i-muted" d="M54 206H106M146 206H202" opacity=".55"/><path class="y2k-i-line-3" d="M54 52H78M188 52H204" opacity=".7"/>
-    <path class="y2k-i-primary" d="M128 55L190 82V126C190 169 164 198 128 215C92 198 66 169 66 126V82Z"/><path class="y2k-i-line-3" d="M97 132L120 155L160 106"/>
+  <rect data-icon-frame="surface" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/><path data-icon-frame="decor" data-icon-audit="decorative" class="y2k-i-shine" fill="none" d="M48 78C54 58 68 46 88 42H102" opacity=".58"/><path data-icon-frame="decor" class="y2k-i-muted" d="M52 206H104M152 206H204" opacity=".55"/><path data-icon-frame="decor" class="y2k-i-line-3" d="M52 52H76M180 52H204" opacity=".7"/>
+
+
+
+  <path class="y2k-i-primary" d="M128 55L190 82V126C190 169 164 198 128 215C92 198 66 169 66 126V82Z"/>
+  <path class="y2k-i-line-3" d="M97 132L120 155L160 106"/>
 </symbol>
 <symbol id="y2k-icon-key" viewBox="0 0 256 256">
   <title>Key</title>
-  <rect data-icon-frame="decor" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/><ellipse data-icon-frame="decor" class="y2k-i-gloss" cx="96" cy="62" rx="50" ry="14" opacity=".72"/><path class="y2k-i-muted" d="M54 206H106M146 206H202" opacity=".55"/><path class="y2k-i-line-3" d="M54 52H78M188 52H204" opacity=".7"/>
-    <circle class="y2k-i-primary" cx="94" cy="128" r="34"/><path class="y2k-i-line" d="M128 128H202M169 128V150M190 128V143"/><circle class="y2k-i-bg-strong" cx="94" cy="128" r="10"/>
+  <rect data-icon-frame="surface" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/><path data-icon-frame="decor" data-icon-audit="decorative" class="y2k-i-shine" fill="none" d="M48 78C54 58 68 46 88 42H102" opacity=".58"/><path data-icon-frame="decor" class="y2k-i-muted" d="M52 206H104M152 206H204" opacity=".55"/><path data-icon-frame="decor" class="y2k-i-line-3" d="M52 52H76M180 52H204" opacity=".7"/>
+
+
+
+  <circle class="y2k-i-primary" cx="94" cy="128" r="34"/>
+  <path class="y2k-i-line" d="M128 128H202M169 128V150M190 128V143"/>
+  <circle class="y2k-i-bg-strong" cx="94" cy="128" r="10"/>
 </symbol>
 <symbol id="y2k-icon-chart" viewBox="0 0 256 256">
   <title>Chart</title>
-  <rect data-icon-frame="decor" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
-    <ellipse data-icon-frame="decor" class="y2k-i-gloss" cx="96" cy="62" rx="50" ry="14" opacity=".72"/>
-    <path class="y2k-i-muted" d="M54 206H106M146 206H202" opacity=".55"/>
-    <path class="y2k-i-line-3" d="M54 52H78M188 52H204" opacity=".7"/>
-    <path class="y2k-i-line-3" d="M66 188H196"/><rect class="y2k-i-primary" x="78" y="132" width="23" height="56" rx="9"/><rect class="y2k-i-secondary" x="116" y="101" width="23" height="87" rx="9"/><rect class="y2k-i-accent" x="154" y="72" width="23" height="116" rx="9"/><path class="y2k-i-muted" d="M72 110L107 126L139 90L183 68"/>
+  <rect data-icon-frame="surface" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
+    <path data-icon-frame="decor" data-icon-audit="decorative" class="y2k-i-shine" fill="none" d="M48 78C54 58 68 46 88 42H102" opacity=".58"/>
+    <path data-icon-frame="decor" class="y2k-i-muted" d="M52 206H104M152 206H204" opacity=".55"/>
+    <path data-icon-frame="decor" class="y2k-i-line-3" d="M52 52H76M180 52H204" opacity=".7"/>
+
+
+
+  <path class="y2k-i-line-3" d="M66 188H196"/>
+  <rect class="y2k-i-primary" x="78" y="132" width="23" height="56" rx="9"/>
+  <rect class="y2k-i-secondary" x="116" y="101" width="23" height="87" rx="9"/>
+  <rect class="y2k-i-accent" x="154" y="72" width="23" height="116" rx="9"/>
+  <path class="y2k-i-muted" d="M72 110L107 126L139 90L183 68"/>
 </symbol>
 <symbol id="y2k-icon-activity" viewBox="0 0 256 256">
   <title>Activity</title>
-  <rect data-icon-frame="decor" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/><ellipse data-icon-frame="decor" class="y2k-i-gloss" cx="96" cy="62" rx="50" ry="14" opacity=".72"/><path class="y2k-i-muted" d="M54 206H106M146 206H202" opacity=".55"/><path class="y2k-i-line-3" d="M54 52H78M188 52H204" opacity=".7"/>
-    <path class="y2k-i-line" d="M50 137H84L99 94L128 181L148 118H171L184 94L206 137"/><path class="y2k-i-line-2" d="M58 170H198"/>
+  <rect data-icon-frame="surface" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/><path data-icon-frame="decor" data-icon-audit="decorative" class="y2k-i-shine" fill="none" d="M48 78C54 58 68 46 88 42H102" opacity=".58"/><path data-icon-frame="decor" class="y2k-i-muted" d="M52 206H104M152 206H204" opacity=".55"/><path data-icon-frame="decor" class="y2k-i-line-3" d="M52 52H76M180 52H204" opacity=".7"/>
+
+
+
+  <path class="y2k-i-line" d="M50 137H84L99 94L128 181L148 118H171L184 94L206 137"/>
+  <path class="y2k-i-line-2" d="M58 170H198"/>
 </symbol>
-<symbol id="y2k-icon-credit-card" viewBox="-8 -8 272 272">
+<symbol id="y2k-icon-credit-card" viewBox="0 0 256 256">
   <title>Credit Card</title>
-  <rect data-icon-frame="decor" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/><ellipse data-icon-frame="decor" class="y2k-i-gloss" cx="96" cy="62" rx="50" ry="14" opacity=".72"/><path class="y2k-i-muted" d="M54 206H106M146 206H202" opacity=".55"/><path class="y2k-i-line-3" d="M54 52H78M188 52H204" opacity=".7"/>
-    <rect class="y2k-i-primary" x="54" y="84" width="148" height="96" rx="18"/><path class="y2k-i-line-2" d="M58 112H198"/><path class="y2k-i-muted" d="M80 148H126M80 166H108"/><circle class="y2k-i-accent" cx="166" cy="157" r="12"/><circle class="y2k-i-secondary" cx="181" cy="157" r="12"/>
+  <rect data-icon-frame="surface" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/><path data-icon-frame="decor" data-icon-audit="decorative" class="y2k-i-shine" fill="none" d="M48 78C54 58 68 46 88 42H102" opacity=".58"/><path data-icon-frame="decor" class="y2k-i-muted" d="M52 206H104M152 206H204" opacity=".55"/><path data-icon-frame="decor" class="y2k-i-line-3" d="M52 52H76M180 52H204" opacity=".7"/>
+
+
+
+  <rect class="y2k-i-primary" x="54" y="84" width="148" height="96" rx="18"/>
+  <path class="y2k-i-line-2" d="M58 112H198"/>
+  <path class="y2k-i-muted" d="M80 148H126M80 166H108"/>
+  <circle class="y2k-i-accent" cx="166" cy="157" r="12"/>
+  <circle class="y2k-i-secondary" cx="181" cy="157" r="12"/>
 </symbol>
 <symbol id="y2k-icon-wallet" viewBox="0 0 256 256">
   <title>Wallet</title>
-  <rect data-icon-frame="decor" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
-    <ellipse data-icon-frame="decor" class="y2k-i-gloss" cx="96" cy="62" rx="50" ry="14" opacity=".72"/>
-    <path class="y2k-i-muted" d="M54 206H106M146 206H202" opacity=".55"/>
-    <path class="y2k-i-line-3" d="M54 52H78M188 52H204" opacity=".7"/>
-    <path class="y2k-i-bg-strong" stroke="var(--y2k-icon-primary,rgb(var(--usk-primary-rgb,55 160 255)))" stroke-width="6" d="M62 88H176C190 88 198 96 198 110V178C198 190 190 198 176 198H62Z"/><path class="y2k-i-line-2" d="M62 110H190M142 128H206V168H142Z"/><circle class="y2k-i-accent" cx="174" cy="148" r="8"/>
+  <rect data-icon-frame="surface" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
+    <path data-icon-frame="decor" data-icon-audit="decorative" class="y2k-i-shine" fill="none" d="M48 78C54 58 68 46 88 42H102" opacity=".58"/>
+    <path data-icon-frame="decor" class="y2k-i-muted" d="M52 206H104M152 206H204" opacity=".55"/>
+    <path data-icon-frame="decor" class="y2k-i-line-3" d="M52 52H76M180 52H204" opacity=".7"/>
+
+
+
+  <path class="y2k-i-bg-strong" stroke="var(--y2k-icon-primary,rgb(var(--usk-primary-rgb,55 160 255)))" stroke-width="6" d="M62 88H176C190 88 198 96 198 110V178C198 190 190 198 176 198H62Z"/>
+  <path class="y2k-i-line-2" d="M62 110H190M142 128H206V168H142Z"/>
+  <circle class="y2k-i-accent" cx="174" cy="148" r="8"/>
 </symbol>
 <symbol id="y2k-icon-cart" viewBox="0 0 256 256">
   <title>Cart</title>
-  <rect data-icon-frame="decor" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
-    <ellipse data-icon-frame="decor" class="y2k-i-gloss" cx="96" cy="62" rx="50" ry="14" opacity=".72"/>
-    <path class="y2k-i-muted" d="M54 206H106M146 206H202" opacity=".55"/>
-    <path class="y2k-i-line-3" d="M54 52H78M188 52H204" opacity=".7"/>
-    <path class="y2k-i-line" d="M58 76H80L97 158H174L194 102H93"/><circle class="y2k-i-accent" cx="105" cy="187" r="13"/><circle class="y2k-i-secondary" cx="165" cy="187" r="13"/><path class="y2k-i-muted" d="M108 127H175"/>
+  <rect data-icon-frame="surface" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
+    <path data-icon-frame="decor" data-icon-audit="decorative" class="y2k-i-shine" fill="none" d="M48 78C54 58 68 46 88 42H102" opacity=".58"/>
+    <path data-icon-frame="decor" class="y2k-i-muted" d="M52 206H104M152 206H204" opacity=".55"/>
+    <path data-icon-frame="decor" class="y2k-i-line-3" d="M52 52H76M180 52H204" opacity=".7"/>
+
+
+
+  <path class="y2k-i-line" d="M58 76H80L97 158H174L194 102H93"/>
+  <circle class="y2k-i-accent" cx="105" cy="187" r="13"/>
+  <circle class="y2k-i-secondary" cx="165" cy="187" r="13"/>
+  <path class="y2k-i-muted" d="M108 127H175"/>
 </symbol>
 <symbol id="y2k-icon-invoice" viewBox="0 0 256 256">
   <title>Invoice</title>
-  <rect data-icon-frame="decor" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/><ellipse data-icon-frame="decor" class="y2k-i-gloss" cx="96" cy="62" rx="50" ry="14" opacity=".72"/><path class="y2k-i-muted" d="M54 206H106M146 206H202" opacity=".55"/><path class="y2k-i-line-3" d="M54 52H78M188 52H204" opacity=".7"/>
-    <path class="y2k-i-primary" d="M78 58H178V198L158 188L138 198L118 188L98 198L78 188Z"/><path class="y2k-i-muted" d="M100 91H156M100 119H162M100 147H136"/><rect class="y2k-i-accent" x="98" y="161" width="68" height="20" rx="8"/>
+  <rect data-icon-frame="surface" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/><path data-icon-frame="decor" data-icon-audit="decorative" class="y2k-i-shine" fill="none" d="M48 78C54 58 68 46 88 42H102" opacity=".58"/><path data-icon-frame="decor" class="y2k-i-muted" d="M52 206H104M152 206H204" opacity=".55"/><path data-icon-frame="decor" class="y2k-i-line-3" d="M52 52H76M180 52H204" opacity=".7"/>
+
+
+
+  <path class="y2k-i-primary" d="M78 58H178V198L158 188L138 198L118 188L98 198L78 188Z"/>
+  <path class="y2k-i-muted" d="M100 91H156M100 119H162M100 147H136"/>
+  <rect class="y2k-i-accent" x="98" y="161" width="68" height="20" rx="8"/>
 </symbol>
 <symbol id="y2k-icon-tax" viewBox="0 0 256 256">
   <title>Tax</title>
-  <rect data-icon-frame="decor" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/><ellipse data-icon-frame="decor" class="y2k-i-gloss" cx="96" cy="62" rx="50" ry="14" opacity=".72"/><path class="y2k-i-muted" d="M54 206H106M146 206H202" opacity=".55"/><path class="y2k-i-line-3" d="M54 52H78M188 52H204" opacity=".7"/>
-    <rect class="y2k-i-primary" x="65" y="75" width="126" height="108" rx="16"/><path class="y2k-i-muted" d="M91 106H165M91 136H138M91 164H116"/><path class="y2k-i-line-3" d="M148 136L170 158M170 136L148 158"/>
+  <rect data-icon-frame="surface" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/><path data-icon-frame="decor" data-icon-audit="decorative" class="y2k-i-shine" fill="none" d="M48 78C54 58 68 46 88 42H102" opacity=".58"/><path data-icon-frame="decor" class="y2k-i-muted" d="M52 206H104M152 206H204" opacity=".55"/><path data-icon-frame="decor" class="y2k-i-line-3" d="M52 52H76M180 52H204" opacity=".7"/>
+
+
+
+  <rect class="y2k-i-primary" x="65" y="75" width="126" height="108" rx="16"/>
+  <path class="y2k-i-muted" d="M91 106H165M91 136H138M91 164H116"/>
+  <path class="y2k-i-line-3" d="M148 136L170 158M170 136L148 158"/>
 </symbol>
 <symbol id="y2k-icon-login" viewBox="0 0 256 256">
   <title>Login</title>
-  <rect data-icon-frame="decor" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/><ellipse data-icon-frame="decor" class="y2k-i-gloss" cx="96" cy="62" rx="50" ry="14" opacity=".72"/><path class="y2k-i-muted" d="M54 206H106M146 206H202" opacity=".55"/><path class="y2k-i-line-3" d="M54 52H78M188 52H204" opacity=".7"/>
-    <path class="y2k-i-line-2" d="M60 78H133V106M133 150V178H60"/><path class="y2k-i-line" d="M96 128H193M157 94L193 128L157 162"/>
+  <rect data-icon-frame="surface" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/><path data-icon-frame="decor" data-icon-audit="decorative" class="y2k-i-shine" fill="none" d="M48 78C54 58 68 46 88 42H102" opacity=".58"/><path data-icon-frame="decor" class="y2k-i-muted" d="M52 206H104M152 206H204" opacity=".55"/><path data-icon-frame="decor" class="y2k-i-line-3" d="M52 52H76M180 52H204" opacity=".7"/>
+
+
+
+  <path class="y2k-i-line-2" d="M60 78H133V106M133 150V178H60"/>
+  <path class="y2k-i-line" d="M96 128H193M157 94L193 128L157 162"/>
 </symbol>
 <symbol id="y2k-icon-logout" viewBox="0 0 256 256">
   <title>Logout</title>
-  <rect data-icon-frame="decor" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/><ellipse data-icon-frame="decor" class="y2k-i-gloss" cx="96" cy="62" rx="50" ry="14" opacity=".72"/><path class="y2k-i-muted" d="M54 206H106M146 206H202" opacity=".55"/><path class="y2k-i-line-3" d="M54 52H78M188 52H204" opacity=".7"/>
-    <path class="y2k-i-line-2" d="M196 78H123V106M123 150V178H196"/><path class="y2k-i-line" d="M160 128H63M99 94L63 128L99 162"/>
+  <rect data-icon-frame="surface" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/><path data-icon-frame="decor" data-icon-audit="decorative" class="y2k-i-shine" fill="none" d="M48 78C54 58 68 46 88 42H102" opacity=".58"/><path data-icon-frame="decor" class="y2k-i-muted" d="M52 206H104M152 206H204" opacity=".55"/><path data-icon-frame="decor" class="y2k-i-line-3" d="M52 52H76M180 52H204" opacity=".7"/>
+
+
+
+  <path class="y2k-i-line-2" d="M196 78H123V106M123 150V178H196"/>
+  <path class="y2k-i-line" d="M160 128H63M99 94L63 128L99 162"/>
 </symbol>
 <symbol id="y2k-icon-edit" viewBox="0 0 256 256">
   <title>Edit</title>
-  <rect data-icon-frame="decor" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
-    <ellipse data-icon-frame="decor" class="y2k-i-gloss" cx="96" cy="62" rx="50" ry="14" opacity=".72"/>
-    <path class="y2k-i-muted" d="M54 206H106M146 206H202" opacity=".55"/>
-    <path class="y2k-i-line-3" d="M54 52H78M188 52H204" opacity=".7"/>
-    <path class="y2k-i-bg-strong" stroke="var(--y2k-icon-primary,rgb(var(--usk-primary-rgb,55 160 255)))" stroke-width="6" d="M72 171L67 195L91 190L176 105L157 86Z"/><path class="y2k-i-line-2" d="M145 98L164 117M82 181L75 188"/><path class="y2k-i-accent" stroke="var(--y2k-icon-secondary,rgb(var(--usk-secondary-rgb,255 96 190)))" stroke-width="5" d="M161 82L176 67L195 86L180 101Z"/>
+  <rect data-icon-frame="surface" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
+    <path data-icon-frame="decor" data-icon-audit="decorative" class="y2k-i-shine" fill="none" d="M48 78C54 58 68 46 88 42H102" opacity=".58"/>
+    <path data-icon-frame="decor" class="y2k-i-muted" d="M52 206H104M152 206H204" opacity=".55"/>
+    <path data-icon-frame="decor" class="y2k-i-line-3" d="M52 52H76M180 52H204" opacity=".7"/>
+
+
+
+  <path class="y2k-i-bg-strong" stroke="var(--y2k-icon-primary,rgb(var(--usk-primary-rgb,55 160 255)))" stroke-width="6" d="M72 171L67 195L91 190L176 105L157 86Z"/>
+  <path class="y2k-i-line-2" d="M145 98L164 117M82 181L75 188"/>
+  <path class="y2k-i-accent" stroke="var(--y2k-icon-secondary,rgb(var(--usk-secondary-rgb,255 96 190)))" stroke-width="5" d="M161 82L176 67L195 86L180 101Z"/>
 </symbol>
 <symbol id="y2k-icon-trash" viewBox="0 0 256 256">
   <title>Trash</title>
-  <rect data-icon-frame="decor" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
-    <ellipse data-icon-frame="decor" class="y2k-i-gloss" cx="96" cy="62" rx="50" ry="14" opacity=".72"/>
-    <path class="y2k-i-muted" d="M54 206H106M146 206H202" opacity=".55"/>
-    <path class="y2k-i-line-3" d="M54 52H78M188 52H204" opacity=".7"/>
-    <path class="y2k-i-line" d="M83 95H173M108 95V73H148V95M94 111L101 194H155L162 111"/><path class="y2k-i-line-2" d="M116 130V173M140 130V173"/><path class="y2k-i-line-3" d="M103 194H153"/>
+  <rect data-icon-frame="surface" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
+    <path data-icon-frame="decor" data-icon-audit="decorative" class="y2k-i-shine" fill="none" d="M48 78C54 58 68 46 88 42H102" opacity=".58"/>
+    <path data-icon-frame="decor" class="y2k-i-muted" d="M52 206H104M152 206H204" opacity=".55"/>
+    <path data-icon-frame="decor" class="y2k-i-line-3" d="M52 52H76M180 52H204" opacity=".7"/>
+
+
+
+  <path class="y2k-i-line" d="M83 95H173M108 95V73H148V95M94 111L101 194H155L162 111"/>
+  <path class="y2k-i-line-2" d="M116 130V173M140 130V173"/>
+  <path class="y2k-i-line-3" d="M103 194H153"/>
 </symbol>
 <symbol id="y2k-icon-plus" viewBox="0 0 256 256">
   <title>Plus</title>
-  <rect data-icon-frame="decor" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
-    <ellipse data-icon-frame="decor" class="y2k-i-gloss" cx="96" cy="62" rx="50" ry="14" opacity=".72"/>
-    <path class="y2k-i-muted" d="M54 206H106M146 206H202" opacity=".55"/>
-    <path class="y2k-i-line-3" d="M54 52H78M188 52H204" opacity=".7"/>
-    <circle class="y2k-i-bg-strong" cx="128" cy="128" r="66"/><circle class="y2k-i-line" cx="128" cy="128" r="66"/><path class="y2k-i-line-2" d="M128 88V168M88 128H168"/><path class="y2k-i-line-3" d="M128 96V160M96 128H160"/>
+  <rect data-icon-frame="surface" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
+    <path data-icon-frame="decor" data-icon-audit="decorative" class="y2k-i-shine" fill="none" d="M48 78C54 58 68 46 88 42H102" opacity=".58"/>
+    <path data-icon-frame="decor" class="y2k-i-muted" d="M52 206H104M152 206H204" opacity=".55"/>
+    <path data-icon-frame="decor" class="y2k-i-line-3" d="M52 52H76M180 52H204" opacity=".7"/>
+
+
+
+  <circle class="y2k-i-bg-strong" cx="128" cy="128" r="66"/>
+  <circle class="y2k-i-line" cx="128" cy="128" r="66"/>
+  <path class="y2k-i-line-2" d="M128 88V168M88 128H168"/>
+  <path class="y2k-i-line-3" d="M128 96V160M96 128H160"/>
 </symbol>
 <symbol id="y2k-icon-minus" viewBox="0 0 256 256">
   <title>Minus</title>
-  <rect data-icon-frame="decor" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
-    <ellipse data-icon-frame="decor" class="y2k-i-gloss" cx="96" cy="62" rx="50" ry="14" opacity=".72"/>
-    <path class="y2k-i-muted" d="M54 206H106M146 206H202" opacity=".55"/>
-    <path class="y2k-i-line-3" d="M54 52H78M188 52H204" opacity=".7"/>
-    <circle class="y2k-i-bg-strong" cx="128" cy="128" r="66"/><circle class="y2k-i-line" cx="128" cy="128" r="66"/><path class="y2k-i-line-2" d="M88 128H168"/><path class="y2k-i-line-3" d="M96 128H160"/>
+  <rect data-icon-frame="surface" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
+    <path data-icon-frame="decor" data-icon-audit="decorative" class="y2k-i-shine" fill="none" d="M48 78C54 58 68 46 88 42H102" opacity=".58"/>
+    <path data-icon-frame="decor" class="y2k-i-muted" d="M52 206H104M152 206H204" opacity=".55"/>
+    <path data-icon-frame="decor" class="y2k-i-line-3" d="M52 52H76M180 52H204" opacity=".7"/>
+
+
+
+  <circle class="y2k-i-bg-strong" cx="128" cy="128" r="66"/>
+  <circle class="y2k-i-line" cx="128" cy="128" r="66"/>
+  <path class="y2k-i-line-2" d="M88 128H168"/>
+  <path class="y2k-i-line-3" d="M96 128H160"/>
 </symbol>
 <symbol id="y2k-icon-filter" viewBox="0 0 256 256">
   <title>Filter</title>
-  <rect data-icon-frame="decor" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/><ellipse data-icon-frame="decor" class="y2k-i-gloss" cx="96" cy="62" rx="50" ry="14" opacity=".72"/><path class="y2k-i-muted" d="M54 206H106M146 206H202" opacity=".55"/><path class="y2k-i-line-3" d="M54 52H78M188 52H204" opacity=".7"/>
-    <path class="y2k-i-primary" d="M60 74H196L145 134V187L111 202V134Z"/><path class="y2k-i-line-2" d="M84 96H172M103 124H153"/>
+  <rect data-icon-frame="surface" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/><path data-icon-frame="decor" data-icon-audit="decorative" class="y2k-i-shine" fill="none" d="M48 78C54 58 68 46 88 42H102" opacity=".58"/><path data-icon-frame="decor" class="y2k-i-muted" d="M52 206H104M152 206H204" opacity=".55"/><path data-icon-frame="decor" class="y2k-i-line-3" d="M52 52H76M180 52H204" opacity=".7"/>
+
+
+
+  <path class="y2k-i-primary" d="M60 74H196L145 134V187L111 202V134Z"/>
+  <path class="y2k-i-line-2" d="M84 96H172M103 124H153"/>
 </symbol>
 <symbol id="y2k-icon-menu" viewBox="0 0 256 256">
   <title>Menu</title>
-  <rect data-icon-frame="decor" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
-    <ellipse data-icon-frame="decor" class="y2k-i-gloss" cx="96" cy="62" rx="50" ry="14" opacity=".72"/>
-    <path class="y2k-i-muted" d="M54 206H106M146 206H202" opacity=".55"/>
-    <path class="y2k-i-line-3" d="M54 52H78M188 52H204" opacity=".7"/>
-    <path class="y2k-i-line" d="M70 87H186M70 128H186M70 169H186"/><path class="y2k-i-line-2" d="M72 99H116M140 140H186M72 181H128"/><circle class="y2k-i-accent" cx="84" cy="87" r="6"/>
+  <rect data-icon-frame="surface" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
+    <path data-icon-frame="decor" data-icon-audit="decorative" class="y2k-i-shine" fill="none" d="M48 78C54 58 68 46 88 42H102" opacity=".58"/>
+    <path data-icon-frame="decor" class="y2k-i-muted" d="M52 206H104M152 206H204" opacity=".55"/>
+    <path data-icon-frame="decor" class="y2k-i-line-3" d="M52 52H76M180 52H204" opacity=".7"/>
+
+
+
+  <path class="y2k-i-line" d="M70 87H186M70 128H186M70 169H186"/>
+  <path class="y2k-i-line-2" d="M72 99H116M140 140H186M72 181H128"/>
+  <circle class="y2k-i-accent" cx="84" cy="87" r="6"/>
 </symbol>
 <symbol id="y2k-icon-code" viewBox="0 0 256 256">
   <title>Code</title>
-  <rect data-icon-frame="decor" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
-    <ellipse data-icon-frame="decor" class="y2k-i-gloss" cx="96" cy="62" rx="50" ry="14" opacity=".72"/>
-    <path class="y2k-i-muted" d="M54 206H106M146 206H202" opacity=".55"/>
-    <path class="y2k-i-line-3" d="M54 52H78M188 52H204" opacity=".7"/>
-    <path class="y2k-i-line" d="M82 93L48 128L82 163M174 93L208 128L174 163"/><path class="y2k-i-line-3" d="M144 73L112 183"/><path class="y2k-i-line-2" d="M95 192H161"/>
+  <rect data-icon-frame="surface" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
+    <path data-icon-frame="decor" data-icon-audit="decorative" class="y2k-i-shine" fill="none" d="M48 78C54 58 68 46 88 42H102" opacity=".58"/>
+    <path data-icon-frame="decor" class="y2k-i-muted" d="M52 206H104M152 206H204" opacity=".55"/>
+    <path data-icon-frame="decor" class="y2k-i-line-3" d="M52 52H76M180 52H204" opacity=".7"/>
+
+
+
+  <path class="y2k-i-line" d="M82 93L48 128L82 163M174 93L208 128L174 163"/>
+  <path class="y2k-i-line-3" d="M144 73L112 183"/>
+  <path class="y2k-i-line-2" d="M95 192H161"/>
 </symbol>
 <symbol id="y2k-icon-terminal" viewBox="0 0 256 256">
   <title>Terminal</title>
-  <rect data-icon-frame="decor" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
-    <ellipse data-icon-frame="decor" class="y2k-i-gloss" cx="96" cy="62" rx="50" ry="14" opacity=".72"/>
-    <path class="y2k-i-muted" d="M54 206H106M146 206H202" opacity=".55"/>
-    <path class="y2k-i-line-3" d="M54 52H78M188 52H204" opacity=".7"/>
-    <rect class="y2k-i-bg-strong" x="55" y="72" width="146" height="116" rx="20"/><path class="y2k-i-line" d="M55 100H201"/><path class="y2k-i-line-3" d="M82 126L103 143L82 160M117 160H164"/><circle class="y2k-i-secondary" cx="76" cy="86" r="5"/><circle class="y2k-i-warning" cx="94" cy="86" r="5"/><circle class="y2k-i-success" cx="112" cy="86" r="5"/>
+  <rect data-icon-frame="surface" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
+    <path data-icon-frame="decor" data-icon-audit="decorative" class="y2k-i-shine" fill="none" d="M48 78C54 58 68 46 88 42H102" opacity=".58"/>
+    <path data-icon-frame="decor" class="y2k-i-muted" d="M52 206H104M152 206H204" opacity=".55"/>
+    <path data-icon-frame="decor" class="y2k-i-line-3" d="M52 52H76M180 52H204" opacity=".7"/>
+
+
+
+  <rect class="y2k-i-bg-strong" x="55" y="72" width="146" height="116" rx="20"/>
+  <path class="y2k-i-line" d="M55 100H201"/>
+  <path class="y2k-i-line-3" d="M82 126L103 143L82 160M117 160H164"/>
+  <circle class="y2k-i-secondary" cx="76" cy="86" r="5"/>
+  <circle class="y2k-i-warning" cx="94" cy="86" r="5"/>
+  <circle class="y2k-i-success" cx="112" cy="86" r="5"/>
 </symbol>
 <symbol id="y2k-icon-rocket" viewBox="0 0 256 256">
   <title>Rocket</title>
-  <rect data-icon-frame="decor" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
-    <ellipse data-icon-frame="decor" class="y2k-i-gloss" cx="96" cy="62" rx="50" ry="14" opacity=".72"/>
-    <path class="y2k-i-muted" d="M54 206H106M146 206H202" opacity=".55"/>
-    <path class="y2k-i-line-3" d="M54 52H78M188 52H204" opacity=".7"/>
-    <path class="y2k-i-bg-strong" stroke="var(--y2k-icon-primary,rgb(var(--usk-primary-rgb,55 160 255)))" stroke-width="6" d="M135 55C169 65 189 87 199 121L161 158L99 96Z"/><circle class="y2k-i-line-3" cx="160" cy="94" r="15"/><path class="y2k-i-secondary" stroke="var(--y2k-icon-accent,rgb(var(--usk-accent-rgb,149 255 241)))" stroke-width="5" d="M96 99L70 109L91 130M158 160L147 186L126 165"/><path class="y2k-i-line-2" d="M96 160L67 189M113 176L97 207"/>
+  <rect data-icon-frame="surface" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
+    <path data-icon-frame="decor" data-icon-audit="decorative" class="y2k-i-shine" fill="none" d="M48 78C54 58 68 46 88 42H102" opacity=".58"/>
+    <path data-icon-frame="decor" class="y2k-i-muted" d="M52 206H104M152 206H204" opacity=".55"/>
+    <path data-icon-frame="decor" class="y2k-i-line-3" d="M52 52H76M180 52H204" opacity=".7"/>
+
+
+
+  <path class="y2k-i-bg-strong" stroke="var(--y2k-icon-primary,rgb(var(--usk-primary-rgb,55 160 255)))" stroke-width="6" d="M135 55C169 65 189 87 199 121L161 158L99 96Z"/>
+  <circle class="y2k-i-line-3" cx="160" cy="94" r="15"/>
+  <path fill="none" class="y2k-i-secondary" stroke="var(--y2k-icon-accent,rgb(var(--usk-accent-rgb,149 255 241)))" stroke-width="5" d="M96 99L70 109L91 130M158 160L147 186L126 165"/>
+  <path class="y2k-i-line-2" d="M96 160L67 189M113 176L97 207"/>
 </symbol>
-<symbol id="y2k-icon-bug" viewBox="-8 -8 272 272">
+<symbol id="y2k-icon-bug" viewBox="0 0 256 256">
   <title>Bug</title>
-  <rect data-icon-frame="decor" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/><ellipse data-icon-frame="decor" class="y2k-i-gloss" cx="96" cy="62" rx="50" ry="14" opacity=".72"/><path class="y2k-i-muted" d="M54 206H106M146 206H202" opacity=".55"/><path class="y2k-i-line-3" d="M54 52H78M188 52H204" opacity=".7"/>
-    <ellipse class="y2k-i-primary" cx="128" cy="137" rx="45" ry="55"/><circle class="y2k-i-secondary" cx="128" cy="80" r="24"/><path class="y2k-i-muted" d="M128 106V190M82 118L58 96M174 118L198 96M78 147H50M178 147H206M88 177L61 194M168 177L195 194"/>
+  <rect data-icon-frame="surface" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
+    <path data-icon-frame="decor" data-icon-audit="decorative" class="y2k-i-shine" fill="none" d="M48 78C54 58 68 46 88 42H102" opacity=".58"/>
+    <path data-icon-frame="decor" class="y2k-i-muted" d="M52 206H104M152 206H204" opacity=".55"/>
+    <path data-icon-frame="decor" class="y2k-i-line-3" d="M52 52H76M180 52H204" opacity=".7"/>
+    <g data-icon-glyph="semantic">
+      <path data-icon-part="bug-legs" class="y2k-i-line-2" d="M92 112L63 96M88 136H55M92 160L63 178M164 112L193 96M168 136H201M164 160L193 178M108 80L90 57M148 80L166 57"/>
+      <path data-icon-part="bug-body" class="y2k-i-line" d="M90 128C90 98 106 82 128 82C150 82 166 98 166 128V151C166 182 150 202 128 202C106 202 90 182 90 151Z"/>
+      <path data-icon-part="bug-head" class="y2k-i-line-3" d="M102 96C108 82 116 76 128 76C140 76 148 82 154 96"/>
+      <path data-icon-part="bug-body" class="y2k-i-line-2" d="M128 84V200M92 137H164"/>
+    </g>
 </symbol>
 <symbol id="y2k-icon-help" viewBox="0 0 256 256">
   <title>Help</title>
-  <rect data-icon-frame="decor" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
-    <ellipse data-icon-frame="decor" class="y2k-i-gloss" cx="96" cy="62" rx="50" ry="14" opacity=".72"/>
-    <path class="y2k-i-muted" d="M54 206H106M146 206H202" opacity=".55"/>
-    <path class="y2k-i-line-3" d="M54 52H78M188 52H204" opacity=".7"/>
-    <circle class="y2k-i-bg-strong" cx="128" cy="128" r="66"/><circle class="y2k-i-line" cx="128" cy="128" r="66"/><path class="y2k-i-line-2" d="M105 106C107 86 122 76 140 82C158 88 163 108 151 122C142 132 129 134 128 151"/><circle class="y2k-i-accent" cx="128" cy="178" r="9"/>
+  <rect data-icon-frame="surface" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
+    <path data-icon-frame="decor" data-icon-audit="decorative" class="y2k-i-shine" fill="none" d="M48 78C54 58 68 46 88 42H102" opacity=".58"/>
+    <path data-icon-frame="decor" class="y2k-i-muted" d="M52 206H104M152 206H204" opacity=".55"/>
+    <path data-icon-frame="decor" class="y2k-i-line-3" d="M52 52H76M180 52H204" opacity=".7"/>
+
+
+
+  <circle class="y2k-i-bg-strong" cx="128" cy="128" r="66"/>
+  <circle class="y2k-i-line" cx="128" cy="128" r="66"/>
+  <path class="y2k-i-line-2" d="M105 106C107 86 122 76 140 82C158 88 163 108 151 122C142 132 129 134 128 151"/>
+  <circle class="y2k-i-accent" cx="128" cy="178" r="9"/>
 </symbol>
-<symbol id="y2k-icon-link" viewBox="-8 -8 272 272">
+<symbol id="y2k-icon-link" viewBox="0 0 256 256">
   <title>Link</title>
-  <rect data-icon-frame="decor" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
-    <ellipse data-icon-frame="decor" class="y2k-i-gloss" cx="96" cy="62" rx="50" ry="14" opacity=".72"/>
-    <path class="y2k-i-muted" d="M54 206H106M146 206H202" opacity=".55"/>
-    <path class="y2k-i-line-3" d="M54 52H78M188 52H204" opacity=".7"/>
-    <path class="y2k-i-line" d="M106 91L121 76C140 57 172 57 191 76C210 95 210 127 191 146L171 166"/><path class="y2k-i-line-2" d="M150 165L135 180C116 199 84 199 65 180C46 161 46 129 65 110L85 90"/><path class="y2k-i-line-3" d="M104 152L152 104"/>
+  <rect data-icon-frame="surface" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
+    <path data-icon-frame="decor" data-icon-audit="decorative" class="y2k-i-shine" fill="none" d="M48 78C54 58 68 46 88 42H102" opacity=".58"/>
+    <path data-icon-frame="decor" class="y2k-i-muted" d="M52 206H104M152 206H204" opacity=".55"/>
+    <path data-icon-frame="decor" class="y2k-i-line-3" d="M52 52H76M180 52H204" opacity=".7"/>
+    <g data-icon-glyph="semantic" data-icon-prototype="reference-led-v1" transform="rotate(-34 128 128)">
+      <rect data-icon-part="link-loop-a" data-icon-y2k="body" class="y2k-i-bg-strong" x="43" y="86" width="116" height="68" rx="34" stroke="var(--y2k-icon-primary,rgb(var(--usk-primary-rgb,55 160 255)))" stroke-width="8"/>
+      <rect data-icon-part="link-loop-b" class="y2k-i-bg-soft" x="97" y="106" width="116" height="68" rx="34" stroke="var(--y2k-icon-secondary,rgb(var(--usk-secondary-rgb,255 96 190)))" stroke-width="8"/>
+      <path data-icon-part="link-bridge" class="y2k-i-line-3" d="M110 118Q128 128 146 140"/>
+      <path data-icon-audit="decorative" data-icon-y2k="shine" class="y2k-i-shine" d="M61 108Q69 95 85 95H111M155 115H178Q194 115 201 128" opacity=".9"/>
+    </g>
 </symbol>
-<symbol id="y2k-icon-cloud" viewBox="-8 -8 272 272">
+<symbol id="y2k-icon-cloud" viewBox="0 0 256 256">
   <title>Cloud</title>
-  <rect data-icon-frame="decor" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
-    <ellipse data-icon-frame="decor" class="y2k-i-gloss" cx="96" cy="62" rx="50" ry="14" opacity=".72"/>
-    <path class="y2k-i-muted" d="M54 206H106M146 206H202" opacity=".55"/>
-    <path class="y2k-i-line-3" d="M54 52H78M188 52H204" opacity=".7"/>
-    <path class="y2k-i-bg-strong" stroke="var(--y2k-icon-primary,rgb(var(--usk-primary-rgb,55 160 255)))" stroke-width="6" d="M79 172C60 172 47 158 47 140C47 122 61 109 78 109C88 85 109 72 132 77C153 81 168 98 172 119C193 120 209 136 209 156C209 177 192 190 170 190H82"/><path class="y2k-i-line-2" d="M104 151H152M128 126V176"/><path class="y2k-i-line-3" d="M128 126L106 148M128 126L150 148"/>
+  <rect data-icon-frame="surface" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
+    <path data-icon-frame="decor" data-icon-audit="decorative" class="y2k-i-shine" fill="none" d="M48 78C54 58 68 46 88 42H102" opacity=".58"/>
+    <path data-icon-frame="decor" class="y2k-i-muted" d="M52 206H104M152 206H204" opacity=".55"/>
+    <path data-icon-frame="decor" class="y2k-i-line-3" d="M52 52H76M180 52H204" opacity=".7"/>
+    <g data-icon-glyph="semantic" data-icon-prototype="reference-led-v1">
+      <path data-icon-part="cloud-shell" data-icon-y2k="body" class="y2k-i-bg-strong" d="M73 193C49 193 36 176 36 154C36 133 50 117 72 113C80 82 102 65 131 65C163 65 184 84 190 118C209 122 220 136 220 155C220 177 204 193 181 193Z" stroke="var(--y2k-icon-primary,rgb(var(--usk-primary-rgb,55 160 255)))" stroke-width="7" stroke-linejoin="round"/>
+      <path data-icon-part="cloud-action" class="y2k-i-secondary" d="M116 167V137H98L128 106L158 137H140V167Z" stroke-width="5" stroke-linejoin="round"/>
+      <path data-icon-audit="decorative" data-icon-y2k="shine" class="y2k-i-shine" d="M58 145Q65 126 84 124Q93 85 128 78Q154 73 171 94" opacity=".9"/>
+    </g>
 </symbol>
 <symbol id="y2k-icon-globe" viewBox="0 0 256 256">
   <title>Globe</title>
-  <rect data-icon-frame="decor" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
-    <ellipse data-icon-frame="decor" class="y2k-i-gloss" cx="96" cy="62" rx="50" ry="14" opacity=".72"/>
-    <path class="y2k-i-muted" d="M54 206H106M146 206H202" opacity=".55"/>
-    <path class="y2k-i-line-3" d="M54 52H78M188 52H204" opacity=".7"/>
-    <circle class="y2k-i-bg-strong" cx="128" cy="128" r="66"/><circle class="y2k-i-line" cx="128" cy="128" r="66"/><path class="y2k-i-line-2" d="M62 128H194M128 62C105 84 95 106 95 128C95 150 105 172 128 194M128 62C151 84 161 106 161 128C161 150 151 172 128 194M79 91C104 103 152 103 177 91M79 165C104 153 152 153 177 165"/>
+  <rect data-icon-frame="surface" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
+    <path data-icon-frame="decor" data-icon-audit="decorative" class="y2k-i-shine" fill="none" d="M48 78C54 58 68 46 88 42H102" opacity=".58"/>
+    <path data-icon-frame="decor" class="y2k-i-muted" d="M52 206H104M152 206H204" opacity=".55"/>
+    <path data-icon-frame="decor" class="y2k-i-line-3" d="M52 52H76M180 52H204" opacity=".7"/>
+
+
+
+  <circle class="y2k-i-bg-strong" cx="128" cy="128" r="66"/>
+  <circle class="y2k-i-line" cx="128" cy="128" r="66"/>
+  <path class="y2k-i-line-2" d="M62 128H194M128 62C105 84 95 106 95 128C95 150 105 172 128 194M128 62C151 84 161 106 161 128C161 150 151 172 128 194M79 91C104 103 152 103 177 91M79 165C104 153 152 153 177 165"/>
 </symbol>
-<symbol id="y2k-icon-warning" viewBox="-8 -8 272 272">
+<symbol id="y2k-icon-warning" viewBox="0 0 256 256">
   <title>Warning</title>
-  <rect data-icon-frame="decor" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
-    <ellipse data-icon-frame="decor" class="y2k-i-gloss" cx="96" cy="62" rx="50" ry="14" opacity=".72"/>
-    <path class="y2k-i-muted" d="M54 206H106M146 206H202" opacity=".55"/>
-    <path class="y2k-i-line-3" d="M54 52H78M188 52H204" opacity=".7"/>
-    <path class="y2k-i-bg-strong" stroke="var(--y2k-icon-warning,rgb(var(--usk-warning-rgb,255 200 78)))" stroke-width="8" d="M128 55L203 190H53Z"/><path class="y2k-i-danger" stroke="var(--y2k-icon-danger,rgb(var(--usk-danger-rgb,255 92 122)))" stroke-width="12" d="M128 101V145"/><circle class="y2k-i-danger" cx="128" cy="169" r="8"/><path class="y2k-i-line" d="M78 190H178"/>
+  <rect data-icon-frame="surface" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
+    <path data-icon-frame="decor" data-icon-audit="decorative" class="y2k-i-shine" fill="none" d="M48 78C54 58 68 46 88 42H102" opacity=".58"/>
+    <path data-icon-frame="decor" class="y2k-i-muted" d="M52 206H104M152 206H204" opacity=".55"/>
+    <path data-icon-frame="decor" class="y2k-i-line-3" d="M52 52H76M180 52H204" opacity=".7"/>
+
+
+
+  <path class="y2k-i-bg-strong" stroke="var(--y2k-icon-warning,rgb(var(--usk-warning-rgb,255 200 78)))" stroke-width="8" d="M128 55L203 190H53Z"/>
+  <path fill="none" class="y2k-i-danger" stroke="var(--y2k-icon-danger,rgb(var(--usk-danger-rgb,255 92 122)))" stroke-width="12" d="M128 101V145"/>
+  <circle class="y2k-i-danger" cx="128" cy="169" r="8"/>
+  <path class="y2k-i-line" d="M78 190H178"/>
 </symbol>
 <symbol id="y2k-icon-scan" viewBox="0 0 256 256">
   <title>Scan</title>
-  <rect data-icon-frame="decor" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/><ellipse data-icon-frame="decor" class="y2k-i-gloss" cx="96" cy="62" rx="50" ry="14" opacity=".72"/><path class="y2k-i-muted" d="M54 206H106M146 206H202" opacity=".55"/><path class="y2k-i-line-3" d="M54 52H78M188 52H204" opacity=".7"/>
-    <rect class="y2k-i-primary" x="58" y="70" width="140" height="118" rx="18"/><path class="y2k-i-line-2" d="M81 100V84H113M143 84H175V100M81 158V174H113M143 174H175V158"/><path class="y2k-i-line" d="M72 129H184"/><circle class="y2k-i-line-3" cx="128" cy="129" r="24"/>
+  <rect data-icon-frame="surface" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/><path data-icon-frame="decor" data-icon-audit="decorative" class="y2k-i-shine" fill="none" d="M48 78C54 58 68 46 88 42H102" opacity=".58"/><path data-icon-frame="decor" class="y2k-i-muted" d="M52 206H104M152 206H204" opacity=".55"/><path data-icon-frame="decor" class="y2k-i-line-3" d="M52 52H76M180 52H204" opacity=".7"/>
+
+
+
+  <rect class="y2k-i-primary" x="58" y="70" width="140" height="118" rx="18"/>
+  <path class="y2k-i-line-2" d="M81 100V84H113M143 84H175V100M81 158V174H113M143 174H175V158"/>
+  <path class="y2k-i-line" d="M72 129H184"/>
+  <circle class="y2k-i-line-3" cx="128" cy="129" r="24"/>
 </symbol>
-<symbol id="y2k-icon-network" viewBox="-8 -8 272 272">
+<symbol id="y2k-icon-network" viewBox="0 0 256 256">
   <title>Network</title>
-  <rect data-icon-frame="decor" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/><ellipse data-icon-frame="decor" class="y2k-i-gloss" cx="96" cy="62" rx="50" ry="14" opacity=".72"/><path class="y2k-i-muted" d="M54 206H106M146 206H202" opacity=".55"/><path class="y2k-i-line-3" d="M54 52H78M188 52H204" opacity=".7"/>
-    <circle class="y2k-i-primary" cx="82" cy="132" r="18"/><circle class="y2k-i-secondary" cx="128" cy="82" r="18"/><circle class="y2k-i-primary" cx="174" cy="132" r="18"/><circle class="y2k-i-accent" cx="128" cy="184" r="18"/><path class="y2k-i-muted" d="M96 119L115 95M141 95L160 119M100 140L114 172M156 172L170 140M100 132H156"/>
+  <rect data-icon-frame="surface" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
+    <path data-icon-frame="decor" data-icon-audit="decorative" class="y2k-i-shine" fill="none" d="M48 78C54 58 68 46 88 42H102" opacity=".58"/>
+    <path data-icon-frame="decor" class="y2k-i-muted" d="M52 206H104M152 206H204" opacity=".55"/>
+    <path data-icon-frame="decor" class="y2k-i-line-3" d="M52 52H76M180 52H204" opacity=".7"/>
+    <g data-icon-glyph="semantic" data-icon-prototype="reference-led-v1">
+      <rect data-icon-y2k="body" class="y2k-i-bg-soft" x="101" y="109" width="54" height="40" rx="20" stroke="var(--y2k-icon-secondary,rgb(var(--usk-secondary-rgb,255 96 190)))" stroke-width="5"/>
+      <path data-icon-part="network-connector" class="y2k-i-line-2" d="M91 117L115 88"/>
+      <path data-icon-part="network-connector" class="y2k-i-line-2" d="M141 88L165 117"/>
+      <path data-icon-part="network-connector" class="y2k-i-line-2" d="M91 141L115 168"/>
+      <path data-icon-part="network-connector" class="y2k-i-line-2" d="M165 141L141 168"/>
+      <path data-icon-part="network-connector" class="y2k-i-line-2" d="M96 129L160 129"/>
+      <circle data-icon-part="network-node" class="y2k-i-primary" cx="78" cy="129" r="18" stroke-width="5"/>
+      <circle data-icon-part="network-node" class="y2k-i-accent" cx="128" cy="75" r="18" stroke-width="5"/>
+      <circle data-icon-part="network-node" class="y2k-i-primary" cx="178" cy="129" r="18" stroke-width="5"/>
+      <circle data-icon-part="network-node" class="y2k-i-accent" cx="128" cy="181" r="18" stroke-width="5"/>
+      <path data-icon-audit="decorative" data-icon-y2k="shine" class="y2k-i-shine" d="M68 122Q75 113 84 119M118 68Q126 59 135 66M168 122Q175 113 184 119" opacity=".82"/>
+    </g>
 </symbol>
 <symbol id="y2k-icon-cpu" viewBox="0 0 256 256">
   <title>CPU</title>
-  <rect data-icon-frame="decor" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/><ellipse data-icon-frame="decor" class="y2k-i-gloss" cx="96" cy="62" rx="50" ry="14" opacity=".72"/><path class="y2k-i-muted" d="M54 206H106M146 206H202" opacity=".55"/><path class="y2k-i-line-3" d="M54 52H78M188 52H204" opacity=".7"/>
-    <rect class="y2k-i-primary" x="82" y="82" width="92" height="92" rx="16"/><rect class="y2k-i-bg-strong" x="108" y="108" width="40" height="40" rx="8"/><path class="y2k-i-line-3" d="M97 58V82M128 58V82M159 58V82M97 174V198M128 174V198M159 174V198M58 97H82M58 128H82M58 159H82M174 97H198M174 128H198M174 159H198"/>
+  <rect data-icon-frame="surface" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/><path data-icon-frame="decor" data-icon-audit="decorative" class="y2k-i-shine" fill="none" d="M48 78C54 58 68 46 88 42H102" opacity=".58"/><path data-icon-frame="decor" class="y2k-i-muted" d="M52 206H104M152 206H204" opacity=".55"/><path data-icon-frame="decor" class="y2k-i-line-3" d="M52 52H76M180 52H204" opacity=".7"/>
+
+
+
+  <rect class="y2k-i-primary" x="82" y="82" width="92" height="92" rx="16"/>
+  <rect class="y2k-i-bg-strong" x="108" y="108" width="40" height="40" rx="8"/>
+  <path class="y2k-i-line-3" d="M97 58V82M128 58V82M159 58V82M97 174V198M128 174V198M159 174V198M58 97H82M58 128H82M58 159H82M174 97H198M174 128H198M174 159H198"/>
 </symbol>
 <symbol id="y2k-icon-layers" viewBox="0 0 256 256">
   <title>Layers</title>
-  <rect data-icon-frame="decor" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
-    <ellipse data-icon-frame="decor" class="y2k-i-gloss" cx="96" cy="62" rx="50" ry="14" opacity=".72"/>
-    <path class="y2k-i-muted" d="M54 206H106M146 206H202" opacity=".55"/>
-    <path class="y2k-i-line-3" d="M54 52H78M188 52H204" opacity=".7"/>
-    <path class="y2k-i-bg-strong" stroke="var(--y2k-icon-primary,rgb(var(--usk-primary-rgb,55 160 255)))" stroke-width="6" d="M128 62L203 104L128 146L53 104Z"/><path class="y2k-i-line-2" d="M63 132L128 169L193 132M63 160L128 197L193 160"/><path class="y2k-i-line-3" d="M100 104H156"/>
+  <rect data-icon-frame="surface" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
+    <path data-icon-frame="decor" data-icon-audit="decorative" class="y2k-i-shine" fill="none" d="M48 78C54 58 68 46 88 42H102" opacity=".58"/>
+    <path data-icon-frame="decor" class="y2k-i-muted" d="M52 206H104M152 206H204" opacity=".55"/>
+    <path data-icon-frame="decor" class="y2k-i-line-3" d="M52 52H76M180 52H204" opacity=".7"/>
+
+
+
+  <path class="y2k-i-bg-strong" stroke="var(--y2k-icon-primary,rgb(var(--usk-primary-rgb,55 160 255)))" stroke-width="6" d="M128 62L203 104L128 146L53 104Z"/>
+  <path class="y2k-i-line-2" d="M63 132L128 169L193 132M63 160L128 197L193 160"/>
+  <path class="y2k-i-line-3" d="M100 104H156"/>
 </symbol>
 <symbol id="y2k-icon-eye" viewBox="0 0 256 256">
   <title>Eye</title>
-  <rect data-icon-frame="decor" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
-    <ellipse data-icon-frame="decor" class="y2k-i-gloss" cx="96" cy="62" rx="50" ry="14" opacity=".72"/>
-    <path class="y2k-i-muted" d="M54 206H106M146 206H202" opacity=".55"/>
-    <path class="y2k-i-line-3" d="M54 52H78M188 52H204" opacity=".7"/>
-    <path class="y2k-i-bg-strong" stroke="var(--y2k-icon-primary,rgb(var(--usk-primary-rgb,55 160 255)))" stroke-width="6" d="M52 128C75 91 104 76 128 76C152 76 181 91 204 128C181 165 152 180 128 180C104 180 75 165 52 128Z"/><circle class="y2k-i-line-2" cx="128" cy="128" r="31"/><circle class="y2k-i-accent" cx="128" cy="128" r="10"/>
+  <rect data-icon-frame="surface" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
+    <path data-icon-frame="decor" data-icon-audit="decorative" class="y2k-i-shine" fill="none" d="M48 78C54 58 68 46 88 42H102" opacity=".58"/>
+    <path data-icon-frame="decor" class="y2k-i-muted" d="M52 206H104M152 206H204" opacity=".55"/>
+    <path data-icon-frame="decor" class="y2k-i-line-3" d="M52 52H76M180 52H204" opacity=".7"/>
+
+
+
+  <path class="y2k-i-bg-strong" stroke="var(--y2k-icon-primary,rgb(var(--usk-primary-rgb,55 160 255)))" stroke-width="6" d="M52 128C75 91 104 76 128 76C152 76 181 91 204 128C181 165 152 180 128 180C104 180 75 165 52 128Z"/>
+  <circle class="y2k-i-line-2" cx="128" cy="128" r="31"/>
+  <circle class="y2k-i-accent" cx="128" cy="128" r="10"/>
 </symbol>
 <symbol id="y2k-icon-grid" viewBox="0 0 256 256">
   <title>Grid</title>
-  <rect data-icon-frame="decor" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/><ellipse data-icon-frame="decor" class="y2k-i-gloss" cx="96" cy="62" rx="50" ry="14" opacity=".72"/><path class="y2k-i-muted" d="M54 206H106M146 206H202" opacity=".55"/><path class="y2k-i-line-3" d="M54 52H78M188 52H204" opacity=".7"/>
-    <rect class="y2k-i-primary" x="62" y="72" width="52" height="52" rx="14"/><rect class="y2k-i-secondary" x="128" y="72" width="66" height="52" rx="14"/><rect class="y2k-i-accent" x="62" y="138" width="66" height="52" rx="14"/><rect class="y2k-i-primary" x="142" y="138" width="52" height="52" rx="14"/>
+  <rect data-icon-frame="surface" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/><path data-icon-frame="decor" data-icon-audit="decorative" class="y2k-i-shine" fill="none" d="M48 78C54 58 68 46 88 42H102" opacity=".58"/><path data-icon-frame="decor" class="y2k-i-muted" d="M52 206H104M152 206H204" opacity=".55"/><path data-icon-frame="decor" class="y2k-i-line-3" d="M52 52H76M180 52H204" opacity=".7"/>
+
+
+
+  <rect class="y2k-i-primary" x="62" y="72" width="52" height="52" rx="14"/>
+  <rect class="y2k-i-secondary" x="128" y="72" width="66" height="52" rx="14"/>
+  <rect class="y2k-i-accent" x="62" y="138" width="66" height="52" rx="14"/>
+  <rect class="y2k-i-primary" x="142" y="138" width="52" height="52" rx="14"/>
 </symbol>
 <symbol id="y2k-icon-module" viewBox="0 0 256 256">
   <title>Module</title>
-  <rect data-icon-frame="decor" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/><ellipse data-icon-frame="decor" class="y2k-i-gloss" cx="96" cy="62" rx="50" ry="14" opacity=".72"/><path class="y2k-i-muted" d="M54 206H106M146 206H202" opacity=".55"/><path class="y2k-i-line-3" d="M54 52H78M188 52H204" opacity=".7"/>
-    <rect class="y2k-i-primary" x="64" y="74" width="128" height="116" rx="24"/><rect class="y2k-i-bg-strong" x="86" y="96" width="84" height="36" rx="12"/><path class="y2k-i-line-2" d="M91 158H120M139 158H168"/><circle class="y2k-i-accent" cx="128" cy="158" r="9"/>
+  <rect data-icon-frame="surface" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/><path data-icon-frame="decor" data-icon-audit="decorative" class="y2k-i-shine" fill="none" d="M48 78C54 58 68 46 88 42H102" opacity=".58"/><path data-icon-frame="decor" class="y2k-i-muted" d="M52 206H104M152 206H204" opacity=".55"/><path data-icon-frame="decor" class="y2k-i-line-3" d="M52 52H76M180 52H204" opacity=".7"/>
+
+
+
+  <rect class="y2k-i-primary" x="64" y="70" width="128" height="116" rx="24"/>
+  <rect class="y2k-i-bg-strong" x="86" y="92" width="84" height="36" rx="12"/>
+  <path class="y2k-i-line-2" d="M91 154H120M139 154H168"/>
+  <circle class="y2k-i-accent" cx="128" cy="154" r="9"/>
 </symbol>
-<symbol id="y2k-icon-stack" viewBox="-8 -8 272 272">
+<symbol id="y2k-icon-stack" viewBox="0 0 256 256">
   <title>Stack</title>
-  <rect data-icon-frame="decor" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/><ellipse data-icon-frame="decor" class="y2k-i-gloss" cx="96" cy="62" rx="50" ry="14" opacity=".72"/><path class="y2k-i-muted" d="M54 206H106M146 206H202" opacity=".55"/><path class="y2k-i-line-3" d="M54 52H78M188 52H204" opacity=".7"/>
-    <rect class="y2k-i-bg-soft" x="78" y="64" width="116" height="76" rx="20"/><rect class="y2k-i-secondary" x="66" y="91" width="116" height="76" rx="20"/><rect class="y2k-i-primary" x="54" y="118" width="116" height="76" rx="20"/><path class="y2k-i-line-3" d="M78 150H134M78 172H112"/>
+  <rect data-icon-frame="surface" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/><path data-icon-frame="decor" data-icon-audit="decorative" class="y2k-i-shine" fill="none" d="M48 78C54 58 68 46 88 42H102" opacity=".58"/><path data-icon-frame="decor" class="y2k-i-muted" d="M52 206H104M152 206H204" opacity=".55"/><path data-icon-frame="decor" class="y2k-i-line-3" d="M52 52H76M180 52H204" opacity=".7"/>
+
+
+
+  <rect class="y2k-i-bg-soft" x="82" y="64" width="116" height="76" rx="20"/>
+  <rect class="y2k-i-secondary" x="70" y="91" width="116" height="76" rx="20"/>
+  <rect class="y2k-i-primary" x="58" y="118" width="116" height="76" rx="20"/>
+  <path class="y2k-i-line-3" d="M82 150H138M82 172H116"/>
 </symbol>
 <symbol id="y2k-icon-tile" viewBox="0 0 256 256">
   <title>Tile</title>
-  <rect data-icon-frame="decor" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/><ellipse data-icon-frame="decor" class="y2k-i-gloss" cx="96" cy="62" rx="50" ry="14" opacity=".72"/><path class="y2k-i-muted" d="M54 206H106M146 206H202" opacity=".55"/><path class="y2k-i-line-3" d="M54 52H78M188 52H204" opacity=".7"/>
-    <rect class="y2k-i-primary" x="58" y="72" width="64" height="64" rx="20"/><rect class="y2k-i-secondary" x="136" y="72" width="62" height="38" rx="14"/><rect class="y2k-i-accent" x="58" y="150" width="96" height="42" rx="16"/><rect class="y2k-i-bg-strong" x="168" y="126" width="30" height="66" rx="12"/>
+  <rect data-icon-frame="surface" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/><path data-icon-frame="decor" data-icon-audit="decorative" class="y2k-i-shine" fill="none" d="M48 78C54 58 68 46 88 42H102" opacity=".58"/><path data-icon-frame="decor" class="y2k-i-muted" d="M52 206H104M152 206H204" opacity=".55"/><path data-icon-frame="decor" class="y2k-i-line-3" d="M52 52H76M180 52H204" opacity=".7"/>
+
+
+
+  <rect class="y2k-i-primary" x="58" y="72" width="64" height="64" rx="20"/>
+  <rect class="y2k-i-secondary" x="136" y="72" width="62" height="38" rx="14"/>
+  <rect class="y2k-i-accent" x="58" y="150" width="96" height="42" rx="16"/>
+  <rect class="y2k-i-bg-strong" x="168" y="126" width="30" height="66" rx="12"/>
 </symbol>
 <symbol id="y2k-icon-phone" viewBox="0 0 256 256">
   <title>Phone</title>
-  <rect data-icon-frame="decor" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
-    <ellipse data-icon-frame="decor" class="y2k-i-gloss" cx="96" cy="62" rx="50" ry="14" opacity=".72"/>
-    <path class="y2k-i-muted" d="M54 206H106M146 206H202" opacity=".55"/>
-    <path class="y2k-i-line-3" d="M54 52H78M188 52H204" opacity=".7"/>
-    <path class="y2k-i-bg-strong" stroke="var(--y2k-icon-primary,rgb(var(--usk-primary-rgb,55 160 255)))" stroke-width="6" d="M92 56H164V116H92Z"/><path class="y2k-i-bg-strong" stroke="var(--y2k-icon-secondary,rgb(var(--usk-secondary-rgb,255 96 190)))" stroke-width="6" d="M82 124H174V202H82Z"/><path class="y2k-i-line-3" d="M106 82H150M104 150H152M104 172H120M136 172H152"/>
+  <rect data-icon-frame="surface" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
+    <path data-icon-frame="decor" data-icon-audit="decorative" class="y2k-i-shine" fill="none" d="M48 78C54 58 68 46 88 42H102" opacity=".58"/>
+    <path data-icon-frame="decor" class="y2k-i-muted" d="M52 206H104M152 206H204" opacity=".55"/>
+    <path data-icon-frame="decor" class="y2k-i-line-3" d="M52 52H76M180 52H204" opacity=".7"/>
+
+
+
+  <path class="y2k-i-bg-strong" stroke="var(--y2k-icon-primary,rgb(var(--usk-primary-rgb,55 160 255)))" stroke-width="6" d="M92 56H164V116H92Z"/>
+  <path class="y2k-i-bg-strong" stroke="var(--y2k-icon-secondary,rgb(var(--usk-secondary-rgb,255 96 190)))" stroke-width="6" d="M82 124H174V202H82Z"/>
+  <path class="y2k-i-line-3" d="M106 82H150M104 150H152M104 172H120M136 172H152"/>
 </symbol>
-<symbol id="y2k-icon-palette" viewBox="-8 -8 272 272">
+<symbol id="y2k-icon-palette" viewBox="0 0 256 256">
   <title>Palette</title>
-  <rect data-icon-frame="decor" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
-    <ellipse data-icon-frame="decor" class="y2k-i-gloss" cx="96" cy="62" rx="50" ry="14" opacity=".72"/>
-    <path class="y2k-i-muted" d="M54 206H106M146 206H202" opacity=".55"/>
-    <path class="y2k-i-line-3" d="M54 52H78M188 52H204" opacity=".7"/>
-    <path class="y2k-i-bg-strong" stroke="var(--y2k-icon-primary,rgb(var(--usk-primary-rgb,55 160 255)))" stroke-width="6" d="M128 61C88 61 58 91 58 129C58 169 90 196 128 196H142C154 196 159 181 148 174C140 169 143 156 154 156H171C190 156 202 142 200 124C196 88 166 61 128 61Z"/><circle class="y2k-i-secondary" cx="100" cy="107" r="9"/><circle class="y2k-i-accent" cx="129" cy="94" r="9"/><circle class="y2k-i-warning" cx="157" cy="112" r="9"/><circle class="y2k-i-success" cx="112" cy="142" r="9"/>
+  <rect data-icon-frame="surface" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
+    <path data-icon-frame="decor" data-icon-audit="decorative" class="y2k-i-shine" fill="none" d="M48 78C54 58 68 46 88 42H102" opacity=".58"/>
+    <path data-icon-frame="decor" class="y2k-i-muted" d="M52 206H104M152 206H204" opacity=".55"/>
+    <path data-icon-frame="decor" class="y2k-i-line-3" d="M52 52H76M180 52H204" opacity=".7"/>
+    <g data-icon-glyph="semantic" data-icon-prototype="reference-led-v1">
+      <path data-icon-y2k="body" class="y2k-i-bg-strong" d="M128 55C84 55 49 86 49 128C49 171 84 201 128 201H143C159 201 168 191 168 179C168 167 176 159 189 159C201 159 210 150 210 136C210 89 175 55 128 55Z" stroke="var(--y2k-icon-primary,rgb(var(--usk-primary-rgb,55 160 255)))" stroke-width="7" stroke-linejoin="round"/>
+      <circle class="y2k-i-secondary" cx="91" cy="111" r="12" stroke-width="4"/>
+      <circle class="y2k-i-accent" cx="127" cy="91" r="12" stroke-width="4"/>
+      <circle class="y2k-i-warning" cx="165" cy="112" r="12" stroke-width="4"/>
+      <circle class="y2k-i-success" cx="111" cy="151" r="12" stroke-width="4"/>
+      <circle class="y2k-i-bg-soft" cx="143" cy="174" r="15"/>
+      <path data-icon-audit="decorative" data-icon-y2k="shine" class="y2k-i-shine" d="M71 119Q77 82 116 70Q141 62 160 72" opacity=".88"/>
+    </g>
 </symbol>
 <symbol id="y2k-icon-heart" viewBox="0 0 256 256">
   <title>Heart</title>
-  <rect data-icon-frame="decor" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
-    <ellipse data-icon-frame="decor" class="y2k-i-gloss" cx="96" cy="62" rx="50" ry="14" opacity=".72"/>
-    <path class="y2k-i-muted" d="M54 206H106M146 206H202" opacity=".55"/>
-    <path class="y2k-i-line-3" d="M54 52H78M188 52H204" opacity=".7"/>
-    <path class="y2k-i-secondary" stroke="var(--y2k-icon-primary,rgb(var(--usk-primary-rgb,55 160 255)))" stroke-width="6" d="M128 194C82 158 60 133 60 104C60 80 78 64 101 64C114 64 124 71 128 82C132 71 142 64 155 64C178 64 196 80 196 104C196 133 174 158 128 194Z"/><ellipse class="y2k-i-gloss" cx="98" cy="91" rx="19" ry="9" transform="rotate(-25 98 91)"/>
+  <rect data-icon-frame="surface" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
+    <path data-icon-frame="decor" data-icon-audit="decorative" class="y2k-i-shine" fill="none" d="M48 78C54 58 68 46 88 42H102" opacity=".58"/>
+    <path data-icon-frame="decor" class="y2k-i-muted" d="M52 206H104M152 206H204" opacity=".55"/>
+    <path data-icon-frame="decor" class="y2k-i-line-3" d="M52 52H76M180 52H204" opacity=".7"/>
+
+
+
+  <path class="y2k-i-secondary" stroke="var(--y2k-icon-primary,rgb(var(--usk-primary-rgb,55 160 255)))" stroke-width="6" d="M128 194C82 158 60 133 60 104C60 80 78 64 101 64C114 64 124 71 128 82C132 71 142 64 155 64C178 64 196 80 196 104C196 133 174 158 128 194Z"/>
+
+  <ellipse data-icon-audit="decorative" class="y2k-i-gloss" cx="98" cy="91" rx="19" ry="9" transform="rotate(-25 98 91)"/>
 </symbol>
 <symbol id="y2k-icon-star" viewBox="0 0 256 256">
   <title>Star</title>
-  <rect data-icon-frame="decor" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
-    <ellipse data-icon-frame="decor" class="y2k-i-gloss" cx="96" cy="62" rx="50" ry="14" opacity=".72"/>
-    <path class="y2k-i-muted" d="M54 206H106M146 206H202" opacity=".55"/>
-    <path class="y2k-i-line-3" d="M54 52H78M188 52H204" opacity=".7"/>
-    <path class="y2k-i-warning" stroke="var(--y2k-icon-secondary,rgb(var(--usk-secondary-rgb,255 96 190)))" stroke-width="6" d="M128 58L149 104L199 110L162 144L172 194L128 168L84 194L94 144L57 110L107 104Z"/><ellipse class="y2k-i-gloss" cx="118" cy="99" rx="28" ry="10" transform="rotate(-18 118 99)"/>
+  <rect data-icon-frame="surface" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
+    <path data-icon-frame="decor" data-icon-audit="decorative" class="y2k-i-shine" fill="none" d="M48 78C54 58 68 46 88 42H102" opacity=".58"/>
+    <path data-icon-frame="decor" class="y2k-i-muted" d="M52 206H104M152 206H204" opacity=".55"/>
+    <path data-icon-frame="decor" class="y2k-i-line-3" d="M52 52H76M180 52H204" opacity=".7"/>
+    <g data-icon-glyph="semantic">
+      <path data-icon-part="star-shape" class="y2k-i-warning" stroke="var(--y2k-icon-secondary,rgb(var(--usk-secondary-rgb,255 96 190)))" stroke-width="6" d="M128 58L149 104L199 110L162 144L172 194L128 168L84 194L94 144L57 110L107 104Z"/>
+      <path data-icon-part="star-highlight" data-icon-audit="decorative" class="y2k-i-shine" d="M128 66L145 103L160 106" opacity=".82"/>
+    </g>
 </symbol>
 <symbol id="y2k-icon-target" viewBox="0 0 256 256">
   <title>Target</title>
-  <rect data-icon-frame="decor" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/><ellipse data-icon-frame="decor" class="y2k-i-gloss" cx="96" cy="62" rx="50" ry="14" opacity=".72"/><path class="y2k-i-muted" d="M54 206H106M146 206H202" opacity=".55"/><path class="y2k-i-line-3" d="M54 52H78M188 52H204" opacity=".7"/>
-    <circle class="y2k-i-primary" cx="128" cy="128" r="66"/><circle class="y2k-i-line-2" cx="128" cy="128" r="40"/><circle class="y2k-i-accent" cx="128" cy="128" r="14"/><path class="y2k-i-muted" d="M128 52V84M128 172V204M52 128H84M172 128H204"/>
+  <rect data-icon-frame="surface" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/><path data-icon-frame="decor" data-icon-audit="decorative" class="y2k-i-shine" fill="none" d="M48 78C54 58 68 46 88 42H102" opacity=".58"/><path data-icon-frame="decor" class="y2k-i-muted" d="M52 206H104M152 206H204" opacity=".55"/><path data-icon-frame="decor" class="y2k-i-line-3" d="M52 52H76M180 52H204" opacity=".7"/>
+
+
+
+  <circle class="y2k-i-primary" cx="128" cy="128" r="66"/>
+  <circle class="y2k-i-line-2" cx="128" cy="128" r="40"/>
+  <circle class="y2k-i-accent" cx="128" cy="128" r="14"/>
+  <path class="y2k-i-muted" d="M128 52V84M128 172V204M52 128H84M172 128H204"/>
 </symbol>
-<symbol id="y2k-icon-megaphone" viewBox="-8 -8 272 272">
+<symbol id="y2k-icon-megaphone" viewBox="0 0 256 256">
   <title>Megaphone</title>
-  <rect data-icon-frame="decor" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/><ellipse data-icon-frame="decor" class="y2k-i-gloss" cx="96" cy="62" rx="50" ry="14" opacity=".72"/><path class="y2k-i-muted" d="M54 206H106M146 206H202" opacity=".55"/><path class="y2k-i-line-3" d="M54 52H78M188 52H204" opacity=".7"/>
-    <path class="y2k-i-primary" d="M74 134H50V94H74L168 66V162Z"/><path class="y2k-i-line-2" d="M168 91C188 96 200 111 200 128C200 145 188 160 168 165"/><path class="y2k-i-accent" d="M78 134L96 190H122L104 134Z"/>
+  <rect data-icon-frame="surface" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
+    <path data-icon-frame="decor" data-icon-audit="decorative" class="y2k-i-shine" fill="none" d="M48 78C54 58 68 46 88 42H102" opacity=".58"/>
+    <path data-icon-frame="decor" class="y2k-i-muted" d="M52 206H104M152 206H204" opacity=".55"/>
+    <path data-icon-frame="decor" class="y2k-i-line-3" d="M52 52H76M180 52H204" opacity=".7"/>
+    <g data-icon-glyph="semantic" data-icon-prototype="reference-led-v1">
+      <path data-icon-part="megaphone-horn" data-icon-y2k="body" class="y2k-i-bg-strong" d="M52 105H91L177 70Q187 66 187 79V177Q187 190 177 186L91 151H52Q43 151 43 142V114Q43 105 52 105Z" stroke="var(--y2k-icon-primary,rgb(var(--usk-primary-rgb,55 160 255)))" stroke-width="7" stroke-linejoin="round"/>
+      <path data-icon-part="megaphone-handle" class="y2k-i-secondary" d="M69 151L83 199H119L102 153Z" stroke-width="6" stroke-linejoin="round"/>
+      <path data-icon-part="megaphone-horn" class="y2k-i-line-3" d="M91 105V151"/>
+      <path data-icon-part="megaphone-sound" class="y2k-i-line-2" d="M203 99Q220 128 203 157M192 113Q203 128 192 143"/>
+      <path data-icon-audit="decorative" data-icon-y2k="shine" class="y2k-i-shine" d="M58 116H88L164 86" opacity=".9"/>
+    </g>
 </symbol>
 <symbol id="y2k-icon-cursor" viewBox="0 0 256 256">
   <title>Cursor</title>
-  <rect data-icon-frame="decor" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
-    <ellipse data-icon-frame="decor" class="y2k-i-gloss" cx="96" cy="62" rx="50" ry="14" opacity=".72"/>
-    <path class="y2k-i-muted" d="M54 206H106M146 206H202" opacity=".55"/>
-    <path class="y2k-i-line-3" d="M54 52H78M188 52H204" opacity=".7"/>
-    <path class="y2k-i-bg-strong" stroke="var(--y2k-icon-primary,rgb(var(--usk-primary-rgb,55 160 255)))" stroke-width="7" d="M82 64L182 156L136 163L112 202Z"/><path class="y2k-i-line-2" d="M138 163L166 204"/><path class="y2k-i-gloss" d="M98 87L145 130L122 132Z" opacity=".72"/>
+  <rect data-icon-frame="surface" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
+    <path data-icon-frame="decor" data-icon-audit="decorative" class="y2k-i-shine" fill="none" d="M48 78C54 58 68 46 88 42H102" opacity=".58"/>
+    <path data-icon-frame="decor" class="y2k-i-muted" d="M52 206H104M152 206H204" opacity=".55"/>
+    <path data-icon-frame="decor" class="y2k-i-line-3" d="M52 52H76M180 52H204" opacity=".7"/>
+
+
+
+  <path class="y2k-i-bg-strong" stroke="var(--y2k-icon-primary,rgb(var(--usk-primary-rgb,55 160 255)))" stroke-width="7" d="M82 64L182 156L136 163L112 202Z"/>
+  <path class="y2k-i-line-2" d="M138 163L166 204"/>
+
+  <path data-icon-audit="decorative" class="y2k-i-gloss" d="M98 87L145 130L122 132Z" opacity=".72"/>
 </symbol>
 <symbol id="y2k-icon-cd" viewBox="0 0 256 256">
   <title>Cd</title>
-  <rect data-icon-frame="decor" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
-    <ellipse data-icon-frame="decor" class="y2k-i-gloss" cx="96" cy="62" rx="50" ry="14" opacity=".72"/>
-    <path class="y2k-i-muted" d="M54 206H106M146 206H202" opacity=".55"/>
-    <path class="y2k-i-line-3" d="M54 52H78M188 52H204" opacity=".7"/>
-    <circle class="y2k-i-bg-strong" cx="128" cy="128" r="68"/><circle class="y2k-i-line" cx="128" cy="128" r="68"/><circle class="y2k-i-bg" cx="128" cy="128" r="20"/><path class="y2k-i-line-2" d="M90 96L166 160M164 96L92 164"/><path class="y2k-i-gloss" d="M89 83C111 61 151 61 173 84C143 80 117 82 89 83" opacity=".62"/>
+  <rect data-icon-frame="surface" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
+    <path data-icon-frame="decor" data-icon-audit="decorative" class="y2k-i-shine" fill="none" d="M48 78C54 58 68 46 88 42H102" opacity=".58"/>
+    <path data-icon-frame="decor" class="y2k-i-muted" d="M52 206H104M152 206H204" opacity=".55"/>
+    <path data-icon-frame="decor" class="y2k-i-line-3" d="M52 52H76M180 52H204" opacity=".7"/>
+    <circle class="y2k-i-bg-strong" cx="128" cy="128" r="68"/><circle class="y2k-i-line" cx="128" cy="128" r="68"/><circle class="y2k-i-bg" cx="128" cy="128" r="20"/><path class="y2k-i-line-2" d="M90 96L166 160M164 96L92 164"/><path data-icon-audit="decorative" class="y2k-i-gloss" d="M89 83C111 61 151 61 173 84C143 80 117 82 89 83" opacity=".62"/>
 </symbol>
 <symbol id="y2k-icon-floppy" viewBox="0 0 256 256">
   <title>Floppy</title>
-  <rect data-icon-frame="decor" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
-    <ellipse data-icon-frame="decor" class="y2k-i-gloss" cx="96" cy="62" rx="50" ry="14" opacity=".72"/>
-    <path class="y2k-i-muted" d="M54 206H106M146 206H202" opacity=".55"/>
-    <path class="y2k-i-line-3" d="M54 52H78M188 52H204" opacity=".7"/>
+  <rect data-icon-frame="surface" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
+    <path data-icon-frame="decor" data-icon-audit="decorative" class="y2k-i-shine" fill="none" d="M48 78C54 58 68 46 88 42H102" opacity=".58"/>
+    <path data-icon-frame="decor" class="y2k-i-muted" d="M52 206H104M152 206H204" opacity=".55"/>
+    <path data-icon-frame="decor" class="y2k-i-line-3" d="M52 52H76M180 52H204" opacity=".7"/>
     <path class="y2k-i-bg-strong" stroke="var(--y2k-icon-primary,rgb(var(--usk-primary-rgb,55 160 255)))" stroke-width="6" d="M66 66H178L194 82V194H66Z"/><path class="y2k-i-line-2" d="M94 66V112H166V66"/><rect class="y2k-i-bg" x="92" y="150" width="72" height="44" rx="8"/><path class="y2k-i-line-3" d="M106 166H150"/>
 </symbol>
 <symbol id="y2k-icon-gamepad" viewBox="0 0 256 256">
   <title>Gamepad</title>
-  <rect data-icon-frame="decor" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
-    <ellipse data-icon-frame="decor" class="y2k-i-gloss" cx="96" cy="62" rx="50" ry="14" opacity=".72"/>
-    <path class="y2k-i-muted" d="M54 206H106M146 206H202" opacity=".55"/>
-    <path class="y2k-i-line-3" d="M54 52H78M188 52H204" opacity=".7"/>
+  <rect data-icon-frame="surface" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
+    <path data-icon-frame="decor" data-icon-audit="decorative" class="y2k-i-shine" fill="none" d="M48 78C54 58 68 46 88 42H102" opacity=".58"/>
+    <path data-icon-frame="decor" class="y2k-i-muted" d="M52 206H104M152 206H204" opacity=".55"/>
+    <path data-icon-frame="decor" class="y2k-i-line-3" d="M52 52H76M180 52H204" opacity=".7"/>
     <path class="y2k-i-bg-strong" stroke="var(--y2k-icon-primary,rgb(var(--usk-primary-rgb,55 160 255)))" stroke-width="6" d="M72 112C82 96 102 96 116 106H140C154 96 174 96 184 112L202 164C209 185 190 200 174 184L154 164H102L82 184C66 200 47 185 54 164Z"/><path class="y2k-i-line-2" d="M92 140H122M107 125V155"/><circle class="y2k-i-secondary" cx="158" cy="135" r="8"/><circle class="y2k-i-accent" cx="178" cy="153" r="8"/>
 </symbol>
 <symbol id="y2k-icon-music" viewBox="0 0 256 256">
   <title>Music</title>
-  <rect data-icon-frame="decor" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
-    <ellipse data-icon-frame="decor" class="y2k-i-gloss" cx="96" cy="62" rx="50" ry="14" opacity=".72"/>
-    <path class="y2k-i-muted" d="M54 206H106M146 206H202" opacity=".55"/>
-    <path class="y2k-i-line-3" d="M54 52H78M188 52H204" opacity=".7"/>
+  <rect data-icon-frame="surface" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
+    <path data-icon-frame="decor" data-icon-audit="decorative" class="y2k-i-shine" fill="none" d="M48 78C54 58 68 46 88 42H102" opacity=".58"/>
+    <path data-icon-frame="decor" class="y2k-i-muted" d="M52 206H104M152 206H204" opacity=".55"/>
+    <path data-icon-frame="decor" class="y2k-i-line-3" d="M52 52H76M180 52H204" opacity=".7"/>
     <path class="y2k-i-line" d="M104 162V78L174 64V146"/><circle class="y2k-i-secondary" cx="86" cy="170" r="22"/><circle class="y2k-i-accent" cx="156" cy="154" r="22"/><path class="y2k-i-line-2" d="M104 98L174 84"/>
 </symbol>
 <symbol id="y2k-icon-sparkle" viewBox="0 0 256 256">
   <title>Sparkle</title>
-  <rect data-icon-frame="decor" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
-    <ellipse data-icon-frame="decor" class="y2k-i-gloss" cx="96" cy="62" rx="50" ry="14" opacity=".72"/>
-    <path class="y2k-i-muted" d="M54 206H106M146 206H202" opacity=".55"/>
-    <path class="y2k-i-line-3" d="M54 52H78M188 52H204" opacity=".7"/>
-    <path class="y2k-i-secondary" stroke="var(--y2k-icon-primary,rgb(var(--usk-primary-rgb,55 160 255)))" stroke-width="6" d="M128 55L145 111L202 128L145 145L128 202L111 145L54 128L111 111Z"/><path class="y2k-i-accent" d="M82 64L91 91L118 100L91 109L82 136L73 109L46 100L73 91Z"/><path class="y2k-i-warning" d="M178 58L185 78L206 85L185 92L178 113L171 92L150 85L171 78Z"/>
+  <rect data-icon-frame="surface" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
+    <path data-icon-frame="decor" data-icon-audit="decorative" class="y2k-i-shine" fill="none" d="M48 78C54 58 68 46 88 42H102" opacity=".58"/>
+    <path data-icon-frame="decor" class="y2k-i-muted" d="M52 206H104M152 206H204" opacity=".55"/>
+    <path data-icon-frame="decor" class="y2k-i-line-3" d="M52 52H76M180 52H204" opacity=".7"/>
+    <g data-icon-glyph="semantic">
+      <path data-icon-part="sparkle-primary" class="y2k-i-line" d="M128 48L142 114L176 128L142 142L128 208L114 142L80 128L114 114Z"/>
+      <path data-icon-part="sparkle-secondary" class="y2k-i-line-2" d="M50 66L56 82L72 88L56 94L50 110L44 94L28 88L44 82Z"/>
+      <path data-icon-part="sparkle-tertiary" class="y2k-i-line-3" d="M206 154L212 170L228 176L212 182L206 198L200 182L184 176L200 170Z"/>
+    </g>
 </symbol>
 </svg>

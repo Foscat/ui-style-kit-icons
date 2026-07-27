@@ -1,7 +1,7 @@
 {
   "name": "y2k-ui-style-icons",
-  "version": "0.2.0",
-  "contractVersion": "0.1.0",
+  "version": "1.0.0",
+  "contractVersion": "1.0.0",
   "style": "y2k",
   "styleSource": "Y2K",
   "requiredIconCount": 64,

@@ -1,4 +1,4 @@
-<svg overflow="visible" xmlns="http://www.w3.org/2000/svg" class="usk-icon" width="256" height="256" viewBox="-8 -8 272 272" role="img" aria-labelledby="users-title users-desc">
+<svg overflow="visible" xmlns="http://www.w3.org/2000/svg" class="usk-icon" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="users-title users-desc">
   <title id="users-title">Users</title>
   <desc id="users-desc">Theme-aware SVG icon that follows ui-style-kit-css color scheme variables. Semantic meaning: Audience, team, members, group.</desc>
   <style>
@@ -22,8 +22,15 @@
 [data-icon-frame="decor"]{opacity:var(--usk-icon-frame-decor-opacity,var(--usk-icon-frame-opacity,1))}
 [data-icon-glyph="play"]{fill:var(--usk-icon-play,var(--usk-icon-foreground,rgb(var(--usk-text-rgb,255 255 255))));stroke:none;opacity:1}
 </style>
-  <rect data-icon-frame="decor" class="usk-i-surface" x="28" y="28" width="200" height="200" rx="28"/>
-  <path class="usk-i-line-2" d="M48 70H90M166 70H208M48 186H88M168 186H208" opacity=".62"/>
-  <path class="usk-i-muted" d="M50 212H118M138 212H154M170 212H206" opacity=".7"/>
-  <circle class="usk-i-line-2" cx="96" cy="104" r="24"/><circle class="usk-i-line-2" cx="160" cy="104" r="24"/><circle class="usk-i-line usk-i-glow" cx="128" cy="86" r="30"/><path class="usk-i-line-2" d="M58 190C65 158 86 140 110 140M198 190C191 158 170 140 146 140M78 198C86 160 105 140 128 140C151 140 170 160 178 198"/>
+  <rect data-icon-frame="surface" class="usk-i-surface" x="28" y="28" width="200" height="200" rx="28"/>
+  <path data-icon-frame="decor" class="usk-i-line-2" d="M48 52H82M174 52H208" opacity=".62"/>
+  <path data-icon-frame="decor" class="usk-i-muted" d="M50 212H104M152 212H206" opacity=".7"/>
+  <g data-icon-glyph="semantic" data-icon-prototype="reference-led-v1">
+    <circle data-icon-part="users-head" class="usk-i-line" cx="78" cy="112" r="15"/>
+    <circle data-icon-part="users-head" class="usk-i-line" cx="128" cy="86" r="20"/>
+    <circle data-icon-part="users-head" class="usk-i-line" cx="178" cy="112" r="15"/>
+    <path data-icon-part="users-shoulders" class="usk-i-line" d="M46 184C48 153 59 139 78 139C91 139 100 145 106 155"/>
+    <path data-icon-part="users-shoulders" class="usk-i-line" d="M91 192C93 154 106 132 128 132C150 132 163 154 165 192"/>
+    <path data-icon-part="users-shoulders" class="usk-i-line" d="M150 155C156 145 165 139 178 139C197 139 208 153 210 184"/>
+  </g>
 </svg>

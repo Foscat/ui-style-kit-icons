@@ -21,9 +21,11 @@
 [data-icon-frame="decor"]{opacity:var(--usk-icon-frame-decor-opacity,var(--usk-icon-frame-opacity,1))}
 [data-icon-glyph="play"]{fill:var(--usk-icon-play,var(--usk-icon-foreground,rgb(var(--usk-text-rgb,255 255 255))));stroke:none;opacity:1}
 </style>
-  <rect data-icon-frame="decor" class="bi-surface" x="26" y="28" width="204" height="200" rx="38"/>
-  <rect class="bi-bg-soft" x="48" y="52" width="68" height="48" rx="18" opacity=".88"/>
-  <rect class="bi-bg-soft" x="148" y="164" width="52" height="34" rx="14" opacity=".74"/>
-  <path class="bi-muted" d="M132 53H178M54 118H92M164 112H202" opacity=".42"/>
-  <rect class="bi-chip" x="60" y="82" width="136" height="92" rx="22"/><path class="bi-line" d="M62 137H84L99 94L128 181L148 118H171L184 94L206 137"/><path class="bi-line-3" d="M74 190H182"/>
+  <rect data-icon-frame="surface" class="bi-surface" x="26" y="28" width="204" height="200" rx="38"/>
+  <path data-icon-frame="decor" class="bi-muted" d="M48 52H84M172 52H208M52 210H98M158 210H204" opacity=".42"/>
+  <g data-icon-glyph="semantic">
+    <rect data-icon-part="activity-chip" class="bi-chip" x="52" y="72" width="152" height="112" rx="22"/>
+    <path data-icon-part="activity-pulse" class="bi-line" d="M62 130H82L98 90L126 164L148 106L168 130H194"/>
+    <path data-icon-part="activity-baseline" class="bi-line-3" d="M72 170H184"/>
+  </g>
 </svg>

@@ -1,4 +1,4 @@
-<svg overflow="visible" xmlns="http://www.w3.org/2000/svg" class="cp-icon" width="256" height="256" viewBox="-8 -8 272 272" role="img" aria-labelledby="megaphone-title megaphone-desc">
+<svg overflow="visible" xmlns="http://www.w3.org/2000/svg" class="cp-icon" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="megaphone-title megaphone-desc">
   <title id="megaphone-title">Megaphone</title>
   <desc id="megaphone-desc">Theme-aware cyberpunk SVG icon with gritty neon HUD styling and UI Style Kit color variables. Semantic meaning: Announcement, marketing, broadcast.</desc>
   <style>
@@ -43,9 +43,17 @@
 .cp-i-surface{ fill: var(--cp-icon-bg); stroke: var(--cp-icon-border); stroke-width: 4.5; }
 
 [data-icon-frame]{opacity:var(--usk-icon-frame-opacity,1)}
-[data-icon-frame="decor"]{opacity:var(--usk-icon-frame-decor-opacity,var(--usk-icon-frame-opacity,1))}
+[data-icon-frame="decor"]{opacity:var(--usk-icon-frame-decor-opacity,.26)}
 [data-icon-glyph="play"]{fill:var(--usk-icon-play,var(--usk-icon-foreground,rgb(var(--usk-text-rgb,255 255 255))));stroke:none;opacity:1}
 </style>
-  <rect data-icon-frame="decor" class="cp-i-surface" x="10" y="10" width="236" height="236" rx="26"/><path class="cp-i-muted" d="M36 76H92M164 76H220M36 184H86M174 184H220M76 36V68M184 36V56" opacity=".6"/><path class="cp-i-line-3" d="M42 216H104M152 216H214" opacity=".56"/>
-  <path class="cp-i-primary" d="M74 134H50V94H74L168 66V162Z"/><path class="cp-i-line-2" d="M168 91C188 96 200 111 200 128C200 145 188 160 168 165"/><path class="cp-i-accent" d="M78 134L96 190H122L104 134Z"/>
+  <path data-icon-frame="surface" class="cp-i-bg-strong" d="M42 20H214L236 42V214L214 236H42L20 214V42Z"/>
+  <path data-icon-frame="surface" fill="none" d="M42 20H214L236 42V214L214 236H42L20 214V42Z" stroke="currentColor" stroke-width="4" opacity=".78"/>
+  <g data-icon-frame="decor"><path fill="none" d="M28 74H70M186 74H228M28 182H70M186 182H228M74 28V56M182 28V56M74 200V228M182 200V228" stroke="var(--cp-icon-primary)" stroke-width="2"/><path fill="none" d="M52 34H98M158 34H204M54 222H104M154 222H204" stroke="var(--cp-icon-secondary)" stroke-width="2"/></g>
+  <g data-icon-glyph="semantic" data-icon-prototype="reference-led-v1">
+    <path data-icon-part="megaphone-horn" data-icon-cyber="body" d="M42 104H91L184 67V189L91 152H42Z" fill="var(--cp-icon-bg-soft)" stroke="var(--cp-icon-primary, rgb(var(--usk-primary-rgb, 88 244 255)))" stroke-width="7" stroke-linejoin="miter"/>
+    <path data-icon-part="megaphone-handle" d="M67 152L83 201H121L103 154Z" fill="var(--cp-icon-secondary, rgb(var(--usk-secondary-rgb, 255 46 159)))" stroke="var(--cp-icon-accent, rgb(var(--usk-accent-rgb, 255 184 77)))" stroke-width="5" stroke-linejoin="miter"/>
+    <path data-icon-part="megaphone-horn" data-icon-cyber="segment" d="M91 104V152M111 101L171 78V107L111 126Z" fill="var(--cp-icon-secondary, rgb(var(--usk-secondary-rgb, 255 46 159)))" stroke="var(--cp-icon-accent, rgb(var(--usk-accent-rgb, 255 184 77)))" stroke-width="4"/>
+    <path data-icon-part="megaphone-sound" d="M201 99L216 113L207 128L216 143L201 158M191 115L200 128L191 141" fill="none" stroke="var(--cp-icon-accent, rgb(var(--usk-accent-rgb, 255 184 77)))" stroke-width="6" stroke-linejoin="miter"/>
+    <rect data-icon-cyber="terminal" x="35" y="113" width="14" height="30" fill="var(--cp-icon-accent, rgb(var(--usk-accent-rgb, 255 184 77)))"/>
+  </g>
 </svg>

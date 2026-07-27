@@ -1,3 +1,8 @@
+export const packageName = "ui-style-kit-icons";
+export const packageVersion = "1.0.0";
+export const contractVersion = "1.0.0";
+export const requiredIconCount = 64;
+export const packCount = 12;
 export const coreIconIds = [
   "home",
   "dashboard",
@@ -105,6 +110,38 @@ export const styleAliases = {
   "webapp-synthwave": "synthwave-webapp",
   "bauhaus": "system"
 };
+export const uiStyleKitCssCompatibility = {
+  "packageName": "ui-style-kit-css",
+  "versionRange": ">=2.1.0 <3",
+  "themes": [
+    "midnight-gold",
+    "ocean-steel",
+    "forest-moss",
+    "sunset-ember",
+    "royal-plum",
+    "graphite-cyan",
+    "desert-sage",
+    "rose-quartz",
+    "cyber-lime",
+    "arctic-indigo"
+  ],
+  "modes": [
+    "light",
+    "dark",
+    "contrast"
+  ],
+  "requiredRgbTokens": [
+    "--usk-text-rgb",
+    "--usk-text-muted-rgb",
+    "--usk-border-rgb",
+    "--usk-primary-rgb",
+    "--usk-secondary-rgb",
+    "--usk-accent-rgb",
+    "--usk-success-rgb",
+    "--usk-warning-rgb",
+    "--usk-danger-rgb"
+  ]
+};
 export const packs = [
   {
     "id": "system",
@@ -121,8 +158,8 @@ export const packs = [
       "fallback"
     ],
     "name": "ui-style-kit-icons",
-    "version": "0.2.0",
-    "contractVersion": "0.1.0",
+    "version": "1.0.0",
+    "contractVersion": "1.0.0",
     "style": "system",
     "styleSource": "UI Style Kit",
     "iconCount": 64,
@@ -612,8 +649,8 @@ export const packs = [
       "minimal"
     ],
     "name": "minimal-saas-ui-style-icons",
-    "version": "0.2.0",
-    "contractVersion": "0.1.0",
+    "version": "1.0.0",
+    "contractVersion": "1.0.0",
     "style": "minimal-saas",
     "styleSource": "Quiet Product Console",
     "iconCount": 64,
@@ -1103,8 +1140,8 @@ export const packs = [
       "dashboard"
     ],
     "name": "bento-ui-style-icons",
-    "version": "0.2.0",
-    "contractVersion": "0.1.0",
+    "version": "1.0.0",
+    "contractVersion": "1.0.0",
     "style": "bento",
     "styleSource": "Bento",
     "iconCount": 67,
@@ -1616,8 +1653,8 @@ export const packs = [
       "colorful"
     ],
     "name": "maximalist-ui-style-icons",
-    "version": "0.2.0",
-    "contractVersion": "0.1.0",
+    "version": "1.0.0",
+    "contractVersion": "1.0.0",
     "style": "maximalist",
     "styleSource": "Party Dashboard",
     "iconCount": 64,
@@ -2107,8 +2144,8 @@ export const packs = [
       "graphic"
     ],
     "name": "brutalism-ui-style-icons",
-    "version": "0.2.0",
-    "contractVersion": "0.1.0",
+    "version": "1.0.0",
+    "contractVersion": "1.0.0",
     "style": "brutalism",
     "styleSource": "Brutalism",
     "iconCount": 64,
@@ -2598,8 +2635,8 @@ export const packs = [
       "dimensional"
     ],
     "name": "tactile-ui-style-icons",
-    "version": "0.2.0",
-    "contractVersion": "0.1.0",
+    "version": "1.0.0",
+    "contractVersion": "1.0.0",
     "style": "tactile",
     "styleSource": "Raised Workbench",
     "iconCount": 64,
@@ -3089,8 +3126,8 @@ export const packs = [
       "embossed"
     ],
     "name": "neumorphism-ui-style-icons",
-    "version": "0.2.0",
-    "contractVersion": "0.1.0",
+    "version": "1.0.0",
+    "contractVersion": "1.0.0",
     "style": "neumorphism",
     "styleSource": "Soft Extrusion",
     "iconCount": 64,
@@ -3580,8 +3617,8 @@ export const packs = [
       "translucent"
     ],
     "name": "retro-glass-ui-style-icons",
-    "version": "0.2.0",
-    "contractVersion": "0.1.0",
+    "version": "1.0.0",
+    "contractVersion": "1.0.0",
     "style": "retro-glass",
     "styleSource": "Retro Glass",
     "iconCount": 73,
@@ -4135,8 +4172,8 @@ export const packs = [
       "nostalgic"
     ],
     "name": "y2k-ui-style-icons",
-    "version": "0.2.0",
-    "contractVersion": "0.1.0",
+    "version": "1.0.0",
+    "contractVersion": "1.0.0",
     "style": "y2k",
     "styleSource": "Y2K",
     "iconCount": 69,
@@ -4662,8 +4699,8 @@ export const packs = [
       "hud"
     ],
     "name": "cyberpunk-icon-pack",
-    "version": "0.2.0",
-    "contractVersion": "0.1.0",
+    "version": "1.0.0",
+    "contractVersion": "1.0.0",
     "style": "cyberpunk",
     "styleSource": "Cyberpunk",
     "iconCount": 64,
@@ -5153,8 +5190,8 @@ export const packs = [
       "neon"
     ],
     "name": "synthwave-icon-pack",
-    "version": "0.2.0",
-    "contractVersion": "0.1.0",
+    "version": "1.0.0",
+    "contractVersion": "1.0.0",
     "style": "synthwave",
     "styleSource": "Synthwave",
     "iconCount": 78,
@@ -5743,8 +5780,8 @@ export const packs = [
       "dashboard"
     ],
     "name": "webapp-synthwave-icon-pack",
-    "version": "0.2.0",
-    "contractVersion": "0.1.0",
+    "version": "1.0.0",
+    "contractVersion": "1.0.0",
     "style": "synthwave",
     "styleSource": "Synthwave Web App",
     "iconCount": 64,

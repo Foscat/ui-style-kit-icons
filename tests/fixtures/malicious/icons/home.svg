@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" onload="globalThis.__unsafeRoot = true">
+  <title>Sanitizer fixture</title>
+  <style id="unsafe-style-sheet">
+    @import url("https://example.invalid/unsafe.css");
+    .external-paint { fill: url("https://example.invalid/paint.svg#gradient"); }
+  </style>
+  <script>globalThis.__unsafeScript = true</script>
+  <foreignObject x="0" y="0" width="50" height="50">
+    <div xmlns="http://www.w3.org/1999/xhtml" onload="globalThis.__unsafeForeignObject = true">Unsafe</div>
+  </foreignObject>
+  <a href="javascript:globalThis.__unsafeLink = true">
+    <rect id="unsafe-link" width="32" height="32"/>
+  </a>
+  <image href="https://example.invalid/tracker.png" width="32" height="32"/>
+  <animate attributeName="href" to="javascript:globalThis.__unsafeAnimation = true" dur="1s"/>
+  <defs>
+    <rect id="safe-shape" x="64" y="64" width="128" height="128" rx="24"/>
+  </defs>
+  <use id="safe-use" href="#safe-shape" fill="#2563eb" onclick="globalThis.__unsafeEvent = true"/>
+  <rect id="unsafe-style" class="external-paint" x="16" y="16" width="32" height="32" style="fill:url('https://example.invalid/inline.svg')"/>
+</svg>

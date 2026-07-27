@@ -22,14 +22,15 @@
 [data-icon-frame="decor"]{opacity:var(--usk-icon-frame-decor-opacity,var(--usk-icon-frame-opacity,1))}
 [data-icon-glyph="play"]{fill:var(--usk-icon-play,var(--usk-icon-foreground,rgb(var(--usk-text-rgb,255 255 255))));stroke:none;opacity:1}
 </style>
-  <rect data-icon-frame="decor" class="usk-i-surface" x="28" y="28" width="200" height="200" rx="28"/>
-  <path class="usk-i-line-2" d="M48 70H90M166 70H208M48 186H88M168 186H208" opacity=".62"/>
-  <path class="usk-i-muted" d="M50 212H118M138 212H154M170 212H206" opacity=".7"/>
-  <g data-icon-video="player">
-    <rect data-icon-video="screen" class="usk-i-bg-strong" x="48" y="82" width="132" height="92" rx="18" stroke="var(--usk-icon-primary,rgb(var(--usk-primary-rgb,214 168 79)))" stroke-width="6"/>
-    <path data-icon-video="camera" class="usk-i-accent" d="M180 108L212 90V166L180 148Z" stroke-width="6"/>
-    <path data-icon-video="controls" class="usk-i-muted" d="M68 104H94M68 158H126M144 158H160" opacity=".62"/>
-    <circle data-icon-video="record" class="usk-i-accent" cx="150" cy="104" r="6" stroke-width="4"/>
-    <path d="M96 104L144 128L96 152Z" data-icon-glyph="play"/>
+  <rect data-icon-frame="surface" class="usk-i-surface" x="28" y="28" width="200" height="200" rx="28"/>
+  <path data-icon-frame="decor" class="usk-i-line-2" d="M48 52H82M174 52H208" opacity=".62"/>
+  <path data-icon-frame="decor" class="usk-i-muted" d="M50 212H104M152 212H206" opacity=".7"/>
+  <g data-icon-glyph="semantic" data-icon-prototype="reference-led-v1" data-icon-video="player">
+    <rect class="usk-i-line" x="48" y="64" width="160" height="128" rx="12"/>
+    <rect data-icon-video="screen" class="usk-i-line" x="60" y="76" width="136" height="84" rx="6"/>
+    <path data-icon-video="camera" class="usk-i-line" d="M174 90L190 82V106L174 98Z"/>
+    <path data-icon-video="controls" class="usk-i-line" d="M84 177H174M187 177H192"/>
+    <circle data-icon-video="record" class="usk-i-line" cx="68" cy="177" r="5"/>
+    <path data-icon-glyph="play" d="M109 96L109 140L148 118Z"/>
   </g>
 </svg>

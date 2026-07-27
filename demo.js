@@ -2,7 +2,8 @@ import {
   getPack,
   packRegistry,
   packs,
-  resolveIconUrl
+  resolveIconUrl,
+  uiStyleKitCssCompatibility
 } from "./dist/ui-style-kit-icons.js";
 
 const defaults = {
@@ -14,19 +15,8 @@ const defaults = {
   extras: false,
   q: ""
 };
-const allowedThemes = new Set([
-  "midnight-gold",
-  "ocean-steel",
-  "forest-moss",
-  "sunset-ember",
-  "royal-plum",
-  "graphite-cyan",
-  "desert-sage",
-  "rose-quartz",
-  "cyber-lime",
-  "arctic-indigo"
-]);
-const allowedModes = new Set(["light", "dark", "contrast"]);
+const allowedThemes = new Set(uiStyleKitCssCompatibility.themes);
+const allowedModes = new Set(uiStyleKitCssCompatibility.modes);
 const allowedFrames = new Set(["auto", "none"]);
 const storageKey = "ui-style-kit-icons:demo-state";
 const query = new URLSearchParams(window.location.search);
@@ -128,6 +118,7 @@ function assertDemoControls() {
     throw new Error("UI Style Kit Icons demo frame controls are incomplete.");
   }
 
+  const themeValues = [...elements.themeSelect.options].map(({ value }) => value);
   const unsupportedModes = elements.modeButtons.filter(
     (button) => !allowedModes.has(button.dataset.modeValue)
   );
@@ -141,6 +132,15 @@ function assertDemoControls() {
 
   if (unsupportedFrames.length > 0) {
     throw new Error("UI Style Kit Icons demo contains an unsupported frame control.");
+  }
+
+  if (
+    themeValues.length !== allowedThemes.size ||
+    themeValues.some((theme) => !allowedThemes.has(theme))
+  ) {
+    throw new Error(
+      "UI Style Kit Icons demo themes do not match ui-style-kit-css."
+    );
   }
 }
 
@@ -261,11 +261,17 @@ function syncControls() {
   elements.extrasToggle.checked = state.extras;
   elements.search.value = state.q;
   elements.modeButtons.forEach((button) => {
-    button.setAttribute("aria-pressed", String(button.dataset.modeValue === state.mode));
+    syncPressedSurface(button, button.dataset.modeValue === state.mode);
   });
   elements.frameButtons.forEach((button) => {
-    button.setAttribute("aria-pressed", String(button.dataset.frameValue === state.frame));
+    syncPressedSurface(button, button.dataset.frameValue === state.frame);
   });
+}
+
+function syncPressedSurface(button, isActive) {
+  button.setAttribute("aria-pressed", String(isActive));
+  button.dataset.surfaceLevel = isActive ? "3" : "1";
+  button.dataset.surfaceVariant = isActive ? "primary" : "subtle";
 }
 
 function currentPack() {
@@ -300,7 +306,7 @@ function applyState({ updateUrl: shouldUpdateUrl = true } = {}) {
   elements.extrasCount.textContent = String(pack.optionalIconCount);
   elements.extrasToggle.disabled = pack.optionalIconCount === 0;
   elements.extrasToggle.closest("label").toggleAttribute("data-disabled", pack.optionalIconCount === 0);
-  elements.packSourceLink.href = `https://github.com/Foscat/ui-style-kit-icons/tree/main/${pack.sourcePath}`;
+  elements.packSourceLink.href = `https://github.com/Foscat/ui-style-kit-css-icons/tree/main/${pack.sourcePath}`;
 
   if (pack.optionalIconCount === 0) {
     state.extras = false;
@@ -356,8 +362,10 @@ function renderGrid(icons) {
     const id = document.createElement("code");
 
     card.type = "button";
-    card.className = "icon-card";
+    card.className = "icon-card interactive-surface";
     card.dataset.iconId = icon.id;
+    card.dataset.surfaceLevel = "1";
+    card.dataset.surfaceVariant = "subtle";
     card.setAttribute("aria-label", `Inspect ${icon.label}`);
     artwork.setAttribute("name", icon.id);
     artwork.setAttribute("pack", state.pack);

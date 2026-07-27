@@ -1,4 +1,4 @@
-<svg overflow="visible" xmlns="http://www.w3.org/2000/svg" class="neo-icon" width="256" height="256" viewBox="-8 -8 272 272" role="img" aria-labelledby="network-title network-desc">
+<svg overflow="visible" xmlns="http://www.w3.org/2000/svg" class="neo-icon" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="network-title network-desc">
   <title id="network-title">Network</title>
   <desc id="network-desc">Theme-aware Neumorphism SVG icon with soft extruded surfaces, dual light and dark shadows, inset grooves, and UI Style Kit color variables. Semantic meaning: Connected nodes, graph, distributed system.</desc>
   <style>
@@ -27,8 +27,24 @@
 [data-icon-frame="decor"]{opacity:var(--usk-icon-frame-decor-opacity,var(--usk-icon-frame-opacity,1))}
 [data-icon-glyph="play"]{fill:var(--usk-icon-play,var(--usk-icon-foreground,rgb(var(--usk-text-rgb,255 255 255))));stroke:none;opacity:1}
 </style>
-  <rect data-icon-frame="decor" class="neo-i-shadow-light" x="17" y="17" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-shadow-dark" x="38" y="38" width="200" height="200" rx="42" opacity=".72"/><rect data-icon-frame="decor" class="neo-i-surface" x="28" y="28" width="200" height="200" rx="42"/><path data-icon-frame="decor" class="neo-i-highlight" d="M56 50H166M50 58V132" opacity=".76"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M90 210H194M210 92V174" opacity=".68"/>
-  <path data-icon-frame="decor" class="neo-i-inset" d="M50 72H94M162 72H206" opacity=".68"/><path data-icon-frame="decor" class="neo-i-lowlight" d="M54 188H100M156 188H202" opacity=".48"/>
-  <path data-icon-frame="decor" class="neo-i-highlight" d="M66 214H116M146 214H188" opacity=".44"/>
-  <circle class="neo-i-line" cx="82" cy="132" r="18"/><circle class="neo-i-line-2" cx="128" cy="82" r="18"/><circle class="neo-i-line" cx="174" cy="132" r="18"/><circle class="neo-i-line-3" cx="128" cy="184" r="18"/><path class="neo-i-muted" d="M96 119L115 95M141 95L160 119M100 140L114 172M156 172L170 140M100 132H156"/>
+  <rect data-icon-frame="surface" class="neo-i-shadow-light" x="17" y="17" width="200" height="200" rx="42" opacity=".72"/>
+  <rect data-icon-frame="surface" class="neo-i-shadow-dark" x="38" y="38" width="200" height="200" rx="42" opacity=".72"/>
+  <rect data-icon-frame="surface" class="neo-i-surface" x="28" y="28" width="200" height="200" rx="42"/>
+  <path data-icon-frame="decor" class="neo-i-highlight" d="M56 50H104M50 58V94" opacity=".76"/>
+  <path data-icon-frame="decor" class="neo-i-lowlight" d="M154 210H194M210 164V174" opacity=".68"/>
+  <g data-icon-glyph="semantic" data-icon-prototype="reference-led-v1">
+    <!-- Five inset links terminate at four nodes with paired relief rims. -->
+    <path data-icon-part="network-connector" class="neo-i-line-2" d="M86 116L116 82"/>
+    <path data-icon-part="network-connector" class="neo-i-line-2" d="M140 82L170 116"/>
+    <path data-icon-part="network-connector" class="neo-i-line-2" d="M86 140L116 174"/>
+    <path data-icon-part="network-connector" class="neo-i-line-2" d="M170 140L140 174"/>
+    <path data-icon-part="network-connector" class="neo-i-line-2" d="M91 128L165 128"/>
+    <circle data-icon-part="network-node" class="neo-i-secondary" cx="74" cy="128" r="17" stroke-width="4.8"/>
+    <circle data-icon-part="network-node" class="neo-i-primary" cx="128" cy="70" r="17" stroke-width="5.7"/>
+    <circle data-icon-part="network-node" class="neo-i-secondary" cx="182" cy="128" r="17" stroke-width="4.8"/>
+    <circle data-icon-part="network-node" class="neo-i-accent" cx="128" cy="186" r="17" stroke-width="4.8"/>
+    <path data-icon-audit="decorative" data-icon-relief="inset" class="neo-i-inset" d="M68 128L74 122L80 128L74 134ZM122 70L128 64L134 70L128 76ZM176 128L182 122L188 128L182 134ZM122 186L128 180L134 186L128 192Z"/>
+    <path data-icon-audit="decorative" data-icon-relief="light" class="neo-i-highlight" d="M57 128A17 17 0 0 1 74 111M111 70A17 17 0 0 1 128 53M165 128A17 17 0 0 1 182 111M111 186A17 17 0 0 1 128 169"/>
+    <path data-icon-audit="decorative" data-icon-relief="dark" class="neo-i-lowlight" d="M74 145A17 17 0 0 0 91 128M128 87A17 17 0 0 0 145 70M182 145A17 17 0 0 0 199 128M128 203A17 17 0 0 0 145 186"/>
+  </g>
 </svg>

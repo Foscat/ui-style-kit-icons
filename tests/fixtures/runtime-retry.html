@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Runtime retry fixture</title>
+  </head>
+  <body>
+    <main id="fixtureRoot"></main>
+    <script type="module">
+      import {
+        setAssetBaseUrl
+      } from "../../dist/ui-style-kit-icons.js";
+
+      setAssetBaseUrl(new URL("./retry/", import.meta.url));
+
+      const icon = document.createElement("usk-icon");
+      icon.setAttribute("name", "home");
+      icon.addEventListener("usk-icon-load", () => {
+        document.body.dataset.ready = "true";
+      });
+      icon.addEventListener("usk-icon-error", () => {
+        const errors = Number(document.body.dataset.errors ?? 0) + 1;
+
+        document.body.dataset.errors = String(errors);
+      });
+      document.querySelector("#fixtureRoot").append(icon);
+    </script>
+  </body>
+</html>

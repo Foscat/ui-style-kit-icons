@@ -3,10 +3,10 @@
   <desc id="lens-desc">Theme-aware synthwave SVG icon with neon styling and UI Style Kit color variables. Semantic meaning: lens.</desc>
   <style>
 [data-icon-frame]{opacity:var(--usk-icon-frame-opacity,1)}
-[data-icon-frame="decor"]{opacity:var(--usk-icon-frame-decor-opacity,var(--usk-icon-frame-opacity,1))}
+[data-icon-frame="decor"]{opacity:var(--usk-icon-frame-decor-opacity,.22)}
 [data-icon-glyph="play"]{fill:var(--usk-icon-play,var(--usk-icon-foreground,rgb(var(--usk-text-rgb,255 255 255))));stroke:none;opacity:1}
 </style>
-  
+
   <defs>
     <linearGradient id="lens-bg" x1="32" y1="28" x2="224" y2="228" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="rgb(var(--usk-surface-strong-rgb, 32 16 74))"/>
@@ -14,25 +14,24 @@
       <stop offset="1" stop-color="rgb(var(--usk-bg-rgb, 9 5 28))"/>
     </linearGradient>
     <linearGradient id="lens-sun" x1="72" y1="52" x2="184" y2="158" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
-      <stop offset=".48" stop-color="rgb(var(--usk-warning-rgb, 255 138 61))"/>
-      <stop offset="1" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
+      <stop offset="0" stop-color="var(--sw-icon-accent, rgb(var(--usk-accent-rgb, 255 209 102)))"/>
+      <stop offset=".48" stop-color="var(--sw-icon-warning, rgb(var(--usk-warning-rgb, 255 138 61)))"/>
+      <stop offset="1" stop-color="var(--sw-icon-secondary, rgb(var(--usk-secondary-rgb, 255 43 214)))"/>
     </linearGradient>
     <linearGradient id="lens-neon" x1="52" y1="48" x2="204" y2="208" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="rgb(var(--usk-primary-rgb, 32 244 255))"/>
-      <stop offset=".52" stop-color="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
-      <stop offset="1" stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+      <stop offset="0" stop-color="var(--sw-icon-primary, rgb(var(--usk-primary-rgb, 32 244 255)))"/>
+      <stop offset=".52" stop-color="var(--sw-icon-secondary, rgb(var(--usk-secondary-rgb, 255 43 214)))"/>
+      <stop offset="1" stop-color="var(--sw-icon-accent, rgb(var(--usk-accent-rgb, 255 209 102)))"/>
     </linearGradient>
     <linearGradient id="lens-chrome" x1="64" y1="48" x2="192" y2="212" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="rgb(var(--usk-surface-strong-rgb, 255 247 255))"/>
-      <stop offset=".2" stop-color="rgb(var(--usk-primary-rgb, 32 244 255))"/>
-      <stop offset=".5" stop-color="rgb(var(--usk-secondary-rgb, 111 44 255))"/>
-      <stop offset=".78" stop-color="rgb(var(--usk-secondary-rgb, 255 79 163))"/>
-      <stop offset="1" stop-color="rgb(var(--usk-accent-rgb, 255 209 102))"/>
+      <stop offset=".2" stop-color="var(--sw-icon-primary, rgb(var(--usk-primary-rgb, 32 244 255)))"/>
+      <stop offset=".5" stop-color="var(--sw-icon-secondary, rgb(var(--usk-secondary-rgb, 111 44 255)))"/>
+      <stop offset=".78" stop-color="var(--sw-icon-secondary, rgb(var(--usk-secondary-rgb, 255 79 163)))"/>
+      <stop offset="1" stop-color="var(--sw-icon-accent, rgb(var(--usk-accent-rgb, 255 209 102)))"/>
     </linearGradient>
     <filter id="lens-glow" x="-50%" y="-50%" width="200%" height="200%">
       <feGaussianBlur stdDeviation="5" result="blur"/>
-      <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0.95  0 1 0 0 0.2  0 0 1 0 1  0 0 0 .75 0"/>
       <feMerge>
         <feMergeNode/>
         <feMergeNode in="SourceGraphic"/>
@@ -40,17 +39,17 @@
     </filter>
     <clipPath id="lens-clip"><rect x="18" y="18" width="220" height="220" rx="48"/></clipPath>
   </defs>
-  <rect data-icon-frame="decor" x="18" y="18" width="220" height="220" rx="48" fill="url(#lens-bg)"/>
+  <rect data-icon-frame="surface" x="18" y="18" width="220" height="220" rx="48" fill="url(#lens-bg)"/>
   <g clip-path="url(#lens-clip)">
-    <circle cx="128" cy="100" r="58" fill="url(#lens-sun)" opacity=".95"/>
-    <path d="M35 168H221M49 186H207M67 204H189" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="3" opacity=".55"/>
-    <path d="M30 232L104 156M226 232L152 156M62 232L114 156M194 232L142 156M96 232L123 156M160 232L133 156" stroke="rgb(var(--usk-secondary-rgb, 255 43 214))" stroke-width="2" opacity=".45"/>
-    <path d="M20 214H236" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="4" opacity=".5"/>
-    
-    <circle cx="128" cy="128" r="71" fill="url(#lens-chrome)" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="6"/>
-    <circle cx="128" cy="128" r="43" fill="rgb(var(--usk-surface-rgb, 19 8 47))" stroke="rgb(var(--usk-secondary-rgb, 255 43 214))" stroke-width="8" filter="url(#lens-glow)"/>
-    <circle cx="128" cy="128" r="20" fill="rgb(var(--usk-primary-rgb, 32 244 255))" opacity=".9"/>
-    <path d="M92 87L111 76M155 184L176 167M164 92L181 108" stroke="rgb(var(--usk-surface-strong-rgb, 255 247 255))" stroke-width="8" stroke-linecap="round" opacity=".8"/>
+    <g data-icon-frame="decor"><circle cx="128" cy="100" r="58" fill="url(#lens-sun)" opacity=".24"/></g>
+    <path data-icon-frame="decor" class="sw-i-line-3" d="M48 204H208M76 218H180" opacity=".72"/>
+
+    <path fill="none" data-icon-frame="decor" d="M20 214H236" stroke="var(--sw-icon-accent, rgb(var(--usk-accent-rgb, 255 209 102)))" stroke-width="4" opacity=".5"/>
+
+    <circle cx="128" cy="128" r="71" fill="url(#lens-chrome)" stroke="var(--sw-icon-primary, rgb(var(--usk-primary-rgb, 32 244 255)))" stroke-width="6"/>
+    <circle cx="128" cy="128" r="43" fill="rgb(var(--usk-surface-rgb, 19 8 47))" stroke="var(--sw-icon-secondary, rgb(var(--usk-secondary-rgb, 255 43 214)))" stroke-width="8" filter="url(#lens-glow)"/>
+    <circle cx="128" cy="128" r="20" fill="var(--sw-icon-primary, rgb(var(--usk-primary-rgb, 32 244 255)))" opacity=".9"/>
+    <path fill="none" d="M92 87L111 76M155 184L176 167M164 92L181 108" stroke="rgb(var(--usk-surface-strong-rgb, 255 247 255))" stroke-width="8" stroke-linecap="round" opacity=".8"/>
   </g>
-  <rect data-icon-frame="decor" x="18" y="18" width="220" height="220" rx="48" fill="none" stroke="url(#lens-neon)" stroke-width="4"/>
+  <rect data-icon-frame="surface" x="18" y="18" width="220" height="220" rx="48" fill="none" stroke="url(#lens-neon)" stroke-width="4"/>
 </svg>

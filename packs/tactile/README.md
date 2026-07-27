@@ -6,7 +6,7 @@ This pack follows the **Raised Workbench** direction: soft physical panels, beve
 
 ## Contract
 
-- Contract version: `0.1.0`
+- Contract version: `1.0.0`
 - Required core icons: `64`
 - Included icons: `64`
 - Optional extras: `0`

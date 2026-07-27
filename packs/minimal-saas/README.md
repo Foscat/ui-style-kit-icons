@@ -6,7 +6,7 @@ This pack follows the **Quiet Product Console** direction: restrained monoline m
 
 ## Contract
 
-- Contract version: `0.1.0`
+- Contract version: `1.0.0`
 - Required core icons: `64`
 - Included icons: `64`
 - Optional extras: `0`

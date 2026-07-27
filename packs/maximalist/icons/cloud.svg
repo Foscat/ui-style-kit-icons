@@ -1,4 +1,4 @@
-<svg overflow="visible" xmlns="http://www.w3.org/2000/svg" class="max-icon" width="256" height="256" viewBox="-8 -8 272 272" role="img" aria-labelledby="cloud-title cloud-desc">
+<svg overflow="visible" xmlns="http://www.w3.org/2000/svg" class="max-icon" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="cloud-title cloud-desc">
   <title id="cloud-title">Cloud</title>
   <desc id="cloud-desc">Theme-aware Maximalist / Playful SVG icon with chunky sticker styling, loud token colors, and UI Style Kit color variables. Semantic meaning: Cloud sync, hosted storage.</desc>
   <style>
@@ -25,8 +25,13 @@
 [data-icon-frame="decor"]{opacity:var(--usk-icon-frame-decor-opacity,var(--usk-icon-frame-opacity,1))}
 [data-icon-glyph="play"]{fill:var(--usk-icon-play,var(--usk-icon-foreground,rgb(var(--usk-text-rgb,255 255 255))));stroke:none;opacity:1}
 </style>
-  <rect data-icon-frame="decor" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/><rect data-icon-frame="decor" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/><circle data-icon-frame="decor" class="max-i-confetti" cx="58" cy="70" r="9"/><rect data-icon-frame="decor" class="max-i-pop" x="169" y="49" width="29" height="18" rx="9" transform="rotate(12 184 58)"/>
-  <path class="max-i-line-2" d="M46 198H92M152 198H204" opacity=".7"/><path class="max-i-line-3" d="M44 92L60 108M196 154L214 172" opacity=".76"/>
-  <path class="max-i-muted" d="M70 214H122M148 214H184" opacity=".62"/>
-  <path class="max-i-bg-strong" stroke="var(--max-icon-primary,rgb(var(--usk-primary-rgb,214 168 79)))" stroke-width="6" d="M79 172C60 172 47 158 47 140C47 122 61 109 78 109C88 85 109 72 132 77C153 81 168 98 172 119C193 120 209 136 209 156C209 177 192 190 170 190H82"/><path class="max-i-line-2" d="M104 151H152M128 126V176"/><path class="max-i-line-3" d="M128 126L106 148M128 126L150 148"/>
+  <rect data-icon-frame="surface" class="max-i-shadow" x="38" y="38" width="194" height="194" rx="48"/>
+  <rect data-icon-frame="surface" class="max-i-surface" x="24" y="24" width="198" height="198" rx="48"/>
+  <circle data-icon-frame="decor" class="max-i-confetti" cx="48" cy="48" r="7"/>
+  <rect data-icon-frame="decor" class="max-i-pop" x="184" y="196" width="24" height="14" rx="7" transform="rotate(12 196 203)"/>
+  <g data-icon-glyph="semantic" data-icon-prototype="reference-led-v1">
+    <path data-icon-part="cloud-shell" class="max-i-secondary" d="M70 187C48 187 36 171 40 151C43 134 56 123 72 120C76 91 99 70 128 72C155 73 176 91 182 117C202 119 216 133 216 153C216 174 201 187 179 187Z" style="fill:var(--max-icon-secondary,rgb(var(--usk-secondary-rgb,57 222 255)));stroke:var(--max-icon-border,rgb(var(--usk-border-rgb,22 18 35)/.94));stroke-width:7;stroke-linejoin:round"/>
+    <path data-icon-part="cloud-highlight" class="max-i-primary" d="M73 137C77 112 97 92 122 89C104 98 94 113 92 133Z" style="fill:var(--max-icon-primary,rgb(var(--usk-primary-rgb,255 77 141)));stroke:var(--max-icon-border,rgb(var(--usk-border-rgb,22 18 35)/.94));stroke-width:4;stroke-linejoin:round"/>
+    <path data-icon-part="cloud-action" class="max-i-accent" d="M119 174V140H101L128 110L155 140H137V174Z" style="fill:var(--max-icon-accent,rgb(var(--usk-accent-rgb,255 203 43)));stroke:var(--max-icon-border,rgb(var(--usk-border-rgb,22 18 35)/.94));stroke-width:6;stroke-linejoin:round"/>
+  </g>
 </svg>

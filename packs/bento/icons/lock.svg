@@ -1,4 +1,4 @@
-<svg overflow="visible" xmlns="http://www.w3.org/2000/svg" class="bento-icon" width="256" height="256" viewBox="-8 -8 272 272" role="img" aria-labelledby="lock-title lock-desc">
+<svg overflow="visible" xmlns="http://www.w3.org/2000/svg" class="bento-icon" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="lock-title lock-desc">
   <title id="lock-title">Lock</title>
   <desc id="lock-desc">Theme-aware Bento SVG icon with modular tile styling and UI Style Kit color variables. Semantic meaning: Private, secured, restricted.</desc>
   <style>
@@ -21,9 +21,15 @@
 [data-icon-frame="decor"]{opacity:var(--usk-icon-frame-decor-opacity,var(--usk-icon-frame-opacity,1))}
 [data-icon-glyph="play"]{fill:var(--usk-icon-play,var(--usk-icon-foreground,rgb(var(--usk-text-rgb,255 255 255))));stroke:none;opacity:1}
 </style>
-  <rect data-icon-frame="decor" class="bi-surface" x="26" y="28" width="204" height="200" rx="38"/>
-  <rect class="bi-bg-soft" x="48" y="52" width="68" height="48" rx="18" opacity=".88"/>
-  <rect class="bi-bg-soft" x="148" y="164" width="52" height="34" rx="14" opacity=".74"/>
-  <path class="bi-muted" d="M132 53H178M54 118H92M164 112H202" opacity=".42"/>
-  <rect class="bi-primary" x="70" y="112" width="116" height="84" rx="20"/><path class="bi-line" d="M91 112V94C91 71 106 56 128 56C150 56 165 71 165 94V112"/><circle class="bi-bg-strong" cx="128" cy="150" r="10"/><path class="bi-line-3" d="M128 160V176"/>
+<rect data-icon-frame="surface" class="bi-surface" x="26" y="28" width="204" height="200" rx="38"/>
+
+
+  <path data-icon-frame="decor" class="bi-muted" d="M48 52H84M172 52H208M52 210H98M158 210H204" opacity=".42"/>
+
+
+<rect class="bi-primary" x="70" y="112" width="116" height="84" rx="20"/>
+<path class="bi-line" d="M91 112V94C91 71 106 56 128 56C150 56 165 71 165 94V112"/>
+<circle class="bi-bg-strong" cx="128" cy="150" r="10"/>
+<path class="bi-line-3" d="M128 160V176"/>
+
 </svg>
