@@ -24,6 +24,7 @@ const checkedExtensions = new Set([
   ".json",
   ".md",
   ".mjs",
+  ".svg",
   ".ts",
   ".txt",
   ".webmanifest",
@@ -53,7 +54,7 @@ function walk(dir) {
       errors.push(`${relative}: missing final newline`);
     }
 
-    text.split(/\n/).forEach((line, index) => {
+    text.split(/\r?\n/u).forEach((line, index) => {
       if (/[ \t]$/.test(line)) {
         errors.push(`${relative}:${index + 1}: trailing whitespace`);
       }

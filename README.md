@@ -116,7 +116,15 @@ Every icon exposes authored frame hooks:
 ```
 
 The demo presents the bordered and border-free options. `frame="auto"` is the
-default, `soft` reduces frame emphasis, and `none` keeps only the icon glyph.
+default, `soft` reduces frame emphasis, and `none` removes the outer shell while
+retaining each pack's reference-led object construction. The shared semantic
+silhouette stays recognizable, but material, line, and object cues continue to
+identify the selected pack.
+
+Standalone SVGs are the canonical artwork; build scripts only normalize,
+validate, and package them. The authored direction and approval process are
+documented in
+[`style-source/reference-led-icon-grammar.md`](style-source/reference-led-icon-grammar.md).
 
 ## CSS And Sprites
 
@@ -155,6 +163,29 @@ The live controls require an HTTP server because browsers block ES modules from
 npm run demo
 ```
 
+The GitHub Pages demo verifies these exact development-only companions:
+
+```sh
+npm i -D ui-style-kit-css@2.1.0 interactive-surface-css@1.5.0 layout-style-css@2.1.0
+```
+
+Load their CSS in ownership order, followed by the icon and app layers:
+
+```js
+import "ui-style-kit-css/visual.css";
+import "ui-style-kit-css/interactive-surface-theme.css";
+import "interactive-surface-css/state-core.css";
+import "layout-style-css/min.css";
+import "ui-style-kit-icons/css.css";
+```
+
+The demo predeclares `@layer demo, ui-style-kit, ly;`. UI Style Kit owns
+theme and native-element paint, Interactive Surface owns opt-in interaction
+states, Layout Style owns composition primitives and pack personalities, and
+`demo.css` owns only gallery-specific sizing and responsive constraints.
+Interactive Surface and Layout Style remain demo-only development dependencies;
+neither is a peer or runtime requirement of `ui-style-kit-icons`.
+
 Build the exact GitHub Pages artifact with:
 
 ```sh
@@ -174,6 +205,13 @@ npm run check:demo
 all three modes, and standalone light/dark surfaces. It checks icon sizing,
 clipping, and graphical contrast. `check:ecosystem` validates the installed
 companion manifests, shared RGB tokens, preset mappings, CDN versions, and SRI.
+
+Before extending the reference-led redesign beyond its eight-icon approval set,
+generate the paired bordered and borderless prototype matrices:
+
+```sh
+npm run visual:prototype
+```
 
 Before an npm release:
 

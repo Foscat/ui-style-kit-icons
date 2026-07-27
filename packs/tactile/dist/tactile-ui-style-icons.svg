@@ -39,431 +39,850 @@
 <defs>
 <symbol id="tactile-icon-home" viewBox="0 0 256 256">
   <title>Home</title>
-  <rect data-icon-frame="decor" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="decor" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H175M45 56V138" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M82 210H198M211 86V178" opacity=".74"/>
-    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 68H92M164 68H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 190H100M158 190H204" opacity=".58"/>
+  <rect data-icon-frame="surface" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="surface" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H104M45 56V92" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M152 210H198M211 194V208" opacity=".74"/>
+    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 52H84M172 52H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 204H92M164 204H204" opacity=".58"/>
     <path data-icon-frame="decor" class="tactile-i-highlight" d="M58 214H112M142 214H184" opacity=".5"/>
-    <path class="tactile-i-line tactile-i-glow" d="M66 130L128 76L190 130"/><path class="tactile-i-bg-strong" stroke="var(--tactile-icon-secondary,rgb(var(--usk-secondary-rgb,111 134 184)))" stroke-width="6" d="M84 126V188H172V126Z"/><path class="tactile-i-line-3" d="M115 188V150H141V188"/>
+
+
+
+  <g data-icon-glyph="semantic" data-icon-prototype="reference-led-v1">
+    <!-- Separate roof, wall, and hardware layers make the glyph read as a physical model house. -->
+    <path data-icon-audit="decorative" data-icon-material="shadow" class="tactile-i-shadow" d="M60 132L130 72L203 126L190 142V200H70V143Z" opacity=".5"/>
+    <path data-icon-material="body" data-icon-detail="roof-slab" class="tactile-i-primary" stroke-width="6.4" d="M49 121L126 58L207 116L191 136L127 88L65 140Z"/>
+    <path data-icon-material="body" data-icon-detail="wall-body" class="tactile-i-secondary" stroke-width="5.4" d="M70 127L127 84L188 130V193H70Z"/>
+    <rect data-icon-material="body" data-icon-detail="door-panel" class="tactile-i-accent" x="108" y="145" width="38" height="48" rx="5" stroke-width="4.4"/>
+    <rect data-icon-detail="window-pane" class="tactile-i-warning" x="79" y="143" width="22" height="20" rx="4" stroke-width="3.8"/>
+    <circle data-icon-detail="door-knob" class="tactile-i-warning" cx="137" cy="169" r="3.6" stroke-width="2.8"/>
+    <path data-icon-detail="roof-seams" class="tactile-i-line-2" d="M83 113L128 76L174 110M96 103L105 111M150 96L159 103"/>
+    <path data-icon-audit="decorative" data-icon-material="highlight" class="tactile-i-highlight" d="M54 119L126 61L164 88M72 130V180"/>
+    <path data-icon-audit="decorative" data-icon-material="lowlight" class="tactile-i-lowlight" d="M192 119L191 136L128 89M188 132V193H151"/>
+  </g>
 </symbol>
 <symbol id="tactile-icon-dashboard" viewBox="0 0 256 256">
   <title>Dashboard</title>
-  <rect data-icon-frame="decor" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="decor" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H175M45 56V138" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M82 210H198M211 86V178" opacity=".74"/>
-    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 68H92M164 68H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 190H100M158 190H204" opacity=".58"/>
+  <rect data-icon-frame="surface" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="surface" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H104M45 56V92" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M152 210H198M211 194V208" opacity=".74"/>
+    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 52H84M172 52H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 204H92M164 204H204" opacity=".58"/>
     <path data-icon-frame="decor" class="tactile-i-highlight" d="M58 214H112M142 214H184" opacity=".5"/>
-    <rect class="tactile-i-bg-strong" x="62" y="78" width="132" height="104" rx="18"/><path class="tactile-i-line tactile-i-glow" d="M84 148A44 44 0 0 1 172 148"/><path class="tactile-i-line-3" d="M128 148L158 120"/><path class="tactile-i-muted" d="M86 174H118M138 174H170"/>
+
+
+
+  <rect class="tactile-i-bg-strong" x="62" y="78" width="132" height="104" rx="18"/>
+  <path class="tactile-i-line tactile-i-glow" d="M84 148A44 44 0 0 1 172 148"/>
+  <path class="tactile-i-line-3" d="M128 148L158 120"/>
+  <path class="tactile-i-muted" d="M86 174H118M138 174H170"/>
 </symbol>
-<symbol id="tactile-icon-browser" viewBox="-8 -8 272 272">
+<symbol id="tactile-icon-browser" viewBox="0 0 256 256">
   <title>Browser</title>
-  <rect data-icon-frame="decor" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="decor" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H175M45 56V138" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M82 210H198M211 86V178" opacity=".74"/><path data-icon-frame="decor" class="tactile-i-inset" d="M48 68H92M164 68H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 190H100M158 190H204" opacity=".58"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M58 214H112M142 214H184" opacity=".5"/>
-    <rect class="tactile-i-bg-strong" x="56" y="74" width="144" height="112" rx="18"/><path class="tactile-i-line" d="M56 106H200"/><circle class="tactile-i-danger" cx="80" cy="90" r="6"/><circle class="tactile-i-warning" cx="100" cy="90" r="6"/><circle class="tactile-i-success" cx="120" cy="90" r="6"/><path class="tactile-i-muted" d="M84 132H172M84 158H142"/>
+  <rect data-icon-frame="surface" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="surface" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H104M45 56V92" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M152 210H198M211 194V208" opacity=".74"/><path data-icon-frame="decor" class="tactile-i-inset" d="M48 52H84M172 52H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 204H92M164 204H204" opacity=".58"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M58 214H112M142 214H184" opacity=".5"/>
+
+
+
+  <rect class="tactile-i-bg-strong" x="56" y="74" width="144" height="112" rx="18"/>
+  <path class="tactile-i-line" d="M56 106H200"/>
+  <circle class="tactile-i-danger" cx="80" cy="90" r="6"/>
+  <circle class="tactile-i-warning" cx="100" cy="90" r="6"/>
+  <circle class="tactile-i-success" cx="120" cy="90" r="6"/>
+  <path class="tactile-i-muted" d="M84 132H172M84 158H142"/>
 </symbol>
 <symbol id="tactile-icon-search" viewBox="0 0 256 256">
   <title>Search</title>
-  <rect data-icon-frame="decor" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="decor" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H175M45 56V138" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M82 210H198M211 86V178" opacity=".74"/>
-    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 68H92M164 68H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 190H100M158 190H204" opacity=".58"/>
+  <rect data-icon-frame="surface" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="surface" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H104M45 56V92" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M152 210H198M211 194V208" opacity=".74"/>
+    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 52H84M172 52H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 204H92M164 204H204" opacity=".58"/>
     <path data-icon-frame="decor" class="tactile-i-highlight" d="M58 214H112M142 214H184" opacity=".5"/>
-    <circle class="tactile-i-line tactile-i-glow" cx="112" cy="112" r="41"/><path class="tactile-i-line-2" d="M145 145L194 194"/><path class="tactile-i-muted" d="M90 108H132M94 126H118"/>
+
+
+
+  <circle class="tactile-i-line tactile-i-glow" cx="112" cy="112" r="41"/>
+  <path class="tactile-i-line-2" d="M145 145L194 194"/>
+  <path class="tactile-i-muted" d="M90 108H132M94 126H118"/>
 </symbol>
 <symbol id="tactile-icon-user" viewBox="0 0 256 256">
   <title>User</title>
-  <rect data-icon-frame="decor" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="decor" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H175M45 56V138" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M82 210H198M211 86V178" opacity=".74"/>
-    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 68H92M164 68H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 190H100M158 190H204" opacity=".58"/>
+  <rect data-icon-frame="surface" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="surface" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H104M45 56V92" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M152 210H198M211 194V208" opacity=".74"/>
+    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 52H84M172 52H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 204H92M164 204H204" opacity=".58"/>
     <path data-icon-frame="decor" class="tactile-i-highlight" d="M58 214H112M142 214H184" opacity=".5"/>
-    <circle class="tactile-i-bg-strong" cx="128" cy="92" r="32"/><circle class="tactile-i-line tactile-i-glow" cx="128" cy="92" r="32"/><path class="tactile-i-line-2" d="M72 190C81 154 103 136 128 136C153 136 175 154 184 190"/><path class="tactile-i-line-3" d="M108 92H148"/>
+
+
+
+  <circle class="tactile-i-bg-strong" cx="128" cy="92" r="32"/>
+  <circle class="tactile-i-line tactile-i-glow" cx="128" cy="92" r="32"/>
+  <path class="tactile-i-line-2" d="M72 190C81 154 103 136 128 136C153 136 175 154 184 190"/>
+  <path class="tactile-i-line-3" d="M108 92H148"/>
 </symbol>
-<symbol id="tactile-icon-users" viewBox="-8 -8 272 272">
+<symbol id="tactile-icon-users" viewBox="0 0 256 256">
   <title>Users</title>
-  <rect data-icon-frame="decor" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="decor" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H175M45 56V138" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M82 210H198M211 86V178" opacity=".74"/>
-    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 68H92M164 68H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 190H100M158 190H204" opacity=".58"/>
-    <path data-icon-frame="decor" class="tactile-i-highlight" d="M58 214H112M142 214H184" opacity=".5"/>
-    <circle class="tactile-i-line-2" cx="96" cy="104" r="24"/><circle class="tactile-i-line-2" cx="160" cy="104" r="24"/><circle class="tactile-i-line tactile-i-glow" cx="128" cy="86" r="30"/><path class="tactile-i-line-2" d="M58 190C65 158 86 140 110 140M198 190C191 158 170 140 146 140M78 198C86 160 105 140 128 140C151 140 170 160 178 198"/>
+  <rect data-icon-frame="surface" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/>
+    <rect data-icon-frame="surface" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/>
+    <path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H104M45 56V92" opacity=".82"/>
+    <path data-icon-frame="decor" class="tactile-i-lowlight" d="M152 210H198M211 194V208" opacity=".74"/>
+    <g data-icon-glyph="semantic" data-icon-prototype="reference-led-v1">
+      <!-- Jackets, collars, and badges distinguish three raised desk figurines. -->
+      <path data-icon-audit="decorative" data-icon-material="shadow" class="tactile-i-shadow" d="M49 188C52 153 65 138 84 138C103 138 116 153 119 188ZM88 205C91 154 106 132 130 132C154 132 169 154 172 205ZM141 188C144 153 157 138 176 138C195 138 208 153 211 188Z" opacity=".5"/>
+      <circle data-icon-part="users-head" data-icon-material="body" class="tactile-i-secondary" cx="80" cy="101" r="15" stroke-width="5.2"/>
+      <circle data-icon-part="users-head" data-icon-material="body" class="tactile-i-primary" cx="128" cy="82" r="19" stroke-width="6"/>
+      <circle data-icon-part="users-head" data-icon-material="body" class="tactile-i-accent" cx="176" cy="101" r="15" stroke-width="5.2"/>
+      <path data-icon-part="users-shoulders" data-icon-material="body" class="tactile-i-secondary" stroke-width="5.2" d="M45 181C48 147 61 132 80 132C99 132 112 147 115 181Z"/>
+      <path data-icon-part="users-shoulders" data-icon-material="body" class="tactile-i-primary" stroke-width="6" d="M84 198C87 148 103 126 128 126C153 126 169 148 172 198Z"/>
+      <path data-icon-part="users-shoulders" data-icon-material="body" class="tactile-i-accent" stroke-width="5.2" d="M141 181C144 147 157 132 176 132C195 132 208 147 211 181Z"/>
+      <path data-icon-detail="jacket-collars" class="tactile-i-line-2" d="M67 136L80 153L93 136M108 132L128 157L148 132M163 136L176 153L189 136"/>
+      <path data-icon-detail="jacket-seams" class="tactile-i-line-3" d="M80 153V178M128 157V195M176 153V178"/>
+      <rect data-icon-detail="name-badge" class="tactile-i-warning" x="137" y="164" width="17" height="10" rx="3" stroke-width="3"/>
+      <path data-icon-audit="decorative" data-icon-material="highlight" class="tactile-i-highlight" d="M65 101A15 15 0 0 1 80 86M109 82A19 19 0 0 1 128 63M161 101A15 15 0 0 1 176 86"/>
+      <path data-icon-audit="decorative" data-icon-material="lowlight" class="tactile-i-lowlight" d="M80 116A15 15 0 0 0 95 101M128 101A19 19 0 0 0 147 82M176 116A15 15 0 0 0 191 101M45 181H115M84 198H172M141 181H211"/>
+    </g>
 </symbol>
 <symbol id="tactile-icon-settings" viewBox="0 0 256 256">
   <title>Settings</title>
-  <rect data-icon-frame="decor" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="decor" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H175M45 56V138" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M82 210H198M211 86V178" opacity=".74"/>
-    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 68H92M164 68H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 190H100M158 190H204" opacity=".58"/>
+  <rect data-icon-frame="surface" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="surface" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H104M45 56V92" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M152 210H198M211 194V208" opacity=".74"/>
+    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 52H84M172 52H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 204H92M164 204H204" opacity=".58"/>
     <path data-icon-frame="decor" class="tactile-i-highlight" d="M58 214H112M142 214H184" opacity=".5"/>
-    <path class="tactile-i-bg-strong" stroke="var(--tactile-icon-primary,rgb(var(--usk-primary-rgb,214 168 79)))" stroke-width="6" d="M128 58L143 78L168 73L176 98L199 111L189 135L199 158L176 171L168 196L143 191L128 211L113 191L88 196L80 171L57 158L67 135L57 111L80 98L88 73L113 78Z"/><circle class="tactile-i-line-2 tactile-i-glow" cx="128" cy="135" r="30"/><path class="tactile-i-line-3" d="M128 105V116M128 154V165M98 135H109M147 135H158"/>
+
+
+
+  <path class="tactile-i-bg-strong" stroke="var(--tactile-icon-primary,rgb(var(--usk-primary-rgb,214 168 79)))" stroke-width="6" d="M128 58L143 78L168 73L176 98L199 111L189 135L199 158L176 171L168 196L143 191L128 211L113 191L88 196L80 171L57 158L67 135L57 111L80 98L88 73L113 78Z"/>
+  <circle class="tactile-i-line-2 tactile-i-glow" cx="128" cy="135" r="30"/>
+  <path class="tactile-i-line-3" d="M128 105V116M128 154V165M98 135H109M147 135H158"/>
 </symbol>
 <symbol id="tactile-icon-bell" viewBox="0 0 256 256">
   <title>Notifications</title>
-  <rect data-icon-frame="decor" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="decor" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H175M45 56V138" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M82 210H198M211 86V178" opacity=".74"/>
-    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 68H92M164 68H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 190H100M158 190H204" opacity=".58"/>
+  <rect data-icon-frame="surface" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="surface" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H104M45 56V92" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M152 210H198M211 194V208" opacity=".74"/>
+    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 52H84M172 52H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 204H92M164 204H204" opacity=".58"/>
     <path data-icon-frame="decor" class="tactile-i-highlight" d="M58 214H112M142 214H184" opacity=".5"/>
-    <path class="tactile-i-bg-strong" stroke="var(--tactile-icon-primary,rgb(var(--usk-primary-rgb,214 168 79)))" stroke-width="6" d="M84 151V116C84 89 102 70 128 70C154 70 172 89 172 116V151L189 178H67Z"/><path class="tactile-i-line-3" d="M112 190C119 202 137 202 144 190"/><circle class="tactile-i-danger" cx="176" cy="76" r="16"/>
+
+
+
+  <path class="tactile-i-bg-strong" stroke="var(--tactile-icon-primary,rgb(var(--usk-primary-rgb,214 168 79)))" stroke-width="6" d="M84 151V116C84 89 102 70 128 70C154 70 172 89 172 116V151L189 178H67Z"/>
+  <path class="tactile-i-line-3" d="M112 190C119 202 137 202 144 190"/>
+  <circle class="tactile-i-danger" cx="176" cy="76" r="16"/>
 </symbol>
 <symbol id="tactile-icon-message" viewBox="0 0 256 256">
   <title>Message</title>
-  <rect data-icon-frame="decor" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="decor" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H175M45 56V138" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M82 210H198M211 86V178" opacity=".74"/>
-    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 68H92M164 68H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 190H100M158 190H204" opacity=".58"/>
+  <rect data-icon-frame="surface" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="surface" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H104M45 56V92" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M152 210H198M211 194V208" opacity=".74"/>
+    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 52H84M172 52H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 204H92M164 204H204" opacity=".58"/>
     <path data-icon-frame="decor" class="tactile-i-highlight" d="M58 214H112M142 214H184" opacity=".5"/>
-    <path class="tactile-i-bg-strong" stroke="var(--tactile-icon-primary,rgb(var(--usk-primary-rgb,214 168 79)))" stroke-width="6" d="M58 80H198V160H132L96 194V160H58Z"/><path class="tactile-i-muted" d="M84 108H172M84 132H148"/><path class="tactile-i-line-3" d="M164 132H182"/>
+
+
+
+  <path class="tactile-i-bg-strong" stroke="var(--tactile-icon-primary,rgb(var(--usk-primary-rgb,214 168 79)))" stroke-width="6" d="M58 80H198V160H132L96 194V160H58Z"/>
+  <path class="tactile-i-muted" d="M84 108H172M84 132H148"/>
+  <path class="tactile-i-line-3" d="M164 132H182"/>
 </symbol>
-<symbol id="tactile-icon-mail" viewBox="-8 -8 272 272">
+<symbol id="tactile-icon-mail" viewBox="0 0 256 256">
   <title>Email</title>
-  <rect data-icon-frame="decor" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="decor" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H175M45 56V138" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M82 210H198M211 86V178" opacity=".74"/>
-    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 68H92M164 68H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 190H100M158 190H204" opacity=".58"/>
+  <rect data-icon-frame="surface" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="surface" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H104M45 56V92" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M152 210H198M211 194V208" opacity=".74"/>
+    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 52H84M172 52H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 204H92M164 204H204" opacity=".58"/>
     <path data-icon-frame="decor" class="tactile-i-highlight" d="M58 214H112M142 214H184" opacity=".5"/>
-    <rect class="tactile-i-bg-strong" x="56" y="86" width="144" height="96" rx="16"/><path class="tactile-i-line tactile-i-glow" d="M64 102L128 143L192 102"/><path class="tactile-i-line-2" d="M64 177L110 138M192 177L146 138"/>
+
+
+
+  <rect class="tactile-i-bg-strong" x="56" y="86" width="144" height="96" rx="16"/>
+  <path class="tactile-i-line tactile-i-glow" d="M64 102L128 143L192 102"/>
+  <path class="tactile-i-line-2" d="M64 177L110 138M192 177L146 138"/>
 </symbol>
-<symbol id="tactile-icon-calendar" viewBox="-8 -8 272 272">
+<symbol id="tactile-icon-calendar" viewBox="0 0 256 256">
   <title>Calendar</title>
-  <rect data-icon-frame="decor" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="decor" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H175M45 56V138" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M82 210H198M211 86V178" opacity=".74"/>
-    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 68H92M164 68H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 190H100M158 190H204" opacity=".58"/>
+  <rect data-icon-frame="surface" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="surface" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H104M45 56V92" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M152 210H198M211 194V208" opacity=".74"/>
+    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 52H84M172 52H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 204H92M164 204H204" opacity=".58"/>
     <path data-icon-frame="decor" class="tactile-i-highlight" d="M58 214H112M142 214H184" opacity=".5"/>
-    <rect class="tactile-i-bg-strong" x="60" y="76" width="136" height="122" rx="16"/><path class="tactile-i-line tactile-i-glow" d="M90 60V94M166 60V94M64 112H192"/><path class="tactile-i-line-3" d="M90 140H106M124 140H140M158 140H174M90 166H106M124 166H140"/>
+
+
+
+  <rect class="tactile-i-bg-strong" x="60" y="76" width="136" height="122" rx="16"/>
+  <path class="tactile-i-line tactile-i-glow" d="M90 60V94M166 60V94M64 112H192"/>
+  <path class="tactile-i-line-3" d="M90 140H106M124 140H140M158 140H174M90 166H106M124 166H140"/>
 </symbol>
 <symbol id="tactile-icon-upload" viewBox="0 0 256 256">
   <title>Upload</title>
-  <rect data-icon-frame="decor" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="decor" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H175M45 56V138" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M82 210H198M211 86V178" opacity=".74"/>
-    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 68H92M164 68H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 190H100M158 190H204" opacity=".58"/>
+  <rect data-icon-frame="surface" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="surface" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H104M45 56V92" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M152 210H198M211 194V208" opacity=".74"/>
+    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 52H84M172 52H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 204H92M164 204H204" opacity=".58"/>
     <path data-icon-frame="decor" class="tactile-i-highlight" d="M58 214H112M142 214H184" opacity=".5"/>
-    <path class="tactile-i-line tactile-i-glow" d="M128 68V158M92 104L128 68L164 104"/><path class="tactile-i-line-2" d="M72 152V194H184V152"/><path class="tactile-i-line-3" d="M98 194H158"/>
+
+
+
+  <path class="tactile-i-line tactile-i-glow" d="M128 68V158M92 104L128 68L164 104"/>
+  <path class="tactile-i-line-2" d="M72 152V194H184V152"/>
+  <path class="tactile-i-line-3" d="M98 194H158"/>
 </symbol>
 <symbol id="tactile-icon-download" viewBox="0 0 256 256">
   <title>Download</title>
-  <rect data-icon-frame="decor" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="decor" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H175M45 56V138" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M82 210H198M211 86V178" opacity=".74"/>
-    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 68H92M164 68H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 190H100M158 190H204" opacity=".58"/>
+  <rect data-icon-frame="surface" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="surface" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H104M45 56V92" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M152 210H198M211 194V208" opacity=".74"/>
+    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 52H84M172 52H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 204H92M164 204H204" opacity=".58"/>
     <path data-icon-frame="decor" class="tactile-i-highlight" d="M58 214H112M142 214H184" opacity=".5"/>
-    <path class="tactile-i-line tactile-i-glow" d="M128 68V158M92 123L128 158L164 123"/><path class="tactile-i-line-2" d="M72 152V194H184V152"/><path class="tactile-i-line-3" d="M98 194H158"/>
+
+
+
+  <path class="tactile-i-line tactile-i-glow" d="M128 68V158M92 123L128 158L164 123"/>
+  <path class="tactile-i-line-2" d="M72 152V194H184V152"/>
+  <path class="tactile-i-line-3" d="M98 194H158"/>
 </symbol>
 <symbol id="tactile-icon-folder" viewBox="0 0 256 256">
   <title>Folder</title>
-  <rect data-icon-frame="decor" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="decor" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H175M45 56V138" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M82 210H198M211 86V178" opacity=".74"/>
-    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 68H92M164 68H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 190H100M158 190H204" opacity=".58"/>
+  <rect data-icon-frame="surface" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="surface" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H104M45 56V92" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M152 210H198M211 194V208" opacity=".74"/>
+    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 52H84M172 52H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 204H92M164 204H204" opacity=".58"/>
     <path data-icon-frame="decor" class="tactile-i-highlight" d="M58 214H112M142 214H184" opacity=".5"/>
-    <path class="tactile-i-bg-strong" stroke="var(--tactile-icon-primary,rgb(var(--usk-primary-rgb,214 168 79)))" stroke-width="6" d="M54 89H110L126 110H202V187H54Z"/><path class="tactile-i-line-2" d="M57 116H199"/><path class="tactile-i-line-3" d="M86 150H170"/>
+
+
+
+  <path class="tactile-i-bg-strong" stroke="var(--tactile-icon-primary,rgb(var(--usk-primary-rgb,214 168 79)))" stroke-width="6" d="M54 89H110L126 110H202V187H54Z"/>
+  <path class="tactile-i-line-2" d="M57 116H199"/>
+  <path class="tactile-i-line-3" d="M86 150H170"/>
 </symbol>
 <symbol id="tactile-icon-file" viewBox="0 0 256 256">
   <title>File</title>
-  <rect data-icon-frame="decor" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="decor" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H175M45 56V138" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M82 210H198M211 86V178" opacity=".74"/>
-    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 68H92M164 68H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 190H100M158 190H204" opacity=".58"/>
+  <rect data-icon-frame="surface" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="surface" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H104M45 56V92" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M152 210H198M211 194V208" opacity=".74"/>
+    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 52H84M172 52H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 204H92M164 204H204" opacity=".58"/>
     <path data-icon-frame="decor" class="tactile-i-highlight" d="M58 214H112M142 214H184" opacity=".5"/>
-    <path class="tactile-i-bg-strong" stroke="var(--tactile-icon-primary,rgb(var(--usk-primary-rgb,214 168 79)))" stroke-width="6" d="M78 58H147L184 95V198H78Z"/><path class="tactile-i-line-2" d="M147 58V96H184"/><path class="tactile-i-muted" d="M101 126H155M101 153H160M101 179H137"/>
+
+
+
+  <path class="tactile-i-bg-strong" stroke="var(--tactile-icon-primary,rgb(var(--usk-primary-rgb,214 168 79)))" stroke-width="6" d="M78 58H147L184 95V198H78Z"/>
+  <path class="tactile-i-line-2" d="M147 58V96H184"/>
+  <path class="tactile-i-muted" d="M101 126H155M101 153H160M101 179H137"/>
 </symbol>
 <symbol id="tactile-icon-image" viewBox="0 0 256 256">
   <title>Image</title>
-  <rect data-icon-frame="decor" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="decor" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H175M45 56V138" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M82 210H198M211 86V178" opacity=".74"/>
-    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 68H92M164 68H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 190H100M158 190H204" opacity=".58"/>
+  <rect data-icon-frame="surface" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="surface" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H104M45 56V92" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M152 210H198M211 194V208" opacity=".74"/>
+    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 52H84M172 52H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 204H92M164 204H204" opacity=".58"/>
     <path data-icon-frame="decor" class="tactile-i-highlight" d="M58 214H112M142 214H184" opacity=".5"/>
-    <rect class="tactile-i-bg-strong" x="58" y="74" width="140" height="116" rx="16"/><circle class="tactile-i-accent" cx="161" cy="105" r="14"/><path class="tactile-i-line tactile-i-glow" d="M72 176L107 136L132 162L151 142L187 176Z"/>
+
+
+
+  <rect class="tactile-i-bg-strong" x="58" y="74" width="140" height="116" rx="16"/>
+  <circle class="tactile-i-accent" cx="161" cy="105" r="14"/>
+  <path class="tactile-i-line tactile-i-glow" d="M72 176L107 136L132 162L151 142L187 176Z"/>
 </symbol>
 <symbol id="tactile-icon-video" viewBox="0 0 256 256">
   <title>Video</title>
-  <rect data-icon-frame="decor" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="decor" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H175M45 56V138" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M82 210H198M211 86V178" opacity=".74"/>
-    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 68H92M164 68H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 190H100M158 190H204" opacity=".58"/>
+  <rect data-icon-frame="surface" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="surface" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H104M45 56V92" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M152 210H198M211 194V208" opacity=".74"/>
+    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 52H84M172 52H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 204H92M164 204H204" opacity=".58"/>
     <path data-icon-frame="decor" class="tactile-i-highlight" d="M58 214H112M142 214H184" opacity=".5"/>
-    <g data-icon-video="player">
-      <rect data-icon-video="screen" class="tactile-i-bg-strong" x="48" y="82" width="132" height="92" rx="18" stroke="var(--tactile-icon-primary,rgb(var(--usk-primary-rgb,37 99 235)))" stroke-width="6"/>
-      <path data-icon-video="camera" class="tactile-i-accent" d="M180 108L212 90V166L180 148Z" stroke-width="6"/>
-      <path data-icon-video="controls" class="tactile-i-muted" d="M68 104H94M68 158H126M144 158H160" opacity=".62"/>
-      <circle data-icon-video="record" class="tactile-i-accent" cx="150" cy="104" r="6" stroke-width="4"/>
-      <path d="M96 104L144 128L96 152Z" data-icon-glyph="play"/>
-    </g>
+
+
+
+  <g data-icon-glyph="semantic" data-icon-prototype="reference-led-v1" data-icon-video="player">
+    <!-- A flip-out screen, lens barrel, and top controls form a recognizable physical camcorder. -->
+    <path data-icon-audit="decorative" data-icon-material="shadow" class="tactile-i-shadow" d="M49 92H169C181 92 189 100 189 112V116L217 98V172L189 157V168C189 180 181 188 169 188H49Z" opacity=".5"/>
+    <rect data-icon-video="screen" data-icon-material="body" data-icon-detail="screen-casing" class="tactile-i-primary" x="40" y="82" width="142" height="98" rx="14" stroke-width="6"/>
+    <rect data-icon-detail="screen-bezel" class="tactile-i-secondary" x="55" y="99" width="94" height="62" rx="6" stroke-width="4.6"/>
+    <path data-icon-video="camera" data-icon-material="body" data-icon-detail="lens-barrel" class="tactile-i-accent" stroke-width="5.5" d="M182 111L215 91V171L182 151Z"/>
+    <rect data-icon-detail="top-control" class="tactile-i-secondary" x="72" y="70" width="54" height="15" rx="5" stroke-width="4"/>
+    <path data-icon-video="controls" class="tactile-i-line-2" d="M158 105V151M83 77H114"/>
+    <circle data-icon-video="record" data-icon-detail="record-button" class="tactile-i-warning" cx="163" cy="92" r="7" stroke-width="4"/>
+    <path data-icon-glyph="play" d="M87 111L132 130L87 149Z"/>
+    <path data-icon-audit="decorative" data-icon-material="highlight" class="tactile-i-highlight" d="M55 83H164C174 83 181 90 181 100M188 106L209 94M59 100H139"/>
+    <path data-icon-audit="decorative" data-icon-material="lowlight" class="tactile-i-lowlight" d="M181 116V163C181 173 174 180 164 180H55M209 168L188 156M59 160H139"/>
+  </g>
 </symbol>
 <symbol id="tactile-icon-camera" viewBox="0 0 256 256">
   <title>Camera</title>
-  <rect data-icon-frame="decor" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="decor" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H175M45 56V138" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M82 210H198M211 86V178" opacity=".74"/><path data-icon-frame="decor" class="tactile-i-inset" d="M48 68H92M164 68H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 190H100M158 190H204" opacity=".58"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M58 214H112M142 214H184" opacity=".5"/>
-    <path class="tactile-i-primary" d="M58 100H96L108 82H148L160 100H198V184H58Z"/><circle class="tactile-i-line-2" cx="128" cy="142" r="31"/><circle class="tactile-i-accent" cx="128" cy="142" r="12"/>
+  <rect data-icon-frame="surface" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="surface" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H104M45 56V92" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M152 210H198M211 194V208" opacity=".74"/><path data-icon-frame="decor" class="tactile-i-inset" d="M48 52H84M172 52H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 204H92M164 204H204" opacity=".58"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M58 214H112M142 214H184" opacity=".5"/>
+
+
+
+  <path class="tactile-i-primary" d="M58 100H96L108 82H148L160 100H198V184H58Z"/>
+  <circle class="tactile-i-line-2" cx="128" cy="142" r="31"/>
+  <circle class="tactile-i-accent" cx="128" cy="142" r="12"/>
 </symbol>
 <symbol id="tactile-icon-database" viewBox="0 0 256 256">
   <title>Database</title>
-  <rect data-icon-frame="decor" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="decor" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H175M45 56V138" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M82 210H198M211 86V178" opacity=".74"/>
-    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 68H92M164 68H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 190H100M158 190H204" opacity=".58"/>
+  <rect data-icon-frame="surface" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="surface" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H104M45 56V92" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M152 210H198M211 194V208" opacity=".74"/>
+    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 52H84M172 52H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 204H92M164 204H204" opacity=".58"/>
     <path data-icon-frame="decor" class="tactile-i-highlight" d="M58 214H112M142 214H184" opacity=".5"/>
-    <ellipse class="tactile-i-bg-strong" cx="128" cy="78" rx="58" ry="24"/><path class="tactile-i-line tactile-i-glow" d="M70 78V174C70 187 96 198 128 198C160 198 186 187 186 174V78"/><path class="tactile-i-line-2" d="M70 110C70 123 96 134 128 134C160 134 186 123 186 110M70 143C70 156 96 167 128 167C160 167 186 156 186 143"/><ellipse class="tactile-i-accent" cx="128" cy="78" rx="30" ry="10"/>
+
+
+
+  <ellipse class="tactile-i-bg-strong" cx="128" cy="78" rx="58" ry="24"/>
+  <path class="tactile-i-line tactile-i-glow" d="M70 78V174C70 187 96 198 128 198C160 198 186 187 186 174V78"/>
+  <path class="tactile-i-line-2" d="M70 110C70 123 96 134 128 134C160 134 186 123 186 110M70 143C70 156 96 167 128 167C160 167 186 156 186 143"/>
+  <ellipse class="tactile-i-accent" cx="128" cy="78" rx="30" ry="10"/>
 </symbol>
-<symbol id="tactile-icon-server" viewBox="-8 -8 272 272">
+<symbol id="tactile-icon-server" viewBox="0 0 256 256">
   <title>Server</title>
-  <rect data-icon-frame="decor" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="decor" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H175M45 56V138" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M82 210H198M211 86V178" opacity=".74"/>
-    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 68H92M164 68H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 190H100M158 190H204" opacity=".58"/>
+  <rect data-icon-frame="surface" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="surface" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H104M45 56V92" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M152 210H198M211 194V208" opacity=".74"/>
+    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 52H84M172 52H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 204H92M164 204H204" opacity=".58"/>
     <path data-icon-frame="decor" class="tactile-i-highlight" d="M58 214H112M142 214H184" opacity=".5"/>
-    <rect class="tactile-i-bg-strong" x="62" y="70" width="132" height="48" rx="12"/><rect class="tactile-i-bg-strong" x="62" y="138" width="132" height="48" rx="12"/><path class="tactile-i-line tactile-i-glow" d="M62 94H194M62 162H194"/><circle class="tactile-i-accent" cx="91" cy="94" r="7"/><circle class="tactile-i-success" cx="91" cy="162" r="7"/><path class="tactile-i-muted" d="M115 94H171M115 162H171"/>
+
+
+
+  <rect class="tactile-i-bg-strong" x="62" y="70" width="132" height="48" rx="12"/>
+  <rect class="tactile-i-bg-strong" x="62" y="138" width="132" height="48" rx="12"/>
+  <path class="tactile-i-line tactile-i-glow" d="M62 94H194M62 162H194"/>
+  <circle class="tactile-i-accent" cx="91" cy="94" r="7"/>
+  <circle class="tactile-i-success" cx="91" cy="162" r="7"/>
+  <path class="tactile-i-muted" d="M115 94H171M115 162H171"/>
 </symbol>
 <symbol id="tactile-icon-api" viewBox="0 0 256 256">
   <title>API</title>
-  <rect data-icon-frame="decor" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="decor" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H175M45 56V138" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M82 210H198M211 86V178" opacity=".74"/>
-    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 68H92M164 68H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 190H100M158 190H204" opacity=".58"/>
+  <rect data-icon-frame="surface" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="surface" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H104M45 56V92" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M152 210H198M211 194V208" opacity=".74"/>
+    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 52H84M172 52H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 204H92M164 204H204" opacity=".58"/>
     <path data-icon-frame="decor" class="tactile-i-highlight" d="M58 214H112M142 214H184" opacity=".5"/>
-    <path class="tactile-i-line tactile-i-glow" d="M78 96L48 128L78 160M178 96L208 128L178 160"/><path class="tactile-i-line-3" d="M144 78L112 178"/><path class="tactile-i-line-2" d="M101 126H155"/>
+
+
+
+  <path class="tactile-i-line tactile-i-glow" d="M78 96L48 128L78 160M178 96L208 128L178 160"/>
+  <path class="tactile-i-line-3" d="M144 78L112 178"/>
+  <path class="tactile-i-line-2" d="M101 126H155"/>
 </symbol>
-<symbol id="tactile-icon-lock" viewBox="-8 -8 272 272">
+<symbol id="tactile-icon-lock" viewBox="0 0 256 256">
   <title>Lock</title>
-  <rect data-icon-frame="decor" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="decor" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H175M45 56V138" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M82 210H198M211 86V178" opacity=".74"/>
-    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 68H92M164 68H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 190H100M158 190H204" opacity=".58"/>
+  <rect data-icon-frame="surface" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="surface" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H104M45 56V92" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M152 210H198M211 194V208" opacity=".74"/>
+    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 52H84M172 52H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 204H92M164 204H204" opacity=".58"/>
     <path data-icon-frame="decor" class="tactile-i-highlight" d="M58 214H112M142 214H184" opacity=".5"/>
-    <rect class="tactile-i-bg-strong" x="70" y="112" width="116" height="84" rx="16"/><path class="tactile-i-line tactile-i-glow" d="M91 112V93C91 70 106 55 128 55C150 55 165 70 165 93V112"/><circle class="tactile-i-accent" cx="128" cy="150" r="10"/><path class="tactile-i-line-3" d="M128 160V176"/>
+
+
+
+  <rect class="tactile-i-bg-strong" x="70" y="112" width="116" height="84" rx="16"/>
+  <path class="tactile-i-line tactile-i-glow" d="M91 112V93C91 70 106 55 128 55C150 55 165 70 165 93V112"/>
+  <circle class="tactile-i-accent" cx="128" cy="150" r="10"/>
+  <path class="tactile-i-line-3" d="M128 160V176"/>
 </symbol>
 <symbol id="tactile-icon-shield" viewBox="0 0 256 256">
   <title>Shield</title>
-  <rect data-icon-frame="decor" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="decor" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H175M45 56V138" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M82 210H198M211 86V178" opacity=".74"/>
-    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 68H92M164 68H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 190H100M158 190H204" opacity=".58"/>
+  <rect data-icon-frame="surface" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="surface" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H104M45 56V92" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M152 210H198M211 194V208" opacity=".74"/>
+    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 52H84M172 52H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 204H92M164 204H204" opacity=".58"/>
     <path data-icon-frame="decor" class="tactile-i-highlight" d="M58 214H112M142 214H184" opacity=".5"/>
-    <path class="tactile-i-bg-strong" stroke="var(--tactile-icon-primary,rgb(var(--usk-primary-rgb,214 168 79)))" stroke-width="6" d="M128 55L190 82V126C190 169 164 198 128 215C92 198 66 169 66 126V82Z"/><path class="tactile-i-line-3 tactile-i-glow" d="M97 132L120 155L160 106"/><path class="tactile-i-muted" d="M128 76V194"/>
+
+
+
+  <path class="tactile-i-bg-strong" stroke="var(--tactile-icon-primary,rgb(var(--usk-primary-rgb,214 168 79)))" stroke-width="6" d="M128 55L190 82V126C190 169 164 198 128 215C92 198 66 169 66 126V82Z"/>
+  <path class="tactile-i-line-3 tactile-i-glow" d="M97 132L120 155L160 106"/>
+  <path class="tactile-i-muted" d="M128 76V194"/>
 </symbol>
 <symbol id="tactile-icon-key" viewBox="0 0 256 256">
   <title>Key</title>
-  <rect data-icon-frame="decor" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="decor" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H175M45 56V138" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M82 210H198M211 86V178" opacity=".74"/>
-    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 68H92M164 68H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 190H100M158 190H204" opacity=".58"/>
+  <rect data-icon-frame="surface" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="surface" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H104M45 56V92" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M152 210H198M211 194V208" opacity=".74"/>
+    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 52H84M172 52H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 204H92M164 204H204" opacity=".58"/>
     <path data-icon-frame="decor" class="tactile-i-highlight" d="M58 214H112M142 214H184" opacity=".5"/>
-    <circle class="tactile-i-line tactile-i-glow" cx="94" cy="128" r="34"/><path class="tactile-i-line-2" d="M128 128H202M169 128V150M190 128V143"/><circle class="tactile-i-accent" cx="94" cy="128" r="10"/>
+
+
+
+  <circle class="tactile-i-line tactile-i-glow" cx="94" cy="128" r="34"/>
+  <path class="tactile-i-line-2" d="M128 128H202M169 128V150M190 128V143"/>
+  <circle class="tactile-i-accent" cx="94" cy="128" r="10"/>
 </symbol>
 <symbol id="tactile-icon-chart" viewBox="0 0 256 256">
   <title>Chart</title>
-  <rect data-icon-frame="decor" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="decor" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H175M45 56V138" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M82 210H198M211 86V178" opacity=".74"/>
-    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 68H92M164 68H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 190H100M158 190H204" opacity=".58"/>
+  <rect data-icon-frame="surface" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="surface" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H104M45 56V92" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M152 210H198M211 194V208" opacity=".74"/>
+    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 52H84M172 52H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 204H92M164 204H204" opacity=".58"/>
     <path data-icon-frame="decor" class="tactile-i-highlight" d="M58 214H112M142 214H184" opacity=".5"/>
-    <path class="tactile-i-line-3" d="M66 188H196"/><rect class="tactile-i-primary" x="78" y="132" width="23" height="56" rx="5"/><rect class="tactile-i-secondary" x="116" y="101" width="23" height="87" rx="5"/><rect class="tactile-i-accent" x="154" y="72" width="23" height="116" rx="5"/><path class="tactile-i-muted" d="M72 110L107 126L139 90L183 68"/>
+
+
+
+  <path class="tactile-i-line-3" d="M66 188H196"/>
+  <rect class="tactile-i-primary" x="78" y="132" width="23" height="56" rx="5"/>
+  <rect class="tactile-i-secondary" x="116" y="101" width="23" height="87" rx="5"/>
+  <rect class="tactile-i-accent" x="154" y="72" width="23" height="116" rx="5"/>
+  <path class="tactile-i-muted" d="M72 110L107 126L139 90L183 68"/>
 </symbol>
 <symbol id="tactile-icon-activity" viewBox="0 0 256 256">
   <title>Activity</title>
-  <rect data-icon-frame="decor" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="decor" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H175M45 56V138" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M82 210H198M211 86V178" opacity=".74"/>
-    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 68H92M164 68H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 190H100M158 190H204" opacity=".58"/>
+  <rect data-icon-frame="surface" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="surface" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H104M45 56V92" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M152 210H198M211 194V208" opacity=".74"/>
+    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 52H84M172 52H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 204H92M164 204H204" opacity=".58"/>
     <path data-icon-frame="decor" class="tactile-i-highlight" d="M58 214H112M142 214H184" opacity=".5"/>
-    <path class="tactile-i-line tactile-i-glow" d="M50 137H84L99 94L128 181L148 118H171L184 94L206 137"/><path class="tactile-i-line-2" d="M58 170H198M70 94H94M162 94H190"/>
+
+
+
+  <path class="tactile-i-line tactile-i-glow" d="M50 137H84L99 94L128 181L148 118H171L184 94L206 137"/>
+  <path class="tactile-i-line-2" d="M58 170H198M70 94H94M162 94H190"/>
 </symbol>
-<symbol id="tactile-icon-credit-card" viewBox="-8 -8 272 272">
+<symbol id="tactile-icon-credit-card" viewBox="0 0 256 256">
   <title>Credit Card</title>
-  <rect data-icon-frame="decor" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="decor" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H175M45 56V138" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M82 210H198M211 86V178" opacity=".74"/>
-    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 68H92M164 68H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 190H100M158 190H204" opacity=".58"/>
+  <rect data-icon-frame="surface" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="surface" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H104M45 56V92" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M152 210H198M211 194V208" opacity=".74"/>
+    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 52H84M172 52H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 204H92M164 204H204" opacity=".58"/>
     <path data-icon-frame="decor" class="tactile-i-highlight" d="M58 214H112M142 214H184" opacity=".5"/>
-    <rect class="tactile-i-bg-strong" x="54" y="84" width="148" height="96" rx="16"/><path class="tactile-i-line tactile-i-glow" d="M58 111H198"/><path class="tactile-i-muted" d="M80 148H126M80 166H108"/><circle class="tactile-i-accent" cx="166" cy="157" r="12"/><circle class="tactile-i-secondary" cx="181" cy="157" r="12" opacity=".8"/>
+
+
+
+  <rect class="tactile-i-bg-strong" x="54" y="84" width="148" height="96" rx="16"/>
+  <path class="tactile-i-line tactile-i-glow" d="M58 111H198"/>
+  <path class="tactile-i-muted" d="M80 148H126M80 166H108"/>
+  <circle class="tactile-i-accent" cx="166" cy="157" r="12"/>
+  <circle class="tactile-i-secondary" cx="181" cy="157" r="12" opacity=".8"/>
 </symbol>
 <symbol id="tactile-icon-wallet" viewBox="0 0 256 256">
   <title>Wallet</title>
-  <rect data-icon-frame="decor" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="decor" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H175M45 56V138" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M82 210H198M211 86V178" opacity=".74"/>
-    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 68H92M164 68H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 190H100M158 190H204" opacity=".58"/>
+  <rect data-icon-frame="surface" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="surface" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H104M45 56V92" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M152 210H198M211 194V208" opacity=".74"/>
+    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 52H84M172 52H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 204H92M164 204H204" opacity=".58"/>
     <path data-icon-frame="decor" class="tactile-i-highlight" d="M58 214H112M142 214H184" opacity=".5"/>
-    <path class="tactile-i-bg-strong" stroke="var(--tactile-icon-primary,rgb(var(--usk-primary-rgb,214 168 79)))" stroke-width="6" d="M62 88H176C190 88 198 96 198 110V178C198 190 190 198 176 198H62Z"/><path class="tactile-i-line-2" d="M62 110H190M142 128H206V168H142Z"/><circle class="tactile-i-accent" cx="174" cy="148" r="8"/>
+
+
+
+  <path class="tactile-i-bg-strong" stroke="var(--tactile-icon-primary,rgb(var(--usk-primary-rgb,214 168 79)))" stroke-width="6" d="M62 88H176C190 88 198 96 198 110V178C198 190 190 198 176 198H62Z"/>
+  <path class="tactile-i-line-2" d="M62 110H190M142 128H206V168H142Z"/>
+  <circle class="tactile-i-accent" cx="174" cy="148" r="8"/>
 </symbol>
 <symbol id="tactile-icon-cart" viewBox="0 0 256 256">
   <title>Cart</title>
-  <rect data-icon-frame="decor" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="decor" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H175M45 56V138" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M82 210H198M211 86V178" opacity=".74"/>
-    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 68H92M164 68H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 190H100M158 190H204" opacity=".58"/>
+  <rect data-icon-frame="surface" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="surface" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H104M45 56V92" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M152 210H198M211 194V208" opacity=".74"/>
+    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 52H84M172 52H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 204H92M164 204H204" opacity=".58"/>
     <path data-icon-frame="decor" class="tactile-i-highlight" d="M58 214H112M142 214H184" opacity=".5"/>
-    <path class="tactile-i-line tactile-i-glow" d="M58 76H80L97 158H174L194 102H93"/><circle class="tactile-i-accent" cx="105" cy="187" r="13"/><circle class="tactile-i-secondary" cx="165" cy="187" r="13"/><path class="tactile-i-muted" d="M108 127H175"/>
+
+
+
+  <path class="tactile-i-line tactile-i-glow" d="M58 76H80L97 158H174L194 102H93"/>
+  <circle class="tactile-i-accent" cx="105" cy="187" r="13"/>
+  <circle class="tactile-i-secondary" cx="165" cy="187" r="13"/>
+  <path class="tactile-i-muted" d="M108 127H175"/>
 </symbol>
 <symbol id="tactile-icon-invoice" viewBox="0 0 256 256">
   <title>Invoice</title>
-  <rect data-icon-frame="decor" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="decor" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H175M45 56V138" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M82 210H198M211 86V178" opacity=".74"/>
-    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 68H92M164 68H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 190H100M158 190H204" opacity=".58"/>
+  <rect data-icon-frame="surface" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="surface" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H104M45 56V92" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M152 210H198M211 194V208" opacity=".74"/>
+    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 52H84M172 52H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 204H92M164 204H204" opacity=".58"/>
     <path data-icon-frame="decor" class="tactile-i-highlight" d="M58 214H112M142 214H184" opacity=".5"/>
-    <path class="tactile-i-bg-strong" stroke="var(--tactile-icon-primary,rgb(var(--usk-primary-rgb,214 168 79)))" stroke-width="6" d="M78 58H178V198L158 188L138 198L118 188L98 198L78 188Z"/><path class="tactile-i-muted" d="M100 91H156M100 119H162M100 147H136"/><path class="tactile-i-line-3" d="M94 164H118M148 164H164"/>
+
+
+
+  <path class="tactile-i-bg-strong" stroke="var(--tactile-icon-primary,rgb(var(--usk-primary-rgb,214 168 79)))" stroke-width="6" d="M78 58H178V198L158 188L138 198L118 188L98 198L78 188Z"/>
+  <path class="tactile-i-muted" d="M100 91H156M100 119H162M100 147H136"/>
+  <path class="tactile-i-line-3" d="M94 164H118M148 164H164"/>
 </symbol>
 <symbol id="tactile-icon-tax" viewBox="0 0 256 256">
   <title>Tax</title>
-  <rect data-icon-frame="decor" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="decor" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H175M45 56V138" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M82 210H198M211 86V178" opacity=".74"/>
-    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 68H92M164 68H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 190H100M158 190H204" opacity=".58"/>
+  <rect data-icon-frame="surface" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="surface" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H104M45 56V92" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M152 210H198M211 194V208" opacity=".74"/>
+    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 52H84M172 52H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 204H92M164 204H204" opacity=".58"/>
     <path data-icon-frame="decor" class="tactile-i-highlight" d="M58 214H112M142 214H184" opacity=".5"/>
-    <rect class="tactile-i-bg-strong" x="65" y="75" width="126" height="108" rx="14"/><path class="tactile-i-muted" d="M91 106H165M91 136H138M91 164H116"/><path class="tactile-i-line-2" d="M148 136L170 158M170 136L148 158"/><path class="tactile-i-line-3" d="M92 96V84H118"/>
+
+
+
+  <rect class="tactile-i-bg-strong" x="65" y="75" width="126" height="108" rx="14"/>
+  <path class="tactile-i-muted" d="M91 106H165M91 136H138M91 164H116"/>
+  <path class="tactile-i-line-2" d="M148 136L170 158M170 136L148 158"/>
+  <path class="tactile-i-line-3" d="M92 96V84H118"/>
 </symbol>
 <symbol id="tactile-icon-login" viewBox="0 0 256 256">
   <title>Login</title>
-  <rect data-icon-frame="decor" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="decor" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H175M45 56V138" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M82 210H198M211 86V178" opacity=".74"/>
-    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 68H92M164 68H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 190H100M158 190H204" opacity=".58"/>
+  <rect data-icon-frame="surface" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="surface" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H104M45 56V92" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M152 210H198M211 194V208" opacity=".74"/>
+    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 52H84M172 52H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 204H92M164 204H204" opacity=".58"/>
     <path data-icon-frame="decor" class="tactile-i-highlight" d="M58 214H112M142 214H184" opacity=".5"/>
-    <path class="tactile-i-line-2" d="M60 78H133V106M133 150V178H60"/><path class="tactile-i-line tactile-i-glow" d="M96 128H193M157 94L193 128L157 162"/><circle class="tactile-i-accent" cx="63" cy="128" r="9"/>
+
+
+
+  <path class="tactile-i-line-2" d="M60 78H133V106M133 150V178H60"/>
+  <path class="tactile-i-line tactile-i-glow" d="M96 128H193M157 94L193 128L157 162"/>
+  <circle class="tactile-i-accent" cx="63" cy="128" r="9"/>
 </symbol>
 <symbol id="tactile-icon-logout" viewBox="0 0 256 256">
   <title>Logout</title>
-  <rect data-icon-frame="decor" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="decor" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H175M45 56V138" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M82 210H198M211 86V178" opacity=".74"/>
-    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 68H92M164 68H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 190H100M158 190H204" opacity=".58"/>
+  <rect data-icon-frame="surface" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="surface" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H104M45 56V92" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M152 210H198M211 194V208" opacity=".74"/>
+    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 52H84M172 52H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 204H92M164 204H204" opacity=".58"/>
     <path data-icon-frame="decor" class="tactile-i-highlight" d="M58 214H112M142 214H184" opacity=".5"/>
-    <path class="tactile-i-line-2" d="M196 78H123V106M123 150V178H196"/><path class="tactile-i-line tactile-i-glow" d="M160 128H63M99 94L63 128L99 162"/><circle class="tactile-i-accent" cx="193" cy="128" r="9"/>
+
+
+
+  <path class="tactile-i-line-2" d="M196 78H123V106M123 150V178H196"/>
+  <path class="tactile-i-line tactile-i-glow" d="M160 128H63M99 94L63 128L99 162"/>
+  <circle class="tactile-i-accent" cx="193" cy="128" r="9"/>
 </symbol>
 <symbol id="tactile-icon-edit" viewBox="0 0 256 256">
   <title>Edit</title>
-  <rect data-icon-frame="decor" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="decor" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H175M45 56V138" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M82 210H198M211 86V178" opacity=".74"/>
-    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 68H92M164 68H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 190H100M158 190H204" opacity=".58"/>
+  <rect data-icon-frame="surface" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="surface" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H104M45 56V92" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M152 210H198M211 194V208" opacity=".74"/>
+    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 52H84M172 52H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 204H92M164 204H204" opacity=".58"/>
     <path data-icon-frame="decor" class="tactile-i-highlight" d="M58 214H112M142 214H184" opacity=".5"/>
-    <path class="tactile-i-bg-strong" stroke="var(--tactile-icon-primary,rgb(var(--usk-primary-rgb,214 168 79)))" stroke-width="6" d="M72 171L67 195L91 190L176 105L157 86Z"/><path class="tactile-i-line-2" d="M145 98L164 117M82 181L75 188"/><path class="tactile-i-accent" stroke="var(--tactile-icon-secondary,rgb(var(--usk-secondary-rgb,111 134 184)))" stroke-width="5" d="M161 82L176 67L195 86L180 101Z"/>
+
+
+
+  <path class="tactile-i-bg-strong" stroke="var(--tactile-icon-primary,rgb(var(--usk-primary-rgb,214 168 79)))" stroke-width="6" d="M72 171L67 195L91 190L176 105L157 86Z"/>
+  <path class="tactile-i-line-2" d="M145 98L164 117M82 181L75 188"/>
+  <path class="tactile-i-accent" stroke="var(--tactile-icon-secondary,rgb(var(--usk-secondary-rgb,111 134 184)))" stroke-width="5" d="M161 82L176 67L195 86L180 101Z"/>
 </symbol>
 <symbol id="tactile-icon-trash" viewBox="0 0 256 256">
   <title>Trash</title>
-  <rect data-icon-frame="decor" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="decor" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H175M45 56V138" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M82 210H198M211 86V178" opacity=".74"/>
-    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 68H92M164 68H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 190H100M158 190H204" opacity=".58"/>
+  <rect data-icon-frame="surface" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="surface" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H104M45 56V92" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M152 210H198M211 194V208" opacity=".74"/>
+    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 52H84M172 52H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 204H92M164 204H204" opacity=".58"/>
     <path data-icon-frame="decor" class="tactile-i-highlight" d="M58 214H112M142 214H184" opacity=".5"/>
-    <path class="tactile-i-line tactile-i-glow" d="M83 95H173M108 95V73H148V95M94 111L101 194H155L162 111"/><path class="tactile-i-line-2" d="M116 130V173M140 130V173"/><path class="tactile-i-line-3" d="M103 194H153"/>
+
+
+
+  <path class="tactile-i-line tactile-i-glow" d="M83 95H173M108 95V73H148V95M94 111L101 194H155L162 111"/>
+  <path class="tactile-i-line-2" d="M116 130V173M140 130V173"/>
+  <path class="tactile-i-line-3" d="M103 194H153"/>
 </symbol>
 <symbol id="tactile-icon-plus" viewBox="0 0 256 256">
   <title>Plus</title>
-  <rect data-icon-frame="decor" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="decor" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H175M45 56V138" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M82 210H198M211 86V178" opacity=".74"/>
-    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 68H92M164 68H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 190H100M158 190H204" opacity=".58"/>
+  <rect data-icon-frame="surface" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="surface" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H104M45 56V92" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M152 210H198M211 194V208" opacity=".74"/>
+    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 52H84M172 52H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 204H92M164 204H204" opacity=".58"/>
     <path data-icon-frame="decor" class="tactile-i-highlight" d="M58 214H112M142 214H184" opacity=".5"/>
-    <circle class="tactile-i-bg-strong" cx="128" cy="128" r="66"/><circle class="tactile-i-line tactile-i-glow" cx="128" cy="128" r="66"/><path class="tactile-i-line-2" d="M128 88V168M88 128H168"/><path class="tactile-i-line-3" d="M128 96V160M96 128H160"/>
+
+
+
+  <circle class="tactile-i-bg-strong" cx="128" cy="128" r="66"/>
+  <circle class="tactile-i-line tactile-i-glow" cx="128" cy="128" r="66"/>
+  <path class="tactile-i-line-2" d="M128 88V168M88 128H168"/>
+  <path class="tactile-i-line-3" d="M128 96V160M96 128H160"/>
 </symbol>
 <symbol id="tactile-icon-minus" viewBox="0 0 256 256">
   <title>Minus</title>
-  <rect data-icon-frame="decor" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="decor" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H175M45 56V138" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M82 210H198M211 86V178" opacity=".74"/>
-    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 68H92M164 68H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 190H100M158 190H204" opacity=".58"/>
+  <rect data-icon-frame="surface" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="surface" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H104M45 56V92" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M152 210H198M211 194V208" opacity=".74"/>
+    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 52H84M172 52H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 204H92M164 204H204" opacity=".58"/>
     <path data-icon-frame="decor" class="tactile-i-highlight" d="M58 214H112M142 214H184" opacity=".5"/>
-    <circle class="tactile-i-bg-strong" cx="128" cy="128" r="66"/><circle class="tactile-i-line tactile-i-glow" cx="128" cy="128" r="66"/><path class="tactile-i-line-2" d="M88 128H168"/><path class="tactile-i-line-3" d="M96 128H160"/>
+
+
+
+  <circle class="tactile-i-bg-strong" cx="128" cy="128" r="66"/>
+  <circle class="tactile-i-line tactile-i-glow" cx="128" cy="128" r="66"/>
+  <path class="tactile-i-line-2" d="M88 128H168"/>
+  <path class="tactile-i-line-3" d="M96 128H160"/>
 </symbol>
 <symbol id="tactile-icon-filter" viewBox="0 0 256 256">
   <title>Filter</title>
-  <rect data-icon-frame="decor" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="decor" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H175M45 56V138" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M82 210H198M211 86V178" opacity=".74"/>
-    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 68H92M164 68H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 190H100M158 190H204" opacity=".58"/>
+  <rect data-icon-frame="surface" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="surface" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H104M45 56V92" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M152 210H198M211 194V208" opacity=".74"/>
+    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 52H84M172 52H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 204H92M164 204H204" opacity=".58"/>
     <path data-icon-frame="decor" class="tactile-i-highlight" d="M58 214H112M142 214H184" opacity=".5"/>
-    <path class="tactile-i-bg-strong" stroke="var(--tactile-icon-primary,rgb(var(--usk-primary-rgb,214 168 79)))" stroke-width="6" d="M60 74H196L145 134V187L111 202V134Z"/><path class="tactile-i-line-2" d="M84 96H172M103 124H153"/><path class="tactile-i-line-3" d="M111 202L145 187"/>
+
+
+
+  <path class="tactile-i-bg-strong" stroke="var(--tactile-icon-primary,rgb(var(--usk-primary-rgb,214 168 79)))" stroke-width="6" d="M60 74H196L145 134V187L111 202V134Z"/>
+  <path class="tactile-i-line-2" d="M84 96H172M103 124H153"/>
+  <path class="tactile-i-line-3" d="M111 202L145 187"/>
 </symbol>
 <symbol id="tactile-icon-menu" viewBox="0 0 256 256">
   <title>Menu</title>
-  <rect data-icon-frame="decor" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="decor" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H175M45 56V138" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M82 210H198M211 86V178" opacity=".74"/>
-    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 68H92M164 68H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 190H100M158 190H204" opacity=".58"/>
+  <rect data-icon-frame="surface" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="surface" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H104M45 56V92" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M152 210H198M211 194V208" opacity=".74"/>
+    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 52H84M172 52H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 204H92M164 204H204" opacity=".58"/>
     <path data-icon-frame="decor" class="tactile-i-highlight" d="M58 214H112M142 214H184" opacity=".5"/>
-    <path class="tactile-i-line tactile-i-glow" d="M70 87H186M70 128H186M70 169H186"/><path class="tactile-i-line-2" d="M72 99H116M140 140H186M72 181H128"/><circle class="tactile-i-accent" cx="84" cy="87" r="6"/>
+
+
+
+  <path class="tactile-i-line tactile-i-glow" d="M70 87H186M70 128H186M70 169H186"/>
+  <path class="tactile-i-line-2" d="M72 99H116M140 140H186M72 181H128"/>
+  <circle class="tactile-i-accent" cx="84" cy="87" r="6"/>
 </symbol>
 <symbol id="tactile-icon-code" viewBox="0 0 256 256">
   <title>Code</title>
-  <rect data-icon-frame="decor" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="decor" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H175M45 56V138" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M82 210H198M211 86V178" opacity=".74"/>
-    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 68H92M164 68H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 190H100M158 190H204" opacity=".58"/>
+  <rect data-icon-frame="surface" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="surface" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H104M45 56V92" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M152 210H198M211 194V208" opacity=".74"/>
+    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 52H84M172 52H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 204H92M164 204H204" opacity=".58"/>
     <path data-icon-frame="decor" class="tactile-i-highlight" d="M58 214H112M142 214H184" opacity=".5"/>
-    <path class="tactile-i-line tactile-i-glow" d="M82 93L48 128L82 163M174 93L208 128L174 163"/><path class="tactile-i-line-3" d="M144 73L112 183"/><path class="tactile-i-line-2" d="M95 192H161"/>
+
+
+
+  <path class="tactile-i-line tactile-i-glow" d="M82 93L48 128L82 163M174 93L208 128L174 163"/>
+  <path class="tactile-i-line-3" d="M144 73L112 183"/>
+  <path class="tactile-i-line-2" d="M95 192H161"/>
 </symbol>
 <symbol id="tactile-icon-terminal" viewBox="0 0 256 256">
   <title>Terminal</title>
-  <rect data-icon-frame="decor" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="decor" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H175M45 56V138" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M82 210H198M211 86V178" opacity=".74"/>
-    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 68H92M164 68H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 190H100M158 190H204" opacity=".58"/>
+  <rect data-icon-frame="surface" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="surface" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H104M45 56V92" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M152 210H198M211 194V208" opacity=".74"/>
+    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 52H84M172 52H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 204H92M164 204H204" opacity=".58"/>
     <path data-icon-frame="decor" class="tactile-i-highlight" d="M58 214H112M142 214H184" opacity=".5"/>
-    <rect class="tactile-i-bg-strong" x="55" y="72" width="146" height="116" rx="14"/><path class="tactile-i-line tactile-i-glow" d="M55 100H201"/><path class="tactile-i-line-3" d="M82 126L103 143L82 160M117 160H164"/><circle class="tactile-i-danger" cx="76" cy="86" r="5"/><circle class="tactile-i-warning" cx="94" cy="86" r="5"/><circle class="tactile-i-success" cx="112" cy="86" r="5"/>
+
+
+
+  <rect class="tactile-i-bg-strong" x="55" y="72" width="146" height="116" rx="14"/>
+  <path class="tactile-i-line tactile-i-glow" d="M55 100H201"/>
+  <path class="tactile-i-line-3" d="M82 126L103 143L82 160M117 160H164"/>
+  <circle class="tactile-i-danger" cx="76" cy="86" r="5"/>
+  <circle class="tactile-i-warning" cx="94" cy="86" r="5"/>
+  <circle class="tactile-i-success" cx="112" cy="86" r="5"/>
 </symbol>
 <symbol id="tactile-icon-rocket" viewBox="0 0 256 256">
   <title>Rocket</title>
-  <rect data-icon-frame="decor" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="decor" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H175M45 56V138" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M82 210H198M211 86V178" opacity=".74"/>
-    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 68H92M164 68H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 190H100M158 190H204" opacity=".58"/>
+  <rect data-icon-frame="surface" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="surface" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H104M45 56V92" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M152 210H198M211 194V208" opacity=".74"/>
+    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 52H84M172 52H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 204H92M164 204H204" opacity=".58"/>
     <path data-icon-frame="decor" class="tactile-i-highlight" d="M58 214H112M142 214H184" opacity=".5"/>
-    <path class="tactile-i-bg-strong" stroke="var(--tactile-icon-primary,rgb(var(--usk-primary-rgb,214 168 79)))" stroke-width="6" d="M135 55C169 65 189 87 199 121L161 158L99 96Z"/><circle class="tactile-i-line-3" cx="160" cy="94" r="15"/><path class="tactile-i-secondary" stroke="var(--tactile-icon-accent,rgb(var(--usk-accent-rgb,243 210 122)))" stroke-width="5" d="M96 99L70 109L91 130M158 160L147 186L126 165"/><path class="tactile-i-line-2" d="M96 160L67 189M113 176L97 207"/>
+
+
+
+  <path class="tactile-i-bg-strong" stroke="var(--tactile-icon-primary,rgb(var(--usk-primary-rgb,214 168 79)))" stroke-width="6" d="M135 55C169 65 189 87 199 121L161 158L99 96Z"/>
+  <circle class="tactile-i-line-3" cx="160" cy="94" r="15"/>
+  <path fill="none" class="tactile-i-secondary" stroke="var(--tactile-icon-accent,rgb(var(--usk-accent-rgb,243 210 122)))" stroke-width="5" d="M96 99L70 109L91 130M158 160L147 186L126 165"/>
+  <path class="tactile-i-line-2" d="M96 160L67 189M113 176L97 207"/>
 </symbol>
-<symbol id="tactile-icon-bug" viewBox="-8 -8 272 272">
+<symbol id="tactile-icon-bug" viewBox="0 0 256 256">
   <title>Bug</title>
-  <rect data-icon-frame="decor" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="decor" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H175M45 56V138" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M82 210H198M211 86V178" opacity=".74"/>
-    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 68H92M164 68H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 190H100M158 190H204" opacity=".58"/>
-    <path data-icon-frame="decor" class="tactile-i-highlight" d="M58 214H112M142 214H184" opacity=".5"/>
-    <ellipse class="tactile-i-bg-strong" cx="128" cy="137" rx="45" ry="55"/><ellipse class="tactile-i-line tactile-i-glow" cx="128" cy="137" rx="45" ry="55"/><circle class="tactile-i-secondary" cx="128" cy="80" r="24"/><path class="tactile-i-muted" d="M128 106V190M82 118L58 96M174 118L198 96M78 147H50M178 147H206M88 177L61 194M168 177L195 194"/><circle class="tactile-i-bg" cx="119" cy="79" r="5"/><circle class="tactile-i-bg" cx="137" cy="79" r="5"/>
+  <rect data-icon-frame="surface" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/>
+    <rect data-icon-frame="surface" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/>
+    <path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H104M45 56V92" opacity=".82"/>
+    <path data-icon-frame="decor" class="tactile-i-lowlight" d="M152 210H198M211 194V208" opacity=".74"/>
+    <g data-icon-glyph="semantic">
+      <path data-icon-part="bug-legs" class="tactile-i-line-2" d="M92 112L63 96M88 136H55M92 160L63 178M164 112L193 96M168 136H201M164 160L193 178M108 80L90 57M148 80L166 57"/>
+      <path data-icon-part="bug-body" class="tactile-i-line" d="M90 128C90 98 106 82 128 82C150 82 166 98 166 128V151C166 182 150 202 128 202C106 202 90 182 90 151Z"/>
+      <path data-icon-part="bug-head" class="tactile-i-line-3" d="M102 96C108 82 116 76 128 76C140 76 148 82 154 96"/>
+      <path data-icon-part="bug-body" class="tactile-i-line-2" d="M128 84V200M92 137H164"/>
+    </g>
 </symbol>
 <symbol id="tactile-icon-help" viewBox="0 0 256 256">
   <title>Help</title>
-  <rect data-icon-frame="decor" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="decor" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H175M45 56V138" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M82 210H198M211 86V178" opacity=".74"/>
-    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 68H92M164 68H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 190H100M158 190H204" opacity=".58"/>
+  <rect data-icon-frame="surface" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="surface" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H104M45 56V92" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M152 210H198M211 194V208" opacity=".74"/>
+    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 52H84M172 52H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 204H92M164 204H204" opacity=".58"/>
     <path data-icon-frame="decor" class="tactile-i-highlight" d="M58 214H112M142 214H184" opacity=".5"/>
-    <circle class="tactile-i-bg-strong" cx="128" cy="128" r="66"/><circle class="tactile-i-line tactile-i-glow" cx="128" cy="128" r="66"/><path class="tactile-i-line-2" d="M105 106C107 86 122 76 140 82C158 88 163 108 151 122C142 132 129 134 128 151"/><circle class="tactile-i-accent" cx="128" cy="178" r="9"/>
+
+
+
+  <circle class="tactile-i-bg-strong" cx="128" cy="128" r="66"/>
+  <circle class="tactile-i-line tactile-i-glow" cx="128" cy="128" r="66"/>
+  <path class="tactile-i-line-2" d="M105 106C107 86 122 76 140 82C158 88 163 108 151 122C142 132 129 134 128 151"/>
+  <circle class="tactile-i-accent" cx="128" cy="178" r="9"/>
 </symbol>
-<symbol id="tactile-icon-link" viewBox="-8 -8 272 272">
+<symbol id="tactile-icon-link" viewBox="0 0 256 256">
   <title>Link</title>
-  <rect data-icon-frame="decor" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="decor" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H175M45 56V138" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M82 210H198M211 86V178" opacity=".74"/>
-    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 68H92M164 68H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 190H100M158 190H204" opacity=".58"/>
-    <path data-icon-frame="decor" class="tactile-i-highlight" d="M58 214H112M142 214H184" opacity=".5"/>
-    <path class="tactile-i-line tactile-i-glow" d="M106 91L121 76C140 57 172 57 191 76C210 95 210 127 191 146L171 166"/><path class="tactile-i-line-2" d="M150 165L135 180C116 199 84 199 65 180C46 161 46 129 65 110L85 90"/><path class="tactile-i-line-3" d="M104 152L152 104"/>
+  <rect data-icon-frame="surface" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/>
+    <rect data-icon-frame="surface" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/>
+    <path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H104M45 56V92" opacity=".82"/>
+    <path data-icon-frame="decor" class="tactile-i-lowlight" d="M152 210H198M211 194V208" opacity=".74"/>
+    <g data-icon-glyph="semantic" data-icon-prototype="reference-led-v1" transform="rotate(-32 128 128)">
+      <!-- Offset hinged clasps preserve visible interlocking negative space. -->
+      <rect data-icon-audit="decorative" data-icon-material="shadow" class="tactile-i-shadow" x="49" y="93" width="112" height="58" rx="20" opacity=".5"/>
+      <rect data-icon-audit="decorative" data-icon-material="shadow" class="tactile-i-shadow" x="105" y="113" width="112" height="58" rx="20" opacity=".5"/>
+      <rect data-icon-part="link-loop-a" data-icon-material="body" data-icon-detail="left-clasp" class="tactile-i-primary" x="44" y="88" width="112" height="58" rx="20" stroke-width="6.4"/>
+      <rect data-icon-part="link-loop-b" data-icon-material="body" data-icon-detail="right-clasp" class="tactile-i-secondary" x="100" y="108" width="112" height="58" rx="20" stroke-width="5.4"/>
+      <path data-icon-part="link-bridge" data-icon-audit="decorative" data-icon-material="highlight" data-icon-detail="locking-bridge" class="tactile-i-highlight" d="M110 117L146 137"/>
+      <path data-icon-detail="clasp-seams" class="tactile-i-line-2" d="M70 89V145M186 109V165"/>
+      <circle data-icon-detail="hinge-pin" class="tactile-i-warning" cx="70" cy="117" r="6" stroke-width="3.6"/>
+      <circle data-icon-detail="hinge-pin" class="tactile-i-accent" cx="186" cy="137" r="6" stroke-width="3.6"/>
+      <path data-icon-audit="decorative" data-icon-material="highlight" class="tactile-i-highlight" d="M48 108C52 96 60 90 74 90H126C142 90 154 101 154 117M104 128C108 116 116 110 130 110H180"/>
+      <path data-icon-audit="decorative" data-icon-material="lowlight" class="tactile-i-lowlight" d="M208 146C204 158 196 164 182 164H130C114 164 102 153 102 137M152 126C148 138 140 144 126 144H74"/>
+    </g>
 </symbol>
-<symbol id="tactile-icon-cloud" viewBox="-8 -8 272 272">
+<symbol id="tactile-icon-cloud" viewBox="0 0 256 256">
   <title>Cloud</title>
-  <rect data-icon-frame="decor" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="decor" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H175M45 56V138" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M82 210H198M211 86V178" opacity=".74"/>
-    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 68H92M164 68H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 190H100M158 190H204" opacity=".58"/>
-    <path data-icon-frame="decor" class="tactile-i-highlight" d="M58 214H112M142 214H184" opacity=".5"/>
-    <path class="tactile-i-bg-strong" stroke="var(--tactile-icon-primary,rgb(var(--usk-primary-rgb,214 168 79)))" stroke-width="6" d="M79 172C60 172 47 158 47 140C47 122 61 109 78 109C88 85 109 72 132 77C153 81 168 98 172 119C193 120 209 136 209 156C209 177 192 190 170 190H82"/><path class="tactile-i-line-2" d="M104 151H152M128 126V176"/><path class="tactile-i-line-3" d="M128 126L106 148M128 126L150 148"/>
+  <rect data-icon-frame="surface" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/>
+    <rect data-icon-frame="surface" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/>
+    <path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H104M45 56V92" opacity=".82"/>
+    <path data-icon-frame="decor" class="tactile-i-lowlight" d="M152 210H198M211 194V208" opacity=".74"/>
+    <g data-icon-glyph="semantic" data-icon-prototype="reference-led-v1">
+      <!-- A closed cloud casing sits on a storage tray with attached status hardware. -->
+      <path data-icon-audit="decorative" data-icon-material="shadow" class="tactile-i-shadow" d="M72 198C48 198 35 181 35 159C35 138 50 122 70 119C78 87 101 68 132 68C164 68 188 90 192 123C212 126 223 142 223 162C223 183 207 198 185 198Z" opacity=".5"/>
+      <path data-icon-part="cloud-shell" data-icon-material="body" data-icon-detail="cloud-casing" class="tactile-i-primary" stroke-width="6.2" d="M68 188C46 188 34 172 34 151C34 131 48 116 68 113C75 81 99 62 130 62C162 62 186 84 190 117C209 120 220 135 220 155C220 175 204 190 183 190H68Z"/>
+      <path data-icon-detail="storage-tray" data-icon-material="body" class="tactile-i-secondary" stroke-width="5" d="M62 166H196V192C196 199 191 204 184 204H74C67 204 62 199 62 192Z"/>
+      <path data-icon-part="cloud-action" data-icon-detail="upload-control" class="tactile-i-line-3" d="M128 160V108M105 132L128 108L151 132"/>
+      <path data-icon-detail="tray-seam" class="tactile-i-line-2" d="M76 179H151"/>
+      <circle data-icon-detail="status-light" class="tactile-i-success" cx="174" cy="180" r="6" stroke-width="3.5"/>
+      <path data-icon-audit="decorative" data-icon-material="highlight" class="tactile-i-highlight" d="M35 151C35 131 49 116 69 113C76 81 100 63 130 63M66 168H188"/>
+      <path data-icon-audit="decorative" data-icon-material="lowlight" class="tactile-i-lowlight" d="M190 117C209 120 220 135 220 155C220 175 204 190 183 190M195 168V192C195 199 190 203 183 203H75"/>
+    </g>
 </symbol>
 <symbol id="tactile-icon-globe" viewBox="0 0 256 256">
   <title>Globe</title>
-  <rect data-icon-frame="decor" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="decor" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H175M45 56V138" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M82 210H198M211 86V178" opacity=".74"/>
-    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 68H92M164 68H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 190H100M158 190H204" opacity=".58"/>
+  <rect data-icon-frame="surface" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="surface" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H104M45 56V92" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M152 210H198M211 194V208" opacity=".74"/>
+    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 52H84M172 52H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 204H92M164 204H204" opacity=".58"/>
     <path data-icon-frame="decor" class="tactile-i-highlight" d="M58 214H112M142 214H184" opacity=".5"/>
-    <circle class="tactile-i-bg-strong" cx="128" cy="128" r="66"/><circle class="tactile-i-line tactile-i-glow" cx="128" cy="128" r="66"/><path class="tactile-i-line-2" d="M62 128H194M128 62C105 84 95 106 95 128C95 150 105 172 128 194M128 62C151 84 161 106 161 128C161 150 151 172 128 194M79 91C104 103 152 103 177 91M79 165C104 153 152 153 177 165"/>
+
+
+
+  <circle class="tactile-i-bg-strong" cx="128" cy="128" r="66"/>
+  <circle class="tactile-i-line tactile-i-glow" cx="128" cy="128" r="66"/>
+  <path class="tactile-i-line-2" d="M62 128H194M128 62C105 84 95 106 95 128C95 150 105 172 128 194M128 62C151 84 161 106 161 128C161 150 151 172 128 194M79 91C104 103 152 103 177 91M79 165C104 153 152 153 177 165"/>
 </symbol>
-<symbol id="tactile-icon-warning" viewBox="-8 -8 272 272">
+<symbol id="tactile-icon-warning" viewBox="0 0 256 256">
   <title>Warning</title>
-  <rect data-icon-frame="decor" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="decor" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H175M45 56V138" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M82 210H198M211 86V178" opacity=".74"/>
-    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 68H92M164 68H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 190H100M158 190H204" opacity=".58"/>
+  <rect data-icon-frame="surface" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="surface" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H104M45 56V92" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M152 210H198M211 194V208" opacity=".74"/>
+    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 52H84M172 52H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 204H92M164 204H204" opacity=".58"/>
     <path data-icon-frame="decor" class="tactile-i-highlight" d="M58 214H112M142 214H184" opacity=".5"/>
-    <path class="tactile-i-bg-strong" stroke="var(--tactile-icon-warning,rgb(var(--usk-warning-rgb,255 203 91)))" stroke-width="8" d="M128 55L203 190H53Z"/><path class="tactile-i-danger" stroke="var(--tactile-icon-danger,rgb(var(--usk-danger-rgb,255 123 123)))" stroke-width="12" d="M128 101V145"/><circle class="tactile-i-danger" cx="128" cy="169" r="8"/><path class="tactile-i-line" d="M78 190H178"/>
+
+
+
+  <path class="tactile-i-bg-strong" stroke="var(--tactile-icon-warning,rgb(var(--usk-warning-rgb,255 203 91)))" stroke-width="8" d="M128 55L203 190H53Z"/>
+  <path fill="none" class="tactile-i-danger" stroke="var(--tactile-icon-danger,rgb(var(--usk-danger-rgb,255 123 123)))" stroke-width="12" d="M128 101V145"/>
+  <circle class="tactile-i-danger" cx="128" cy="169" r="8"/>
+  <path class="tactile-i-line" d="M78 190H178"/>
 </symbol>
 <symbol id="tactile-icon-scan" viewBox="0 0 256 256">
   <title>Scan</title>
-  <rect data-icon-frame="decor" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="decor" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H175M45 56V138" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M82 210H198M211 86V178" opacity=".74"/>
-    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 68H92M164 68H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 190H100M158 190H204" opacity=".58"/>
+  <rect data-icon-frame="surface" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="surface" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H104M45 56V92" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M152 210H198M211 194V208" opacity=".74"/>
+    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 52H84M172 52H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 204H92M164 204H204" opacity=".58"/>
     <path data-icon-frame="decor" class="tactile-i-highlight" d="M58 214H112M142 214H184" opacity=".5"/>
-    <rect class="tactile-i-bg-strong" x="58" y="70" width="140" height="118" rx="14"/><path class="tactile-i-line-2" d="M81 100V84H113M143 84H175V100M81 158V174H113M143 174H175V158"/><path class="tactile-i-line tactile-i-glow" d="M72 129H184"/><circle class="tactile-i-line-3" cx="128" cy="129" r="24"/>
+
+
+
+  <rect class="tactile-i-bg-strong" x="58" y="70" width="140" height="118" rx="14"/>
+  <path class="tactile-i-line-2" d="M81 100V84H113M143 84H175V100M81 158V174H113M143 174H175V158"/>
+  <path class="tactile-i-line tactile-i-glow" d="M72 129H184"/>
+  <circle class="tactile-i-line-3" cx="128" cy="129" r="24"/>
 </symbol>
-<symbol id="tactile-icon-network" viewBox="-8 -8 272 272">
+<symbol id="tactile-icon-network" viewBox="0 0 256 256">
   <title>Network</title>
-  <rect data-icon-frame="decor" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="decor" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H175M45 56V138" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M82 210H198M211 86V178" opacity=".74"/>
-    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 68H92M164 68H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 190H100M158 190H204" opacity=".58"/>
-    <path data-icon-frame="decor" class="tactile-i-highlight" d="M58 214H112M142 214H184" opacity=".5"/>
-    <circle class="tactile-i-line" cx="82" cy="132" r="18"/><circle class="tactile-i-line-2" cx="128" cy="82" r="18"/><circle class="tactile-i-line" cx="174" cy="132" r="18"/><circle class="tactile-i-line-3" cx="128" cy="184" r="18"/><path class="tactile-i-muted" d="M96 119L115 95M141 95L160 119M100 140L114 172M156 172L170 140M100 132H156"/>
+  <rect data-icon-frame="surface" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/>
+    <rect data-icon-frame="surface" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/>
+    <path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H104M45 56V92" opacity=".82"/>
+    <path data-icon-frame="decor" class="tactile-i-lowlight" d="M152 210H198M211 194V208" opacity=".74"/>
+    <g data-icon-glyph="semantic" data-icon-prototype="reference-led-v1">
+      <!-- Patch cables terminate in four raised sockets around a physical hub plate. -->
+      <path data-icon-audit="decorative" data-icon-material="shadow" class="tactile-i-shadow" d="M79 115A20 20 0 1 0 79 155A20 20 0 1 0 79 115ZM133 57A20 20 0 1 0 133 97A20 20 0 1 0 133 57ZM187 115A20 20 0 1 0 187 155A20 20 0 1 0 187 115ZM133 173A20 20 0 1 0 133 213A20 20 0 1 0 133 173Z" opacity=".5"/>
+      <path data-icon-part="network-connector" class="tactile-i-line-2" d="M88 115L116 85"/>
+      <path data-icon-part="network-connector" class="tactile-i-line-2" d="M140 85L168 115"/>
+      <path data-icon-part="network-connector" class="tactile-i-line-2" d="M88 141L116 171"/>
+      <path data-icon-part="network-connector" class="tactile-i-line-2" d="M168 141L140 171"/>
+      <path data-icon-part="network-connector" class="tactile-i-line-2" d="M94 128L162 128"/>
+      <rect data-icon-material="body" data-icon-detail="hub-plate" class="tactile-i-primary" x="108" y="108" width="40" height="40" rx="8" stroke-width="5.2"/>
+      <path data-icon-detail="hub-groove" class="tactile-i-line-3" d="M118 120H138M118 128H138M118 136H130"/>
+      <circle data-icon-part="network-node" data-icon-material="body" class="tactile-i-secondary" cx="76" cy="128" r="18" stroke-width="5.2"/>
+      <circle data-icon-part="network-node" data-icon-material="body" class="tactile-i-primary" cx="128" cy="72" r="18" stroke-width="5.8"/>
+      <circle data-icon-part="network-node" data-icon-material="body" class="tactile-i-secondary" cx="180" cy="128" r="18" stroke-width="5.2"/>
+      <circle data-icon-part="network-node" data-icon-material="body" class="tactile-i-accent" cx="128" cy="184" r="18" stroke-width="5.2"/>
+      <circle data-icon-detail="socket-center" class="tactile-i-bg-strong" cx="76" cy="128" r="6"/>
+      <circle data-icon-detail="socket-center" class="tactile-i-bg-strong" cx="128" cy="72" r="6"/>
+      <circle data-icon-detail="socket-center" class="tactile-i-bg-strong" cx="180" cy="128" r="6"/>
+      <circle data-icon-detail="socket-center" class="tactile-i-bg-strong" cx="128" cy="184" r="6"/>
+      <path data-icon-audit="decorative" data-icon-material="highlight" class="tactile-i-highlight" d="M58 128A18 18 0 0 1 76 110M110 72A18 18 0 0 1 128 54M162 128A18 18 0 0 1 180 110M110 184A18 18 0 0 1 128 166"/>
+      <path data-icon-audit="decorative" data-icon-material="lowlight" class="tactile-i-lowlight" d="M76 146A18 18 0 0 0 94 128M128 90A18 18 0 0 0 146 72M180 146A18 18 0 0 0 198 128M128 202A18 18 0 0 0 146 184"/>
+    </g>
 </symbol>
 <symbol id="tactile-icon-cpu" viewBox="0 0 256 256">
   <title>CPU</title>
-  <rect data-icon-frame="decor" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="decor" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H175M45 56V138" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M82 210H198M211 86V178" opacity=".74"/>
-    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 68H92M164 68H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 190H100M158 190H204" opacity=".58"/>
+  <rect data-icon-frame="surface" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="surface" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H104M45 56V92" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M152 210H198M211 194V208" opacity=".74"/>
+    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 52H84M172 52H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 204H92M164 204H204" opacity=".58"/>
     <path data-icon-frame="decor" class="tactile-i-highlight" d="M58 214H112M142 214H184" opacity=".5"/>
-    <rect class="tactile-i-bg-strong" x="82" y="82" width="92" height="92" rx="14"/><rect class="tactile-i-line-2" x="108" y="108" width="40" height="40" rx="8"/><path class="tactile-i-line-3" d="M97 58V82M128 58V82M159 58V82M97 174V198M128 174V198M159 174V198M58 97H82M58 128H82M58 159H82M174 97H198M174 128H198M174 159H198"/>
+
+
+
+  <rect class="tactile-i-bg-strong" x="82" y="82" width="92" height="92" rx="14"/>
+  <rect class="tactile-i-line-2" x="108" y="108" width="40" height="40" rx="8"/>
+  <path class="tactile-i-line-3" d="M97 58V82M128 58V82M159 58V82M97 174V198M128 174V198M159 174V198M58 97H82M58 128H82M58 159H82M174 97H198M174 128H198M174 159H198"/>
 </symbol>
 <symbol id="tactile-icon-layers" viewBox="0 0 256 256">
   <title>Layers</title>
-  <rect data-icon-frame="decor" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="decor" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H175M45 56V138" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M82 210H198M211 86V178" opacity=".74"/>
-    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 68H92M164 68H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 190H100M158 190H204" opacity=".58"/>
+  <rect data-icon-frame="surface" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="surface" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H104M45 56V92" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M152 210H198M211 194V208" opacity=".74"/>
+    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 52H84M172 52H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 204H92M164 204H204" opacity=".58"/>
     <path data-icon-frame="decor" class="tactile-i-highlight" d="M58 214H112M142 214H184" opacity=".5"/>
-    <path class="tactile-i-bg-strong" stroke="var(--tactile-icon-primary,rgb(var(--usk-primary-rgb,214 168 79)))" stroke-width="6" d="M128 62L203 104L128 146L53 104Z"/><path class="tactile-i-line-2" d="M63 132L128 169L193 132M63 160L128 197L193 160"/><path class="tactile-i-line-3" d="M100 104H156"/>
+
+
+
+  <path class="tactile-i-bg-strong" stroke="var(--tactile-icon-primary,rgb(var(--usk-primary-rgb,214 168 79)))" stroke-width="6" d="M128 62L203 104L128 146L53 104Z"/>
+  <path class="tactile-i-line-2" d="M63 132L128 169L193 132M63 160L128 197L193 160"/>
+  <path class="tactile-i-line-3" d="M100 104H156"/>
 </symbol>
 <symbol id="tactile-icon-eye" viewBox="0 0 256 256">
   <title>Eye</title>
-  <rect data-icon-frame="decor" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="decor" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H175M45 56V138" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M82 210H198M211 86V178" opacity=".74"/>
-    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 68H92M164 68H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 190H100M158 190H204" opacity=".58"/>
+  <rect data-icon-frame="surface" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="surface" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H104M45 56V92" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M152 210H198M211 194V208" opacity=".74"/>
+    <path data-icon-frame="decor" class="tactile-i-inset" d="M48 52H84M172 52H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 204H92M164 204H204" opacity=".58"/>
     <path data-icon-frame="decor" class="tactile-i-highlight" d="M58 214H112M142 214H184" opacity=".5"/>
-    <path class="tactile-i-bg-strong" stroke="var(--tactile-icon-primary,rgb(var(--usk-primary-rgb,214 168 79)))" stroke-width="6" d="M52 128C75 91 104 76 128 76C152 76 181 91 204 128C181 165 152 180 128 180C104 180 75 165 52 128Z"/><circle class="tactile-i-line-2" cx="128" cy="128" r="31"/><circle class="tactile-i-accent" cx="128" cy="128" r="10"/>
+
+
+
+  <path class="tactile-i-bg-strong" stroke="var(--tactile-icon-primary,rgb(var(--usk-primary-rgb,214 168 79)))" stroke-width="6" d="M52 128C75 91 104 76 128 76C152 76 181 91 204 128C181 165 152 180 128 180C104 180 75 165 52 128Z"/>
+  <circle class="tactile-i-line-2" cx="128" cy="128" r="31"/>
+  <circle class="tactile-i-accent" cx="128" cy="128" r="10"/>
 </symbol>
 <symbol id="tactile-icon-grid" viewBox="0 0 256 256">
   <title>Grid</title>
-  <rect data-icon-frame="decor" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="decor" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H175M45 56V138" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M82 210H198M211 86V178" opacity=".74"/><path data-icon-frame="decor" class="tactile-i-inset" d="M48 68H92M164 68H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 190H100M158 190H204" opacity=".58"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M58 214H112M142 214H184" opacity=".5"/>
-    <rect class="tactile-i-primary" x="62" y="72" width="52" height="52" rx="14"/><rect class="tactile-i-secondary" x="128" y="72" width="66" height="52" rx="14"/><rect class="tactile-i-accent" x="62" y="138" width="66" height="52" rx="14"/><rect class="tactile-i-primary" x="142" y="138" width="52" height="52" rx="14"/>
+  <rect data-icon-frame="surface" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="surface" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H104M45 56V92" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M152 210H198M211 194V208" opacity=".74"/><path data-icon-frame="decor" class="tactile-i-inset" d="M48 52H84M172 52H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 204H92M164 204H204" opacity=".58"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M58 214H112M142 214H184" opacity=".5"/>
+
+
+
+  <rect class="tactile-i-primary" x="62" y="72" width="52" height="52" rx="14"/>
+  <rect class="tactile-i-secondary" x="128" y="72" width="66" height="52" rx="14"/>
+  <rect class="tactile-i-accent" x="62" y="138" width="66" height="52" rx="14"/>
+  <rect class="tactile-i-primary" x="142" y="138" width="52" height="52" rx="14"/>
 </symbol>
 <symbol id="tactile-icon-module" viewBox="0 0 256 256">
   <title>Module</title>
-  <rect data-icon-frame="decor" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="decor" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H175M45 56V138" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M82 210H198M211 86V178" opacity=".74"/><path data-icon-frame="decor" class="tactile-i-inset" d="M48 68H92M164 68H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 190H100M158 190H204" opacity=".58"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M58 214H112M142 214H184" opacity=".5"/>
-    <rect class="tactile-i-primary" x="64" y="74" width="128" height="116" rx="24"/><rect class="tactile-i-bg-strong" x="86" y="96" width="84" height="36" rx="12"/><path class="tactile-i-line-2" d="M91 158H120M139 158H168"/><circle class="tactile-i-accent" cx="128" cy="158" r="9"/>
+  <rect data-icon-frame="surface" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="surface" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H104M45 56V92" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M152 210H198M211 194V208" opacity=".74"/><path data-icon-frame="decor" class="tactile-i-inset" d="M48 52H84M172 52H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 204H92M164 204H204" opacity=".58"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M58 214H112M142 214H184" opacity=".5"/>
+
+
+
+  <rect class="tactile-i-primary" x="64" y="74" width="128" height="116" rx="24"/>
+  <rect class="tactile-i-bg-strong" x="86" y="96" width="84" height="36" rx="12"/>
+  <path class="tactile-i-line-2" d="M91 158H120M139 158H168"/>
+  <circle class="tactile-i-accent" cx="128" cy="158" r="9"/>
 </symbol>
-<symbol id="tactile-icon-stack" viewBox="-8 -8 272 272">
+<symbol id="tactile-icon-stack" viewBox="0 0 256 256">
   <title>Stack</title>
-  <rect data-icon-frame="decor" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="decor" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H175M45 56V138" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M82 210H198M211 86V178" opacity=".74"/><path data-icon-frame="decor" class="tactile-i-inset" d="M48 68H92M164 68H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 190H100M158 190H204" opacity=".58"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M58 214H112M142 214H184" opacity=".5"/>
-    <rect class="tactile-i-bg-soft" x="78" y="64" width="116" height="76" rx="20"/><rect class="tactile-i-secondary" x="66" y="91" width="116" height="76" rx="20"/><rect class="tactile-i-primary" x="54" y="118" width="116" height="76" rx="20"/><path class="tactile-i-line-3" d="M78 150H134M78 172H112"/>
+  <rect data-icon-frame="surface" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="surface" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H104M45 56V92" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M152 210H198M211 194V208" opacity=".74"/><path data-icon-frame="decor" class="tactile-i-inset" d="M48 52H84M172 52H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 204H92M164 204H204" opacity=".58"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M58 214H112M142 214H184" opacity=".5"/>
+
+
+
+  <rect class="tactile-i-bg-soft" x="78" y="64" width="116" height="76" rx="20"/>
+  <rect class="tactile-i-secondary" x="66" y="91" width="116" height="76" rx="20"/>
+  <rect class="tactile-i-primary" x="54" y="118" width="116" height="76" rx="20"/>
+  <path class="tactile-i-line-3" d="M78 150H134M78 172H112"/>
 </symbol>
 <symbol id="tactile-icon-tile" viewBox="0 0 256 256">
   <title>Tile</title>
-  <rect data-icon-frame="decor" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="decor" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H175M45 56V138" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M82 210H198M211 86V178" opacity=".74"/><path data-icon-frame="decor" class="tactile-i-inset" d="M48 68H92M164 68H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 190H100M158 190H204" opacity=".58"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M58 214H112M142 214H184" opacity=".5"/>
-    <rect class="tactile-i-primary" x="58" y="72" width="64" height="64" rx="20"/><rect class="tactile-i-secondary" x="136" y="72" width="62" height="38" rx="14"/><rect class="tactile-i-accent" x="58" y="150" width="96" height="42" rx="16"/><rect class="tactile-i-bg-strong" x="168" y="126" width="30" height="66" rx="12"/>
+  <rect data-icon-frame="surface" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="surface" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H104M45 56V92" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M152 210H198M211 194V208" opacity=".74"/><path data-icon-frame="decor" class="tactile-i-inset" d="M48 52H84M172 52H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 204H92M164 204H204" opacity=".58"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M58 214H112M142 214H184" opacity=".5"/>
+
+
+
+  <rect class="tactile-i-primary" x="58" y="72" width="64" height="64" rx="20"/>
+  <rect class="tactile-i-secondary" x="136" y="72" width="62" height="38" rx="14"/>
+  <rect class="tactile-i-accent" x="58" y="150" width="96" height="42" rx="16"/>
+  <rect class="tactile-i-bg-strong" x="168" y="126" width="30" height="66" rx="12"/>
 </symbol>
 <symbol id="tactile-icon-phone" viewBox="0 0 256 256">
   <title>Phone</title>
-  <rect data-icon-frame="decor" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="decor" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H175M45 56V138" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M82 210H198M211 86V178" opacity=".74"/><path data-icon-frame="decor" class="tactile-i-inset" d="M48 68H92M164 68H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 190H100M158 190H204" opacity=".58"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M58 214H112M142 214H184" opacity=".5"/>
-    <rect class="tactile-i-primary" x="88" y="54" width="80" height="148" rx="24"/><path class="tactile-i-line-2" d="M110 78H146M112 176H144"/><rect class="tactile-i-bg-strong" x="104" y="96" width="48" height="60" rx="12"/>
+  <rect data-icon-frame="surface" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="surface" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H104M45 56V92" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M152 210H198M211 194V208" opacity=".74"/><path data-icon-frame="decor" class="tactile-i-inset" d="M48 52H84M172 52H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 204H92M164 204H204" opacity=".58"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M58 214H112M142 214H184" opacity=".5"/>
+
+
+
+  <rect class="tactile-i-primary" x="88" y="54" width="80" height="148" rx="24"/>
+  <path class="tactile-i-line-2" d="M110 78H146M112 176H144"/>
+  <rect class="tactile-i-bg-strong" x="104" y="96" width="48" height="60" rx="12"/>
 </symbol>
-<symbol id="tactile-icon-palette" viewBox="-8 -8 272 272">
+<symbol id="tactile-icon-palette" viewBox="0 0 256 256">
   <title>Palette</title>
-  <rect data-icon-frame="decor" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="decor" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H175M45 56V138" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M82 210H198M211 86V178" opacity=".74"/><path data-icon-frame="decor" class="tactile-i-inset" d="M48 68H92M164 68H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 190H100M158 190H204" opacity=".58"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M58 214H112M142 214H184" opacity=".5"/>
-    <path class="tactile-i-primary" d="M128 60C89 60 58 89 58 128C58 168 90 196 129 196H145C159 196 168 187 168 175C168 165 176 158 187 158C196 158 204 150 204 137C204 94 171 60 128 60Z"/><circle class="tactile-i-accent" cx="98" cy="112" r="10"/><circle class="tactile-i-secondary" cx="126" cy="96" r="10"/><circle class="tactile-i-warning" cx="154" cy="116" r="10"/><circle class="tactile-i-bg-strong" cx="122" cy="154" r="12"/>
+  <rect data-icon-frame="surface" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="surface" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H104M45 56V92" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M152 210H198M211 194V208" opacity=".74"/><path data-icon-frame="decor" class="tactile-i-inset" d="M48 52H84M172 52H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 204H92M164 204H204" opacity=".58"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M58 214H112M142 214H184" opacity=".5"/>
+
+
+
+  <g data-icon-glyph="semantic" data-icon-prototype="reference-led-v1">
+    <!-- A thick wooden slab, recessed wells, thumb hole, and brush make the object tangible. -->
+    <path data-icon-audit="decorative" data-icon-material="shadow" class="tactile-i-shadow" d="M130 65C87 65 53 97 53 139C53 181 86 211 131 211H149C164 211 175 201 175 187C175 175 184 167 196 167C207 167 214 158 214 143C214 98 177 65 130 65Z" opacity=".5"/>
+    <path data-icon-material="body" data-icon-detail="wooden-slab" class="tactile-i-primary" stroke-width="6.2" d="M124 54C81 54 47 86 47 128C47 170 80 200 125 200H143C158 200 169 190 169 176C169 164 178 156 190 156C201 156 208 147 208 132C208 87 171 54 124 54Z"/>
+    <circle data-icon-material="body" data-icon-detail="paint-well" class="tactile-i-accent" cx="86" cy="108" r="12" stroke-width="4.5"/>
+    <circle data-icon-material="body" data-icon-detail="paint-well" class="tactile-i-secondary" cx="119" cy="84" r="11" stroke-width="4.5"/>
+    <circle data-icon-material="body" data-icon-detail="paint-well" class="tactile-i-warning" cx="154" cy="104" r="12" stroke-width="4.5"/>
+    <circle data-icon-material="body" data-icon-detail="thumb-hole" class="tactile-i-bg-strong" cx="116" cy="157" r="16" stroke="var(--tactile-icon-secondary,rgb(var(--usk-secondary-rgb,100 116 139)))" stroke-width="4.7"/>
+    <path data-icon-material="body" data-icon-detail="brush-handle" class="tactile-i-secondary" stroke-width="4.8" d="M157 183L201 91L214 98L173 190Z"/>
+    <path data-icon-detail="brush-ferrule" class="tactile-i-line-3" d="M188 116L203 123"/>
+    <path data-icon-audit="decorative" data-icon-material="highlight" class="tactile-i-highlight" d="M124 55C82 55 48 87 48 128M158 181L199 94"/>
+    <path data-icon-audit="decorative" data-icon-material="lowlight" class="tactile-i-lowlight" d="M208 132C208 147 201 156 190 156C178 156 169 164 169 176C169 190 158 200 143 200H125M173 189L211 100"/>
+  </g>
 </symbol>
 <symbol id="tactile-icon-heart" viewBox="0 0 256 256">
   <title>Heart</title>
-  <rect data-icon-frame="decor" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="decor" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H175M45 56V138" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M82 210H198M211 86V178" opacity=".74"/><path data-icon-frame="decor" class="tactile-i-inset" d="M48 68H92M164 68H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 190H100M158 190H204" opacity=".58"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M58 214H112M142 214H184" opacity=".5"/>
-    <path class="tactile-i-danger" d="M128 194C92 166 66 143 66 111C66 90 81 76 101 76C113 76 123 83 128 94C133 83 143 76 155 76C175 76 190 90 190 111C190 143 164 166 128 194Z"/><path class="tactile-i-line-3" d="M91 117C91 101 102 94 114 99"/>
+  <rect data-icon-frame="surface" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="surface" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H104M45 56V92" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M152 210H198M211 194V208" opacity=".74"/><path data-icon-frame="decor" class="tactile-i-inset" d="M48 52H84M172 52H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 204H92M164 204H204" opacity=".58"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M58 214H112M142 214H184" opacity=".5"/>
+
+
+
+  <path class="tactile-i-danger" d="M128 194C92 166 66 143 66 111C66 90 81 76 101 76C113 76 123 83 128 94C133 83 143 76 155 76C175 76 190 90 190 111C190 143 164 166 128 194Z"/>
+  <path class="tactile-i-line-3" d="M91 117C91 101 102 94 114 99"/>
 </symbol>
 <symbol id="tactile-icon-star" viewBox="0 0 256 256">
   <title>Star</title>
-  <rect data-icon-frame="decor" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="decor" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H175M45 56V138" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M82 210H198M211 86V178" opacity=".74"/><path data-icon-frame="decor" class="tactile-i-inset" d="M48 68H92M164 68H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 190H100M158 190H204" opacity=".58"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M58 214H112M142 214H184" opacity=".5"/>
-    <path class="tactile-i-warning" d="M128 56L148 104L200 108L160 141L172 192L128 164L84 192L96 141L56 108L108 104Z"/><path class="tactile-i-line-3" d="M128 82L140 113L173 116"/>
+  <rect data-icon-frame="surface" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="surface" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H104M45 56V92" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M152 210H198M211 194V208" opacity=".74"/><path data-icon-frame="decor" class="tactile-i-inset" d="M48 52H84M172 52H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 204H92M164 204H204" opacity=".58"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M58 214H112M142 214H184" opacity=".5"/>
+
+
+
+  <path class="tactile-i-warning" d="M128 56L148 104L200 108L160 141L172 192L128 164L84 192L96 141L56 108L108 104Z"/>
+  <path class="tactile-i-line-3" d="M128 82L140 113L173 116"/>
 </symbol>
 <symbol id="tactile-icon-target" viewBox="0 0 256 256">
   <title>Target</title>
-  <rect data-icon-frame="decor" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="decor" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H175M45 56V138" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M82 210H198M211 86V178" opacity=".74"/><path data-icon-frame="decor" class="tactile-i-inset" d="M48 68H92M164 68H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 190H100M158 190H204" opacity=".58"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M58 214H112M142 214H184" opacity=".5"/>
-    <circle class="tactile-i-primary" cx="128" cy="128" r="66"/><circle class="tactile-i-line-2" cx="128" cy="128" r="40"/><circle class="tactile-i-accent" cx="128" cy="128" r="14"/><path class="tactile-i-muted" d="M128 52V84M128 172V204M52 128H84M172 128H204"/>
+  <rect data-icon-frame="surface" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="surface" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H104M45 56V92" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M152 210H198M211 194V208" opacity=".74"/><path data-icon-frame="decor" class="tactile-i-inset" d="M48 52H84M172 52H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 204H92M164 204H204" opacity=".58"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M58 214H112M142 214H184" opacity=".5"/>
+
+
+
+  <circle class="tactile-i-primary" cx="128" cy="128" r="66"/>
+  <circle class="tactile-i-line-2" cx="128" cy="128" r="40"/>
+  <circle class="tactile-i-accent" cx="128" cy="128" r="14"/>
+  <path class="tactile-i-muted" d="M128 52V84M128 172V204M52 128H84M172 128H204"/>
 </symbol>
-<symbol id="tactile-icon-megaphone" viewBox="-8 -8 272 272">
+<symbol id="tactile-icon-megaphone" viewBox="0 0 256 256">
   <title>Megaphone</title>
-  <rect data-icon-frame="decor" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="decor" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H175M45 56V138" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M82 210H198M211 86V178" opacity=".74"/><path data-icon-frame="decor" class="tactile-i-inset" d="M48 68H92M164 68H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 190H100M158 190H204" opacity=".58"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M58 214H112M142 214H184" opacity=".5"/>
-    <path class="tactile-i-primary" d="M74 134H50V94H74L168 66V162Z"/><path class="tactile-i-line-2" d="M168 91C188 96 200 111 200 128C200 145 188 160 168 165"/><path class="tactile-i-accent" d="M78 134L96 190H122L104 134Z"/>
+  <rect data-icon-frame="surface" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/>
+    <rect data-icon-frame="surface" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/>
+    <path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H104M45 56V92" opacity=".82"/>
+    <path data-icon-frame="decor" class="tactile-i-lowlight" d="M152 210H198M211 194V208" opacity=".74"/>
+    <g data-icon-glyph="semantic" data-icon-prototype="reference-led-v1">
+      <!-- A flared metal horn, collar, trigger grip, and rear cap form one physical tool. -->
+      <path data-icon-audit="decorative" data-icon-material="shadow" class="tactile-i-shadow" d="M57 115H96L185 76V193L111 162L128 210H91L74 157H57Z" opacity=".5"/>
+      <path data-icon-part="megaphone-horn" data-icon-material="body" data-icon-detail="flared-horn" class="tactile-i-primary" stroke-width="6.2" d="M50 104H89L180 66V184L89 146H50Z"/>
+      <rect data-icon-material="body" data-icon-detail="rear-cap" class="tactile-i-secondary" x="45" y="100" width="46" height="50" rx="8" stroke-width="5"/>
+      <path data-icon-part="megaphone-handle" data-icon-material="body" data-icon-detail="pistol-grip" class="tactile-i-secondary" stroke-width="5.2" d="M70 148L87 204H124L104 153Z"/>
+      <path data-icon-part="megaphone-horn" data-icon-detail="horn-collar" class="tactile-i-line-3" d="M89 104V146M104 98V152"/>
+      <rect data-icon-detail="trigger" class="tactile-i-warning" x="91" y="160" width="13" height="17" rx="4" stroke-width="3"/>
+      <path data-icon-part="megaphone-sound" class="tactile-i-line-3" d="M192 104C207 114 214 127 214 140C214 154 207 167 192 177M187 121C195 126 199 133 199 140C199 148 195 155 187 160"/>
+      <path data-icon-audit="decorative" data-icon-material="highlight" class="tactile-i-highlight" d="M49 101H83M92 103L176 68M71 151L87 201"/>
+      <path data-icon-audit="decorative" data-icon-material="lowlight" class="tactile-i-lowlight" d="M180 106V183L90 145H50M87 203H123"/>
+    </g>
 </symbol>
 <symbol id="tactile-icon-cursor" viewBox="0 0 256 256">
   <title>Cursor</title>
-  <rect data-icon-frame="decor" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="decor" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H175M45 56V138" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M82 210H198M211 86V178" opacity=".74"/><path data-icon-frame="decor" class="tactile-i-inset" d="M48 68H92M164 68H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 190H100M158 190H204" opacity=".58"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M58 214H112M142 214H184" opacity=".5"/>
-    <path class="tactile-i-primary" d="M76 58L190 134L139 146L116 198L76 58Z"/><path class="tactile-i-line-3" d="M136 145L168 184"/>
+  <rect data-icon-frame="surface" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="surface" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H104M45 56V92" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M152 210H198M211 194V208" opacity=".74"/><path data-icon-frame="decor" class="tactile-i-inset" d="M48 52H84M172 52H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 204H92M164 204H204" opacity=".58"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M58 214H112M142 214H184" opacity=".5"/>
+
+
+
+  <path class="tactile-i-primary" d="M76 58L190 134L139 146L116 198L76 58Z"/>
+  <path class="tactile-i-line-3" d="M136 145L168 184"/>
 </symbol>
 </defs>
 </svg>

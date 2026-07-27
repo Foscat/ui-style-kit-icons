@@ -1,4 +1,4 @@
-<svg overflow="visible" xmlns="http://www.w3.org/2000/svg" class="sw-icon" width="256" height="256" viewBox="-8 -8 272 272" role="img" aria-labelledby="network-title network-desc">
+<svg overflow="visible" xmlns="http://www.w3.org/2000/svg" class="sw-icon" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="network-title network-desc">
   <title id="network-title">Network</title>
   <desc id="network-desc">Theme-aware synthwave web application SVG icon with neon styling and UI Style Kit color variables. Semantic meaning: Connected nodes, graph, distributed system.</desc>
   <style>
@@ -43,9 +43,30 @@
 .sw-i-surface{ fill: var(--sw-icon-bg); stroke: var(--sw-icon-border); stroke-width: 4.5; }
 
 [data-icon-frame]{opacity:var(--usk-icon-frame-opacity,1)}
-[data-icon-frame="decor"]{opacity:var(--usk-icon-frame-decor-opacity,var(--usk-icon-frame-opacity,1))}
+[data-icon-frame="decor"]{opacity:var(--usk-icon-frame-decor-opacity,.18)}
 [data-icon-glyph="play"]{fill:var(--usk-icon-play,var(--usk-icon-foreground,rgb(var(--usk-text-rgb,255 255 255))));stroke:none;opacity:1}
 </style>
-  <rect data-icon-frame="decor" class="sw-i-surface" x="10" y="10" width="236" height="236" rx="48"/><g data-icon-frame="decor" class="sw-i-horizon-sun" opacity=".44"><path class="sw-i-warning" d="M74 166A54 54 0 0 1 182 166H74Z" opacity=".24"/><path class="sw-i-line-3" d="M86 136H170M80 150H176M74 164H182" opacity=".34"/></g><path class="sw-i-line-3" d="M34 176H222M50 194H206M70 212H186" opacity=".42"/><path class="sw-i-muted" d="M24 232L104 154M232 232L152 154M63 232L116 154M193 232L140 154" opacity=".32"/>
-  <circle class="sw-i-primary" cx="82" cy="132" r="18"/><circle class="sw-i-secondary" cx="128" cy="82" r="18"/><circle class="sw-i-primary" cx="174" cy="132" r="18"/><circle class="sw-i-accent" cx="128" cy="184" r="18"/><path class="sw-i-muted" d="M96 119L115 95M141 95L160 119M100 140L114 172M156 172L170 140M100 132H156"/>
+  <defs>
+    <linearGradient id="swa-network-split" x1="60" y1="60" x2="196" y2="198" gradientUnits="userSpaceOnUse">
+      <stop stop-color="var(--sw-icon-primary)"/>
+      <stop offset=".55" stop-color="var(--sw-icon-primary)"/>
+      <stop offset=".56" stop-color="var(--sw-icon-secondary)"/>
+      <stop offset="1" stop-color="var(--sw-icon-secondary)"/>
+    </linearGradient>
+  </defs>
+  <rect data-icon-frame="surface" class="sw-i-surface" x="18" y="18" width="220" height="220" rx="48"/>
+  <path data-icon-frame="decor" class="sw-i-line-3" d="M64 216H192" opacity=".68"/>
+  <g data-icon-glyph="semantic" data-icon-prototype="reference-led-v1">
+    <rect data-icon-webapp="body" x="104" y="111" width="48" height="36" rx="9" fill="var(--sw-icon-bg-strong)" stroke="url(#swa-network-split)" stroke-width="5"/>
+    <path data-icon-part="network-connector" d="M91 117L115 88" fill="none" stroke="url(#swa-network-split)" stroke-width="6"/>
+    <path data-icon-part="network-connector" d="M141 88L165 117" fill="none" stroke="url(#swa-network-split)" stroke-width="6"/>
+    <path data-icon-part="network-connector" d="M91 141L115 168" fill="none" stroke="url(#swa-network-split)" stroke-width="6"/>
+    <path data-icon-part="network-connector" d="M165 141L141 168" fill="none" stroke="url(#swa-network-split)" stroke-width="6"/>
+    <path data-icon-part="network-connector" d="M96 129L160 129" fill="none" stroke="url(#swa-network-split)" stroke-width="6"/>
+    <circle data-icon-part="network-node" cx="78" cy="129" r="18" fill="var(--sw-icon-bg-strong)" stroke="var(--sw-icon-primary)" stroke-width="7"/>
+    <circle data-icon-part="network-node" cx="128" cy="75" r="18" fill="var(--sw-icon-bg-strong)" stroke="var(--sw-icon-primary)" stroke-width="7"/>
+    <circle data-icon-part="network-node" cx="178" cy="129" r="18" fill="var(--sw-icon-bg-strong)" stroke="var(--sw-icon-secondary)" stroke-width="7"/>
+    <circle data-icon-part="network-node" cx="128" cy="181" r="18" fill="var(--sw-icon-bg-strong)" stroke="var(--sw-icon-secondary)" stroke-width="7"/>
+    <rect data-icon-webapp="status" x="120" y="121" width="16" height="16" rx="4" fill="var(--sw-icon-success)"/>
+  </g>
 </svg>

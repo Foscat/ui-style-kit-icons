@@ -396,13 +396,18 @@ function normalizePath(value) {
 }
 
 function normalizeText(value) {
-  return value.replace(/\r\n?/g, "\n").trim();
+  return value
+    .replace(/\r\n?/g, "\n")
+    .split("\n")
+    .map((line) => line.trimEnd())
+    .join("\n")
+    .trim();
 }
 
 function indent(value, prefix) {
   return value
     .split("\n")
-    .map((line) => `${prefix}${line}`)
+    .map((line) => (line ? `${prefix}${line}` : ""))
     .join("\n");
 }
 

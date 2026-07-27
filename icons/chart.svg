@@ -22,8 +22,8 @@
 [data-icon-frame="decor"]{opacity:var(--usk-icon-frame-decor-opacity,var(--usk-icon-frame-opacity,1))}
 [data-icon-glyph="play"]{fill:var(--usk-icon-play,var(--usk-icon-foreground,rgb(var(--usk-text-rgb,255 255 255))));stroke:none;opacity:1}
 </style>
-  <rect data-icon-frame="decor" class="usk-i-surface" x="28" y="28" width="200" height="200" rx="28"/>
-  <path class="usk-i-line-2" d="M48 70H90M166 70H208M48 186H88M168 186H208" opacity=".62"/>
-  <path class="usk-i-muted" d="M50 212H118M138 212H154M170 212H206" opacity=".7"/>
+  <rect data-icon-frame="surface" class="usk-i-surface" x="28" y="28" width="200" height="200" rx="28"/>
+  <path data-icon-frame="decor" class="usk-i-line-2" d="M48 52H82M174 52H208" opacity=".62"/>
+  <path data-icon-frame="decor" class="usk-i-muted" d="M50 212H104M152 212H206" opacity=".7"/>
   <path class="usk-i-line-3" d="M66 188H196"/><rect class="usk-i-primary" x="78" y="132" width="23" height="56" rx="5"/><rect class="usk-i-secondary" x="116" y="101" width="23" height="87" rx="5"/><rect class="usk-i-accent" x="154" y="72" width="23" height="116" rx="5"/><path class="usk-i-muted" d="M72 110L107 126L139 90L183 68"/>
 </svg>

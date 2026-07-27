@@ -112,16 +112,23 @@ The goal: when a project changes `data-ui`, the icon ID stays the same and only 
 | `retro-glass` | `aurora`, `cube`, `droplet`, `lens`, `orb`, `pane`, `prism`, `sparkle`, `window-stack` |
 | `bento` | `mosaic`, `split`, `widget` |
 
-## Generator Rules
+## Artwork And Build Rules
 
-1. A style generator must iterate the canonical icon list first.
-2. A generated pack is valid only when every canonical ID exists as `icons/<id>.svg`.
+1. Standalone SVGs are the canonical semantic artwork. Build scripts must not
+   generate or replace semantic geometry.
+2. A pack is valid only when every canonical ID exists as `icons/<id>.svg`.
 3. Optional extras go after the core list and should be marked as extras in `manifest.json`.
 4. The manifest should include `contractVersion`, `requiredIconCount`, `coreIcons`, `optionalIcons`, and `aliases`.
 5. The runtime integration should import by semantic ID, never by style-specific ID.
 6. Embedded SVG sizing must defer to `--usk-icon-size` so a pack cannot override the runtime host size.
 7. Essential icon paint must retain at least 3:1 graphical contrast across every supported color scheme and mode.
 8. Generated sprites must merge every distinct source style block used by the pack.
+9. Core icons must retain recognizable pack identity when frame surfaces and decoration are hidden.
+10. Pack identity must be carried by the semantic object, not by a detached badge or background that obscures meaning.
+
+The borderless construction grammar, prototype approval gate, and research
+basis are documented in
+[`style-source/reference-led-icon-grammar.md`](../style-source/reference-led-icon-grammar.md).
 
 ## Recommended Package Shape
 

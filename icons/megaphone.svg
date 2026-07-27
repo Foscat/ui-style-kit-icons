@@ -1,4 +1,4 @@
-<svg overflow="visible" xmlns="http://www.w3.org/2000/svg" class="usk-icon" width="256" height="256" viewBox="-8 -8 272 272" role="img" aria-labelledby="megaphone-title megaphone-desc">
+<svg overflow="visible" xmlns="http://www.w3.org/2000/svg" class="usk-icon" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="megaphone-title megaphone-desc">
   <title id="megaphone-title">Megaphone</title>
   <desc id="megaphone-desc">Theme-aware SVG icon that follows ui-style-kit-css color scheme variables. Semantic meaning: Announcement, marketing, broadcast.</desc>
   <style>
@@ -22,6 +22,13 @@
 [data-icon-frame="decor"]{opacity:var(--usk-icon-frame-decor-opacity,var(--usk-icon-frame-opacity,1))}
 [data-icon-glyph="play"]{fill:var(--usk-icon-play,var(--usk-icon-foreground,rgb(var(--usk-text-rgb,255 255 255))));stroke:none;opacity:1}
 </style>
-  <rect data-icon-frame="decor" class="usk-i-surface" x="28" y="28" width="200" height="200" rx="28"/><path class="usk-i-line-2" d="M48 70H90M166 70H208M48 186H88M168 186H208" opacity=".62"/><path class="usk-i-muted" d="M50 212H118M138 212H154M170 212H206" opacity=".7"/>
-  <path class="usk-i-primary" d="M74 134H50V94H74L168 66V162Z"/><path class="usk-i-line-2" d="M168 91C188 96 200 111 200 128C200 145 188 160 168 165"/><path class="usk-i-accent" d="M78 134L96 190H122L104 134Z"/>
+  <rect data-icon-frame="surface" class="usk-i-surface" x="28" y="28" width="200" height="200" rx="28"/>
+  <path data-icon-frame="decor" class="usk-i-line-2" d="M48 52H82M174 52H208" opacity=".62"/>
+  <path data-icon-frame="decor" class="usk-i-muted" d="M50 212H104M152 212H206" opacity=".7"/>
+  <g data-icon-glyph="semantic" data-icon-prototype="reference-led-v1">
+    <path data-icon-part="megaphone-horn" class="usk-i-line" d="M50 108H84L176 74V174L84 146H50Z"/>
+    <path data-icon-part="megaphone-handle" class="usk-i-line" d="M72 146L86 198H116L101 151Z"/>
+    <path data-icon-part="megaphone-horn" class="usk-i-line" d="M84 108V146"/>
+    <path data-icon-part="megaphone-sound" class="usk-i-line" d="M193 101C210 114 218 129 218 146C218 161 211 175 198 185M190 120C200 127 204 136 204 146C204 155 200 164 192 171"/>
+  </g>
 </svg>

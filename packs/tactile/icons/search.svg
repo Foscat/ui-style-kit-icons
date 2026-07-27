@@ -26,8 +26,14 @@
 [data-icon-frame="decor"]{opacity:var(--usk-icon-frame-decor-opacity,var(--usk-icon-frame-opacity,1))}
 [data-icon-glyph="play"]{fill:var(--usk-icon-play,var(--usk-icon-foreground,rgb(var(--usk-text-rgb,255 255 255))));stroke:none;opacity:1}
 </style>
-  <rect data-icon-frame="decor" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="decor" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H175M45 56V138" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M82 210H198M211 86V178" opacity=".74"/>
-  <path data-icon-frame="decor" class="tactile-i-inset" d="M48 68H92M164 68H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 190H100M158 190H204" opacity=".58"/>
+<rect data-icon-frame="surface" class="tactile-i-shadow" x="35" y="37" width="194" height="194" rx="35"/><rect data-icon-frame="surface" class="tactile-i-surface" x="27" y="25" width="198" height="198" rx="34"/><path data-icon-frame="decor" class="tactile-i-highlight" d="M54 45H104M45 56V92" opacity=".82"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M152 210H198M211 194V208" opacity=".74"/>
+  <path data-icon-frame="decor" class="tactile-i-inset" d="M48 52H84M172 52H208" opacity=".72"/><path data-icon-frame="decor" class="tactile-i-lowlight" d="M52 204H92M164 204H204" opacity=".58"/>
   <path data-icon-frame="decor" class="tactile-i-highlight" d="M58 214H112M142 214H184" opacity=".5"/>
-  <circle class="tactile-i-line tactile-i-glow" cx="112" cy="112" r="41"/><path class="tactile-i-line-2" d="M145 145L194 194"/><path class="tactile-i-muted" d="M90 108H132M94 126H118"/>
+
+
+
+<circle class="tactile-i-line tactile-i-glow" cx="112" cy="112" r="41"/>
+<path class="tactile-i-line-2" d="M145 145L194 194"/>
+<path class="tactile-i-muted" d="M90 108H132M94 126H118"/>
+
 </svg>

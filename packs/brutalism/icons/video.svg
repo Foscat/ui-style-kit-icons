@@ -20,14 +20,14 @@
 [data-icon-frame="decor"]{opacity:var(--usk-icon-frame-decor-opacity,var(--usk-icon-frame-opacity,1))}
 [data-icon-glyph="play"]{fill:var(--usk-icon-play,var(--usk-icon-foreground,rgb(var(--usk-text-rgb,255 255 255))));stroke:none;opacity:1}
 </style>
-  <rect data-icon-frame="decor" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
-  <rect data-icon-frame="decor" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
-  <path class="brutal-i-muted" d="M48 64H94M150 64H196M48 194H104M144 194H196"/>
-  <g data-icon-video="player">
-    <rect data-icon-video="screen" class="brutal-i-surface" x="48" y="80" width="132" height="96"/>
-    <path data-icon-video="camera" class="brutal-i-secondary" d="M180 106L214 88V168L180 150Z"/>
-    <path data-icon-video="controls" class="brutal-i-muted" d="M68 104H96M68 158H126M144 158H160"/>
-    <rect data-icon-video="record" class="brutal-i-accent" x="145" y="98" width="14" height="14"/>
-    <path d="M94 103L146 128L94 153Z" data-icon-glyph="play"/>
-  </g>
+<rect data-icon-frame="surface" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
+  <rect data-icon-frame="surface" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
+  <path data-icon-frame="decor" class="brutal-i-muted" d="M48 52H84M160 52H196M48 204H88M156 204H196"/>
+<g data-icon-glyph="semantic" data-icon-prototype="reference-led-v1" data-icon-video="player">
+  <rect data-icon-part="video-body" data-icon-video="screen" class="brutal-i-secondary" x="42" y="76" width="140" height="108"/>
+  <polygon data-icon-part="video-camera" data-icon-video="camera" class="brutal-i-accent" points="182,104 218,84 218,172 182,152"/>
+  <rect data-icon-part="video-controls" data-icon-video="controls" class="brutal-i-primary" x="54" y="148" width="116" height="24"/>
+  <rect data-icon-part="video-record" data-icon-video="record" class="brutal-i-warning" x="150" y="88" width="16" height="16"/>
+  <path data-icon-part="video-play" d="M90 98L148 128L90 158Z" data-icon-glyph="play"/>
+</g>
 </svg>

@@ -12,6 +12,7 @@
 .y2k-i-warning{fill:var(--y2k-icon-warning,rgb(var(--usk-warning-rgb,255 200 78)));stroke:var(--y2k-icon-warning,rgb(var(--usk-warning-rgb,255 200 78)))}
 .y2k-i-danger{fill:var(--y2k-icon-danger,rgb(var(--usk-danger-rgb,255 92 122)));stroke:var(--y2k-icon-danger,rgb(var(--usk-danger-rgb,255 92 122)))}
 .y2k-i-gloss{fill:var(--y2k-icon-gloss,rgb(255 255 255/.78));stroke:none}
+.y2k-i-shine{fill:none;stroke:var(--y2k-icon-gloss,rgb(255 255 255/.78));stroke-width:7;stroke-linecap:round}
 .y2k-i-line{fill:none;stroke:var(--y2k-icon-primary,rgb(var(--usk-primary-rgb,55 160 255)));stroke-width:7;stroke-linecap:round;stroke-linejoin:round}
 .y2k-i-line-2{fill:none;stroke:var(--y2k-icon-secondary,rgb(var(--usk-secondary-rgb,255 96 190)));stroke-width:5;stroke-linecap:round;stroke-linejoin:round}
 .y2k-i-line-3{fill:none;stroke:var(--y2k-icon-accent,rgb(var(--usk-accent-rgb,149 255 241)));stroke-width:4;stroke-linecap:round;stroke-linejoin:round}
@@ -21,9 +22,17 @@
 [data-icon-frame="decor"]{opacity:var(--usk-icon-frame-decor-opacity,var(--usk-icon-frame-opacity,1))}
 [data-icon-glyph="play"]{fill:var(--usk-icon-play,var(--usk-icon-foreground,rgb(var(--usk-text-rgb,255 255 255))));stroke:none;opacity:1}
 </style>
-  <rect data-icon-frame="decor" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
-  <ellipse data-icon-frame="decor" class="y2k-i-gloss" cx="96" cy="62" rx="50" ry="14" opacity=".72"/>
+  <rect data-icon-frame="surface" class="y2k-i-surface" x="26" y="30" width="204" height="196" rx="50"/>
+  <path data-icon-frame="decor" data-icon-audit="decorative" class="y2k-i-shine" fill="none" d="M48 78C54 58 68 46 88 42H102" opacity=".58"/>
   <path data-icon-frame="decor" class="y2k-i-muted" d="M52 206H104M152 206H204" opacity=".55"/>
   <path data-icon-frame="decor" class="y2k-i-line-3" d="M52 52H76M180 52H204" opacity=".7"/>
-  <circle class="y2k-i-line-2" cx="92" cy="112" r="21"/><circle class="y2k-i-line-2" cx="164" cy="112" r="21"/><circle class="y2k-i-line" cx="128" cy="84" r="27"/><path class="y2k-i-line-2" d="M58 190C64 162 79 146 103 143M198 190C192 162 177 146 153 143"/><path class="y2k-i-line" d="M78 198C85 160 105 140 128 140C151 140 171 160 178 198"/>
+  <g data-icon-glyph="semantic" data-icon-prototype="reference-led-v1">
+    <circle data-icon-part="users-head" data-icon-y2k="body" class="y2k-i-secondary" cx="80" cy="105" r="18" stroke-width="5"/>
+    <circle data-icon-part="users-head" data-icon-y2k="body" class="y2k-i-primary" cx="128" cy="82" r="24" stroke-width="6"/>
+    <circle data-icon-part="users-head" data-icon-y2k="body" class="y2k-i-accent" cx="176" cy="105" r="18" stroke-width="5"/>
+    <path data-icon-part="users-shoulders" class="y2k-i-secondary" d="M45 187Q48 142 80 142Q99 142 108 159Q94 171 91 193H52Q45 193 45 187Z" stroke-width="5" stroke-linejoin="round"/>
+    <path data-icon-part="users-shoulders" class="y2k-i-primary" d="M86 195Q90 128 128 128Q166 128 170 195Z" stroke-width="6" stroke-linejoin="round"/>
+    <path data-icon-part="users-shoulders" class="y2k-i-accent" d="M148 159Q157 142 176 142Q208 142 211 187Q211 193 204 193H165Q162 171 148 159Z" stroke-width="5" stroke-linejoin="round"/>
+    <path data-icon-audit="decorative" data-icon-y2k="shine" class="y2k-i-shine" d="M113 70Q128 57 143 70M58 166Q67 151 82 151M174 151Q190 151 198 166" opacity=".86"/>
+  </g>
 </svg>

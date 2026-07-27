@@ -29,11 +29,25 @@ All notable changes to UI Style Kit Icons are documented in this file.
   cache entries for the lifetime of the page.
 - Reduced the npm tarball to consumer-facing runtime, contract, icon, sprite,
   style-source, and pack files.
+- Established standalone SVGs as canonical artwork and removed generated
+  signature layers that created superficial borderless variation.
+- Added the reference-led eight-icon approval gate across all twelve packs,
+  including paired frame states, small and gallery sizes, all themes and modes,
+  pack-specific construction checks, and rendered edge-mask comparisons.
+- Integrated the GitHub Pages demo with exact UI Style Kit, Interactive Surface,
+  and Layout Style releases while preserving the icon package's zero-dependency
+  standalone contract.
 
 ### Fixed
 
 - Reworked low-contrast and clipped icon artwork across all packs, including a
   clear video-player silhouette.
+- Rebuilt Network, Bug, Megaphone, Link, Cloud, and Users across all twelve
+  packs with explicit semantic topology, safer alignment, and clearer
+  small-size silhouettes.
+- Reduced frame competition by separating structural surfaces from optional
+  decoration, simplifying Cyberpunk and Synthwave scenery, and repairing Bento
+  Activity, Retro Glass and Y2K Sparkle, and the Y2K Star highlight.
 - Normalized Y2K icon scaling and safe areas, centered complex glyphs, and made
   its decorative guide marks honor borderless rendering.
 - Prevented embedded standalone SVG titles from obscuring interactive icon

@@ -28,6 +28,7 @@
   "scripts": {
     "build": "node scripts/build-dist.mjs",
     "assets:build": "node scripts/build-brand-assets.mjs",
+    "icons:refine": "node scripts/refine-svg-sources.mjs",
     "demo": "node scripts/serve-demo.mjs",
     "pages:build": "node scripts/build-pages.mjs",
     "check:js": "node scripts/check-js.mjs",
@@ -37,6 +38,8 @@
     "check:ecosystem": "node scripts/check-ecosystem.mjs",
     "check:release": "node scripts/check-release.mjs",
     "check:svg": "node scripts/check-svg-visuals.mjs",
+    "visual:prototype": "node scripts/check-svg-visuals.mjs --prototype --review --browser=chrome",
+    "visual:review": "node scripts/check-svg-visuals.mjs --review",
     "check:types": "tsc -p tests/types/tsconfig.json",
     "check:package": "node scripts/check-package.mjs",
     "format:check": "node scripts/format-check.mjs",
@@ -133,6 +136,7 @@
     }
   },
   "devDependencies": {
+    "interactive-surface-css": "1.5.0",
     "layout-style-css": "2.1.0",
     "playwright": "1.62.0",
     "typescript": "7.0.2",

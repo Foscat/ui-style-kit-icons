@@ -261,11 +261,17 @@ function syncControls() {
   elements.extrasToggle.checked = state.extras;
   elements.search.value = state.q;
   elements.modeButtons.forEach((button) => {
-    button.setAttribute("aria-pressed", String(button.dataset.modeValue === state.mode));
+    syncPressedSurface(button, button.dataset.modeValue === state.mode);
   });
   elements.frameButtons.forEach((button) => {
-    button.setAttribute("aria-pressed", String(button.dataset.frameValue === state.frame));
+    syncPressedSurface(button, button.dataset.frameValue === state.frame);
   });
+}
+
+function syncPressedSurface(button, isActive) {
+  button.setAttribute("aria-pressed", String(isActive));
+  button.dataset.surfaceLevel = isActive ? "3" : "1";
+  button.dataset.surfaceVariant = isActive ? "primary" : "subtle";
 }
 
 function currentPack() {
@@ -356,8 +362,10 @@ function renderGrid(icons) {
     const id = document.createElement("code");
 
     card.type = "button";
-    card.className = "icon-card";
+    card.className = "icon-card interactive-surface";
     card.dataset.iconId = icon.id;
+    card.dataset.surfaceLevel = "1";
+    card.dataset.surfaceVariant = "subtle";
     card.setAttribute("aria-label", `Inspect ${icon.label}`);
     artwork.setAttribute("name", icon.id);
     artwork.setAttribute("pack", state.pack);

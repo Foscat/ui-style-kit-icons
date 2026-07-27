@@ -1,4 +1,4 @@
-<svg overflow="visible" xmlns="http://www.w3.org/2000/svg" class="saas-icon" width="256" height="256" viewBox="-8 -8 272 272" role="img" aria-labelledby="users-title users-desc">
+<svg overflow="visible" xmlns="http://www.w3.org/2000/svg" class="saas-icon" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="users-title users-desc">
   <title id="users-title">Users</title>
   <desc id="users-desc">Theme-aware Minimal SaaS SVG icon with quiet product UI styling and UI Style Kit color variables. Semantic meaning: Audience, team, members, group.</desc>
   <style>
@@ -22,8 +22,15 @@
 [data-icon-frame="decor"]{opacity:var(--usk-icon-frame-decor-opacity,var(--usk-icon-frame-opacity,1))}
 [data-icon-glyph="play"]{fill:var(--usk-icon-play,var(--usk-icon-foreground,rgb(var(--usk-text-rgb,255 255 255))));stroke:none;opacity:1}
 </style>
-  <rect data-icon-frame="decor" class="saas-i-surface" x="34" y="34" width="188" height="188" rx="24"/>
-  <path data-icon-frame="decor" class="saas-i-muted" d="M58 74H92M164 74H198M58 184H96M160 184H198" opacity=".42"/>
-  <path data-icon-frame="decor" class="saas-i-muted" d="M68 206H116M140 206H188" opacity=".38"/>
-  <circle class="saas-i-line-2" cx="96" cy="104" r="24"/><circle class="saas-i-line-2" cx="160" cy="104" r="24"/><circle class="saas-i-line saas-i-glow" cx="128" cy="86" r="30"/><path class="saas-i-line-2" d="M58 190C65 158 86 140 110 140M198 190C191 158 170 140 146 140M78 198C86 160 105 140 128 140C151 140 170 160 178 198"/>
+  <rect data-icon-frame="surface" class="saas-i-surface" x="34" y="34" width="188" height="188" rx="24"/>
+  <path data-icon-frame="decor" class="saas-i-muted" d="M58 52H88M168 52H198" opacity=".42"/>
+  <path data-icon-frame="decor" class="saas-i-muted" d="M68 216H108M148 216H188" opacity=".38"/>
+  <g data-icon-glyph="semantic" data-icon-prototype="reference-led-v1">
+    <circle data-icon-part="users-head" class="saas-i-line" cx="84" cy="106" r="14"/>
+    <circle data-icon-part="users-head" class="saas-i-line" cx="128" cy="84" r="18"/>
+    <circle data-icon-part="users-head" class="saas-i-line" cx="172" cy="106" r="14"/>
+    <path data-icon-part="users-shoulders" class="saas-i-line" d="M54 180C56 151 67 138 84 138C95 138 103 143 109 152"/>
+    <path data-icon-part="users-shoulders" class="saas-i-line" d="M94 188C96 153 108 132 128 132C148 132 160 153 162 188"/>
+    <path data-icon-part="users-shoulders" class="saas-i-line" d="M147 152C153 143 161 138 172 138C189 138 200 151 202 180"/>
+  </g>
 </svg>

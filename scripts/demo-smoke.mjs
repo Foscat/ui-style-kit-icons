@@ -4,6 +4,7 @@ import { once } from "node:events";
 import path from "node:path";
 import { pathToFileURL } from "node:url";
 import { chromium } from "playwright";
+import { assertDemoEcosystemOwnership } from "./demo-browser-contract.mjs";
 import { findOpenPort } from "./find-open-port.mjs";
 import { installDemoDependencyRoutes } from "./route-demo-dependencies.mjs";
 
@@ -11,7 +12,7 @@ const root = process.cwd();
 const host = process.env.HOST ?? "127.0.0.1";
 const port = Number(process.env.PORT ?? (await findOpenPort(host)));
 const baseUrl = `http://${host}:${port}/`;
-const lightThemes = [
+const colorThemes = [
   "midnight-gold",
   "ocean-steel",
   "forest-moss",
@@ -23,6 +24,7 @@ const lightThemes = [
   "cyber-lime",
   "arctic-indigo"
 ];
+const colorModes = ["light", "dark", "contrast"];
 const server = spawn(process.execPath, ["scripts/serve-demo.mjs", String(port)], {
   cwd: root,
   env: { ...process.env, HOST: host, PORT: String(port) },
@@ -47,7 +49,7 @@ if (!serverReady) {
   throw new Error("The demo server did not start.");
 }
 
-const browser = await chromium.launch({ headless: true });
+const browser = await chromium.launch({ channel: "chrome", headless: true });
 
 try {
   const desktop = await browser.newPage({ viewport: { width: 1440, height: 1000 } });
@@ -65,6 +67,7 @@ try {
   await desktop.waitForFunction(() =>
     Boolean(document.querySelector('#packSelect option[value="synthwave"]'))
   );
+  await assertDemoEcosystemOwnership(desktop);
   const faviconResponse = await desktop.request.get(
     `${baseUrl}assets/favicon.ico`
   );
@@ -138,7 +141,7 @@ try {
 
   await desktop.keyboard.press("Escape");
   await desktop.waitForFunction(() => document.querySelector("#iconDialog")?.open === false);
-  await assertLightThemeContrast(desktop, baseUrl);
+  await assertThemeModeContrast(desktop, baseUrl);
 
   if (desktopEvents.length > 0) {
     throw new Error(`Console/page errors:\n${desktopEvents.join("\n")}`);
@@ -315,60 +318,88 @@ async function assertRuntimeSanitizer(browser, url) {
   }
 }
 
-async function assertLightThemeContrast(page, url) {
+async function assertThemeModeContrast(page, url) {
   const failures = [];
 
-  // Light theme checks keep the demo from regressing into mixed dark/light surfaces.
-  for (const theme of lightThemes) {
-    await page.goto(`${url}?mode=light&theme=${theme}&pack=minimal-saas`, {
-      waitUntil: "networkidle"
-    });
-    await page.waitForFunction(
-      (expectedTheme) =>
-        document.body.dataset.mode === "light" && document.body.dataset.theme === expectedTheme,
-      theme
-    );
-
-    const metrics = await getLightThemeMetrics(page);
-
-    if (metrics.bodyLuminance < 0.72 || metrics.cardLuminance < 0.72) {
-      failures.push(
-        `${theme}: light surfaces too dark ${JSON.stringify({
-          bodyLuminance: metrics.bodyLuminance,
-          cardLuminance: metrics.cardLuminance
-        })}`
+  for (const mode of colorModes) {
+    for (const theme of colorThemes) {
+      await page.goto(
+        `${url}?mode=${mode}&theme=${theme}&pack=minimal-saas`,
+        { waitUntil: "networkidle" }
       );
-    }
+      await page.waitForFunction(
+        ({ expectedMode, expectedTheme }) =>
+          document.body.dataset.mode === expectedMode &&
+          document.body.dataset.theme === expectedTheme,
+        { expectedMode: mode, expectedTheme: theme }
+      );
 
-    for (const check of metrics.checks) {
-      if (check.contrast < 4.5) {
-        failures.push(`${theme}: ${check.name} contrast ${check.contrast}`);
+      const metrics = await getThemeMetrics(page);
+
+      if (
+        mode === "light" &&
+        (metrics.bodyLuminance < 0.72 || metrics.cardLuminance < 0.72)
+      ) {
+        failures.push(
+          `${theme}/${mode}: light surfaces too dark ${JSON.stringify({
+            bodyLuminance: metrics.bodyLuminance,
+            cardLuminance: metrics.cardLuminance
+          })}`
+        );
+      }
+
+      for (const check of metrics.checks) {
+        if (check.contrast < 4.5) {
+          failures.push(
+            `${theme}/${mode}: ${check.name} contrast ${check.contrast}`
+          );
+        }
       }
     }
   }
 
   if (failures.length > 0) {
-    throw new Error(`Light mode theme regressions:\n${failures.join("\n")}`);
+    throw new Error(`Theme and mode regressions:\n${failures.join("\n")}`);
   }
 }
 
-async function getLightThemeMetrics(page) {
+async function getThemeMetrics(page) {
   return page.evaluate(() => {
     function parseColor(value) {
       const match = value.match(/rgba?\(([^)]+)\)/i);
 
-      if (!match) {
-        throw new Error(`Unsupported computed color: ${value}`);
+      if (match) {
+        const [r, g, b, alpha] = match[1]
+          .split(/[ ,/]+/)
+          .filter(Boolean)
+          .map(Number);
+
+        return {
+          r,
+          g,
+          b,
+          a: Number.isFinite(alpha) ? alpha : 1
+        };
       }
 
-      const [r, g, b, alpha] = match[1].split(/[ ,/]+/).filter(Boolean).map(Number);
+      const srgbMatch = value.match(/^color\(srgb\s+([^)]+)\)$/i);
 
-      return {
-        r,
-        g,
-        b,
-        a: Number.isFinite(alpha) ? alpha : 1
-      };
+      if (srgbMatch) {
+        const [r, g, b, alpha] = srgbMatch[1]
+          .split(/[\s/]+/)
+          .filter(Boolean)
+          .map(Number);
+
+        // CSS Color 4 serializes sRGB channels from zero to one.
+        return {
+          r: r * 255,
+          g: g * 255,
+          b: b * 255,
+          a: Number.isFinite(alpha) ? alpha : 1
+        };
+      }
+
+      throw new Error(`Unsupported computed color: ${value}`);
     }
 
     function blend(top, bottom) {
@@ -403,13 +434,13 @@ async function getLightThemeMetrics(page) {
     const checks = [
       ["body", "body"],
       ["top nav", ".top-nav a"],
-      ["control heading", ".control-heading h2"],
+      ["control heading", ".control-heading [role='heading']"],
       ["control label", ".control-field > span"],
       ["select control", "#themeSelect"],
       ["search input", "#iconSearch"],
       ["card label", ".icon-card strong"],
       ["card code", ".icon-card code"],
-      ["toolbar", ".gallery-toolbar h2"],
+      ["toolbar", ".gallery-toolbar [role='heading']"],
       ["stat label", ".pack-summary dt"],
       ["stat value", ".pack-summary dd"],
       ["install command", ".install-block code"],
@@ -419,7 +450,7 @@ async function getLightThemeMetrics(page) {
       const element = document.querySelector(selector);
 
       if (!element) {
-        throw new Error(`Missing light mode contrast target: ${selector}`);
+        throw new Error(`Missing theme contrast target: ${selector}`);
       }
 
       const styles = getComputedStyle(element);
@@ -443,7 +474,7 @@ async function getLightThemeMetrics(page) {
     const cardElement = document.querySelector(".icon-card");
 
     if (!cardElement) {
-      throw new Error("Missing light mode surface target: .icon-card");
+      throw new Error("Missing theme surface target: .icon-card");
     }
 
     const cardBackground = parseColor(getComputedStyle(cardElement).backgroundColor);

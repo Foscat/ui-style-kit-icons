@@ -20,11 +20,11 @@
 .rg-i-surface{fill:var(--rg-icon-bg,rgb(var(--usk-surface-rgb,255 255 255)/.42));stroke:var(--rg-icon-border,rgb(var(--usk-border-rgb,184 211 221)/.48));stroke-width:4.5}
 .rg-i-rim{fill:none;stroke:var(--rg-icon-rim,rgb(255 255 255/.64));stroke-width:2.25;stroke-linecap:round;stroke-linejoin:round}
 [data-icon-frame]{opacity:var(--usk-icon-frame-opacity,1)}
-[data-icon-frame="decor"]{opacity:var(--usk-icon-frame-decor-opacity,var(--usk-icon-frame-opacity,1))}
+[data-icon-frame="decor"]{opacity:var(--usk-icon-frame-decor-opacity,.18)}
 [data-icon-glyph="play"]{fill:var(--usk-icon-play,var(--usk-icon-foreground,rgb(var(--usk-text-rgb,255 255 255))));stroke:none;opacity:1}
 </style>
-  <rect data-icon-frame="decor" class="rg-i-surface" x="28" y="30" width="200" height="196" rx="42"/>
-  <path class="rg-i-bg-soft" d="M48 162C72 116 102 98 132 104C164 110 177 88 208 72V226H48Z" opacity=".72"/>
+  <rect data-icon-frame="surface" class="rg-i-surface" x="28" y="30" width="200" height="196" rx="42"/>
+
   <path data-icon-frame="decor" class="rg-i-sheen" d="M70 48C56 51 48 62 47 80M88 46H122" opacity=".66"/>
   <path data-icon-frame="decor" class="rg-i-rim" d="M174 46H196M50 194H112M152 194H206" opacity=".62"/>
   <path class="rg-i-bg-strong" stroke="var(--rg-icon-primary,rgb(var(--usk-primary-rgb,54 196 221)))" stroke-width="5" d="M58 178C78 112 112 86 150 104C174 116 183 96 202 74V190H58Z"/><path class="rg-i-line" d="M62 174C82 126 112 110 138 122C164 134 176 102 202 86"/><path class="rg-i-line-2" d="M70 190H198"/><circle class="rg-i-accent" cx="172" cy="96" r="8"/>

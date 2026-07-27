@@ -43,9 +43,29 @@
 .sw-i-surface{ fill: var(--sw-icon-bg); stroke: var(--sw-icon-border); stroke-width: 4.5; }
 
 [data-icon-frame]{opacity:var(--usk-icon-frame-opacity,1)}
-[data-icon-frame="decor"]{opacity:var(--usk-icon-frame-decor-opacity,var(--usk-icon-frame-opacity,1))}
+[data-icon-frame="decor"]{opacity:var(--usk-icon-frame-decor-opacity,.22)}
 [data-icon-glyph="play"]{fill:var(--usk-icon-play,var(--usk-icon-foreground,rgb(var(--usk-text-rgb,255 255 255))));stroke:none;opacity:1}
 </style>
-  <rect data-icon-frame="decor" class="sw-i-surface" x="18" y="18" width="220" height="220" rx="48"/><g data-icon-frame="decor" class="sw-i-horizon-sun" opacity=".44"><path class="sw-i-warning" d="M74 166A54 54 0 0 1 182 166H74Z" opacity=".24"/><path class="sw-i-line-3" d="M86 136H170M80 150H176M74 164H182" opacity=".34"/></g><path class="sw-i-line-3" d="M34 176H222M50 194H206M70 212H186" opacity=".42"/><path class="sw-i-muted" d="M24 232L104 154M232 232L152 154M63 232L116 154M193 232L140 154" opacity=".32"/>
-  <path class="sw-i-line" d="M66 132L128 78L190 132"/><path class="sw-i-bg-strong" stroke="currentColor" stroke-width="4" d="M84 126V190H172V126Z"/><path class="sw-i-line-3" d="M116 190V152H140V190"/>
+<defs>
+  <linearGradient id="sw-home-neon" x1="48" y1="56" x2="205" y2="202" gradientUnits="userSpaceOnUse">
+    <stop stop-color="var(--sw-icon-primary)"/>
+    <stop offset=".48" stop-color="var(--sw-icon-secondary)"/>
+    <stop offset="1" stop-color="var(--sw-icon-accent)"/>
+  </linearGradient>
+  <filter id="sw-home-glow" x="20" y="20" width="216" height="216" filterUnits="userSpaceOnUse">
+    <feGaussianBlur stdDeviation="2.2" result="halo"/>
+    <feMerge><feMergeNode in="halo"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+<rect data-icon-frame="surface" class="sw-i-surface" x="18" y="18" width="220" height="220" rx="48"/><path data-icon-frame="decor" class="sw-i-line-3" d="M48 204H208M76 218H180" opacity=".72"/>
+
+
+
+  <g data-icon-glyph="semantic" data-icon-prototype="reference-led-v1">
+    <path data-icon-neon="body" d="M46 126L128 52L210 126L193 145L183 136V201H73V136L63 145Z" fill="var(--sw-icon-bg)" stroke="url(#sw-home-neon)" stroke-width="9" stroke-linejoin="miter" filter="url(#sw-home-glow)"/>
+    <path data-icon-neon="band" d="M72 128L128 78L184 128M92 124V181H164V124" fill="none" stroke="url(#sw-home-neon)" stroke-width="5" stroke-linejoin="miter"/>
+    <path d="M111 201V150H145V201" fill="var(--sw-icon-bg-strong)" stroke="var(--sw-icon-accent)" stroke-width="6"/>
+    <path d="M82 144H102M154 144H174" fill="none" stroke="var(--sw-icon-primary)" stroke-width="5"/>
+  </g>
+
 </svg>

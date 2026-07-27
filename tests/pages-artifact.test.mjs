@@ -47,7 +47,7 @@ test("Pages index contains SEO and pre-rendered icon content", async () => {
   assert.match(html, /Interactive Surface CSS/);
   assert.match(html, new RegExp(escapeRegExp(pagesUrl), "u"));
   assert.doesNotMatch(html, /foscat\.github\.io\/ui-style-kit-icons/u);
-  assert.equal((html.match(/class="icon-card"/g) ?? []).length, 64);
+  assert.equal((html.match(/\bdata-icon-id="/g) ?? []).length, 64);
   assert.doesNotMatch(html, /\.\.\/dist\//);
   assert.doesNotMatch(html, /0\.3\.0/);
 });

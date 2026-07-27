@@ -21,15 +21,19 @@
 [data-icon-frame="decor"]{opacity:var(--usk-icon-frame-decor-opacity,var(--usk-icon-frame-opacity,1))}
 [data-icon-glyph="play"]{fill:var(--usk-icon-play,var(--usk-icon-foreground,rgb(var(--usk-text-rgb,255 255 255))));stroke:none;opacity:1}
 </style>
-  <rect data-icon-frame="decor" class="bi-surface" x="26" y="28" width="204" height="200" rx="38"/>
-  <rect class="bi-bg-soft" x="48" y="52" width="68" height="48" rx="18" opacity=".88"/>
-  <rect class="bi-bg-soft" x="148" y="164" width="52" height="34" rx="14" opacity=".74"/>
-  <path class="bi-muted" d="M132 53H178M54 118H92M164 112H202" opacity=".42"/>
-  <g data-icon-video="player">
-    <rect data-icon-video="screen" class="bi-bg-strong" x="48" y="82" width="132" height="92" rx="18" stroke="var(--bento-icon-primary,rgb(var(--usk-primary-rgb,74 111 255)))" stroke-width="6"/>
-    <path data-icon-video="camera" class="bi-accent" d="M180 108L212 90V166L180 148Z" stroke-width="6"/>
-    <path data-icon-video="controls" class="bi-muted" d="M68 104H94M68 158H126M144 158H160" opacity=".62"/>
-    <circle data-icon-video="record" class="bi-accent" cx="150" cy="104" r="6" stroke-width="4"/>
-    <path d="M96 104L144 128L96 152Z" data-icon-glyph="play"/>
-  </g>
+<rect data-icon-frame="surface" class="bi-surface" x="26" y="28" width="204" height="200" rx="38"/>
+
+
+  <path data-icon-frame="decor" class="bi-muted" d="M48 52H84M172 52H208M52 210H98M158 210H204" opacity=".42"/>
+
+
+<g data-icon-glyph="semantic" data-icon-prototype="reference-led-v1" data-icon-video="player">
+  <path class="bi-line" d="M50 72C50 63 57 58 66 58H194C205 58 212 66 212 76V184C212 194 205 200 194 200H64C53 200 46 193 47 182Z"/>
+  <rect data-icon-video="screen" data-icon-detail="video-display" class="bi-line-2" x="62" y="76" width="112" height="92" rx="14"/>
+  <circle data-icon-video="camera" data-icon-detail="video-tuning-dial" class="bi-line" cx="193" cy="96" r="11"/>
+  <path data-icon-video="controls" data-icon-detail="video-control-bank" class="bi-line-2" d="M186 126C192 123 199 123 204 126M187 140H202M189 153H200"/>
+  <circle data-icon-video="record" data-icon-detail="video-status-light" class="bi-line-3" cx="195" cy="174" r="7"/>
+  <path data-icon-glyph="play" d="M103 101L103 143L140 122Z"/>
+</g>
+
 </svg>

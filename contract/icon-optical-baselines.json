@@ -1,0 +1,200 @@
+{
+  "schemaVersion": "1.0.0",
+  "description": "Optical center exceptions for intentionally asymmetric icon silhouettes.",
+  "defaultTolerance": 8,
+  "profiles": [
+    {
+      "icon": "message",
+      "packs": [
+        "system",
+        "minimal-saas",
+        "bento",
+        "maximalist",
+        "brutalism",
+        "tactile",
+        "neumorphism",
+        "retro-glass",
+        "y2k",
+        "synthwave"
+      ],
+      "x": 0,
+      "y": 9.3,
+      "tolerance": 2
+    },
+    {
+      "icon": "folder",
+      "packs": [
+        "system",
+        "minimal-saas",
+        "bento",
+        "maximalist",
+        "brutalism",
+        "tactile",
+        "neumorphism",
+        "retro-glass",
+        "y2k",
+        "cyberpunk",
+        "synthwave",
+        "synthwave-webapp"
+      ],
+      "x": 0,
+      "y": 10.3,
+      "tolerance": 2
+    },
+    {
+      "icon": "activity",
+      "packs": [
+        "system",
+        "minimal-saas",
+        "maximalist",
+        "tactile",
+        "neumorphism",
+        "retro-glass",
+        "y2k",
+        "cyberpunk",
+        "synthwave",
+        "synthwave-webapp"
+      ],
+      "x": 0,
+      "y": 9.7,
+      "tolerance": 2
+    },
+    {
+      "icon": "wallet",
+      "packs": [
+        "system",
+        "minimal-saas",
+        "bento",
+        "maximalist",
+        "brutalism",
+        "tactile",
+        "neumorphism",
+        "retro-glass",
+        "y2k",
+        "cyberpunk",
+        "synthwave",
+        "synthwave-webapp"
+      ],
+      "x": 5.9,
+      "y": 15,
+      "tolerance": 2
+    },
+    {
+      "icon": "cart",
+      "packs": [
+        "system",
+        "minimal-saas",
+        "bento",
+        "maximalist",
+        "brutalism",
+        "tactile",
+        "neumorphism",
+        "retro-glass",
+        "y2k",
+        "cyberpunk",
+        "synthwave",
+        "synthwave-webapp"
+      ],
+      "x": -2,
+      "y": 9,
+      "tolerance": 2
+    },
+    {
+      "icon": "filter",
+      "packs": [
+        "system",
+        "minimal-saas",
+        "bento",
+        "maximalist",
+        "brutalism",
+        "tactile",
+        "neumorphism",
+        "retro-glass",
+        "y2k",
+        "cyberpunk",
+        "synthwave",
+        "synthwave-webapp"
+      ],
+      "x": 0,
+      "y": 10.3,
+      "tolerance": 2
+    }
+  ],
+  "overrides": {
+    "bento/activity": {
+      "x": 0,
+      "y": 0,
+      "tolerance": 2
+    },
+    "bento/settings": {
+      "x": 0,
+      "y": 9,
+      "tolerance": 2
+    },
+    "bento/code": {
+      "x": 0,
+      "y": 9.313,
+      "tolerance": 2
+    },
+    "bento/network": {
+      "x": 0,
+      "y": 0,
+      "tolerance": 2
+    },
+    "brutalism/megaphone": {
+      "x": 7.063,
+      "y": 6.875,
+      "tolerance": 2
+    },
+    "retro-glass/prism": {
+      "x": 0,
+      "y": -9,
+      "tolerance": 2
+    },
+    "synthwave/settings": {
+      "x": 0,
+      "y": 9,
+      "tolerance": 2
+    },
+    "synthwave/cassette": {
+      "x": 0,
+      "y": 8.125,
+      "tolerance": 2
+    },
+    "synthwave/chrome-palm": {
+      "x": 9,
+      "y": 3.875,
+      "tolerance": 2
+    },
+    "synthwave/horizon-grid": {
+      "x": 0,
+      "y": 43.5,
+      "tolerance": 2
+    },
+    "synthwave/keyboard": {
+      "x": 0,
+      "y": 19.125,
+      "tolerance": 2
+    },
+    "synthwave/night-drive": {
+      "x": 0,
+      "y": 21.125,
+      "tolerance": 2
+    },
+    "synthwave/skyline": {
+      "x": 0,
+      "y": 9.625,
+      "tolerance": 2
+    },
+    "synthwave/wave": {
+      "x": 0,
+      "y": 22.011,
+      "tolerance": 2
+    },
+    "y2k/gamepad": {
+      "x": 0,
+      "y": 16.914,
+      "tolerance": 2
+    }
+  }
+}

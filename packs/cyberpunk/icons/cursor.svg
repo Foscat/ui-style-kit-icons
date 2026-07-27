@@ -43,9 +43,13 @@
 .cp-i-surface{ fill: var(--cp-icon-bg); stroke: var(--cp-icon-border); stroke-width: 4.5; }
 
 [data-icon-frame]{opacity:var(--usk-icon-frame-opacity,1)}
-[data-icon-frame="decor"]{opacity:var(--usk-icon-frame-decor-opacity,var(--usk-icon-frame-opacity,1))}
+[data-icon-frame="decor"]{opacity:var(--usk-icon-frame-decor-opacity,.26)}
 [data-icon-glyph="play"]{fill:var(--usk-icon-play,var(--usk-icon-foreground,rgb(var(--usk-text-rgb,255 255 255))));stroke:none;opacity:1}
 </style>
-  <rect data-icon-frame="decor" class="cp-i-surface" x="20" y="20" width="216" height="216" rx="26"/><path class="cp-i-muted" d="M36 76H92M164 76H220M36 184H86M174 184H220M76 36V68M184 36V56" opacity=".6"/><path class="cp-i-line-3" d="M42 216H104M152 216H214" opacity=".56"/>
-  <path class="cp-i-primary" d="M76 58L190 134L139 146L116 198L76 58Z"/><path class="cp-i-line-3" d="M136 145L168 184"/>
+<path data-icon-frame="surface" class="cp-i-bg-strong" d="M42 20H214L236 42V214L214 236H42L20 214V42Z"/><g data-icon-frame="decor" opacity=".65"><path data-icon-frame="decor" fill="none" d="M28 74H60M196 74H228M28 182H60M196 182H228M74 28V56M182 28V56M74 200V228M182 200V228" stroke="var(--cp-icon-primary, rgb(var(--usk-primary-rgb, 88 244 255)))" stroke-width="2"/><path data-icon-frame="decor" fill="none" d="M22 102H48M208 102H236M42 218H88M168 218H214" stroke="var(--cp-icon-secondary, rgb(var(--usk-secondary-rgb, 255 46 159)))" stroke-width="2"/><path data-icon-frame="decor" fill="none" d="M30 52H70M80 52H88M98 52H112M144 52H182M194 52H204M40 216H66M76 216H114M146 216H180M190 216H214" stroke="var(--cp-icon-muted, rgb(var(--usk-text-muted-rgb, 111 143 184)))" stroke-width="2"/></g><path data-icon-frame="surface" fill="none" d="M42 20H214L236 42V214L214 236H42L20 214V42Z" stroke="currentColor" stroke-width="4" opacity=".78"/><path data-icon-frame="decor" fill="none" d="M52 34H98M158 34H204M34 52V98M222 156V204M54 222H104M154 222H204" stroke="currentColor" stroke-width="3" opacity=".78"/>
+
+
+<path class="cp-i-primary" d="M76 58L190 134L139 146L116 198L76 58Z"/>
+<path class="cp-i-line-3" d="M136 145L168 184"/>
+
 </svg>

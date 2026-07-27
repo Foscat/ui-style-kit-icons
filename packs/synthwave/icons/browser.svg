@@ -1,4 +1,4 @@
-<svg overflow="visible" xmlns="http://www.w3.org/2000/svg" class="sw-icon" width="256" height="256" viewBox="-8 -8 272 272" role="img" aria-labelledby="browser-title browser-desc">
+<svg overflow="visible" xmlns="http://www.w3.org/2000/svg" class="sw-icon" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="browser-title browser-desc">
   <title id="browser-title">Browser</title>
   <desc id="browser-desc">Theme-aware synthwave SVG icon with neon styling and UI Style Kit color variables. Semantic meaning: Web page, app shell, external web surface.</desc>
   <style>
@@ -43,9 +43,18 @@
 .sw-i-surface{ fill: var(--sw-icon-bg); stroke: var(--sw-icon-border); stroke-width: 4.5; }
 
 [data-icon-frame]{opacity:var(--usk-icon-frame-opacity,1)}
-[data-icon-frame="decor"]{opacity:var(--usk-icon-frame-decor-opacity,var(--usk-icon-frame-opacity,1))}
+[data-icon-frame="decor"]{opacity:var(--usk-icon-frame-decor-opacity,.22)}
 [data-icon-glyph="play"]{fill:var(--usk-icon-play,var(--usk-icon-foreground,rgb(var(--usk-text-rgb,255 255 255))));stroke:none;opacity:1}
 </style>
-  <rect data-icon-frame="decor" class="sw-i-surface" x="18" y="18" width="220" height="220" rx="48"/><g data-icon-frame="decor" class="sw-i-horizon-sun" opacity=".44"><path class="sw-i-warning" d="M74 166A54 54 0 0 1 182 166H74Z" opacity=".24"/><path class="sw-i-line-3" d="M86 136H170M80 150H176M74 164H182" opacity=".34"/></g><path class="sw-i-line-3" d="M34 176H222M50 194H206M70 212H186" opacity=".42"/><path class="sw-i-muted" d="M24 232L104 154M232 232L152 154M63 232L116 154M193 232L140 154" opacity=".32"/>
-  <rect class="sw-i-bg-strong" x="56" y="74" width="144" height="112" rx="18"/><path class="sw-i-line" d="M56 106H200"/><circle class="sw-i-danger" cx="80" cy="90" r="6"/><circle class="sw-i-warning" cx="100" cy="90" r="6"/><circle class="sw-i-success" cx="120" cy="90" r="6"/><path class="sw-i-muted" d="M84 132H172M84 158H142"/>
+<rect data-icon-frame="surface" class="sw-i-surface" x="18" y="18" width="220" height="220" rx="48"/><path data-icon-frame="decor" class="sw-i-line-3" d="M48 204H208M76 218H180" opacity=".72"/>
+
+
+
+<rect class="sw-i-bg-strong" x="56" y="74" width="144" height="112" rx="18"/>
+<path class="sw-i-line" d="M56 106H200"/>
+<circle class="sw-i-danger" cx="80" cy="90" r="6"/>
+<circle class="sw-i-warning" cx="100" cy="90" r="6"/>
+<circle class="sw-i-success" cx="120" cy="90" r="6"/>
+<path class="sw-i-muted" d="M84 132H172M84 158H142"/>
+
 </svg>

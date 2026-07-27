@@ -1,4 +1,4 @@
-<svg overflow="visible" xmlns="http://www.w3.org/2000/svg" class="brutal-icon" width="256" height="256" viewBox="-8 -8 272 272" role="img" aria-labelledby="warning-title warning-desc">
+<svg overflow="visible" xmlns="http://www.w3.org/2000/svg" class="brutal-icon" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="warning-title warning-desc">
   <title id="warning-title">Warning</title>
   <desc id="warning-desc">Theme-aware brutalist SVG icon with hard outlines, block shapes, and UI Style Kit color variables. Semantic meaning: Caution, risk, validation issue.</desc>
   <style>
@@ -20,8 +20,15 @@
 [data-icon-frame="decor"]{opacity:var(--usk-icon-frame-decor-opacity,var(--usk-icon-frame-opacity,1))}
 [data-icon-glyph="play"]{fill:var(--usk-icon-play,var(--usk-icon-foreground,rgb(var(--usk-text-rgb,255 255 255))));stroke:none;opacity:1}
 </style>
-  <rect data-icon-frame="decor" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
-  <rect data-icon-frame="decor" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
-  <path class="brutal-i-muted" d="M48 64H94M150 64H196M48 194H104M144 194H196"/>
-  <path class="brutal-i-warning" d="M128 55L203 190H53Z"/><path class="brutal-i-danger" d="M118 100H138V146H118Z"/><rect class="brutal-i-danger" x="118" y="164" width="20" height="20"/><path class="brutal-i-line" d="M78 190H178"/>
+<rect data-icon-frame="surface" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
+  <rect data-icon-frame="surface" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
+  <path data-icon-frame="decor" class="brutal-i-muted" d="M48 52H84M160 52H196M48 204H88M156 204H196"/>
+
+
+
+<path class="brutal-i-warning" d="M128 55L203 190H53Z"/>
+<path class="brutal-i-danger" d="M118 100H138V146H118Z"/>
+<rect class="brutal-i-danger" x="118" y="164" width="20" height="20"/>
+<path class="brutal-i-line" d="M78 190H178"/>
+
 </svg>

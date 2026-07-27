@@ -21,9 +21,19 @@
 [data-icon-frame="decor"]{opacity:var(--usk-icon-frame-decor-opacity,var(--usk-icon-frame-opacity,1))}
 [data-icon-glyph="play"]{fill:var(--usk-icon-play,var(--usk-icon-foreground,rgb(var(--usk-text-rgb,255 255 255))));stroke:none;opacity:1}
 </style>
-  <rect data-icon-frame="decor" class="bi-surface" x="26" y="28" width="204" height="200" rx="38"/>
-  <rect class="bi-bg-soft" x="48" y="52" width="68" height="48" rx="18" opacity=".88"/>
-  <rect class="bi-bg-soft" x="148" y="164" width="52" height="34" rx="14" opacity=".74"/>
-  <path class="bi-muted" d="M132 53H178M54 118H92M164 112H202" opacity=".42"/>
-  <path class="bi-line" d="M66 132L128 80L190 132"/><rect class="bi-bg-strong" x="84" y="126" width="88" height="62" rx="18"/><path class="bi-line-3" d="M116 188V153H140V188"/>
+<rect data-icon-frame="surface" class="bi-surface" x="26" y="28" width="204" height="200" rx="38"/>
+
+
+  <path data-icon-frame="decor" class="bi-muted" d="M48 52H84M172 52H208M52 210H98M158 210H204" opacity=".42"/>
+
+
+<g data-icon-glyph="semantic" data-icon-prototype="reference-led-v1">
+  <path class="bi-line" d="M54 123L126 62L204 124L186 134L126 84L70 132Z"/>
+  <path class="bi-line" d="M72 125L70 198C98 202 154 201 184 196L182 123"/>
+  <path data-icon-detail="home-chimney" class="bi-line-2" d="M157 83V58H179V101"/>
+  <rect data-icon-detail="home-door" class="bi-line-2" x="112" y="151" width="30" height="48" rx="7"/>
+  <rect data-icon-detail="home-window-left" class="bi-line-2" x="82" y="137" width="22" height="20" rx="5"/>
+  <rect data-icon-detail="home-window-right" class="bi-line-2" x="151" y="134" width="24" height="22" rx="5"/>
+</g>
+
 </svg>

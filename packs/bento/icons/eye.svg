@@ -21,9 +21,14 @@
 [data-icon-frame="decor"]{opacity:var(--usk-icon-frame-decor-opacity,var(--usk-icon-frame-opacity,1))}
 [data-icon-glyph="play"]{fill:var(--usk-icon-play,var(--usk-icon-foreground,rgb(var(--usk-text-rgb,255 255 255))));stroke:none;opacity:1}
 </style>
-  <rect data-icon-frame="decor" class="bi-surface" x="26" y="28" width="204" height="200" rx="38"/>
-  <rect class="bi-bg-soft" x="48" y="52" width="68" height="48" rx="18" opacity=".88"/>
-  <rect class="bi-bg-soft" x="148" y="164" width="52" height="34" rx="14" opacity=".74"/>
-  <path class="bi-muted" d="M132 53H178M54 118H92M164 112H202" opacity=".42"/>
-  <path class="bi-primary" stroke-width="5" d="M52 128C75 91 104 76 128 76C152 76 181 91 204 128C181 165 152 180 128 180C104 180 75 165 52 128Z"/><circle class="bi-line-2" cx="128" cy="128" r="31"/><rect class="bi-accent" x="118" y="118" width="20" height="20" rx="10"/>
+<rect data-icon-frame="surface" class="bi-surface" x="26" y="28" width="204" height="200" rx="38"/>
+
+
+  <path data-icon-frame="decor" class="bi-muted" d="M48 52H84M172 52H208M52 210H98M158 210H204" opacity=".42"/>
+
+
+<path class="bi-primary" stroke-width="5" d="M52 128C75 91 104 76 128 76C152 76 181 91 204 128C181 165 152 180 128 180C104 180 75 165 52 128Z"/>
+<circle class="bi-line-2" cx="128" cy="128" r="31"/>
+<rect class="bi-accent" x="118" y="118" width="20" height="20" rx="10"/>
+
 </svg>

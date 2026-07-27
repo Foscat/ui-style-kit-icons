@@ -32,438 +32,795 @@
 </style>
 <symbol id="brutal-icon-home" viewBox="0 0 256 256">
   <title>Home</title>
-  <rect data-icon-frame="decor" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
-    <rect data-icon-frame="decor" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
-    <path class="brutal-i-muted" d="M48 64H94M150 64H196M48 194H104M144 194H196"/>
-    <path class="brutal-i-line" d="M64 132L128 76L192 132"/><path class="brutal-i-secondary" d="M82 124H174V188H82Z"/><path class="brutal-i-bg" stroke="var(--brutal-icon-border,rgb(var(--usk-border-rgb,0 0 0)))" stroke-width="7" d="M114 188V148H142V188Z"/>
+  <rect data-icon-frame="surface" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
+    <rect data-icon-frame="surface" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
+    <path data-icon-frame="decor" class="brutal-i-muted" d="M48 52H84M160 52H196M48 204H88M156 204H196"/>
+  <g data-icon-glyph="semantic" data-icon-prototype="reference-led-v1">
+    <rect data-icon-part="home-body" class="brutal-i-primary" x="72" y="122" width="112" height="70"/>
+    <polygon data-icon-part="home-roof" class="brutal-i-accent" points="48,128 128,54 208,128 184,128 128,79 72,128"/>
+    <rect data-icon-part="home-door" class="brutal-i-secondary" x="115" y="148" width="30" height="44"/>
+    <rect data-icon-part="home-window" class="brutal-i-success" x="82" y="145" width="24" height="24"/>
+    <path data-icon-part="home-cutout" class="brutal-i-bg" d="M125 157H135V167H125Z"/>
+  </g>
 </symbol>
 <symbol id="brutal-icon-dashboard" viewBox="0 0 256 256">
   <title>Dashboard</title>
-  <rect data-icon-frame="decor" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
-    <rect data-icon-frame="decor" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
-    <path class="brutal-i-muted" d="M48 64H94M150 64H196M48 194H104M144 194H196"/>
-    <rect class="brutal-i-secondary" x="62" y="78" width="132" height="104"/><path class="brutal-i-line" d="M82 150H174"/><path class="brutal-i-line-2" d="M128 150L162 112"/><rect class="brutal-i-accent" x="82" y="94" width="28" height="28"/><rect class="brutal-i-primary" x="148" y="160" width="28" height="18"/>
+  <rect data-icon-frame="surface" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
+    <rect data-icon-frame="surface" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
+    <path data-icon-frame="decor" class="brutal-i-muted" d="M48 52H84M160 52H196M48 204H88M156 204H196"/>
+
+
+
+  <rect class="brutal-i-secondary" x="62" y="78" width="132" height="104"/>
+  <path class="brutal-i-line" d="M82 150H174"/>
+  <path class="brutal-i-line-2" d="M128 150L162 112"/>
+  <rect class="brutal-i-accent" x="82" y="94" width="28" height="28"/>
+  <rect class="brutal-i-primary" x="148" y="160" width="28" height="18"/>
 </symbol>
-<symbol id="brutal-icon-browser" viewBox="-8 -8 272 272">
+<symbol id="brutal-icon-browser" viewBox="0 0 256 256">
   <title>Browser</title>
-  <rect data-icon-frame="decor" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
-    <rect data-icon-frame="decor" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
-    <path class="brutal-i-muted" d="M48 64H94M150 64H196M48 194H104M144 194H196"/>
-    <rect class="brutal-i-bg-strong" x="54" y="74" width="148" height="112" stroke="var(--brutal-icon-border,rgb(var(--usk-border-rgb,0 0 0)))" stroke-width="7"/><path class="brutal-i-line" d="M54 104H202"/><rect class="brutal-i-accent" x="70" y="84" width="12" height="12"/><rect class="brutal-i-primary" x="90" y="84" width="12" height="12"/><path class="brutal-i-muted" d="M80 132H176M80 158H140"/>
+  <rect data-icon-frame="surface" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
+    <rect data-icon-frame="surface" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
+    <path data-icon-frame="decor" class="brutal-i-muted" d="M48 52H84M160 52H196M48 204H88M156 204H196"/>
+
+
+
+  <rect class="brutal-i-bg-strong" x="54" y="74" width="148" height="112" stroke="var(--brutal-icon-border,rgb(var(--usk-border-rgb,0 0 0)))" stroke-width="7"/>
+  <path class="brutal-i-line" d="M54 104H202"/>
+  <rect class="brutal-i-accent" x="70" y="84" width="12" height="12"/>
+  <rect class="brutal-i-primary" x="90" y="84" width="12" height="12"/>
+  <path class="brutal-i-muted" d="M80 132H176M80 158H140"/>
 </symbol>
 <symbol id="brutal-icon-search" viewBox="0 0 256 256">
   <title>Search</title>
-  <rect data-icon-frame="decor" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
-    <rect data-icon-frame="decor" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
-    <path class="brutal-i-muted" d="M48 64H94M150 64H196M48 194H104M144 194H196"/>
-    <circle class="brutal-i-bg-strong" cx="112" cy="112" r="42" stroke="var(--brutal-icon-border,rgb(var(--usk-border-rgb,0 0 0)))" stroke-width="9"/><path class="brutal-i-line" d="M145 145L194 194"/><path class="brutal-i-line-2" d="M88 112H136"/>
+  <rect data-icon-frame="surface" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
+    <rect data-icon-frame="surface" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
+    <path data-icon-frame="decor" class="brutal-i-muted" d="M48 52H84M160 52H196M48 204H88M156 204H196"/>
+
+
+
+  <circle class="brutal-i-bg-strong" cx="112" cy="112" r="42" stroke="var(--brutal-icon-border,rgb(var(--usk-border-rgb,0 0 0)))" stroke-width="9"/>
+  <path class="brutal-i-line" d="M145 145L194 194"/>
+  <path class="brutal-i-line-2" d="M88 112H136"/>
 </symbol>
 <symbol id="brutal-icon-user" viewBox="0 0 256 256">
   <title>User</title>
-  <rect data-icon-frame="decor" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
-    <rect data-icon-frame="decor" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
-    <path class="brutal-i-muted" d="M48 64H94M150 64H196M48 194H104M144 194H196"/>
-    <circle class="brutal-i-secondary" cx="128" cy="92" r="32"/><path class="brutal-i-bg-strong" stroke="var(--brutal-icon-border,rgb(var(--usk-border-rgb,0 0 0)))" stroke-width="8" d="M72 190C81 154 103 136 128 136C153 136 175 154 184 190Z"/><path class="brutal-i-line" d="M108 92H148"/>
+  <rect data-icon-frame="surface" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
+    <rect data-icon-frame="surface" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
+    <path data-icon-frame="decor" class="brutal-i-muted" d="M48 52H84M160 52H196M48 204H88M156 204H196"/>
+
+
+
+  <circle class="brutal-i-secondary" cx="128" cy="92" r="32"/>
+  <path class="brutal-i-bg-strong" stroke="var(--brutal-icon-border,rgb(var(--usk-border-rgb,0 0 0)))" stroke-width="8" d="M72 190C81 154 103 136 128 136C153 136 175 154 184 190Z"/>
+  <path class="brutal-i-line" d="M108 92H148"/>
 </symbol>
-<symbol id="brutal-icon-users" viewBox="-8 -8 272 272">
+<symbol id="brutal-icon-users" viewBox="0 0 256 256">
   <title>Users</title>
-  <rect data-icon-frame="decor" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
-    <rect data-icon-frame="decor" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
-    <path class="brutal-i-muted" d="M48 64H94M150 64H196M48 194H104M144 194H196"/>
-    <circle class="brutal-i-secondary" cx="96" cy="104" r="24"/><circle class="brutal-i-accent" cx="160" cy="104" r="24"/><circle class="brutal-i-primary" cx="128" cy="84" r="30"/><path class="brutal-i-line" d="M70 198C78 160 104 140 128 140C152 140 178 160 186 198"/>
+  <rect data-icon-frame="surface" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
+    <rect data-icon-frame="surface" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
+    <path data-icon-frame="decor" class="brutal-i-muted" d="M48 52H84M160 52H196M48 204H88M156 204H196"/>
+    <g data-icon-glyph="semantic" data-icon-prototype="reference-led-v1">
+      <path data-icon-part="users-shoulders" class="brutal-i-secondary" d="M46 180V154L64 132H96L112 154V180Z"/>
+      <path data-icon-part="users-shoulders" class="brutal-i-primary" d="M84 194L90 140L110 116H146L166 140L172 194Z"/>
+      <path data-icon-part="users-shoulders" class="brutal-i-accent" d="M144 154L160 132H192L210 154V180H144Z"/>
+      <circle data-icon-part="users-head" class="brutal-i-secondary" cx="80" cy="105" r="15"/>
+      <circle data-icon-part="users-head" class="brutal-i-primary" cx="128" cy="76" r="18"/>
+      <circle data-icon-part="users-head" class="brutal-i-accent" cx="176" cy="105" r="15"/>
+      <path data-icon-part="users-cutout" class="brutal-i-success" d="M121 128H135L141 148L128 162L115 148Z"/>
+    </g>
 </symbol>
 <symbol id="brutal-icon-settings" viewBox="0 0 256 256">
   <title>Settings</title>
-  <rect data-icon-frame="decor" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
-    <rect data-icon-frame="decor" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
-    <path class="brutal-i-muted" d="M48 64H94M150 64H196M48 194H104M144 194H196"/>
-    <path class="brutal-i-secondary" d="M128 58L144 78L170 72L178 98L202 112L190 136L202 160L178 174L170 200L144 194L128 214L112 194L86 200L78 174L54 160L66 136L54 112L78 98L86 72L112 78Z"/><circle class="brutal-i-bg" cx="128" cy="136" r="31" stroke="var(--brutal-icon-border,rgb(var(--usk-border-rgb,0 0 0)))" stroke-width="8"/><rect class="brutal-i-accent" x="119" y="127" width="18" height="18"/>
+  <rect data-icon-frame="surface" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
+    <rect data-icon-frame="surface" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
+    <path data-icon-frame="decor" class="brutal-i-muted" d="M48 52H84M160 52H196M48 204H88M156 204H196"/>
+
+
+
+  <path class="brutal-i-secondary" d="M128 58L144 78L170 72L178 98L202 112L190 136L202 160L178 174L170 200L144 194L128 214L112 194L86 200L78 174L54 160L66 136L54 112L78 98L86 72L112 78Z"/>
+  <circle class="brutal-i-bg" cx="128" cy="136" r="31" stroke="var(--brutal-icon-border,rgb(var(--usk-border-rgb,0 0 0)))" stroke-width="8"/>
+  <rect class="brutal-i-accent" x="119" y="127" width="18" height="18"/>
 </symbol>
 <symbol id="brutal-icon-bell" viewBox="0 0 256 256">
   <title>Notifications</title>
-  <rect data-icon-frame="decor" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
-    <rect data-icon-frame="decor" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
-    <path class="brutal-i-muted" d="M48 64H94M150 64H196M48 194H104M144 194H196"/>
-    <path class="brutal-i-bg-strong" stroke="var(--brutal-icon-border,rgb(var(--usk-border-rgb,0 0 0)))" stroke-width="8" d="M84 151V116C84 89 102 70 128 70C154 70 172 89 172 116V151L190 178H66Z"/><path class="brutal-i-line-2" d="M112 192H144"/><rect class="brutal-i-danger" x="162" y="58" width="32" height="32"/>
+  <rect data-icon-frame="surface" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
+    <rect data-icon-frame="surface" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
+    <path data-icon-frame="decor" class="brutal-i-muted" d="M48 52H84M160 52H196M48 204H88M156 204H196"/>
+
+
+
+  <path class="brutal-i-bg-strong" stroke="var(--brutal-icon-border,rgb(var(--usk-border-rgb,0 0 0)))" stroke-width="8" d="M84 151V116C84 89 102 70 128 70C154 70 172 89 172 116V151L190 178H66Z"/>
+  <path class="brutal-i-line-2" d="M112 192H144"/>
+  <rect class="brutal-i-danger" x="162" y="58" width="32" height="32"/>
 </symbol>
 <symbol id="brutal-icon-message" viewBox="0 0 256 256">
   <title>Message</title>
-  <rect data-icon-frame="decor" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
-    <rect data-icon-frame="decor" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
-    <path class="brutal-i-muted" d="M48 64H94M150 64H196M48 194H104M144 194H196"/>
-    <path class="brutal-i-bg-strong" stroke="var(--brutal-icon-border,rgb(var(--usk-border-rgb,0 0 0)))" stroke-width="8" d="M58 80H198V160H132L96 194V160H58Z"/><path class="brutal-i-muted" d="M84 108H172M84 132H148"/><rect class="brutal-i-accent" x="160" y="126" width="18" height="18"/>
+  <rect data-icon-frame="surface" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
+    <rect data-icon-frame="surface" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
+    <path data-icon-frame="decor" class="brutal-i-muted" d="M48 52H84M160 52H196M48 204H88M156 204H196"/>
+
+
+
+  <path class="brutal-i-bg-strong" stroke="var(--brutal-icon-border,rgb(var(--usk-border-rgb,0 0 0)))" stroke-width="8" d="M58 80H198V160H132L96 194V160H58Z"/>
+  <path class="brutal-i-muted" d="M84 108H172M84 132H148"/>
+  <rect class="brutal-i-accent" x="160" y="126" width="18" height="18"/>
 </symbol>
-<symbol id="brutal-icon-mail" viewBox="-8 -8 272 272">
+<symbol id="brutal-icon-mail" viewBox="0 0 256 256">
   <title>Email</title>
-  <rect data-icon-frame="decor" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
-    <rect data-icon-frame="decor" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
-    <path class="brutal-i-muted" d="M48 64H94M150 64H196M48 194H104M144 194H196"/>
-    <rect class="brutal-i-bg-strong" x="56" y="86" width="144" height="96" stroke="var(--brutal-icon-border,rgb(var(--usk-border-rgb,0 0 0)))" stroke-width="8"/><path class="brutal-i-line" d="M64 102L128 144L192 102"/><path class="brutal-i-line-2" d="M64 178L110 138M192 178L146 138"/>
+  <rect data-icon-frame="surface" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
+    <rect data-icon-frame="surface" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
+    <path data-icon-frame="decor" class="brutal-i-muted" d="M48 52H84M160 52H196M48 204H88M156 204H196"/>
+
+
+
+  <rect class="brutal-i-bg-strong" x="56" y="86" width="144" height="96" stroke="var(--brutal-icon-border,rgb(var(--usk-border-rgb,0 0 0)))" stroke-width="8"/>
+  <path class="brutal-i-line" d="M64 102L128 144L192 102"/>
+  <path class="brutal-i-line-2" d="M64 178L110 138M192 178L146 138"/>
 </symbol>
-<symbol id="brutal-icon-calendar" viewBox="-8 -8 272 272">
+<symbol id="brutal-icon-calendar" viewBox="0 0 256 256">
   <title>Calendar</title>
-  <rect data-icon-frame="decor" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
-    <rect data-icon-frame="decor" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
-    <path class="brutal-i-muted" d="M48 64H94M150 64H196M48 194H104M144 194H196"/>
-    <rect class="brutal-i-bg-strong" x="60" y="76" width="136" height="122" stroke="var(--brutal-icon-border,rgb(var(--usk-border-rgb,0 0 0)))" stroke-width="8"/><path class="brutal-i-line" d="M90 58V96M166 58V96M64 112H192"/><rect class="brutal-i-accent" x="88" y="136" width="20" height="20"/><rect class="brutal-i-secondary" x="124" y="136" width="20" height="20"/><rect class="brutal-i-primary" x="160" y="136" width="20" height="20"/>
+  <rect data-icon-frame="surface" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
+    <rect data-icon-frame="surface" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
+    <path data-icon-frame="decor" class="brutal-i-muted" d="M48 52H84M160 52H196M48 204H88M156 204H196"/>
+
+
+
+  <rect class="brutal-i-bg-strong" x="60" y="76" width="136" height="122" stroke="var(--brutal-icon-border,rgb(var(--usk-border-rgb,0 0 0)))" stroke-width="8"/>
+  <path class="brutal-i-line" d="M90 58V96M166 58V96M64 112H192"/>
+  <rect class="brutal-i-accent" x="88" y="136" width="20" height="20"/>
+  <rect class="brutal-i-secondary" x="124" y="136" width="20" height="20"/>
+  <rect class="brutal-i-primary" x="160" y="136" width="20" height="20"/>
 </symbol>
 <symbol id="brutal-icon-upload" viewBox="0 0 256 256">
   <title>Upload</title>
-  <rect data-icon-frame="decor" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
-    <rect data-icon-frame="decor" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
-    <path class="brutal-i-muted" d="M48 64H94M150 64H196M48 194H104M144 194H196"/>
-    <path class="brutal-i-line" d="M128 70V158M92 106L128 70L164 106"/><path class="brutal-i-line-2" d="M72 152V194H184V152"/><rect class="brutal-i-primary" x="98" y="178" width="60" height="18"/>
+  <rect data-icon-frame="surface" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
+    <rect data-icon-frame="surface" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
+    <path data-icon-frame="decor" class="brutal-i-muted" d="M48 52H84M160 52H196M48 204H88M156 204H196"/>
+
+
+
+  <path class="brutal-i-line" d="M128 70V158M92 106L128 70L164 106"/>
+  <path class="brutal-i-line-2" d="M72 152V194H184V152"/>
+  <rect class="brutal-i-primary" x="98" y="178" width="60" height="18"/>
 </symbol>
 <symbol id="brutal-icon-download" viewBox="0 0 256 256">
   <title>Download</title>
-  <rect data-icon-frame="decor" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
-    <rect data-icon-frame="decor" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
-    <path class="brutal-i-muted" d="M48 64H94M150 64H196M48 194H104M144 194H196"/>
-    <path class="brutal-i-line" d="M128 70V158M92 122L128 158L164 122"/><path class="brutal-i-line-2" d="M72 152V194H184V152"/><rect class="brutal-i-primary" x="98" y="178" width="60" height="18"/>
+  <rect data-icon-frame="surface" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
+    <rect data-icon-frame="surface" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
+    <path data-icon-frame="decor" class="brutal-i-muted" d="M48 52H84M160 52H196M48 204H88M156 204H196"/>
+
+
+
+  <path class="brutal-i-line" d="M128 70V158M92 122L128 158L164 122"/>
+  <path class="brutal-i-line-2" d="M72 152V194H184V152"/>
+  <rect class="brutal-i-primary" x="98" y="178" width="60" height="18"/>
 </symbol>
 <symbol id="brutal-icon-folder" viewBox="0 0 256 256">
   <title>Folder</title>
-  <rect data-icon-frame="decor" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
-    <rect data-icon-frame="decor" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
-    <path class="brutal-i-muted" d="M48 64H94M150 64H196M48 194H104M144 194H196"/>
-    <path class="brutal-i-secondary" d="M54 89H110L126 110H202V187H54Z"/><path class="brutal-i-line" d="M57 116H199"/><rect class="brutal-i-primary" x="84" y="144" width="86" height="20"/>
+  <rect data-icon-frame="surface" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
+    <rect data-icon-frame="surface" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
+    <path data-icon-frame="decor" class="brutal-i-muted" d="M48 52H84M160 52H196M48 204H88M156 204H196"/>
+
+
+
+  <path class="brutal-i-secondary" d="M54 89H110L126 110H202V187H54Z"/>
+  <path class="brutal-i-line" d="M57 116H199"/>
+  <rect class="brutal-i-primary" x="84" y="144" width="86" height="20"/>
 </symbol>
 <symbol id="brutal-icon-file" viewBox="0 0 256 256">
   <title>File</title>
-  <rect data-icon-frame="decor" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
-    <rect data-icon-frame="decor" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
-    <path class="brutal-i-muted" d="M48 64H94M150 64H196M48 194H104M144 194H196"/>
-    <path class="brutal-i-bg-strong" stroke="var(--brutal-icon-border,rgb(var(--usk-border-rgb,0 0 0)))" stroke-width="8" d="M78 58H147L184 95V198H78Z"/><path class="brutal-i-line-2" d="M147 58V96H184"/><path class="brutal-i-muted" d="M100 126H156M100 154H164M100 180H138"/>
+  <rect data-icon-frame="surface" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
+    <rect data-icon-frame="surface" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
+    <path data-icon-frame="decor" class="brutal-i-muted" d="M48 52H84M160 52H196M48 204H88M156 204H196"/>
+
+
+
+  <path class="brutal-i-bg-strong" stroke="var(--brutal-icon-border,rgb(var(--usk-border-rgb,0 0 0)))" stroke-width="8" d="M78 58H147L184 95V198H78Z"/>
+  <path class="brutal-i-line-2" d="M147 58V96H184"/>
+  <path class="brutal-i-muted" d="M100 126H156M100 154H164M100 180H138"/>
 </symbol>
 <symbol id="brutal-icon-image" viewBox="0 0 256 256">
   <title>Image</title>
-  <rect data-icon-frame="decor" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
-    <rect data-icon-frame="decor" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
-    <path class="brutal-i-muted" d="M48 64H94M150 64H196M48 194H104M144 194H196"/>
-    <rect class="brutal-i-bg-strong" x="58" y="74" width="140" height="116" stroke="var(--brutal-icon-border,rgb(var(--usk-border-rgb,0 0 0)))" stroke-width="8"/><rect class="brutal-i-primary" x="152" y="94" width="24" height="24"/><path class="brutal-i-line-2" d="M72 176L107 136L132 162L151 142L187 176Z"/>
+  <rect data-icon-frame="surface" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
+    <rect data-icon-frame="surface" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
+    <path data-icon-frame="decor" class="brutal-i-muted" d="M48 52H84M160 52H196M48 204H88M156 204H196"/>
+
+
+
+  <rect class="brutal-i-bg-strong" x="58" y="74" width="140" height="116" stroke="var(--brutal-icon-border,rgb(var(--usk-border-rgb,0 0 0)))" stroke-width="8"/>
+  <rect class="brutal-i-primary" x="152" y="94" width="24" height="24"/>
+  <path class="brutal-i-line-2" d="M72 176L107 136L132 162L151 142L187 176Z"/>
 </symbol>
 <symbol id="brutal-icon-video" viewBox="0 0 256 256">
   <title>Video</title>
-  <rect data-icon-frame="decor" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
-    <rect data-icon-frame="decor" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
-    <path class="brutal-i-muted" d="M48 64H94M150 64H196M48 194H104M144 194H196"/>
-    <g data-icon-video="player">
-      <rect data-icon-video="screen" class="brutal-i-surface" x="48" y="80" width="132" height="96"/>
-      <path data-icon-video="camera" class="brutal-i-secondary" d="M180 106L214 88V168L180 150Z"/>
-      <path data-icon-video="controls" class="brutal-i-muted" d="M68 104H96M68 158H126M144 158H160"/>
-      <rect data-icon-video="record" class="brutal-i-accent" x="145" y="98" width="14" height="14"/>
-      <path d="M94 103L146 128L94 153Z" data-icon-glyph="play"/>
-    </g>
+  <rect data-icon-frame="surface" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
+    <rect data-icon-frame="surface" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
+    <path data-icon-frame="decor" class="brutal-i-muted" d="M48 52H84M160 52H196M48 204H88M156 204H196"/>
+  <g data-icon-glyph="semantic" data-icon-prototype="reference-led-v1" data-icon-video="player">
+    <rect data-icon-part="video-body" data-icon-video="screen" class="brutal-i-secondary" x="42" y="76" width="140" height="108"/>
+    <polygon data-icon-part="video-camera" data-icon-video="camera" class="brutal-i-accent" points="182,104 218,84 218,172 182,152"/>
+    <rect data-icon-part="video-controls" data-icon-video="controls" class="brutal-i-primary" x="54" y="148" width="116" height="24"/>
+    <rect data-icon-part="video-record" data-icon-video="record" class="brutal-i-warning" x="150" y="88" width="16" height="16"/>
+    <path data-icon-part="video-play" d="M90 98L148 128L90 158Z" data-icon-glyph="play"/>
+  </g>
 </symbol>
 <symbol id="brutal-icon-camera" viewBox="0 0 256 256">
   <title>Camera</title>
-  <rect data-icon-frame="decor" class="brutal-i-primary" x="40" y="42" width="188" height="188"/><rect data-icon-frame="decor" class="brutal-i-surface" x="28" y="28" width="188" height="188"/><path class="brutal-i-muted" d="M48 64H94M150 64H196M48 194H104M144 194H196"/>
-    <path class="brutal-i-primary" d="M58 100H96L108 82H148L160 100H198V184H58Z"/><circle class="brutal-i-line-2" cx="128" cy="142" r="31"/><circle class="brutal-i-accent" cx="128" cy="142" r="12"/>
+  <rect data-icon-frame="surface" class="brutal-i-primary" x="40" y="42" width="188" height="188"/><rect data-icon-frame="surface" class="brutal-i-surface" x="28" y="28" width="188" height="188"/><path data-icon-frame="decor" class="brutal-i-muted" d="M48 52H84M160 52H196M48 204H88M156 204H196"/>
+
+
+
+  <path class="brutal-i-primary" d="M58 100H96L108 82H148L160 100H198V184H58Z"/>
+  <circle class="brutal-i-line-2" cx="128" cy="142" r="31"/>
+  <circle class="brutal-i-accent" cx="128" cy="142" r="12"/>
 </symbol>
 <symbol id="brutal-icon-database" viewBox="0 0 256 256">
   <title>Database</title>
-  <rect data-icon-frame="decor" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
-    <rect data-icon-frame="decor" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
-    <path class="brutal-i-muted" d="M48 64H94M150 64H196M48 194H104M144 194H196"/>
-    <ellipse class="brutal-i-secondary" cx="128" cy="78" rx="58" ry="24"/><path class="brutal-i-line" d="M70 78V174C70 187 96 198 128 198C160 198 186 187 186 174V78"/><path class="brutal-i-line-2" d="M70 112C70 124 96 134 128 134C160 134 186 124 186 112M70 144C70 156 96 166 128 166C160 166 186 156 186 144"/>
+  <rect data-icon-frame="surface" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
+    <rect data-icon-frame="surface" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
+    <path data-icon-frame="decor" class="brutal-i-muted" d="M48 52H84M160 52H196M48 204H88M156 204H196"/>
+
+
+
+  <ellipse class="brutal-i-secondary" cx="128" cy="78" rx="58" ry="24"/>
+  <path class="brutal-i-line" d="M70 78V174C70 187 96 198 128 198C160 198 186 187 186 174V78"/>
+  <path class="brutal-i-line-2" d="M70 112C70 124 96 134 128 134C160 134 186 124 186 112M70 144C70 156 96 166 128 166C160 166 186 156 186 144"/>
 </symbol>
-<symbol id="brutal-icon-server" viewBox="-8 -8 272 272">
+<symbol id="brutal-icon-server" viewBox="0 0 256 256">
   <title>Server</title>
-  <rect data-icon-frame="decor" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
-    <rect data-icon-frame="decor" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
-    <path class="brutal-i-muted" d="M48 64H94M150 64H196M48 194H104M144 194H196"/>
-    <rect class="brutal-i-bg-strong" x="62" y="70" width="132" height="48" stroke="var(--brutal-icon-border,rgb(var(--usk-border-rgb,0 0 0)))" stroke-width="7"/><rect class="brutal-i-bg-strong" x="62" y="138" width="132" height="48" stroke="var(--brutal-icon-border,rgb(var(--usk-border-rgb,0 0 0)))" stroke-width="7"/><rect class="brutal-i-accent" x="82" y="88" width="14" height="14"/><rect class="brutal-i-success" x="82" y="156" width="14" height="14"/><path class="brutal-i-muted" d="M114 95H174M114 163H174"/>
+  <rect data-icon-frame="surface" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
+    <rect data-icon-frame="surface" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
+    <path data-icon-frame="decor" class="brutal-i-muted" d="M48 52H84M160 52H196M48 204H88M156 204H196"/>
+
+
+
+  <rect class="brutal-i-bg-strong" x="62" y="70" width="132" height="48" stroke="var(--brutal-icon-border,rgb(var(--usk-border-rgb,0 0 0)))" stroke-width="7"/>
+  <rect class="brutal-i-bg-strong" x="62" y="138" width="132" height="48" stroke="var(--brutal-icon-border,rgb(var(--usk-border-rgb,0 0 0)))" stroke-width="7"/>
+  <rect class="brutal-i-accent" x="82" y="88" width="14" height="14"/>
+  <rect class="brutal-i-success" x="82" y="156" width="14" height="14"/>
+  <path class="brutal-i-muted" d="M114 95H174M114 163H174"/>
 </symbol>
 <symbol id="brutal-icon-api" viewBox="0 0 256 256">
   <title>API</title>
-  <rect data-icon-frame="decor" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
-    <rect data-icon-frame="decor" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
-    <path class="brutal-i-muted" d="M48 64H94M150 64H196M48 194H104M144 194H196"/>
-    <path class="brutal-i-line" d="M78 96L48 128L78 160M178 96L208 128L178 160"/><path class="brutal-i-line-2" d="M144 76L112 180"/><rect class="brutal-i-primary" x="102" y="118" width="54" height="20"/>
+  <rect data-icon-frame="surface" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
+    <rect data-icon-frame="surface" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
+    <path data-icon-frame="decor" class="brutal-i-muted" d="M48 52H84M160 52H196M48 204H88M156 204H196"/>
+
+
+
+  <path class="brutal-i-line" d="M78 96L48 128L78 160M178 96L208 128L178 160"/>
+  <path class="brutal-i-line-2" d="M144 76L112 180"/>
+  <rect class="brutal-i-primary" x="102" y="118" width="54" height="20"/>
 </symbol>
-<symbol id="brutal-icon-lock" viewBox="-8 -8 272 272">
+<symbol id="brutal-icon-lock" viewBox="0 0 256 256">
   <title>Lock</title>
-  <rect data-icon-frame="decor" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
-    <rect data-icon-frame="decor" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
-    <path class="brutal-i-muted" d="M48 64H94M150 64H196M48 194H104M144 194H196"/>
-    <rect class="brutal-i-bg-strong" x="70" y="112" width="116" height="84" stroke="var(--brutal-icon-border,rgb(var(--usk-border-rgb,0 0 0)))" stroke-width="8"/><path class="brutal-i-line" d="M91 112V93C91 70 106 55 128 55C150 55 165 70 165 93V112"/><rect class="brutal-i-accent" x="118" y="144" width="20" height="34"/>
+  <rect data-icon-frame="surface" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
+    <rect data-icon-frame="surface" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
+    <path data-icon-frame="decor" class="brutal-i-muted" d="M48 52H84M160 52H196M48 204H88M156 204H196"/>
+
+
+
+  <rect class="brutal-i-bg-strong" x="70" y="112" width="116" height="84" stroke="var(--brutal-icon-border,rgb(var(--usk-border-rgb,0 0 0)))" stroke-width="8"/>
+  <path class="brutal-i-line" d="M91 112V93C91 70 106 55 128 55C150 55 165 70 165 93V112"/>
+  <rect class="brutal-i-accent" x="118" y="144" width="20" height="34"/>
 </symbol>
 <symbol id="brutal-icon-shield" viewBox="0 0 256 256">
   <title>Shield</title>
-  <rect data-icon-frame="decor" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
-    <rect data-icon-frame="decor" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
-    <path class="brutal-i-muted" d="M48 64H94M150 64H196M48 194H104M144 194H196"/>
-    <path class="brutal-i-secondary" d="M128 55L190 82V126C190 169 164 198 128 215C92 198 66 169 66 126V82Z"/><path class="brutal-i-line" d="M96 132L120 156L162 106"/><path class="brutal-i-line-2" d="M128 76V194"/>
+  <rect data-icon-frame="surface" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
+    <rect data-icon-frame="surface" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
+    <path data-icon-frame="decor" class="brutal-i-muted" d="M48 52H84M160 52H196M48 204H88M156 204H196"/>
+
+
+
+  <path class="brutal-i-secondary" d="M128 55L190 82V126C190 169 164 198 128 215C92 198 66 169 66 126V82Z"/>
+  <path class="brutal-i-line" d="M96 132L120 156L162 106"/>
+  <path class="brutal-i-line-2" d="M128 76V194"/>
 </symbol>
 <symbol id="brutal-icon-key" viewBox="0 0 256 256">
   <title>Key</title>
-  <rect data-icon-frame="decor" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
-    <rect data-icon-frame="decor" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
-    <path class="brutal-i-muted" d="M48 64H94M150 64H196M48 194H104M144 194H196"/>
-    <circle class="brutal-i-bg-strong" cx="94" cy="128" r="34" stroke="var(--brutal-icon-border,rgb(var(--usk-border-rgb,0 0 0)))" stroke-width="8"/><path class="brutal-i-line" d="M128 128H202M168 128V150M190 128V144"/><rect class="brutal-i-primary" x="88" y="122" width="12" height="12"/>
+  <rect data-icon-frame="surface" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
+    <rect data-icon-frame="surface" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
+    <path data-icon-frame="decor" class="brutal-i-muted" d="M48 52H84M160 52H196M48 204H88M156 204H196"/>
+
+
+
+  <circle class="brutal-i-bg-strong" cx="94" cy="128" r="34" stroke="var(--brutal-icon-border,rgb(var(--usk-border-rgb,0 0 0)))" stroke-width="8"/>
+  <path class="brutal-i-line" d="M128 128H202M168 128V150M190 128V144"/>
+  <rect class="brutal-i-primary" x="88" y="122" width="12" height="12"/>
 </symbol>
 <symbol id="brutal-icon-chart" viewBox="0 0 256 256">
   <title>Chart</title>
-  <rect data-icon-frame="decor" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
-    <rect data-icon-frame="decor" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
-    <path class="brutal-i-muted" d="M48 64H94M150 64H196M48 194H104M144 194H196"/>
-    <path class="brutal-i-line" d="M66 188H196"/><rect class="brutal-i-primary" x="78" y="132" width="24" height="56"/><rect class="brutal-i-secondary" x="116" y="100" width="24" height="88"/><rect class="brutal-i-accent" x="154" y="72" width="24" height="116"/><path class="brutal-i-muted" d="M72 110L107 126L139 90L183 68"/>
+  <rect data-icon-frame="surface" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
+    <rect data-icon-frame="surface" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
+    <path data-icon-frame="decor" class="brutal-i-muted" d="M48 52H84M160 52H196M48 204H88M156 204H196"/>
+
+
+
+  <path class="brutal-i-line" d="M66 188H196"/>
+  <rect class="brutal-i-primary" x="78" y="132" width="24" height="56"/>
+  <rect class="brutal-i-secondary" x="116" y="100" width="24" height="88"/>
+  <rect class="brutal-i-accent" x="154" y="72" width="24" height="116"/>
+  <path class="brutal-i-muted" d="M72 110L107 126L139 90L183 68"/>
 </symbol>
 <symbol id="brutal-icon-activity" viewBox="0 0 256 256">
   <title>Activity</title>
-  <rect data-icon-frame="decor" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
-    <rect data-icon-frame="decor" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
-    <path class="brutal-i-muted" d="M48 64H94M150 64H196M48 194H104M144 194H196"/>
-    <path class="brutal-i-line" d="M50 137H84L99 94L128 181L148 118H171L184 94L206 137"/><path class="brutal-i-line-2" d="M58 170H198"/><rect class="brutal-i-primary" x="70" y="88" width="24" height="14"/><rect class="brutal-i-secondary" x="162" y="88" width="28" height="14"/>
+  <rect data-icon-frame="surface" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
+    <rect data-icon-frame="surface" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
+    <path data-icon-frame="decor" class="brutal-i-muted" d="M48 52H84M160 52H196M48 204H88M156 204H196"/>
+
+
+
+  <path class="brutal-i-line" d="M50 137H84L99 94L128 181L148 118H171L184 94L206 137"/>
+  <path class="brutal-i-line-2" d="M58 170H198"/>
+  <rect class="brutal-i-primary" x="70" y="88" width="24" height="14"/>
+  <rect class="brutal-i-secondary" x="162" y="88" width="28" height="14"/>
 </symbol>
-<symbol id="brutal-icon-credit-card" viewBox="-8 -8 272 272">
+<symbol id="brutal-icon-credit-card" viewBox="0 0 256 256">
   <title>Credit Card</title>
-  <rect data-icon-frame="decor" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
-    <rect data-icon-frame="decor" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
-    <path class="brutal-i-muted" d="M48 64H94M150 64H196M48 194H104M144 194H196"/>
-    <rect class="brutal-i-bg-strong" x="54" y="84" width="148" height="96" stroke="var(--brutal-icon-border,rgb(var(--usk-border-rgb,0 0 0)))" stroke-width="8"/><path class="brutal-i-line" d="M58 112H198"/><path class="brutal-i-muted" d="M80 148H126M80 166H108"/><rect class="brutal-i-accent" x="160" y="146" width="32" height="22"/>
+  <rect data-icon-frame="surface" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
+    <rect data-icon-frame="surface" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
+    <path data-icon-frame="decor" class="brutal-i-muted" d="M48 52H84M160 52H196M48 204H88M156 204H196"/>
+
+
+
+  <rect class="brutal-i-bg-strong" x="54" y="84" width="148" height="96" stroke="var(--brutal-icon-border,rgb(var(--usk-border-rgb,0 0 0)))" stroke-width="8"/>
+  <path class="brutal-i-line" d="M58 112H198"/>
+  <path class="brutal-i-muted" d="M80 148H126M80 166H108"/>
+  <rect class="brutal-i-accent" x="160" y="146" width="32" height="22"/>
 </symbol>
 <symbol id="brutal-icon-wallet" viewBox="0 0 256 256">
   <title>Wallet</title>
-  <rect data-icon-frame="decor" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
-    <rect data-icon-frame="decor" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
-    <path class="brutal-i-muted" d="M48 64H94M150 64H196M48 194H104M144 194H196"/>
-    <path class="brutal-i-bg-strong" stroke="var(--brutal-icon-border,rgb(var(--usk-border-rgb,0 0 0)))" stroke-width="8" d="M62 88H176C190 88 198 96 198 110V178C198 190 190 198 176 198H62Z"/><path class="brutal-i-line-2" d="M62 110H190"/><path class="brutal-i-secondary" d="M142 128H206V168H142Z"/><rect class="brutal-i-primary" x="170" y="144" width="10" height="10"/>
+  <rect data-icon-frame="surface" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
+    <rect data-icon-frame="surface" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
+    <path data-icon-frame="decor" class="brutal-i-muted" d="M48 52H84M160 52H196M48 204H88M156 204H196"/>
+
+
+
+  <path class="brutal-i-bg-strong" stroke="var(--brutal-icon-border,rgb(var(--usk-border-rgb,0 0 0)))" stroke-width="8" d="M62 88H176C190 88 198 96 198 110V178C198 190 190 198 176 198H62Z"/>
+  <path class="brutal-i-line-2" d="M62 110H190"/>
+  <path class="brutal-i-secondary" d="M142 128H206V168H142Z"/>
+  <rect class="brutal-i-primary" x="170" y="144" width="10" height="10"/>
 </symbol>
 <symbol id="brutal-icon-cart" viewBox="0 0 256 256">
   <title>Cart</title>
-  <rect data-icon-frame="decor" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
-    <rect data-icon-frame="decor" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
-    <path class="brutal-i-muted" d="M48 64H94M150 64H196M48 194H104M144 194H196"/>
-    <path class="brutal-i-line" d="M58 76H80L97 158H174L194 102H93"/><rect class="brutal-i-primary" x="94" y="176" width="24" height="24"/><rect class="brutal-i-accent" x="154" y="176" width="24" height="24"/><path class="brutal-i-muted" d="M108 128H176"/>
+  <rect data-icon-frame="surface" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
+    <rect data-icon-frame="surface" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
+    <path data-icon-frame="decor" class="brutal-i-muted" d="M48 52H84M160 52H196M48 204H88M156 204H196"/>
+
+
+
+  <path class="brutal-i-line" d="M58 76H80L97 158H174L194 102H93"/>
+  <rect class="brutal-i-primary" x="94" y="176" width="24" height="24"/>
+  <rect class="brutal-i-accent" x="154" y="176" width="24" height="24"/>
+  <path class="brutal-i-muted" d="M108 128H176"/>
 </symbol>
 <symbol id="brutal-icon-invoice" viewBox="0 0 256 256">
   <title>Invoice</title>
-  <rect data-icon-frame="decor" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
-    <rect data-icon-frame="decor" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
-    <path class="brutal-i-muted" d="M48 64H94M150 64H196M48 194H104M144 194H196"/>
-    <path class="brutal-i-bg-strong" stroke="var(--brutal-icon-border,rgb(var(--usk-border-rgb,0 0 0)))" stroke-width="8" d="M78 58H178V198L158 188L138 198L118 188L98 198L78 188Z"/><path class="brutal-i-muted" d="M100 92H156M100 120H162M100 148H136"/><rect class="brutal-i-primary" x="94" y="160" width="24" height="16"/><rect class="brutal-i-accent" x="146" y="160" width="22" height="16"/>
+  <rect data-icon-frame="surface" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
+    <rect data-icon-frame="surface" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
+    <path data-icon-frame="decor" class="brutal-i-muted" d="M48 52H84M160 52H196M48 204H88M156 204H196"/>
+
+
+
+  <path class="brutal-i-bg-strong" stroke="var(--brutal-icon-border,rgb(var(--usk-border-rgb,0 0 0)))" stroke-width="8" d="M78 58H178V198L158 188L138 198L118 188L98 198L78 188Z"/>
+  <path class="brutal-i-muted" d="M100 92H156M100 120H162M100 148H136"/>
+  <rect class="brutal-i-primary" x="94" y="160" width="24" height="16"/>
+  <rect class="brutal-i-accent" x="146" y="160" width="22" height="16"/>
 </symbol>
 <symbol id="brutal-icon-tax" viewBox="0 0 256 256">
   <title>Tax</title>
-  <rect data-icon-frame="decor" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
-    <rect data-icon-frame="decor" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
-    <path class="brutal-i-muted" d="M48 64H94M150 64H196M48 194H104M144 194H196"/>
-    <rect class="brutal-i-bg-strong" x="65" y="75" width="126" height="108" stroke="var(--brutal-icon-border,rgb(var(--usk-border-rgb,0 0 0)))" stroke-width="8"/><path class="brutal-i-muted" d="M91 106H165M91 136H138M91 164H116"/><path class="brutal-i-line-2" d="M148 136L170 158M170 136L148 158"/><rect class="brutal-i-primary" x="92" y="84" width="28" height="16"/>
+  <rect data-icon-frame="surface" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
+    <rect data-icon-frame="surface" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
+    <path data-icon-frame="decor" class="brutal-i-muted" d="M48 52H84M160 52H196M48 204H88M156 204H196"/>
+
+
+
+  <rect class="brutal-i-bg-strong" x="65" y="75" width="126" height="108" stroke="var(--brutal-icon-border,rgb(var(--usk-border-rgb,0 0 0)))" stroke-width="8"/>
+  <path class="brutal-i-muted" d="M91 106H165M91 136H138M91 164H116"/>
+  <path class="brutal-i-line-2" d="M148 136L170 158M170 136L148 158"/>
+  <rect class="brutal-i-primary" x="92" y="84" width="28" height="16"/>
 </symbol>
 <symbol id="brutal-icon-login" viewBox="0 0 256 256">
   <title>Login</title>
-  <rect data-icon-frame="decor" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
-    <rect data-icon-frame="decor" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
-    <path class="brutal-i-muted" d="M48 64H94M150 64H196M48 194H104M144 194H196"/>
-    <path class="brutal-i-line-2" d="M60 78H133V106M133 150V178H60"/><path class="brutal-i-line" d="M96 128H193M157 94L193 128L157 162"/><rect class="brutal-i-primary" x="54" y="118" width="20" height="20"/>
+  <rect data-icon-frame="surface" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
+    <rect data-icon-frame="surface" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
+    <path data-icon-frame="decor" class="brutal-i-muted" d="M48 52H84M160 52H196M48 204H88M156 204H196"/>
+
+
+
+  <path class="brutal-i-line-2" d="M60 78H133V106M133 150V178H60"/>
+  <path class="brutal-i-line" d="M96 128H193M157 94L193 128L157 162"/>
+  <rect class="brutal-i-primary" x="54" y="118" width="20" height="20"/>
 </symbol>
 <symbol id="brutal-icon-logout" viewBox="0 0 256 256">
   <title>Logout</title>
-  <rect data-icon-frame="decor" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
-    <rect data-icon-frame="decor" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
-    <path class="brutal-i-muted" d="M48 64H94M150 64H196M48 194H104M144 194H196"/>
-    <path class="brutal-i-line-2" d="M196 78H123V106M123 150V178H196"/><path class="brutal-i-line" d="M160 128H63M99 94L63 128L99 162"/><rect class="brutal-i-primary" x="182" y="118" width="20" height="20"/>
+  <rect data-icon-frame="surface" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
+    <rect data-icon-frame="surface" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
+    <path data-icon-frame="decor" class="brutal-i-muted" d="M48 52H84M160 52H196M48 204H88M156 204H196"/>
+
+
+
+  <path class="brutal-i-line-2" d="M196 78H123V106M123 150V178H196"/>
+  <path class="brutal-i-line" d="M160 128H63M99 94L63 128L99 162"/>
+  <rect class="brutal-i-primary" x="182" y="118" width="20" height="20"/>
 </symbol>
 <symbol id="brutal-icon-edit" viewBox="0 0 256 256">
   <title>Edit</title>
-  <rect data-icon-frame="decor" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
-    <rect data-icon-frame="decor" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
-    <path class="brutal-i-muted" d="M48 64H94M150 64H196M48 194H104M144 194H196"/>
-    <path class="brutal-i-bg-strong" stroke="var(--brutal-icon-border,rgb(var(--usk-border-rgb,0 0 0)))" stroke-width="8" d="M72 171L67 195L91 190L176 105L157 86Z"/><path class="brutal-i-line-2" d="M145 98L164 117M82 181L75 188"/><path class="brutal-i-primary" d="M161 82L176 67L195 86L180 101Z"/>
+  <rect data-icon-frame="surface" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
+    <rect data-icon-frame="surface" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
+    <path data-icon-frame="decor" class="brutal-i-muted" d="M48 52H84M160 52H196M48 204H88M156 204H196"/>
+
+
+
+  <path class="brutal-i-bg-strong" stroke="var(--brutal-icon-border,rgb(var(--usk-border-rgb,0 0 0)))" stroke-width="8" d="M72 171L67 195L91 190L176 105L157 86Z"/>
+  <path class="brutal-i-line-2" d="M145 98L164 117M82 181L75 188"/>
+  <path class="brutal-i-primary" d="M161 82L176 67L195 86L180 101Z"/>
 </symbol>
 <symbol id="brutal-icon-trash" viewBox="0 0 256 256">
   <title>Trash</title>
-  <rect data-icon-frame="decor" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
-    <rect data-icon-frame="decor" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
-    <path class="brutal-i-muted" d="M48 64H94M150 64H196M48 194H104M144 194H196"/>
-    <path class="brutal-i-line" d="M83 95H173M108 95V73H148V95M94 111L101 194H155L162 111"/><path class="brutal-i-line-2" d="M116 130V173M140 130V173"/><rect class="brutal-i-danger" x="102" y="184" width="52" height="14"/>
+  <rect data-icon-frame="surface" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
+    <rect data-icon-frame="surface" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
+    <path data-icon-frame="decor" class="brutal-i-muted" d="M48 52H84M160 52H196M48 204H88M156 204H196"/>
+
+
+
+  <path class="brutal-i-line" d="M83 95H173M108 95V73H148V95M94 111L101 194H155L162 111"/>
+  <path class="brutal-i-line-2" d="M116 130V173M140 130V173"/>
+  <rect class="brutal-i-danger" x="102" y="184" width="52" height="14"/>
 </symbol>
 <symbol id="brutal-icon-plus" viewBox="0 0 256 256">
   <title>Plus</title>
-  <rect data-icon-frame="decor" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
-    <rect data-icon-frame="decor" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
-    <path class="brutal-i-muted" d="M48 64H94M150 64H196M48 194H104M144 194H196"/>
-    <rect class="brutal-i-secondary" x="68" y="68" width="120" height="120"/><path class="brutal-i-line" d="M128 88V168M88 128H168"/><rect class="brutal-i-primary" x="96" y="96" width="20" height="20"/>
+  <rect data-icon-frame="surface" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
+    <rect data-icon-frame="surface" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
+    <path data-icon-frame="decor" class="brutal-i-muted" d="M48 52H84M160 52H196M48 204H88M156 204H196"/>
+
+
+
+  <rect class="brutal-i-secondary" x="68" y="68" width="120" height="120"/>
+  <path class="brutal-i-line" d="M128 88V168M88 128H168"/>
+  <rect class="brutal-i-primary" x="96" y="96" width="20" height="20"/>
 </symbol>
 <symbol id="brutal-icon-minus" viewBox="0 0 256 256">
   <title>Minus</title>
-  <rect data-icon-frame="decor" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
-    <rect data-icon-frame="decor" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
-    <path class="brutal-i-muted" d="M48 64H94M150 64H196M48 194H104M144 194H196"/>
-    <rect class="brutal-i-secondary" x="68" y="68" width="120" height="120"/><path class="brutal-i-line" d="M88 128H168"/><rect class="brutal-i-primary" x="140" y="140" width="20" height="20"/>
+  <rect data-icon-frame="surface" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
+    <rect data-icon-frame="surface" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
+    <path data-icon-frame="decor" class="brutal-i-muted" d="M48 52H84M160 52H196M48 204H88M156 204H196"/>
+
+
+
+  <rect class="brutal-i-secondary" x="68" y="68" width="120" height="120"/>
+  <path class="brutal-i-line" d="M88 128H168"/>
+  <rect class="brutal-i-primary" x="140" y="140" width="20" height="20"/>
 </symbol>
 <symbol id="brutal-icon-filter" viewBox="0 0 256 256">
   <title>Filter</title>
-  <rect data-icon-frame="decor" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
-    <rect data-icon-frame="decor" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
-    <path class="brutal-i-muted" d="M48 64H94M150 64H196M48 194H104M144 194H196"/>
-    <path class="brutal-i-secondary" d="M60 74H196L145 134V187L111 202V134Z"/><path class="brutal-i-line" d="M84 96H172M103 124H153"/><path class="brutal-i-line-2" d="M111 202L145 187"/>
+  <rect data-icon-frame="surface" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
+    <rect data-icon-frame="surface" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
+    <path data-icon-frame="decor" class="brutal-i-muted" d="M48 52H84M160 52H196M48 204H88M156 204H196"/>
+
+
+
+  <path class="brutal-i-secondary" d="M60 74H196L145 134V187L111 202V134Z"/>
+  <path class="brutal-i-line" d="M84 96H172M103 124H153"/>
+  <path class="brutal-i-line-2" d="M111 202L145 187"/>
 </symbol>
 <symbol id="brutal-icon-menu" viewBox="0 0 256 256">
   <title>Menu</title>
-  <rect data-icon-frame="decor" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
-    <rect data-icon-frame="decor" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
-    <path class="brutal-i-muted" d="M48 64H94M150 64H196M48 194H104M144 194H196"/>
-    <path class="brutal-i-line" d="M70 87H186M70 128H186M70 169H186"/><path class="brutal-i-line-2" d="M72 100H116M140 141H186M72 182H128"/><rect class="brutal-i-primary" x="76" y="78" width="18" height="18"/>
+  <rect data-icon-frame="surface" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
+    <rect data-icon-frame="surface" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
+    <path data-icon-frame="decor" class="brutal-i-muted" d="M48 52H84M160 52H196M48 204H88M156 204H196"/>
+
+
+
+  <path class="brutal-i-line" d="M70 87H186M70 128H186M70 169H186"/>
+  <path class="brutal-i-line-2" d="M72 100H116M140 141H186M72 182H128"/>
+  <rect class="brutal-i-primary" x="76" y="78" width="18" height="18"/>
 </symbol>
 <symbol id="brutal-icon-code" viewBox="0 0 256 256">
   <title>Code</title>
-  <rect data-icon-frame="decor" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
-    <rect data-icon-frame="decor" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
-    <path class="brutal-i-muted" d="M48 64H94M150 64H196M48 194H104M144 194H196"/>
-    <path class="brutal-i-line" d="M82 93L48 128L82 163M174 93L208 128L174 163"/><path class="brutal-i-line-2" d="M144 73L112 183"/><rect class="brutal-i-primary" x="96" y="184" width="64" height="16"/>
+  <rect data-icon-frame="surface" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
+    <rect data-icon-frame="surface" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
+    <path data-icon-frame="decor" class="brutal-i-muted" d="M48 52H84M160 52H196M48 204H88M156 204H196"/>
+
+
+
+  <path class="brutal-i-line" d="M82 93L48 128L82 163M174 93L208 128L174 163"/>
+  <path class="brutal-i-line-2" d="M144 73L112 183"/>
+  <rect class="brutal-i-primary" x="96" y="184" width="64" height="16"/>
 </symbol>
 <symbol id="brutal-icon-terminal" viewBox="0 0 256 256">
   <title>Terminal</title>
-  <rect data-icon-frame="decor" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
-    <rect data-icon-frame="decor" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
-    <path class="brutal-i-muted" d="M48 64H94M150 64H196M48 194H104M144 194H196"/>
-    <rect class="brutal-i-bg-strong" x="55" y="72" width="146" height="116" stroke="var(--brutal-icon-border,rgb(var(--usk-border-rgb,0 0 0)))" stroke-width="8"/><path class="brutal-i-line" d="M55 102H201"/><path class="brutal-i-line-2" d="M82 126L103 143L82 160M117 160H164"/><rect class="brutal-i-danger" x="72" y="84" width="10" height="10"/><rect class="brutal-i-warning" x="92" y="84" width="10" height="10"/><rect class="brutal-i-success" x="112" y="84" width="10" height="10"/>
+  <rect data-icon-frame="surface" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
+    <rect data-icon-frame="surface" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
+    <path data-icon-frame="decor" class="brutal-i-muted" d="M48 52H84M160 52H196M48 204H88M156 204H196"/>
+
+
+
+  <rect class="brutal-i-bg-strong" x="55" y="72" width="146" height="116" stroke="var(--brutal-icon-border,rgb(var(--usk-border-rgb,0 0 0)))" stroke-width="8"/>
+  <path class="brutal-i-line" d="M55 102H201"/>
+  <path class="brutal-i-line-2" d="M82 126L103 143L82 160M117 160H164"/>
+  <rect class="brutal-i-danger" x="72" y="84" width="10" height="10"/>
+  <rect class="brutal-i-warning" x="92" y="84" width="10" height="10"/>
+  <rect class="brutal-i-success" x="112" y="84" width="10" height="10"/>
 </symbol>
 <symbol id="brutal-icon-rocket" viewBox="0 0 256 256">
   <title>Rocket</title>
-  <rect data-icon-frame="decor" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
-    <rect data-icon-frame="decor" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
-    <path class="brutal-i-muted" d="M48 64H94M150 64H196M48 194H104M144 194H196"/>
-    <path class="brutal-i-bg-strong" stroke="var(--brutal-icon-border,rgb(var(--usk-border-rgb,0 0 0)))" stroke-width="8" d="M135 55C169 65 189 87 199 121L161 158L99 96Z"/><rect class="brutal-i-primary" x="148" y="82" width="26" height="26"/><path class="brutal-i-secondary" d="M96 99L70 109L91 130M158 160L147 186L126 165"/><path class="brutal-i-line-2" d="M96 160L67 189M113 176L97 207"/>
+  <rect data-icon-frame="surface" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
+    <rect data-icon-frame="surface" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
+    <path data-icon-frame="decor" class="brutal-i-muted" d="M48 52H84M160 52H196M48 204H88M156 204H196"/>
+
+
+
+  <path class="brutal-i-bg-strong" stroke="var(--brutal-icon-border,rgb(var(--usk-border-rgb,0 0 0)))" stroke-width="8" d="M135 55C169 65 189 87 199 121L161 158L99 96Z"/>
+  <rect class="brutal-i-primary" x="148" y="82" width="26" height="26"/>
+  <path class="brutal-i-secondary" d="M96 99L70 109L91 130M158 160L147 186L126 165"/>
+  <path class="brutal-i-line-2" d="M96 160L67 189M113 176L97 207"/>
 </symbol>
-<symbol id="brutal-icon-bug" viewBox="-8 -8 272 272">
+<symbol id="brutal-icon-bug" viewBox="0 0 256 256">
   <title>Bug</title>
-  <rect data-icon-frame="decor" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
-    <rect data-icon-frame="decor" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
-    <path class="brutal-i-muted" d="M48 64H94M150 64H196M48 194H104M144 194H196"/>
-    <ellipse class="brutal-i-secondary" cx="128" cy="137" rx="45" ry="55"/><circle class="brutal-i-accent" cx="128" cy="80" r="24"/><path class="brutal-i-line" d="M128 106V190M82 118L58 96M174 118L198 96M78 147H50M178 147H206M88 177L61 194M168 177L195 194"/><rect class="brutal-i-bg" x="112" y="74" width="10" height="10"/><rect class="brutal-i-bg" x="134" y="74" width="10" height="10"/>
+  <rect data-icon-frame="surface" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
+    <rect data-icon-frame="surface" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
+    <path data-icon-frame="decor" class="brutal-i-muted" d="M48 52H84M160 52H196M48 204H88M156 204H196"/>
+    <g data-icon-glyph="semantic">
+      <path data-icon-part="bug-legs" class="brutal-i-line-2" d="M92 112L63 96M88 136H55M92 160L63 178M164 112L193 96M168 136H201M164 160L193 178M108 80L90 57M148 80L166 57"/>
+      <path data-icon-part="bug-body" class="brutal-i-line" d="M90 128C90 98 106 82 128 82C150 82 166 98 166 128V151C166 182 150 202 128 202C106 202 90 182 90 151Z"/>
+      <path data-icon-part="bug-head" class="brutal-i-line-3" d="M102 96C108 82 116 76 128 76C140 76 148 82 154 96"/>
+      <path data-icon-part="bug-body" class="brutal-i-line-2" d="M128 84V200M92 137H164"/>
+    </g>
 </symbol>
 <symbol id="brutal-icon-help" viewBox="0 0 256 256">
   <title>Help</title>
-  <rect data-icon-frame="decor" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
-    <rect data-icon-frame="decor" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
-    <path class="brutal-i-muted" d="M48 64H94M150 64H196M48 194H104M144 194H196"/>
-    <rect class="brutal-i-secondary" x="66" y="66" width="124" height="124"/><path class="brutal-i-line" d="M105 106C107 86 122 76 140 82C158 88 163 108 151 122C142 132 129 134 128 151"/><rect class="brutal-i-primary" x="118" y="170" width="20" height="20"/>
+  <rect data-icon-frame="surface" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
+    <rect data-icon-frame="surface" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
+    <path data-icon-frame="decor" class="brutal-i-muted" d="M48 52H84M160 52H196M48 204H88M156 204H196"/>
+
+
+
+  <rect class="brutal-i-secondary" x="66" y="66" width="124" height="124"/>
+  <path class="brutal-i-line" d="M105 106C107 86 122 76 140 82C158 88 163 108 151 122C142 132 129 134 128 151"/>
+  <rect class="brutal-i-primary" x="118" y="170" width="20" height="20"/>
 </symbol>
-<symbol id="brutal-icon-link" viewBox="-8 -8 272 272">
+<symbol id="brutal-icon-link" viewBox="0 0 256 256">
   <title>Link</title>
-  <rect data-icon-frame="decor" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
-    <rect data-icon-frame="decor" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
-    <path class="brutal-i-muted" d="M48 64H94M150 64H196M48 194H104M144 194H196"/>
-    <path class="brutal-i-line" d="M106 91L121 76C140 57 172 57 191 76C210 95 210 127 191 146L171 166"/><path class="brutal-i-line-2" d="M150 165L135 180C116 199 84 199 65 180C46 161 46 129 65 110L85 90"/><path class="brutal-i-line-3" d="M104 152L152 104"/>
+  <rect data-icon-frame="surface" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
+    <rect data-icon-frame="surface" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
+    <path data-icon-frame="decor" class="brutal-i-muted" d="M48 52H84M160 52H196M48 204H88M156 204H196"/>
+    <g data-icon-glyph="semantic" data-icon-prototype="reference-led-v1" transform="rotate(-34 128 128)">
+      <rect data-icon-part="link-loop-a" class="brutal-i-primary" x="44" y="88" width="112" height="72"/>
+      <rect data-icon-part="link-cutout-a" class="brutal-i-bg" x="62" y="106" width="76" height="36"/>
+      <rect data-icon-part="link-loop-b" class="brutal-i-secondary" x="100" y="96" width="112" height="72"/>
+      <rect data-icon-part="link-cutout-b" class="brutal-i-bg" x="118" y="114" width="76" height="36"/>
+      <path data-icon-part="link-bridge" class="brutal-i-accent" d="M104 112H156V142H104Z"/>
+    </g>
 </symbol>
-<symbol id="brutal-icon-cloud" viewBox="-8 -8 272 272">
+<symbol id="brutal-icon-cloud" viewBox="0 0 256 256">
   <title>Cloud</title>
-  <rect data-icon-frame="decor" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
-    <rect data-icon-frame="decor" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
-    <path class="brutal-i-muted" d="M48 64H94M150 64H196M48 194H104M144 194H196"/>
-    <path class="brutal-i-bg-strong" stroke="var(--brutal-icon-border,rgb(var(--usk-border-rgb,0 0 0)))" stroke-width="8" d="M79 172C60 172 47 158 47 140C47 122 61 109 78 109C88 85 109 72 132 77C153 81 168 98 172 119C193 120 209 136 209 156C209 177 192 190 170 190H82"/><path class="brutal-i-line-2" d="M104 151H152M128 126V176"/><path class="brutal-i-line-3" d="M128 126L106 148M128 126L150 148"/>
+  <rect data-icon-frame="surface" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
+    <rect data-icon-frame="surface" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
+    <path data-icon-frame="decor" class="brutal-i-muted" d="M48 52H84M160 52H196M48 204H88M156 204H196"/>
+    <g data-icon-glyph="semantic" data-icon-prototype="reference-led-v1" transform="translate(0 -3)">
+      <path data-icon-part="cloud-shell" class="brutal-i-secondary" d="M42 184V140H62V118H88V92H140V106H170V124H198V144H216V184Z"/>
+      <rect data-icon-part="cloud-highlight" class="brutal-i-primary" x="64" y="158" width="44" height="16"/>
+      <path data-icon-part="cloud-action" class="brutal-i-accent" d="M116 174V144H96L128 112L160 144H140V174Z"/>
+    </g>
 </symbol>
 <symbol id="brutal-icon-globe" viewBox="0 0 256 256">
   <title>Globe</title>
-  <rect data-icon-frame="decor" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
-    <rect data-icon-frame="decor" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
-    <path class="brutal-i-muted" d="M48 64H94M150 64H196M48 194H104M144 194H196"/>
-    <circle class="brutal-i-bg-strong" cx="128" cy="128" r="66" stroke="var(--brutal-icon-border,rgb(var(--usk-border-rgb,0 0 0)))" stroke-width="8"/><path class="brutal-i-line" d="M62 128H194"/><path class="brutal-i-line-2" d="M128 62C105 84 95 106 95 128C95 150 105 172 128 194M128 62C151 84 161 106 161 128C161 150 151 172 128 194"/><path class="brutal-i-muted" d="M79 91C104 103 152 103 177 91M79 165C104 153 152 153 177 165"/>
+  <rect data-icon-frame="surface" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
+    <rect data-icon-frame="surface" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
+    <path data-icon-frame="decor" class="brutal-i-muted" d="M48 52H84M160 52H196M48 204H88M156 204H196"/>
+
+
+
+  <circle class="brutal-i-bg-strong" cx="128" cy="128" r="66" stroke="var(--brutal-icon-border,rgb(var(--usk-border-rgb,0 0 0)))" stroke-width="8"/>
+  <path class="brutal-i-line" d="M62 128H194"/>
+  <path class="brutal-i-line-2" d="M128 62C105 84 95 106 95 128C95 150 105 172 128 194M128 62C151 84 161 106 161 128C161 150 151 172 128 194"/>
+  <path class="brutal-i-muted" d="M79 91C104 103 152 103 177 91M79 165C104 153 152 153 177 165"/>
 </symbol>
-<symbol id="brutal-icon-warning" viewBox="-8 -8 272 272">
+<symbol id="brutal-icon-warning" viewBox="0 0 256 256">
   <title>Warning</title>
-  <rect data-icon-frame="decor" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
-    <rect data-icon-frame="decor" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
-    <path class="brutal-i-muted" d="M48 64H94M150 64H196M48 194H104M144 194H196"/>
-    <path class="brutal-i-warning" d="M128 55L203 190H53Z"/><path class="brutal-i-danger" d="M118 100H138V146H118Z"/><rect class="brutal-i-danger" x="118" y="164" width="20" height="20"/><path class="brutal-i-line" d="M78 190H178"/>
+  <rect data-icon-frame="surface" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
+    <rect data-icon-frame="surface" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
+    <path data-icon-frame="decor" class="brutal-i-muted" d="M48 52H84M160 52H196M48 204H88M156 204H196"/>
+
+
+
+  <path class="brutal-i-warning" d="M128 55L203 190H53Z"/>
+  <path class="brutal-i-danger" d="M118 100H138V146H118Z"/>
+  <rect class="brutal-i-danger" x="118" y="164" width="20" height="20"/>
+  <path class="brutal-i-line" d="M78 190H178"/>
 </symbol>
 <symbol id="brutal-icon-scan" viewBox="0 0 256 256">
   <title>Scan</title>
-  <rect data-icon-frame="decor" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
-    <rect data-icon-frame="decor" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
-    <path class="brutal-i-muted" d="M48 64H94M150 64H196M48 194H104M144 194H196"/>
-    <rect class="brutal-i-bg-strong" x="58" y="70" width="140" height="118" stroke="var(--brutal-icon-border,rgb(var(--usk-border-rgb,0 0 0)))" stroke-width="8"/><path class="brutal-i-line-2" d="M81 100V84H113M143 84H175V100M81 158V174H113M143 174H175V158"/><path class="brutal-i-line" d="M72 129H184"/><rect class="brutal-i-primary" x="116" y="117" width="24" height="24"/>
+  <rect data-icon-frame="surface" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
+    <rect data-icon-frame="surface" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
+    <path data-icon-frame="decor" class="brutal-i-muted" d="M48 52H84M160 52H196M48 204H88M156 204H196"/>
+
+
+
+  <rect class="brutal-i-bg-strong" x="58" y="70" width="140" height="118" stroke="var(--brutal-icon-border,rgb(var(--usk-border-rgb,0 0 0)))" stroke-width="8"/>
+  <path class="brutal-i-line-2" d="M81 100V84H113M143 84H175V100M81 158V174H113M143 174H175V158"/>
+  <path class="brutal-i-line" d="M72 129H184"/>
+  <rect class="brutal-i-primary" x="116" y="117" width="24" height="24"/>
 </symbol>
-<symbol id="brutal-icon-network" viewBox="-8 -8 272 272">
+<symbol id="brutal-icon-network" viewBox="0 0 256 256">
   <title>Network</title>
-  <rect data-icon-frame="decor" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
-    <rect data-icon-frame="decor" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
-    <path class="brutal-i-muted" d="M48 64H94M150 64H196M48 194H104M144 194H196"/>
-    <rect class="brutal-i-primary" x="66" y="116" width="34" height="34"/><rect class="brutal-i-secondary" x="111" y="66" width="34" height="34"/><rect class="brutal-i-accent" x="156" y="116" width="34" height="34"/><rect class="brutal-i-bg-strong" x="111" y="170" width="34" height="34" stroke="var(--brutal-icon-border,rgb(var(--usk-border-rgb,0 0 0)))" stroke-width="6"/><path class="brutal-i-line" d="M100 116L111 100M145 100L156 116M100 150L111 170M156 150L145 170M100 133H156"/>
+  <rect data-icon-frame="surface" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
+    <rect data-icon-frame="surface" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
+    <path data-icon-frame="decor" class="brutal-i-muted" d="M48 52H84M160 52H196M48 204H88M156 204H196"/>
+    <g data-icon-glyph="semantic" data-icon-prototype="reference-led-v1">
+      <path data-icon-part="network-connector" class="brutal-i-line-3" d="M89 115L115 89"/>
+      <path data-icon-part="network-connector" class="brutal-i-line-3" d="M141 89L167 115"/>
+      <path data-icon-part="network-connector" class="brutal-i-line-3" d="M89 141L115 167"/>
+      <path data-icon-part="network-connector" class="brutal-i-line-3" d="M141 167L167 141"/>
+      <path data-icon-part="network-connector" class="brutal-i-line-3" d="M94 128L162 128"/>
+      <circle data-icon-part="network-node" class="brutal-i-primary" cx="76" cy="128" r="18"/>
+      <circle data-icon-part="network-node" class="brutal-i-secondary" cx="128" cy="76" r="18"/>
+      <circle data-icon-part="network-node" class="brutal-i-accent" cx="180" cy="128" r="18"/>
+      <circle data-icon-part="network-node" class="brutal-i-success" cx="128" cy="180" r="18"/>
+      <rect data-icon-part="network-cutout" class="brutal-i-bg" x="70" y="122" width="12" height="12"/>
+      <rect data-icon-part="network-cutout" class="brutal-i-bg" x="122" y="70" width="12" height="12"/>
+      <rect data-icon-part="network-cutout" class="brutal-i-bg" x="174" y="122" width="12" height="12"/>
+      <rect data-icon-part="network-cutout" class="brutal-i-bg" x="122" y="174" width="12" height="12"/>
+    </g>
 </symbol>
 <symbol id="brutal-icon-cpu" viewBox="0 0 256 256">
   <title>CPU</title>
-  <rect data-icon-frame="decor" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
-    <rect data-icon-frame="decor" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
-    <path class="brutal-i-muted" d="M48 64H94M150 64H196M48 194H104M144 194H196"/>
-    <rect class="brutal-i-secondary" x="82" y="82" width="92" height="92"/><rect class="brutal-i-bg" x="108" y="108" width="40" height="40" stroke="var(--brutal-icon-border,rgb(var(--usk-border-rgb,0 0 0)))" stroke-width="7"/><path class="brutal-i-line-2" d="M97 58V82M128 58V82M159 58V82M97 174V198M128 174V198M159 174V198M58 97H82M58 128H82M58 159H82M174 97H198M174 128H198M174 159H198"/>
+  <rect data-icon-frame="surface" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
+    <rect data-icon-frame="surface" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
+    <path data-icon-frame="decor" class="brutal-i-muted" d="M48 52H84M160 52H196M48 204H88M156 204H196"/>
+
+
+
+  <rect class="brutal-i-secondary" x="82" y="82" width="92" height="92"/>
+  <rect class="brutal-i-bg" x="108" y="108" width="40" height="40" stroke="var(--brutal-icon-border,rgb(var(--usk-border-rgb,0 0 0)))" stroke-width="7"/>
+  <path class="brutal-i-line-2" d="M97 58V82M128 58V82M159 58V82M97 174V198M128 174V198M159 174V198M58 97H82M58 128H82M58 159H82M174 97H198M174 128H198M174 159H198"/>
 </symbol>
 <symbol id="brutal-icon-layers" viewBox="0 0 256 256">
   <title>Layers</title>
-  <rect data-icon-frame="decor" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
-    <rect data-icon-frame="decor" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
-    <path class="brutal-i-muted" d="M48 64H94M150 64H196M48 194H104M144 194H196"/>
-    <path class="brutal-i-secondary" d="M128 62L203 104L128 146L53 104Z"/><path class="brutal-i-line" d="M63 132L128 169L193 132M63 160L128 197L193 160"/><rect class="brutal-i-primary" x="102" y="94" width="52" height="20"/>
+  <rect data-icon-frame="surface" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
+    <rect data-icon-frame="surface" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
+    <path data-icon-frame="decor" class="brutal-i-muted" d="M48 52H84M160 52H196M48 204H88M156 204H196"/>
+
+
+
+  <path class="brutal-i-secondary" d="M128 62L203 104L128 146L53 104Z"/>
+  <path class="brutal-i-line" d="M63 132L128 169L193 132M63 160L128 197L193 160"/>
+  <rect class="brutal-i-primary" x="102" y="94" width="52" height="20"/>
 </symbol>
 <symbol id="brutal-icon-eye" viewBox="0 0 256 256">
   <title>Eye</title>
-  <rect data-icon-frame="decor" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
-    <rect data-icon-frame="decor" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
-    <path class="brutal-i-muted" d="M48 64H94M150 64H196M48 194H104M144 194H196"/>
-    <path class="brutal-i-bg-strong" stroke="var(--brutal-icon-border,rgb(var(--usk-border-rgb,0 0 0)))" stroke-width="8" d="M52 128C75 91 104 76 128 76C152 76 181 91 204 128C181 165 152 180 128 180C104 180 75 165 52 128Z"/><circle class="brutal-i-secondary" cx="128" cy="128" r="31"/><rect class="brutal-i-primary" x="118" y="118" width="20" height="20"/>
+  <rect data-icon-frame="surface" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
+    <rect data-icon-frame="surface" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
+    <path data-icon-frame="decor" class="brutal-i-muted" d="M48 52H84M160 52H196M48 204H88M156 204H196"/>
+
+
+
+  <path class="brutal-i-bg-strong" stroke="var(--brutal-icon-border,rgb(var(--usk-border-rgb,0 0 0)))" stroke-width="8" d="M52 128C75 91 104 76 128 76C152 76 181 91 204 128C181 165 152 180 128 180C104 180 75 165 52 128Z"/>
+  <circle class="brutal-i-secondary" cx="128" cy="128" r="31"/>
+  <rect class="brutal-i-primary" x="118" y="118" width="20" height="20"/>
 </symbol>
 <symbol id="brutal-icon-grid" viewBox="0 0 256 256">
   <title>Grid</title>
-  <rect data-icon-frame="decor" class="brutal-i-primary" x="40" y="42" width="188" height="188"/><rect data-icon-frame="decor" class="brutal-i-surface" x="28" y="28" width="188" height="188"/><path class="brutal-i-muted" d="M48 64H94M150 64H196M48 194H104M144 194H196"/>
-    <rect class="brutal-i-primary" x="62" y="72" width="52" height="52" rx="14"/><rect class="brutal-i-secondary" x="128" y="72" width="66" height="52" rx="14"/><rect class="brutal-i-accent" x="62" y="138" width="66" height="52" rx="14"/><rect class="brutal-i-primary" x="142" y="138" width="52" height="52" rx="14"/>
+  <rect data-icon-frame="surface" class="brutal-i-primary" x="40" y="42" width="188" height="188"/><rect data-icon-frame="surface" class="brutal-i-surface" x="28" y="28" width="188" height="188"/><path data-icon-frame="decor" class="brutal-i-muted" d="M48 52H84M160 52H196M48 204H88M156 204H196"/>
+
+
+
+  <rect class="brutal-i-primary" x="62" y="72" width="52" height="52" rx="14"/>
+  <rect class="brutal-i-secondary" x="128" y="72" width="66" height="52" rx="14"/>
+  <rect class="brutal-i-accent" x="62" y="138" width="66" height="52" rx="14"/>
+  <rect class="brutal-i-primary" x="142" y="138" width="52" height="52" rx="14"/>
 </symbol>
 <symbol id="brutal-icon-module" viewBox="0 0 256 256">
   <title>Module</title>
-  <rect data-icon-frame="decor" class="brutal-i-primary" x="40" y="42" width="188" height="188"/><rect data-icon-frame="decor" class="brutal-i-surface" x="28" y="28" width="188" height="188"/><path class="brutal-i-muted" d="M48 64H94M150 64H196M48 194H104M144 194H196"/>
-    <rect class="brutal-i-primary" x="64" y="74" width="128" height="116" rx="24"/><rect class="brutal-i-bg-strong" x="86" y="96" width="84" height="36" rx="12"/><path class="brutal-i-line-2" d="M91 158H120M139 158H168"/><circle class="brutal-i-accent" cx="128" cy="158" r="9"/>
+  <rect data-icon-frame="surface" class="brutal-i-primary" x="40" y="42" width="188" height="188"/><rect data-icon-frame="surface" class="brutal-i-surface" x="28" y="28" width="188" height="188"/><path data-icon-frame="decor" class="brutal-i-muted" d="M48 52H84M160 52H196M48 204H88M156 204H196"/>
+
+
+
+  <rect class="brutal-i-primary" x="64" y="74" width="128" height="116" rx="24"/>
+  <rect class="brutal-i-bg-strong" x="86" y="96" width="84" height="36" rx="12"/>
+  <path class="brutal-i-line-2" d="M91 158H120M139 158H168"/>
+  <circle class="brutal-i-accent" cx="128" cy="158" r="9"/>
 </symbol>
-<symbol id="brutal-icon-stack" viewBox="-8 -8 272 272">
+<symbol id="brutal-icon-stack" viewBox="0 0 256 256">
   <title>Stack</title>
-  <rect data-icon-frame="decor" class="brutal-i-primary" x="40" y="42" width="188" height="188"/><rect data-icon-frame="decor" class="brutal-i-surface" x="28" y="28" width="188" height="188"/><path class="brutal-i-muted" d="M48 64H94M150 64H196M48 194H104M144 194H196"/>
-    <rect class="brutal-i-bg-soft" x="78" y="64" width="116" height="76" rx="20"/><rect class="brutal-i-secondary" x="66" y="91" width="116" height="76" rx="20"/><rect class="brutal-i-primary" x="54" y="118" width="116" height="76" rx="20"/><path class="brutal-i-line-3" d="M78 150H134M78 172H112"/>
+  <rect data-icon-frame="surface" class="brutal-i-primary" x="40" y="42" width="188" height="188"/><rect data-icon-frame="surface" class="brutal-i-surface" x="28" y="28" width="188" height="188"/><path data-icon-frame="decor" class="brutal-i-muted" d="M48 52H84M160 52H196M48 204H88M156 204H196"/>
+
+
+
+  <rect class="brutal-i-bg-soft" x="78" y="64" width="116" height="76" rx="20"/>
+  <rect class="brutal-i-secondary" x="66" y="91" width="116" height="76" rx="20"/>
+  <rect class="brutal-i-primary" x="54" y="118" width="116" height="76" rx="20"/>
+  <path class="brutal-i-line-3" d="M78 150H134M78 172H112"/>
 </symbol>
 <symbol id="brutal-icon-tile" viewBox="0 0 256 256">
   <title>Tile</title>
-  <rect data-icon-frame="decor" class="brutal-i-primary" x="40" y="42" width="188" height="188"/><rect data-icon-frame="decor" class="brutal-i-surface" x="28" y="28" width="188" height="188"/><path class="brutal-i-muted" d="M48 64H94M150 64H196M48 194H104M144 194H196"/>
-    <rect class="brutal-i-primary" x="58" y="72" width="64" height="64" rx="20"/><rect class="brutal-i-secondary" x="136" y="72" width="62" height="38" rx="14"/><rect class="brutal-i-accent" x="58" y="150" width="96" height="42" rx="16"/><rect class="brutal-i-bg-strong" x="168" y="126" width="30" height="66" rx="12"/>
+  <rect data-icon-frame="surface" class="brutal-i-primary" x="40" y="42" width="188" height="188"/><rect data-icon-frame="surface" class="brutal-i-surface" x="28" y="28" width="188" height="188"/><path data-icon-frame="decor" class="brutal-i-muted" d="M48 52H84M160 52H196M48 204H88M156 204H196"/>
+
+
+
+  <rect class="brutal-i-primary" x="58" y="72" width="64" height="64" rx="20"/>
+  <rect class="brutal-i-secondary" x="136" y="72" width="62" height="38" rx="14"/>
+  <rect class="brutal-i-accent" x="58" y="150" width="96" height="42" rx="16"/>
+  <rect class="brutal-i-bg-strong" x="168" y="126" width="30" height="66" rx="12"/>
 </symbol>
 <symbol id="brutal-icon-phone" viewBox="0 0 256 256">
   <title>Phone</title>
-  <rect data-icon-frame="decor" class="brutal-i-primary" x="40" y="42" width="188" height="188"/><rect data-icon-frame="decor" class="brutal-i-surface" x="28" y="28" width="188" height="188"/><path class="brutal-i-muted" d="M48 64H94M150 64H196M48 194H104M144 194H196"/>
-    <rect class="brutal-i-primary" x="88" y="54" width="80" height="148" rx="24"/><path class="brutal-i-line-2" d="M110 78H146M112 176H144"/><rect class="brutal-i-bg-strong" x="104" y="96" width="48" height="60" rx="12"/>
+  <rect data-icon-frame="surface" class="brutal-i-primary" x="40" y="42" width="188" height="188"/><rect data-icon-frame="surface" class="brutal-i-surface" x="28" y="28" width="188" height="188"/><path data-icon-frame="decor" class="brutal-i-muted" d="M48 52H84M160 52H196M48 204H88M156 204H196"/>
+
+
+
+  <rect class="brutal-i-primary" x="88" y="54" width="80" height="148" rx="24"/>
+  <path class="brutal-i-line-2" d="M110 78H146M112 176H144"/>
+  <rect class="brutal-i-bg-strong" x="104" y="96" width="48" height="60" rx="12"/>
 </symbol>
-<symbol id="brutal-icon-palette" viewBox="-8 -8 272 272">
+<symbol id="brutal-icon-palette" viewBox="0 0 256 256">
   <title>Palette</title>
-  <rect data-icon-frame="decor" class="brutal-i-primary" x="40" y="42" width="188" height="188"/><rect data-icon-frame="decor" class="brutal-i-surface" x="28" y="28" width="188" height="188"/><path class="brutal-i-muted" d="M48 64H94M150 64H196M48 194H104M144 194H196"/>
-    <path class="brutal-i-primary" d="M128 60C89 60 58 89 58 128C58 168 90 196 129 196H145C159 196 168 187 168 175C168 165 176 158 187 158C196 158 204 150 204 137C204 94 171 60 128 60Z"/><circle class="brutal-i-accent" cx="98" cy="112" r="10"/><circle class="brutal-i-secondary" cx="126" cy="96" r="10"/><circle class="brutal-i-warning" cx="154" cy="116" r="10"/><circle class="brutal-i-bg-strong" cx="122" cy="154" r="12"/>
+  <rect data-icon-frame="surface" class="brutal-i-primary" x="40" y="42" width="188" height="188"/><rect data-icon-frame="surface" class="brutal-i-surface" x="28" y="28" width="188" height="188"/><path data-icon-frame="decor" class="brutal-i-muted" d="M48 52H84M160 52H196M48 204H88M156 204H196"/>
+  <g data-icon-glyph="semantic" data-icon-prototype="reference-led-v1">
+    <path data-icon-part="palette-body" class="brutal-i-primary" d="M48 78H182L210 106V166L186 190H48Z"/>
+    <rect data-icon-part="palette-swatch" class="brutal-i-secondary" x="68" y="92" width="38" height="34"/>
+    <rect data-icon-part="palette-swatch" class="brutal-i-accent" x="118" y="92" width="38" height="34"/>
+    <rect data-icon-part="palette-swatch" class="brutal-i-success" x="68" y="142" width="38" height="34"/>
+    <path data-icon-part="palette-cutout" class="brutal-i-bg-strong" d="M166 134H194V162H166Z"/>
+  </g>
 </symbol>
 <symbol id="brutal-icon-heart" viewBox="0 0 256 256">
   <title>Heart</title>
-  <rect data-icon-frame="decor" class="brutal-i-primary" x="40" y="42" width="188" height="188"/><rect data-icon-frame="decor" class="brutal-i-surface" x="28" y="28" width="188" height="188"/><path class="brutal-i-muted" d="M48 64H94M150 64H196M48 194H104M144 194H196"/>
-    <path class="brutal-i-danger" d="M128 194C92 166 66 143 66 111C66 90 81 76 101 76C113 76 123 83 128 94C133 83 143 76 155 76C175 76 190 90 190 111C190 143 164 166 128 194Z"/><path class="brutal-i-line-3" d="M91 117C91 101 102 94 114 99"/>
+  <rect data-icon-frame="surface" class="brutal-i-primary" x="40" y="42" width="188" height="188"/><rect data-icon-frame="surface" class="brutal-i-surface" x="28" y="28" width="188" height="188"/><path data-icon-frame="decor" class="brutal-i-muted" d="M48 52H84M160 52H196M48 204H88M156 204H196"/>
+
+
+
+  <path class="brutal-i-danger" d="M128 194C92 166 66 143 66 111C66 90 81 76 101 76C113 76 123 83 128 94C133 83 143 76 155 76C175 76 190 90 190 111C190 143 164 166 128 194Z"/>
+  <path class="brutal-i-line-3" d="M91 117C91 101 102 94 114 99"/>
 </symbol>
 <symbol id="brutal-icon-star" viewBox="0 0 256 256">
   <title>Star</title>
-  <rect data-icon-frame="decor" class="brutal-i-primary" x="40" y="42" width="188" height="188"/><rect data-icon-frame="decor" class="brutal-i-surface" x="28" y="28" width="188" height="188"/><path class="brutal-i-muted" d="M48 64H94M150 64H196M48 194H104M144 194H196"/>
-    <path class="brutal-i-warning" d="M128 56L148 104L200 108L160 141L172 192L128 164L84 192L96 141L56 108L108 104Z"/><path class="brutal-i-line-3" d="M128 82L140 113L173 116"/>
+  <rect data-icon-frame="surface" class="brutal-i-primary" x="40" y="42" width="188" height="188"/><rect data-icon-frame="surface" class="brutal-i-surface" x="28" y="28" width="188" height="188"/><path data-icon-frame="decor" class="brutal-i-muted" d="M48 52H84M160 52H196M48 204H88M156 204H196"/>
+
+
+
+  <path class="brutal-i-warning" d="M128 56L148 104L200 108L160 141L172 192L128 164L84 192L96 141L56 108L108 104Z"/>
+  <path class="brutal-i-line-3" d="M128 82L140 113L173 116"/>
 </symbol>
 <symbol id="brutal-icon-target" viewBox="0 0 256 256">
   <title>Target</title>
-  <rect data-icon-frame="decor" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
-    <rect data-icon-frame="decor" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
-    <path class="brutal-i-muted" d="M48 64H94M150 64H196M48 194H104M144 194H196"/>
-    <circle class="brutal-i-bg-strong" cx="128" cy="128" r="66" stroke="var(--brutal-icon-border,rgb(var(--usk-border-rgb,0 0 0)))" stroke-width="8"/><circle class="brutal-i-secondary" cx="128" cy="128" r="42"/><circle class="brutal-i-primary" cx="128" cy="128" r="18"/><path class="brutal-i-line" d="M128 54V88M128 168V202M54 128H88M168 128H202"/>
+  <rect data-icon-frame="surface" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
+    <rect data-icon-frame="surface" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
+    <path data-icon-frame="decor" class="brutal-i-muted" d="M48 52H84M160 52H196M48 204H88M156 204H196"/>
+
+
+
+  <circle class="brutal-i-bg-strong" cx="128" cy="128" r="66" stroke="var(--brutal-icon-border,rgb(var(--usk-border-rgb,0 0 0)))" stroke-width="8"/>
+  <circle class="brutal-i-secondary" cx="128" cy="128" r="42"/>
+  <circle class="brutal-i-primary" cx="128" cy="128" r="18"/>
+  <path class="brutal-i-line" d="M128 54V88M128 168V202M54 128H88M168 128H202"/>
 </symbol>
-<symbol id="brutal-icon-megaphone" viewBox="-8 -8 272 272">
+<symbol id="brutal-icon-megaphone" viewBox="0 0 256 256">
   <title>Megaphone</title>
-  <rect data-icon-frame="decor" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
-    <rect data-icon-frame="decor" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
-    <path class="brutal-i-muted" d="M48 64H94M150 64H196M48 194H104M144 194H196"/>
-    <path class="brutal-i-secondary" d="M62 128H100L178 82V174L100 148H62Z"/><path class="brutal-i-bg" stroke="var(--brutal-icon-border,rgb(var(--usk-border-rgb,0 0 0)))" stroke-width="7" d="M88 148L106 198H132L116 148Z"/><path class="brutal-i-line-2" d="M190 108H212M190 148H212"/>
+  <rect data-icon-frame="surface" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
+    <rect data-icon-frame="surface" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
+    <path data-icon-frame="decor" class="brutal-i-muted" d="M48 52H84M160 52H196M48 204H88M156 204H196"/>
+    <g data-icon-glyph="semantic" data-icon-prototype="reference-led-v1" transform="translate(-4 2)">
+      <polygon data-icon-part="megaphone-horn" class="brutal-i-accent" points="48,108 82,108 180,68 180,184 82,146 48,146"/>
+      <rect data-icon-part="megaphone-horn" class="brutal-i-primary" x="72" y="101" width="28" height="52"/>
+      <polygon data-icon-part="megaphone-handle" class="brutal-i-secondary" points="72,146 104,146 122,198 88,198"/>
+      <path data-icon-part="megaphone-sound" class="brutal-i-success" d="M194 82H210V116H194Z"/>
+      <path data-icon-part="megaphone-sound" class="brutal-i-success" d="M194 136H210V170H194Z"/>
+      <rect data-icon-part="megaphone-sound" class="brutal-i-success" x="216" y="112" width="14" height="28"/>
+    </g>
 </symbol>
 <symbol id="brutal-icon-cursor" viewBox="0 0 256 256">
   <title>Cursor</title>
-  <rect data-icon-frame="decor" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
-    <rect data-icon-frame="decor" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
-    <path class="brutal-i-muted" d="M48 64H94M150 64H196M48 194H104M144 194H196"/>
-    <path class="brutal-i-bg-strong" stroke="var(--brutal-icon-border,rgb(var(--usk-border-rgb,0 0 0)))" stroke-width="8" d="M80 62L188 158L140 164L114 204Z"/><path class="brutal-i-line-2" d="M140 164L170 206"/><path class="brutal-i-primary" d="M100 92L140 128L122 130Z"/>
+  <rect data-icon-frame="surface" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
+    <rect data-icon-frame="surface" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
+    <path data-icon-frame="decor" class="brutal-i-muted" d="M48 52H84M160 52H196M48 204H88M156 204H196"/>
+
+
+
+  <path class="brutal-i-bg-strong" stroke="var(--brutal-icon-border,rgb(var(--usk-border-rgb,0 0 0)))" stroke-width="8" d="M80 62L188 158L140 164L114 204Z"/>
+  <path class="brutal-i-line-2" d="M140 164L170 206"/>
+  <path class="brutal-i-primary" d="M100 92L140 128L122 130Z"/>
 </symbol>
 </svg>

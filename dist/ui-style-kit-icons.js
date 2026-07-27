@@ -407,51 +407,48 @@ export class UiStyleIconElement extends HTMLElementBase {
               --usk-icon-contrast-primary: rgb(var(--usk-primary-rgb, 37 99 235));
               --usk-icon-contrast-primary: color-mix(
                 in srgb,
-                rgb(var(--usk-primary-rgb, 37 99 235)) 58%,
-                currentColor 42%
+                rgb(var(--usk-primary-rgb, 37 99 235)) 45%,
+                currentColor 55%
               );
               --usk-icon-contrast-secondary: rgb(var(--usk-secondary-rgb, 100 116 139));
               --usk-icon-contrast-secondary: color-mix(
                 in srgb,
-                rgb(var(--usk-secondary-rgb, 100 116 139)) 52%,
-                currentColor 48%
+                rgb(var(--usk-secondary-rgb, 100 116 139)) 30%,
+                currentColor 70%
               );
               --usk-icon-contrast-accent: rgb(var(--usk-accent-rgb, 14 165 233));
               --usk-icon-contrast-accent: color-mix(
                 in srgb,
-                rgb(var(--usk-accent-rgb, 14 165 233)) 52%,
-                currentColor 48%
+                rgb(var(--usk-accent-rgb, 14 165 233)) 30%,
+                currentColor 70%
               );
               --usk-icon-contrast-success: rgb(var(--usk-success-rgb, 22 163 74));
               --usk-icon-contrast-success: color-mix(
                 in srgb,
-                rgb(var(--usk-success-rgb, 22 163 74)) 52%,
-                currentColor 48%
+                rgb(var(--usk-success-rgb, 22 163 74)) 38%,
+                currentColor 62%
               );
               --usk-icon-contrast-warning: rgb(var(--usk-warning-rgb, 202 138 4));
               --usk-icon-contrast-warning: color-mix(
                 in srgb,
-                rgb(var(--usk-warning-rgb, 202 138 4)) 52%,
-                currentColor 48%
+                rgb(var(--usk-warning-rgb, 202 138 4)) 38%,
+                currentColor 62%
               );
               --usk-icon-contrast-danger: rgb(var(--usk-danger-rgb, 220 38 38));
               --usk-icon-contrast-danger: color-mix(
                 in srgb,
-                rgb(var(--usk-danger-rgb, 220 38 38)) 52%,
-                currentColor 48%
+                rgb(var(--usk-danger-rgb, 220 38 38)) 38%,
+                currentColor 62%
               );
               --usk-icon-contrast-muted: rgb(var(--usk-text-muted-rgb, 100 116 139));
               --usk-icon-contrast-muted: color-mix(
                 in srgb,
-                rgb(var(--usk-text-muted-rgb, 100 116 139)) 38%,
-                currentColor 62%
+                rgb(var(--usk-text-muted-rgb, 100 116 139)) 20%,
+                currentColor 80%
               );
               --usk-icon-contrast-keyline: currentColor;
-              --usk-icon-contrast-keyline: color-mix(
-                in srgb,
-                rgb(var(--usk-border-rgb, 100 116 139)) 28%,
-                currentColor 72%
-              );
+              --usk-icon-foreground: currentColor;
+              --usk-icon-play: currentColor;
               --usk-icon-primary: var(--usk-icon-contrast-primary);
               --usk-icon-secondary: var(--usk-icon-contrast-secondary);
               --usk-icon-accent: var(--usk-icon-contrast-accent);
@@ -546,13 +543,49 @@ export class UiStyleIconElement extends HTMLElementBase {
               flex: 0 0 auto;
               vertical-align: -0.125em;
             }
+            :host-context([data-mode="contrast"]) {
+              /*
+               * Contrast mode prioritizes an unambiguous silhouette while
+               * light and dark modes retain each theme's color identity.
+               */
+              --usk-icon-contrast-primary: currentColor !important;
+              --usk-icon-contrast-secondary: currentColor !important;
+              --usk-icon-contrast-accent: currentColor !important;
+              --usk-icon-contrast-success: currentColor !important;
+              --usk-icon-contrast-warning: currentColor !important;
+              --usk-icon-contrast-danger: currentColor !important;
+              --usk-icon-contrast-muted: currentColor !important;
+              --usk-icon-contrast-keyline: currentColor !important;
+            }
+            :host-context([data-mode="light"]) {
+              --usk-icon-contrast-keyline: rgb(15 23 42);
+            }
+            :host-context([data-mode="dark"]) {
+              --usk-icon-contrast-keyline: rgb(248 250 252);
+            }
             :host([frame="none"]) {
               --usk-icon-frame-opacity: 0;
               --usk-icon-frame-decor-opacity: 0;
             }
             :host([frame="soft"]) {
-              --usk-icon-frame-opacity: 0.42;
-              --usk-icon-frame-decor-opacity: 0.22;
+              --usk-icon-frame-opacity: 0.36;
+              --usk-icon-frame-decor-opacity: 0.10;
+            }
+            svg :is(
+              [data-icon-frame]:is(path, rect, circle, ellipse):not([fill="none"]),
+              [data-icon-frame] :is(path, rect, circle, ellipse):not([fill="none"])
+            ) {
+              fill-opacity: var(--usk-icon-frame-fill-alpha, 0.18) !important;
+            }
+            :host-context([data-mode="contrast"]) svg :is(
+              [data-icon-frame]:is(path, rect, circle, ellipse):not([fill="none"]),
+              [data-icon-frame] :is(path, rect, circle, ellipse):not([fill="none"])
+            ) {
+              /*
+               * Contrast mode keeps frame outlines while preventing scenic
+               * frame fills from competing with the semantic foreground.
+               */
+              fill-opacity: 0.08 !important;
             }
             svg {
               /*
@@ -569,34 +602,190 @@ export class UiStyleIconElement extends HTMLElementBase {
             svg.y2k-icon {
               overflow: hidden;
             }
-            svg [data-icon-frame] {
+            svg [data-icon-frame="surface"] {
               opacity: var(--usk-icon-frame-opacity, 1);
-            }
-            svg [data-icon-frame="decor"] {
-              opacity: var(--usk-icon-frame-decor-opacity, var(--usk-icon-frame-opacity, 1));
             }
             svg [data-icon-glyph="play"] {
               fill: var(--usk-icon-play, var(--usk-icon-foreground, rgb(var(--usk-text-rgb, 255 255 255))));
               stroke: none;
               opacity: 1;
             }
-            svg [class*="-bg-strong"]:not([data-icon-frame]) {
-              stroke: var(--usk-icon-contrast-keyline);
+            svg :is(
+              [class*="-bg-strong"],
+              [class*="-bg-soft"],
+              [class$="-bg"]
+            ):not(
+              [data-icon-frame],
+              [data-icon-frame] *,
+              [data-icon-audit],
+              [data-icon-audit] *
+            ) {
+              stroke: var(--usk-icon-contrast-keyline) !important;
               stroke-width: var(--usk-icon-keyline-width, 3.5);
               stroke-linejoin: round;
             }
-            svg:not(.brutal-icon) :is(
+            svg [class*="-primary"]:not([data-icon-frame], [data-icon-frame] *) {
+              fill: rgb(var(--usk-primary-rgb, 37 99 235) / var(--usk-icon-fill-alpha, 0.22)) !important;
+            }
+            svg [class*="-secondary"]:not([data-icon-frame], [data-icon-frame] *) {
+              fill: rgb(var(--usk-secondary-rgb, 100 116 139) / var(--usk-icon-fill-alpha, 0.22)) !important;
+            }
+            svg [class*="-accent"]:not([data-icon-frame], [data-icon-frame] *) {
+              fill: rgb(var(--usk-accent-rgb, 14 165 233) / var(--usk-icon-fill-alpha, 0.22)) !important;
+            }
+            svg [class*="-success"]:not([data-icon-frame], [data-icon-frame] *) {
+              fill: rgb(var(--usk-success-rgb, 22 163 74) / var(--usk-icon-fill-alpha, 0.22)) !important;
+            }
+            svg [class*="-warning"]:not([data-icon-frame], [data-icon-frame] *) {
+              fill: rgb(var(--usk-warning-rgb, 202 138 4) / var(--usk-icon-fill-alpha, 0.22)) !important;
+            }
+            svg [class*="-danger"]:not([data-icon-frame], [data-icon-frame] *) {
+              fill: rgb(var(--usk-danger-rgb, 220 38 38) / var(--usk-icon-fill-alpha, 0.22)) !important;
+            }
+            svg [fill^="url("]:not(
+              [data-icon-frame],
+              [data-icon-frame] *,
+              [data-icon-audit],
+              [data-icon-audit] *
+            ) {
+              /*
+               * Rich pack gradients remain visible as a tint while the
+               * contrast keyline carries the small-size silhouette.
+               */
+              fill-opacity: var(--usk-icon-gradient-fill-alpha, 0.16) !important;
+            }
+            svg :is(
+              [fill^="url("],
+              [fill*="--cp-icon-"],
+              [fill*="--sw-icon-"],
+              [fill*="--usk-surface-"]
+            ):not(
+              [data-icon-frame],
+              [data-icon-frame] *,
+              [data-icon-audit],
+              [data-icon-audit] *
+            ) {
+              stroke: var(--usk-icon-contrast-keyline) !important;
+              stroke-width: var(--usk-icon-fill-keyline-width, 3.5);
+              stroke-linejoin: round;
+            }
+            svg :is(
+              [stroke*="--usk-surface-"],
+              [stroke*="--usk-bg-"]
+            ):not(
+              [data-icon-frame],
+              [data-icon-frame] *,
+              [data-icon-audit],
+              [data-icon-audit] *
+            ) {
+              stroke: var(--usk-icon-contrast-keyline) !important;
+            }
+            svg [stroke*="-icon-"]:not(
+              [data-icon-frame],
+              [data-icon-frame] *,
+              [data-icon-audit],
+              [data-icon-audit] *
+            ) {
+              /*
+               * Semantic line work uses the foreground keyline; theme color
+               * remains in fills so fine strokes do not disappear by mode.
+               */
+              stroke: var(--usk-icon-contrast-keyline) !important;
+            }
+            svg [opacity]:is(
+              [fill*="-icon-"],
               [class*="-primary"],
               [class*="-secondary"],
               [class*="-accent"],
               [class*="-success"],
               [class*="-warning"],
               [class*="-danger"]
-            ):not([data-icon-frame]) {
+            ):not(
+              [data-icon-frame],
+              [data-icon-frame] *,
+              [data-icon-audit],
+              [data-icon-audit] *
+            ) {
+              opacity: 1 !important;
+            }
+            svg :is(
+              [fill*="--cp-icon-primary"],
+              [fill*="--sw-icon-primary"]
+            ):not([data-icon-frame], [data-icon-frame] *) {
+              fill: rgb(var(--usk-primary-rgb, 37 99 235) / var(--usk-icon-fill-alpha, 0.22)) !important;
+            }
+            svg :is(
+              [fill*="--cp-icon-secondary"],
+              [fill*="--sw-icon-secondary"]
+            ):not([data-icon-frame], [data-icon-frame] *) {
+              fill: rgb(var(--usk-secondary-rgb, 100 116 139) / var(--usk-icon-fill-alpha, 0.22)) !important;
+            }
+            svg :is(
+              [fill*="--cp-icon-accent"],
+              [fill*="--sw-icon-accent"]
+            ):not([data-icon-frame], [data-icon-frame] *) {
+              fill: rgb(var(--usk-accent-rgb, 14 165 233) / var(--usk-icon-fill-alpha, 0.22)) !important;
+            }
+            svg :is(
+              [fill*="--cp-icon-success"],
+              [fill*="--sw-icon-success"]
+            ):not([data-icon-frame], [data-icon-frame] *) {
+              fill: rgb(var(--usk-success-rgb, 22 163 74) / var(--usk-icon-fill-alpha, 0.22)) !important;
+            }
+            svg :is(
+              [fill*="--cp-icon-warning"],
+              [fill*="--sw-icon-warning"]
+            ):not([data-icon-frame], [data-icon-frame] *) {
+              fill: rgb(var(--usk-warning-rgb, 202 138 4) / var(--usk-icon-fill-alpha, 0.22)) !important;
+            }
+            svg :is(
+              [fill*="--cp-icon-danger"],
+              [fill*="--sw-icon-danger"]
+            ):not([data-icon-frame], [data-icon-frame] *) {
+              fill: rgb(var(--usk-danger-rgb, 220 38 38) / var(--usk-icon-fill-alpha, 0.22)) !important;
+            }
+            svg stop[stop-color*="--cp-icon-primary"],
+            svg stop[stop-color*="--sw-icon-primary"] {
+              stop-color: var(--usk-icon-contrast-primary) !important;
+            }
+            svg stop[stop-color*="--cp-icon-secondary"],
+            svg stop[stop-color*="--sw-icon-secondary"] {
+              stop-color: var(--usk-icon-contrast-secondary) !important;
+            }
+            svg stop[stop-color*="--cp-icon-accent"],
+            svg stop[stop-color*="--sw-icon-accent"] {
+              stop-color: var(--usk-icon-contrast-accent) !important;
+            }
+            svg stop[stop-color*="--cp-icon-warning"],
+            svg stop[stop-color*="--sw-icon-warning"] {
+              stop-color: var(--usk-icon-contrast-warning) !important;
+            }
+            svg stop[stop-color*="--cp-icon-success"],
+            svg stop[stop-color*="--sw-icon-success"] {
+              stop-color: var(--usk-icon-contrast-success) !important;
+            }
+            svg stop[stop-color*="--cp-icon-danger"],
+            svg stop[stop-color*="--sw-icon-danger"] {
+              stop-color: var(--usk-icon-contrast-danger) !important;
+            }
+            svg :is(
+              [class*="-primary"],
+              [class*="-secondary"],
+              [class*="-accent"],
+              [class*="-success"],
+              [class*="-warning"],
+              [class*="-danger"]
+            ):not(
+              [data-icon-frame],
+              [data-icon-frame] *,
+              [data-icon-audit],
+              [data-icon-audit] *
+            ) {
               /*
                * Soft fills retain each pack's palette while a stable keyline
                * keeps their silhouettes readable against light surfaces.
                */
+              stroke: var(--usk-icon-contrast-keyline) !important;
               stroke-width: var(--usk-icon-fill-keyline-width, 3.5);
               stroke-linejoin: round;
             }

@@ -2,48 +2,89 @@
   <title id="rocket-title">Rocket</title>
   <desc id="rocket-desc">Theme-aware cyberpunk SVG icon with gritty neon HUD styling and UI Style Kit color variables. Semantic meaning: Launch, publish, deploy.</desc>
   <style>
+/* Cyberpunk standardized icon layer */
+.cp-icon, [data-cp-icon]{
+  --cp-icon-size: 1.25em;
+  --cp-icon-bg: rgb(var(--usk-surface-rgb, 8 12 24) / .9);
+  --cp-icon-bg-strong: rgb(var(--usk-surface-strong-rgb, 20 28 48) / .94);
+  --cp-icon-bg-soft: rgb(var(--usk-surface-soft-rgb, 26 35 58) / .68);
+  --cp-icon-border: rgb(var(--usk-border-rgb, 100 116 139) / .72);
+  --cp-icon-primary: rgb(var(--usk-primary-rgb, 80 160 255));
+  --cp-icon-secondary: rgb(var(--usk-secondary-rgb, 138 116 255));
+  --cp-icon-accent: rgb(var(--usk-accent-rgb, 255 170 76));
+  --cp-icon-success: rgb(var(--usk-success-rgb, 74 222 128));
+  --cp-icon-warning: rgb(var(--usk-warning-rgb, 255 200 80));
+  --cp-icon-danger: rgb(var(--usk-danger-rgb, 255 92 122));
+  --cp-icon-muted: rgb(var(--usk-text-muted-rgb, 148 163 184));
+  inline-size: var(--usk-icon-size, var(--cp-icon-size));
+  block-size: var(--usk-icon-size, var(--cp-icon-size));
+  display: inline-block;
+  vertical-align: -0.125em;
+  overflow: visible;
+}
+.cp-icon--xs{ --cp-icon-size: 1em; }
+.cp-icon--sm{ --cp-icon-size: 1.25em; }
+.cp-icon--md{ --cp-icon-size: 1.5em; }
+.cp-icon--lg{ --cp-icon-size: 2em; }
+.cp-icon--xl{ --cp-icon-size: 3em; }
+.cp-i-bg{ fill: var(--cp-icon-bg); }
+.cp-i-bg-strong{ fill: var(--cp-icon-bg-strong); }
+.cp-i-bg-soft{ fill: var(--cp-icon-bg-soft); }
+.cp-i-primary{ fill: rgb(var(--usk-primary-rgb, 80 160 255) / .2); stroke: var(--cp-icon-primary); }
+.cp-i-secondary{ fill: rgb(var(--usk-secondary-rgb, 138 116 255) / .2); stroke: var(--cp-icon-secondary); }
+.cp-i-accent{ fill: rgb(var(--usk-accent-rgb, 255 170 76) / .22); stroke: var(--cp-icon-accent); }
+.cp-i-success{ fill: rgb(var(--usk-success-rgb, 74 222 128) / .2); stroke: var(--cp-icon-success); }
+.cp-i-warning{ fill: rgb(var(--usk-warning-rgb, 255 200 80) / .22); stroke: var(--cp-icon-warning); }
+.cp-i-danger{ fill: rgb(var(--usk-danger-rgb, 255 92 122) / .2); stroke: var(--cp-icon-danger); }
+.cp-i-line{ fill: none; stroke: var(--cp-icon-primary); stroke-width: 6.5; stroke-linecap: round; stroke-linejoin: round; }
+.cp-i-line-2{ fill: none; stroke: var(--cp-icon-secondary); stroke-width: 4.7; stroke-linecap: round; stroke-linejoin: round; }
+.cp-i-line-3{ fill: none; stroke: var(--cp-icon-accent); stroke-width: 3.8; stroke-linecap: round; stroke-linejoin: round; }
+.cp-i-muted{ fill: none; stroke: var(--cp-icon-muted); stroke-width: 2.8; stroke-linecap: round; stroke-linejoin: round; }
+.cp-i-surface{ fill: var(--cp-icon-bg); stroke: var(--cp-icon-border); stroke-width: 4.5; }
+
 [data-icon-frame]{opacity:var(--usk-icon-frame-opacity,1)}
-[data-icon-frame="decor"]{opacity:var(--usk-icon-frame-decor-opacity,var(--usk-icon-frame-opacity,1))}
+[data-icon-frame="decor"]{opacity:var(--usk-icon-frame-decor-opacity,.26)}
 [data-icon-glyph="play"]{fill:var(--usk-icon-play,var(--usk-icon-foreground,rgb(var(--usk-text-rgb,255 255 255))));stroke:none;opacity:1}
 </style>
-  
-  <defs>
+<defs>
     <linearGradient id="rocket-bg" x1="24" y1="18" x2="236" y2="238" gradientUnits="userSpaceOnUse">
       <stop stop-color="rgb(var(--usk-surface-strong-rgb, 15 36 68))"/>
       <stop offset=".45" stop-color="rgb(var(--usk-surface-rgb, 7 17 38))"/>
       <stop offset="1" stop-color="rgb(var(--usk-bg-rgb, 3 6 17))"/>
     </linearGradient>
     <linearGradient id="rocket-panel" x1="54" y1="46" x2="204" y2="206" gradientUnits="userSpaceOnUse">
-      <stop stop-color="rgb(var(--usk-primary-rgb, 88 244 255))" stop-opacity=".96"/>
-      <stop offset=".3" stop-color="rgb(var(--usk-primary-rgb, 31 183 255))" stop-opacity=".9"/>
-      <stop offset=".62" stop-color="rgb(var(--usk-secondary-rgb, 181 22 255))" stop-opacity=".9"/>
-      <stop offset="1" stop-color="rgb(var(--usk-secondary-rgb, 255 46 159))" stop-opacity=".98"/>
+      <stop stop-color="var(--cp-icon-primary, rgb(var(--usk-primary-rgb, 88 244 255)))" stop-opacity=".96"/>
+      <stop offset=".3" stop-color="var(--cp-icon-primary, rgb(var(--usk-primary-rgb, 31 183 255)))" stop-opacity=".9"/>
+      <stop offset=".62" stop-color="var(--cp-icon-secondary, rgb(var(--usk-secondary-rgb, 181 22 255)))" stop-opacity=".9"/>
+      <stop offset="1" stop-color="var(--cp-icon-secondary, rgb(var(--usk-secondary-rgb, 255 46 159)))" stop-opacity=".98"/>
     </linearGradient>
     <linearGradient id="rocket-hot" x1="58" y1="48" x2="198" y2="208" gradientUnits="userSpaceOnUse">
-      <stop stop-color="rgb(var(--usk-accent-rgb, 255 184 77))"/>
-      <stop offset=".45" stop-color="rgb(var(--usk-secondary-rgb, 255 46 159))"/>
-      <stop offset="1" stop-color="rgb(var(--usk-primary-rgb, 88 244 255))"/>
+      <stop stop-color="var(--cp-icon-accent, rgb(var(--usk-accent-rgb, 255 184 77)))"/>
+      <stop offset=".45" stop-color="var(--cp-icon-secondary, rgb(var(--usk-secondary-rgb, 255 46 159)))"/>
+      <stop offset="1" stop-color="var(--cp-icon-primary, rgb(var(--usk-primary-rgb, 88 244 255)))"/>
     </linearGradient>
     <filter id="rocket-glow" x="-60%" y="-60%" width="220%" height="220%">
       <feGaussianBlur stdDeviation="4.2" result="blur"/>
-      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.18  0 1 0 0 0.85  0 0 1 0 1  0 0 0 .9 0"/>
       <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
     <clipPath id="rocket-clip"><rect x="18" y="18" width="220" height="220" rx="28"/></clipPath>
   </defs>
-  
-    <path data-icon-frame="decor" d="M42 18H214L238 42V214L214 238H42L18 214V42Z" fill="url(#rocket-bg)"/>
+
+    <path data-icon-frame="surface" d="M42 18H214L238 42V214L214 238H42L18 214V42Z" fill="url(#rocket-bg)"/>
     <g data-icon-frame="decor" clip-path="url(#rocket-clip)" opacity=".65">
-      <path data-icon-frame="decor" d="M28 74H91M163 74H228M28 182H78M178 182H228M74 28V68M182 28V52M74 188V228M182 202V228" stroke="rgb(var(--usk-primary-rgb, 88 244 255))" stroke-width="2"/>
-      <path data-icon-frame="decor" d="M22 102H68M188 102H236M42 204H103M151 204H214" stroke="rgb(var(--usk-secondary-rgb, 255 46 159))" stroke-width="2"/>
-      <path data-icon-frame="decor" d="M36 224L224 36M70 228L228 70" stroke="rgb(var(--usk-primary-rgb, 88 244 255))" stroke-width="1" opacity=".14"/>
-      <path data-icon-frame="decor" d="M30 52H70M80 52H88M98 52H112M144 52H182M194 52H204M40 216H66M76 216H114M146 216H180M190 216H214" stroke="rgb(var(--usk-text-muted-rgb, 111 143 184))" stroke-width="2"/>
+      <path fill="none" data-icon-frame="decor" d="M28 74H60M196 74H228M28 182H60M196 182H228M74 28V56M182 28V56M74 200V228M182 200V228" stroke="var(--cp-icon-primary, rgb(var(--usk-primary-rgb, 88 244 255)))" stroke-width="2"/>
+      <path fill="none" data-icon-frame="decor" d="M22 102H48M208 102H236M42 218H88M168 218H214" stroke="var(--cp-icon-secondary, rgb(var(--usk-secondary-rgb, 255 46 159)))" stroke-width="2"/>
+
+      <path fill="none" data-icon-frame="decor" d="M30 52H70M80 52H88M98 52H112M144 52H182M194 52H204M40 216H66M76 216H114M146 216H180M190 216H214" stroke="var(--cp-icon-muted, rgb(var(--usk-text-muted-rgb, 111 143 184)))" stroke-width="2"/>
     </g>
-    <path data-icon-frame="decor" d="M42 18H214L238 42V214L214 238H42L18 214V42Z" fill="none" stroke="url(#rocket-panel)" stroke-width="4"/>
-    <path data-icon-frame="decor" d="M52 32H98M158 32H204M32 52V98M224 156V204M54 224H104M154 224H204" stroke="rgb(var(--usk-text-rgb, 233 251 255))" stroke-width="3" opacity=".78"/>
-  <g clip-path="url(#rocket-clip)">
-    <path d="M135 55C169 65 189 87 199 121L161 158L99 96Z" fill="rgb(var(--usk-surface-rgb, 11 24 52))" stroke="rgb(var(--usk-primary-rgb, 88 244 255))" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" filter="url(#rocket-glow)"/><circle cx="160" cy="94" r="15" fill="rgb(var(--usk-bg-rgb, 3 6 17))" stroke="rgb(var(--usk-accent-rgb, 255 184 77))" stroke-width="5"/><path d="M96 99L70 109L91 130M158 160L147 186L126 165" fill="rgb(var(--usk-secondary-rgb, 255 46 159))" stroke="rgb(var(--usk-accent-rgb, 255 184 77))" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><path d="M96 160L67 189M113 176L97 207" stroke="#ff435e" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M40 198H72M82 198H98M158 198H216" stroke="rgb(var(--usk-primary-rgb, 88 244 255))" stroke-width="3" opacity=".45"/>
-    <path d="M40 208H126M138 208H152M166 208H216" stroke="rgb(var(--usk-secondary-rgb, 255 46 159))" stroke-width="2" opacity=".4"/>
-  </g>
+    <path data-icon-frame="surface" d="M42 18H214L238 42V214L214 238H42L18 214V42Z" fill="none" stroke="url(#rocket-panel)" stroke-width="4"/>
+    <path fill="none" data-icon-frame="decor" d="M52 32H98M158 32H204M32 52V98M224 156V204M54 224H104M154 224H204" stroke="currentColor" stroke-width="3" opacity=".78"/>
+
+
+<g clip-path="url(#rocket-clip)">
+                    <path d="M135 55C169 65 189 87 199 121L161 158L99 96Z" fill="rgb(var(--usk-surface-rgb, 11 24 52))" stroke="var(--cp-icon-primary, rgb(var(--usk-primary-rgb, 88 244 255)))" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" filter="url(#rocket-glow)"/><circle cx="160" cy="94" r="15" fill="rgb(var(--usk-bg-rgb, 3 6 17))" stroke="var(--cp-icon-accent, rgb(var(--usk-accent-rgb, 255 184 77)))" stroke-width="5"/><path d="M96 99L70 109L91 130M158 160L147 186L126 165" fill="var(--cp-icon-secondary, rgb(var(--usk-secondary-rgb, 255 46 159)))" stroke="var(--cp-icon-accent, rgb(var(--usk-accent-rgb, 255 184 77)))" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><path fill="none" d="M96 160L67 189M113 176L97 207" stroke="var(--cp-icon-danger, #ff435e)" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path fill="none" data-icon-frame="decor" d="M40 198H72M82 198H98M158 198H216" stroke="var(--cp-icon-primary, rgb(var(--usk-primary-rgb, 88 244 255)))" stroke-width="3" opacity=".45"/>
+                    <path fill="none" data-icon-frame="decor" d="M40 208H126M138 208H152M166 208H216" stroke="var(--cp-icon-secondary, rgb(var(--usk-secondary-rgb, 255 46 159)))" stroke-width="2" opacity=".4"/>
+                  </g>
+
 </svg>

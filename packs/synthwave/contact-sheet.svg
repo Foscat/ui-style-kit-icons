@@ -15,7 +15,7 @@
 <g transform="translate(72, 178) scale(.56)">
   <title id="neon-sunset-title">Neon Sunset</title>
   <desc id="neon-sunset-desc">A fully colored synthwave icon with neon magenta, cyan, gold, and dark midnight tones.</desc>
-  
+
   <defs>
     <linearGradient id="neon-sunset-bg" x1="32" y1="28" x2="224" y2="228" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="rgb(var(--usk-surface-strong-rgb, 32 16 74))"/>
@@ -55,7 +55,7 @@
     <path d="M35 168H221M49 186H207M67 204H189" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="3" opacity=".55"/>
     <path d="M30 232L104 156M226 232L152 156M62 232L114 156M194 232L142 156M96 232L123 156M160 232L133 156" stroke="rgb(var(--usk-secondary-rgb, 255 43 214))" stroke-width="2" opacity=".45"/>
     <path d="M20 214H236" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="4" opacity=".5"/>
-    
+
     <path d="M70 84H186M72 104H184M82 124H174M98 144H158" stroke="rgb(var(--usk-surface-rgb, 19 8 47))" stroke-width="8" stroke-linecap="round" opacity=".92"/>
     <path d="M62 166C92 144 164 144 194 166" fill="none" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="9" stroke-linecap="round" filter="url(#neon-sunset-glow)"/>
     <path d="M80 178C108 160 148 160 176 178" fill="none" stroke="rgb(var(--usk-secondary-rgb, 255 43 214))" stroke-width="7" stroke-linecap="round"/>
@@ -68,7 +68,7 @@
 <g transform="translate(368, 178) scale(.56)">
   <title id="horizon-grid-title">Horizon Grid</title>
   <desc id="horizon-grid-desc">A fully colored synthwave icon with neon magenta, cyan, gold, and dark midnight tones.</desc>
-  
+
   <defs>
     <linearGradient id="horizon-grid-bg" x1="32" y1="28" x2="224" y2="228" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="rgb(var(--usk-surface-strong-rgb, 32 16 74))"/>
@@ -108,7 +108,7 @@
     <path d="M35 168H221M49 186H207M67 204H189" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="3" opacity=".55"/>
     <path d="M30 232L104 156M226 232L152 156M62 232L114 156M194 232L142 156M96 232L123 156M160 232L133 156" stroke="rgb(var(--usk-secondary-rgb, 255 43 214))" stroke-width="2" opacity=".45"/>
     <path d="M20 214H236" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="4" opacity=".5"/>
-    
+
     <path d="M42 205L96 138H160L214 205Z" fill="rgb(var(--usk-surface-rgb, 19 8 47))" opacity=".72"/>
     <path d="M58 190H198M72 172H184M86 154H170M104 138H152M96 138L72 205M128 138V205M160 138L184 205" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="5" stroke-linecap="round" filter="url(#horizon-grid-glow)"/>
     <path d="M42 205L96 138H160L214 205" fill="none" stroke="rgb(var(--usk-secondary-rgb, 255 43 214))" stroke-width="6" stroke-linejoin="round"/>
@@ -121,7 +121,7 @@
 <g transform="translate(664, 178) scale(.56)">
   <title id="chrome-palm-title">Chrome Palm</title>
   <desc id="chrome-palm-desc">A fully colored synthwave icon with neon magenta, cyan, gold, and dark midnight tones.</desc>
-  
+
   <defs>
     <linearGradient id="chrome-palm-bg" x1="32" y1="28" x2="224" y2="228" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="rgb(var(--usk-surface-strong-rgb, 32 16 74))"/>
@@ -161,7 +161,7 @@
     <path d="M35 168H221M49 186H207M67 204H189" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="3" opacity=".55"/>
     <path d="M30 232L104 156M226 232L152 156M62 232L114 156M194 232L142 156M96 232L123 156M160 232L133 156" stroke="rgb(var(--usk-secondary-rgb, 255 43 214))" stroke-width="2" opacity=".45"/>
     <path d="M20 214H236" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="4" opacity=".5"/>
-    
+
     <path d="M132 81C104 62 74 66 56 92C88 86 110 91 132 110C128 78 142 56 176 46C162 72 156 92 150 118C172 88 198 83 218 101C184 105 164 117 150 140" fill="url(#chrome-palm-chrome)" opacity=".98"/>
     <path d="M134 106C126 142 120 174 113 213" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="13" stroke-linecap="round" filter="url(#chrome-palm-glow)"/>
     <path d="M132 121C151 131 162 145 172 166M127 142C109 139 96 145 83 158M122 164C140 170 152 183 161 202" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="7" stroke-linecap="round"/>
@@ -174,7 +174,7 @@
 <g transform="translate(960, 178) scale(.56)">
   <title id="night-drive-title">Night Drive</title>
   <desc id="night-drive-desc">A fully colored synthwave icon with neon magenta, cyan, gold, and dark midnight tones.</desc>
-  
+
   <defs>
     <linearGradient id="night-drive-bg" x1="32" y1="28" x2="224" y2="228" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="rgb(var(--usk-surface-strong-rgb, 32 16 74))"/>
@@ -214,7 +214,7 @@
     <path d="M35 168H221M49 186H207M67 204H189" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="3" opacity=".55"/>
     <path d="M30 232L104 156M226 232L152 156M62 232L114 156M194 232L142 156M96 232L123 156M160 232L133 156" stroke="rgb(var(--usk-secondary-rgb, 255 43 214))" stroke-width="2" opacity=".45"/>
     <path d="M20 214H236" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="4" opacity=".5"/>
-    
+
     <path d="M68 158L91 118H165L188 158L179 190H77Z" fill="url(#night-drive-chrome)" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="5" stroke-linejoin="round"/>
     <path d="M91 118L108 91H148L165 118" fill="rgb(var(--usk-surface-rgb, 19 8 47))" stroke="rgb(var(--usk-secondary-rgb, 255 43 214))" stroke-width="5" stroke-linejoin="round"/>
     <circle cx="94" cy="180" r="15" fill="rgb(var(--usk-accent-rgb, 255 209 102))"/><circle cx="162" cy="180" r="15" fill="rgb(var(--usk-accent-rgb, 255 209 102))"/>
@@ -229,7 +229,7 @@
 <g transform="translate(72, 390) scale(.56)">
   <title id="cassette-title">Cassette</title>
   <desc id="cassette-desc">A fully colored synthwave icon with neon magenta, cyan, gold, and dark midnight tones.</desc>
-  
+
   <defs>
     <linearGradient id="cassette-bg" x1="32" y1="28" x2="224" y2="228" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="rgb(var(--usk-surface-strong-rgb, 32 16 74))"/>
@@ -269,7 +269,7 @@
     <path d="M35 168H221M49 186H207M67 204H189" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="3" opacity=".55"/>
     <path d="M30 232L104 156M226 232L152 156M62 232L114 156M194 232L142 156M96 232L123 156M160 232L133 156" stroke="rgb(var(--usk-secondary-rgb, 255 43 214))" stroke-width="2" opacity=".45"/>
     <path d="M20 214H236" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="4" opacity=".5"/>
-    
+
     <rect x="58" y="89" width="140" height="92" rx="18" fill="url(#cassette-chrome)" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="5"/>
     <rect x="80" y="106" width="96" height="25" rx="8" fill="rgb(var(--usk-surface-rgb, 19 8 47))" opacity=".78"/>
     <circle cx="93" cy="154" r="20" fill="rgb(var(--usk-surface-rgb, 19 8 47))" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="7"/>
@@ -284,7 +284,7 @@
 <g transform="translate(368, 390) scale(.56)">
   <title id="keyboard-title">Synth Keyboard</title>
   <desc id="keyboard-desc">A fully colored synthwave icon with neon magenta, cyan, gold, and dark midnight tones.</desc>
-  
+
   <defs>
     <linearGradient id="keyboard-bg" x1="32" y1="28" x2="224" y2="228" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="rgb(var(--usk-surface-strong-rgb, 32 16 74))"/>
@@ -324,7 +324,7 @@
     <path d="M35 168H221M49 186H207M67 204H189" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="3" opacity=".55"/>
     <path d="M30 232L104 156M226 232L152 156M62 232L114 156M194 232L142 156M96 232L123 156M160 232L133 156" stroke="rgb(var(--usk-secondary-rgb, 255 43 214))" stroke-width="2" opacity=".45"/>
     <path d="M20 214H236" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="4" opacity=".5"/>
-    
+
     <path d="M52 149L83 101H173L204 149V192H52Z" fill="url(#keyboard-chrome)" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="5" stroke-linejoin="round"/>
     <path d="M78 148V192M105 148V192M132 148V192M159 148V192M186 148V192" stroke="rgb(var(--usk-surface-rgb, 19 8 47))" stroke-width="6"/>
     <path d="M91 148V174M119 148V174M146 148V174M174 148V174" stroke="rgb(var(--usk-secondary-rgb, 255 43 214))" stroke-width="8" stroke-linecap="round"/>
@@ -338,7 +338,7 @@
 <g transform="translate(664, 390) scale(.56)">
   <title id="headphones-title">Neon Headphones</title>
   <desc id="headphones-desc">A fully colored synthwave icon with neon magenta, cyan, gold, and dark midnight tones.</desc>
-  
+
   <defs>
     <linearGradient id="headphones-bg" x1="32" y1="28" x2="224" y2="228" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="rgb(var(--usk-surface-strong-rgb, 32 16 74))"/>
@@ -378,7 +378,7 @@
     <path d="M35 168H221M49 186H207M67 204H189" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="3" opacity=".55"/>
     <path d="M30 232L104 156M226 232L152 156M62 232L114 156M194 232L142 156M96 232L123 156M160 232L133 156" stroke="rgb(var(--usk-secondary-rgb, 255 43 214))" stroke-width="2" opacity=".45"/>
     <path d="M20 214H236" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="4" opacity=".5"/>
-    
+
     <path d="M70 142C70 91 96 63 128 63C160 63 186 91 186 142" fill="none" stroke="url(#headphones-neon)" stroke-width="15" stroke-linecap="round" filter="url(#headphones-glow)"/>
     <rect x="54" y="137" width="35" height="58" rx="14" fill="rgb(var(--usk-primary-rgb, 32 244 255))"/>
     <rect x="167" y="137" width="35" height="58" rx="14" fill="rgb(var(--usk-secondary-rgb, 255 43 214))"/>
@@ -393,7 +393,7 @@
 <g transform="translate(960, 390) scale(.56)">
   <title id="skyline-title">Neon Skyline</title>
   <desc id="skyline-desc">A fully colored synthwave icon with neon magenta, cyan, gold, and dark midnight tones.</desc>
-  
+
   <defs>
     <linearGradient id="skyline-bg" x1="32" y1="28" x2="224" y2="228" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="rgb(var(--usk-surface-strong-rgb, 32 16 74))"/>
@@ -433,7 +433,7 @@
     <path d="M35 168H221M49 186H207M67 204H189" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="3" opacity=".55"/>
     <path d="M30 232L104 156M226 232L152 156M62 232L114 156M194 232L142 156M96 232L123 156M160 232L133 156" stroke="rgb(var(--usk-secondary-rgb, 255 43 214))" stroke-width="2" opacity=".45"/>
     <path d="M20 214H236" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="4" opacity=".5"/>
-    
+
     <path d="M50 190V124H76V99H104V145H128V82H155V130H181V108H206V190Z" fill="url(#skyline-chrome)" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="5" stroke-linejoin="round"/>
     <path d="M64 139H75M92 121H103M140 104H151M169 145H181M64 161H75M92 153H103M140 136H151M169 168H181" stroke="rgb(var(--usk-surface-rgb, 19 8 47))" stroke-width="5" stroke-linecap="round"/>
     <path d="M48 191H208" stroke="rgb(var(--usk-secondary-rgb, 255 43 214))" stroke-width="8" stroke-linecap="round" filter="url(#skyline-glow)"/>
@@ -446,7 +446,7 @@
 <g transform="translate(72, 602) scale(.56)">
   <title id="lightning-title">Neon Lightning</title>
   <desc id="lightning-desc">A fully colored synthwave icon with neon magenta, cyan, gold, and dark midnight tones.</desc>
-  
+
   <defs>
     <linearGradient id="lightning-bg" x1="32" y1="28" x2="224" y2="228" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="rgb(var(--usk-surface-strong-rgb, 32 16 74))"/>
@@ -486,7 +486,7 @@
     <path d="M35 168H221M49 186H207M67 204H189" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="3" opacity=".55"/>
     <path d="M30 232L104 156M226 232L152 156M62 232L114 156M194 232L142 156M96 232L123 156M160 232L133 156" stroke="rgb(var(--usk-secondary-rgb, 255 43 214))" stroke-width="2" opacity=".45"/>
     <path d="M20 214H236" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="4" opacity=".5"/>
-    
+
     <path d="M144 48L73 138H123L103 211L184 111H136Z" fill="url(#lightning-sun)" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="7" stroke-linejoin="round" filter="url(#lightning-glow)"/>
     <path d="M113 115L143 77L130 124H159L121 173L133 130H101Z" fill="rgb(var(--usk-surface-strong-rgb, 255 247 255))" opacity=".34"/>
   </g>
@@ -498,7 +498,7 @@
 <g transform="translate(368, 602) scale(.56)">
   <title id="crystal-title">Neon Crystal</title>
   <desc id="crystal-desc">A fully colored synthwave icon with neon magenta, cyan, gold, and dark midnight tones.</desc>
-  
+
   <defs>
     <linearGradient id="crystal-bg" x1="32" y1="28" x2="224" y2="228" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="rgb(var(--usk-surface-strong-rgb, 32 16 74))"/>
@@ -538,7 +538,7 @@
     <path d="M35 168H221M49 186H207M67 204H189" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="3" opacity=".55"/>
     <path d="M30 232L104 156M226 232L152 156M62 232L114 156M194 232L142 156M96 232L123 156M160 232L133 156" stroke="rgb(var(--usk-secondary-rgb, 255 43 214))" stroke-width="2" opacity=".45"/>
     <path d="M20 214H236" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="4" opacity=".5"/>
-    
+
     <path d="M128 55L184 106L160 202H96L72 106Z" fill="url(#crystal-chrome)" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="5" stroke-linejoin="round"/>
     <path d="M128 55L112 106L128 202L144 106ZM72 106H184" fill="none" stroke="rgb(var(--usk-surface-rgb, 19 8 47))" stroke-width="5" stroke-linejoin="round" opacity=".72"/>
     <path d="M94 124L118 84M150 82L169 112M105 181H151" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="6" stroke-linecap="round"/>
@@ -552,7 +552,7 @@
 <g transform="translate(664, 602) scale(.56)">
   <title id="orbit-title">Neon Orbit</title>
   <desc id="orbit-desc">A fully colored synthwave icon with neon magenta, cyan, gold, and dark midnight tones.</desc>
-  
+
   <defs>
     <linearGradient id="orbit-bg" x1="32" y1="28" x2="224" y2="228" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="rgb(var(--usk-surface-strong-rgb, 32 16 74))"/>
@@ -592,7 +592,7 @@
     <path d="M35 168H221M49 186H207M67 204H189" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="3" opacity=".55"/>
     <path d="M30 232L104 156M226 232L152 156M62 232L114 156M194 232L142 156M96 232L123 156M160 232L133 156" stroke="rgb(var(--usk-secondary-rgb, 255 43 214))" stroke-width="2" opacity=".45"/>
     <path d="M20 214H236" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="4" opacity=".5"/>
-    
+
     <circle cx="128" cy="128" r="44" fill="url(#orbit-sun)" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="5"/>
     <ellipse cx="128" cy="128" rx="83" ry="31" fill="none" stroke="rgb(var(--usk-secondary-rgb, 255 43 214))" stroke-width="7" transform="rotate(-24 128 128)" filter="url(#orbit-glow)"/>
     <ellipse cx="128" cy="128" rx="72" ry="26" fill="none" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="5" transform="rotate(24 128 128)"/>
@@ -606,7 +606,7 @@
 <g transform="translate(960, 602) scale(.56)">
   <title id="wave-title">Neon Wave</title>
   <desc id="wave-desc">A fully colored synthwave icon with neon magenta, cyan, gold, and dark midnight tones.</desc>
-  
+
   <defs>
     <linearGradient id="wave-bg" x1="32" y1="28" x2="224" y2="228" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="rgb(var(--usk-surface-strong-rgb, 32 16 74))"/>
@@ -646,7 +646,7 @@
     <path d="M35 168H221M49 186H207M67 204H189" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="3" opacity=".55"/>
     <path d="M30 232L104 156M226 232L152 156M62 232L114 156M194 232L142 156M96 232L123 156M160 232L133 156" stroke="rgb(var(--usk-secondary-rgb, 255 43 214))" stroke-width="2" opacity=".45"/>
     <path d="M20 214H236" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="4" opacity=".5"/>
-    
+
     <path d="M45 153C67 111 95 107 128 150C159 192 184 190 211 136" fill="none" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="13" stroke-linecap="round" filter="url(#wave-glow)"/>
     <path d="M45 179C74 137 98 140 123 171C152 206 182 205 211 166" fill="none" stroke="rgb(var(--usk-secondary-rgb, 255 43 214))" stroke-width="10" stroke-linecap="round"/>
     <path d="M55 126C87 93 112 95 139 128C163 156 183 156 203 126" fill="none" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="7" stroke-linecap="round"/>
@@ -659,7 +659,7 @@
 <g transform="translate(72, 814) scale(.56)">
   <title id="starburst-title">Neon Starburst</title>
   <desc id="starburst-desc">A fully colored synthwave icon with neon magenta, cyan, gold, and dark midnight tones.</desc>
-  
+
   <defs>
     <linearGradient id="starburst-bg" x1="32" y1="28" x2="224" y2="228" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="rgb(var(--usk-surface-strong-rgb, 32 16 74))"/>
@@ -699,7 +699,7 @@
     <path d="M35 168H221M49 186H207M67 204H189" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="3" opacity=".55"/>
     <path d="M30 232L104 156M226 232L152 156M62 232L114 156M194 232L142 156M96 232L123 156M160 232L133 156" stroke="rgb(var(--usk-secondary-rgb, 255 43 214))" stroke-width="2" opacity=".45"/>
     <path d="M20 214H236" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="4" opacity=".5"/>
-    
+
     <path d="M128 50L146 105L204 89L164 133L206 176L148 162L128 217L108 162L50 176L92 133L52 89L110 105Z" fill="url(#starburst-chrome)" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="5" stroke-linejoin="round" filter="url(#starburst-glow)"/>
     <circle cx="128" cy="134" r="31" fill="rgb(var(--usk-surface-rgb, 19 8 47))" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="7"/>
     <path d="M116 134H140M128 122V146" stroke="rgb(var(--usk-secondary-rgb, 255 43 214))" stroke-width="7" stroke-linecap="round"/>
@@ -712,7 +712,7 @@
 <g transform="translate(368, 814) scale(.56)">
   <title id="circuit-title">Neon Circuit</title>
   <desc id="circuit-desc">A fully colored synthwave icon with neon magenta, cyan, gold, and dark midnight tones.</desc>
-  
+
   <defs>
     <linearGradient id="circuit-bg" x1="32" y1="28" x2="224" y2="228" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="rgb(var(--usk-surface-strong-rgb, 32 16 74))"/>
@@ -752,7 +752,7 @@
     <path d="M35 168H221M49 186H207M67 204H189" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="3" opacity=".55"/>
     <path d="M30 232L104 156M226 232L152 156M62 232L114 156M194 232L142 156M96 232L123 156M160 232L133 156" stroke="rgb(var(--usk-secondary-rgb, 255 43 214))" stroke-width="2" opacity=".45"/>
     <path d="M20 214H236" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="4" opacity=".5"/>
-    
+
     <rect x="76" y="76" width="104" height="104" rx="24" fill="url(#circuit-chrome)" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="5"/>
     <path d="M102 113H154M102 143H132M128 76V50M128 180V206M76 128H50M180 128H206M99 92L80 65M157 164L178 191" stroke="rgb(var(--usk-surface-rgb, 19 8 47))" stroke-width="7" stroke-linecap="round"/>
     <circle cx="102" cy="113" r="7" fill="rgb(var(--usk-accent-rgb, 255 209 102))"/><circle cx="154" cy="113" r="7" fill="rgb(var(--usk-secondary-rgb, 255 43 214))"/><circle cx="132" cy="143" r="7" fill="rgb(var(--usk-primary-rgb, 32 244 255))"/>
@@ -766,7 +766,7 @@
 <g transform="translate(664, 814) scale(.56)">
   <title id="lens-title">Neon Lens</title>
   <desc id="lens-desc">A fully colored synthwave icon with neon magenta, cyan, gold, and dark midnight tones.</desc>
-  
+
   <defs>
     <linearGradient id="lens-bg" x1="32" y1="28" x2="224" y2="228" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="rgb(var(--usk-surface-strong-rgb, 32 16 74))"/>
@@ -806,7 +806,7 @@
     <path d="M35 168H221M49 186H207M67 204H189" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="3" opacity=".55"/>
     <path d="M30 232L104 156M226 232L152 156M62 232L114 156M194 232L142 156M96 232L123 156M160 232L133 156" stroke="rgb(var(--usk-secondary-rgb, 255 43 214))" stroke-width="2" opacity=".45"/>
     <path d="M20 214H236" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="4" opacity=".5"/>
-    
+
     <circle cx="128" cy="128" r="71" fill="url(#lens-chrome)" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="6"/>
     <circle cx="128" cy="128" r="43" fill="rgb(var(--usk-surface-rgb, 19 8 47))" stroke="rgb(var(--usk-secondary-rgb, 255 43 214))" stroke-width="8" filter="url(#lens-glow)"/>
     <circle cx="128" cy="128" r="20" fill="rgb(var(--usk-primary-rgb, 32 244 255))" opacity=".9"/>
@@ -820,7 +820,7 @@
 <g transform="translate(960, 814) scale(.56)">
   <title id="shield-title">Neon Shield</title>
   <desc id="shield-desc">A fully colored synthwave icon with neon magenta, cyan, gold, and dark midnight tones.</desc>
-  
+
   <defs>
     <linearGradient id="shield-bg" x1="32" y1="28" x2="224" y2="228" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="rgb(var(--usk-surface-strong-rgb, 32 16 74))"/>
@@ -860,7 +860,7 @@
     <path d="M35 168H221M49 186H207M67 204H189" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="3" opacity=".55"/>
     <path d="M30 232L104 156M226 232L152 156M62 232L114 156M194 232L142 156M96 232L123 156M160 232L133 156" stroke="rgb(var(--usk-secondary-rgb, 255 43 214))" stroke-width="2" opacity=".45"/>
     <path d="M20 214H236" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="4" opacity=".5"/>
-    
+
     <path d="M128 54L190 80V126C190 169 164 198 128 215C92 198 66 169 66 126V80Z" fill="url(#shield-chrome)" stroke="rgb(var(--usk-primary-rgb, 32 244 255))" stroke-width="6" stroke-linejoin="round" filter="url(#shield-glow)"/>
     <path d="M128 78V190M91 101V127C91 153 106 171 128 183C150 171 165 153 165 127V101L128 85Z" fill="rgb(var(--usk-surface-rgb, 19 8 47))" opacity=".55"/>
     <path d="M98 132L120 154L160 106" fill="none" stroke="rgb(var(--usk-accent-rgb, 255 209 102))" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>

@@ -49,8 +49,15 @@ test("published docs describe the supported library and demo surfaces", async ()
   assert.match(readme, /npm run demo/u);
   assert.match(readme, /npm run pages:build/u);
   assert.match(readme, /ui-style-kit-css@2\.1\.0/u);
+  assert.match(readme, /interactive-surface-css@1\.5\.0/u);
+  assert.match(readme, /layout-style-css@2\.1\.0/u);
   assert.match(readme, /standalone/iu);
   assert.match(llms, /npm run demo/u);
+  assert.match(llms, /ui-style-kit-css 2\.1\.0/u);
+  assert.match(llms, /interactive-surface-css 1\.5\.0/u);
+  assert.match(llms, /layout-style-css 2\.1\.0/u);
+  assertStylesheetOrder(readme);
+  assertStylesheetOrder(llms);
   assert.match(html, /fileProtocolNotice/u);
   assert.match(
     html,
@@ -109,4 +116,22 @@ test("local Markdown links resolve without requiring a separate wiki checkout", 
 
 function escapeRegExp(value) {
   return value.replace(/[.*+?^${}()|[\]\\]/gu, "\\$&");
+}
+
+function assertStylesheetOrder(document) {
+  const orderedImports = [
+    "ui-style-kit-css/visual.css",
+    "ui-style-kit-css/interactive-surface-theme.css",
+    "interactive-surface-css/state-core.css",
+    "layout-style-css/min.css",
+    "ui-style-kit-icons/css.css"
+  ];
+  let previous = -1;
+
+  for (const stylesheet of orderedImports) {
+    const index = document.indexOf(stylesheet, previous + 1);
+
+    assert.ok(index > previous, `${stylesheet} is missing or out of order.`);
+    previous = index;
+  }
 }

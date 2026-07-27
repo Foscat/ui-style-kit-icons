@@ -1,4 +1,4 @@
-<svg overflow="visible" xmlns="http://www.w3.org/2000/svg" class="brutal-icon" width="256" height="256" viewBox="-8 -8 272 272" role="img" aria-labelledby="calendar-title calendar-desc">
+<svg overflow="visible" xmlns="http://www.w3.org/2000/svg" class="brutal-icon" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="calendar-title calendar-desc">
   <title id="calendar-title">Calendar</title>
   <desc id="calendar-desc">Theme-aware brutalist SVG icon with hard outlines, block shapes, and UI Style Kit color variables. Semantic meaning: Dates, schedule, publishing plan.</desc>
   <style>
@@ -20,8 +20,16 @@
 [data-icon-frame="decor"]{opacity:var(--usk-icon-frame-decor-opacity,var(--usk-icon-frame-opacity,1))}
 [data-icon-glyph="play"]{fill:var(--usk-icon-play,var(--usk-icon-foreground,rgb(var(--usk-text-rgb,255 255 255))));stroke:none;opacity:1}
 </style>
-  <rect data-icon-frame="decor" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
-  <rect data-icon-frame="decor" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
-  <path class="brutal-i-muted" d="M48 64H94M150 64H196M48 194H104M144 194H196"/>
-  <rect class="brutal-i-bg-strong" x="60" y="76" width="136" height="122" stroke="var(--brutal-icon-border,rgb(var(--usk-border-rgb,0 0 0)))" stroke-width="8"/><path class="brutal-i-line" d="M90 58V96M166 58V96M64 112H192"/><rect class="brutal-i-accent" x="88" y="136" width="20" height="20"/><rect class="brutal-i-secondary" x="124" y="136" width="20" height="20"/><rect class="brutal-i-primary" x="160" y="136" width="20" height="20"/>
+<rect data-icon-frame="surface" class="brutal-i-primary" x="40" y="42" width="188" height="188"/>
+  <rect data-icon-frame="surface" class="brutal-i-surface" x="28" y="28" width="188" height="188"/>
+  <path data-icon-frame="decor" class="brutal-i-muted" d="M48 52H84M160 52H196M48 204H88M156 204H196"/>
+
+
+
+<rect class="brutal-i-bg-strong" x="60" y="76" width="136" height="122" stroke="var(--brutal-icon-border,rgb(var(--usk-border-rgb,0 0 0)))" stroke-width="8"/>
+<path class="brutal-i-line" d="M90 58V96M166 58V96M64 112H192"/>
+<rect class="brutal-i-accent" x="88" y="136" width="20" height="20"/>
+<rect class="brutal-i-secondary" x="124" y="136" width="20" height="20"/>
+<rect class="brutal-i-primary" x="160" y="136" width="20" height="20"/>
+
 </svg>

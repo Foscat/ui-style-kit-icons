@@ -43,15 +43,31 @@
 .sw-i-surface{ fill: var(--sw-icon-bg); stroke: var(--sw-icon-border); stroke-width: 4.5; }
 
 [data-icon-frame]{opacity:var(--usk-icon-frame-opacity,1)}
-[data-icon-frame="decor"]{opacity:var(--usk-icon-frame-decor-opacity,var(--usk-icon-frame-opacity,1))}
+[data-icon-frame="decor"]{opacity:var(--usk-icon-frame-decor-opacity,.22)}
 [data-icon-glyph="play"]{fill:var(--usk-icon-play,var(--usk-icon-foreground,rgb(var(--usk-text-rgb,255 255 255))));stroke:none;opacity:1}
 </style>
-  <rect data-icon-frame="decor" class="sw-i-surface" x="18" y="18" width="220" height="220" rx="48"/><g data-icon-frame="decor" class="sw-i-horizon-sun" opacity=".44"><path class="sw-i-warning" d="M74 166A54 54 0 0 1 182 166H74Z" opacity=".24"/><path class="sw-i-line-3" d="M86 136H170M80 150H176M74 164H182" opacity=".34"/></g><path class="sw-i-line-3" d="M34 176H222M50 194H206M70 212H186" opacity=".42"/><path class="sw-i-muted" d="M24 232L104 154M232 232L152 154M63 232L116 154M193 232L140 154" opacity=".32"/>
-  <g data-icon-video="player">
-    <rect data-icon-video="screen" class="sw-i-bg-strong" x="48" y="82" width="132" height="92" rx="18" stroke="var(--sw-icon-primary)" stroke-width="7"/>
-    <path data-icon-video="camera" class="sw-i-accent" d="M180 108L212 90V166L180 148Z" stroke-width="6"/>
-    <path data-icon-video="controls" class="sw-i-muted" d="M68 104H94M68 158H126M144 158H160" opacity=".62"/>
-    <circle data-icon-video="record" class="sw-i-accent" cx="150" cy="104" r="6" stroke-width="4"/>
-    <path d="M96 104L144 128L96 152Z" data-icon-glyph="play"/>
+<defs>
+  <linearGradient id="sw-video-neon" x1="42" y1="76" x2="216" y2="181" gradientUnits="userSpaceOnUse">
+    <stop stop-color="var(--sw-icon-primary)"/>
+    <stop offset=".52" stop-color="var(--sw-icon-secondary)"/>
+    <stop offset="1" stop-color="var(--sw-icon-accent)"/>
+  </linearGradient>
+  <filter id="sw-video-glow" x="20" y="20" width="216" height="216" filterUnits="userSpaceOnUse">
+    <feGaussianBlur stdDeviation="2.2" result="halo"/>
+    <feMerge><feMergeNode in="halo"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+<rect data-icon-frame="surface" class="sw-i-surface" x="18" y="18" width="220" height="220" rx="48"/><path data-icon-frame="decor" class="sw-i-line-3" d="M48 204H208M76 218H180" opacity=".72"/>
+
+
+
+  <g data-icon-glyph="semantic" data-icon-prototype="reference-led-v1" data-icon-video="player">
+    <path data-icon-video="screen" data-icon-neon="body" d="M43 77H175L190 92V169L175 184H43Z" fill="var(--sw-icon-bg)" stroke="url(#sw-video-neon)" stroke-width="8" stroke-linejoin="miter" filter="url(#sw-video-glow)"/>
+    <path data-icon-video="camera" d="M190 108L217 88V173L190 152Z" fill="url(#sw-video-neon)" stroke="var(--sw-icon-muted)" stroke-width="4" stroke-linejoin="miter"/>
+    <path data-icon-video="controls" data-icon-neon="band" d="M60 96H99M60 163H125M141 163H169" fill="none" stroke="url(#sw-video-neon)" stroke-width="5"/>
+    <circle data-icon-video="record" cx="164" cy="96" r="7" fill="var(--sw-icon-accent)"/>
+    <path d="M91 99L151 130L91 161Z" data-icon-glyph="play"/>
+    <path d="M52 176L180 176" fill="none" stroke="var(--sw-icon-secondary)" stroke-width="3"/>
   </g>
+
 </svg>

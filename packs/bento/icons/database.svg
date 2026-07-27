@@ -21,9 +21,14 @@
 [data-icon-frame="decor"]{opacity:var(--usk-icon-frame-decor-opacity,var(--usk-icon-frame-opacity,1))}
 [data-icon-glyph="play"]{fill:var(--usk-icon-play,var(--usk-icon-foreground,rgb(var(--usk-text-rgb,255 255 255))));stroke:none;opacity:1}
 </style>
-  <rect data-icon-frame="decor" class="bi-surface" x="26" y="28" width="204" height="200" rx="38"/>
-  <rect class="bi-bg-soft" x="48" y="52" width="68" height="48" rx="18" opacity=".88"/>
-  <rect class="bi-bg-soft" x="148" y="164" width="52" height="34" rx="14" opacity=".74"/>
-  <path class="bi-muted" d="M132 53H178M54 118H92M164 112H202" opacity=".42"/>
-  <ellipse class="bi-primary" cx="128" cy="78" rx="58" ry="24"/><path class="bi-line" d="M70 78V174C70 187 96 198 128 198C160 198 186 187 186 174V78"/><path class="bi-line-2" d="M70 111C70 124 96 135 128 135C160 135 186 124 186 111M70 144C70 157 96 168 128 168C160 168 186 157 186 144"/>
+<rect data-icon-frame="surface" class="bi-surface" x="26" y="28" width="204" height="200" rx="38"/>
+
+
+  <path data-icon-frame="decor" class="bi-muted" d="M48 52H84M172 52H208M52 210H98M158 210H204" opacity=".42"/>
+
+
+<ellipse class="bi-primary" cx="128" cy="78" rx="58" ry="24"/>
+<path class="bi-line" d="M70 78V174C70 187 96 198 128 198C160 198 186 187 186 174V78"/>
+<path class="bi-line-2" d="M70 111C70 124 96 135 128 135C160 135 186 124 186 111M70 144C70 157 96 168 128 168C160 168 186 157 186 144"/>
+
 </svg>
