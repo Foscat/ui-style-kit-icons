@@ -6,7 +6,9 @@ import { fileURLToPath } from "node:url";
 
 const root = fileURLToPath(new URL("..", import.meta.url));
 const pages = join(root, "output", "github-pages");
-const pagesUrl = "https://foscat.github.io/ui-style-kit-css-icons/";
+// The project-site base must stay aligned with the current GitHub repository slug.
+const pagesUrl = "https://foscat.github.io/ui-style-kit-icons/";
+const repositoryUrl = "https://github.com/Foscat/ui-style-kit-icons";
 
 test("Pages artifact has a deployable root", async () => {
   for (const path of [
@@ -46,7 +48,9 @@ test("Pages index contains SEO and pre-rendered icon content", async () => {
   assert.match(html, /Layout Style CSS/);
   assert.match(html, /Interactive Surface CSS/);
   assert.match(html, new RegExp(escapeRegExp(pagesUrl), "u"));
-  assert.doesNotMatch(html, /foscat\.github\.io\/ui-style-kit-icons/u);
+  assert.match(html, new RegExp(escapeRegExp(repositoryUrl), "u"));
+  assert.doesNotMatch(html, /foscat\.github\.io\/ui-style-kit-css-icons/u);
+  assert.doesNotMatch(html, /github\.com\/Foscat\/ui-style-kit-css-icons/u);
   assert.equal((html.match(/\bdata-icon-id="/g) ?? []).length, 64);
   assert.doesNotMatch(html, /\.\.\/dist\//);
   assert.doesNotMatch(html, /0\.3\.0/);
@@ -61,9 +65,9 @@ test("Pages metadata uses the repository deployment base", async () => {
 
   assert.match(robots, new RegExp(escapeRegExp(`${pagesUrl}sitemap.xml`), "u"));
   assert.match(sitemap, new RegExp(escapeRegExp(pagesUrl), "u"));
-  assert.equal(manifest.id, "/ui-style-kit-css-icons/");
-  assert.equal(manifest.start_url, "/ui-style-kit-css-icons/");
-  assert.equal(manifest.scope, "/ui-style-kit-css-icons/");
+  assert.equal(manifest.id, "/ui-style-kit-icons/");
+  assert.equal(manifest.start_url, "/ui-style-kit-icons/");
+  assert.equal(manifest.scope, "/ui-style-kit-icons/");
 });
 
 function escapeRegExp(value) {

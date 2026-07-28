@@ -7,10 +7,10 @@ interactive-surface-css owns interaction affordances.
 
 ## Canonical links
 
-- Demo: https://foscat.github.io/ui-style-kit-css-icons/
-- GitHub: https://github.com/Foscat/ui-style-kit-css-icons
+- Demo: https://foscat.github.io/ui-style-kit-icons/
+- GitHub: https://github.com/Foscat/ui-style-kit-icons
 - npm: https://www.npmjs.com/package/ui-style-kit-icons
-- Wiki: https://github.com/Foscat/ui-style-kit-css-icons/wiki
+- Wiki: https://github.com/Foscat/ui-style-kit-icons/wiki
 - UI Style Kit CSS: https://github.com/Foscat/ui-style-kit-css
 - Layout Style CSS: https://github.com/Foscat/Layout-Style-CSS
 - Interactive Surface CSS: https://github.com/Foscat/Interactive-Surface-CSS
@@ -65,9 +65,9 @@ Style are not consumer peers.
 
 ## Documentation map
 
-- README: https://github.com/Foscat/ui-style-kit-css-icons/blob/main/README.md
-- Changelog: https://github.com/Foscat/ui-style-kit-css-icons/blob/main/CHANGELOG.md
-- Icon contract: https://github.com/Foscat/ui-style-kit-css-icons/blob/main/contract/icon-contract.md
-- Reference-led icon grammar: https://github.com/Foscat/ui-style-kit-css-icons/blob/main/style-source/reference-led-icon-grammar.md
-- Contributing: https://github.com/Foscat/ui-style-kit-css-icons/blob/main/CONTRIBUTING.md
-- Security: https://github.com/Foscat/ui-style-kit-css-icons/blob/main/SECURITY.md
+- README: https://github.com/Foscat/ui-style-kit-icons/blob/main/README.md
+- Changelog: https://github.com/Foscat/ui-style-kit-icons/blob/main/CHANGELOG.md
+- Icon contract: https://github.com/Foscat/ui-style-kit-icons/blob/main/contract/icon-contract.md
+- Reference-led icon grammar: https://github.com/Foscat/ui-style-kit-icons/blob/main/style-source/reference-led-icon-grammar.md
+- Contributing: https://github.com/Foscat/ui-style-kit-icons/blob/main/CONTRIBUTING.md
+- Security: https://github.com/Foscat/ui-style-kit-icons/blob/main/SECURITY.md

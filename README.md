@@ -225,8 +225,8 @@ release actions.
 
 ## Project Links
 
-- [Demo](https://foscat.github.io/ui-style-kit-css-icons/)
-- [Repository](https://github.com/Foscat/ui-style-kit-css-icons)
+- [Demo](https://foscat.github.io/ui-style-kit-icons/)
+- [Repository](https://github.com/Foscat/ui-style-kit-icons)
 - [Changelog](CHANGELOG.md)
 - [Contributing](CONTRIBUTING.md)
 - [Security](SECURITY.md)

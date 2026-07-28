@@ -19,6 +19,8 @@ const allowedThemes = new Set(uiStyleKitCssCompatibility.themes);
 const allowedModes = new Set(uiStyleKitCssCompatibility.modes);
 const allowedFrames = new Set(["auto", "none"]);
 const storageKey = "ui-style-kit-icons:demo-state";
+// Keep runtime-generated source links aligned with the canonical repository.
+const repositoryUrl = "https://github.com/Foscat/ui-style-kit-icons";
 const query = new URLSearchParams(window.location.search);
 const stored = readStoredState();
 const storedPack = packRegistry[stored.pack] ? stored.pack : defaults.pack;
@@ -306,7 +308,7 @@ function applyState({ updateUrl: shouldUpdateUrl = true } = {}) {
   elements.extrasCount.textContent = String(pack.optionalIconCount);
   elements.extrasToggle.disabled = pack.optionalIconCount === 0;
   elements.extrasToggle.closest("label").toggleAttribute("data-disabled", pack.optionalIconCount === 0);
-  elements.packSourceLink.href = `https://github.com/Foscat/ui-style-kit-css-icons/tree/main/${pack.sourcePath}`;
+  elements.packSourceLink.href = `${repositoryUrl}/tree/main/${pack.sourcePath}`;
 
   if (pack.optionalIconCount === 0) {
     state.extras = false;

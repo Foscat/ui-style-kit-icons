@@ -56,4 +56,4 @@ All notable changes to UI Style Kit Icons are documented in this file.
   dialog, direct-file warning, and GitHub Pages metadata.
 - Removed stale duplicate pack and favicon drop-in folders.
 
-[1.0.0]: https://github.com/Foscat/ui-style-kit-css-icons/releases/tag/v1.0.0
+[1.0.0]: https://github.com/Foscat/ui-style-kit-icons/releases/tag/v1.0.0

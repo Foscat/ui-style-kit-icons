@@ -61,6 +61,10 @@ test("published docs describe the supported library and demo surfaces", async ()
   assert.match(html, /fileProtocolNotice/u);
   assert.match(
     html,
+    /https:\/\/github\.com\/Foscat\/ui-style-kit-icons/u
+  );
+  assert.doesNotMatch(
+    html,
     /https:\/\/github\.com\/Foscat\/ui-style-kit-css-icons/u
   );
   assert.match(
