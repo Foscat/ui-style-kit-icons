@@ -9,13 +9,13 @@
   "main": "dist/ui-style-kit-icons.js",
   "module": "dist/ui-style-kit-icons.js",
   "types": "dist/ui-style-kit-icons.d.ts",
-  "homepage": "https://foscat.github.io/ui-style-kit-css-icons/",
+  "homepage": "https://foscat.github.io/ui-style-kit-icons/",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Foscat/ui-style-kit-css-icons.git"
+    "url": "git+https://github.com/Foscat/ui-style-kit-icons.git"
   },
   "bugs": {
-    "url": "https://github.com/Foscat/ui-style-kit-css-icons/issues"
+    "url": "https://github.com/Foscat/ui-style-kit-icons/issues"
   },
   "publishConfig": {
     "access": "public"

@@ -11,8 +11,9 @@ const contract = await readJson("contract/icon-contract.json");
 const manifest = await readJson("manifest.json");
 const registry = await readJson("dist/registry.json");
 const version = packageJson.version;
-const repositoryUrl = "https://github.com/Foscat/ui-style-kit-css-icons";
-const pagesUrl = "https://foscat.github.io/ui-style-kit-css-icons/";
+// Lock release metadata to the current repository so renamed Pages paths cannot drift.
+const repositoryUrl = "https://github.com/Foscat/ui-style-kit-icons";
+const pagesUrl = "https://foscat.github.io/ui-style-kit-icons/";
 const publicTextFiles = [
   ".well-known/security.txt",
   "404.html",
@@ -90,9 +91,9 @@ for (const relativePath of publicTextFiles) {
 
   assert.doesNotMatch(
     source,
-    /github\.com\/Foscat\/ui-style-kit-icons/u
+    /github\.com\/Foscat\/ui-style-kit-css-icons/u
   );
-  assert.doesNotMatch(source, /foscat\.github\.io\/ui-style-kit-icons/u);
+  assert.doesNotMatch(source, /foscat\.github\.io\/ui-style-kit-css-icons/u);
   assert.doesNotMatch(source, /Â/u);
 }
 
