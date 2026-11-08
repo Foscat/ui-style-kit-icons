@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Arrow down" focusable="false" class="usk-icon" data-icon-style="y2k" fill="none" stroke-width="1.65" stroke-linejoin="round" stroke-linecap="round">
+  <g transform="rotate(90 12 12)">
+  <path d="M6.1 9.25h7.65v-2.1c0-1.12 1.33-1.7 2.15-.95l4.05 3.63a2.9 2.9 0 0 1 0 4.34L15.9 17.8c-.82.75-2.15.17-2.15-.95v-2.1H6.1a2.75 2.75 0 0 1 0-5.5Z" stroke="currentColor" fill="none" style="stroke:var(--usi-y2k-shell, var(--usi-primary-ink, currentColor));fill:var(--usi-y2k-gel, none)"/>
+  <path d="M5.85 12h4.45" stroke="currentColor" stroke-width="1.55" style="stroke:var(--usi-y2k-pop, var(--usi-accent-ink, currentColor))"/>
+  <path d="M14.9 8.8l2.6 2.3" stroke="none" stroke-width="1.15" style="stroke:var(--usi-y2k-shine, none)"/>
+  </g>
+</svg>

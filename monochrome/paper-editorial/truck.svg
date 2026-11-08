@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Truck" focusable="false" class="usk-icon" data-icon-style="paper-editorial" fill="none" stroke-linecap="square" stroke-linejoin="miter">
+  <path d="M2.67 5.32h11.92v3.1h3.36l3.38 3.95v5.43h-2.31v-2.04h.34v-2.64l-2.28-2.66h-2.49v5.29h.48v2.05H8.36v-2.04h4.15v-8.5H4.7v8.5h.17v2.04h-2.2Z" fill="currentColor" fill-rule="evenodd"/>
+  <path d="M6.45 16.45a2.45 2.45 0 1 1 0 4.9 2.45 2.45 0 0 1 0-4.9Zm0 1.62a.83.83 0 1 0 0 1.66.83.83 0 0 0 0-1.66Z" fill="currentColor" fill-rule="evenodd"/>
+  <g transform="translate(10.75 0)">
+  <path d="M6.45 16.45a2.45 2.45 0 1 1 0 4.9 2.45 2.45 0 0 1 0-4.9Zm0 1.62a.83.83 0 1 0 0 1.66.83.83 0 0 0 0-1.66Z" fill="currentColor" fill-rule="evenodd"/>
+  </g>
+</svg>

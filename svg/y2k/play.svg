@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Play" focusable="false" class="usk-icon" data-icon-style="y2k" fill="none" stroke-width="1.65" stroke-linejoin="round" stroke-linecap="round">
+  <path d="M6.05 6.1a1.9 1.9 0 0 1 2.9-1.6l10 5.95a1.8 1.8 0 0 1 0 3.1l-10 5.95a1.9 1.9 0 0 1-2.9-1.6Z" stroke="currentColor" fill="none" style="stroke:var(--usi-y2k-shell, var(--usi-primary-ink, currentColor));fill:var(--usi-y2k-gel, none)"/>
+  <path d="M8.6 7.05v5.35" stroke="none" stroke-width="1.15" style="stroke:var(--usi-y2k-shine, none)"/>
+</svg>

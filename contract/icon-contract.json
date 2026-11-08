@@ -1,418 +1,1925 @@
 {
-  "schemaVersion": "1.0.0",
-  "packageFamily": "ui-style-kit-css-icons",
-  "requiredIconCount": 64,
-  "naming": {
-    "idCase": "kebab-case",
-    "fileName": "<icon-id>.svg",
-    "symbolId": "<style-prefix>-icon-<icon-id>",
-    "cssClass": "<style-prefix>-icon",
-    "aliasesAreBuildTimeOnly": true
-  },
-  "requiredExports": [
-    "icons/<icon-id>.svg",
-    "sprite/<pack-name>.inline.svg",
-    "dist/<pack-name>.svg",
-    "dist/<pack-name>.css",
-    "manifest.json",
-    "package.json",
-    "README.md",
-    "style-source/<style>-style-source.md"
+  "schemaVersion": "1",
+  "packageVersion": "2.0.0",
+  "collection": "01",
+  "requiredIconCount": 174,
+  "styleCount": 20,
+  "variants": [
+    "themed",
+    "monochrome"
   ],
-  "requiredCssBehavior": [
-    "All fills and strokes must resolve through UI Style Kit CSS variables.",
-    "Inline SVG and inline sprite usage must support live style/theme changes.",
-    "External image usage can be supported but is not the primary integration path.",
-    "Every SVG must include title and desc metadata.",
-    "Every style pack must ship the exact required icon IDs even when a style also has optional extras."
+  "sourcePatterns": [
+    "svg/<family>/<icon-id>.svg",
+    "monochrome/<family>/<icon-id>.svg"
   ],
   "icons": [
     {
-      "order": 0,
       "id": "home",
       "label": "Home",
-      "meaning": "Primary landing or app home destination"
+      "category": "navigation",
+      "keywords": [],
+      "meaning": "Home"
     },
     {
-      "order": 1,
-      "id": "dashboard",
-      "label": "Dashboard",
-      "meaning": "Main overview, admin home, metrics hub"
-    },
-    {
-      "order": 2,
-      "id": "browser",
-      "label": "Browser",
-      "meaning": "Web page, app shell, external web surface"
-    },
-    {
-      "order": 3,
       "id": "search",
       "label": "Search",
-      "meaning": "Find, query, inspect"
+      "category": "actions",
+      "keywords": [
+        "find",
+        "query",
+        "magnifier"
+      ],
+      "meaning": "Search"
     },
     {
-      "order": 4,
       "id": "user",
       "label": "User",
-      "meaning": "Single account, profile, member"
+      "category": "interface",
+      "keywords": [
+        "person",
+        "account"
+      ],
+      "meaning": "User"
     },
     {
-      "order": 5,
-      "id": "users",
-      "label": "Users",
-      "meaning": "Audience, team, members, group"
-    },
-    {
-      "order": 6,
-      "id": "settings",
-      "label": "Settings",
-      "meaning": "Configuration and preferences"
-    },
-    {
-      "order": 7,
-      "id": "bell",
-      "label": "Notifications",
-      "meaning": "Alerts, reminders, updates"
-    },
-    {
-      "order": 8,
-      "id": "message",
-      "label": "Message",
-      "meaning": "Chat, comments, support conversation"
-    },
-    {
-      "order": 9,
-      "id": "mail",
-      "label": "Email",
-      "meaning": "Email, inbox, message delivery"
-    },
-    {
-      "order": 10,
-      "id": "calendar",
-      "label": "Calendar",
-      "meaning": "Dates, schedule, publishing plan"
-    },
-    {
-      "order": 11,
-      "id": "upload",
-      "label": "Upload",
-      "meaning": "Send local content into the app"
-    },
-    {
-      "order": 12,
-      "id": "download",
-      "label": "Download",
-      "meaning": "Export or retrieve content"
-    },
-    {
-      "order": 13,
       "id": "folder",
       "label": "Folder",
-      "meaning": "Collection, directory, grouped files"
+      "category": "interface",
+      "keywords": [],
+      "meaning": "Folder"
     },
     {
-      "order": 14,
-      "id": "file",
-      "label": "File",
-      "meaning": "Single document or generic file"
+      "id": "settings",
+      "label": "Settings",
+      "category": "interface",
+      "keywords": [
+        "gear",
+        "preferences"
+      ],
+      "meaning": "Settings"
     },
     {
-      "order": 15,
-      "id": "image",
-      "label": "Image",
-      "meaning": "Photo, visual asset, thumbnail"
+      "id": "bell",
+      "label": "Bell",
+      "category": "interface",
+      "keywords": [],
+      "meaning": "Bell"
     },
     {
-      "order": 16,
-      "id": "video",
-      "label": "Video",
-      "meaning": "Video media, player, reel"
+      "id": "mail",
+      "label": "Mail",
+      "category": "interface",
+      "keywords": [],
+      "meaning": "Mail"
     },
     {
-      "order": 17,
-      "id": "camera",
-      "label": "Camera",
-      "meaning": "Capture, photo/video source"
+      "id": "calendar",
+      "label": "Calendar",
+      "category": "interface",
+      "keywords": [],
+      "meaning": "Calendar"
     },
     {
-      "order": 18,
-      "id": "database",
-      "label": "Database",
-      "meaning": "Persistent data store"
+      "id": "download",
+      "label": "Download",
+      "category": "actions",
+      "keywords": [],
+      "meaning": "Download"
     },
     {
-      "order": 19,
-      "id": "server",
-      "label": "Server",
-      "meaning": "Backend service or infrastructure"
-    },
-    {
-      "order": 20,
-      "id": "api",
-      "label": "API",
-      "meaning": "Integration, endpoint, developer interface"
-    },
-    {
-      "order": 21,
-      "id": "lock",
-      "label": "Lock",
-      "meaning": "Private, secured, restricted"
-    },
-    {
-      "order": 22,
-      "id": "shield",
-      "label": "Shield",
-      "meaning": "Safety, moderation, protection"
-    },
-    {
-      "order": 23,
-      "id": "key",
-      "label": "Key",
-      "meaning": "Credentials, access keys, permissions"
-    },
-    {
-      "order": 24,
-      "id": "chart",
-      "label": "Chart",
-      "meaning": "Analytics, reports, graph"
-    },
-    {
-      "order": 25,
-      "id": "activity",
-      "label": "Activity",
-      "meaning": "Pulse, usage, live status"
-    },
-    {
-      "order": 26,
-      "id": "credit-card",
-      "label": "Credit Card",
-      "meaning": "Payment card, billing method"
-    },
-    {
-      "order": 27,
-      "id": "wallet",
-      "label": "Wallet",
-      "meaning": "Balance, payouts, money account"
-    },
-    {
-      "order": 28,
-      "id": "cart",
-      "label": "Cart",
-      "meaning": "Checkout cart, purchase flow"
-    },
-    {
-      "order": 29,
-      "id": "invoice",
-      "label": "Invoice",
-      "meaning": "Receipt, billing document"
-    },
-    {
-      "order": 30,
-      "id": "tax",
-      "label": "Tax",
-      "meaning": "Tax document, compliance finance"
-    },
-    {
-      "order": 31,
-      "id": "login",
-      "label": "Login",
-      "meaning": "Sign in, enter account"
-    },
-    {
-      "order": 32,
-      "id": "logout",
-      "label": "Logout",
-      "meaning": "Sign out, leave account"
-    },
-    {
-      "order": 33,
-      "id": "edit",
-      "label": "Edit",
-      "meaning": "Modify, compose, revise"
-    },
-    {
-      "order": 34,
       "id": "trash",
       "label": "Trash",
-      "meaning": "Delete, remove, discard"
+      "category": "actions",
+      "keywords": [
+        "delete",
+        "remove",
+        "bin"
+      ],
+      "meaning": "Trash"
     },
     {
-      "order": 35,
-      "id": "plus",
-      "label": "Plus",
-      "meaning": "Add, create, increase"
-    },
-    {
-      "order": 36,
-      "id": "minus",
-      "label": "Minus",
-      "meaning": "Remove, decrease, collapse"
-    },
-    {
-      "order": 37,
-      "id": "filter",
-      "label": "Filter",
-      "meaning": "Refine visible results"
-    },
-    {
-      "order": 38,
-      "id": "menu",
-      "label": "Menu",
-      "meaning": "Navigation menu, list"
-    },
-    {
-      "order": 39,
-      "id": "code",
-      "label": "Code",
-      "meaning": "Source code, embed, developer"
-    },
-    {
-      "order": 40,
-      "id": "terminal",
-      "label": "Terminal",
-      "meaning": "Console, command line, logs"
-    },
-    {
-      "order": 41,
-      "id": "rocket",
-      "label": "Rocket",
-      "meaning": "Launch, publish, deploy"
-    },
-    {
-      "order": 42,
-      "id": "bug",
-      "label": "Bug",
-      "meaning": "Issue, defect, debug"
-    },
-    {
-      "order": 43,
-      "id": "help",
-      "label": "Help",
-      "meaning": "Question, support, guidance"
-    },
-    {
-      "order": 44,
-      "id": "link",
-      "label": "Link",
-      "meaning": "URL, connection, relationship"
-    },
-    {
-      "order": 45,
-      "id": "cloud",
-      "label": "Cloud",
-      "meaning": "Cloud sync, hosted storage"
-    },
-    {
-      "order": 46,
-      "id": "globe",
-      "label": "Globe",
-      "meaning": "Public web, world, domain"
-    },
-    {
-      "order": 47,
       "id": "warning",
       "label": "Warning",
-      "meaning": "Caution, risk, validation issue"
+      "category": "interface",
+      "keywords": [
+        "caution",
+        "alert"
+      ],
+      "meaning": "Warning"
     },
     {
-      "order": 48,
-      "id": "scan",
-      "label": "Scan",
-      "meaning": "Scan, detect, verify, focus target"
+      "id": "link",
+      "label": "Link",
+      "category": "interface",
+      "keywords": [],
+      "meaning": "Link"
     },
     {
-      "order": 49,
-      "id": "network",
-      "label": "Network",
-      "meaning": "Connected nodes, graph, distributed system"
+      "id": "menu",
+      "label": "Menu",
+      "category": "navigation",
+      "keywords": [],
+      "meaning": "Menu"
     },
     {
-      "order": 50,
-      "id": "cpu",
-      "label": "CPU",
-      "meaning": "Compute, processor, AI/system resource"
+      "id": "more-horizontal",
+      "label": "More horizontal",
+      "category": "navigation",
+      "keywords": [
+        "ellipsis",
+        "overflow",
+        "actions"
+      ],
+      "meaning": "More horizontal"
     },
     {
-      "order": 51,
-      "id": "layers",
-      "label": "Layers",
-      "meaning": "Stacked layers, versions, z-order"
+      "id": "plus",
+      "label": "Plus",
+      "category": "actions",
+      "keywords": [
+        "add",
+        "increase"
+      ],
+      "meaning": "Plus"
     },
     {
-      "order": 52,
-      "id": "eye",
-      "label": "Eye",
-      "meaning": "View, visibility, preview"
+      "id": "minus",
+      "label": "Minus",
+      "category": "actions",
+      "keywords": [
+        "subtract",
+        "decrease"
+      ],
+      "meaning": "Minus"
     },
     {
-      "order": 53,
+      "id": "check",
+      "label": "Check",
+      "category": "actions",
+      "keywords": [
+        "confirm",
+        "done",
+        "complete"
+      ],
+      "meaning": "Check"
+    },
+    {
+      "id": "close",
+      "label": "Close",
+      "category": "actions",
+      "keywords": [
+        "dismiss",
+        "cancel",
+        "x"
+      ],
+      "meaning": "Close"
+    },
+    {
+      "id": "arrow-left",
+      "label": "Arrow left",
+      "category": "navigation",
+      "keywords": [],
+      "meaning": "Arrow left"
+    },
+    {
+      "id": "arrow-right",
+      "label": "Arrow right",
+      "category": "navigation",
+      "keywords": [],
+      "meaning": "Arrow right"
+    },
+    {
+      "id": "arrow-up",
+      "label": "Arrow up",
+      "category": "navigation",
+      "keywords": [],
+      "meaning": "Arrow up"
+    },
+    {
+      "id": "arrow-down",
+      "label": "Arrow down",
+      "category": "navigation",
+      "keywords": [],
+      "meaning": "Arrow down"
+    },
+    {
+      "id": "chevron-left",
+      "label": "Chevron left",
+      "category": "navigation",
+      "keywords": [],
+      "meaning": "Chevron left"
+    },
+    {
+      "id": "chevron-right",
+      "label": "Chevron right",
+      "category": "navigation",
+      "keywords": [],
+      "meaning": "Chevron right"
+    },
+    {
+      "id": "chevron-up",
+      "label": "Chevron up",
+      "category": "navigation",
+      "keywords": [],
+      "meaning": "Chevron up"
+    },
+    {
+      "id": "chevron-down",
+      "label": "Chevron down",
+      "category": "navigation",
+      "keywords": [],
+      "meaning": "Chevron down"
+    },
+    {
+      "id": "edit",
+      "label": "Edit",
+      "category": "actions",
+      "keywords": [
+        "pencil",
+        "modify"
+      ],
+      "meaning": "Edit"
+    },
+    {
+      "id": "upload",
+      "label": "Upload",
+      "category": "actions",
+      "keywords": [],
+      "meaning": "Upload"
+    },
+    {
+      "id": "filter",
+      "label": "Filter",
+      "category": "actions",
+      "keywords": [],
+      "meaning": "Filter"
+    },
+    {
       "id": "grid",
       "label": "Grid",
-      "meaning": "Grid view, layout matrix"
+      "category": "interface",
+      "keywords": [
+        "layout",
+        "tiles"
+      ],
+      "meaning": "Grid"
     },
     {
-      "order": 54,
-      "id": "module",
-      "label": "Module",
-      "meaning": "Component, widget, reusable block"
+      "id": "eye",
+      "label": "Eye",
+      "category": "interface",
+      "keywords": [
+        "show",
+        "view",
+        "visibility"
+      ],
+      "meaning": "Eye"
     },
     {
-      "order": 55,
-      "id": "stack",
-      "label": "Stack",
-      "meaning": "Stacked cards, queue, layered set"
+      "id": "lock",
+      "label": "Lock",
+      "category": "interface",
+      "keywords": [
+        "security",
+        "protected"
+      ],
+      "meaning": "Lock"
     },
     {
-      "order": 56,
-      "id": "tile",
-      "label": "Tile",
-      "meaning": "Bento tile, card tile, app block"
+      "id": "info",
+      "label": "Info",
+      "category": "feedback",
+      "keywords": [
+        "information",
+        "notice"
+      ],
+      "meaning": "Info"
     },
     {
-      "order": 57,
+      "id": "success",
+      "label": "Success",
+      "category": "feedback",
+      "keywords": [
+        "complete",
+        "valid",
+        "done"
+      ],
+      "meaning": "Success"
+    },
+    {
+      "id": "error",
+      "label": "Error",
+      "category": "feedback",
+      "keywords": [
+        "failure",
+        "invalid",
+        "alert"
+      ],
+      "meaning": "Error"
+    },
+    {
+      "id": "help",
+      "label": "Help",
+      "category": "feedback",
+      "keywords": [
+        "question",
+        "support"
+      ],
+      "meaning": "Help"
+    },
+    {
+      "id": "checkbox",
+      "label": "Checkbox",
+      "category": "forms",
+      "keywords": [
+        "unchecked",
+        "form",
+        "selection"
+      ],
+      "meaning": "Checkbox"
+    },
+    {
+      "id": "checkbox-checked",
+      "label": "Checkbox checked",
+      "category": "forms",
+      "keywords": [
+        "checked",
+        "form",
+        "selection"
+      ],
+      "meaning": "Checkbox checked"
+    },
+    {
+      "id": "checkbox-indeterminate",
+      "label": "Checkbox indeterminate",
+      "category": "forms",
+      "keywords": [
+        "mixed",
+        "partial",
+        "form"
+      ],
+      "meaning": "Checkbox indeterminate"
+    },
+    {
+      "id": "radio",
+      "label": "Radio",
+      "category": "forms",
+      "keywords": [
+        "unselected",
+        "option",
+        "form"
+      ],
+      "meaning": "Radio"
+    },
+    {
+      "id": "radio-selected",
+      "label": "Radio selected",
+      "category": "forms",
+      "keywords": [
+        "selected",
+        "option",
+        "form"
+      ],
+      "meaning": "Radio selected"
+    },
+    {
+      "id": "eye-off",
+      "label": "Eye off",
+      "category": "feedback",
+      "keywords": [
+        "hide",
+        "hidden",
+        "conceal",
+        "password"
+      ],
+      "meaning": "Eye off"
+    },
+    {
+      "id": "refresh",
+      "label": "Refresh",
+      "category": "feedback",
+      "keywords": [
+        "reload",
+        "retry",
+        "sync"
+      ],
+      "meaning": "Refresh"
+    },
+    {
+      "id": "external-link",
+      "label": "External link",
+      "category": "feedback",
+      "keywords": [
+        "outbound",
+        "new tab"
+      ],
+      "meaning": "External link"
+    },
+    {
+      "id": "undo",
+      "label": "Undo",
+      "category": "feedback",
+      "keywords": [
+        "revert",
+        "back"
+      ],
+      "meaning": "Undo"
+    },
+    {
+      "id": "redo",
+      "label": "Redo",
+      "category": "feedback",
+      "keywords": [
+        "restore",
+        "forward"
+      ],
+      "meaning": "Redo"
+    },
+    {
+      "id": "toggle-off",
+      "label": "Toggle off",
+      "category": "forms",
+      "keywords": [
+        "switch",
+        "disabled",
+        "off"
+      ],
+      "meaning": "Toggle off"
+    },
+    {
+      "id": "toggle-on",
+      "label": "Toggle on",
+      "category": "forms",
+      "keywords": [
+        "switch",
+        "enabled",
+        "on"
+      ],
+      "meaning": "Toggle on"
+    },
+    {
+      "id": "file",
+      "label": "File",
+      "category": "files",
+      "keywords": [
+        "document",
+        "page"
+      ],
+      "meaning": "File"
+    },
+    {
+      "id": "copy",
+      "label": "Copy",
+      "category": "files",
+      "keywords": [
+        "duplicate",
+        "clipboard"
+      ],
+      "meaning": "Copy"
+    },
+    {
+      "id": "save",
+      "label": "Save",
+      "category": "files",
+      "keywords": [
+        "disk",
+        "commit"
+      ],
+      "meaning": "Save"
+    },
+    {
+      "id": "image",
+      "label": "Image",
+      "category": "media",
+      "keywords": [
+        "photo",
+        "picture",
+        "landscape"
+      ],
+      "meaning": "Image"
+    },
+    {
+      "id": "camera",
+      "label": "Camera",
+      "category": "media",
+      "keywords": [
+        "photograph",
+        "capture"
+      ],
+      "meaning": "Camera"
+    },
+    {
+      "id": "play",
+      "label": "Play",
+      "category": "media",
+      "keywords": [
+        "start",
+        "resume",
+        "playback"
+      ],
+      "meaning": "Play"
+    },
+    {
+      "id": "pause",
+      "label": "Pause",
+      "category": "media",
+      "keywords": [
+        "hold",
+        "playback"
+      ],
+      "meaning": "Pause"
+    },
+    {
+      "id": "stop",
+      "label": "Stop",
+      "category": "media",
+      "keywords": [
+        "end",
+        "recording",
+        "playback"
+      ],
+      "meaning": "Stop"
+    },
+    {
+      "id": "skip-back",
+      "label": "Skip back",
+      "category": "media",
+      "keywords": [
+        "previous",
+        "track",
+        "playback"
+      ],
+      "meaning": "Skip back"
+    },
+    {
+      "id": "skip-forward",
+      "label": "Skip forward",
+      "category": "media",
+      "keywords": [
+        "next",
+        "track",
+        "playback"
+      ],
+      "meaning": "Skip forward"
+    },
+    {
+      "id": "volume",
+      "label": "Volume",
+      "category": "media",
+      "keywords": [
+        "sound",
+        "speaker",
+        "audio"
+      ],
+      "meaning": "Volume"
+    },
+    {
+      "id": "volume-off",
+      "label": "Volume off",
+      "category": "media",
+      "keywords": [
+        "mute",
+        "muted",
+        "speaker",
+        "audio"
+      ],
+      "meaning": "Volume off"
+    },
+    {
+      "id": "microphone",
+      "label": "Microphone",
+      "category": "media",
+      "keywords": [
+        "voice",
+        "record",
+        "audio"
+      ],
+      "meaning": "Microphone"
+    },
+    {
+      "id": "attachment",
+      "label": "Attachment",
+      "category": "files",
+      "keywords": [
+        "attach",
+        "paperclip",
+        "upload"
+      ],
+      "meaning": "Attachment"
+    },
+    {
+      "id": "print",
+      "label": "Print",
+      "category": "files",
+      "keywords": [
+        "printer",
+        "paper"
+      ],
+      "meaning": "Print"
+    },
+    {
+      "id": "share",
+      "label": "Share",
+      "category": "files",
+      "keywords": [
+        "send",
+        "destinations"
+      ],
+      "meaning": "Share"
+    },
+    {
+      "id": "cart",
+      "label": "Cart",
+      "category": "commerce",
+      "keywords": [
+        "shopping",
+        "purchase",
+        "checkout",
+        "basket"
+      ],
+      "meaning": "Cart"
+    },
+    {
+      "id": "credit-card",
+      "label": "Credit card",
+      "category": "commerce",
+      "keywords": [
+        "payment",
+        "billing",
+        "card",
+        "pos"
+      ],
+      "meaning": "Credit card"
+    },
+    {
+      "id": "receipt",
+      "label": "Receipt",
+      "category": "commerce",
+      "keywords": [
+        "bill",
+        "invoice",
+        "order",
+        "payment"
+      ],
+      "meaning": "Receipt"
+    },
+    {
+      "id": "tag",
+      "label": "Tag",
+      "category": "commerce",
+      "keywords": [
+        "price",
+        "label",
+        "item"
+      ],
+      "meaning": "Tag"
+    },
+    {
+      "id": "package",
+      "label": "Package",
+      "category": "inventory",
+      "keywords": [
+        "box",
+        "stock",
+        "inventory",
+        "parcel"
+      ],
+      "meaning": "Package"
+    },
+    {
+      "id": "warehouse",
+      "label": "Warehouse",
+      "category": "inventory",
+      "keywords": [
+        "storage",
+        "yard",
+        "stock",
+        "inventory"
+      ],
+      "meaning": "Warehouse"
+    },
+    {
+      "id": "truck",
+      "label": "Truck",
+      "category": "inventory",
+      "keywords": [
+        "delivery",
+        "shipping",
+        "fulfillment",
+        "dispatch"
+      ],
+      "meaning": "Truck"
+    },
+    {
+      "id": "map-pin",
+      "label": "Map pin",
+      "category": "location",
+      "keywords": [
+        "location",
+        "address",
+        "position",
+        "yard"
+      ],
+      "meaning": "Map pin"
+    },
+    {
+      "id": "car",
+      "label": "Car",
+      "category": "inventory",
+      "keywords": [
+        "vehicle",
+        "automotive",
+        "intake"
+      ],
+      "meaning": "Car"
+    },
+    {
+      "id": "wrench",
+      "label": "Wrench",
+      "category": "inventory",
+      "keywords": [
+        "repair",
+        "service",
+        "tool",
+        "maintenance"
+      ],
+      "meaning": "Wrench"
+    },
+    {
+      "id": "barcode",
+      "label": "Barcode",
+      "category": "inventory",
+      "keywords": [
+        "scan",
+        "scanner",
+        "inventory",
+        "sku"
+      ],
+      "meaning": "Barcode"
+    },
+    {
+      "id": "clipboard",
+      "label": "Clipboard",
+      "category": "inventory",
+      "keywords": [
+        "work",
+        "list",
+        "picking",
+        "queue",
+        "intake"
+      ],
+      "meaning": "Clipboard"
+    },
+    {
+      "id": "chart-bar",
+      "label": "Chart bar",
+      "category": "reports",
+      "keywords": [
+        "reports",
+        "analytics",
+        "statistics"
+      ],
+      "meaning": "Chart bar"
+    },
+    {
+      "id": "users",
+      "label": "Users",
+      "category": "business",
+      "keywords": [
+        "team",
+        "staff",
+        "accounts",
+        "people"
+      ],
+      "meaning": "Users"
+    },
+    {
+      "id": "briefcase",
+      "label": "Briefcase",
+      "category": "business",
+      "keywords": [
+        "business",
+        "work",
+        "project"
+      ],
+      "meaning": "Briefcase"
+    },
+    {
+      "id": "building",
+      "label": "Building",
+      "category": "business",
+      "keywords": [
+        "company",
+        "organization",
+        "office"
+      ],
+      "meaning": "Building"
+    },
+    {
+      "id": "dashboard",
+      "label": "Dashboard",
+      "category": "navigation",
+      "keywords": [
+        "overview",
+        "admin",
+        "layout"
+      ],
+      "meaning": "Dashboard"
+    },
+    {
+      "id": "list",
+      "label": "List",
+      "category": "interface",
+      "keywords": [
+        "rows",
+        "display",
+        "catalog"
+      ],
+      "meaning": "List"
+    },
+    {
+      "id": "table",
+      "label": "Table",
+      "category": "interface",
+      "keywords": [
+        "spreadsheet",
+        "rows",
+        "columns",
+        "data"
+      ],
+      "meaning": "Table"
+    },
+    {
+      "id": "sort",
+      "label": "Sort",
+      "category": "actions",
+      "keywords": [
+        "ascending",
+        "descending",
+        "order"
+      ],
+      "meaning": "Sort"
+    },
+    {
+      "id": "clock",
+      "label": "Clock",
+      "category": "feedback",
+      "keywords": [
+        "time",
+        "pending",
+        "timer"
+      ],
+      "meaning": "Clock"
+    },
+    {
+      "id": "history",
+      "label": "History",
+      "category": "feedback",
+      "keywords": [
+        "activity",
+        "previous",
+        "recent",
+        "audit"
+      ],
+      "meaning": "History"
+    },
+    {
+      "id": "spinner",
+      "label": "Spinner",
+      "category": "feedback",
+      "keywords": [
+        "progress",
+        "loading",
+        "busy"
+      ],
+      "meaning": "Spinner"
+    },
+    {
+      "id": "log-in",
+      "label": "Log in",
+      "category": "actions",
+      "keywords": [
+        "login",
+        "sign",
+        "in",
+        "session",
+        "login"
+      ],
+      "meaning": "Log in"
+    },
+    {
+      "id": "log-out",
+      "label": "Log out",
+      "category": "actions",
+      "keywords": [
+        "logout",
+        "sign",
+        "out",
+        "exit",
+        "session",
+        "logout"
+      ],
+      "meaning": "Log out"
+    },
+    {
+      "id": "shield-check",
+      "label": "Shield check",
+      "category": "feedback",
+      "keywords": [
+        "verified",
+        "safe",
+        "permission"
+      ],
+      "meaning": "Shield check"
+    },
+    {
+      "id": "key",
+      "label": "Key",
+      "category": "interface",
+      "keywords": [
+        "credential",
+        "password",
+        "token",
+        "access"
+      ],
+      "meaning": "Key"
+    },
+    {
       "id": "phone",
       "label": "Phone",
-      "meaning": "Mobile device, call, responsive preview"
+      "category": "interface",
+      "keywords": [
+        "contact",
+        "call",
+        "telephone",
+        "handset"
+      ],
+      "meaning": "Phone"
     },
     {
-      "order": 58,
+      "id": "map",
+      "label": "Map",
+      "category": "location",
+      "keywords": [
+        "yard",
+        "navigation",
+        "route",
+        "folded"
+      ],
+      "meaning": "Map"
+    },
+    {
+      "id": "layers",
+      "label": "Layers",
+      "category": "location",
+      "keywords": [
+        "map",
+        "overlay",
+        "depth",
+        "levels"
+      ],
+      "meaning": "Layers"
+    },
+    {
+      "id": "locate",
+      "label": "Locate",
+      "category": "location",
+      "keywords": [
+        "target",
+        "location",
+        "recenter",
+        "position"
+      ],
+      "meaning": "Locate"
+    },
+    {
+      "id": "shelf",
+      "label": "Shelf",
+      "category": "inventory",
+      "keywords": [
+        "storage",
+        "rack",
+        "warehouse",
+        "shelving"
+      ],
+      "meaning": "Shelf"
+    },
+    {
+      "id": "bin-location",
+      "label": "Bin location",
+      "category": "inventory",
+      "keywords": [
+        "storage",
+        "slot",
+        "placement",
+        "pin"
+      ],
+      "meaning": "Bin location"
+    },
+    {
+      "id": "vin-scan",
+      "label": "VIN scan",
+      "category": "inventory",
+      "keywords": [
+        "vehicle",
+        "identification",
+        "scanner",
+        "intake"
+      ],
+      "meaning": "VIN scan"
+    },
+    {
+      "id": "shift",
+      "label": "Shift",
+      "category": "business",
+      "keywords": [
+        "schedule",
+        "calendar",
+        "clock",
+        "workforce"
+      ],
+      "meaning": "Shift"
+    },
+    {
+      "id": "timesheet",
+      "label": "Timesheet",
+      "category": "business",
+      "keywords": [
+        "hours",
+        "time",
+        "approval",
+        "attendance"
+      ],
+      "meaning": "Timesheet"
+    },
+    {
+      "id": "payroll",
+      "label": "Payroll",
+      "category": "business",
+      "keywords": [
+        "payslip",
+        "compensation",
+        "pay",
+        "run"
+      ],
+      "meaning": "Payroll"
+    },
+    {
+      "id": "calendar-range",
+      "label": "Calendar range",
+      "category": "business",
+      "keywords": [
+        "schedule",
+        "dates",
+        "period"
+      ],
+      "meaning": "Calendar range"
+    },
+    {
+      "id": "invoice",
+      "label": "Invoice",
+      "category": "commerce",
+      "keywords": [
+        "billing",
+        "statement",
+        "amount",
+        "due"
+      ],
+      "meaning": "Invoice"
+    },
+    {
+      "id": "refund",
+      "label": "Refund",
+      "category": "commerce",
+      "keywords": [
+        "return",
+        "payment",
+        "reversal"
+      ],
+      "meaning": "Refund"
+    },
+    {
+      "id": "payout",
+      "label": "Payout",
+      "category": "commerce",
+      "keywords": [
+        "transfer",
+        "withdrawal",
+        "disbursement"
+      ],
+      "meaning": "Payout"
+    },
+    {
+      "id": "wallet",
+      "label": "Wallet",
+      "category": "commerce",
+      "keywords": [
+        "balance",
+        "payment",
+        "cash"
+      ],
+      "meaning": "Wallet"
+    },
+    {
+      "id": "browser",
+      "label": "Browser",
+      "category": "interface",
+      "keywords": [
+        "web",
+        "window",
+        "site",
+        "app"
+      ],
+      "meaning": "Browser"
+    },
+    {
+      "id": "message",
+      "label": "Message",
+      "category": "interface",
+      "keywords": [
+        "chat",
+        "conversation",
+        "reply",
+        "comment",
+        "chat"
+      ],
+      "meaning": "Message"
+    },
+    {
+      "id": "video",
+      "label": "Video",
+      "category": "media",
+      "keywords": [
+        "record",
+        "movie",
+        "camera",
+        "media-video"
+      ],
+      "meaning": "Video"
+    },
+    {
+      "id": "database",
+      "label": "Database",
+      "category": "interface",
+      "keywords": [
+        "data",
+        "storage",
+        "records",
+        "cylinder"
+      ],
+      "meaning": "Database"
+    },
+    {
+      "id": "server",
+      "label": "Server",
+      "category": "interface",
+      "keywords": [
+        "host",
+        "infrastructure",
+        "rack"
+      ],
+      "meaning": "Server"
+    },
+    {
+      "id": "api",
+      "label": "API",
+      "category": "interface",
+      "keywords": [
+        "integration",
+        "endpoint",
+        "connected",
+        "ports"
+      ],
+      "meaning": "API"
+    },
+    {
+      "id": "shield",
+      "label": "Shield",
+      "category": "interface",
+      "keywords": [
+        "security",
+        "protection"
+      ],
+      "meaning": "Shield"
+    },
+    {
+      "id": "activity",
+      "label": "Activity",
+      "category": "feedback",
+      "keywords": [
+        "pulse",
+        "heartbeat",
+        "realtime",
+        "monitoring",
+        "bolt",
+        "lightning"
+      ],
+      "meaning": "Activity"
+    },
+    {
+      "id": "tax",
+      "label": "Tax",
+      "category": "commerce",
+      "keywords": [
+        "percent",
+        "rate",
+        "withholding"
+      ],
+      "meaning": "Tax"
+    },
+    {
+      "id": "code",
+      "label": "Code",
+      "category": "interface",
+      "keywords": [
+        "source",
+        "developer",
+        "brackets"
+      ],
+      "meaning": "Code"
+    },
+    {
+      "id": "terminal",
+      "label": "Terminal",
+      "category": "interface",
+      "keywords": [
+        "console",
+        "prompt",
+        "cli"
+      ],
+      "meaning": "Terminal"
+    },
+    {
+      "id": "rocket",
+      "label": "Rocket",
+      "category": "interface",
+      "keywords": [
+        "launch",
+        "deploy",
+        "start"
+      ],
+      "meaning": "Rocket"
+    },
+    {
+      "id": "bug",
+      "label": "Bug",
+      "category": "interface",
+      "keywords": [
+        "debug",
+        "issue",
+        "error",
+        "developer"
+      ],
+      "meaning": "Bug"
+    },
+    {
+      "id": "cloud",
+      "label": "Cloud",
+      "category": "interface",
+      "keywords": [
+        "sync",
+        "remote",
+        "hosting"
+      ],
+      "meaning": "Cloud"
+    },
+    {
+      "id": "globe",
+      "label": "Globe",
+      "category": "location",
+      "keywords": [
+        "world",
+        "language",
+        "international"
+      ],
+      "meaning": "Globe"
+    },
+    {
+      "id": "scan",
+      "label": "Scan",
+      "category": "actions",
+      "keywords": [
+        "scanner",
+        "frame",
+        "scan",
+        "line"
+      ],
+      "meaning": "Scan"
+    },
+    {
+      "id": "network",
+      "label": "Network",
+      "category": "interface",
+      "keywords": [
+        "connections",
+        "nodes",
+        "link",
+        "services"
+      ],
+      "meaning": "Network"
+    },
+    {
+      "id": "cpu",
+      "label": "CPU",
+      "category": "interface",
+      "keywords": [
+        "chip",
+        "processor",
+        "computer",
+        "hardware"
+      ],
+      "meaning": "CPU"
+    },
+    {
+      "id": "module",
+      "label": "Module",
+      "category": "interface",
+      "keywords": [
+        "layout",
+        "template",
+        "split",
+        "panel"
+      ],
+      "meaning": "Module"
+    },
+    {
+      "id": "stack",
+      "label": "Stack",
+      "category": "interface",
+      "keywords": [
+        "stacked",
+        "services",
+        "panels"
+      ],
+      "meaning": "Stack"
+    },
+    {
+      "id": "tile",
+      "label": "Tile",
+      "category": "interface",
+      "keywords": [
+        "cell",
+        "block",
+        "panel",
+        "square"
+      ],
+      "meaning": "Tile"
+    },
+    {
       "id": "palette",
       "label": "Palette",
-      "meaning": "Theme, color, visual style"
+      "category": "interface",
+      "keywords": [
+        "paint",
+        "color",
+        "theme",
+        "swatches",
+        "brush"
+      ],
+      "meaning": "Palette"
     },
     {
-      "order": 59,
       "id": "heart",
       "label": "Heart",
-      "meaning": "Favorite, like, affinity"
+      "category": "feedback",
+      "keywords": [
+        "favorite",
+        "like",
+        "wishlist"
+      ],
+      "meaning": "Heart"
     },
     {
-      "order": 60,
       "id": "star",
       "label": "Star",
-      "meaning": "Featured, rating, saved item"
+      "category": "feedback",
+      "keywords": [
+        "favorite",
+        "rating",
+        "sticker"
+      ],
+      "meaning": "Star"
     },
     {
-      "order": 61,
       "id": "target",
       "label": "Target",
-      "meaning": "Goal, campaign, precision"
+      "category": "interface",
+      "keywords": [
+        "goal",
+        "bullseye",
+        "focus",
+        "stamp",
+        "flag"
+      ],
+      "meaning": "Target"
     },
     {
-      "order": 62,
       "id": "megaphone",
       "label": "Megaphone",
-      "meaning": "Announcement, marketing, broadcast"
+      "category": "interface",
+      "keywords": [
+        "announcement",
+        "broadcast",
+        "marketing"
+      ],
+      "meaning": "Megaphone"
     },
     {
-      "order": 63,
       "id": "cursor",
       "label": "Cursor",
-      "meaning": "Pointer, click, interaction"
+      "category": "interface",
+      "keywords": [
+        "pointer",
+        "select",
+        "selection",
+        "mouse"
+      ],
+      "meaning": "Cursor"
+    },
+    {
+      "id": "expand",
+      "label": "Expand",
+      "category": "actions",
+      "keywords": [
+        "fullscreen",
+        "maximize",
+        "resize"
+      ],
+      "meaning": "Expand"
+    },
+    {
+      "id": "archive",
+      "label": "Archive",
+      "category": "files",
+      "keywords": [
+        "storage",
+        "store",
+        "historical"
+      ],
+      "meaning": "Archive"
+    },
+    {
+      "id": "keyboard",
+      "label": "Keyboard",
+      "category": "interface",
+      "keywords": [
+        "shortcut",
+        "input",
+        "keys"
+      ],
+      "meaning": "Keyboard"
+    },
+    {
+      "id": "move",
+      "label": "Move",
+      "category": "actions",
+      "keywords": [
+        "drag",
+        "pan",
+        "reposition",
+        "four",
+        "way"
+      ],
+      "meaning": "Move"
+    },
+    {
+      "id": "send",
+      "label": "Send",
+      "category": "actions",
+      "keywords": [
+        "paper",
+        "plane",
+        "message"
+      ],
+      "meaning": "Send"
+    },
+    {
+      "id": "hand",
+      "label": "Hand",
+      "category": "actions",
+      "keywords": [
+        "pan",
+        "grab",
+        "drag",
+        "move",
+        "hand"
+      ],
+      "meaning": "Hand"
+    },
+    {
+      "id": "zoom-in",
+      "label": "Zoom in",
+      "category": "actions",
+      "keywords": [
+        "magnify",
+        "enlarge",
+        "yard",
+        "map"
+      ],
+      "meaning": "Zoom in"
+    },
+    {
+      "id": "zoom-out",
+      "label": "Zoom out",
+      "category": "actions",
+      "keywords": [
+        "magnify",
+        "reduce",
+        "yard",
+        "map"
+      ],
+      "meaning": "Zoom out"
+    },
+    {
+      "id": "wifi-off",
+      "label": "Wi-Fi off",
+      "category": "feedback",
+      "keywords": [
+        "offline",
+        "network",
+        "disconnected"
+      ],
+      "meaning": "Wi-Fi off"
+    },
+    {
+      "id": "unlock",
+      "label": "Unlock",
+      "category": "interface",
+      "keywords": [
+        "unlocked",
+        "open",
+        "access"
+      ],
+      "meaning": "Unlock"
+    },
+    {
+      "id": "paint-brush",
+      "label": "Paint brush",
+      "category": "actions",
+      "keywords": [
+        "brush",
+        "paint",
+        "draw",
+        "editor"
+      ],
+      "meaning": "Paint brush"
+    },
+    {
+      "id": "door-open",
+      "label": "Door open",
+      "category": "location",
+      "keywords": [
+        "gate",
+        "entry",
+        "exit",
+        "access"
+      ],
+      "meaning": "Door open"
+    },
+    {
+      "id": "paint-bucket",
+      "label": "Paint bucket",
+      "category": "actions",
+      "keywords": [
+        "fill",
+        "color",
+        "editor"
+      ],
+      "meaning": "Paint bucket"
+    },
+    {
+      "id": "pen-tool",
+      "label": "Pen tool",
+      "category": "actions",
+      "keywords": [
+        "bezier",
+        "vector",
+        "pen",
+        "editor"
+      ],
+      "meaning": "Pen tool"
+    },
+    {
+      "id": "rectangle",
+      "label": "Rectangle",
+      "category": "actions",
+      "keywords": [
+        "draw",
+        "shape",
+        "horizontal",
+        "editor"
+      ],
+      "meaning": "Rectangle"
+    },
+    {
+      "id": "clipboard-check",
+      "label": "Clipboard check",
+      "category": "inventory",
+      "keywords": [
+        "verified",
+        "intake",
+        "review",
+        "approved",
+        "checklist"
+      ],
+      "meaning": "Clipboard check"
+    },
+    {
+      "id": "package-check",
+      "label": "Package check",
+      "category": "inventory",
+      "keywords": [
+        "picked",
+        "ready",
+        "fulfilled",
+        "accepted"
+      ],
+      "meaning": "Package check"
+    },
+    {
+      "id": "package-x",
+      "label": "Package X",
+      "category": "inventory",
+      "keywords": [
+        "remove",
+        "package",
+        "unavailable",
+        "canceled"
+      ],
+      "meaning": "Package X"
+    },
+    {
+      "id": "boxes",
+      "label": "Boxes",
+      "category": "inventory",
+      "keywords": [
+        "inventory",
+        "parts",
+        "stacked",
+        "packages"
+      ],
+      "meaning": "Boxes"
+    },
+    {
+      "id": "gauge",
+      "label": "Gauge",
+      "category": "reports",
+      "keywords": [
+        "speedometer",
+        "performance",
+        "metrics"
+      ],
+      "meaning": "Gauge"
+    },
+    {
+      "id": "images",
+      "label": "Images",
+      "category": "media",
+      "keywords": [
+        "gallery",
+        "photos",
+        "stacked",
+        "images"
+      ],
+      "meaning": "Images"
+    },
+    {
+      "id": "recycle",
+      "label": "Recycle",
+      "category": "inventory",
+      "keywords": [
+        "salvage",
+        "circular",
+        "reuse"
+      ],
+      "meaning": "Recycle"
+    },
+    {
+      "id": "contrast",
+      "label": "Contrast",
+      "category": "interface",
+      "keywords": [
+        "accessibility",
+        "theme",
+        "high",
+        "contrast"
+      ],
+      "meaning": "Contrast"
+    },
+    {
+      "id": "moon",
+      "label": "Moon",
+      "category": "interface",
+      "keywords": [
+        "dark",
+        "theme",
+        "night"
+      ],
+      "meaning": "Moon"
+    },
+    {
+      "id": "sun",
+      "label": "Sun",
+      "category": "interface",
+      "keywords": [
+        "light",
+        "theme",
+        "daylight"
+      ],
+      "meaning": "Sun"
+    },
+    {
+      "id": "replace",
+      "label": "Replace",
+      "category": "actions",
+      "keywords": [
+        "swap",
+        "exchange",
+        "substitute"
+      ],
+      "meaning": "Replace"
+    },
+    {
+      "id": "shopping-bag",
+      "label": "Shopping bag",
+      "category": "commerce",
+      "keywords": [
+        "purchase",
+        "store",
+        "basket",
+        "order"
+      ],
+      "meaning": "Shopping bag"
+    },
+    {
+      "id": "image-off",
+      "label": "Image off",
+      "category": "media",
+      "keywords": [
+        "missing",
+        "photo",
+        "media",
+        "unavailable"
+      ],
+      "meaning": "Image off"
+    },
+    {
+      "id": "sparkles",
+      "label": "Sparkles",
+      "category": "interface",
+      "keywords": [
+        "suggested",
+        "assistant",
+        "new",
+        "feature"
+      ],
+      "meaning": "Sparkles"
+    },
+    {
+      "id": "file-text",
+      "label": "File text",
+      "category": "files",
+      "keywords": [
+        "document",
+        "notes",
+        "policy",
+        "text"
+      ],
+      "meaning": "File text"
+    },
+    {
+      "id": "ban",
+      "label": "Ban",
+      "category": "feedback",
+      "keywords": [
+        "blocked",
+        "prohibited",
+        "unavailable"
+      ],
+      "meaning": "Ban"
+    },
+    {
+      "id": "banknote",
+      "label": "Banknote",
+      "category": "commerce",
+      "keywords": [
+        "cash",
+        "money",
+        "currency"
+      ],
+      "meaning": "Banknote"
+    },
+    {
+      "id": "parking",
+      "label": "Parking",
+      "category": "location",
+      "keywords": [
+        "yard",
+        "vehicle",
+        "parking",
+        "area"
+      ],
+      "meaning": "Parking"
+    },
+    {
+      "id": "scale",
+      "label": "Scale",
+      "category": "inventory",
+      "keywords": [
+        "weigh",
+        "balance",
+        "measure",
+        "weight"
+      ],
+      "meaning": "Scale"
+    },
+    {
+      "id": "shield-alert",
+      "label": "Shield alert",
+      "category": "feedback",
+      "keywords": [
+        "security",
+        "warning",
+        "risk"
+      ],
+      "meaning": "Shield alert"
+    },
+    {
+      "id": "signpost",
+      "label": "Signpost",
+      "category": "location",
+      "keywords": [
+        "yard",
+        "directions",
+        "signs",
+        "row"
+      ],
+      "meaning": "Signpost"
+    },
+    {
+      "id": "monitor",
+      "label": "Monitor",
+      "category": "interface",
+      "keywords": [
+        "desktop",
+        "display",
+        "screen"
+      ],
+      "meaning": "Monitor"
+    },
+    {
+      "id": "smartphone",
+      "label": "Smartphone",
+      "category": "interface",
+      "keywords": [
+        "mobile",
+        "device",
+        "phone",
+        "screen"
+      ],
+      "meaning": "Smartphone"
+    },
+    {
+      "id": "tablet",
+      "label": "Tablet",
+      "category": "interface",
+      "keywords": [
+        "touch",
+        "device",
+        "screen"
+      ],
+      "meaning": "Tablet"
+    },
+    {
+      "id": "ste-workforce",
+      "label": "STE Workforce",
+      "category": "business",
+      "keywords": [
+        "module",
+        "brand",
+        "team",
+        "payroll"
+      ],
+      "meaning": "STE Workforce"
+    },
+    {
+      "id": "ste-payments",
+      "label": "STE Payments",
+      "category": "commerce",
+      "keywords": [
+        "module",
+        "brand",
+        "payment",
+        "card",
+        "confirmation"
+      ],
+      "meaning": "STE Payments"
     }
   ],
   "aliases": {
+    "chart": "chart-bar",
+    "login": "log-in",
+    "logout": "log-out",
     "chat": "message",
     "credit": "credit-card",
     "card": "credit-card",
@@ -424,52 +1931,5 @@
     "flag": "target",
     "bolt": "activity",
     "lightning": "activity"
-  },
-  "optionalStyleExtras": {
-    "synthwave": [
-      "cassette",
-      "cd",
-      "horizon-grid",
-      "neon-sunset",
-      "night-drive",
-      "skyline",
-      "wave"
-    ],
-    "cyberpunk": [
-      "circuit",
-      "chrome-palm",
-      "crystal",
-      "orbit",
-      "starburst"
-    ],
-    "y2k": [
-      "cd",
-      "floppy",
-      "gamepad",
-      "music",
-      "sparkle",
-      "sticker"
-    ],
-    "brutalism": [
-      "bolt",
-      "flag",
-      "stamp"
-    ],
-    "retro-glass": [
-      "aurora",
-      "cube",
-      "droplet",
-      "lens",
-      "orb",
-      "pane",
-      "prism",
-      "sparkle",
-      "window-stack"
-    ],
-    "bento": [
-      "mosaic",
-      "split",
-      "widget"
-    ]
   }
 }

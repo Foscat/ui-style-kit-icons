@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Filter" focusable="false" class="usk-icon" data-icon-style="tactile" fill="none" stroke="var(--usi-ink, currentColor)" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M4.15 4.65h15.7v3.2l-5.7 5.65v4.35l-4.3 2.25v-6.6l-5.7-5.65Z" fill="var(--usi-tactile-face, none)"/>
+  <path d="M4.35 7.85h15.3" stroke="var(--usi-ink, currentColor)" stroke-width="1"/>
+  <path d="M5.9 6.2h12.2" stroke="var(--usi-tactile-highlight, none)" stroke-width="0.8"/>
+  <path d="m7 8.9 4.35 4.3v4.45" stroke="var(--usi-tactile-shade, none)" stroke-width="1"/>
+</svg>

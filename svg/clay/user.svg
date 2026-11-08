@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="User" focusable="false" class="usk-icon" data-icon-style="clay" fill="none" stroke-linejoin="round" stroke-linecap="round">
+  <g transform="translate(0 0.55)"><path d="M12.18 3.03c2.61-.09 4.16 1.48 4.14 3.75-.02 2.3-1.84 3.8-4.3 3.83-2.39.04-4.14-1.4-4.2-3.68-.07-2.24 1.61-3.81 4.36-3.9Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-clay-rim, var(--usi-ink, currentColor))"/></g>
+  <path d="M12.18 3.03c2.61-.09 4.16 1.48 4.14 3.75-.02 2.3-1.84 3.8-4.3 3.83-2.39.04-4.14-1.4-4.2-3.68-.07-2.24 1.61-3.81 4.36-3.9Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-clay-face, var(--usi-accent-ink, currentColor))"/>
+  <g transform="translate(0 1.22)"><path d="M4.28 17.83c.05-3.37 2.73-5.04 7.61-5.07 4.91-.03 7.8 1.68 7.82 4.99.01 1.22-.68 1.83-1.98 1.87l-11.52.02c-1.22 0-1.95-.56-1.93-1.81Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-clay-rim, var(--usi-ink, currentColor))"/></g>
+  <path d="M4.28 17.83c.05-3.37 2.73-5.04 7.61-5.07 4.91-.03 7.8 1.68 7.82 4.99.01 1.22-.68 1.83-1.98 1.87l-11.52.02c-1.22 0-1.95-.56-1.93-1.81Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-clay-face, var(--usi-accent-ink, currentColor))"/>
+</svg>

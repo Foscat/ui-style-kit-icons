@@ -1,0 +1,302 @@
+{
+  "midnight-gold/light": {
+    "retrofuturism-metal": "#845e1b",
+    "retrofuturism-enamel": "#22314f"
+  },
+  "midnight-gold/dark": {
+    "retrofuturism-metal": "#d6a84f",
+    "retrofuturism-enamel": "#6f86b8"
+  },
+  "midnight-gold/contrast": {
+    "retrofuturism-metal": "#ffd400",
+    "retrofuturism-enamel": "#00d9ff"
+  },
+  "ocean-steel/light": {
+    "retrofuturism-metal": "#087d9d",
+    "retrofuturism-enamel": "#39566b"
+  },
+  "ocean-steel/dark": {
+    "retrofuturism-metal": "#36c4dd",
+    "retrofuturism-enamel": "#8cb7c9"
+  },
+  "ocean-steel/contrast": {
+    "retrofuturism-metal": "#00e5ff",
+    "retrofuturism-enamel": "#ffff00"
+  },
+  "forest-moss/light": {
+    "retrofuturism-metal": "#3f7d3a",
+    "retrofuturism-enamel": "#6a5f38"
+  },
+  "forest-moss/dark": {
+    "retrofuturism-metal": "#82d27a",
+    "retrofuturism-enamel": "#d2bd72"
+  },
+  "forest-moss/contrast": {
+    "retrofuturism-metal": "#6cff5f",
+    "retrofuturism-enamel": "#ffdf00"
+  },
+  "sunset-ember/light": {
+    "retrofuturism-metal": "#9f3f20",
+    "retrofuturism-enamel": "#7c3f5c"
+  },
+  "sunset-ember/dark": {
+    "retrofuturism-metal": "#ff8a5b",
+    "retrofuturism-enamel": "#e38ab5"
+  },
+  "sunset-ember/contrast": {
+    "retrofuturism-metal": "#ff6a00",
+    "retrofuturism-enamel": "#ff4fb8"
+  },
+  "royal-plum/light": {
+    "retrofuturism-metal": "#7b3fa0",
+    "retrofuturism-enamel": "#3f4c9a"
+  },
+  "royal-plum/dark": {
+    "retrofuturism-metal": "#d891f2",
+    "retrofuturism-enamel": "#9da8ff"
+  },
+  "royal-plum/contrast": {
+    "retrofuturism-metal": "#e45cff",
+    "retrofuturism-enamel": "#00d9ff"
+  },
+  "graphite-cyan/light": {
+    "retrofuturism-metal": "#007c89",
+    "retrofuturism-enamel": "#3f4850"
+  },
+  "graphite-cyan/dark": {
+    "retrofuturism-metal": "#3ed9e8",
+    "retrofuturism-enamel": "#aab5bc"
+  },
+  "graphite-cyan/contrast": {
+    "retrofuturism-metal": "#00f0ff",
+    "retrofuturism-enamel": "#f2f2f2"
+  },
+  "desert-sage/light": {
+    "retrofuturism-metal": "#8c6a3d",
+    "retrofuturism-enamel": "#5f7655"
+  },
+  "desert-sage/dark": {
+    "retrofuturism-metal": "#d9b878",
+    "retrofuturism-enamel": "#a8ce99"
+  },
+  "desert-sage/contrast": {
+    "retrofuturism-metal": "#ffd166",
+    "retrofuturism-enamel": "#9dff6b"
+  },
+  "rose-quartz/light": {
+    "retrofuturism-metal": "#b8476d",
+    "retrofuturism-enamel": "#7a557e"
+  },
+  "rose-quartz/dark": {
+    "retrofuturism-metal": "#ff8fb3",
+    "retrofuturism-enamel": "#d9a0df"
+  },
+  "rose-quartz/contrast": {
+    "retrofuturism-metal": "#ff4f93",
+    "retrofuturism-enamel": "#f000ff"
+  },
+  "cyber-lime/light": {
+    "retrofuturism-metal": "#417013",
+    "retrofuturism-enamel": "#147f86"
+  },
+  "cyber-lime/dark": {
+    "retrofuturism-metal": "#a8ff3d",
+    "retrofuturism-enamel": "#3debf2"
+  },
+  "cyber-lime/contrast": {
+    "retrofuturism-metal": "#aaff00",
+    "retrofuturism-enamel": "#00f0ff"
+  },
+  "arctic-indigo/light": {
+    "retrofuturism-metal": "#405eb8",
+    "retrofuturism-enamel": "#2e7d9d"
+  },
+  "arctic-indigo/dark": {
+    "retrofuturism-metal": "#91a8ff",
+    "retrofuturism-enamel": "#76d8f3"
+  },
+  "arctic-indigo/contrast": {
+    "retrofuturism-metal": "#6f8cff",
+    "retrofuturism-enamel": "#00d9ff"
+  },
+  "chrome-navy/light": {
+    "retrofuturism-metal": "#1f3a5f",
+    "retrofuturism-enamel": "#3e6b8e"
+  },
+  "chrome-navy/dark": {
+    "retrofuturism-metal": "#7ea9d3",
+    "retrofuturism-enamel": "#a8c1dc"
+  },
+  "chrome-navy/contrast": {
+    "retrofuturism-metal": "#9cc5f0",
+    "retrofuturism-enamel": "#00e6ff"
+  },
+  "recycled-emerald/light": {
+    "retrofuturism-metal": "#0e5b4f",
+    "retrofuturism-enamel": "#0f766e"
+  },
+  "recycled-emerald/dark": {
+    "retrofuturism-metal": "#45d1af",
+    "retrofuturism-enamel": "#67ddd1"
+  },
+  "recycled-emerald/contrast": {
+    "retrofuturism-metal": "#38f0b9",
+    "retrofuturism-enamel": "#00f0ff"
+  },
+  "industrial-orange/light": {
+    "retrofuturism-metal": "#b74e16",
+    "retrofuturism-enamel": "#2b2b2b"
+  },
+  "industrial-orange/dark": {
+    "retrofuturism-metal": "#ff8a3d",
+    "retrofuturism-enamel": "#c6bfb6"
+  },
+  "industrial-orange/contrast": {
+    "retrofuturism-metal": "#ff9a42",
+    "retrofuturism-enamel": "#f4f1ec"
+  },
+  "performance-red/light": {
+    "retrofuturism-metal": "#c8102e",
+    "retrofuturism-enamel": "#1f1f1f"
+  },
+  "performance-red/dark": {
+    "retrofuturism-metal": "#ff4c66",
+    "retrofuturism-enamel": "#d1d3d8"
+  },
+  "performance-red/contrast": {
+    "retrofuturism-metal": "#ff3656",
+    "retrofuturism-enamel": "#f2f2f2"
+  },
+  "heritage-brass/light": {
+    "retrofuturism-metal": "#6b0f1a",
+    "retrofuturism-enamel": "#111111"
+  },
+  "heritage-brass/dark": {
+    "retrofuturism-metal": "#c98a5d",
+    "retrofuturism-enamel": "#f6ebd7"
+  },
+  "heritage-brass/contrast": {
+    "retrofuturism-metal": "#c88a36",
+    "retrofuturism-enamel": "#fff3d9"
+  },
+  "service-blue-red/light": {
+    "retrofuturism-metal": "#0d3b66",
+    "retrofuturism-enamel": "#d62b2b"
+  },
+  "service-blue-red/dark": {
+    "retrofuturism-metal": "#6ca9e3",
+    "retrofuturism-enamel": "#ff6a6a"
+  },
+  "service-blue-red/contrast": {
+    "retrofuturism-metal": "#66b5ff",
+    "retrofuturism-enamel": "#ff6666"
+  },
+  "newsprint-crimson/light": {
+    "retrofuturism-metal": "#7a2329",
+    "retrofuturism-enamel": "#403a36"
+  },
+  "newsprint-crimson/dark": {
+    "retrofuturism-metal": "#d87c83",
+    "retrofuturism-enamel": "#c8b9a6"
+  },
+  "newsprint-crimson/contrast": {
+    "retrofuturism-metal": "#ff7a84",
+    "retrofuturism-enamel": "#fff3da"
+  },
+  "foundry-amber/light": {
+    "retrofuturism-metal": "#a95700",
+    "retrofuturism-enamel": "#3a3a3c"
+  },
+  "foundry-amber/dark": {
+    "retrofuturism-metal": "#f0a03a",
+    "retrofuturism-enamel": "#aeb3b8"
+  },
+  "foundry-amber/contrast": {
+    "retrofuturism-metal": "#ffb000",
+    "retrofuturism-enamel": "#f2f2f2"
+  },
+  "soft-orchid/light": {
+    "retrofuturism-metal": "#6552b8",
+    "retrofuturism-enamel": "#7f649d"
+  },
+  "soft-orchid/dark": {
+    "retrofuturism-metal": "#a994f2",
+    "retrofuturism-enamel": "#d1b7f5"
+  },
+  "soft-orchid/contrast": {
+    "retrofuturism-metal": "#b89cff",
+    "retrofuturism-enamel": "#71ffe2"
+  },
+  "electric-noir/light": {
+    "retrofuturism-metal": "#8c1a78",
+    "retrofuturism-enamel": "#213a55"
+  },
+  "electric-noir/dark": {
+    "retrofuturism-metal": "#e24ac4",
+    "retrofuturism-enamel": "#4ba6c9"
+  },
+  "electric-noir/contrast": {
+    "retrofuturism-metal": "#ff59d7",
+    "retrofuturism-enamel": "#00d7ff"
+  },
+  "signal-yellow/light": {
+    "retrofuturism-metal": "#704f00",
+    "retrofuturism-enamel": "#25324e"
+  },
+  "signal-yellow/dark": {
+    "retrofuturism-metal": "#ffd83b",
+    "retrofuturism-enamel": "#8ec6ff"
+  },
+  "signal-yellow/contrast": {
+    "retrofuturism-metal": "#ffd600",
+    "retrofuturism-enamel": "#00d9ff"
+  },
+  "botanical-green/light": {
+    "retrofuturism-metal": "#0d7e42",
+    "retrofuturism-enamel": "#793058"
+  },
+  "botanical-green/dark": {
+    "retrofuturism-metal": "#52de8b",
+    "retrofuturism-enamel": "#ee94c7"
+  },
+  "botanical-green/contrast": {
+    "retrofuturism-metal": "#00ff70",
+    "retrofuturism-enamel": "#ff5cb2"
+  },
+  "cobalt-electric/light": {
+    "retrofuturism-metal": "#0052cc",
+    "retrofuturism-enamel": "#b53948"
+  },
+  "cobalt-electric/dark": {
+    "retrofuturism-metal": "#6f95ff",
+    "retrofuturism-enamel": "#ff8593"
+  },
+  "cobalt-electric/contrast": {
+    "retrofuturism-metal": "#4c85ff",
+    "retrofuturism-enamel": "#ff697d"
+  },
+  "stone-graphite/light": {
+    "retrofuturism-metal": "#383c3a",
+    "retrofuturism-enamel": "#5b615d"
+  },
+  "stone-graphite/dark": {
+    "retrofuturism-metal": "#d0d4d1",
+    "retrofuturism-enamel": "#a4aaa6"
+  },
+  "stone-graphite/contrast": {
+    "retrofuturism-metal": "#ffffff",
+    "retrofuturism-enamel": "#cdcdcd"
+  },
+  "walnut-clay/light": {
+    "retrofuturism-metal": "#704330",
+    "retrofuturism-enamel": "#58624e"
+  },
+  "walnut-clay/dark": {
+    "retrofuturism-metal": "#da9e7c",
+    "retrofuturism-enamel": "#b2c09d"
+  },
+  "walnut-clay/contrast": {
+    "retrofuturism-metal": "#ffae80",
+    "retrofuturism-enamel": "#d0eaa6"
+  }
+}

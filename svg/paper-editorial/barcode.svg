@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Barcode" focusable="false" class="usk-icon" data-icon-style="paper-editorial" fill="none" stroke-linecap="square" stroke-linejoin="miter">
+  <path d="M4.4 7.36h1.75v9.28H4.4Zm3.42 0h2.43v9.28H7.82Zm4.1 0h1.39v9.28h-1.39Zm3.06 0h2.36v9.28h-2.36Zm4.02 0h1.35v9.28H19Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-paper-editorial-ink, var(--usi-ink, currentColor))"/>
+  <path d="M4.4 4.45h6.62v1.37H4.4Zm7.7 13.73h8.25v1.37H12.1Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-paper-editorial-proof, var(--usi-accent-ink, currentColor))"/>
+</svg>

@@ -1,0 +1,452 @@
+{
+  "midnight-gold/light": {
+    "retro-glass-rim": "#845e1b",
+    "retro-glass-etch": "#22314f",
+    "retro-glass-pane": "#b8872f",
+    "retro-glass-shine": "#fffefd"
+  },
+  "midnight-gold/dark": {
+    "retro-glass-rim": "#f3d27a",
+    "retro-glass-etch": "#f7edd7",
+    "retro-glass-pane": "#d6a84f",
+    "retro-glass-shine": "#dbdde0"
+  },
+  "midnight-gold/contrast": {
+    "retro-glass-rim": "#00d9ff",
+    "retro-glass-etch": "#ffea00",
+    "retro-glass-pane": "none",
+    "retro-glass-shine": "none"
+  },
+  "ocean-steel/light": {
+    "retro-glass-rim": "#10242e",
+    "retro-glass-etch": "#39566b",
+    "retro-glass-pane": "#087d9d",
+    "retro-glass-shine": "#ffffff"
+  },
+  "ocean-steel/dark": {
+    "retro-glass-rim": "#e9fbff",
+    "retro-glass-etch": "#53f0ff",
+    "retro-glass-pane": "#36c4dd",
+    "retro-glass-shine": "#dbdee0"
+  },
+  "ocean-steel/contrast": {
+    "retro-glass-rim": "#00e5ff",
+    "retro-glass-etch": "#ffff00",
+    "retro-glass-pane": "none",
+    "retro-glass-shine": "none"
+  },
+  "forest-moss/light": {
+    "retro-glass-rim": "#2f612b",
+    "retro-glass-etch": "#182417",
+    "retro-glass-pane": "#3f7d3a",
+    "retro-glass-shine": "#ffffff"
+  },
+  "forest-moss/dark": {
+    "retro-glass-rim": "#edf7e8",
+    "retro-glass-etch": "#b9ef6b",
+    "retro-glass-pane": "#82d27a",
+    "retro-glass-shine": "#dbdddb"
+  },
+  "forest-moss/contrast": {
+    "retro-glass-rim": "#6cff5f",
+    "retro-glass-etch": "#b6ff00",
+    "retro-glass-pane": "none",
+    "retro-glass-shine": "none"
+  },
+  "sunset-ember/light": {
+    "retro-glass-rim": "#2a1711",
+    "retro-glass-etch": "#7c3f5c",
+    "retro-glass-pane": "#c4512b",
+    "retro-glass-shine": "#ffffff"
+  },
+  "sunset-ember/dark": {
+    "retro-glass-rim": "#fff0e8",
+    "retro-glass-etch": "#ffc166",
+    "retro-glass-pane": "#ff8a5b",
+    "retro-glass-shine": "#dedbda"
+  },
+  "sunset-ember/contrast": {
+    "retro-glass-rim": "#ff9d00",
+    "retro-glass-etch": "#ff4fb8",
+    "retro-glass-pane": "none",
+    "retro-glass-shine": "none"
+  },
+  "royal-plum/light": {
+    "retro-glass-rim": "#63317f",
+    "retro-glass-etch": "#9e4ba4",
+    "retro-glass-pane": "#9c6fb8",
+    "retro-glass-shine": "#ffffff"
+  },
+  "royal-plum/dark": {
+    "retro-glass-rim": "#ebb8ff",
+    "retro-glass-etch": "#9da8ff",
+    "retro-glass-pane": "#d891f2",
+    "retro-glass-shine": "#dddbde"
+  },
+  "royal-plum/contrast": {
+    "retro-glass-rim": "#e45cff",
+    "retro-glass-etch": "#ff00f5",
+    "retro-glass-pane": "none",
+    "retro-glass-shine": "none"
+  },
+  "graphite-cyan/light": {
+    "retro-glass-rim": "#171d21",
+    "retro-glass-etch": "#1e7a85",
+    "retro-glass-pane": "#007c89",
+    "retro-glass-shine": "#ffffff"
+  },
+  "graphite-cyan/dark": {
+    "retro-glass-rim": "#7bf3ff",
+    "retro-glass-etch": "#aab5bc",
+    "retro-glass-pane": "#3ed9e8",
+    "retro-glass-shine": "#dbdcdd"
+  },
+  "graphite-cyan/contrast": {
+    "retro-glass-rim": "#00f0ff",
+    "retro-glass-etch": "#f2f2f2",
+    "retro-glass-pane": "none",
+    "retro-glass-shine": "none"
+  },
+  "desert-sage/light": {
+    "retro-glass-rim": "#70532f",
+    "retro-glass-etch": "#2b2419",
+    "retro-glass-pane": "#8c6a3d",
+    "retro-glass-shine": "#ffffff"
+  },
+  "desert-sage/dark": {
+    "retro-glass-rim": "#f8efdf",
+    "retro-glass-etch": "#f1c46e",
+    "retro-glass-pane": "#d9b878",
+    "retro-glass-shine": "#dedddb"
+  },
+  "desert-sage/contrast": {
+    "retro-glass-rim": "#ffd166",
+    "retro-glass-etch": "#ffb000",
+    "retro-glass-pane": "none",
+    "retro-glass-shine": "none"
+  },
+  "rose-quartz/light": {
+    "retro-glass-rim": "#2b151d",
+    "retro-glass-etch": "#7a557e",
+    "retro-glass-pane": "#b8476d",
+    "retro-glass-shine": "#ffffff"
+  },
+  "rose-quartz/dark": {
+    "retro-glass-rim": "#fff0f4",
+    "retro-glass-etch": "#ffadc5",
+    "retro-glass-pane": "#ff8fb3",
+    "retro-glass-shine": "#dedbdc"
+  },
+  "rose-quartz/contrast": {
+    "retro-glass-rim": "#ff8ab3",
+    "retro-glass-etch": "#f000ff",
+    "retro-glass-pane": "none",
+    "retro-glass-shine": "none"
+  },
+  "cyber-lime/light": {
+    "retro-glass-rim": "#417013",
+    "retro-glass-etch": "#14777c",
+    "retro-glass-pane": "#5f9f1f",
+    "retro-glass-shine": "#ffffff"
+  },
+  "cyber-lime/dark": {
+    "retro-glass-rim": "#efffe9",
+    "retro-glass-etch": "#c6ff4d",
+    "retro-glass-pane": "#a8ff3d",
+    "retro-glass-shine": "#dbdcdb"
+  },
+  "cyber-lime/contrast": {
+    "retro-glass-rim": "#aaff00",
+    "retro-glass-etch": "#00f0ff",
+    "retro-glass-pane": "none",
+    "retro-glass-shine": "none"
+  },
+  "arctic-indigo/light": {
+    "retro-glass-rim": "#314894",
+    "retro-glass-etch": "#141b2e",
+    "retro-glass-pane": "#405eb8",
+    "retro-glass-shine": "#ffffff"
+  },
+  "arctic-indigo/dark": {
+    "retro-glass-rim": "#edf3ff",
+    "retro-glass-etch": "#76d8f3",
+    "retro-glass-pane": "#91a8ff",
+    "retro-glass-shine": "#dbdcdf"
+  },
+  "arctic-indigo/contrast": {
+    "retro-glass-rim": "#9fb2ff",
+    "retro-glass-etch": "#00d9ff",
+    "retro-glass-pane": "none",
+    "retro-glass-shine": "none"
+  },
+  "chrome-navy/light": {
+    "retro-glass-rim": "#1a3556",
+    "retro-glass-etch": "#3e6b8e",
+    "retro-glass-pane": "#576b87",
+    "retro-glass-shine": "#ffffff"
+  },
+  "chrome-navy/dark": {
+    "retro-glass-rim": "#c7d5e5",
+    "retro-glass-etch": "#eff4fa",
+    "retro-glass-pane": "#7ea9d3",
+    "retro-glass-shine": "#dbdee0"
+  },
+  "chrome-navy/contrast": {
+    "retro-glass-rim": "#9cc5f0",
+    "retro-glass-etch": "#e6f0ff",
+    "retro-glass-pane": "none",
+    "retro-glass-shine": "none"
+  },
+  "recycled-emerald/light": {
+    "retro-glass-rim": "#0c5147",
+    "retro-glass-etch": "#0f766e",
+    "retro-glass-pane": "#0e5b4f",
+    "retro-glass-shine": "#ffffff"
+  },
+  "recycled-emerald/dark": {
+    "retro-glass-rim": "#8bffd6",
+    "retro-glass-etch": "#ecfbf7",
+    "retro-glass-pane": "#45d1af",
+    "retro-glass-shine": "#dbdede"
+  },
+  "recycled-emerald/contrast": {
+    "retro-glass-rim": "#38f0b9",
+    "retro-glass-etch": "#a0ffd9",
+    "retro-glass-pane": "none",
+    "retro-glass-shine": "none"
+  },
+  "industrial-orange/light": {
+    "retro-glass-rim": "#8e3f12",
+    "retro-glass-etch": "#2b2b2b",
+    "retro-glass-pane": "#b74e16",
+    "retro-glass-shine": "#ffffff"
+  },
+  "industrial-orange/dark": {
+    "retro-glass-rim": "#f7f2eb",
+    "retro-glass-etch": "#ffb36b",
+    "retro-glass-pane": "#ff8a3d",
+    "retro-glass-shine": "#dddddd"
+  },
+  "industrial-orange/contrast": {
+    "retro-glass-rim": "#ffb36b",
+    "retro-glass-etch": "#f4f1ec",
+    "retro-glass-pane": "none",
+    "retro-glass-shine": "none"
+  },
+  "performance-red/light": {
+    "retro-glass-rim": "#a30e25",
+    "retro-glass-etch": "#bb4051",
+    "retro-glass-pane": "#d64c62",
+    "retro-glass-shine": "#ffffff"
+  },
+  "performance-red/dark": {
+    "retro-glass-rim": "#f9f9fa",
+    "retro-glass-etch": "#ff8394",
+    "retro-glass-pane": "#ff4c66",
+    "retro-glass-shine": "#dcdcdc"
+  },
+  "performance-red/contrast": {
+    "retro-glass-rim": "#ff95a3",
+    "retro-glass-etch": "#f2f2f2",
+    "retro-glass-pane": "none",
+    "retro-glass-shine": "none"
+  },
+  "heritage-brass/light": {
+    "retro-glass-rim": "#5b0d16",
+    "retro-glass-etch": "#896934",
+    "retro-glass-pane": "#b5868a",
+    "retro-glass-shine": "#fffffe"
+  },
+  "heritage-brass/dark": {
+    "retro-glass-rim": "#f0c87d",
+    "retro-glass-etch": "#f6ebd7",
+    "retro-glass-pane": "#c98a5d",
+    "retro-glass-shine": "#dedcdc"
+  },
+  "heritage-brass/contrast": {
+    "retro-glass-rim": "#ffd36b",
+    "retro-glass-etch": "#fff3d9",
+    "retro-glass-pane": "none",
+    "retro-glass-shine": "none"
+  },
+  "service-blue-red/light": {
+    "retro-glass-rim": "#0b3155",
+    "retro-glass-etch": "#ca2b2c",
+    "retro-glass-pane": "#4a6c8c",
+    "retro-glass-shine": "#ffffff"
+  },
+  "service-blue-red/dark": {
+    "retro-glass-rim": "#f3f7fb",
+    "retro-glass-etch": "#ff9a9a",
+    "retro-glass-pane": "#6ca9e3",
+    "retro-glass-shine": "#dbdee0"
+  },
+  "service-blue-red/contrast": {
+    "retro-glass-rim": "#8cc6ff",
+    "retro-glass-etch": "#ffaaaa",
+    "retro-glass-pane": "none",
+    "retro-glass-shine": "none"
+  },
+  "newsprint-crimson/light": {
+    "retro-glass-rim": "#6a1e24",
+    "retro-glass-etch": "#865f50",
+    "retro-glass-pane": "#9a5758",
+    "retro-glass-shine": "#fefdfb"
+  },
+  "newsprint-crimson/dark": {
+    "retro-glass-rim": "#f4ebdd",
+    "retro-glass-etch": "#f0a597",
+    "retro-glass-pane": "#d87c83",
+    "retro-glass-shine": "#dedcdc"
+  },
+  "newsprint-crimson/contrast": {
+    "retro-glass-rim": "#ff9aa3",
+    "retro-glass-etch": "#fff3da",
+    "retro-glass-pane": "none",
+    "retro-glass-shine": "none"
+  },
+  "foundry-amber/light": {
+    "retro-glass-rim": "#864600",
+    "retro-glass-etch": "#3a3a3c",
+    "retro-glass-pane": "#a95700",
+    "retro-glass-shine": "#ffffff"
+  },
+  "foundry-amber/dark": {
+    "retro-glass-rim": "#ffd17a",
+    "retro-glass-etch": "#aeb3b8",
+    "retro-glass-pane": "#f0a03a",
+    "retro-glass-shine": "#dddddd"
+  },
+  "foundry-amber/contrast": {
+    "retro-glass-rim": "#ffc247",
+    "retro-glass-etch": "#f2f2f2",
+    "retro-glass-pane": "none",
+    "retro-glass-shine": "none"
+  },
+  "soft-orchid/light": {
+    "retro-glass-rim": "#4b3b98",
+    "retro-glass-etch": "#7f649d",
+    "retro-glass-pane": "#8c7dca",
+    "retro-glass-shine": "#ffffff"
+  },
+  "soft-orchid/dark": {
+    "retro-glass-rim": "#f5f0ff",
+    "retro-glass-etch": "#d1b7f5",
+    "retro-glass-pane": "#a994f2",
+    "retro-glass-shine": "#dddcdf"
+  },
+  "soft-orchid/contrast": {
+    "retro-glass-rim": "#c9b5ff",
+    "retro-glass-etch": "#71ffe2",
+    "retro-glass-pane": "none",
+    "retro-glass-shine": "none"
+  },
+  "electric-noir/light": {
+    "retro-glass-rim": "#721562",
+    "retro-glass-etch": "#213a55",
+    "retro-glass-pane": "#8c1a78",
+    "retro-glass-shine": "#ffffff"
+  },
+  "electric-noir/dark": {
+    "retro-glass-rim": "#ff7ae1",
+    "retro-glass-etch": "#4ba6c9",
+    "retro-glass-pane": "#e24ac4",
+    "retro-glass-shine": "#dbdadd"
+  },
+  "electric-noir/contrast": {
+    "retro-glass-rim": "#ff7be0",
+    "retro-glass-etch": "#00d7ff",
+    "retro-glass-pane": "none",
+    "retro-glass-shine": "none"
+  },
+  "signal-yellow/light": {
+    "retro-glass-rim": "#704f00",
+    "retro-glass-etch": "#25324e",
+    "retro-glass-pane": "#ffcc00",
+    "retro-glass-shine": "#ffffff"
+  },
+  "signal-yellow/dark": {
+    "retro-glass-rim": "#fff9de",
+    "retro-glass-etch": "#ffe866",
+    "retro-glass-pane": "#ffd83b",
+    "retro-glass-shine": "#deddda"
+  },
+  "signal-yellow/contrast": {
+    "retro-glass-rim": "#ffea00",
+    "retro-glass-etch": "#00d9ff",
+    "retro-glass-pane": "none",
+    "retro-glass-shine": "none"
+  },
+  "botanical-green/light": {
+    "retro-glass-rim": "#086132",
+    "retro-glass-etch": "#793058",
+    "retro-glass-pane": "#0d7e42",
+    "retro-glass-shine": "#ffffff"
+  },
+  "botanical-green/dark": {
+    "retro-glass-rim": "#ebfcf1",
+    "retro-glass-etch": "#6bf0a4",
+    "retro-glass-pane": "#52de8b",
+    "retro-glass-shine": "#dadedb"
+  },
+  "botanical-green/contrast": {
+    "retro-glass-rim": "#67ffa6",
+    "retro-glass-etch": "#ff5cb2",
+    "retro-glass-pane": "none",
+    "retro-glass-shine": "none"
+  },
+  "cobalt-electric/light": {
+    "retro-glass-rim": "#0040a3",
+    "retro-glass-etch": "#b53948",
+    "retro-glass-pane": "#0052cc",
+    "retro-glass-shine": "#ffffff"
+  },
+  "cobalt-electric/dark": {
+    "retro-glass-rim": "#a4bcff",
+    "retro-glass-etch": "#ff8593",
+    "retro-glass-pane": "#6f95ff",
+    "retro-glass-shine": "#dadce0"
+  },
+  "cobalt-electric/contrast": {
+    "retro-glass-rim": "#84a8ff",
+    "retro-glass-etch": "#ff697d",
+    "retro-glass-pane": "none",
+    "retro-glass-shine": "none"
+  },
+  "stone-graphite/light": {
+    "retro-glass-rim": "#343c38",
+    "retro-glass-etch": "#5b615d",
+    "retro-glass-pane": "#383c3a",
+    "retro-glass-shine": "#ffffff"
+  },
+  "stone-graphite/dark": {
+    "retro-glass-rim": "#f5f6f5",
+    "retro-glass-etch": "#e6e8e7",
+    "retro-glass-pane": "#d0d4d1",
+    "retro-glass-shine": "#dddddd"
+  },
+  "stone-graphite/contrast": {
+    "retro-glass-rim": "#ffffff",
+    "retro-glass-etch": "#cdcdcd",
+    "retro-glass-pane": "none",
+    "retro-glass-shine": "none"
+  },
+  "walnut-clay/light": {
+    "retro-glass-rim": "#693c2b",
+    "retro-glass-etch": "#9c5d45",
+    "retro-glass-pane": "#947264",
+    "retro-glass-shine": "#ffffff"
+  },
+  "walnut-clay/dark": {
+    "retro-glass-rim": "#faf1e9",
+    "retro-glass-etch": "#eba988",
+    "retro-glass-pane": "#da9e7c",
+    "retro-glass-shine": "#dedcdc"
+  },
+  "walnut-clay/contrast": {
+    "retro-glass-rim": "#ffc2a0",
+    "retro-glass-etch": "#ffffff",
+    "retro-glass-pane": "none",
+    "retro-glass-shine": "none"
+  }
+}

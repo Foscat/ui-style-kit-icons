@@ -3,54 +3,24 @@ import fs from "node:fs/promises";
 import path from "node:path";
 
 const root = process.cwd();
-const outDir = path.join(root, "output/github-pages");
-const siteFiles = [
-  ".nojekyll",
-  "404.html",
-  "browserconfig.xml",
-  "demo.css",
-  "demo.js",
-  "humans.txt",
-  "index.html",
-  "llms.txt",
-  "manifest.json",
-  "robots.txt",
-  "sitemap.xml",
-  "site.webmanifest"
-];
-const siteDirs = [
-  ".well-known",
-  "assets",
-  "contract",
-  "dist",
-  "icons",
-  "packs",
-  "sprite",
-  "style-source"
-];
+const sourceDir = path.join(root, "docs");
+const outputDir = path.join(root, "output/github-pages");
 
-await assertInsideRoot(outDir);
-await fs.rm(outDir, { recursive: true, force: true });
-await fs.mkdir(outDir, { recursive: true });
+await assertInsideRoot(outputDir);
+await fs.rm(outputDir, { recursive: true, force: true });
+await fs.mkdir(outputDir, { recursive: true });
+await fs.cp(sourceDir, outputDir, { recursive: true });
 
-for (const file of siteFiles) {
-  await copyPath(file);
-}
+console.log(
+  `Built the Collection 01 Pages artifact at ${path.relative(root, outputDir).replaceAll(path.sep, "/")}.`
+);
 
-for (const dir of siteDirs) {
-  await copyPath(dir);
-}
-
-console.log(`Built GitHub Pages artifact at ${path.relative(root, outDir).replaceAll(path.sep, "/")}.`);
-
-async function copyPath(relativePath) {
-  const from = path.join(root, relativePath);
-  const to = path.join(outDir, relativePath);
-
-  await fs.mkdir(path.dirname(to), { recursive: true });
-  await fs.cp(from, to, { recursive: true });
-}
-
+/**
+ * Prevents cleanup from escaping the active repository.
+ *
+ * @param {string} target Intended output directory.
+ * @returns {Promise<void>}
+ */
 async function assertInsideRoot(target) {
   const rootReal = await fs.realpath(root);
   const parent = path.dirname(target);
@@ -60,6 +30,8 @@ async function assertInsideRoot(target) {
   const resolvedParent = await fs.realpath(parent);
 
   if (!resolvedParent.startsWith(rootReal)) {
-    throw new Error(`Refusing to write Pages artifact outside this repository: ${target}`);
+    throw new Error(
+      `Refusing to write a Pages artifact outside this repository: ${target}`
+    );
   }
 }

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Calendar" focusable="false" class="usk-icon" data-icon-style="cyberpunk" fill="none" stroke-width="1.65" stroke-linejoin="bevel" stroke-linecap="square">
+  <path d="M4 5.9h13.35L20 8.55V20H4Z M4 10.3h16" stroke="currentColor" style="stroke:var(--usi-cyberpunk-rail, var(--usi-primary-ink, currentColor))"/>
+  <path d="M7.65 3.65v4.45 M15.75 3.65v4.45" stroke="currentColor" style="stroke:var(--usi-cyberpunk-signal, var(--usi-accent-ink, currentColor))"/>
+  <rect x="6.6" y="12.8" width="2.25" height="2.3" fill="currentColor" style="fill:var(--usi-cyberpunk-signal, var(--usi-accent-ink, currentColor))"/>
+  <rect x="10.9" y="12.8" width="2.25" height="2.3" fill="currentColor" style="fill:var(--usi-cyberpunk-signal, var(--usi-accent-ink, currentColor))"/>
+  <rect x="15.15" y="12.8" width="2.25" height="4.65" fill="currentColor" style="fill:var(--usi-cyberpunk-signal, var(--usi-accent-ink, currentColor))"/>
+</svg>

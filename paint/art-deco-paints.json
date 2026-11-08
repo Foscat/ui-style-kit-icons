@@ -1,0 +1,302 @@
+{
+  "midnight-gold/light": {
+    "art-deco-ink": "#172033",
+    "art-deco-metal": "#846a3b"
+  },
+  "midnight-gold/dark": {
+    "art-deco-ink": "#f7edd7",
+    "art-deco-metal": "#f3d27a"
+  },
+  "midnight-gold/contrast": {
+    "art-deco-ink": "#ffffff",
+    "art-deco-metal": "#ffea00"
+  },
+  "ocean-steel/light": {
+    "art-deco-ink": "#10242e",
+    "art-deco-metal": "#137a87"
+  },
+  "ocean-steel/dark": {
+    "art-deco-ink": "#e9fbff",
+    "art-deco-metal": "#53f0ff"
+  },
+  "ocean-steel/contrast": {
+    "art-deco-ink": "#ffffff",
+    "art-deco-metal": "#00ffff"
+  },
+  "forest-moss/light": {
+    "art-deco-ink": "#182417",
+    "art-deco-metal": "#627838"
+  },
+  "forest-moss/dark": {
+    "art-deco-ink": "#edf7e8",
+    "art-deco-metal": "#b9ef6b"
+  },
+  "forest-moss/contrast": {
+    "art-deco-ink": "#ffffff",
+    "art-deco-metal": "#b6ff00"
+  },
+  "sunset-ember/light": {
+    "art-deco-ink": "#2a1711",
+    "art-deco-metal": "#996429"
+  },
+  "sunset-ember/dark": {
+    "art-deco-ink": "#fff0e8",
+    "art-deco-metal": "#ffc166"
+  },
+  "sunset-ember/contrast": {
+    "art-deco-ink": "#ffffff",
+    "art-deco-metal": "#ffd000"
+  },
+  "royal-plum/light": {
+    "art-deco-ink": "#24152d",
+    "art-deco-metal": "#c05ac6"
+  },
+  "royal-plum/dark": {
+    "art-deco-ink": "#faecff",
+    "art-deco-metal": "#ff9cf6"
+  },
+  "royal-plum/contrast": {
+    "art-deco-ink": "#ffffff",
+    "art-deco-metal": "#ff00f5"
+  },
+  "graphite-cyan/light": {
+    "art-deco-ink": "#171d21",
+    "art-deco-metal": "#1e7a85"
+  },
+  "graphite-cyan/dark": {
+    "art-deco-ink": "#edf6f8",
+    "art-deco-metal": "#7bf3ff"
+  },
+  "graphite-cyan/contrast": {
+    "art-deco-ink": "#ffffff",
+    "art-deco-metal": "#00f0ff"
+  },
+  "desert-sage/light": {
+    "art-deco-ink": "#2b2419",
+    "art-deco-metal": "#8b6a37"
+  },
+  "desert-sage/dark": {
+    "art-deco-ink": "#f8efdf",
+    "art-deco-metal": "#f1c46e"
+  },
+  "desert-sage/contrast": {
+    "art-deco-ink": "#ffffff",
+    "art-deco-metal": "#ffb000"
+  },
+  "rose-quartz/light": {
+    "art-deco-ink": "#2b151d",
+    "art-deco-metal": "#a05970"
+  },
+  "rose-quartz/dark": {
+    "art-deco-ink": "#fff0f4",
+    "art-deco-metal": "#ffadc5"
+  },
+  "rose-quartz/contrast": {
+    "art-deco-ink": "#ffffff",
+    "art-deco-metal": "#f000ff"
+  },
+  "cyber-lime/light": {
+    "art-deco-ink": "#172214",
+    "art-deco-metal": "#147f86"
+  },
+  "cyber-lime/dark": {
+    "art-deco-ink": "#efffe9",
+    "art-deco-metal": "#3debf2"
+  },
+  "cyber-lime/contrast": {
+    "art-deco-ink": "#ffffff",
+    "art-deco-metal": "#ccff00"
+  },
+  "arctic-indigo/light": {
+    "art-deco-ink": "#141b2e",
+    "art-deco-metal": "#2e7d9d"
+  },
+  "arctic-indigo/dark": {
+    "art-deco-ink": "#edf3ff",
+    "art-deco-metal": "#76d8f3"
+  },
+  "arctic-indigo/contrast": {
+    "art-deco-ink": "#ffffff",
+    "art-deco-metal": "#00d9ff"
+  },
+  "chrome-navy/light": {
+    "art-deco-ink": "#0d1b2a",
+    "art-deco-metal": "#3e6b8e"
+  },
+  "chrome-navy/dark": {
+    "art-deco-ink": "#eff4fa",
+    "art-deco-metal": "#a8c1dc"
+  },
+  "chrome-navy/contrast": {
+    "art-deco-ink": "#ffffff",
+    "art-deco-metal": "#00e6ff"
+  },
+  "recycled-emerald/light": {
+    "art-deco-ink": "#0e2c29",
+    "art-deco-metal": "#0f766e"
+  },
+  "recycled-emerald/dark": {
+    "art-deco-ink": "#ecfbf7",
+    "art-deco-metal": "#67ddd1"
+  },
+  "recycled-emerald/contrast": {
+    "art-deco-ink": "#ffffff",
+    "art-deco-metal": "#00f0ff"
+  },
+  "industrial-orange/light": {
+    "art-deco-ink": "#181512",
+    "art-deco-metal": "#9b622e"
+  },
+  "industrial-orange/dark": {
+    "art-deco-ink": "#f7f2eb",
+    "art-deco-metal": "#ffb36b"
+  },
+  "industrial-orange/contrast": {
+    "art-deco-ink": "#ffffff",
+    "art-deco-metal": "#ffc36f"
+  },
+  "performance-red/light": {
+    "art-deco-ink": "#121317",
+    "art-deco-metal": "#e84c61"
+  },
+  "performance-red/dark": {
+    "art-deco-ink": "#f9f9fa",
+    "art-deco-metal": "#ff8394"
+  },
+  "performance-red/contrast": {
+    "art-deco-ink": "#ffffff",
+    "art-deco-metal": "#ff95a3"
+  },
+  "heritage-brass/light": {
+    "art-deco-ink": "#2a1f1a",
+    "art-deco-metal": "#896934"
+  },
+  "heritage-brass/dark": {
+    "art-deco-ink": "#fbf5ec",
+    "art-deco-metal": "#e7b85f"
+  },
+  "heritage-brass/contrast": {
+    "art-deco-ink": "#ffffff",
+    "art-deco-metal": "#ffd36b"
+  },
+  "service-blue-red/light": {
+    "art-deco-ink": "#11243b",
+    "art-deco-metal": "#d62b2b"
+  },
+  "service-blue-red/dark": {
+    "art-deco-ink": "#f3f7fb",
+    "art-deco-metal": "#ff6a6a"
+  },
+  "service-blue-red/contrast": {
+    "art-deco-ink": "#ffffff",
+    "art-deco-metal": "#ff6666"
+  },
+  "newsprint-crimson/light": {
+    "art-deco-ink": "#2c2622",
+    "art-deco-metal": "#865f50"
+  },
+  "newsprint-crimson/dark": {
+    "art-deco-ink": "#f4ebdd",
+    "art-deco-metal": "#f0a597"
+  },
+  "newsprint-crimson/contrast": {
+    "art-deco-ink": "#ffffff",
+    "art-deco-metal": "#ffb3a7"
+  },
+  "foundry-amber/light": {
+    "art-deco-ink": "#1d1c1a",
+    "art-deco-metal": "#956625"
+  },
+  "foundry-amber/dark": {
+    "art-deco-ink": "#f4f2ed",
+    "art-deco-metal": "#ffd17a"
+  },
+  "foundry-amber/contrast": {
+    "art-deco-ink": "#ffffff",
+    "art-deco-metal": "#ffd36b"
+  },
+  "soft-orchid/light": {
+    "art-deco-ink": "#241a3a",
+    "art-deco-metal": "#6952a3"
+  },
+  "soft-orchid/dark": {
+    "art-deco-ink": "#f5f0ff",
+    "art-deco-metal": "#d1b7f5"
+  },
+  "soft-orchid/contrast": {
+    "art-deco-ink": "#ffffff",
+    "art-deco-metal": "#71ffe2"
+  },
+  "electric-noir/light": {
+    "art-deco-ink": "#14111c",
+    "art-deco-metal": "#2e7590"
+  },
+  "electric-noir/dark": {
+    "art-deco-ink": "#f6f4fa",
+    "art-deco-metal": "#ff7ae1"
+  },
+  "electric-noir/contrast": {
+    "art-deco-ink": "#ffffff",
+    "art-deco-metal": "#00d7ff"
+  },
+  "signal-yellow/light": {
+    "art-deco-ink": "#211d0c",
+    "art-deco-metal": "#80732e"
+  },
+  "signal-yellow/dark": {
+    "art-deco-ink": "#fff9de",
+    "art-deco-metal": "#ffe866"
+  },
+  "signal-yellow/contrast": {
+    "art-deco-ink": "#ffffff",
+    "art-deco-metal": "#ffea00"
+  },
+  "botanical-green/light": {
+    "art-deco-ink": "#0e2617",
+    "art-deco-metal": "#297e4a"
+  },
+  "botanical-green/dark": {
+    "art-deco-ink": "#ebfcf1",
+    "art-deco-metal": "#6bf0a4"
+  },
+  "botanical-green/contrast": {
+    "art-deco-ink": "#ffffff",
+    "art-deco-metal": "#ff5cb2"
+  },
+  "cobalt-electric/light": {
+    "art-deco-ink": "#0e1b39",
+    "art-deco-metal": "#5279ff"
+  },
+  "cobalt-electric/dark": {
+    "art-deco-ink": "#eff4ff",
+    "art-deco-metal": "#ff8593"
+  },
+  "cobalt-electric/contrast": {
+    "art-deco-ink": "#ffffff",
+    "art-deco-metal": "#ff697d"
+  },
+  "stone-graphite/light": {
+    "art-deco-ink": "#1b1d1c",
+    "art-deco-metal": "#5b615d"
+  },
+  "stone-graphite/dark": {
+    "art-deco-ink": "#f5f6f5",
+    "art-deco-metal": "#a4aaa6"
+  },
+  "stone-graphite/contrast": {
+    "art-deco-ink": "#ffffff",
+    "art-deco-metal": "#cdcdcd"
+  },
+  "walnut-clay/light": {
+    "art-deco-ink": "#31241d",
+    "art-deco-metal": "#be6f52"
+  },
+  "walnut-clay/dark": {
+    "art-deco-ink": "#faf1e9",
+    "art-deco-metal": "#eba988"
+  },
+  "walnut-clay/contrast": {
+    "art-deco-ink": "#ffffff",
+    "art-deco-metal": "#ffc2a0"
+  }
+}

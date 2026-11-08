@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Skip forward" focusable="false" class="usk-icon" data-icon-style="y2k" fill="none" stroke-width="1.65" stroke-linejoin="round" stroke-linecap="round">
+  <g transform="translate(24 0) scale(-1 1)">
+  <rect x="4.05" y="5.55" width="2.8" height="12.9" rx="1.4" fill="currentColor"/>
+  <path d="M17.9 5.45a1.45 1.45 0 0 1 2.15 1.3v10.5a1.45 1.45 0 0 1-2.15 1.3L9.2 13.3a1.52 1.52 0 0 1 0-2.6Z" stroke="currentColor" fill="none"/>
+  <path d="M17.85 8.25v2.55" stroke="none" stroke-width="1.15"/>
+  </g>
+</svg>

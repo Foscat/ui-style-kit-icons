@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Refresh" focusable="false" class="usk-icon" data-icon-style="industrial-utility" fill="none" stroke-linejoin="round" stroke-linecap="round">
+  <path d="M3.88 10.58V8.27l4.35-4.35h7.54l2.02 2.02V4.5h2.02v5.08h-5.1V7.55h1.62l-1.41-1.4H9.16L6.12 9.19v1.39Z" fill="currentColor" fill-rule="evenodd"/>
+  <g transform="rotate(180 12 12)">
+  <path d="M3.88 10.58V8.27l4.35-4.35h7.54l2.02 2.02V4.5h2.02v5.08h-5.1V7.55h1.62l-1.41-1.4H9.16L6.12 9.19v1.39Z" fill="currentColor" fill-rule="evenodd"/>
+  </g>
+</svg>

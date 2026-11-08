@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Barcode" focusable="false" class="usk-icon" data-icon-style="organic-modern" fill="none" stroke-linejoin="round" stroke-linecap="round">
+  <path d="M3.71 8.26V6.85c0-.84.44-1.29 1.29-1.29h2.36m9.28 0H19c.85 0 1.29.45 1.29 1.29v1.41m0 7.48v1.41c0 .84-.44 1.29-1.29 1.29h-2.36m-9.28 0H5c-.85 0-1.29-.45-1.29-1.29v-1.41" stroke="currentColor" stroke-width="1.65"/>
+  <path d="M6.27 8.19c0-.5.28-.78.78-.78.52 0 .81.28.81.78v7.62c0 .5-.29.78-.81.78-.5 0-.78-.28-.78-.78Zm3.19.24c0-.67.41-1.02 1.04-1.02.65 0 1.04.35 1.04 1.02v7.14c0 .67-.39 1.02-1.04 1.02-.63 0-1.04-.35-1.04-1.02Zm3.65-.24c0-.5.28-.78.78-.78.52 0 .81.28.81.78v7.62c0 .5-.29.78-.81.78-.5 0-.78-.28-.78-.78Z" fill="currentColor" fill-rule="evenodd"/>
+  <path d="M16.24 8.37c0-.62.35-.96.97-.96.61 0 .96.34.96.96v7.26c0 .62-.35.96-.96.96-.62 0-.97-.34-.97-.96Z" fill="currentColor" fill-rule="evenodd"/>
+</svg>

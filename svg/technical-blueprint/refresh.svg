@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Refresh" focusable="false" class="usk-icon" data-icon-style="technical-blueprint" fill="none" stroke-linejoin="miter" stroke-linecap="square">
+  <path d="M5.35 10.25A6.9 6.9 0 0 1 17.8 8.1m-.05-3.25.17 3.74-3.74-.16" stroke="currentColor" stroke-width="1.53" style="stroke:var(--usi-technical-blueprint-ink, var(--usi-primary-ink, currentColor))"/>
+  <g transform="rotate(180 12 12)">
+  <path d="M5.35 10.25A6.9 6.9 0 0 1 17.8 8.1m-.05-3.25.17 3.74-3.74-.16" stroke="currentColor" stroke-width="1.53" style="stroke:var(--usi-technical-blueprint-ink, var(--usi-primary-ink, currentColor))"/>
+  </g>
+  <path d="M12 10.3v3.4m-1.7-1.7h3.4" stroke="currentColor" stroke-width="1.12" style="stroke:var(--usi-technical-blueprint-datum, var(--usi-accent-ink, currentColor))"/>
+</svg>

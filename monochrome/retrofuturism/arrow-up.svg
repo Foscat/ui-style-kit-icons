@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Arrow up" focusable="false" class="usk-icon" data-icon-style="retrofuturism" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <g transform="rotate(-90 12 12)">
+  <path d="M2.6 9.55h9.42V6.52a1.17 1.17 0 0 1 1.93-.9l7.16 5.46a1.16 1.16 0 0 1 0 1.84l-7.16 5.46a1.17 1.17 0 0 1-1.93-.9v-3.03H2.6L4.4 12Z" fill="currentColor" fill-rule="evenodd"/>
+  <path d="M4.72 10.54h7.16" stroke="currentColor" stroke-width="1.45"/>
+  </g>
+</svg>

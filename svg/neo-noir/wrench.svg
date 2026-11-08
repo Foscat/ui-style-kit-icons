@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Wrench" focusable="false" class="usk-icon" data-icon-style="neo-noir" fill="none" stroke-linecap="butt" stroke-linejoin="bevel">
+  <path d="M14.29 3.65h4.18l-2.62 3.13 1.54 1.54 3.12-2.62v4.17l-3.06 3.06h-3.47l-6.64 7.42H4.58l-1.9-1.9v-2.78l7.84-6.67V6.71Zm-9.1 13.18v1.25h1.38v-1.25Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neo-noir-ink, var(--usi-ink, currentColor))"/>
+  <path d="M14.29 3.65h4.18l-2.62 3.13-2.84 1.48-2.49-1.55Zm-6.01 9.9 3.05-2.59 1.21 1.13-2.68 3.02Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neo-noir-light, var(--usi-accent-ink, currentColor))"/>
+</svg>

@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Barcode" focusable="false" class="usk-icon" data-icon-style="technical-blueprint" fill="none" stroke-linejoin="miter" stroke-linecap="square">
+  <path d="M6.4 8.1v7.8m3.2-7.8v7.8m3.1-7.8v7.8m4.65-7.8v7.8" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M3.8 8V5.2h3.3m9.8 0h3.3V8m0 8v2.8h-3.3m-9.8 0H3.8V16M4.8 12h14.4" stroke="currentColor" stroke-width="1.05"/>
+</svg>

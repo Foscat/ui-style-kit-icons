@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Redo" focusable="false" class="usk-icon" data-icon-style="retro-glass" fill="none" stroke-width="1.55" stroke-linejoin="round" stroke-linecap="round">
+  <g transform="translate(24 0) scale(-1 1)">
+  <path d="M9.4 4.45v3.4h4.2c4.05 0 6.9 2.4 6.9 5.95v.85l-2.65 2.15v-2.65c0-2.25-1.9-3.85-4.25-3.85H9.4v3.05l-5.75-4.45Z" fill="none" fill-opacity="0.34" stroke="currentColor" style="fill:var(--usi-retro-glass-pane, none);stroke:var(--usi-retro-glass-rim, var(--usi-primary-ink, currentColor))"/>
+  <path d="M9.4 18.9h5.7l2.75-2.1" stroke="currentColor" stroke-width="1.2" style="stroke:var(--usi-retro-glass-etch, var(--usi-accent-ink, currentColor))"/>
+  <path d="M10.95 9.1h3.25" stroke="none" stroke-width="1" style="stroke:var(--usi-retro-glass-shine, none)"/>
+  </g>
+</svg>

@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Microphone" focusable="false" class="usk-icon" data-icon-style="art-deco" fill="none" stroke-linejoin="bevel" stroke-linecap="square">
+  <path d="M10.18 3.6h3.64l1.85 1.85v6.3l-1.85 1.85h-3.64l-1.85-1.85v-6.3Zm.73 1.77-.8.8v4.86l.8.8h2.18l.8-.8V6.17l-.8-.8Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-art-deco-ink, var(--usi-ink, currentColor))"/>
+  <path d="M5.7 10.4v2.65l3.15 3.15h6.3l3.15-3.15V10.4M12 16.2v3.35m-3.35 0h6.7m-4.15-12.3h1.6m-1.6 2.35h1.6" stroke="currentColor" stroke-width="1.35" style="stroke:var(--usi-art-deco-metal, var(--usi-accent-ink, currentColor))"/>
+</svg>

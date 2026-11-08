@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Chart bar" focusable="false" class="usk-icon" data-icon-style="neumorphism" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M4.15 19.57h15.7" stroke="currentColor" stroke-width="2.05" style="stroke:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+  <path d="M4.85 13.2a1 1 0 0 1 1-1h1.22a1 1 0 0 1 1 1v4.25H4.85Zm5.54-3.34a1 1 0 0 1 1-1h1.22a1 1 0 0 1 1 1v7.59h-3.22Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+  <path d="M15.93 5.18a1 1 0 0 1 1-1h1.22a1 1 0 0 1 1 1v12.27h-3.22Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+</svg>

@@ -5,6 +5,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
+const siteRoot = path.join(root, "docs");
 const port = Number(process.env.PORT ?? process.argv[2] ?? 4173);
 const host = process.env.HOST ?? "127.0.0.1";
 const mimeTypes = new Map([
@@ -21,6 +22,12 @@ const mimeTypes = new Map([
   [".xml", "application/xml; charset=utf-8"]
 ]);
 
+/**
+ * Resolves a request to a file within the canonical documentation site.
+ *
+ * @param {string} url Request URL.
+ * @returns {string | null} Safe absolute file path, or null when rejected.
+ */
 function fileForRequest(url) {
   let requestedPath;
 
@@ -33,10 +40,13 @@ function fileForRequest(url) {
   }
 
   const normalizedPath = path.normalize(requestedPath).replace(/^([/\\])+/, "");
-  const filePath = path.join(root, normalizedPath || "index.html");
+  const filePath = path.join(siteRoot, normalizedPath || "index.html");
   const resolvedPath = path.resolve(filePath);
 
-  if (!resolvedPath.startsWith(`${root}${path.sep}`) && resolvedPath !== root) {
+  if (
+    !resolvedPath.startsWith(`${siteRoot}${path.sep}`) &&
+    resolvedPath !== siteRoot
+  ) {
     return null;
   }
 

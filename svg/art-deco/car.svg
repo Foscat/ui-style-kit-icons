@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Car" focusable="false" class="usk-icon" data-icon-style="art-deco" fill="none" stroke-linejoin="bevel" stroke-linecap="square">
+  <path d="M5.45 9.55l1.95-4.3h9.2l1.95 4.3 2.1 2.12v5.75h-1.7v1.8h-2.1v-1.8h-9.7v1.8h-2.1v-1.8h-1.7v-5.75Zm2.1-.15h8.9l-1.08-2.35H8.63Zm-1.22 1.85-1.18 1.17v3.2h13.7v-3.2l-1.18-1.17Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-art-deco-ink, var(--usi-ink, currentColor))"/>
+  <path d="M6.45 12.5h2.9v1.6h-2.9Zm8.2 0h2.9v1.6h-2.9Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-art-deco-metal, var(--usi-accent-ink, currentColor))"/>
+  <path d="M8.3 20.75h7.4" stroke="currentColor" stroke-width="1.04" style="stroke:var(--usi-art-deco-metal, var(--usi-accent-ink, currentColor))"/>
+</svg>

@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Wrench" focusable="false" class="usk-icon" data-icon-style="art-deco" fill="none" stroke-linejoin="bevel" stroke-linecap="square">
+  <path d="m3.65 16.6 6.3-6.3V7.15l3.8-3.8h3.54l.65.65-2.67 2.67 2.06 2.06L20 6.06l.65.65v3.54l-3.8 3.8H13.7l-6.3 6.3H5.1l-1.45-1.45Zm1.72.75v.8l.48.48h.8l6.3-6.3h3.2l2.07-2.07-.97.97-4.48-4.48.97-.97-2.07 2.07v3.2Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-art-deco-ink, var(--usi-ink, currentColor))"/>
+  <path d="m7.45 16.55 3.55-3.55M4.4 21h3.6" stroke="currentColor" stroke-width="1.1" style="stroke:var(--usi-art-deco-metal, var(--usi-accent-ink, currentColor))"/>
+</svg>

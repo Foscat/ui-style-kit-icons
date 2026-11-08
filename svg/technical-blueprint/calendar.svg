@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Calendar" focusable="false" class="usk-icon" data-icon-style="technical-blueprint" fill="none" stroke-linejoin="miter" stroke-linecap="square">
+  <path d="M4.7 6.35h14.6V19.7H4.7Zm3.25 0V3.65m8.1 2.7v-2.7M4.7 10.1h14.6" stroke="currentColor" stroke-width="1.5" style="stroke:var(--usi-technical-blueprint-ink, var(--usi-primary-ink, currentColor))"/>
+  <path d="M7.38 12.6h2.02v1.98H7.38Zm3.61 0h2.02v1.98h-2.02Zm3.61 0h2.02v1.98H14.6Zm-7.22 3.42H9.4v1.66H7.38Z" fill="currentColor" style="fill:var(--usi-technical-blueprint-datum, var(--usi-accent-ink, currentColor))"/>
+  <path d="M3.15 6.35h1.55m14.6 13.35h1.55" stroke="currentColor" stroke-width="1.15" style="stroke:var(--usi-technical-blueprint-datum, var(--usi-accent-ink, currentColor))"/>
+</svg>

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Bell" focusable="false" class="usk-icon" data-icon-style="art-deco" fill="none" stroke-linejoin="bevel" stroke-linecap="square">
+  <path d="M11.12 3.65h1.76v1.62c2.85.36 4.64 2.25 4.64 4.73v2.83l2.52 2.68v2.15H3.96v-2.15l2.52-2.68V10c0-2.48 1.79-4.37 4.64-4.73Zm.88 3.4c-2.25 0-3.76 1.24-3.76 3.12v3.38l-2.31 2.39h12.14l-2.31-2.39v-3.38c0-1.88-1.51-3.12-3.76-3.12Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-art-deco-ink, var(--usi-ink, currentColor))"/>
+  <path d="M9.5 18.75h5L12 21Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-art-deco-metal, var(--usi-accent-ink, currentColor))"/>
+  <path d="M12 9.05v4.5m-2.15-3.35 1.07 3.35m3.23-3.35-1.07 3.35" stroke="currentColor" stroke-width="1.02" style="stroke:var(--usi-art-deco-metal, var(--usi-accent-ink, currentColor))"/>
+</svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Skip back" focusable="false" class="usk-icon" data-icon-style="paper-editorial" fill="none" stroke-linecap="square" stroke-linejoin="miter">
+  <g transform="translate(24 0) scale(-1 1)">
+  <path d="M4.14 5.11 15.24 12 4.14 18.89Zm2.12 3.75v6.28L11.34 12Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-paper-editorial-ink, var(--usi-ink, currentColor))"/>
+  <path d="M16.75 5.12h2.25v13.76h-2.25Zm2.25 0h1.57v1.33H19Zm0 12.43h1.57v1.33H19Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-paper-editorial-proof, var(--usi-accent-ink, currentColor))"/>
+  </g>
+</svg>

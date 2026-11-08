@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Upload" focusable="false" class="usk-icon" data-icon-style="retro-glass" fill="none" stroke-width="1.55" stroke-linejoin="round" stroke-linecap="round">
+  <path d="M4.35 15.15h15.3v3.2l-1.65 1.7H4.35Z" fill="none" fill-opacity="0.34" stroke="currentColor"/>
+  <path d="M8.55 17.55h6.9" stroke="currentColor" stroke-width="1.2"/>
+  <path d="M12 3.5l4.35 4.55H13.6v5.35h-3.2V8.05H7.65Z" fill="none" fill-opacity="0.34" stroke="currentColor"/>
+</svg>

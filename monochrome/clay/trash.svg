@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Trash" focusable="false" class="usk-icon" data-icon-style="clay" fill="none" stroke-linejoin="round" stroke-linecap="round">
+  <g transform="translate(0 0.66)"><path d="M6.25 8.93h11.51l-.68 8.16q-.24 2.69-2.73 2.75H9.69q-2.56-.02-2.8-2.67Zm2.7 2.29.35 5.33q.05.63.61.61.58-.02.54-.67l-.3-5.27Zm4.88 0-.3 5.27q-.03.65.52.67.6.02.64-.61l.34-5.33Z" fill="currentColor" fill-rule="evenodd"/></g>
+  <path d="M6.25 8.93h11.51l-.68 8.16q-.24 2.69-2.73 2.75H9.69q-2.56-.02-2.8-2.67Zm2.7 2.29.35 5.33q.05.63.61.61.58-.02.54-.67l-.3-5.27Zm4.88 0-.3 5.27q-.03.65.52.67.6.02.64-.61l.34-5.33Z" fill="currentColor" fill-rule="evenodd"/>
+  <path d="M5.4 5.34h3.65l.14-.72q.24-1.12 1.4-1.15h2.83q1.12.02 1.4 1.15l.15.72h3.62q1.05 0 1.05 1.21 0 1.16-1.05 1.16H5.4q-1.08 0-1.08-1.16 0-1.21 1.08-1.21Z" fill="currentColor" fill-rule="evenodd"/>
+</svg>

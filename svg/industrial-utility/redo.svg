@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Redo" focusable="false" class="usk-icon" data-icon-style="industrial-utility" fill="none" stroke-linejoin="round" stroke-linecap="round">
+  <g transform="translate(24 0) scale(-1 1)">
+  <path d="M3.19 9.14 8.76 3.86h2.42v2.28L8.34 8.68h8.9l3.25 3.22v4.43l-3.25 3.24h-4.77v-2.19h3.88l1.93-1.94V12.8l-1.93-1.93H8.34l2.84 2.54v2.28H8.76l-5.57-5.28Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-industrial-utility-frame, var(--usi-ink, currentColor))"/>
+  <path d="M4.3 17.38h5.82v2.19H4.3Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-industrial-utility-signal, var(--usi-accent-ink, currentColor))"/>
+  </g>
+</svg>

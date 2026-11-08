@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Clipboard" focusable="false" class="usk-icon" data-icon-style="y2k" fill="none" stroke-width="1.65" stroke-linejoin="round" stroke-linecap="round">
+  <path d="M8.55 6.15h-.8A2.75 2.75 0 0 0 5 8.9v8.75a2.75 2.75 0 0 0 2.75 2.75h8.5A2.75 2.75 0 0 0 19 17.65V8.9a2.75 2.75 0 0 0-2.75-2.75h-.8" stroke="currentColor" fill="none" style="stroke:var(--usi-y2k-shell, var(--usi-primary-ink, currentColor));fill:var(--usi-y2k-gel, none)"/>
+  <path d="M10.15 3.45h3.7a2.05 2.05 0 0 1 0 4.1h-3.7a2.05 2.05 0 0 1 0-4.1Z" stroke="currentColor" fill="none" style="stroke:var(--usi-y2k-shell, var(--usi-primary-ink, currentColor));fill:var(--usi-y2k-gel, none)"/>
+  <path d="M8.55 11.5h6.9m-6.9 3.6h4.8" stroke="currentColor" stroke-width="1.65" style="stroke:var(--usi-y2k-pop, var(--usi-accent-ink, currentColor))"/>
+  <path d="M7.15 9.35v2.25" stroke="none" stroke-width="1.15" style="stroke:var(--usi-y2k-shine, none)"/>
+</svg>

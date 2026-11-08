@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Building" focusable="false" class="usk-icon" data-icon-style="industrial-utility" fill="none" stroke-linejoin="round" stroke-linecap="round">
+  <path d="M6.96 3.62h10.08l1.68 1.68v13.08h1.83v1.99H3.45v-1.99h1.83V5.3Zm.82 1.99-.51.51v12.26h3.37V15.4h2.72v2.98h3.37V6.12l-.51-.51Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-industrial-utility-frame, var(--usi-ink, currentColor))"/>
+  <path d="M8.46 7.09h2.49v2.33H8.46Zm4.59 0h2.49v2.33h-2.49Zm-4.59 4.17h2.49v2.33H8.46Zm4.59 0h2.49v2.33h-2.49Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-industrial-utility-signal, var(--usi-accent-ink, currentColor))"/>
+</svg>

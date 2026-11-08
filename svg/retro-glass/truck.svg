@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Truck" focusable="false" class="usk-icon" data-icon-style="retro-glass" fill="none" stroke-width="1.55" stroke-linejoin="round" stroke-linecap="round">
+  <path d="M3.55 6.6h10.15v8.65H3.55Z" fill="none" fill-opacity="0.34" stroke="currentColor" style="fill:var(--usi-retro-glass-pane, none);stroke:var(--usi-retro-glass-rim, var(--usi-primary-ink, currentColor))"/>
+  <path d="M13.7 9.1h3.7l2.9 3.1v3.05h-6.6Z" fill="none" fill-opacity="0.34" stroke="currentColor" style="fill:var(--usi-retro-glass-pane, none);stroke:var(--usi-retro-glass-rim, var(--usi-primary-ink, currentColor))"/>
+  <circle cx="7.25" cy="17.4" r="1.84" fill="currentColor" style="fill:var(--usi-retro-glass-etch, var(--usi-accent-ink, currentColor))"/>
+  <circle cx="17.4" cy="17.4" r="1.84" fill="currentColor" style="fill:var(--usi-retro-glass-etch, var(--usi-accent-ink, currentColor))"/>
+  <path d="M16 11.8h1.75" stroke="currentColor" stroke-width="1.2" style="stroke:var(--usi-retro-glass-etch, var(--usi-accent-ink, currentColor))"/>
+  <path d="M5.25 8.35h5.2" stroke="none" stroke-width="1" style="stroke:var(--usi-retro-glass-shine, none)"/>
+</svg>

@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Grid" focusable="false" class="usk-icon" data-icon-style="paper-editorial" fill="none" stroke-linecap="square" stroke-linejoin="miter">
+  <path d="M3.2 4.15h17.6v15.7H3.2Zm2.15 2.03v5.02h5.45V6.18Zm7.45 0v5.02h6.05V6.18Zm-7.45 6.78v5.02h5.45v-5.02Zm7.45 0v5.02h6.05v-5.02Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-paper-editorial-ink, var(--usi-ink, currentColor))"/>
+  <path d="M6.2 7.1h3.8v3.18H6.2Zm7.42 7.34h4.35v2.06h-4.35Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-paper-editorial-proof, var(--usi-accent-ink, currentColor))"/>
+</svg>

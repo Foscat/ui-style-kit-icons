@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Toggle on" focusable="false" class="usk-icon" data-icon-style="cyberpunk" fill="none" stroke-width="1.65" stroke-linejoin="bevel" stroke-linecap="square">
+  <path d="M2.85 9.65 6 6.5h12l3.15 3.15v4.7L18 17.5H6l-3.15-3.15Z" stroke="currentColor" style="stroke:var(--usi-cyberpunk-rail, var(--usi-primary-ink, currentColor))"/>
+  <path d="M12.25 8.9h4.85l1.65 1.65v2.9L17.1 15.1h-4.85Z" fill="currentColor" style="fill:var(--usi-cyberpunk-signal, var(--usi-accent-ink, currentColor))"/>
+  <path d="M6.25 12h2.65" stroke="currentColor" style="stroke:var(--usi-cyberpunk-signal, var(--usi-accent-ink, currentColor))"/>
+</svg>

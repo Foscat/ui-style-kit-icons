@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Arrow down" focusable="false" class="usk-icon" data-icon-style="industrial-utility" fill="none" stroke-linejoin="round" stroke-linecap="round">
+  <g transform="rotate(90 12 12)">
+  <path d="M12.72 5.68h2.36l5.84 5.18v2.28l-5.84 5.18h-2.36v-2.77H6.91v-2.39h7.86v2.18L18.48 12l-3.71-3.34v2.18H6.91V8.45h5.81Z" fill="currentColor" fill-rule="evenodd"/>
+  <path d="M3.2 8.45h2.32v2.39H3.2Zm0 4.71h2.32v2.39H3.2Z" fill="currentColor" fill-rule="evenodd"/>
+  </g>
+</svg>

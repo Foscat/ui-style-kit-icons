@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Truck" focusable="false" class="usk-icon" data-icon-style="y2k" fill="none" stroke-width="1.65" stroke-linejoin="round" stroke-linecap="round">
+  <path d="M3.45 8.35a2.35 2.35 0 0 1 2.35-2.35h7.7v10H5.8a2.35 2.35 0 0 1-2.35-2.35Z" stroke="currentColor" fill="none" style="stroke:var(--usi-y2k-shell, var(--usi-primary-ink, currentColor));fill:var(--usi-y2k-gel, none)"/>
+  <path d="M13.5 9.05h3.1a2.35 2.35 0 0 1 1.9.95l1.55 2.05a2.4 2.4 0 0 1 .48 1.45v.85a1.65 1.65 0 0 1-1.65 1.65H13.5Z" stroke="currentColor" fill="none" style="stroke:var(--usi-y2k-shell, var(--usi-primary-ink, currentColor));fill:var(--usi-y2k-gel, none)"/>
+  <circle cx="7.35" cy="17.45" r="2.05" fill="currentColor" style="fill:var(--usi-y2k-pop, var(--usi-accent-ink, currentColor))"/>
+  <circle cx="17.05" cy="17.45" r="2.05" fill="currentColor" style="fill:var(--usi-y2k-pop, var(--usi-accent-ink, currentColor))"/>
+  <path d="M15.8 12h1.65" stroke="currentColor" stroke-width="1.55" style="stroke:var(--usi-y2k-pop, var(--usi-accent-ink, currentColor))"/>
+  <path d="M6.05 8.5h4.25" stroke="none" stroke-width="1.15" style="stroke:var(--usi-y2k-shine, none)"/>
+</svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Credit card" focusable="false" class="usk-icon" data-icon-style="retro-glass" fill="none" stroke-width="1.55" stroke-linejoin="round" stroke-linecap="round">
+  <path d="M3.55 6.15h15.1l1.8 1.8v9.9H3.55Z" fill="none" fill-opacity="0.34" stroke="currentColor"/>
+  <path d="M3.85 10.3h16.3m-13.6 4.45h4.9" stroke="currentColor" stroke-width="1.45"/>
+  <circle cx="17.2" cy="14.75" r="1" fill="currentColor"/>
+  <path d="M5.35 7.65h6.05" stroke="none" stroke-width="1"/>
+</svg>

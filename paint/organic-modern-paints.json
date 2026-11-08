@@ -1,0 +1,302 @@
+{
+  "midnight-gold/light": {
+    "organic-modern-body": "#845e1b",
+    "organic-modern-inlay": "#22314f"
+  },
+  "midnight-gold/dark": {
+    "organic-modern-body": "#f3d27a",
+    "organic-modern-inlay": "#6f86b8"
+  },
+  "midnight-gold/contrast": {
+    "organic-modern-body": "#00d9ff",
+    "organic-modern-inlay": "#ffea00"
+  },
+  "ocean-steel/light": {
+    "organic-modern-body": "#06647e",
+    "organic-modern-inlay": "#39566b"
+  },
+  "ocean-steel/dark": {
+    "organic-modern-body": "#73e3f4",
+    "organic-modern-inlay": "#8cb7c9"
+  },
+  "ocean-steel/contrast": {
+    "organic-modern-body": "#00e5ff",
+    "organic-modern-inlay": "#ffff00"
+  },
+  "forest-moss/light": {
+    "organic-modern-body": "#2f612b",
+    "organic-modern-inlay": "#627838"
+  },
+  "forest-moss/dark": {
+    "organic-modern-body": "#a2ed99",
+    "organic-modern-inlay": "#b9ef6b"
+  },
+  "forest-moss/contrast": {
+    "organic-modern-body": "#6cff5f",
+    "organic-modern-inlay": "#b6ff00"
+  },
+  "sunset-ember/light": {
+    "organic-modern-body": "#9f3f20",
+    "organic-modern-inlay": "#7c3f5c"
+  },
+  "sunset-ember/dark": {
+    "organic-modern-body": "#ffad8a",
+    "organic-modern-inlay": "#e38ab5"
+  },
+  "sunset-ember/contrast": {
+    "organic-modern-body": "#ff9d00",
+    "organic-modern-inlay": "#ffd000"
+  },
+  "royal-plum/light": {
+    "organic-modern-body": "#63317f",
+    "organic-modern-inlay": "#c05ac6"
+  },
+  "royal-plum/dark": {
+    "organic-modern-body": "#ebb8ff",
+    "organic-modern-inlay": "#9da8ff"
+  },
+  "royal-plum/contrast": {
+    "organic-modern-body": "#e45cff",
+    "organic-modern-inlay": "#ff00f5"
+  },
+  "graphite-cyan/light": {
+    "organic-modern-body": "#00636e",
+    "organic-modern-inlay": "#3f4850"
+  },
+  "graphite-cyan/dark": {
+    "organic-modern-body": "#7bf3ff",
+    "organic-modern-inlay": "#aab5bc"
+  },
+  "graphite-cyan/contrast": {
+    "organic-modern-body": "#00f0ff",
+    "organic-modern-inlay": "#f2f2f2"
+  },
+  "desert-sage/light": {
+    "organic-modern-body": "#70532f",
+    "organic-modern-inlay": "#5f7655"
+  },
+  "desert-sage/dark": {
+    "organic-modern-body": "#f0d39a",
+    "organic-modern-inlay": "#f1c46e"
+  },
+  "desert-sage/contrast": {
+    "organic-modern-body": "#ffd166",
+    "organic-modern-inlay": "#ffb000"
+  },
+  "rose-quartz/light": {
+    "organic-modern-body": "#963757",
+    "organic-modern-inlay": "#7a557e"
+  },
+  "rose-quartz/dark": {
+    "organic-modern-body": "#ffb6cd",
+    "organic-modern-inlay": "#d9a0df"
+  },
+  "rose-quartz/contrast": {
+    "organic-modern-body": "#ff8ab3",
+    "organic-modern-inlay": "#f000ff"
+  },
+  "cyber-lime/light": {
+    "organic-modern-body": "#417013",
+    "organic-modern-inlay": "#147f86"
+  },
+  "cyber-lime/dark": {
+    "organic-modern-body": "#caff7f",
+    "organic-modern-inlay": "#3debf2"
+  },
+  "cyber-lime/contrast": {
+    "organic-modern-body": "#aaff00",
+    "organic-modern-inlay": "#00f0ff"
+  },
+  "arctic-indigo/light": {
+    "organic-modern-body": "#314894",
+    "organic-modern-inlay": "#2e7d9d"
+  },
+  "arctic-indigo/dark": {
+    "organic-modern-body": "#b7c5ff",
+    "organic-modern-inlay": "#76d8f3"
+  },
+  "arctic-indigo/contrast": {
+    "organic-modern-body": "#9fb2ff",
+    "organic-modern-inlay": "#00d9ff"
+  },
+  "chrome-navy/light": {
+    "organic-modern-body": "#1a3556",
+    "organic-modern-inlay": "#3e6b8e"
+  },
+  "chrome-navy/dark": {
+    "organic-modern-body": "#7ea9d3",
+    "organic-modern-inlay": "#a8c1dc"
+  },
+  "chrome-navy/contrast": {
+    "organic-modern-body": "#9cc5f0",
+    "organic-modern-inlay": "#00e6ff"
+  },
+  "recycled-emerald/light": {
+    "organic-modern-body": "#0c5147",
+    "organic-modern-inlay": "#0f766e"
+  },
+  "recycled-emerald/dark": {
+    "organic-modern-body": "#8bffd6",
+    "organic-modern-inlay": "#67ddd1"
+  },
+  "recycled-emerald/contrast": {
+    "organic-modern-body": "#38f0b9",
+    "organic-modern-inlay": "#00f0ff"
+  },
+  "industrial-orange/light": {
+    "organic-modern-body": "#8e3f12",
+    "organic-modern-inlay": "#9b622e"
+  },
+  "industrial-orange/dark": {
+    "organic-modern-body": "#ffb36b",
+    "organic-modern-inlay": "#c6bfb6"
+  },
+  "industrial-orange/contrast": {
+    "organic-modern-body": "#ffb36b",
+    "organic-modern-inlay": "#f4f1ec"
+  },
+  "performance-red/light": {
+    "organic-modern-body": "#a30e25",
+    "organic-modern-inlay": "#e84c61"
+  },
+  "performance-red/dark": {
+    "organic-modern-body": "#ff8394",
+    "organic-modern-inlay": "#d1d3d8"
+  },
+  "performance-red/contrast": {
+    "organic-modern-body": "#ff95a3",
+    "organic-modern-inlay": "#f2f2f2"
+  },
+  "heritage-brass/light": {
+    "organic-modern-body": "#5b0d16",
+    "organic-modern-inlay": "#896934"
+  },
+  "heritage-brass/dark": {
+    "organic-modern-body": "#f0c87d",
+    "organic-modern-inlay": "#f6ebd7"
+  },
+  "heritage-brass/contrast": {
+    "organic-modern-body": "#ffd36b",
+    "organic-modern-inlay": "#fff3d9"
+  },
+  "service-blue-red/light": {
+    "organic-modern-body": "#0b3155",
+    "organic-modern-inlay": "#d62b2b"
+  },
+  "service-blue-red/dark": {
+    "organic-modern-body": "#a5cbf1",
+    "organic-modern-inlay": "#ff6a6a"
+  },
+  "service-blue-red/contrast": {
+    "organic-modern-body": "#8cc6ff",
+    "organic-modern-inlay": "#ff6666"
+  },
+  "newsprint-crimson/light": {
+    "organic-modern-body": "#6a1e24",
+    "organic-modern-inlay": "#865f50"
+  },
+  "newsprint-crimson/dark": {
+    "organic-modern-body": "#f0a597",
+    "organic-modern-inlay": "#c8b9a6"
+  },
+  "newsprint-crimson/contrast": {
+    "organic-modern-body": "#ff9aa3",
+    "organic-modern-inlay": "#fff3da"
+  },
+  "foundry-amber/light": {
+    "organic-modern-body": "#864600",
+    "organic-modern-inlay": "#956625"
+  },
+  "foundry-amber/dark": {
+    "organic-modern-body": "#ffd17a",
+    "organic-modern-inlay": "#aeb3b8"
+  },
+  "foundry-amber/contrast": {
+    "organic-modern-body": "#ffc247",
+    "organic-modern-inlay": "#f2f2f2"
+  },
+  "soft-orchid/light": {
+    "organic-modern-body": "#4b3b98",
+    "organic-modern-inlay": "#7f649d"
+  },
+  "soft-orchid/dark": {
+    "organic-modern-body": "#a994f2",
+    "organic-modern-inlay": "#d1b7f5"
+  },
+  "soft-orchid/contrast": {
+    "organic-modern-body": "#c9b5ff",
+    "organic-modern-inlay": "#71ffe2"
+  },
+  "electric-noir/light": {
+    "organic-modern-body": "#721562",
+    "organic-modern-inlay": "#2e7590"
+  },
+  "electric-noir/dark": {
+    "organic-modern-body": "#ff7ae1",
+    "organic-modern-inlay": "#4ba6c9"
+  },
+  "electric-noir/contrast": {
+    "organic-modern-body": "#ff7be0",
+    "organic-modern-inlay": "#00d7ff"
+  },
+  "signal-yellow/light": {
+    "organic-modern-body": "#704f00",
+    "organic-modern-inlay": "#80732e"
+  },
+  "signal-yellow/dark": {
+    "organic-modern-body": "#ffe866",
+    "organic-modern-inlay": "#8ec6ff"
+  },
+  "signal-yellow/contrast": {
+    "organic-modern-body": "#ffea00",
+    "organic-modern-inlay": "#00d9ff"
+  },
+  "botanical-green/light": {
+    "organic-modern-body": "#086132",
+    "organic-modern-inlay": "#297e4a"
+  },
+  "botanical-green/dark": {
+    "organic-modern-body": "#80f0a9",
+    "organic-modern-inlay": "#ee94c7"
+  },
+  "botanical-green/contrast": {
+    "organic-modern-body": "#67ffa6",
+    "organic-modern-inlay": "#ff5cb2"
+  },
+  "cobalt-electric/light": {
+    "organic-modern-body": "#0040a3",
+    "organic-modern-inlay": "#5279ff"
+  },
+  "cobalt-electric/dark": {
+    "organic-modern-body": "#a4bcff",
+    "organic-modern-inlay": "#ff8593"
+  },
+  "cobalt-electric/contrast": {
+    "organic-modern-body": "#84a8ff",
+    "organic-modern-inlay": "#ff697d"
+  },
+  "stone-graphite/light": {
+    "organic-modern-body": "#343c38",
+    "organic-modern-inlay": "#5b615d"
+  },
+  "stone-graphite/dark": {
+    "organic-modern-body": "#dce0dd",
+    "organic-modern-inlay": "#a4aaa6"
+  },
+  "stone-graphite/contrast": {
+    "organic-modern-body": "#ffffff",
+    "organic-modern-inlay": "#cdcdcd"
+  },
+  "walnut-clay/light": {
+    "organic-modern-body": "#693c2b",
+    "organic-modern-inlay": "#be6f52"
+  },
+  "walnut-clay/dark": {
+    "organic-modern-body": "#f0bc9c",
+    "organic-modern-inlay": "#b2c09d"
+  },
+  "walnut-clay/contrast": {
+    "organic-modern-body": "#ffc2a0",
+    "organic-modern-inlay": "#d0eaa6"
+  }
+}

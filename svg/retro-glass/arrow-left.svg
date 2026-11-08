@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Arrow left" focusable="false" class="usk-icon" data-icon-style="retro-glass" fill="none" stroke-width="1.55" stroke-linejoin="round" stroke-linecap="round">
+  <g transform="rotate(180 12 12)">
+  <path d="M6.35 9.15h7.8V5.9h1.05l5.6 5.05v1.1l-5.6 5.05h-1.05v-3.25h-7.8Z" fill="none" fill-opacity="0.34" stroke="currentColor" style="fill:var(--usi-retro-glass-pane, none);stroke:var(--usi-retro-glass-rim, var(--usi-primary-ink, currentColor))"/>
+  <path d="M3.45 10.45v2.1m2.9 3.2h5.15" stroke="currentColor" stroke-width="1.4" style="stroke:var(--usi-retro-glass-etch, var(--usi-accent-ink, currentColor))"/>
+  <path d="M8.45 10.7h6.75" stroke="none" stroke-width="1" style="stroke:var(--usi-retro-glass-shine, none)"/>
+  </g>
+</svg>

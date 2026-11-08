@@ -1,0 +1,28 @@
+{
+  "canonicalNames": 174,
+  "styles": 20,
+  "totalSvgFiles": 6960,
+  "preservedBaselineSvgFiles": 3200,
+  "browser": "Chromium",
+  "browserChecks": [
+    "all style selectors",
+    "legacy alias search",
+    "yard icon inspection",
+    "themed and one-ink paint",
+    "light dark and contrast modes",
+    "brand links",
+    "offline gallery"
+  ],
+  "rasterChecks": {
+    "renders": 5640,
+    "sizes": [
+      16,
+      24,
+      32
+    ],
+    "pairs": 120,
+    "problems": [],
+    "distinct": []
+  },
+  "unknownConsumerNameRejected": true
+}

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Redo" focusable="false" class="usk-icon" data-icon-style="clay" fill="none" stroke-linejoin="round" stroke-linecap="round">
+  <g transform="translate(24 0) scale(-1 1)">
+  <g transform="translate(0 0.75)"><path d="M8.27 4.9q1.02-.93 1.9-.02.83.88-.02 1.78L8.3 8.43h6.77c3.63.03 5.63 2.02 5.66 5.25.04 3.17-2.03 5.42-5.1 5.45l-3.05.03q-1.25 0-1.25-1.32 0-1.29 1.26-1.29h2.84c1.67 0 2.65-1.13 2.65-2.83 0-1.62-1.03-2.59-2.97-2.61l-6.8-.01 1.76 1.76q.94.93.07 1.83-.93.95-1.91.03l-4.15-3.97q-1.07-.98.04-2.05Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-clay-rim, var(--usi-ink, currentColor))"/></g>
+  <path d="M8.27 4.9q1.02-.93 1.9-.02.83.88-.02 1.78L8.3 8.43h6.77c3.63.03 5.63 2.02 5.66 5.25.04 3.17-2.03 5.42-5.1 5.45l-3.05.03q-1.25 0-1.25-1.32 0-1.29 1.26-1.29h2.84c1.67 0 2.65-1.13 2.65-2.83 0-1.62-1.03-2.59-2.97-2.61l-6.8-.01 1.76 1.76q.94.93.07 1.83-.93.95-1.91.03l-4.15-3.97q-1.07-.98.04-2.05Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-clay-face, var(--usi-accent-ink, currentColor))"/>
+  </g>
+</svg>

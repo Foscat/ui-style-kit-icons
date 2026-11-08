@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Users" focusable="false" class="usk-icon" data-icon-style="tactile" fill="none" stroke="var(--usi-ink, currentColor)" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M16.35 6.1a2.95 2.95 0 0 1 .15 5.9m.15 1.6q3.9.7 3.9 4.1v1.85h-3.7" fill="var(--usi-tactile-recess, none)"/>
+  <circle cx="9.25" cy="8.05" r="3.2" fill="var(--usi-tactile-face, none)"/>
+  <path d="M3.55 19.55v-1.8q0-4.25 5.7-4.25t5.7 4.25v1.8Z" fill="var(--usi-tactile-face, none)"/>
+  <path d="M7.6 8.05a1.65 1.65 0 0 1 1.65-1.65m-4.1 11.55q0-1.6 1.6-2.2" stroke="var(--usi-tactile-highlight, none)" stroke-width="0.8"/>
+  <path d="M8.35 18.05h4.9" stroke="var(--usi-tactile-shade, none)" stroke-width="1"/>
+</svg>

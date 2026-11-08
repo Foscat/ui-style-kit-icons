@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Upload" focusable="false" class="usk-icon" data-icon-style="paper-editorial" fill="none" stroke-linecap="square" stroke-linejoin="miter">
+  <g transform="rotate(180 12 8.7)">
+  <path d="M10.93 3.3h2.14v7.65l2.9-2.32 1.42 1.6L12 14.68l-5.39-4.45 1.42-1.6 2.9 2.32Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-paper-editorial-ink, var(--usi-ink, currentColor))"/>
+  <path d="M9.72 3.3h4.56v1.34H9.72Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-paper-editorial-ink, var(--usi-ink, currentColor))"/>
+  </g>
+  <path d="M3.36 13.87h2.13v4.39h13.33v-4.39h1.82v6.47H3.36Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-paper-editorial-ink, var(--usi-ink, currentColor))"/>
+  <path d="M7.48 16.14h9.04v1.52H7.48Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-paper-editorial-proof, var(--usi-accent-ink, currentColor))"/>
+</svg>

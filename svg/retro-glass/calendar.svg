@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Calendar" focusable="false" class="usk-icon" data-icon-style="retro-glass" fill="none" stroke-width="1.55" stroke-linejoin="round" stroke-linecap="round">
+  <path d="M4 6.25c0-.55.45-1 1-1h13l2 2v11.5c0 .55-.45 1-1 1H5c-.55 0-1-.45-1-1Z" fill="none" fill-opacity="0.34" stroke="currentColor" style="fill:var(--usi-retro-glass-pane, none);stroke:var(--usi-retro-glass-rim, var(--usi-primary-ink, currentColor))"/>
+  <path d="M7.5 3.55v3.5m7-3.5v3.5M4.2 9.1h15.55m-5.6 7.65h3.15" stroke="currentColor" stroke-width="1.4" style="stroke:var(--usi-retro-glass-etch, var(--usi-accent-ink, currentColor))"/>
+  <circle cx="7.9" cy="12.75" r="1.05" fill="currentColor" style="fill:var(--usi-retro-glass-etch, var(--usi-accent-ink, currentColor))"/>
+  <circle cx="11.85" cy="12.75" r="1.05" fill="currentColor" style="fill:var(--usi-retro-glass-etch, var(--usi-accent-ink, currentColor))"/>
+  <circle cx="15.8" cy="12.75" r="1.05" fill="currentColor" style="fill:var(--usi-retro-glass-etch, var(--usi-accent-ink, currentColor))"/>
+  <path d="M5.75 10.85v6.55" stroke="none" stroke-width="1" style="stroke:var(--usi-retro-glass-shine, none)"/>
+</svg>

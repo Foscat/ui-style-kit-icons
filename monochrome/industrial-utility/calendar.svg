@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Calendar" focusable="false" class="usk-icon" data-icon-style="industrial-utility" fill="none" stroke-linejoin="round" stroke-linecap="round">
+  <path d="M5.77 5.55H7.1V3.61h2.13v1.94h5.54V3.61h2.13v1.94h1.33l1.98 1.98v10.65l-1.98 1.98H5.77l-1.98-1.98V7.53Zm.05 5.13v6.65l.8.8h10.76l.8-.8v-6.65Z" fill="currentColor" fill-rule="evenodd"/>
+  <path d="M7.1 7.52h9.8v1.3H7.1Z M7.6 12.84h3.46v2.83H7.6Zm5.48 0h3.32v1.4h-3.32Z" fill="currentColor" fill-rule="evenodd"/>
+</svg>

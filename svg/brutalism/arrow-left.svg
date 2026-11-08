@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Arrow left" focusable="false" class="usk-icon" data-icon-style="brutalism" fill="none">
+  <g transform="rotate(180 12 12)">
+  <path d="M3.2 8.6h9.15V4.05L21 10.95v2.1l-8.65 6.9V15.4H3.2L5.65 12Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-brutalism-body, var(--usi-primary-ink, currentColor))"/>
+  <path d="M12.35 4.05 21 10.95v2.1l-8.65 6.9V15.4L16.8 12l-4.45-3.4Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-brutalism-accent, var(--usi-secondary-ink, currentColor))"/>
+  </g>
+</svg>

@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Browse 174 UI symbols across 20 icon families and preview them in the matching UI Style Kit presets.">
+  <title>Icon Studio · UI Style Kit</title>
+  <link rel="icon" href="./assets/brand/favicon.ico" sizes="16x16 24x24 32x32 48x48 64x64 96x96 128x128 192x192 256x256">
+  <link rel="icon" href="./assets/brand/favicon-16x16.png" type="image/png" sizes="16x16">
+  <link rel="icon" href="./assets/brand/favicon-32x32.png" type="image/png" sizes="32x32">
+  <link rel="icon" href="./assets/brand/favicon-48x48.png" type="image/png" sizes="48x48">
+  <link rel="icon" href="./assets/brand/favicon.svg" type="image/svg+xml" sizes="any">
+  <link rel="apple-touch-icon" href="./assets/brand/apple-touch-icon.png" sizes="180x180">
+  <link rel="manifest" href="./site.webmanifest">
+  <meta name="theme-color" content="#0C203A">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Sanderson Technology Enterprises">
+  <meta property="og:title" content="UI Style Kit Icons">
+  <meta property="og:description" content="Explore 3,480 theme-aware SVG icon designs across 20 styles and 25 palettes.">
+  <meta property="og:url" content="https://foscat.github.io/ui-style-kit-icons/">
+  <meta property="og:image" content="https://foscat.github.io/ui-style-kit-icons/assets/brand/ui-style-kit-icons-social-preview.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="UI Style Kit Icons with its four-glyph badge and a six-icon gallery on navy.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="UI Style Kit Icons">
+  <meta name="twitter:description" content="Explore 3,480 theme-aware SVG icon designs across 20 styles and 25 palettes.">
+  <meta name="twitter:image" content="https://foscat.github.io/ui-style-kit-icons/assets/brand/ui-style-kit-icons-social-preview.png">
+  <meta name="twitter:image:alt" content="UI Style Kit Icons with its four-glyph badge and a six-icon gallery on navy.">
+  <link rel="stylesheet" href="./assets/vendor/ui-style-kit-css/visual.css">
+  <link rel="stylesheet" href="./assets/vendor/motion-style-css/motion.css">
+  <link rel="stylesheet" href="./assets/icon-paint.css">
+  <link rel="stylesheet" href="./assets/demo.css">
+  <script defer src="./assets/vendor/motion-style-css/motion.js"></script>
+  <script defer src="./assets/inline-svg.js"></script>
+  <script defer src="./assets/catalog.js"></script>
+  <script defer src="./assets/demo.js"></script>
+</head>
+<body class="demo-scope usk-icons-theme" data-ui="retrofuturism" data-theme="service-blue-red" data-mode="light">
+  <a class="skip-link" href="#gallery">Skip to the icon gallery</a>
+  <header class="site-bar frame">
+    <a class="wordmark" href="#top">
+      <img src="./assets/brand/favicon.svg" width="36" height="36" alt="">
+      <span><strong>UI Style Kit</strong><small>Sanderson Technology Enterprises</small></span>
+    </a>
+    <a class="gallery-link" href="#gallery">Browse icons <span aria-hidden="true">↘</span></a>
+  </header>
+
+  <main class="frame" id="top">
+    <section class="hero" id="intro-motion" aria-labelledby="page-title">
+      <div class="hero-copy">
+        <p class="kicker"><span class="signal" aria-hidden="true"></span> Icon collection / 01</p>
+        <h1 id="page-title">Icon Studio</h1>
+        <p class="intro">Browse 20 icon families in their matching UI styles. Switch the palette, check small sizes, and take any glyph with you.</p>
+        <ul class="stats" aria-label="Collection totals">
+          <li><strong>20</strong> styles</li>
+          <li><strong>174</strong> icons per style</li>
+          <li><strong>25</strong> palettes</li>
+        </ul>
+      </div>
+      <div class="usk-card hero-specimen">
+        <div class="specimen-top"><p class="kicker">Active preset</p><span class="specimen-index" id="style-index">20 / 20</span></div>
+        <div class="motifs" aria-hidden="true">
+          <span data-glyph="home"></span><span data-glyph="grid"></span>
+          <span data-glyph="settings"></span><span data-glyph="chart-bar"></span>
+        </div>
+        <div>
+          <h2 id="active-style">Retrofuturism</h2>
+          <p id="style-description">Swept edges, instrument rims, and two-tone enamel</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="usk-card config" aria-label="Appearance">
+      <label class="config-field"><span>UI and icon style</span><select class="usk-select" id="style"><option value="retrofuturism">Retrofuturism</option></select></label>
+      <label class="config-field"><span>Palette</span><select class="usk-select" id="theme"><option value="service-blue-red">Service Blue Red</option></select></label>
+      <label class="config-field"><span>Mode</span><select class="usk-select" id="mode"><option value="light">Light</option><option value="dark">Dark</option><option value="contrast">High contrast</option></select></label>
+      <label class="config-field"><span>Icon paint</span><select class="usk-select" id="paint"><option value="svg">Themed</option><option value="monochrome">One ink</option></select></label>
+      <label class="config-field size-control"><span>Icon size</span><select class="usk-select" id="size"><option value="16">16 px</option><option value="20">20 px</option><option value="24" selected>24 px</option><option value="32">32 px</option><option value="48">48 px</option></select></label>
+    </section>
+    <noscript><p class="usk-alert">Enable JavaScript to switch styles and browse the collection.</p></noscript>
+
+    <div class="workspace" id="workspace">
+      <section class="gallery-panel" id="gallery" aria-labelledby="gallery-title">
+        <div class="gallery-heading">
+          <div>
+            <p class="kicker">Glyph catalog</p>
+            <h2 id="gallery-title">All icons</h2>
+          </div>
+          <p class="results" id="results" role="status">174 icons</p>
+        </div>
+        <div class="filters" role="group" aria-label="Filter icons">
+          <label class="search-field">
+            <span class="sr-only">Search icons</span><span class="search-mark" data-glyph="search" aria-hidden="true"></span>
+            <input class="usk-input" id="search" type="search" placeholder="Search icons…">
+          </label>
+          <label><span class="sr-only">Category</span><select class="usk-select" id="category"><option value="">All categories</option></select></label>
+        </div>
+        <div id="catalog-motion" class="catalog-motion">
+          <div class="catalog" id="icons"></div>
+          <p class="usk-card empty" id="empty" hidden>No icons match. Try a different search or category.</p>
+        </div>
+      </section>
+
+      <aside class="inspector" aria-labelledby="inspector-title">
+        <div class="usk-card inspector-inner" id="inspector-motion">
+          <div class="inspector-head">
+            <p class="kicker">Icon inspector</p>
+            <span class="usk-badge inspector-category" id="inspector-category">Navigation</span>
+          </div>
+          <div class="stage" aria-hidden="true">
+            <span class="stage-coordinates">24 × 24</span>
+            <span id="large-icon" class="large-icon"></span>
+          </div>
+          <div class="inspector-name">
+            <h2 id="inspector-title" tabindex="-1">Home</h2>
+            <code id="icon-name">home</code>
+          </div>
+          <ul class="size-samples" id="size-samples" aria-label="Icon at 16, 24, and 32 pixels"></ul>
+          <div class="actions">
+            <button class="usk-button" data-ui-variant="primary" id="download" type="button">
+              <span data-glyph="download" aria-hidden="true"></span> Download SVG
+            </button>
+            <button class="usk-button" data-ui-variant="secondary" id="copy" type="button">Copy SVG</button>
+          </div>
+          <p class="export-note" id="export-note">Themed downloads use the current palette.</p>
+          <a class="back-to-icons" href="#gallery">Back to icons ↑</a>
+          <p class="sr-only" id="announcement" role="status"></p>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="frame footer">
+    <p>UI Style Kit Icons <span aria-hidden="true">/</span> Collection 01</p>
+    <p><a href="https://github.com/Foscat/ui-style-kit-icons">GitHub repository</a> · UI Style Kit CSS 2.7.1 · Motion Style CSS 1.0.0</p>
+  </footer>
+
+  <dialog id="copy-dialog" aria-labelledby="copy-title">
+    <h2 id="copy-title">Copy SVG</h2>
+    <p>Select the code to copy it.</p>
+    <label><span class="sr-only">SVG markup</span><textarea class="usk-textarea" id="copy-code" readonly rows="7"></textarea></label>
+    <form method="dialog"><button class="usk-button" type="submit">Close</button></form>
+  </dialog>
+</body>
+</html>

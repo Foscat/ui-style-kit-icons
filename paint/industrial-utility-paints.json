@@ -1,0 +1,302 @@
+{
+  "midnight-gold/light": {
+    "industrial-utility-frame": "#172033",
+    "industrial-utility-signal": "#845e1b"
+  },
+  "midnight-gold/dark": {
+    "industrial-utility-frame": "#f7edd7",
+    "industrial-utility-signal": "#d6a84f"
+  },
+  "midnight-gold/contrast": {
+    "industrial-utility-frame": "#ffffff",
+    "industrial-utility-signal": "#ffea00"
+  },
+  "ocean-steel/light": {
+    "industrial-utility-frame": "#10242e",
+    "industrial-utility-signal": "#087d9d"
+  },
+  "ocean-steel/dark": {
+    "industrial-utility-frame": "#e9fbff",
+    "industrial-utility-signal": "#53f0ff"
+  },
+  "ocean-steel/contrast": {
+    "industrial-utility-frame": "#ffffff",
+    "industrial-utility-signal": "#00ffff"
+  },
+  "forest-moss/light": {
+    "industrial-utility-frame": "#182417",
+    "industrial-utility-signal": "#3f7d3a"
+  },
+  "forest-moss/dark": {
+    "industrial-utility-frame": "#edf7e8",
+    "industrial-utility-signal": "#b9ef6b"
+  },
+  "forest-moss/contrast": {
+    "industrial-utility-frame": "#ffffff",
+    "industrial-utility-signal": "#b6ff00"
+  },
+  "sunset-ember/light": {
+    "industrial-utility-frame": "#2a1711",
+    "industrial-utility-signal": "#c4512b"
+  },
+  "sunset-ember/dark": {
+    "industrial-utility-frame": "#fff0e8",
+    "industrial-utility-signal": "#ff8a5b"
+  },
+  "sunset-ember/contrast": {
+    "industrial-utility-frame": "#ffffff",
+    "industrial-utility-signal": "#ffd000"
+  },
+  "royal-plum/light": {
+    "industrial-utility-frame": "#24152d",
+    "industrial-utility-signal": "#c05ac6"
+  },
+  "royal-plum/dark": {
+    "industrial-utility-frame": "#faecff",
+    "industrial-utility-signal": "#ff9cf6"
+  },
+  "royal-plum/contrast": {
+    "industrial-utility-frame": "#ffffff",
+    "industrial-utility-signal": "#ff00f5"
+  },
+  "graphite-cyan/light": {
+    "industrial-utility-frame": "#171d21",
+    "industrial-utility-signal": "#007c89"
+  },
+  "graphite-cyan/dark": {
+    "industrial-utility-frame": "#edf6f8",
+    "industrial-utility-signal": "#3ed9e8"
+  },
+  "graphite-cyan/contrast": {
+    "industrial-utility-frame": "#ffffff",
+    "industrial-utility-signal": "#00f0ff"
+  },
+  "desert-sage/light": {
+    "industrial-utility-frame": "#2b2419",
+    "industrial-utility-signal": "#8b6a37"
+  },
+  "desert-sage/dark": {
+    "industrial-utility-frame": "#f8efdf",
+    "industrial-utility-signal": "#f1c46e"
+  },
+  "desert-sage/contrast": {
+    "industrial-utility-frame": "#ffffff",
+    "industrial-utility-signal": "#ffb000"
+  },
+  "rose-quartz/light": {
+    "industrial-utility-frame": "#2b151d",
+    "industrial-utility-signal": "#b8476d"
+  },
+  "rose-quartz/dark": {
+    "industrial-utility-frame": "#fff0f4",
+    "industrial-utility-signal": "#ff8fb3"
+  },
+  "rose-quartz/contrast": {
+    "industrial-utility-frame": "#ffffff",
+    "industrial-utility-signal": "#f000ff"
+  },
+  "cyber-lime/light": {
+    "industrial-utility-frame": "#172214",
+    "industrial-utility-signal": "#147f86"
+  },
+  "cyber-lime/dark": {
+    "industrial-utility-frame": "#efffe9",
+    "industrial-utility-signal": "#a8ff3d"
+  },
+  "cyber-lime/contrast": {
+    "industrial-utility-frame": "#ffffff",
+    "industrial-utility-signal": "#ccff00"
+  },
+  "arctic-indigo/light": {
+    "industrial-utility-frame": "#141b2e",
+    "industrial-utility-signal": "#405eb8"
+  },
+  "arctic-indigo/dark": {
+    "industrial-utility-frame": "#edf3ff",
+    "industrial-utility-signal": "#76d8f3"
+  },
+  "arctic-indigo/contrast": {
+    "industrial-utility-frame": "#ffffff",
+    "industrial-utility-signal": "#00d9ff"
+  },
+  "chrome-navy/light": {
+    "industrial-utility-frame": "#0d1b2a",
+    "industrial-utility-signal": "#3e6b8e"
+  },
+  "chrome-navy/dark": {
+    "industrial-utility-frame": "#eff4fa",
+    "industrial-utility-signal": "#7ea9d3"
+  },
+  "chrome-navy/contrast": {
+    "industrial-utility-frame": "#ffffff",
+    "industrial-utility-signal": "#00e6ff"
+  },
+  "recycled-emerald/light": {
+    "industrial-utility-frame": "#0e2c29",
+    "industrial-utility-signal": "#0f766e"
+  },
+  "recycled-emerald/dark": {
+    "industrial-utility-frame": "#ecfbf7",
+    "industrial-utility-signal": "#45d1af"
+  },
+  "recycled-emerald/contrast": {
+    "industrial-utility-frame": "#ffffff",
+    "industrial-utility-signal": "#00f0ff"
+  },
+  "industrial-orange/light": {
+    "industrial-utility-frame": "#181512",
+    "industrial-utility-signal": "#b74e16"
+  },
+  "industrial-orange/dark": {
+    "industrial-utility-frame": "#f7f2eb",
+    "industrial-utility-signal": "#ff8a3d"
+  },
+  "industrial-orange/contrast": {
+    "industrial-utility-frame": "#ffffff",
+    "industrial-utility-signal": "#ff9a42"
+  },
+  "performance-red/light": {
+    "industrial-utility-frame": "#121317",
+    "industrial-utility-signal": "#c8102e"
+  },
+  "performance-red/dark": {
+    "industrial-utility-frame": "#f9f9fa",
+    "industrial-utility-signal": "#ff4c66"
+  },
+  "performance-red/contrast": {
+    "industrial-utility-frame": "#ffffff",
+    "industrial-utility-signal": "#ff3656"
+  },
+  "heritage-brass/light": {
+    "industrial-utility-frame": "#2a1f1a",
+    "industrial-utility-signal": "#6b0f1a"
+  },
+  "heritage-brass/dark": {
+    "industrial-utility-frame": "#fbf5ec",
+    "industrial-utility-signal": "#e7b85f"
+  },
+  "heritage-brass/contrast": {
+    "industrial-utility-frame": "#ffffff",
+    "industrial-utility-signal": "#ffd36b"
+  },
+  "service-blue-red/light": {
+    "industrial-utility-frame": "#11243b",
+    "industrial-utility-signal": "#d62b2b"
+  },
+  "service-blue-red/dark": {
+    "industrial-utility-frame": "#f3f7fb",
+    "industrial-utility-signal": "#ff6a6a"
+  },
+  "service-blue-red/contrast": {
+    "industrial-utility-frame": "#ffffff",
+    "industrial-utility-signal": "#ff6666"
+  },
+  "newsprint-crimson/light": {
+    "industrial-utility-frame": "#2c2622",
+    "industrial-utility-signal": "#7a2329"
+  },
+  "newsprint-crimson/dark": {
+    "industrial-utility-frame": "#f4ebdd",
+    "industrial-utility-signal": "#d87c83"
+  },
+  "newsprint-crimson/contrast": {
+    "industrial-utility-frame": "#ffffff",
+    "industrial-utility-signal": "#ff7a84"
+  },
+  "foundry-amber/light": {
+    "industrial-utility-frame": "#1d1c1a",
+    "industrial-utility-signal": "#a95700"
+  },
+  "foundry-amber/dark": {
+    "industrial-utility-frame": "#f4f2ed",
+    "industrial-utility-signal": "#f0a03a"
+  },
+  "foundry-amber/contrast": {
+    "industrial-utility-frame": "#ffffff",
+    "industrial-utility-signal": "#ffb000"
+  },
+  "soft-orchid/light": {
+    "industrial-utility-frame": "#241a3a",
+    "industrial-utility-signal": "#6552b8"
+  },
+  "soft-orchid/dark": {
+    "industrial-utility-frame": "#f5f0ff",
+    "industrial-utility-signal": "#a994f2"
+  },
+  "soft-orchid/contrast": {
+    "industrial-utility-frame": "#ffffff",
+    "industrial-utility-signal": "#71ffe2"
+  },
+  "electric-noir/light": {
+    "industrial-utility-frame": "#14111c",
+    "industrial-utility-signal": "#8c1a78"
+  },
+  "electric-noir/dark": {
+    "industrial-utility-frame": "#f6f4fa",
+    "industrial-utility-signal": "#e24ac4"
+  },
+  "electric-noir/contrast": {
+    "industrial-utility-frame": "#ffffff",
+    "industrial-utility-signal": "#00d7ff"
+  },
+  "signal-yellow/light": {
+    "industrial-utility-frame": "#211d0c",
+    "industrial-utility-signal": "#704f00"
+  },
+  "signal-yellow/dark": {
+    "industrial-utility-frame": "#fff9de",
+    "industrial-utility-signal": "#ffd83b"
+  },
+  "signal-yellow/contrast": {
+    "industrial-utility-frame": "#ffffff",
+    "industrial-utility-signal": "#ffea00"
+  },
+  "botanical-green/light": {
+    "industrial-utility-frame": "#0e2617",
+    "industrial-utility-signal": "#0d7e42"
+  },
+  "botanical-green/dark": {
+    "industrial-utility-frame": "#ebfcf1",
+    "industrial-utility-signal": "#52de8b"
+  },
+  "botanical-green/contrast": {
+    "industrial-utility-frame": "#ffffff",
+    "industrial-utility-signal": "#00ff70"
+  },
+  "cobalt-electric/light": {
+    "industrial-utility-frame": "#0e1b39",
+    "industrial-utility-signal": "#0052cc"
+  },
+  "cobalt-electric/dark": {
+    "industrial-utility-frame": "#eff4ff",
+    "industrial-utility-signal": "#6f95ff"
+  },
+  "cobalt-electric/contrast": {
+    "industrial-utility-frame": "#ffffff",
+    "industrial-utility-signal": "#4c85ff"
+  },
+  "stone-graphite/light": {
+    "industrial-utility-frame": "#1b1d1c",
+    "industrial-utility-signal": "#5b615d"
+  },
+  "stone-graphite/dark": {
+    "industrial-utility-frame": "#f5f6f5",
+    "industrial-utility-signal": "#a4aaa6"
+  },
+  "stone-graphite/contrast": {
+    "industrial-utility-frame": "#ffffff",
+    "industrial-utility-signal": "#cdcdcd"
+  },
+  "walnut-clay/light": {
+    "industrial-utility-frame": "#31241d",
+    "industrial-utility-signal": "#be6f52"
+  },
+  "walnut-clay/dark": {
+    "industrial-utility-frame": "#faf1e9",
+    "industrial-utility-signal": "#eba988"
+  },
+  "walnut-clay/contrast": {
+    "industrial-utility-frame": "#ffffff",
+    "industrial-utility-signal": "#ffae80"
+  }
+}

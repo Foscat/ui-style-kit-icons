@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Grid" focusable="false" class="usk-icon" data-icon-style="editorial-luxe" fill="none" stroke-linejoin="round" stroke-linecap="round">
+  <path d="M4.4 4.4h6.15v6.15H4.4Z M4.4 13.45h6.15v6.15H4.4Z M6.05 15.1v2.85H8.9V15.1Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-editorial-luxe-ink, var(--usi-primary-ink, currentColor))"/>
+  <path d="M13.45 4.4h6.15v6.15h-6.15Z M15 5.95V9h3.05V5.95Z M13.45 13.45h6.15v6.15h-6.15Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-editorial-luxe-foil, var(--usi-accent-ink, currentColor))"/>
+  <path d="M12 5.05v13.9" stroke="currentColor" stroke-width="0.95" style="stroke:var(--usi-editorial-luxe-ink, var(--usi-primary-ink, currentColor))"/>
+</svg>

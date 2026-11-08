@@ -1,232 +1,142 @@
 # UI Style Kit Icons
 
-Theme-aware SVG icons for the UI Style Kit CSS ecosystem, with a zero runtime
-dependency standalone path. This package owns icon semantics, artwork, sprites,
-and the `<usk-icon>` runtime. `ui-style-kit-css` owns visual theme paint,
-`layout-style-css` owns layout primitives, and `interactive-surface-css` owns
-interaction affordances.
+UI Style Kit Icons 2.0.0 publishes 174 canonical icons across 20 theme-aware families.
+Every family includes themed and monochrome SVGs on a
+24 × 24 grid, for 6,960 source assets in Collection 01.
 
-- Package version: `1.0.0`
-- Contract version: `1.0.0`
-- Required semantic icons: `64`
-- Selectable packs: `12`
-- Runtime dependencies: `0`
-- Build requirement: Node.js `>=20`
+- Package version: `2.0.0`
+- Contract version: `1`
+- UI Style Kit CSS compatibility: `ui-style-kit-css >=2.7.1 <3`
+- [Interactive demo](https://foscat.github.io/ui-style-kit-icons/)
 
 ## Install
 
-Install only the icon package for standalone use:
-
 ```sh
-npm i ui-style-kit-icons
+npm install ui-style-kit-icons
 ```
 
-Install the optional visual companion for the complete ecosystem theme matrix:
-
-```sh
-npm i ui-style-kit-icons ui-style-kit-css@2.1.0
-```
-
-The package supports `ui-style-kit-css >=2.1.0 <3` and verifies the current
-`2.1.0` release during development. The peer is optional, so installing the icon
-library by itself does not add or require a stylesheet runtime.
-
-## Web Component
+Import the custom element and the shared paint layer:
 
 ```js
 import "ui-style-kit-icons/element";
-```
-
-```html
-<button type="button">
-  <usk-icon name="dashboard" label="Dashboard"></usk-icon>
-  Dashboard
-</button>
-```
-
-The component inherits `currentColor`, ships readable fallback paint, and loads
-its SVG assets from the package. Set `label` when an icon conveys meaning. Omit
-it when adjacent text already names the action.
-
-Use `setAssetBaseUrl()` when assets are hosted somewhere other than the package
-root:
-
-```js
-import {
-  setAssetBaseUrl
-} from "ui-style-kit-icons/element";
-
-setAssetBaseUrl(new URL("/vendor/ui-style-kit-icons/", location.origin));
-```
-
-## UI Style Kit CSS
-
-Load the companion theme layer before using the icon component:
-
-```js
-import "ui-style-kit-css/visual.css";
-import "ui-style-kit-icons/element";
-```
-
-```html
-<body
-  data-ui="bento"
-  data-theme="arctic-indigo"
-  data-mode="dark"
->
-  <usk-icon name="dashboard" label="Dashboard"></usk-icon>
-</body>
-```
-
-The closest `data-icon-pack` takes priority. Without an explicit override, the
-runtime resolves the closest `data-ui`:
-
-| `ui-style-kit-css` preset | Icon pack |
-| --- | --- |
-| `minimal-saas` | `minimal-saas` |
-| `bento` | `bento` |
-| `maximalist` | `maximalist` |
-| `bauhaus` | `system` |
-| `tactile` | `tactile` |
-| `neumorphism` | `neumorphism` |
-| `retrofuturism` | `synthwave` |
-| `brutalism` | `brutalism` |
-| `cyberpunk` | `cyberpunk` |
-| `y2k` | `y2k` |
-| `retro-glass` | `retro-glass` |
-
-`bauhaus` uses the neutral system artwork because the current 12-pack collection
-does not claim a separate Bauhaus pack. Select `synthwave-webapp` explicitly
-with `data-icon-pack` when that focused extension is preferred.
-
-```html
-<section data-ui="retrofuturism" data-icon-pack="synthwave-webapp">
-  <usk-icon name="browser"></usk-icon>
-</section>
-```
-
-## Frame Control
-
-Every icon exposes authored frame hooks:
-
-```html
-<usk-icon name="video"></usk-icon>
-<usk-icon name="video" frame="soft"></usk-icon>
-<usk-icon name="video" frame="none"></usk-icon>
-```
-
-The demo presents the bordered and border-free options. `frame="auto"` is the
-default, `soft` reduces frame emphasis, and `none` removes the outer shell while
-retaining each pack's reference-led object construction. The shared semantic
-silhouette stays recognizable, but material, line, and object cues continue to
-identify the selected pack.
-
-Standalone SVGs are the canonical artwork; build scripts only normalize,
-validate, and package them. The authored direction and approval process are
-documented in
-[`style-source/reference-led-icon-grammar.md`](style-source/reference-led-icon-grammar.md).
-
-## CSS And Sprites
-
-Import the system layer or every pack token layer:
-
-```css
-@import "ui-style-kit-icons/css.css";
-/* Or: @import "ui-style-kit-icons/css/all.css"; */
-```
-
-```html
-<svg class="usk-icon" role="img" aria-label="Dashboard">
-  <use href="/node_modules/ui-style-kit-icons/sprite.svg#usk-icon-dashboard"></use>
-</svg>
-```
-
-Useful public subpaths:
-
-- `ui-style-kit-icons/element`
-- `ui-style-kit-icons/runtime`
-- `ui-style-kit-icons/registry`
-- `ui-style-kit-icons/registry.json`
-- `ui-style-kit-icons/contract.json`
-- `ui-style-kit-icons/css.css`
-- `ui-style-kit-icons/css/all.css`
-- `ui-style-kit-icons/sprite.svg`
-- `ui-style-kit-icons/icons/<icon-id>.svg`
-- `ui-style-kit-icons/packs/<pack-id>/icons/<icon-id>.svg`
-
-## Demo
-
-The live controls require an HTTP server because browsers block ES modules from
-`file://` pages.
-
-```sh
-npm run demo
-```
-
-The GitHub Pages demo verifies these exact development-only companions:
-
-```sh
-npm i -D ui-style-kit-css@2.1.0 interactive-surface-css@1.5.0 layout-style-css@2.1.0
-```
-
-Load their CSS in ownership order, followed by the icon and app layers:
-
-```js
-import "ui-style-kit-css/visual.css";
-import "ui-style-kit-css/interactive-surface-theme.css";
-import "interactive-surface-css/state-core.css";
-import "layout-style-css/min.css";
 import "ui-style-kit-icons/css.css";
 ```
 
-The demo predeclares `@layer demo, ui-style-kit, ly;`. UI Style Kit owns
-theme and native-element paint, Interactive Surface owns opt-in interaction
-states, Layout Style owns composition primitives and pack personalities, and
-`demo.css` owns only gallery-specific sizing and responsive constraints.
-Interactive Surface and Layout Style remain demo-only development dependencies;
-neither is a peer or runtime requirement of `ui-style-kit-icons`.
+```html
+<usk-icon name="home" pack="organic-modern"></usk-icon>
+<usk-icon name="chart" pack="technical-blueprint"></usk-icon>
+<usk-icon name="warehouse" pack="industrial-utility" variant="monochrome"></usk-icon>
+```
 
-Build the exact GitHub Pages artifact with:
+The runtime resolves supported icon aliases such as `chart` to
+`chart-bar`. Unknown icon families fail with a `RangeError` instead of
+silently substituting unrelated artwork.
+
+## Public package surface
+
+- `ui-style-kit-icons/element` — runtime and `<usk-icon>` custom element
+- `ui-style-kit-icons/registry` — generated ESM registry
+- `ui-style-kit-icons/contract.json` — generated semantic contract
+- `ui-style-kit-icons/css.css` — combined family paint layer
+- `ui-style-kit-icons/inline-svg` — browser-safe inline SVG normalization
+- `ui-style-kit-icons/svg/<family>/<icon-id>.svg` — themed artwork
+- `ui-style-kit-icons/monochrome/<family>/<icon-id>.svg` — one-ink artwork
+
+The default family is Organic Modern. Use `pack` or `data-icon-pack` to
+select another family and `variant="monochrome"` for one-ink artwork.
+
+## Runtime API
+
+The package root and `ui-style-kit-icons/runtime` export the same runtime:
+
+```js
+import {
+  getPack,
+  iconNames,
+  normalizeIconName,
+  resolveIconUrl,
+  setAssetBaseUrl,
+  setDefaultPack
+} from "ui-style-kit-icons";
+
+setAssetBaseUrl(new URL("/vendor/ui-style-kit-icons/", location.origin));
+setDefaultPack("technical-blueprint");
+
+const family = getPack();
+const names = iconNames(family.id);
+const canonicalName = normalizeIconName("chart");
+const iconUrl = resolveIconUrl(canonicalName, family.id);
+```
+
+`getAssetBaseUrl()` reads the current asset root. `defineUiStyleIcon()` registers
+the custom element under an alternate tag name when an application cannot use
+the default `usk-icon` name. Registry constants such as `packs`, `packRegistry`,
+`aliases`, and `styleAliases` are also exported for build-time integration.
+
+The custom element accepts these public attributes:
+
+- `name` — canonical icon name or supported alias.
+- `pack` — canonical family ID or supported family alias.
+- `variant` — `themed` or `monochrome`.
+- `label="Accessible name"` — exposes a meaningful icon to assistive technology;
+  omit it when adjacent text already names the action.
+- `asset-base` — overrides the asset root for one element.
+
+## Families
+
+| Family | ID | Family | ID |
+| --- | --- | --- | --- |
+| Minimal SaaS | `minimal-saas` | Industrial Utility | `industrial-utility` |
+| Bento | `bento` | Technical Blueprint | `technical-blueprint` |
+| Maximalist | `maximalist` | Art Deco | `art-deco` |
+| Bauhaus | `bauhaus` | Clay | `clay` |
+| Tactile | `tactile` | Data Terminal | `data-terminal` |
+| Brutalism | `brutalism` | Paper Editorial | `paper-editorial` |
+| Cyberpunk | `cyberpunk` | Neo-Noir | `neo-noir` |
+| Y2K | `y2k` | Neumorphism | `neumorphism` |
+| Retro Glass | `retro-glass` | Retrofuturism | `retrofuturism` |
+| Editorial Lux | `editorial-luxe` | Organic Modern | `organic-modern` |
+
+## Assets and compatibility
+
+`manifest.json` is the source of truth for family metadata, canonical icon
+names, and supported aliases. `reference/asset-hashes.json` locks all 6,960
+SVGs. The paint layer supports 25 palettes in light, dark, and contrast modes.
+
+Theme-aware SVGs use UI Style Kit paint tokens. Monochrome SVGs use
+`currentColor`; inline them when they should inherit surrounding text color.
+For accessible inline use, keep the SVG label when the icon conveys meaning,
+or set `aria-hidden="true"` when adjacent text already provides the label.
+
+The expanded collection adds 94 icons to the approved 80-icon baseline.
+`reference/coverage-map.json` records the published-contract, SYS AppIcon,
+and sampled Lucide mappings used to shape that expansion.
+
+## Demo and development
 
 ```sh
+npm run demo
+npm run build
+npm run contracts:write
+npm run assets:check
 npm run pages:build
 ```
 
-The deployable output is `output/github-pages/`.
+The local demo and GitHub Pages artifact are self-contained. Motion Style CSS
+is vendored only for the demo's transition choreography.
 
-## Verification
-
-```sh
-npm run verify
-npm run check:demo
-```
-
-`check:svg` renders every registered pack across all 10 companion color schemes,
-all three modes, and standalone light/dark surfaces. It checks icon sizing,
-clipping, and graphical contrast. `check:ecosystem` validates the installed
-companion manifests, shared RGB tokens, preset mappings, CDN versions, and SRI.
-
-Before extending the reference-led redesign beyond its eight-icon approval set,
-generate the paired bordered and borderless prototype matrices:
+After changing generated artwork, rebuild and verify the expansion sources:
 
 ```sh
-npm run visual:prototype
+npm run coverage:build
+npm run coverage:check
+npm run demo:build
 ```
 
-Before an npm release:
+Use `npm run coverage:check -- --usage icon-names.json` to validate a consumer's
+canonical icon names and published aliases.
 
-```sh
-npm run release:verify
-npm pack --dry-run --json
-```
-
-Publishing, tagging, and GitHub Pages deployment remain separate explicit
-release actions.
-
-## Project Links
-
-- [Demo](https://foscat.github.io/ui-style-kit-icons/)
-- [Repository](https://github.com/Foscat/ui-style-kit-icons)
-- [Changelog](CHANGELOG.md)
-- [Contributing](CONTRIBUTING.md)
-- [Security](SECURITY.md)
+Before release, run `npm run release:verify` and inspect
+`npm pack --dry-run --json`. Local verification, package publication,
+GitHub Actions, Pages deployment, and live-site acceptance are separate
+evidence classes.

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Checkbox checked" focusable="false" class="usk-icon" data-icon-style="industrial-utility" fill="none" stroke-linejoin="round" stroke-linecap="round">
+  <path d="M6.23 4.16h11.54l2.07 2.07v11.54l-2.07 2.07H6.23l-2.07-2.07V6.23Zm.86 2.04-.89.89v9.82l.89.89h9.82l.89-.89V7.09l-.89-.89Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-industrial-utility-frame, var(--usi-ink, currentColor))"/>
+  <g transform="translate(12 12) scale(0.7) translate(-12 -12)">
+  <path d="M4.55 10.54h2.5l3.16 3.17 6.7-6.7h2.54v2.38l-8.16 8.16H9.15l-4.6-4.6Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-industrial-utility-signal, var(--usi-accent-ink, currentColor))"/>
+  </g>
+</svg>

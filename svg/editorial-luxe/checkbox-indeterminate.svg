@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Checkbox indeterminate" focusable="false" class="usk-icon" data-icon-style="editorial-luxe" fill="none" stroke-linejoin="round" stroke-linecap="round">
+  <path d="M4.55 4.55h14.9v14.9H4.55Z" stroke="currentColor" stroke-width="1.36" style="stroke:var(--usi-editorial-luxe-ink, var(--usi-primary-ink, currentColor))"/>
+  <path d="M4.55 7.3V4.55H7.3m9.4 14.9h2.75V16.7" stroke="currentColor" stroke-width="1.72" style="stroke:var(--usi-editorial-luxe-foil, var(--usi-accent-ink, currentColor))"/>
+  <path d="M7.55 11.13h8.9v1.74h-8.9Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-editorial-luxe-ink, var(--usi-primary-ink, currentColor))"/>
+</svg>

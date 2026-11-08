@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Skip back" focusable="false" class="usk-icon" data-icon-style="retrofuturism" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <g transform="translate(24 0) scale(-1 1)">
+  <path d="M5.15 5.78c0-.91 1.02-1.42 1.75-.89l8.7 6.22a1.1 1.1 0 0 1 0 1.78l-8.7 6.22c-.73.53-1.75.02-1.75-.89Z" fill="currentColor" fill-rule="evenodd"/>
+  <path d="M18.45 6.13v11.74" stroke="currentColor" stroke-width="2.38"/>
+  </g>
+</svg>

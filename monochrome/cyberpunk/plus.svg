@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Plus" focusable="false" class="usk-icon" data-icon-style="cyberpunk" fill="none" stroke-width="1.65" stroke-linejoin="bevel" stroke-linecap="square">
+  <path d="M4.75 12h14.5 M12 4.75v14.5" stroke="currentColor"/>
+  <path d="M16.25 12h3 M12 16.25v3" stroke="currentColor"/>
+  <rect x="16.85" y="5.15" width="2.15" height="2.15" fill="currentColor"/>
+</svg>

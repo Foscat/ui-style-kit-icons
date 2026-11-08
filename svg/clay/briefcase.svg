@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Briefcase" focusable="false" class="usk-icon" data-icon-style="clay" fill="none" stroke-linejoin="round" stroke-linecap="round">
+  <path d="M8.48 7.03V5.87q.02-1.61 1.83-1.65h3.38q1.83 0 1.83 1.65v1.16" fill="none" stroke="currentColor" stroke-width="2.06" style="stroke:var(--usi-clay-rim, var(--usi-ink, currentColor))"/>
+  <path d="M6.72 6.99h10.63q3.72 0 3.72 3.41v5.36q0 3.54-3.72 3.61l-10.63.03q-3.81 0-3.81-3.62v-5.37q0-3.42 3.81-3.42Zm-1.64 4.02v1.54q1.82 1.19 5.53 1.37v1.01h2.78v-1.01q3.69-.18 5.54-1.36V11q-1.9 1.11-5.54 1.32v-.78h-2.78v.78q-3.68-.18-5.53-1.31Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-clay-face, var(--usi-accent-ink, currentColor))"/>
+  <path d="M2.91 15.19q1.02 2.49 3.81 2.49l10.63-.02q2.71 0 3.72-2.48v.58q0 3.54-3.72 3.61l-10.63.03q-3.81 0-3.81-3.62Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-clay-rim, var(--usi-ink, currentColor))"/>
+</svg>

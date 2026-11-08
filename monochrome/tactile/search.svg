@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Search" focusable="false" class="usk-icon" data-icon-style="tactile" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round">
+  <g transform="rotate(-45 9.35 9.3)">
+  <rect x="7.52" y="15" width="3.66" height="7.35" rx="1.35" fill="none"/>
+  <path d="M8.86 18.2v2.6" stroke="none" stroke-width="0.8"/>
+  </g>
+  <path d="M15.65 9.3a6.3 6.3 0 1 1-12.6 0 6.3 6.3 0 1 1 12.6 0ZM13 9.3a3.65 3.65 0 1 0-7.3 0 3.65 3.65 0 1 0 7.3 0Z" fill-rule="evenodd" fill="none" stroke="none"/>
+  <circle cx="9.35" cy="9.3" r="6.3" />
+  <circle cx="9.35" cy="9.3" r="3.65" stroke="currentColor" stroke-width="1.05"/>
+  <path d="M4.44 9.3a4.91 4.91 0 0 1 4.91-4.91" stroke="none" stroke-width="0.86"/>
+  <path d="M14.26 9.3a4.91 4.91 0 0 1-4.91 4.91" stroke="none" stroke-width="0.86"/>
+</svg>

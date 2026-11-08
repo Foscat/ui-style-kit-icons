@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Attachment" focusable="false" class="usk-icon" data-icon-style="paper-editorial" fill="none" stroke-linecap="square" stroke-linejoin="miter">
+  <g stroke-linecap="butt">
+  <path d="M6.42 12.45 13.81 5a4.1 4.1 0 0 1 5.85 5.74l-8.33 8.42a4.84 4.84 0 0 1-6.89-6.8l7.88-7.9" stroke="currentColor" stroke-width="1.8" style="stroke:var(--usi-paper-editorial-ink, var(--usi-ink, currentColor))"/>
+  <path d="m8.1 11.35-2.3 2.37a2.73 2.73 0 0 0 3.89 3.83l7.32-7.44a1.12 1.12 0 0 0-1.61-1.56l-5.48 5.58" stroke="currentColor" stroke-width="1.63" style="stroke:var(--usi-paper-editorial-proof, var(--usi-accent-ink, currentColor))"/>
+  </g>
+</svg>

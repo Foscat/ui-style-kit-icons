@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Truck" focusable="false" class="usk-icon" data-icon-style="neumorphism" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M5.18 5.16h8.05c1.34 0 2.31.9 2.44 2.15h1.52c.98 0 1.71.4 2.27 1.17l1.36 1.9c.46.64.63 1.12.63 1.91v3.41a2.14 2.14 0 0 1-2.14 2.14h-.57v-2.06h.57c.05 0 .08-.03.08-.08v-3.41c0-.32-.05-.5-.23-.74l-1.36-1.9c-.14-.2-.32-.28-.61-.28h-1.51v6.41h.14v2.06H8.03v-2.06h5.59V7.65c0-.23-.16-.43-.39-.43H5.18c-.3 0-.57.21-.57.51v7.54c0 .29.22.51.51.51h.35v2.06h-.35a2.57 2.57 0 0 1-2.57-2.57V7.73a2.57 2.57 0 0 1 2.63-2.57Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+  <path d="M6.58 16.28a2.44 2.44 0 1 1 0 4.88 2.44 2.44 0 1 1 0-4.88Zm0 1.68a.76.76 0 1 0 0 1.52.76.76 0 1 0 0-1.52Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+  <g transform="translate(10.58 0)">
+  <path d="M6.58 16.28a2.44 2.44 0 1 1 0 4.88 2.44 2.44 0 1 1 0-4.88Zm0 1.68a.76.76 0 1 0 0 1.52.76.76 0 1 0 0-1.52Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+  </g>
+</svg>

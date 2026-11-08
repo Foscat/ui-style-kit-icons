@@ -61,9 +61,12 @@ try {
     "ui-style-kit-icons/contract.json",
     "ui-style-kit-icons/css.css",
     "ui-style-kit-icons/css/all.css",
+    "ui-style-kit-icons/inline-svg",
     "ui-style-kit-icons/sprite.svg",
-    "ui-style-kit-icons/icons/home.svg",
-    "ui-style-kit-icons/packs/synthwave/icons/cassette.svg"
+    "ui-style-kit-icons/sprites/organic-modern.svg",
+    "ui-style-kit-icons/inline-sprites/organic-modern.inline.svg",
+    "ui-style-kit-icons/svg/organic-modern/home.svg",
+    "ui-style-kit-icons/monochrome/organic-modern/home.svg"
   ];
 
   for (const entrypoint of entrypoints) {
@@ -77,12 +80,31 @@ try {
     pathToFileURL(consumerRequire.resolve("ui-style-kit-icons/registry")).href
   );
 
-  assert.equal(registry.packs.length, 12);
+  assert.equal(registry.packs.length, 20);
   assert.equal(registry.packageVersion, packageJson.version);
   assert.equal(runtime.packageVersion, registry.packageVersion);
   assert.equal(runtime.contractVersion, registry.contractVersion);
-  assert.equal(runtime.getPack("retrofuturism").id, "synthwave");
-  assert.equal(runtime.getPack("bauhaus").id, "system");
+  assert.equal(runtime.getPack().id, "organic-modern");
+  assert.equal(runtime.getPack("editorial").id, "editorial-luxe");
+  assert.equal(runtime.getPack("retrofuturism").id, "retrofuturism");
+  assert.match(
+    runtime.resolveIconUrl("home", "organic-modern"),
+    /svg\/organic-modern\/home\.svg$/u
+  );
+  assert.match(
+    runtime.resolveIconUrl("chart", "technical-blueprint"),
+    /svg\/technical-blueprint\/chart-bar\.svg$/u
+  );
+  assert.match(
+    runtime.resolveIconUrl(
+      "home",
+      "organic-modern",
+      undefined,
+      "monochrome"
+    ),
+    /monochrome\/organic-modern\/home\.svg$/u
+  );
+  assert.throws(() => runtime.getPack("synthwave"), RangeError);
 
   // The optional peer must not be required for a clean standalone install.
   await assert.rejects(
@@ -99,6 +121,13 @@ try {
   }
 }
 
+/**
+ * Runs npm using the current npm launcher when available.
+ *
+ * @param {string[]} args npm arguments.
+ * @param {string} [cwd=root] Working directory.
+ * @returns {string} Standard output.
+ */
 function runNpm(args, cwd = root) {
   const npmExecPath = process.env.npm_execpath;
   const command = npmExecPath
@@ -124,6 +153,12 @@ function runNpm(args, cwd = root) {
   return result.stdout;
 }
 
+/**
+ * Removes only the temporary consumer project created by this check.
+ *
+ * @param {string} directory Temporary project directory.
+ * @returns {Promise<void>}
+ */
 async function removeSafeTemporaryDirectory(directory) {
   const expectedRoot = `${tmpdir()}${sep}${prefix}`;
 

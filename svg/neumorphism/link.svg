@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Link" focusable="false" class="usk-icon" data-icon-style="neumorphism" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <g transform="rotate(-36 12 12)">
+  <path d="M10.1 16.1H7.05a4.04 4.04 0 0 1 0-8.08h2.41m.64 8.08a4.04 4.04 0 0 0 2.14-7.48" stroke="currentColor" stroke-width="2.45" style="stroke:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+  <path d="M13.9 7.9h3.05a4.04 4.04 0 0 1 0 8.08h-2.41m-.64-8.08a4.04 4.04 0 0 0-2.14 7.48" stroke="currentColor" stroke-width="2.45" style="stroke:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+  </g>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Save" focusable="false" class="usk-icon" data-icon-style="tactile" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M5.7 3.7h10.55l4.05 4.05V18.3q0 2-2 2H5.7q-2 0-2-2V5.7q0-2 2-2Z" fill="none"/>
+  <path d="M7.8 3.8v4.65q0 .85.85.85h6.7q.85 0 .85-.85V3.8" fill="none" stroke="currentColor" stroke-width="1.25"/>
+  <path d="M13.55 5.6v1.8" stroke="currentColor" stroke-width="1.4"/>
+  <path d="M7.55 20.2v-5.45q0-1.15 1.15-1.15h6.6q1.15 0 1.15 1.15v5.45" fill="none" stroke="currentColor" stroke-width="1.25"/>
+  <path d="M5.3 11.25v6.55" stroke="none" stroke-width="0.75"/>
+  <path d="m17.05 6.4 1.65 1.75v8.6" stroke="none" stroke-width="1"/>
+</svg>

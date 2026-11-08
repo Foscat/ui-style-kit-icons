@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Cart" focusable="false" class="usk-icon" data-icon-style="neumorphism" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M3.49 4.25h2.5c.9 0 1.39.51 1.62 1.23l.38 1.18h11.14a1.87 1.87 0 0 1 1.8 2.34l-1.31 4.64a2.71 2.71 0 0 1-2.61 1.98h-6.46a2.65 2.65 0 0 1-2.54-1.91L5.85 6.28H3.49a1.02 1.02 0 1 1 0-2.03Zm5.14 4.45 1.36 4.45c.08.27.3.43.56.43h6.46c.31 0 .53-.15.62-.45l1.25-4.43Z" fill="currentColor" fill-rule="evenodd"/>
+  <path d="M10.66 17.34a1.91 1.91 0 1 1 0 3.82 1.91 1.91 0 1 1 0-3.82Zm6.45 0a1.91 1.91 0 1 1 0 3.82 1.91 1.91 0 1 1 0-3.82Z" fill="currentColor" fill-rule="evenodd"/>
+</svg>

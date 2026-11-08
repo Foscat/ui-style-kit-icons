@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Map pin" focusable="false" class="usk-icon" data-icon-style="y2k" fill="none" stroke-width="1.65" stroke-linejoin="round" stroke-linecap="round">
+  <path d="M12 3.2c4.1 0 6.95 2.85 6.95 6.85 0 4.25-4.2 8.5-6.05 10.2a1.32 1.32 0 0 1-1.8 0c-1.85-1.7-6.05-5.95-6.05-10.2C5.05 6.05 7.9 3.2 12 3.2Z" stroke="currentColor" fill="none" style="stroke:var(--usi-y2k-shell, var(--usi-primary-ink, currentColor));fill:var(--usi-y2k-gel, none)"/>
+  <path d="M14.75 9.8a2.75 2.75 0 1 1-5.5 0 2.75 2.75 0 1 1 5.5 0Z" stroke="currentColor" stroke-width="1.7" style="stroke:var(--usi-y2k-pop, var(--usi-accent-ink, currentColor))"/>
+  <path d="M7.35 9.8c0-1.55.7-2.85 2.05-3.65" stroke="none" stroke-width="1.15" style="stroke:var(--usi-y2k-shine, none)"/>
+</svg>

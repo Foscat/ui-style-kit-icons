@@ -1,0 +1,602 @@
+{
+  "midnight-gold/light": {
+    "brutalism-body": "#b8872f",
+    "brutalism-accent": "#22314f",
+    "brutalism-detail": "#172033",
+    "brutalism-warning": "#a76a00",
+    "brutalism-success": "#2f7d54",
+    "brutalism-danger": "#b93f3f"
+  },
+  "midnight-gold/dark": {
+    "brutalism-body": "#d6a84f",
+    "brutalism-accent": "#6f86b8",
+    "brutalism-detail": "#f3d27a",
+    "brutalism-warning": "#ffcb5b",
+    "brutalism-success": "#6bd69c",
+    "brutalism-danger": "#ff7b7b"
+  },
+  "midnight-gold/contrast": {
+    "brutalism-body": "#ffd400",
+    "brutalism-accent": "#00d9ff",
+    "brutalism-detail": "#ffffff",
+    "brutalism-warning": "#ffbf00",
+    "brutalism-success": "#00ff75",
+    "brutalism-danger": "#ff4d4d"
+  },
+  "ocean-steel/light": {
+    "brutalism-body": "#087d9d",
+    "brutalism-accent": "#39566b",
+    "brutalism-detail": "#10242e",
+    "brutalism-warning": "#a76500",
+    "brutalism-success": "#267a5c",
+    "brutalism-danger": "#b64646"
+  },
+  "ocean-steel/dark": {
+    "brutalism-body": "#36c4dd",
+    "brutalism-accent": "#8cb7c9",
+    "brutalism-detail": "#e9fbff",
+    "brutalism-warning": "#ffc061",
+    "brutalism-success": "#67d8a6",
+    "brutalism-danger": "#ff7b7b"
+  },
+  "ocean-steel/contrast": {
+    "brutalism-body": "#00e5ff",
+    "brutalism-accent": "#ffff00",
+    "brutalism-detail": "#ffffff",
+    "brutalism-warning": "#ffd000",
+    "brutalism-success": "#00ff90",
+    "brutalism-danger": "#ff3b3b"
+  },
+  "forest-moss/light": {
+    "brutalism-body": "#3f7d3a",
+    "brutalism-accent": "#182417",
+    "brutalism-detail": "#182417",
+    "brutalism-warning": "#9a6a00",
+    "brutalism-success": "#2f7d54",
+    "brutalism-danger": "#ad4545"
+  },
+  "forest-moss/dark": {
+    "brutalism-body": "#82d27a",
+    "brutalism-accent": "#d2bd72",
+    "brutalism-detail": "#edf7e8",
+    "brutalism-warning": "#ffd263",
+    "brutalism-success": "#75dfa7",
+    "brutalism-danger": "#ff8585"
+  },
+  "forest-moss/contrast": {
+    "brutalism-body": "#6cff5f",
+    "brutalism-accent": "#ffdf00",
+    "brutalism-detail": "#b6ff00",
+    "brutalism-warning": "#ffd000",
+    "brutalism-success": "#00ff75",
+    "brutalism-danger": "#ff4040"
+  },
+  "sunset-ember/light": {
+    "brutalism-body": "#c4512b",
+    "brutalism-accent": "#7c3f5c",
+    "brutalism-detail": "#2a1711",
+    "brutalism-warning": "#b86f00",
+    "brutalism-success": "#317a57",
+    "brutalism-danger": "#bd3d3d"
+  },
+  "sunset-ember/dark": {
+    "brutalism-body": "#ff8a5b",
+    "brutalism-accent": "#e38ab5",
+    "brutalism-detail": "#fff0e8",
+    "brutalism-warning": "#ffd166",
+    "brutalism-success": "#70d7a3",
+    "brutalism-danger": "#ff7777"
+  },
+  "sunset-ember/contrast": {
+    "brutalism-body": "#ff6a00",
+    "brutalism-accent": "#ff4fb8",
+    "brutalism-detail": "#ffd000",
+    "brutalism-warning": "#ffbf00",
+    "brutalism-success": "#00ff90",
+    "brutalism-danger": "#ff3030"
+  },
+  "royal-plum/light": {
+    "brutalism-body": "#7b3fa0",
+    "brutalism-accent": "#c05ac6",
+    "brutalism-detail": "#24152d",
+    "brutalism-warning": "#a66a00",
+    "brutalism-success": "#317c5c",
+    "brutalism-danger": "#b7415f"
+  },
+  "royal-plum/dark": {
+    "brutalism-body": "#d891f2",
+    "brutalism-accent": "#faecff",
+    "brutalism-detail": "#faecff",
+    "brutalism-warning": "#ffd166",
+    "brutalism-success": "#76dca9",
+    "brutalism-danger": "#ff7a9c"
+  },
+  "royal-plum/contrast": {
+    "brutalism-body": "#e45cff",
+    "brutalism-accent": "#00d9ff",
+    "brutalism-detail": "#ff00f5",
+    "brutalism-warning": "#ffe100",
+    "brutalism-success": "#00ff90",
+    "brutalism-danger": "#ff3f6e"
+  },
+  "graphite-cyan/light": {
+    "brutalism-body": "#007c89",
+    "brutalism-accent": "#3f4850",
+    "brutalism-detail": "#171d21",
+    "brutalism-warning": "#a76700",
+    "brutalism-success": "#287a5b",
+    "brutalism-danger": "#b64040"
+  },
+  "graphite-cyan/dark": {
+    "brutalism-body": "#3ed9e8",
+    "brutalism-accent": "#aab5bc",
+    "brutalism-detail": "#7bf3ff",
+    "brutalism-warning": "#ffc861",
+    "brutalism-success": "#6edaa5",
+    "brutalism-danger": "#ff7d7d"
+  },
+  "graphite-cyan/contrast": {
+    "brutalism-body": "#00f0ff",
+    "brutalism-accent": "#f2f2f2",
+    "brutalism-detail": "#ffffff",
+    "brutalism-warning": "#ffd000",
+    "brutalism-success": "#00ff75",
+    "brutalism-danger": "#ff4040"
+  },
+  "desert-sage/light": {
+    "brutalism-body": "#8c6a3d",
+    "brutalism-accent": "#2b2419",
+    "brutalism-detail": "#2b2419",
+    "brutalism-warning": "#a66b00",
+    "brutalism-success": "#517d48",
+    "brutalism-danger": "#ae4a3f"
+  },
+  "desert-sage/dark": {
+    "brutalism-body": "#d9b878",
+    "brutalism-accent": "#f8efdf",
+    "brutalism-detail": "#f8efdf",
+    "brutalism-warning": "#ffd166",
+    "brutalism-success": "#8ddb7d",
+    "brutalism-danger": "#ff887a"
+  },
+  "desert-sage/contrast": {
+    "brutalism-body": "#ffd166",
+    "brutalism-accent": "#9dff6b",
+    "brutalism-detail": "#ffb000",
+    "brutalism-warning": "#ffe100",
+    "brutalism-success": "#00ff75",
+    "brutalism-danger": "#ff4d4d"
+  },
+  "rose-quartz/light": {
+    "brutalism-body": "#b8476d",
+    "brutalism-accent": "#7a557e",
+    "brutalism-detail": "#2b151d",
+    "brutalism-warning": "#a66a00",
+    "brutalism-success": "#317a5c",
+    "brutalism-danger": "#bd3f55"
+  },
+  "rose-quartz/dark": {
+    "brutalism-body": "#ff8fb3",
+    "brutalism-accent": "#fff0f4",
+    "brutalism-detail": "#fff0f4",
+    "brutalism-warning": "#ffd166",
+    "brutalism-success": "#77dba9",
+    "brutalism-danger": "#ff7890"
+  },
+  "rose-quartz/contrast": {
+    "brutalism-body": "#ff4f93",
+    "brutalism-accent": "#f000ff",
+    "brutalism-detail": "#ff8ab3",
+    "brutalism-warning": "#ffe100",
+    "brutalism-success": "#00ff90",
+    "brutalism-danger": "#ff3030"
+  },
+  "cyber-lime/light": {
+    "brutalism-body": "#5f9f1f",
+    "brutalism-accent": "#147f86",
+    "brutalism-detail": "#172214",
+    "brutalism-warning": "#9c6800",
+    "brutalism-success": "#2f7d54",
+    "brutalism-danger": "#b34141"
+  },
+  "cyber-lime/dark": {
+    "brutalism-body": "#a8ff3d",
+    "brutalism-accent": "#3debf2",
+    "brutalism-detail": "#efffe9",
+    "brutalism-warning": "#ffda62",
+    "brutalism-success": "#6ff0a8",
+    "brutalism-danger": "#ff7777"
+  },
+  "cyber-lime/contrast": {
+    "brutalism-body": "#aaff00",
+    "brutalism-accent": "#00f0ff",
+    "brutalism-detail": "#ffffff",
+    "brutalism-warning": "#ffe100",
+    "brutalism-success": "#00ff75",
+    "brutalism-danger": "#ff3030"
+  },
+  "arctic-indigo/light": {
+    "brutalism-body": "#405eb8",
+    "brutalism-accent": "#141b2e",
+    "brutalism-detail": "#141b2e",
+    "brutalism-warning": "#a66a00",
+    "brutalism-success": "#2f7d54",
+    "brutalism-danger": "#b64052"
+  },
+  "arctic-indigo/dark": {
+    "brutalism-body": "#91a8ff",
+    "brutalism-accent": "#edf3ff",
+    "brutalism-detail": "#edf3ff",
+    "brutalism-warning": "#ffd166",
+    "brutalism-success": "#72dba6",
+    "brutalism-danger": "#ff7d91"
+  },
+  "arctic-indigo/contrast": {
+    "brutalism-body": "#6f8cff",
+    "brutalism-accent": "#00d9ff",
+    "brutalism-detail": "#b8c4ff",
+    "brutalism-warning": "#ffe100",
+    "brutalism-success": "#00ff90",
+    "brutalism-danger": "#ff3f5f"
+  },
+  "chrome-navy/light": {
+    "brutalism-body": "#1f3a5f",
+    "brutalism-accent": "#3e6b8e",
+    "brutalism-detail": "#0d1b2a",
+    "brutalism-warning": "#a46a00",
+    "brutalism-success": "#1f6b53",
+    "brutalism-danger": "#b23c3c"
+  },
+  "chrome-navy/dark": {
+    "brutalism-body": "#7ea9d3",
+    "brutalism-accent": "#c7d5e5",
+    "brutalism-detail": "#eff4fa",
+    "brutalism-warning": "#ffd17a",
+    "brutalism-success": "#78d8b5",
+    "brutalism-danger": "#ff9090"
+  },
+  "chrome-navy/contrast": {
+    "brutalism-body": "#9cc5f0",
+    "brutalism-accent": "#00e6ff",
+    "brutalism-detail": "#e6f0ff",
+    "brutalism-warning": "#ffd400",
+    "brutalism-success": "#00ff90",
+    "brutalism-danger": "#ff5c5c"
+  },
+  "recycled-emerald/light": {
+    "brutalism-body": "#0e5b4f",
+    "brutalism-accent": "#0e2c29",
+    "brutalism-detail": "#0e2c29",
+    "brutalism-warning": "#966300",
+    "brutalism-success": "#157347",
+    "brutalism-danger": "#b93f4f"
+  },
+  "recycled-emerald/dark": {
+    "brutalism-body": "#45d1af",
+    "brutalism-accent": "#8bffd6",
+    "brutalism-detail": "#ecfbf7",
+    "brutalism-warning": "#ffd27a",
+    "brutalism-success": "#8de5b8",
+    "brutalism-danger": "#ff9aa8"
+  },
+  "recycled-emerald/contrast": {
+    "brutalism-body": "#38f0b9",
+    "brutalism-accent": "#00f0ff",
+    "brutalism-detail": "#a0ffd9",
+    "brutalism-warning": "#ffd400",
+    "brutalism-success": "#00ff90",
+    "brutalism-danger": "#ff6680"
+  },
+  "industrial-orange/light": {
+    "brutalism-body": "#b74e16",
+    "brutalism-accent": "#2b2b2b",
+    "brutalism-detail": "#181512",
+    "brutalism-warning": "#a46a00",
+    "brutalism-success": "#2f7d54",
+    "brutalism-danger": "#b23c3c"
+  },
+  "industrial-orange/dark": {
+    "brutalism-body": "#ff8a3d",
+    "brutalism-accent": "#c6bfb6",
+    "brutalism-detail": "#f7f2eb",
+    "brutalism-warning": "#ffd27a",
+    "brutalism-success": "#8bdfb2",
+    "brutalism-danger": "#ff9898"
+  },
+  "industrial-orange/contrast": {
+    "brutalism-body": "#ff9a42",
+    "brutalism-accent": "#f4f1ec",
+    "brutalism-detail": "#ffffff",
+    "brutalism-warning": "#ffd400",
+    "brutalism-success": "#00ff90",
+    "brutalism-danger": "#ff5c5c"
+  },
+  "performance-red/light": {
+    "brutalism-body": "#c8102e",
+    "brutalism-accent": "#1f1f1f",
+    "brutalism-detail": "#e84c61",
+    "brutalism-warning": "#a46a00",
+    "brutalism-success": "#2f7d54",
+    "brutalism-danger": "#a80f29"
+  },
+  "performance-red/dark": {
+    "brutalism-body": "#ff4c66",
+    "brutalism-accent": "#d1d3d8",
+    "brutalism-detail": "#ff8394",
+    "brutalism-warning": "#ffd27a",
+    "brutalism-success": "#8fdfb6",
+    "brutalism-danger": "#ff7f90"
+  },
+  "performance-red/contrast": {
+    "brutalism-body": "#ff3656",
+    "brutalism-accent": "#f2f2f2",
+    "brutalism-detail": "#ff95a3",
+    "brutalism-warning": "#ffd400",
+    "brutalism-success": "#00ff90",
+    "brutalism-danger": "#ff6a7d"
+  },
+  "heritage-brass/light": {
+    "brutalism-body": "#6b0f1a",
+    "brutalism-accent": "#111111",
+    "brutalism-detail": "#896934",
+    "brutalism-warning": "#a06b13",
+    "brutalism-success": "#2f7d54",
+    "brutalism-danger": "#b23c3c"
+  },
+  "heritage-brass/dark": {
+    "brutalism-body": "#c98a5d",
+    "brutalism-accent": "#f6ebd7",
+    "brutalism-detail": "#fbf5ec",
+    "brutalism-warning": "#ffd27a",
+    "brutalism-success": "#98e0b6",
+    "brutalism-danger": "#ffa09a"
+  },
+  "heritage-brass/contrast": {
+    "brutalism-body": "#c88a36",
+    "brutalism-accent": "#fff3d9",
+    "brutalism-detail": "#ffd36b",
+    "brutalism-warning": "#ffd400",
+    "brutalism-success": "#00ff90",
+    "brutalism-danger": "#ff6b6b"
+  },
+  "service-blue-red/light": {
+    "brutalism-body": "#0d3b66",
+    "brutalism-accent": "#d62b2b",
+    "brutalism-detail": "#e95a5a",
+    "brutalism-warning": "#a46a00",
+    "brutalism-success": "#2f7d54",
+    "brutalism-danger": "#c62828"
+  },
+  "service-blue-red/dark": {
+    "brutalism-body": "#6ca9e3",
+    "brutalism-accent": "#ff6a6a",
+    "brutalism-detail": "#ff9a9a",
+    "brutalism-warning": "#ffd27a",
+    "brutalism-success": "#8fdfb6",
+    "brutalism-danger": "#ff8f8f"
+  },
+  "service-blue-red/contrast": {
+    "brutalism-body": "#66b5ff",
+    "brutalism-accent": "#ff6666",
+    "brutalism-detail": "#ffaaaa",
+    "brutalism-warning": "#ffd400",
+    "brutalism-success": "#00ff90",
+    "brutalism-danger": "#ff5c5c"
+  },
+  "newsprint-crimson/light": {
+    "brutalism-body": "#7a2329",
+    "brutalism-accent": "#865f50",
+    "brutalism-detail": "#2c2622",
+    "brutalism-warning": "#9a6500",
+    "brutalism-success": "#2f7252",
+    "brutalism-danger": "#a52a32"
+  },
+  "newsprint-crimson/dark": {
+    "brutalism-body": "#d87c83",
+    "brutalism-accent": "#c8b9a6",
+    "brutalism-detail": "#f4ebdd",
+    "brutalism-warning": "#ffd27a",
+    "brutalism-success": "#8ad6af",
+    "brutalism-danger": "#ff9a9a"
+  },
+  "newsprint-crimson/contrast": {
+    "brutalism-body": "#ff7a84",
+    "brutalism-accent": "#fff3da",
+    "brutalism-detail": "#ffb3a7",
+    "brutalism-warning": "#ffd400",
+    "brutalism-success": "#00ff90",
+    "brutalism-danger": "#ff6666"
+  },
+  "foundry-amber/light": {
+    "brutalism-body": "#a95700",
+    "brutalism-accent": "#3a3a3c",
+    "brutalism-detail": "#1d1c1a",
+    "brutalism-warning": "#9a6500",
+    "brutalism-success": "#2f7252",
+    "brutalism-danger": "#ad3636"
+  },
+  "foundry-amber/dark": {
+    "brutalism-body": "#f0a03a",
+    "brutalism-accent": "#aeb3b8",
+    "brutalism-detail": "#ffd17a",
+    "brutalism-warning": "#ffd27a",
+    "brutalism-success": "#8ad6af",
+    "brutalism-danger": "#ff9999"
+  },
+  "foundry-amber/contrast": {
+    "brutalism-body": "#ffb000",
+    "brutalism-accent": "#f2f2f2",
+    "brutalism-detail": "#ffd36b",
+    "brutalism-warning": "#ffd400",
+    "brutalism-success": "#00ff90",
+    "brutalism-danger": "#ff6666"
+  },
+  "soft-orchid/light": {
+    "brutalism-body": "#6552b8",
+    "brutalism-accent": "#241a3a",
+    "brutalism-detail": "#241a3a",
+    "brutalism-warning": "#986400",
+    "brutalism-success": "#3e7a62",
+    "brutalism-danger": "#a83a60"
+  },
+  "soft-orchid/dark": {
+    "brutalism-body": "#a994f2",
+    "brutalism-accent": "#e7c6ff",
+    "brutalism-detail": "#f5f0ff",
+    "brutalism-warning": "#ffd27a",
+    "brutalism-success": "#91dfb8",
+    "brutalism-danger": "#ff99b7"
+  },
+  "soft-orchid/contrast": {
+    "brutalism-body": "#b89cff",
+    "brutalism-accent": "#71ffe2",
+    "brutalism-detail": "#ffd0f2",
+    "brutalism-warning": "#ffd400",
+    "brutalism-success": "#00ff90",
+    "brutalism-danger": "#ff668b"
+  },
+  "electric-noir/light": {
+    "brutalism-body": "#8c1a78",
+    "brutalism-accent": "#213a55",
+    "brutalism-detail": "#2e7590",
+    "brutalism-warning": "#986400",
+    "brutalism-success": "#2f7252",
+    "brutalism-danger": "#a8285a"
+  },
+  "electric-noir/dark": {
+    "brutalism-body": "#e24ac4",
+    "brutalism-accent": "#4ba6c9",
+    "brutalism-detail": "#f6f4fa",
+    "brutalism-warning": "#ffd27a",
+    "brutalism-success": "#8ad6af",
+    "brutalism-danger": "#ff7a9f"
+  },
+  "electric-noir/contrast": {
+    "brutalism-body": "#ff59d7",
+    "brutalism-accent": "#00d7ff",
+    "brutalism-detail": "#ffffff",
+    "brutalism-warning": "#ffd400",
+    "brutalism-success": "#00ff90",
+    "brutalism-danger": "#ff668b"
+  },
+  "signal-yellow/light": {
+    "brutalism-body": "#704f00",
+    "brutalism-accent": "#25324e",
+    "brutalism-detail": "#211d0c",
+    "brutalism-warning": "#905c00",
+    "brutalism-success": "#227a4b",
+    "brutalism-danger": "#b13636"
+  },
+  "signal-yellow/dark": {
+    "brutalism-body": "#ffd83b",
+    "brutalism-accent": "#8ec6ff",
+    "brutalism-detail": "#fff9de",
+    "brutalism-warning": "#ffc23e",
+    "brutalism-success": "#67d997",
+    "brutalism-danger": "#ff7777"
+  },
+  "signal-yellow/contrast": {
+    "brutalism-body": "#ffd600",
+    "brutalism-accent": "#00d9ff",
+    "brutalism-detail": "#ffffff",
+    "brutalism-warning": "#ffbf00",
+    "brutalism-success": "#00ff90",
+    "brutalism-danger": "#ff4d4d"
+  },
+  "botanical-green/light": {
+    "brutalism-body": "#0d7e42",
+    "brutalism-accent": "#793058",
+    "brutalism-detail": "#0e2617",
+    "brutalism-warning": "#966000",
+    "brutalism-success": "#187441",
+    "brutalism-danger": "#b23c46"
+  },
+  "botanical-green/dark": {
+    "brutalism-body": "#52de8b",
+    "brutalism-accent": "#ee94c7",
+    "brutalism-detail": "#ebfcf1",
+    "brutalism-warning": "#ffcd5b",
+    "brutalism-success": "#64da95",
+    "brutalism-danger": "#ff7e89"
+  },
+  "botanical-green/contrast": {
+    "brutalism-body": "#00ff70",
+    "brutalism-accent": "#ff5cb2",
+    "brutalism-detail": "#67ffa6",
+    "brutalism-warning": "#ffd400",
+    "brutalism-success": "#00ff75",
+    "brutalism-danger": "#ff4d5b"
+  },
+  "cobalt-electric/light": {
+    "brutalism-body": "#0052cc",
+    "brutalism-accent": "#b53948",
+    "brutalism-detail": "#5279ff",
+    "brutalism-warning": "#976000",
+    "brutalism-success": "#23794e",
+    "brutalism-danger": "#b4374a"
+  },
+  "cobalt-electric/dark": {
+    "brutalism-body": "#6f95ff",
+    "brutalism-accent": "#ff8593",
+    "brutalism-detail": "#eff4ff",
+    "brutalism-warning": "#ffcd5b",
+    "brutalism-success": "#69db9f",
+    "brutalism-danger": "#ff798b"
+  },
+  "cobalt-electric/contrast": {
+    "brutalism-body": "#4c85ff",
+    "brutalism-accent": "#ff697d",
+    "brutalism-detail": "#84a8ff",
+    "brutalism-warning": "#ffd400",
+    "brutalism-success": "#00ff90",
+    "brutalism-danger": "#ff5c70"
+  },
+  "stone-graphite/light": {
+    "brutalism-body": "#383c3a",
+    "brutalism-accent": "#6e7270",
+    "brutalism-detail": "#1b1d1c",
+    "brutalism-warning": "#915e00",
+    "brutalism-success": "#30734f",
+    "brutalism-danger": "#a83c3c"
+  },
+  "stone-graphite/dark": {
+    "brutalism-body": "#d0d4d1",
+    "brutalism-accent": "#a4aaa6",
+    "brutalism-detail": "#f5f6f5",
+    "brutalism-warning": "#f2c570",
+    "brutalism-success": "#82d2a5",
+    "brutalism-danger": "#f08989"
+  },
+  "stone-graphite/contrast": {
+    "brutalism-body": "#ffffff",
+    "brutalism-accent": "#cdcdcd",
+    "brutalism-detail": "#cdcdcd",
+    "brutalism-warning": "#ffd400",
+    "brutalism-success": "#00ff90",
+    "brutalism-danger": "#ff5c5c"
+  },
+  "walnut-clay/light": {
+    "brutalism-body": "#704330",
+    "brutalism-accent": "#be6f52",
+    "brutalism-detail": "#31241d",
+    "brutalism-warning": "#935b00",
+    "brutalism-success": "#35754c",
+    "brutalism-danger": "#ad3d37"
+  },
+  "walnut-clay/dark": {
+    "brutalism-body": "#da9e7c",
+    "brutalism-accent": "#faf1e9",
+    "brutalism-detail": "#faf1e9",
+    "brutalism-warning": "#ffcb64",
+    "brutalism-success": "#85d6a4",
+    "brutalism-danger": "#ff8780"
+  },
+  "walnut-clay/contrast": {
+    "brutalism-body": "#ffae80",
+    "brutalism-accent": "#d0eaa6",
+    "brutalism-detail": "#ffffff",
+    "brutalism-warning": "#ffd400",
+    "brutalism-success": "#00ff90",
+    "brutalism-danger": "#ff6660"
+  }
+}

@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Plus" focusable="false" class="usk-icon" data-icon-style="neo-noir" fill="none" stroke-linecap="butt" stroke-linejoin="bevel">
+  <path d="M12.2 3.85h3.03l-1.32 6.63h6.51l-.6 3.04h-6.51l-1.31 6.63H8.97l1.32-6.63H3.58l.61-3.04h6.69Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neo-noir-ink, var(--usi-ink, currentColor))"/>
+  <path d="M13.91 10.48h6.51l-.6 3.04h-6.51Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neo-noir-light, var(--usi-accent-ink, currentColor))"/>
+</svg>

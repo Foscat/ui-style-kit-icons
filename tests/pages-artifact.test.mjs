@@ -6,70 +6,64 @@ import { fileURLToPath } from "node:url";
 
 const root = fileURLToPath(new URL("..", import.meta.url));
 const pages = join(root, "output", "github-pages");
-// The project-site base must stay aligned with the current GitHub repository slug.
 const pagesUrl = "https://foscat.github.io/ui-style-kit-icons/";
-const repositoryUrl = "https://github.com/Foscat/ui-style-kit-icons";
 
-test("Pages artifact has a deployable root", async () => {
-  for (const path of [
+test("Pages artifact publishes the self-contained Collection 01 studio", async () => {
+  for (const relativePath of [
     ".nojekyll",
     "index.html",
     "404.html",
-    "demo.css",
-    "demo.js",
     "robots.txt",
     "sitemap.xml",
     "site.webmanifest",
-    "llms.txt",
-    "assets/favicon.svg",
-    "assets/social-card.png",
-    "contract/icon-contract.json",
-    "dist/ui-style-kit-icons.js",
-    "dist/registry.json",
-    "icons/home.svg",
-    "packs/neumorphism/icons/home.svg"
+    "assets/catalog.js",
+    "assets/demo.js",
+    "assets/icon-paint.css",
+    "assets/inline-svg.js",
+    "assets/brand/favicon.svg",
+    "assets/brand/ui-style-kit-icons-social-preview.png",
+    "assets/vendor/ui-style-kit-css/visual.css",
+    "assets/vendor/motion-style-css/motion.js"
   ]) {
-    await access(join(pages, path));
+    await access(join(pages, relativePath));
   }
 
-  await assert.rejects(access(join(pages, "assets", "demo")));
-  await assert.rejects(access(join(pages, "assets", "scripts")));
+  await assert.rejects(access(join(pages, "packs")));
+  await assert.rejects(access(join(pages, "icons")));
+  await assert.rejects(access(join(pages, "style-source")));
 });
 
-test("Pages index contains SEO and pre-rendered icon content", async () => {
+test("Pages metadata and catalog match the renamed repository and new collection", async () => {
   const html = await readFile(join(pages, "index.html"), "utf8");
-
-  assert.match(html, /<link rel="canonical"/);
-  assert.match(html, /application\/ld\+json/);
-  assert.match(html, /property="og:image"/);
-  assert.match(html, /name="twitter:card"/);
-  assert.match(html, /name="robots"/);
-  assert.match(html, /UI Style Kit CSS/);
-  assert.match(html, /Layout Style CSS/);
-  assert.match(html, /Interactive Surface CSS/);
-  assert.match(html, new RegExp(escapeRegExp(pagesUrl), "u"));
-  assert.match(html, new RegExp(escapeRegExp(repositoryUrl), "u"));
-  assert.doesNotMatch(html, /foscat\.github\.io\/ui-style-kit-css-icons/u);
-  assert.doesNotMatch(html, /github\.com\/Foscat\/ui-style-kit-css-icons/u);
-  assert.equal((html.match(/\bdata-icon-id="/g) ?? []).length, 64);
-  assert.doesNotMatch(html, /\.\.\/dist\//);
-  assert.doesNotMatch(html, /0\.3\.0/);
-});
-
-test("Pages metadata uses the repository deployment base", async () => {
+  const catalog = await readFile(join(pages, "assets", "catalog.js"), "utf8");
   const robots = await readFile(join(pages, "robots.txt"), "utf8");
   const sitemap = await readFile(join(pages, "sitemap.xml"), "utf8");
-  const manifest = JSON.parse(
+  const webManifest = JSON.parse(
     await readFile(join(pages, "site.webmanifest"), "utf8")
   );
 
+  assert.match(html, new RegExp(escapeRegExp(pagesUrl), "u"));
+  assert.match(html, /174 UI symbols across 20 icon families/u);
+  assert.match(html, /property="og:image"/u);
+  assert.doesNotMatch(html, /ui-style-kit-css-icons/u);
+  assert.match(catalog, /"organic-modern"/u);
+  assert.match(catalog, /"editorial-luxe"/u);
+  assert.match(catalog, /"retrofuturism"/u);
+  assert.match(catalog, /"ste-workforce"/u);
+  assert.match(catalog, /"icons":\{"home"/u);
   assert.match(robots, new RegExp(escapeRegExp(`${pagesUrl}sitemap.xml`), "u"));
   assert.match(sitemap, new RegExp(escapeRegExp(pagesUrl), "u"));
-  assert.equal(manifest.id, "/ui-style-kit-icons/");
-  assert.equal(manifest.start_url, "/ui-style-kit-icons/");
-  assert.equal(manifest.scope, "/ui-style-kit-icons/");
+  assert.equal(webManifest.id, "/ui-style-kit-icons/");
+  assert.equal(webManifest.start_url, "/ui-style-kit-icons/");
+  assert.equal(webManifest.scope, "/ui-style-kit-icons/");
 });
 
+/**
+ * Escapes a literal value for use in a regular expression.
+ *
+ * @param {string} value Literal value.
+ * @returns {string} Escaped pattern text.
+ */
 function escapeRegExp(value) {
   return value.replace(/[.*+?^${}()|[\]\\]/gu, "\\$&");
 }

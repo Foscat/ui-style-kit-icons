@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Refresh" focusable="false" class="usk-icon" data-icon-style="art-deco" fill="none" stroke-linejoin="bevel" stroke-linecap="square">
+  <path d="M4.65 10.2A7.45 7.45 0 0 1 17.7 6.85m-1.8.45h2.5V4.8" stroke="currentColor" stroke-width="1.58" style="stroke:var(--usi-art-deco-ink, var(--usi-ink, currentColor))"/>
+  <g transform="rotate(180 12 12)">
+  <path d="M4.65 10.2A7.45 7.45 0 0 1 17.7 6.85m-1.8.45h2.5V4.8" stroke="currentColor" stroke-width="1.58" style="stroke:var(--usi-art-deco-metal, var(--usi-accent-ink, currentColor))"/>
+  </g>
+  <path d="m12 10.78 1.22 1.22L12 13.22 10.78 12Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-art-deco-ink, var(--usi-ink, currentColor))"/>
+</svg>

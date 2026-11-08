@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Calendar" focusable="false" class="usk-icon" data-icon-style="art-deco" fill="none" stroke-linejoin="bevel" stroke-linecap="square">
+  <path d="M5.8 5.95h1.58V3.7h1.8v2.25h5.64V3.7h1.8v2.25h1.58l1.75 1.75v11l-1.75 1.75H5.8L4.05 18.7v-11Zm.7 1.7-.72.72v1.36h12.44V8.37l-.72-.72Zm-.72 3.8v6.54l.72.74h11l.72-.74v-6.54Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-art-deco-ink, var(--usi-ink, currentColor))"/>
+  <path d="M7.2 12.9h2.45v1.85H7.2Zm3.58 0h2.44v1.85h-2.44Zm3.57 0h2.45v1.85h-2.45Zm-7.15 3.08h2.45v1.25H7.2Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-art-deco-metal, var(--usi-accent-ink, currentColor))"/>
+  <path d="M10.75 8.65h2.5" stroke="currentColor" stroke-width="1.04" style="stroke:var(--usi-art-deco-metal, var(--usi-accent-ink, currentColor))"/>
+</svg>

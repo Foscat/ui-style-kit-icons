@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Warehouse" focusable="false" class="usk-icon" data-icon-style="tactile" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M4.15 10.65v9.45h15.7v-9.45" fill="none"/>
+  <path d="M2.95 10.4 12 3.5l9.05 6.9-1.4 1.65L12 6.25l-7.65 5.8Z" fill="none"/>
+  <path d="M7.05 20.1v-7.35q0-.9.9-.9h8.1q.9 0 .9.9v7.35" fill="none" stroke="currentColor" stroke-width="1.35"/>
+  <path d="M7.4 14.6h9.2m-9.2 2.7h9.2" stroke="currentColor" stroke-width="0.95"/>
+  <path d="m5.05 10.8 6.95-5.35 5.35 4.08" stroke="none" stroke-width="0.65"/>
+</svg>

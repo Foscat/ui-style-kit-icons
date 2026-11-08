@@ -1,0 +1,487 @@
+{
+  "package": {
+    "repo": "Foscat/ui-style-kit-icons",
+    "version": "1.0.0",
+    "manifestBlob": "31a37345c73673571c8dd91bf2522130830e9df5",
+    "required": [
+      "home",
+      "dashboard",
+      "browser",
+      "search",
+      "user",
+      "users",
+      "settings",
+      "bell",
+      "message",
+      "mail",
+      "calendar",
+      "upload",
+      "download",
+      "folder",
+      "file",
+      "image",
+      "video",
+      "camera",
+      "database",
+      "server",
+      "api",
+      "lock",
+      "shield",
+      "key",
+      "chart",
+      "activity",
+      "credit-card",
+      "wallet",
+      "cart",
+      "invoice",
+      "tax",
+      "login",
+      "logout",
+      "edit",
+      "trash",
+      "plus",
+      "minus",
+      "filter",
+      "menu",
+      "code",
+      "terminal",
+      "rocket",
+      "bug",
+      "help",
+      "link",
+      "cloud",
+      "globe",
+      "warning",
+      "scan",
+      "network",
+      "cpu",
+      "layers",
+      "eye",
+      "grid",
+      "module",
+      "stack",
+      "tile",
+      "phone",
+      "palette",
+      "heart",
+      "star",
+      "target",
+      "megaphone",
+      "cursor"
+    ],
+    "aliases": {
+      "chat": "message",
+      "credit": "credit-card",
+      "card": "credit-card",
+      "media-image": "image",
+      "media-video": "video",
+      "brush": "palette",
+      "sticker": "star",
+      "stamp": "target",
+      "flag": "target",
+      "bolt": "activity",
+      "lightning": "activity"
+    }
+  },
+  "sys": {
+    "repo": "Sanderson-Technology-Enterprises/SalvageYardSystem",
+    "tree": "2a0f276b3f59e23d4358b3350fd5443ceabcadcb",
+    "appIconBlob": "bd02be2b1074c7655bec75f17ef7da0f6eb0cdd9",
+    "appIcon": [
+      "bell",
+      "browser",
+      "cart",
+      "chart",
+      "check",
+      "chevron-down",
+      "chevron-up",
+      "credit-card",
+      "download",
+      "eye",
+      "expand",
+      "filter",
+      "globe",
+      "grid",
+      "heart",
+      "invoice",
+      "key",
+      "lock",
+      "logout",
+      "mail",
+      "menu",
+      "minus",
+      "module",
+      "phone",
+      "plus",
+      "rocket",
+      "search",
+      "settings",
+      "shield",
+      "trash",
+      "upload",
+      "user",
+      "users",
+      "warning"
+    ],
+    "lucideFiles": [
+      {
+        "path": "client/src/layouts/PortalShell/PortalShell.jsx",
+        "sha": "5c1666918d095bd1a29d135978e92f9cffea46e8",
+        "imports": [
+          "chart-no-axes-column-increasing",
+          "bell",
+          "boxes",
+          "calendar-clock",
+          "car-front",
+          "circle-help",
+          "circle-arrow-up",
+          "clipboard-list",
+          "file-up",
+          "gauge",
+          "globe-2",
+          "heart",
+          "images",
+          "layout-template",
+          "log-out",
+          "menu",
+          "map",
+          "message-square-text",
+          "package-check",
+          "recycle",
+          "rotate-ccw",
+          "scan-line",
+          "settings",
+          "shopping-bag",
+          "users",
+          "warehouse",
+          "wrench"
+        ]
+      },
+      {
+        "path": "client/src/components/ui/ThemeModeControl/ThemeModeControl.jsx",
+        "sha": "15127b6fec67bbb3dd2295251d06ae40d6c64fbf",
+        "imports": [
+          "contrast",
+          "moon",
+          "sun"
+        ]
+      },
+      {
+        "path": "client/src/layouts/PublicShell/PublicShell.jsx",
+        "sha": "3ee3c12e03db2747b42804f04b7087b83a48950e",
+        "imports": [
+          "info",
+          "menu",
+          "map-pin",
+          "phone",
+          "recycle",
+          "shopping-cart",
+          "user-round"
+        ]
+      },
+      {
+        "path": "client/src/features/yard-map/StorageMapWorkspace/StorageMapWorkspace.jsx",
+        "sha": "8d5081cc2b4f107a0b0fc0f9da8c939e8eca4e87",
+        "imports": [
+          "boxes",
+          "search",
+          "layers",
+          "x"
+        ]
+      },
+      {
+        "path": "client/src/features/orders/OrderReceiptPage/OrderReceiptPage.jsx",
+        "sha": "1c31073321cf5e7a3d4446467556d58245852c69",
+        "imports": [
+          "external-link",
+          "package-check"
+        ]
+      },
+      {
+        "path": "client/src/app/App/App.jsx",
+        "sha": "3b5ad8b20f64cc00c59eba0454c572b2530e0741",
+        "imports": [
+          "home"
+        ]
+      },
+      {
+        "path": "client/src/features/checkout/CheckoutCancelledPage/CheckoutCancelledPage.jsx",
+        "sha": "8fbf12017ca4d2cc14f8364e980b30911c1c062b",
+        "imports": [
+          "arrow-left",
+          "x-circle"
+        ]
+      },
+      {
+        "path": "client/src/components/ui/ClickableImg/ClickableImg.jsx",
+        "sha": "29168b290eb8f354c12421a9d17bd6b39043e120",
+        "imports": [
+          "chevron-left",
+          "chevron-right",
+          "rotate-ccw",
+          "x",
+          "zoom-in",
+          "zoom-out"
+        ]
+      },
+      {
+        "path": "client/src/features/catalog/CatalogDisplayControls/CatalogDisplayControls.jsx",
+        "sha": "8d480a8e392d37042a2b56fd7615e5e3fe6773c2",
+        "imports": [
+          "grid-2x2",
+          "list"
+        ]
+      },
+      {
+        "path": "client/src/features/notifications/NotificationItem/NotificationItem.jsx",
+        "sha": "9745f0403d3165fa965239e1cb188b2b2fcac79c",
+        "imports": [
+          "check",
+          "external-link"
+        ]
+      },
+      {
+        "path": "client/src/features/orders/OrderSummary/OrderSummary.jsx",
+        "sha": "f44894b5ad09d33eea7c6587c22c6620c2f0507e",
+        "imports": [
+          "check",
+          "replace",
+          "x"
+        ]
+      },
+      {
+        "path": "client/src/features/auth/LoginPage/LoginPage.jsx",
+        "sha": "7b02871cdb34c541a96c0db6dae966b30b51e097",
+        "imports": [
+          "key-round",
+          "lock-keyhole"
+        ]
+      },
+      {
+        "path": "client/src/features/catalog/PartCard/PartCard.jsx",
+        "sha": "dbe43646e3f3669430b01acb1d0a044116a7b4e3",
+        "imports": [
+          "eye",
+          "shopping-cart"
+        ]
+      },
+      {
+        "path": "client/src/features/catalog/CatalogPagination/CatalogPagination.jsx",
+        "sha": "11c31df78dd7e1d2c99a2913f6892c56b943680e",
+        "imports": [
+          "chevron-left",
+          "chevron-right",
+          "minus",
+          "plus"
+        ]
+      },
+      {
+        "path": "client/src/features/auth/TotpSetupPage/TotpSetupPage.jsx",
+        "sha": "773d2aafbaebc11e9a3f06cdb61be3a4d2c50c46",
+        "imports": [
+          "check-circle-2"
+        ]
+      },
+      {
+        "path": "client/src/features/orders/OrderListPage/OrderListPage.jsx",
+        "sha": "967b755a94a66132602a5ae0250c5d38319b88d2",
+        "imports": [
+          "badge-check",
+          "clipboard-list"
+        ]
+      },
+      {
+        "path": "client/src/features/catalog/PartMedia/PartMedia.jsx",
+        "sha": "bf3e5d8490d7350afb82f4faf76c44053f551e93",
+        "imports": [
+          "circle-help",
+          "image-off"
+        ]
+      },
+      {
+        "path": "client/src/features/admin/intake/VehicleResolutionSummary/VehicleResolutionSummary.jsx",
+        "sha": "2a638a63450b3771c7b2f21faeccb12562842176",
+        "imports": [
+          "circle-check-big",
+          "circle-help",
+          "pencil",
+          "sparkles",
+          "triangle-alert"
+        ]
+      },
+      {
+        "path": "client/src/features/policies/PolicyHubPage/PolicyHubPage.jsx",
+        "sha": "2f45610ba79894827d3446e0ee829fdcfaacef98",
+        "imports": [
+          "arrow-left",
+          "file-text"
+        ]
+      },
+      {
+        "path": "client/src/features/auth/StaticDemoAuthUnavailablePage/StaticDemoAuthUnavailablePage.jsx",
+        "sha": "9f3d0f2d16d386d7d38f0c267a9ef5377c3533bd",
+        "imports": [
+          "lock-keyhole"
+        ]
+      },
+      {
+        "path": "client/src/features/cart/CartPage/CartPage.jsx",
+        "sha": "c5711478ea4a4b35aa1c9b5a758e293919de167a",
+        "imports": [
+          "arrow-right",
+          "package-x"
+        ]
+      },
+      {
+        "path": "client/src/features/orders/OrderDetailPage/OrderDetailPage.jsx",
+        "sha": "6b2bba86e293778c07e4e6ffa3957a1852d7d750",
+        "imports": [
+          "ban",
+          "refresh-cw",
+          "rotate-ccw"
+        ]
+      },
+      {
+        "path": "client/src/features/workforce/WorkerTimeClockPage/WorkerTimeClockPage.jsx",
+        "sha": "bf7860e077cb8f13bd9667019fff14b78736893e",
+        "imports": [
+          "banknote",
+          "calendar-days",
+          "clock-3",
+          "history"
+        ]
+      },
+      {
+        "path": "client/src/features/operations/PullQueuePage/PullQueuePage.jsx",
+        "sha": "230363db055e35a38fa496ad38bf0bcef57df432",
+        "imports": [
+          "chevron-down",
+          "map-pin",
+          "package-check",
+          "play",
+          "wrench"
+        ]
+      },
+      {
+        "path": "client/src/features/yard-map/YardMapWorkspacePanels/YardMapWorkspacePanels.jsx",
+        "sha": "3fcd4cae081285e630d1b1a25fea83a183b7fe73",
+        "imports": [
+          "chevron-down",
+          "chevron-right",
+          "eye",
+          "eye-off",
+          "lock",
+          "lock-open"
+        ]
+      },
+      {
+        "path": "client/src/features/yard-map/YardMapCanvas/YardMapCanvas.jsx",
+        "sha": "f71b00a1ee4f7767ce8f7820837bd89f2dba8307",
+        "imports": [
+          "circle-parking",
+          "door-open",
+          "scale",
+          "shield-alert",
+          "signpost",
+          "warehouse"
+        ]
+      },
+      {
+        "path": "client/src/components/ui/AccordionList/AccordionList.jsx",
+        "sha": "2ddd8d31954740fc3e2f7c907b84c815c3088fcc",
+        "imports": [
+          "chevron-down"
+        ]
+      },
+      {
+        "path": "client/src/features/admin/client-setup/ClientSetupReview/ClientSetupReview.jsx",
+        "sha": "cb93bdf26655e02de64c3d218cb66983bbb78bd2",
+        "imports": [
+          "circle-check-big",
+          "monitor",
+          "smartphone",
+          "tablet"
+        ]
+      },
+      {
+        "path": "client/src/features/yard-map/AdminYardMapPage/AdminYardMapPage.jsx",
+        "sha": "083f24046c0531f51173a1cc659dd06c33291b11",
+        "imports": [
+          "archive",
+          "circle-check-big",
+          "history",
+          "keyboard",
+          "map",
+          "move",
+          "refresh-ccw",
+          "send",
+          "hand",
+          "x",
+          "zoom-in",
+          "zoom-out"
+        ]
+      },
+      {
+        "path": "client/src/features/yard-map/PickerYardMapPage/PickerYardMapPage.jsx",
+        "sha": "1820505e667bbeb2db4c2b6c9b9f5f537eac7465",
+        "imports": [
+          "car-front",
+          "locate-fixed",
+          "maximize-2",
+          "search",
+          "wifi-off",
+          "zoom-in",
+          "zoom-out"
+        ]
+      },
+      {
+        "path": "client/src/features/yard-map/YardMapEditorPanels/YardMapEditorPanels.jsx",
+        "sha": "de9db6f12c739c8c9a9de416bfd0f27dbcd7bd9e",
+        "imports": [
+          "brush",
+          "door-open",
+          "mouse-pointer-2",
+          "paint-bucket",
+          "pen-tool",
+          "redo-2",
+          "rectangle-horizontal",
+          "undo-2"
+        ]
+      },
+      {
+        "path": "client/src/features/admin/intake/IntakeWizardPage/IntakeWizardPage.jsx",
+        "sha": "3afc09c709efef0b3003494db90d47cd770323d3",
+        "imports": [
+          "clipboard-check",
+          "save"
+        ]
+      },
+      {
+        "path": "client/src/features/operations/OperationsOrderDetailPage/OperationsOrderDetailPage.jsx",
+        "sha": "56a45a36fac4950229cd7b0133fdd9b945120bc6",
+        "imports": [
+          "arrow-left",
+          "map-pin",
+          "package-check"
+        ]
+      }
+    ]
+  },
+  "companySite": {
+    "repo": "Sanderson-Technology-Enterprises/site",
+    "sampled": [
+      "package.json",
+      "src/components.tsx",
+      "src/pages.tsx",
+      "src/flows.tsx"
+    ],
+    "result": "No dedicated icon-library dependency in package.json. The inspected page sources mainly use component and image references."
+  },
+  "payments": {
+    "repo": "Sanderson-Technology-Enterprises/STE-Payments",
+    "sampled": [
+      "README.md"
+    ],
+    "result": "Provider module documentation used to identify workflow needs. No site icon inventory was established."
+  }
+}
