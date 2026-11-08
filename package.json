@@ -49,7 +49,7 @@
     "check": "npm run build && npm run assets:check && npm run coverage:check && npm run check:js && npm run check:types && npm run check:contracts && npm run pages:build && npm test && npm run format:check",
     "verify": "npm run check && npm run check:package && npm run check:consumer",
     "release:verify": "npm run verify && npm run check:demo && npm run check:release && npm audit --audit-level=moderate",
-    "prepack": "npm run build && npm run assets:check && npm run check:js && npm run check:types && npm run check:contracts && npm run test:unit && npm run format:check",
+    "prepack": "npm run build && npm run assets:check && npm run check:js && npm run check:types && npm run check:contracts && npm run pages:build && npm run test:unit && npm run format:check",
     "prepublishOnly": "npm run release:verify"
   },
   "files": [
