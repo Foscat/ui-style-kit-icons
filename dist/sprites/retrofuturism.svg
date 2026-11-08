@@ -1,0 +1,837 @@
+<svg xmlns="http://www.w3.org/2000/svg" data-icon-family="retrofuturism" data-icon-variant="themed">
+<defs>
+<symbol id="usk-icon-home" viewBox="0 0 24 24">
+  <title>Home</title>
+  <path d="M3.2 9.7 9.9 4a3.25 3.25 0 0 1 4.2 0l6.7 5.7a1.15 1.15 0 0 1-1.48 1.76L12 5.3l-7.32 6.16A1.15 1.15 0 0 1 3.2 9.7Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="M5.35 12.23 12 6.8l6.65 5.43V18a2.3 2.3 0 0 1-2.3 2.3h-2.3v-4.6a2.05 2.05 0 0 0-4.1 0v4.6h-2.3a2.3 2.3 0 0 1-2.3-2.3Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="M8.4 11.65h7.2" stroke="currentColor" stroke-width="1.3" style="stroke:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-search" viewBox="0 0 24 24">
+  <title>Search</title>
+  <path d="M14.12 15.75l1.8-1.83 4.85 3.85a1.84 1.84 0 1 1-2.48 2.7Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="M17.5 10.1a7.15 7.15 0 1 1-14.3 0 7.15 7.15 0 0 1 14.3 0Z" stroke="currentColor" stroke-width="2.1" style="stroke:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="M4.65 5.77a7.15 7.15 0 0 1 8.64-2.2" stroke="currentColor" stroke-width="2.1" style="stroke:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-user" viewBox="0 0 24 24">
+  <title>User</title>
+  <path d="M12 2.95a4.48 4.48 0 1 1 0 8.96 4.48 4.48 0 0 1 0-8.96Zm0 2.15a2.33 2.33 0 1 0 0 4.66 2.33 2.33 0 0 0 0-4.66Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="M12 12.8c4.05 0 7.37 2.17 8.38 5.25.42 1.29-.58 2.5-1.92 2.5H5.54c-1.34 0-2.34-1.21-1.92-2.5C4.63 14.97 7.95 12.8 12 12.8Zm0 2.15c-2.71 0-4.98 1.14-6.06 3.08h12.12c-1.08-1.94-3.35-3.08-6.06-3.08Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="M8.35 14.68a10 10 0 0 1 7.3 0" stroke="currentColor" stroke-width="1.8" style="stroke:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-folder" viewBox="0 0 24 24">
+  <title>Folder</title>
+  <path d="M2.55 7a2.85 2.85 0 0 1 2.85-2.85h4.48c.79 0 1.28.24 1.76.8l1.1 1.3h5.95c1.19 0 2.18.98 2.18 2.18v.7H9.55l-2.1 1.6H2.55Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="M2.55 12.2h5.37l2.1-1.6h9.16a2.1 2.1 0 0 1 2.07 2.48l-.91 5a2.38 2.38 0 0 1-2.35 1.98H5.37a2.82 2.82 0 0 1-2.82-2.82Zm10.77 2.18a.85.85 0 0 0 0 1.7h3.64a.85.85 0 1 0 0-1.7Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="M4.37 13h3.56l2.1-1.6h6.15" stroke="currentColor" stroke-width="1.5" style="stroke:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-settings" viewBox="0 0 24 24">
+  <title>Settings</title>
+  <path d="M7.70 6.01L8.96 5.28Q9.45 5.00 9.62 4.50L10.03 3.22Q10.20 2.72 10.99 2.72L13.01 2.72Q13.80 2.72 13.97 3.22L14.38 4.50Q14.55 5.00 15.04 5.28L16.30 6.01Q16.79 6.29 17.30 6.18L18.62 5.91Q19.13 5.80 19.53 6.49L20.54 8.24Q20.94 8.92 20.58 9.32L19.69 10.31Q19.34 10.71 19.34 11.28L19.34 12.72Q19.34 13.29 19.69 13.69L20.58 14.68Q20.94 15.08 20.54 15.76L19.53 17.51Q19.13 18.20 18.62 18.09L17.30 17.82Q16.79 17.71 16.30 17.99L15.04 18.72Q14.55 19.00 14.38 19.50L13.97 20.78Q13.80 21.28 13.01 21.28L10.99 21.28Q10.20 21.28 10.03 20.78L9.62 19.50Q9.45 19.00 8.96 18.72L7.70 17.99Q7.21 17.71 6.70 17.82L5.38 18.09Q4.87 18.20 4.47 17.51L3.46 15.76Q3.06 15.08 3.42 14.68L4.31 13.69Q4.66 13.29 4.66 12.72L4.66 11.28Q4.66 10.71 4.31 10.31L3.42 9.32Q3.06 8.92 3.46 8.24L4.47 6.49Q4.87 5.80 5.38 5.91L6.70 6.18Q7.21 6.29 7.70 6.01ZM15.65 12a3.65 3.65 0 1 1-7.3 0 3.65 3.65 0 0 1 7.3 0Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="M7.05 10.22a5.25 5.25 0 0 1 7.05-3.04M16.95 13.78a5.25 5.25 0 0 1-4.95 3.47" stroke="currentColor" stroke-width="1.45" style="stroke:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-bell" viewBox="0 0 24 24">
+  <title>Bell</title>
+  <path d="M12 4.8c3.33 0 5.1 2.47 5.1 5.45v2.15l2.1 3.14a1 1 0 0 1-.83 1.56H5.63a1 1 0 0 1-.83-1.56l2.1-3.14v-2.15c0-2.98 1.77-5.45 5.1-5.45Z" stroke="currentColor" stroke-width="2.12" style="stroke:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="M12 3.25V5M6.5 16.48h11" stroke="currentColor" stroke-width="1.65" style="stroke:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+    <path d="M9.52 19h4.96a2.5 2.5 0 0 1-4.96 0Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-mail" viewBox="0 0 24 24">
+  <title>Mail</title>
+  <path d="M3.25 8.1a2.65 2.65 0 0 1 2.65-2.65h12.2a2.65 2.65 0 0 1 2.65 2.65v7.8a2.65 2.65 0 0 1-2.65 2.65H5.9a2.65 2.65 0 0 1-2.65-2.65Z" stroke="currentColor" stroke-width="2.05" style="stroke:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="m3.85 7.6 6.9 4.94a2.12 2.12 0 0 0 2.5 0l6.9-4.94" stroke="currentColor" stroke-width="1.95" style="stroke:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-calendar" viewBox="0 0 24 24">
+  <title>Calendar</title>
+  <path d="M2.95 8.55a3.75 3.75 0 0 1 3.75-3.75h10.6a3.75 3.75 0 0 1 3.75 3.75v8.7a3.75 3.75 0 0 1-3.75 3.75H6.7a3.75 3.75 0 0 1-3.75-3.75Zm2.3 2.62v6.08c0 .8.65 1.45 1.45 1.45h10.6c.8 0 1.45-.65 1.45-1.45v-6.08Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="M7.55 3.75v3.3m8.9-3.3v3.3" stroke="currentColor" stroke-width="1.95" style="stroke:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+    <path d="M7.9 14.52h3m2.9 0h2.3m-8.2 2.4h5.4" stroke="currentColor" stroke-width="1.42" style="stroke:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-download" viewBox="0 0 24 24">
+  <title>Download</title>
+  <g transform="rotate(90 12 12)">
+    <path d="M6.2 10.65h5.15V7.45c0-.74.86-1.15 1.43-.67l4.8 4.54a.95.95 0 0 1 0 1.36l-4.8 4.54c-.57.48-1.43.07-1.43-.67v-3.2H6.2L7.3 12Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="M8 11.38h3.5" stroke="currentColor" stroke-width="1.25" style="stroke:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+    </g>
+    <path d="M3.55 14.1v2.98a3.15 3.15 0 0 0 3.15 3.15h10.6a3.15 3.15 0 0 0 3.15-3.15V14.1" stroke="currentColor" stroke-width="2.25" style="stroke:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="M7.3 20.23h9.4" stroke="currentColor" stroke-width="2.25" style="stroke:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-trash" viewBox="0 0 24 24">
+  <title>Trash</title>
+  <path d="M5.1 9.05h13.8l-1.16 9.06a3.05 3.05 0 0 1-3.03 2.66H9.29a3.05 3.05 0 0 1-3.03-2.66Zm2.6 2.17.86 6.57c.06.45.38.77.82.77h5.24c.44 0 .76-.32.82-.77l.86-6.57Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="M4.05 6.9h15.9M9 6.85v-1.1c0-.83.67-1.5 1.5-1.5h3c.83 0 1.5.67 1.5 1.5v1.1" stroke="currentColor" stroke-width="2.1" style="stroke:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="M6 6.9h7.2M11 13v3.75m2-3.75v3.75" stroke="currentColor" stroke-width="1.43" style="stroke:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-warning" viewBox="0 0 24 24">
+  <title>Warning</title>
+  <path d="M9.45 4.86c1.13-1.9 3.97-1.9 5.1 0l6.42 10.8c1.23 2.06-.26 4.67-2.67 4.67H5.7c-2.41 0-3.9-2.61-2.67-4.67Zm1.93 1.17L5 16.81c-.33.55.04 1.22.7 1.22h12.6c.66 0 1.03-.67.7-1.22L12.62 6.03a.72.72 0 0 0-1.24 0Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="M12 8.86v3.82" stroke="currentColor" stroke-width="1.98" style="stroke:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+    <path d="M13.04 15.59a1.04 1.04 0 1 1-2.08 0 1.04 1.04 0 0 1 2.08 0Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-link" viewBox="0 0 24 24">
+  <title>Link</title>
+  <path d="M8.1 11.1 5.55 13.65a3.95 3.95 0 0 0 5.59 5.59l2.48-2.48M10.38 7.24l2.48-2.48a3.95 3.95 0 0 1 5.59 5.59l-2.55 2.55" stroke="currentColor" stroke-width="2.1" style="stroke:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="m8.9 15.1 6.2-6.2" stroke="currentColor" stroke-width="2.1" style="stroke:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-menu" viewBox="0 0 24 24">
+  <title>Menu</title>
+  <path d="M4.2 5.1h14.4a1.3 1.3 0 0 1 0 2.6H3.35ZM4.2 10.7h11.1a1.3 1.3 0 0 1 0 2.6H3.35ZM4.2 16.3h14.4a1.3 1.3 0 0 1 0 2.6H3.35Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="M5.08 6h7.5m-7.5 11.2h7.5" stroke="currentColor" stroke-width="1.28" style="stroke:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-more-horizontal" viewBox="0 0 24 24">
+  <title>More horizontal</title>
+  <path d="M7 8.1h10a3.9 3.9 0 0 1 0 7.8H7a3.9 3.9 0 0 1 0-7.8Z" stroke="currentColor" stroke-width="1.65" style="stroke:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="M8.200000000000001 12a1.05 1.05 0 1 1-2.1 0 1.05 1.05 0 0 1 2.1 0Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="M13.16 12a1.16 1.16 0 1 1-2.32 0 1.16 1.16 0 0 1 2.32 0Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+    <path d="M17.900000000000002 12a1.05 1.05 0 1 1-2.1 0 1.05 1.05 0 0 1 2.1 0Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-plus" viewBox="0 0 24 24">
+  <title>Plus</title>
+  <path d="M10.55 5.02a1.45 1.45 0 0 1 2.9 0v5.53h5.6a1.45 1.45 0 0 1 0 2.9h-5.6v5.53a1.45 1.45 0 0 1-2.9 0v-5.53H4.1l1.05-2.9h5.4Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="M6 11.36h5.25V5.15" stroke="currentColor" stroke-width="1.36" style="stroke:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-minus" viewBox="0 0 24 24">
+  <title>Minus</title>
+  <path d="M4.9 10.5h13.55a1.5 1.5 0 0 1 0 3H3.75Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="M5.8 11.36h7.05" stroke="currentColor" stroke-width="1.35" style="stroke:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-check" viewBox="0 0 24 24">
+  <title>Check</title>
+  <path d="m3.66 12.05 3-1.3 3.34 3.16 7.67-7.86a1.54 1.54 0 0 1 2.21 2.14l-8.77 9.02a1.52 1.52 0 0 1-2.13.04Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="m11.5 13.31 6.89-7.02" stroke="currentColor" stroke-width="1.39" style="stroke:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-close" viewBox="0 0 24 24">
+  <title>Close</title>
+  <path d="m5.87 5.87 12.26 12.26m0-12.26L5.87 18.13" stroke="currentColor" stroke-width="2.95" style="stroke:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="m13.65 10.3 4.45-4.45" stroke="currentColor" stroke-width="1.72" style="stroke:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-arrow-left" viewBox="0 0 24 24">
+  <title>Arrow left</title>
+  <g transform="translate(24 0) scale(-1 1)">
+    <path d="M2.6 9.55h9.42V6.52a1.17 1.17 0 0 1 1.93-.9l7.16 5.46a1.16 1.16 0 0 1 0 1.84l-7.16 5.46a1.17 1.17 0 0 1-1.93-.9v-3.03H2.6L4.4 12Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="M4.72 10.54h7.16" stroke="currentColor" stroke-width="1.45" style="stroke:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+    </g>
+</symbol>
+<symbol id="usk-icon-arrow-right" viewBox="0 0 24 24">
+  <title>Arrow right</title>
+  <path d="M2.6 9.55h9.42V6.52a1.17 1.17 0 0 1 1.93-.9l7.16 5.46a1.16 1.16 0 0 1 0 1.84l-7.16 5.46a1.17 1.17 0 0 1-1.93-.9v-3.03H2.6L4.4 12Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="M4.72 10.54h7.16" stroke="currentColor" stroke-width="1.45" style="stroke:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-arrow-up" viewBox="0 0 24 24">
+  <title>Arrow up</title>
+  <g transform="rotate(-90 12 12)">
+    <path d="M2.6 9.55h9.42V6.52a1.17 1.17 0 0 1 1.93-.9l7.16 5.46a1.16 1.16 0 0 1 0 1.84l-7.16 5.46a1.17 1.17 0 0 1-1.93-.9v-3.03H2.6L4.4 12Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="M4.72 10.54h7.16" stroke="currentColor" stroke-width="1.45" style="stroke:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+    </g>
+</symbol>
+<symbol id="usk-icon-arrow-down" viewBox="0 0 24 24">
+  <title>Arrow down</title>
+  <g transform="rotate(90 12 12)">
+    <path d="M2.6 9.55h9.42V6.52a1.17 1.17 0 0 1 1.93-.9l7.16 5.46a1.16 1.16 0 0 1 0 1.84l-7.16 5.46a1.17 1.17 0 0 1-1.93-.9v-3.03H2.6L4.4 12Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="M4.72 10.54h7.16" stroke="currentColor" stroke-width="1.45" style="stroke:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+    </g>
+</symbol>
+<symbol id="usk-icon-chevron-left" viewBox="0 0 24 24">
+  <title>Chevron left</title>
+  <g transform="translate(24 0) scale(-1 1)">
+    <path d="M7.2 5.68c0-1.26 1.45-1.91 2.4-1.07l7.15 6.3a1.43 1.43 0 0 1 0 2.18l-7.15 6.3c-.95.84-2.4.19-2.4-1.07v-1.86L12.25 12 7.2 7.54Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="M8.65 5.7l4.05 3.57" stroke="currentColor" stroke-width="1.4" style="stroke:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+    </g>
+</symbol>
+<symbol id="usk-icon-chevron-right" viewBox="0 0 24 24">
+  <title>Chevron right</title>
+  <path d="M7.2 5.68c0-1.26 1.45-1.91 2.4-1.07l7.15 6.3a1.43 1.43 0 0 1 0 2.18l-7.15 6.3c-.95.84-2.4.19-2.4-1.07v-1.86L12.25 12 7.2 7.54Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="M8.65 5.7l4.05 3.57" stroke="currentColor" stroke-width="1.4" style="stroke:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-chevron-up" viewBox="0 0 24 24">
+  <title>Chevron up</title>
+  <g transform="rotate(-90 12 12)">
+    <path d="M7.2 5.68c0-1.26 1.45-1.91 2.4-1.07l7.15 6.3a1.43 1.43 0 0 1 0 2.18l-7.15 6.3c-.95.84-2.4.19-2.4-1.07v-1.86L12.25 12 7.2 7.54Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="M8.65 5.7l4.05 3.57" stroke="currentColor" stroke-width="1.4" style="stroke:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+    </g>
+</symbol>
+<symbol id="usk-icon-chevron-down" viewBox="0 0 24 24">
+  <title>Chevron down</title>
+  <g transform="rotate(90 12 12)">
+    <path d="M7.2 5.68c0-1.26 1.45-1.91 2.4-1.07l7.15 6.3a1.43 1.43 0 0 1 0 2.18l-7.15 6.3c-.95.84-2.4.19-2.4-1.07v-1.86L12.25 12 7.2 7.54Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="M8.65 5.7l4.05 3.57" stroke="currentColor" stroke-width="1.4" style="stroke:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+    </g>
+</symbol>
+<symbol id="usk-icon-edit" viewBox="0 0 24 24">
+  <title>Edit</title>
+  <path d="M4.05 15.55 14.66 4.94l4.4 4.4L8.45 19.95l-4.56.9a.76.76 0 0 1-.9-.9Zm1.7 1.13-.36 1.85 1.86-.37 8.62-8.63-1.5-1.5Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="m15.7 3.9.7-.71a1.81 1.81 0 0 1 2.56 0l1.85 1.85a1.81 1.81 0 0 1 0 2.56l-.71.7Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-upload" viewBox="0 0 24 24">
+  <title>Upload</title>
+  <g transform="rotate(-90 12 12)">
+    <path d="M6.2 10.65h5.15V7.45c0-.74.86-1.15 1.43-.67l4.8 4.54a.95.95 0 0 1 0 1.36l-4.8 4.54c-.57.48-1.43.07-1.43-.67v-3.2H6.2L7.3 12Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="M8 11.38h3.5" stroke="currentColor" stroke-width="1.25" style="stroke:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+    </g>
+    <path d="M3.55 14.1v2.98a3.15 3.15 0 0 0 3.15 3.15h10.6a3.15 3.15 0 0 0 3.15-3.15V14.1" stroke="currentColor" stroke-width="2.25" style="stroke:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="M7.3 20.23h9.4" stroke="currentColor" stroke-width="2.25" style="stroke:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-filter" viewBox="0 0 24 24">
+  <title>Filter</title>
+  <path d="M3.76 5.1h16.48c.92 0 1.44 1.06.88 1.79l-6.43 8.19v3.63c0 .4-.22.76-.57.95l-2.6 1.4a1.08 1.08 0 0 1-1.59-.95v-5.04L2.9 6.91c-.61-.71-.08-1.81.86-1.81ZM6.2 7.25l5.91 6.86v4.24l.43-.24v-3.72l5.6-7.14Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="M4.1 6.15h11.05" stroke="currentColor" stroke-width="1.5" style="stroke:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-grid" viewBox="0 0 24 24">
+  <title>Grid</title>
+  <path d="M3.1 5.65A2.55 2.55 0 0 1 5.65 3.1H11v7.9H3.1Zm2.05 0v3.3h3.8v-3.8h-3.3a.5.5 0 0 0-.5.5ZM13 3.1h5.35a2.55 2.55 0 0 1 2.55 2.55V11H13Zm2.05 2.05v3.8h3.8v-3.3a.5.5 0 0 0-.5-.5ZM3.1 13H11v7.9H5.65a2.55 2.55 0 0 1-2.55-2.55Zm2.05 2.05v3.3a.5.5 0 0 0 .5.5h3.3v-3.8Zm7.85-2.05h7.9v5.35a2.55 2.55 0 0 1-2.55 2.55H13Zm2.05 2.05v3.8h3.3a.5.5 0 0 0 .5-.5v-3.3Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="M5.55 4.13h4.42m4.06 9.9h5.84" stroke="currentColor" stroke-width="2.05" style="stroke:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-eye" viewBox="0 0 24 24">
+  <title>Eye</title>
+  <path d="M2.85 12c2.6-3.4 5.47-5.66 9.15-5.66s6.55 2.26 9.15 5.66c-2.6 3.4-5.47 5.66-9.15 5.66S5.45 15.4 2.85 12Z" stroke="currentColor" stroke-width="1.95" style="stroke:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="M15.05 12a3.05 3.05 0 1 1-6.1 0 3.05 3.05 0 0 1 6.1 0Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="M9.95 11.08a2.3 2.3 0 0 1 2.67-1.32" stroke="currentColor" stroke-width="1.23" style="stroke:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-lock" viewBox="0 0 24 24">
+  <title>Lock</title>
+  <path d="M7.5 11V7.6a4.5 4.5 0 0 1 9 0V11" stroke="currentColor" stroke-width="2.2" style="stroke:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="M7.65 6.45a4.5 4.5 0 0 1 5.75-3.13" stroke="currentColor" stroke-width="2.2" style="stroke:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+    <path d="M6.7 10.05h10.6a2.52 2.52 0 0 1 2.52 2.52v5.5a2.88 2.88 0 0 1-2.88 2.88H7.06a2.88 2.88 0 0 1-2.88-2.88v-5.5a2.52 2.52 0 0 1 2.52-2.52Zm5.3 3.28a1.7 1.7 0 0 0-.8 3.2v1.2a.8.8 0 1 0 1.6 0v-1.2a1.7 1.7 0 0 0-.8-3.2Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="M6.65 11.1h10.7" stroke="currentColor" stroke-width="1.6" style="stroke:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-info" viewBox="0 0 24 24">
+  <title>Info</title>
+  <path d="M3.3 9.45c0-3.54 2.87-6.15 6.4-6.15h4.6c3.53 0 6.4 2.61 6.4 6.15v5.1c0 3.54-2.87 6.15-6.4 6.15H9.7c-3.53 0-6.4-2.61-6.4-6.15Z M12 7.13a1.18 1.18 0 1 1 0 2.36 1.18 1.18 0 0 1 0-2.36Zm-1.06 4.1h2.12v5.69h-2.12Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="M5.65 8.1c.73-2 2.4-2.92 4.43-2.92h3.84c1.33 0 2.39.37 3.2 1.03" stroke="currentColor" stroke-width="1.4" style="stroke:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-success" viewBox="0 0 24 24">
+  <title>Success</title>
+  <path d="M3.3 9.45c0-3.54 2.87-6.15 6.4-6.15h4.6c3.53 0 6.4 2.61 6.4 6.15v5.1c0 3.54-2.87 6.15-6.4 6.15H9.7c-3.53 0-6.4-2.61-6.4-6.15Z M6.85 11.7a.99.99 0 0 1 1.4 0l2.24 2.17 4.99-5.06a1.02 1.02 0 0 1 1.45 1.44l-5.72 5.8a1.02 1.02 0 0 1-1.43.02l-2.91-2.9a1 1 0 0 1-.02-1.47Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="M5.65 8.1c.73-2 2.4-2.92 4.43-2.92h3.84c1.33 0 2.39.37 3.2 1.03" stroke="currentColor" stroke-width="1.4" style="stroke:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-error" viewBox="0 0 24 24">
+  <title>Error</title>
+  <path d="M3.3 9.45c0-3.54 2.87-6.15 6.4-6.15h4.6c3.53 0 6.4 2.61 6.4 6.15v5.1c0 3.54-2.87 6.15-6.4 6.15H9.7c-3.53 0-6.4-2.61-6.4-6.15Z M8.05 8.1q.74-.73 1.48 0L12 10.56l2.47-2.46q.74-.73 1.48 0t0 1.48L13.48 12l2.47 2.42q.74.74 0 1.48t-1.48 0L12 13.44 9.53 15.9q-.74.74-1.48 0t0-1.48L10.52 12 8.05 9.58q-.74-.74 0-1.48Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="M5.65 8.1c.73-2 2.4-2.92 4.43-2.92h3.84c1.33 0 2.39.37 3.2 1.03" stroke="currentColor" stroke-width="1.4" style="stroke:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-help" viewBox="0 0 24 24">
+  <title>Help</title>
+  <path d="M3.3 9.45c0-3.54 2.87-6.15 6.4-6.15h4.6c3.53 0 6.4 2.61 6.4 6.15v5.1c0 3.54-2.87 6.15-6.4 6.15H9.7c-3.53 0-6.4-2.61-6.4-6.15Z M9.05 8.45A3.1 3.1 0 0 1 12.1 6.7c1.75 0 3.13 1.12 3.13 2.81 0 1.1-.55 1.82-1.4 2.42-.6.43-.91.72-.91 1.43h-1.87c0-1.37.55-1.98 1.36-2.58.6-.45.88-.71.88-1.21 0-.62-.46-1-1.18-1-.64 0-1.15.34-1.44.91Zm2.88 6.28a1.15 1.15 0 1 1 0 2.3 1.15 1.15 0 0 1 0-2.3Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="M5.65 8.1c.73-2 2.4-2.92 4.43-2.92h3.84c1.33 0 2.39.37 3.2 1.03" stroke="currentColor" stroke-width="1.4" style="stroke:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-checkbox" viewBox="0 0 24 24">
+  <title>Checkbox</title>
+  <path d="M4 8.35A4.35 4.35 0 0 1 8.35 4h7.3A4.35 4.35 0 0 1 20 8.35v7.3A4.35 4.35 0 0 1 15.65 20h-7.3A4.35 4.35 0 0 1 4 15.65Z M6.3 8.35A2.05 2.05 0 0 1 8.35 6.3h7.3a2.05 2.05 0 0 1 2.05 2.05v7.3a2.05 2.05 0 0 1-2.05 2.05h-7.3a2.05 2.05 0 0 1-2.05-2.05Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="M6.15 8.05c.17-1.35 1.02-2.2 2.36-2.2h6.86" stroke="currentColor" stroke-width="1.45" style="stroke:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-checkbox-checked" viewBox="0 0 24 24">
+  <title>Checkbox checked</title>
+  <path d="M4 8.35A4.35 4.35 0 0 1 8.35 4h7.3A4.35 4.35 0 0 1 20 8.35v7.3A4.35 4.35 0 0 1 15.65 20h-7.3A4.35 4.35 0 0 1 4 15.65Z M6.85 11.7a.99.99 0 0 1 1.4 0l2.24 2.17 4.99-5.06a1.02 1.02 0 0 1 1.45 1.44l-5.72 5.8a1.02 1.02 0 0 1-1.43.02l-2.91-2.9a1 1 0 0 1-.02-1.47Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="M6.15 8.05c.17-1.35 1.02-2.2 2.36-2.2h6.86" stroke="currentColor" stroke-width="1.45" style="stroke:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-checkbox-indeterminate" viewBox="0 0 24 24">
+  <title>Checkbox indeterminate</title>
+  <path d="M4 8.35A4.35 4.35 0 0 1 8.35 4h7.3A4.35 4.35 0 0 1 20 8.35v7.3A4.35 4.35 0 0 1 15.65 20h-7.3A4.35 4.35 0 0 1 4 15.65Z M8.2 12a1.07 1.07 0 0 1 1.07-1.07h5.46a1.07 1.07 0 1 1 0 2.14H9.27A1.07 1.07 0 0 1 8.2 12Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="M6.15 8.05c.17-1.35 1.02-2.2 2.36-2.2h6.86" stroke="currentColor" stroke-width="1.45" style="stroke:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-radio" viewBox="0 0 24 24">
+  <title>Radio</title>
+  <path d="M20.02 12a8.02 8.02 0 1 1-16.04 0 8.02 8.02 0 0 1 16.04 0Z" stroke="currentColor" stroke-width="2.25" style="stroke:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="M6.29 6.37a8.02 8.02 0 0 1 11.42 0" stroke="currentColor" stroke-width="2.25" style="stroke:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-radio-selected" viewBox="0 0 24 24">
+  <title>Radio selected</title>
+  <path d="M20.02 12a8.02 8.02 0 1 1-16.04 0 8.02 8.02 0 0 1 16.04 0Z" stroke="currentColor" stroke-width="2.25" style="stroke:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="M6.29 6.37a8.02 8.02 0 0 1 11.42 0" stroke="currentColor" stroke-width="2.25" style="stroke:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+    <path d="M16.07 12a4.07 4.07 0 1 1-8.14 0 4.07 4.07 0 0 1 8.14 0Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-eye-off" viewBox="0 0 24 24">
+  <title>Eye off</title>
+  <path d="M3.05 12c.88-1.11 1.75-2 2.61-2.72m2.77-1.96A8.98 8.98 0 0 1 12 6.34c3.7 0 6.55 2.26 9.15 5.66a17.6 17.6 0 0 1-2.68 2.77m-2.62 1.83a8.45 8.45 0 0 1-3.85 1.06c-3.75 0-6.55-2.26-8.95-5.66" stroke="currentColor" stroke-width="1.9" style="stroke:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="m5.04 5.08 13.9 13.84" stroke="currentColor" stroke-width="2.12" style="stroke:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-refresh" viewBox="0 0 24 24">
+  <title>Refresh</title>
+  <path d="M4.45 10.35a7.72 7.72 0 0 1 12.73-4.29L19.8 8.4m-.25 5.25a7.72 7.72 0 0 1-12.73 4.29L4.2 15.6" stroke="currentColor" stroke-width="2.1" style="stroke:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="M20.86 3.9v5.91h-5.91l2.88-2.93ZM3.14 20.1v-5.91h5.91l-2.88 2.93Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-external-link" viewBox="0 0 24 24">
+  <title>External link</title>
+  <path d="M11.16 5.07H7.02a3.02 3.02 0 0 0-3.02 3.02v8.89A3.02 3.02 0 0 0 7.02 20h8.89a3.02 3.02 0 0 0 3.02-3.02v-4.14" stroke="currentColor" stroke-width="2.3" style="stroke:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="m10.65 13.35 8.8-8.8m-5.05 0h5.05V9.6" stroke="currentColor" stroke-width="2.15" style="stroke:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-undo" viewBox="0 0 24 24">
+  <title>Undo</title>
+  <path d="M8.55 4.55 3 9.2a1.13 1.13 0 0 0 0 1.72l5.55 4.65a.95.95 0 0 0 1.57-.72v-2.96h4.23c2.32 0 3.71 1.04 3.71 2.8s-1.39 2.87-3.71 2.87h-2.9a1.23 1.23 0 0 0 0 2.46h2.9c3.79 0 6.45-2.18 6.45-5.33 0-3.14-2.66-5.25-6.45-5.25h-4.23V5.27a.95.95 0 0 0-1.57-.72Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="M10.65 10.45h3.7c2.11 0 3.83.63 4.7 1.75" stroke="currentColor" stroke-width="1.45" style="stroke:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-redo" viewBox="0 0 24 24">
+  <title>Redo</title>
+  <g transform="translate(24 0) scale(-1 1)">
+    <path d="M8.55 4.55 3 9.2a1.13 1.13 0 0 0 0 1.72l5.55 4.65a.95.95 0 0 0 1.57-.72v-2.96h4.23c2.32 0 3.71 1.04 3.71 2.8s-1.39 2.87-3.71 2.87h-2.9a1.23 1.23 0 0 0 0 2.46h2.9c3.79 0 6.45-2.18 6.45-5.33 0-3.14-2.66-5.25-6.45-5.25h-4.23V5.27a.95.95 0 0 0-1.57-.72Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="M10.65 10.45h3.7c2.11 0 3.83.63 4.7 1.75" stroke="currentColor" stroke-width="1.45" style="stroke:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+    </g>
+</symbol>
+<symbol id="usk-icon-toggle-off" viewBox="0 0 24 24">
+  <title>Toggle off</title>
+  <path d="M7.6 6.45h8.8a5.05 5.55 0 0 1 0 11.1H7.6a5.05 5.55 0 0 1 0-11.1Z" stroke="currentColor" stroke-width="1.85" style="stroke:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="M7.6 6.45h8.8c1.15 0 2.2.35 3.08.95" stroke="currentColor" stroke-width="1.85" style="stroke:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+    <path d="M7.78 8.68a3.32 3.32 0 1 1 0 6.64 3.32 3.32 0 0 1 0-6.64Zm0 1.68a1.64 1.64 0 1 0 0 3.28 1.64 1.64 0 0 0 0-3.28Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-toggle-on" viewBox="0 0 24 24">
+  <title>Toggle on</title>
+  <path d="M7.6 6.45h8.8a5.05 5.55 0 0 1 0 11.1H7.6a5.05 5.55 0 0 1 0-11.1Z" stroke="currentColor" stroke-width="1.85" style="stroke:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="M7.6 6.45h8.8c1.15 0 2.2.35 3.08.95" stroke="currentColor" stroke-width="1.85" style="stroke:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+    <path d="M16.22 8.68a3.32 3.32 0 1 1 0 6.64 3.32 3.32 0 0 1 0-6.64Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="M6.48 12h2.32" stroke="currentColor" stroke-width="1.55" style="stroke:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-file" viewBox="0 0 24 24">
+  <title>File</title>
+  <path d="M5.2 5.67c0-1.05.85-1.9 1.9-1.9h6.41L18.8 9.1v9.23c0 1.05-.85 1.9-1.9 1.9H7.1c-1.05 0-1.9-.85-1.9-1.9Z" stroke="currentColor" stroke-width="2.15" style="stroke:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="M13.47 4.08v3.89c0 .7.56 1.26 1.26 1.26h3.89" stroke="currentColor" stroke-width="2.08" style="stroke:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+    <path d="M8.2 12.82h6.78m-6.78 3.12h4.5" stroke="currentColor" stroke-width="1.55" style="stroke:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-copy" viewBox="0 0 24 24">
+  <title>Copy</title>
+  <path d="M14.9 5.9V5.38a2.03 2.03 0 0 0-2.03-2.03H5.58a2.03 2.03 0 0 0-2.03 2.03v10.08c0 1.12.91 2.03 2.03 2.03h.72" stroke="currentColor" stroke-width="2.05" style="stroke:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+    <path d="M8.8 10.35c0-1.28 1.04-2.32 2.32-2.32h6.76c1.28 0 2.32 1.04 2.32 2.32v7.98c0 1.28-1.04 2.32-2.32 2.32h-6.76c-1.28 0-2.32-1.04-2.32-2.32Z" stroke="currentColor" stroke-width="2.18" style="stroke:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="M12 11.9h4.65" stroke="currentColor" stroke-width="1.5" style="stroke:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-save" viewBox="0 0 24 24">
+  <title>Save</title>
+  <path d="M6.1 3.25h10.23l3.53 3.5c.52.52.81 1.22.81 1.95v9.53a2.52 2.52 0 0 1-2.52 2.52H5.85a2.52 2.52 0 0 1-2.52-2.52V6.02A2.77 2.77 0 0 1 6.1 3.25Zm.95 2.18v4.05a1.43 1.43 0 0 0 1.43 1.43h7.04a1.43 1.43 0 0 0 1.43-1.43V7.05l-1.64-1.62Zm1.32 8.6a1.38 1.38 0 0 0-1.38 1.38v3.16h10.02v-3.16a1.38 1.38 0 0 0-1.38-1.38Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="M12.83 6.64v2.08m-2.77 7.65h3.88" stroke="currentColor" stroke-width="1.47" style="stroke:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-image" viewBox="0 0 24 24">
+  <title>Image</title>
+  <path d="M3.35 8.2c0-1.6 1.3-2.9 2.9-2.9h11.5c1.6 0 2.9 1.3 2.9 2.9v7.6c0 1.6-1.3 2.9-2.9 2.9H6.25c-1.6 0-2.9-1.3-2.9-2.9Z" stroke="currentColor" stroke-width="2.14" style="stroke:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="M9.5 9.53a1.36 1.36 0 1 1-2.72 0 1.36 1.36 0 0 1 2.72 0Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+    <path d="M4.45 15.83 8.11 12.8l2.9 1.85 4.85-4.9 3.65 3.75v2.3c0 .96-.8 1.76-1.76 1.76H6.25c-.97 0-1.8-.77-1.8-1.73Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-camera" viewBox="0 0 24 24">
+  <title>Camera</title>
+  <path d="M6.3 6.65H7.7l1.14-1.83a2 2 0 0 1 1.69-.93h3.05c.68 0 1.32.35 1.68.93l1.13 1.83h1.31a3.55 3.55 0 0 1 3.55 3.55v5.95a3.55 3.55 0 0 1-3.55 3.55H6.3a3.55 3.55 0 0 1-3.55-3.55V10.2A3.55 3.55 0 0 1 6.3 6.65ZM16.55 13.02a4.55 4.55 0 1 1-9.1 0 4.55 4.55 0 0 1 9.1 0Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="M14.379999999999999 13.02a2.38 2.38 0 1 1-4.76 0 2.38 2.38 0 0 1 4.76 0Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+    <path d="M17.43 9.03h1.18" stroke="currentColor" stroke-width="1.35" style="stroke:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-play" viewBox="0 0 24 24">
+  <title>Play</title>
+  <path d="M5.3 5.47a1.51 1.51 0 0 1 2.29-1.3l11.87 6.53a1.48 1.48 0 0 1 0 2.6L7.59 19.83a1.51 1.51 0 0 1-2.29-1.3Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="M7.28 6.45l7.94 4.42" stroke="currentColor" stroke-width="1.52" style="stroke:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-pause" viewBox="0 0 24 24">
+  <title>Pause</title>
+  <path d="M4.98 6.25a2.05 2.05 0 0 1 2.05-2.05h.98a2.05 2.05 0 0 1 2.05 2.05v11.5a2.05 2.05 0 0 1-2.05 2.05h-.98a2.05 2.05 0 0 1-2.05-2.05Zm8.96 0a2.05 2.05 0 0 1 2.05-2.05h.98a2.05 2.05 0 0 1 2.05 2.05v11.5a2.05 2.05 0 0 1-2.05 2.05h-.98a2.05 2.05 0 0 1-2.05-2.05Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="M6.65 6.2v5.86m8.96-5.86v5.86" stroke="currentColor" stroke-width="1.62" style="stroke:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-stop" viewBox="0 0 24 24">
+  <title>Stop</title>
+  <path d="M4.1 8.35A4.25 4.25 0 0 1 8.35 4.1h7.3a4.25 4.25 0 0 1 4.25 4.25v7.3a4.25 4.25 0 0 1-4.25 4.25h-7.3a4.25 4.25 0 0 1-4.25-4.25Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="M6.09 8.3a2.4 2.4 0 0 1 2.4-2.4h6.45" stroke="currentColor" stroke-width="1.63" style="stroke:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-skip-back" viewBox="0 0 24 24">
+  <title>Skip back</title>
+  <g transform="translate(24 0) scale(-1 1)">
+    <path d="M5.15 5.78c0-.91 1.02-1.42 1.75-.89l8.7 6.22a1.1 1.1 0 0 1 0 1.78l-8.7 6.22c-.73.53-1.75.02-1.75-.89Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="M18.45 6.13v11.74" stroke="currentColor" stroke-width="2.38" style="stroke:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+    </g>
+</symbol>
+<symbol id="usk-icon-skip-forward" viewBox="0 0 24 24">
+  <title>Skip forward</title>
+  <path d="M5.15 5.78c0-.91 1.02-1.42 1.75-.89l8.7 6.22a1.1 1.1 0 0 1 0 1.78l-8.7 6.22c-.73.53-1.75.02-1.75-.89Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="M18.45 6.13v11.74" stroke="currentColor" stroke-width="2.38" style="stroke:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-volume" viewBox="0 0 24 24">
+  <title>Volume</title>
+  <path d="M3.1 9.36c0-.69.56-1.25 1.25-1.25h3.38l4.15-3.17a1.27 1.27 0 0 1 2.04 1.01v12.1a1.27 1.27 0 0 1-2.04 1.01l-4.15-3.17H4.35a1.25 1.25 0 0 1-1.25-1.25ZM5.21 10.22v3.56h3.2l3.4 2.65V7.57l-3.4 2.65Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="M16.1 9.04a4.12 4.12 0 0 1 0 5.92m2.15-8.28a7.38 7.38 0 0 1 0 10.64" stroke="currentColor" stroke-width="1.73" style="stroke:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-volume-off" viewBox="0 0 24 24">
+  <title>Volume off</title>
+  <path d="M3.1 9.36c0-.69.56-1.25 1.25-1.25h3.38l4.15-3.17a1.27 1.27 0 0 1 2.04 1.01v12.1a1.27 1.27 0 0 1-2.04 1.01l-4.15-3.17H4.35a1.25 1.25 0 0 1-1.25-1.25ZM5.21 10.22v3.56h3.2l3.4 2.65V7.57l-3.4 2.65Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="m16.55 9.92 4.19 4.16m0-4.16-4.19 4.16" stroke="currentColor" stroke-width="1.96" style="stroke:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-microphone" viewBox="0 0 24 24">
+  <title>Microphone</title>
+  <path d="M8.68 6.18a3.32 3.32 0 0 1 6.64 0v5.17a3.32 3.32 0 1 1-6.64 0Z" stroke="currentColor" stroke-width="2.05" style="stroke:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="M10.3 6.82h3.4m-3.4 3.08h3.4" stroke="currentColor" stroke-width="1.3" style="stroke:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+    <path d="M5.85 11.25a6.15 6.15 0 0 0 12.3 0M12 17.6v3.12m-3.06 0h6.12" stroke="currentColor" stroke-width="1.95" style="stroke:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-attachment" viewBox="0 0 24 24">
+  <title>Attachment</title>
+  <g transform="translate(.6 .6) scale(.95)">
+    <path d="m16.7 8.95-7.8 7.8a2.11 2.11 0 0 1-2.99-2.98l8.68-8.7a3.84 3.84 0 0 1 5.44 5.43l-9.1 9.12a5.17 5.17 0 0 1-7.32-7.3l7.37-7.38" stroke="currentColor" stroke-width="1.84" style="stroke:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="m14.59 5.07 1.02-1.02a3.84 3.84 0 0 1 4.42 6.45" stroke="currentColor" stroke-width="1.84" style="stroke:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+    </g>
+</symbol>
+<symbol id="usk-icon-print" viewBox="0 0 24 24">
+  <title>Print</title>
+  <path d="M7 8.63V5.2c0-.8.64-1.44 1.44-1.44h7.12c.8 0 1.44.64 1.44 1.44v3.43M6.74 17.38H5.35A2.1 2.1 0 0 1 3.25 15.28v-4.56a2.1 2.1 0 0 1 2.1-2.1h13.3a2.1 2.1 0 0 1 2.1 2.1v4.56a2.1 2.1 0 0 1-2.1 2.1h-1.39M7 14.95h10v3.42a1.88 1.88 0 0 1-1.88 1.88H8.88A1.88 1.88 0 0 1 7 18.37Z" stroke="currentColor" stroke-width="1.98" style="stroke:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="M15.8 11.85h2m-8 5.85h4.4" stroke="currentColor" stroke-width="1.37" style="stroke:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-share" viewBox="0 0 24 24">
+  <title>Share</title>
+  <path d="m7.75 10.78 8.06-4.36m-8.06 6.8 8.06 4.36" stroke="currentColor" stroke-width="2.03" style="stroke:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="M8.48 12a2.83 2.83 0 1 1-5.66 0 2.83 2.83 0 0 1 5.66 0ZM6.720000000000001 12a1.07 1.07 0 1 1-2.14 0 1.07 1.07 0 0 1 2.14 0Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="M20.9 5.12a2.9 2.9 0 1 1-5.8 0 2.9 2.9 0 0 1 5.8 0ZM20.9 18.88a2.9 2.9 0 1 1-5.8 0 2.9 2.9 0 0 1 5.8 0Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-cart" viewBox="0 0 24 24">
+  <title>Cart</title>
+  <path d="M3 4.7h1.75l2.9 10.14c.16.56.67.95 1.26.95h8.28c.6 0 1.12-.4 1.27-.98l1.57-6.03c.16-.62-.3-1.23-.94-1.23H5.62" stroke="currentColor" stroke-width="2.1" style="stroke:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="M8.55 10.36h8.66" stroke="currentColor" stroke-width="1.43" style="stroke:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+    <path d="M10.700000000000001 19.33a1.55 1.55 0 1 1-3.1 0 1.55 1.55 0 0 1 3.1 0ZM18.88 19.33a1.55 1.55 0 1 1-3.1 0 1.55 1.55 0 0 1 3.1 0Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-credit-card" viewBox="0 0 24 24">
+  <title>Credit card</title>
+  <path d="M3.15 8.45a2.78 2.78 0 0 1 2.78-2.78h12.14a2.78 2.78 0 0 1 2.78 2.78v7.1a2.78 2.78 0 0 1-2.78 2.78H5.93a2.78 2.78 0 0 1-2.78-2.78Z" stroke="currentColor" stroke-width="2.07" style="stroke:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="M4.05 9.68h15.9" stroke="currentColor" stroke-width="1.95" style="stroke:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+    <path d="M6.62 14.27h4.63m4.52 0h1.63" stroke="currentColor" stroke-width="1.46" style="stroke:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-receipt" viewBox="0 0 24 24">
+  <title>Receipt</title>
+  <path d="M6.4 3.65 9.2 5.17 12 3.65l2.8 1.52 2.8-1.52c.37-.2.85.07.85.5v15.7c0 .43-.48.7-.85.5l-2.8-1.52-2.8 1.52-2.8-1.52-2.8 1.52c-.37.2-.85-.07-.85-.5V4.15c0-.43.48-.7.85-.5Z" stroke="currentColor" stroke-width="2.03" style="stroke:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="M8.8 8.95h6.4M8.8 12h6.4m-6.4 3.05h3.3" stroke="currentColor" stroke-width="1.47" style="stroke:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-tag" viewBox="0 0 24 24">
+  <title>Tag</title>
+  <path d="M4.02 3.65h6.21a2.1 2.1 0 0 1 1.49.62l8.51 8.51a2.24 2.24 0 0 1 0 3.17l-4.6 4.6a2.24 2.24 0 0 1-3.17 0l-8.5-8.5a2.13 2.13 0 0 1-.63-1.5V4.34c0-.38.31-.69.69-.69Zm1.51 2.2v4.68l8.47 8.47 4.68-4.68-8.47-8.47Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="M9.1 8.12a1.33 1.33 0 1 1-2.66 0 1.33 1.33 0 0 1 2.66 0Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+    <path d="m10.55 11.07 3.36 3.36" stroke="currentColor" stroke-width="1.47" style="stroke:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-package" viewBox="0 0 24 24">
+  <title>Package</title>
+  <path d="m12 3.11 8.4 4.58v8.62L12 20.89l-8.4-4.58V7.69ZM3.95 7.88 12 12.4l8.05-4.52M12 12.4v8.03" stroke="currentColor" stroke-width="2.04" style="stroke:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="m7.96 5.45 8.13 4.59v3.4" stroke="currentColor" stroke-width="1.72" style="stroke:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-warehouse" viewBox="0 0 24 24">
+  <title>Warehouse</title>
+  <path d="m3.42 9.24 7.52-5.12a1.88 1.88 0 0 1 2.12 0l7.52 5.12v9.26a1.25 1.25 0 0 1-1.25 1.25H4.67a1.25 1.25 0 0 1-1.25-1.25Z" stroke="currentColor" stroke-width="2.12" style="stroke:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="M7.4 19.2v-7.34h9.2v7.34m-9.2-3.95h9.2" stroke="currentColor" stroke-width="1.85" style="stroke:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-truck" viewBox="0 0 24 24">
+  <title>Truck</title>
+  <path d="M6.78 17.6H3.95v-10c0-.96.78-1.74 1.74-1.74h8.27V17.6h-3.61m3.61 0h1.67m3.69 0h1.27V13.35l-3.35-3.62h-3.28" stroke="currentColor" stroke-width="2" style="stroke:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="M11.24 17.84a2.66 2.66 0 1 1-5.32 0 2.66 2.66 0 0 1 5.32 0ZM9.65 17.84a1.07 1.07 0 1 1-2.14 0 1.07 1.07 0 0 1 2.14 0Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+    <path d="M20.14 17.84a2.66 2.66 0 1 1-5.32 0 2.66 2.66 0 0 1 5.32 0ZM18.55 17.84a1.07 1.07 0 1 1-2.14 0 1.07 1.07 0 0 1 2.14 0Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+    <path d="M5.7 8.05h5.7" stroke="currentColor" stroke-width="1.45" style="stroke:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-map-pin" viewBox="0 0 24 24">
+  <title>Map pin</title>
+  <path d="M12 3a6.95 6.95 0 0 1 6.95 6.95c0 3.46-3.13 7.23-5.91 10.51a1.36 1.36 0 0 1-2.08 0c-2.78-3.28-5.91-7.05-5.91-10.51A6.95 6.95 0 0 1 12 3Zm0 2.3a4.65 4.65 0 0 0-4.65 4.65c0 2.2 2.2 5.22 4.65 8.13 2.45-2.91 4.65-5.93 4.65-8.13A4.65 4.65 0 0 0 12 5.3Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="M14.15 9.78a2.15 2.15 0 1 1-4.3 0 2.15 2.15 0 0 1 4.3 0Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-car" viewBox="0 0 24 24">
+  <title>Car</title>
+  <path d="M3.55 14.28a3.1 3.1 0 0 1 1.67-2.74l2.01-4.79a2 2 0 0 1 1.85-1.23h5.84a2 2 0 0 1 1.85 1.23l2.01 4.79a3.1 3.1 0 0 1 1.67 2.74v2.36H3.55Zm1.8-2.89h13.3M6.1 16.64v2.2m11.8-2.2v2.2" stroke="currentColor" stroke-width="2.09" style="stroke:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="M6.55 14.1h2.09m6.72 0h2.09" stroke="currentColor" stroke-width="1.52" style="stroke:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-wrench" viewBox="0 0 24 24">
+  <title>Wrench</title>
+  <path d="M14.2 4.19a5.36 5.36 0 0 1 4.25-.67l-3.3 3.3 2.25 2.26 3.3-3.3a5.36 5.36 0 0 1-6.52 6.53l-7.1 7.1a2.36 2.36 0 1 1-3.34-3.34l7.08-7.1a5.36 5.36 0 0 1 3.38-4.78Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="m6.3 17.8 4.64-4.65" stroke="currentColor" stroke-width="1.48" style="stroke:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-barcode" viewBox="0 0 24 24">
+  <title>Barcode</title>
+  <path d="M3.4 8V5.2a1.2 1.2 0 0 1 1.2-1.2h2.55m9.7 0h2.55a1.2 1.2 0 0 1 1.2 1.2V8m0 8v2.8a1.2 1.2 0 0 1-1.2 1.2h-2.55m-9.7 0H4.6a1.2 1.2 0 0 1-1.2-1.2V16" stroke="currentColor" stroke-width="1.78" style="stroke:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+    <path d="M6.85 8.5v7m3.2-7v7m3.9-7v7m3.2-7v7" stroke="currentColor" stroke-width="1.52" style="stroke:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-clipboard" viewBox="0 0 24 24">
+  <title>Clipboard</title>
+  <path d="M8.4 5.85H7.1a2.23 2.23 0 0 0-2.23 2.23v10.44a2.23 2.23 0 0 0 2.23 2.23h9.8a2.23 2.23 0 0 0 2.23-2.23V8.08a2.23 2.23 0 0 0-2.23-2.23h-1.3" stroke="currentColor" stroke-width="2.05" style="stroke:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="M8.05 5.1a1.9 1.9 0 0 1 1.9-1.9h4.1a1.9 1.9 0 0 1 1.9 1.9v1.02a1.9 1.9 0 0 1-1.9 1.9h-4.1a1.9 1.9 0 0 1-1.9-1.9Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+    <path d="M8.26 11.51h7.48m-7.48 3.43h4.93" stroke="currentColor" stroke-width="1.58" style="stroke:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-chart-bar" viewBox="0 0 24 24">
+  <title>Chart bar</title>
+  <path d="M3.3 19.7h17.4" stroke="currentColor" stroke-width="2.1" style="stroke:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="M4.75 16.7v-3.48a1.64 1.64 0 0 1 3.28 0v3.48Zm5.62 0V9.88a1.64 1.64 0 0 1 3.28 0v6.82Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="M15.97 16.7V5.88a1.64 1.64 0 0 1 3.28 0V16.7Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-users" viewBox="0 0 24 24">
+  <title>Users</title>
+  <path d="M12.95 7.72a3.85 3.85 0 1 1-7.7 0 3.85 3.85 0 0 1 7.7 0ZM10.83 7.72a1.73 1.73 0 1 1-3.46 0 1.73 1.73 0 0 1 3.46 0Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="M9.1 12.75a6.6 6.6 0 0 1 6.55 5.48 1.17 1.17 0 0 1-1.16 1.38H3.71a1.17 1.17 0 0 1-1.16-1.38 6.6 6.6 0 0 1 6.55-5.48Zm0 2.14c-1.87 0-3.36.95-4.04 2.56h8.08c-.68-1.61-2.17-2.56-4.04-2.56Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="M15.36 5.42a3.2 3.2 0 1 1 .13 5.94 1.06 1.06 0 0 1 .83-1.95 1.08 1.08 0 1 0-.04-2.01 1.09 1.09 0 0 1-.92-1.98Zm.24 7.62c3.15-.19 5.46 1.83 5.8 5.05a1.1 1.1 0 0 1-1.09 1.22h-2.97v-2.12h1.67c-.48-1.27-1.61-2.1-3.13-2.02a1.08 1.08 0 0 1-.28-2.13Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-briefcase" viewBox="0 0 24 24">
+  <title>Briefcase</title>
+  <path d="M3.35 10.8a2.75 2.75 0 0 1 2.75-2.75h11.8a2.75 2.75 0 0 1 2.75 2.75v6.27a2.75 2.75 0 0 1-2.75 2.75H6.1a2.75 2.75 0 0 1-2.75-2.75Zm5.28-2.75V5.82c0-.87.71-1.58 1.58-1.58h3.58c.87 0 1.58.71 1.58 1.58v2.23" stroke="currentColor" stroke-width="2.14" style="stroke:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="m3.75 12.32 5.35 1.66h5.8l5.35-1.66M12 13.54v1.72" stroke="currentColor" stroke-width="1.88" style="stroke:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-building" viewBox="0 0 24 24">
+  <title>Building</title>
+  <path d="M4.85 20.35h14.3m-12.87 0V5.37c0-.95.77-1.72 1.72-1.72h8c.95 0 1.72.77 1.72 1.72v14.98m-7.33 0v-4.16h3.22v4.16" stroke="currentColor" stroke-width="2.04" style="stroke:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+    <path d="M9.46 7.38h.74m3.6 0h.74m-5.08 3.64h.74m3.6 0h.74" stroke="currentColor" stroke-width="1.74" style="stroke:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-dashboard" viewBox="0 0 24 24">
+  <title>Dashboard</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><rect x="3.7" y="4.5" width="16.6" height="15" rx="2.12" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><path d="M4 9H20M10 9V19" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><path d="M13 13H17M13 16H18" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/></g>
+</symbol>
+<symbol id="usk-icon-list" viewBox="0 0 24 24">
+  <title>List</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><circle cx="5" cy="6" r="1.05" fill="currentColor" style="fill:var(--usi-retrofuturism-enamel, currentColor)" stroke="none"/><circle cx="5" cy="12" r="1.05" fill="currentColor" style="fill:var(--usi-retrofuturism-enamel, currentColor)" stroke="none"/><circle cx="5" cy="18" r="1.05" fill="currentColor" style="fill:var(--usi-retrofuturism-enamel, currentColor)" stroke="none"/><path d="M9 6H20M9 12H20M9 18H20" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/></g>
+</symbol>
+<symbol id="usk-icon-table" viewBox="0 0 24 24">
+  <title>Table</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><rect x="3.8" y="4.7" width="16.4" height="14.6" rx="2.12" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><path d="M4 9.6H20M4 14.4H20M10 5V19" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><path d="M13 7.1H17" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/></g>
+</symbol>
+<symbol id="usk-icon-sort" viewBox="0 0 24 24">
+  <title>Sort</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><path d="M7 18.5L7 5.5M9.70 8.20L7 5.5L4.30 8.20" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/><path d="M17 5.5L17 18.5M14.30 15.80L17 18.5L19.70 15.80" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/></g>
+</symbol>
+<symbol id="usk-icon-clock" viewBox="0 0 24 24">
+  <title>Clock</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><circle cx="12" cy="12" r="8.15" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><path d="M12 7V12L15.2 14.2" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/></g>
+</symbol>
+<symbol id="usk-icon-history" viewBox="0 0 24 24">
+  <title>History</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><path d="M4.3 9.7A8 8 0 1 1 4.9 16" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><path d="M4 5.1V10.2H9" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/><path d="M12 7.6V12L15.2 14.2" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/></g>
+</symbol>
+<symbol id="usk-icon-spinner" viewBox="0 0 24 24">
+  <title>Spinner</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><path d="M4 12A8 8 0 0 1 12 4" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/><path d="M20 12A8 8 0 0 1 12 20" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><circle cx="18.1" cy="6.8" r="1.12" fill="currentColor" style="fill:var(--usi-retrofuturism-enamel, currentColor)" stroke="none"/><circle cx="5.9" cy="17.2" r="1.12" fill="currentColor" style="fill:var(--usi-retrofuturism-metal, currentColor)" stroke="none"/></g>
+</symbol>
+<symbol id="usk-icon-log-in" viewBox="0 0 24 24">
+  <title>Log in</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><path d="M13 4H20V20H13" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><path d="M3.8 12L15.4 12M12.15 15.25L15.4 12L12.15 8.75" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/></g>
+</symbol>
+<symbol id="usk-icon-log-out" viewBox="0 0 24 24">
+  <title>Log out</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><path d="M11 4H4V20H11" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><path d="M8.6 12L20.2 12M16.95 15.25L20.2 12L16.95 8.75" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/></g>
+</symbol>
+<symbol id="usk-icon-shield-check" viewBox="0 0 24 24">
+  <title>Shield check</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><path d="M12 3.4L19.5 6.3V11.3C19.5 15.6 16.2 19 12 21C7.8 19 4.5 15.6 4.5 11.3V6.3Z" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><path d="M8.6 12L11 14.4L15.5 9.8" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/></g>
+</symbol>
+<symbol id="usk-icon-key" viewBox="0 0 24 24">
+  <title>Key</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><circle cx="8.2" cy="8.1" r="4" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><path d="M11 11L19.4 19.4M15.2 15.3L17.2 13.3M17.7 17.8L19.7 15.8" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/></g>
+</symbol>
+<symbol id="usk-icon-phone" viewBox="0 0 24 24">
+  <title>Phone</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><path d="M6.2 4.1L9.3 7.2L8.2 10.1C9.6 12.6 11.6 14.6 14.2 16L17.1 14.9L20 17.9L18.1 20.1C17.5 20.8 16.4 21 15.5 20.7C9.8 18.9 5.1 14.2 3.3 8.5C3 7.6 3.2 6.5 3.9 5.9Z" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><path d="M13 4.2C16.6 4.7 19.3 7.4 19.8 11" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/></g>
+</symbol>
+<symbol id="usk-icon-map" viewBox="0 0 24 24">
+  <title>Map</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><path d="M3.8 6.4L9.3 4L14.7 6.4L20.2 4V17.6L14.7 20L9.3 17.6L3.8 20Z" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><path d="M9.3 4V17.6M14.7 6.4V20" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/></g>
+</symbol>
+<symbol id="usk-icon-layers" viewBox="0 0 24 24">
+  <title>Layers</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><path d="M3.9 8L12 3.9L20.1 8L12 12.1Z" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><path d="M4 12.4L12 16.5L20 12.4M4 16.8L12 20.8L20 16.8" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/></g>
+</symbol>
+<symbol id="usk-icon-locate" viewBox="0 0 24 24">
+  <title>Locate</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><circle cx="12" cy="12" r="5.8" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><circle cx="12" cy="12" r="1.65" fill="currentColor" style="fill:var(--usi-retrofuturism-enamel, currentColor)" stroke="none"/><path d="M12 3.4V6.2M12 17.8V20.6M3.4 12H6.2M17.8 12H20.6" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/></g>
+</symbol>
+<symbol id="usk-icon-shelf" viewBox="0 0 24 24">
+  <title>Shelf</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><path d="M4 4V20M20 4V20M4 11.4H20M4 18.3H20" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><rect x="7" y="6.4" width="4" height="4.8" rx="1.333" fill="currentColor" style="fill:var(--usi-retrofuturism-enamel, currentColor)" stroke="none"/><rect x="13.3" y="12.7" width="4" height="5.5" rx="1.333" fill="currentColor" style="fill:var(--usi-retrofuturism-enamel, currentColor)" stroke="none"/></g>
+</symbol>
+<symbol id="usk-icon-bin-location" viewBox="0 0 24 24">
+  <title>Bin location</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><path d="M4.4 13.5V20H19.6V13.5M4 13.5H8.2M15.8 13.5H20" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><path d="M16 7.4C16 9.7 12 13.4 12 13.4S8 9.7 8 7.4A4 4 0 1 1 16 7.4Z" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/><circle cx="12" cy="7.3" r="1" fill="currentColor" style="fill:var(--usi-retrofuturism-enamel, currentColor)" stroke="none"/></g>
+</symbol>
+<symbol id="usk-icon-vin-scan" viewBox="0 0 24 24">
+  <title>VIN scan</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><path d="M8 4H4V8M16 4H20V8M4 16V20H8M20 16V20H16" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><path d="M7 13.5L8.6 9.2H15.4L17 13.5V16H7Z" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><path d="M7.3 13.2H16.7M8.6 16V17M15.4 16V17" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/></g>
+</symbol>
+<symbol id="usk-icon-shift" viewBox="0 0 24 24">
+  <title>Shift</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><path d="M4 19V6H19V10M8 3.6V7.8M15.5 3.6V7.8M4 10.4H11.4M4 19H9.2" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><circle cx="16.2" cy="16.1" r="4.75" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><path d="M16.2 13.2V16.1L18.2 17.2" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/></g>
+</symbol>
+<symbol id="usk-icon-timesheet" viewBox="0 0 24 24">
+  <title>Timesheet</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><path d="M9 5.7H5.4V20.4H10.1M14.8 5.7H18.6V10.6" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><rect x="9" y="3.5" width="6" height="4.2" rx="1.4" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><circle cx="16.5" cy="16.4" r="4.65" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><path d="M16.5 13.5V16.4L18.4 17.5" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/></g>
+</symbol>
+<symbol id="usk-icon-payroll" viewBox="0 0 24 24">
+  <title>Payroll</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><path d="M6 3H14L19 8V21H6Z M14 3V8H19" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><path d="M9 11.4H16M9 14.7H16M9 18H11.8" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/><circle cx="15.9" cy="18" r="1.18" fill="currentColor" style="fill:var(--usi-retrofuturism-enamel, currentColor)" stroke="none"/></g>
+</symbol>
+<symbol id="usk-icon-calendar-range" viewBox="0 0 24 24">
+  <title>Calendar range</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><rect x="3.8" y="5.7" width="16.4" height="14.7" rx="2.12" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><path d="M8 3.5V7.4M16 3.5V7.4M4 10H20" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/><path d="M8 15.4H16" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/><circle cx="7.2" cy="15.4" r="1.1" fill="currentColor" style="fill:var(--usi-retrofuturism-enamel, currentColor)" stroke="none"/><circle cx="16.8" cy="15.4" r="1.1" fill="currentColor" style="fill:var(--usi-retrofuturism-enamel, currentColor)" stroke="none"/></g>
+</symbol>
+<symbol id="usk-icon-invoice" viewBox="0 0 24 24">
+  <title>Invoice</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><path d="M6 3H14L19 8V21H6Z M14 3V8H19" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><path d="M9 11.7H15.9M9 15.1H11.9M14.1 17.7H16.3" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/><path d="M15.2 16.6V18.8" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/></g>
+</symbol>
+<symbol id="usk-icon-refund" viewBox="0 0 24 24">
+  <title>Refund</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><path d="M5 10.2V5.3H20V17.1H15.8M5 7.9H20" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><path d="M11 12.5L7.3 16.2L11 19.9M7.3 16.2H12.8" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/></g>
+</symbol>
+<symbol id="usk-icon-payout" viewBox="0 0 24 24">
+  <title>Payout</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><path d="M4.5 7.4H19.5V4.5H4.5Z M4.5 7.4V15H10" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><path d="M12.5 11.4L20.4 19.3M16.58 19.30L20.4 19.3L20.40 15.48" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/></g>
+</symbol>
+<symbol id="usk-icon-wallet" viewBox="0 0 24 24">
+  <title>Wallet</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><path d="M20 9V6.2H5C4.1 6.2 3.6 6.8 3.6 7.7V17.8H20V14.8M6 6.2L16.4 4V6.2" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><rect x="13.8" y="9.2" width="7.1" height="5.4" rx="1.8" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/><circle cx="16.2" cy="11.9" r="0.85" fill="currentColor" style="fill:var(--usi-retrofuturism-enamel, currentColor)" stroke="none"/></g>
+</symbol>
+<symbol id="usk-icon-browser" viewBox="0 0 24 24">
+  <title>Browser</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><rect x="3.4" y="5.2" width="17.2" height="13.8" rx="2.12" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><path d="M3.8 9.2H20" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/><circle cx="6.7" cy="7.25" r="0.72" fill="currentColor" style="fill:var(--usi-retrofuturism-enamel, currentColor)" stroke="none"/><circle cx="9.3" cy="7.25" r="0.72" fill="currentColor" style="fill:var(--usi-retrofuturism-enamel, currentColor)" stroke="none"/></g>
+</symbol>
+<symbol id="usk-icon-message" viewBox="0 0 24 24">
+  <title>Message</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><path d="M4.2 4.7H19.8V16.9H10.5L6.1 20V16.9H4.2Z" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><path d="M8 9.3H16M8 12.7H14" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/></g>
+</symbol>
+<symbol id="usk-icon-video" viewBox="0 0 24 24">
+  <title>Video</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><rect x="3.6" y="6.4" width="11.6" height="11.2" rx="2.12" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><path d="M15.2 9.5L20.4 6.7V17.3L15.2 14.5" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/></g>
+</symbol>
+<symbol id="usk-icon-database" viewBox="0 0 24 24">
+  <title>Database</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><path d="M5 6.5C5 2.2 19 2.2 19 6.5V17.5C19 21.8 5 21.8 5 17.5Z" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><path d="M5 6.5C5 10.8 19 10.8 19 6.5M5 12C5 16.3 19 16.3 19 12" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/></g>
+</symbol>
+<symbol id="usk-icon-server" viewBox="0 0 24 24">
+  <title>Server</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><rect x="3.8" y="4.1" width="16.4" height="6.7" rx="2.12" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><rect x="3.8" y="13.2" width="16.4" height="6.7" rx="2.12" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><path d="M8 7.4H9.2M8 16.6H9.2M13.4 7.4H17M13.4 16.6H17" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/></g>
+</symbol>
+<symbol id="usk-icon-api" viewBox="0 0 24 24">
+  <title>API</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><path d="M9 5H5V19H9M15 5H19V19H15M5 12H9M15 12H19" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><rect x="9" y="9" width="6" height="6" rx="2" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/></g>
+</symbol>
+<symbol id="usk-icon-shield" viewBox="0 0 24 24">
+  <title>Shield</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><path d="M12 3.4L19.5 6.3V11.3C19.5 15.6 16.2 19 12 21C7.8 19 4.5 15.6 4.5 11.3V6.3Z" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><path d="M12 7V16.5" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/></g>
+</symbol>
+<symbol id="usk-icon-activity" viewBox="0 0 24 24">
+  <title>Activity</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><path d="M3.7 12H7.5L10 5.1L14 18.9L16.3 12H20.3" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/></g>
+</symbol>
+<symbol id="usk-icon-tax" viewBox="0 0 24 24">
+  <title>Tax</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><circle cx="7.5" cy="7.5" r="2.8" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><circle cx="16.5" cy="16.5" r="2.8" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><path d="M5 19L19 5" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/></g>
+</symbol>
+<symbol id="usk-icon-code" viewBox="0 0 24 24">
+  <title>Code</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><path d="M8 7L3.8 12L8 17M16 7L20.2 12L16 17" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><path d="M13.5 5.6L10.5 18.4" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/></g>
+</symbol>
+<symbol id="usk-icon-terminal" viewBox="0 0 24 24">
+  <title>Terminal</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><rect x="3.5" y="5.1" width="17" height="13.8" rx="2.12" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><path d="M7.2 9.2L10.5 12L7.2 14.8M12.7 14.8H16.8" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/></g>
+</symbol>
+<symbol id="usk-icon-rocket" viewBox="0 0 24 24">
+  <title>Rocket</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><path d="M10 16L7.9 13.9C10.5 7.7 15.3 4.5 20.2 3.8C19.5 8.7 16.3 13.5 10 16ZM7.9 13.9L4 14.5L5.8 10.1L10.3 9.6M10 16L9.5 20L13.9 18.2L14.5 13.7" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><circle cx="14.9" cy="9.1" r="1.4" fill="currentColor" style="fill:var(--usi-retrofuturism-enamel, currentColor)" stroke="none"/><path d="M6.4 17.6L3.8 20.2" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/></g>
+</symbol>
+<symbol id="usk-icon-bug" viewBox="0 0 24 24">
+  <title>Bug</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><rect x="7.2" y="8.1" width="9.6" height="11.6" rx="2.12" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><path d="M9 8.1V6A3 3 0 0 1 15 6V8.1M12 9V18.8" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/><path d="M4 9.6L7.2 11.2M4 14H7.2M4 18.6L7.2 17M20 9.6L16.8 11.2M20 14H16.8M20 18.6L16.8 17" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/></g>
+</symbol>
+<symbol id="usk-icon-cloud" viewBox="0 0 24 24">
+  <title>Cloud</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><path d="M7.2 18.3A4.1 4.1 0 1 1 8 10.2A5.1 5.1 0 0 1 17.7 11.3A3.55 3.55 0 1 1 17 18.3Z" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><path d="M8.6 15.2H15.4" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/></g>
+</symbol>
+<symbol id="usk-icon-globe" viewBox="0 0 24 24">
+  <title>Globe</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><circle cx="12" cy="12" r="8.3" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><path d="M12 3.8C6.4 8.3 6.4 15.7 12 20.2C17.6 15.7 17.6 8.3 12 3.8Z M4.2 12H19.8" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/></g>
+</symbol>
+<symbol id="usk-icon-scan" viewBox="0 0 24 24">
+  <title>Scan</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><path d="M8 4H4V8M16 4H20V8M4 16V20H8M20 16V20H16" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><path d="M6.4 12H17.6" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/></g>
+</symbol>
+<symbol id="usk-icon-network" viewBox="0 0 24 24">
+  <title>Network</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><path d="M12 8.6V12.7M6.1 16.1V12.7H17.9V16.1" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><circle cx="12" cy="5.9" r="2.55" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/><rect x="3.6" y="16.1" width="5.2" height="4.3" rx="1.433" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><rect x="15.2" y="16.1" width="5.2" height="4.3" rx="1.433" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/></g>
+</symbol>
+<symbol id="usk-icon-cpu" viewBox="0 0 24 24">
+  <title>CPU</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><rect x="6.8" y="6.8" width="10.4" height="10.4" rx="2.12" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><rect x="10" y="10" width="4" height="4" rx="1.333" fill="currentColor" style="fill:var(--usi-retrofuturism-enamel, currentColor)" stroke="none"/><path d="M9 4V6.8M15 4V6.8M9 17.2V20M15 17.2V20M4 9H6.8M4 15H6.8M17.2 9H20M17.2 15H20" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/></g>
+</symbol>
+<symbol id="usk-icon-module" viewBox="0 0 24 24">
+  <title>Module</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><rect x="3.9" y="4.7" width="16.2" height="14.6" rx="2.12" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><path d="M10 5V19" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><rect x="13" y="8" width="4.4" height="4.3" rx="1.433" fill="currentColor" style="fill:var(--usi-retrofuturism-enamel, currentColor)" stroke="none"/></g>
+</symbol>
+<symbol id="usk-icon-stack" viewBox="0 0 24 24">
+  <title>Stack</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><rect x="5.5" y="4.1" width="13" height="6.7" rx="2.12" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><path d="M5.5 13.8H18.5M5.5 17.1H18.5M5.5 20.4H18.5" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/></g>
+</symbol>
+<symbol id="usk-icon-tile" viewBox="0 0 24 24">
+  <title>Tile</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><rect x="4.8" y="4.8" width="14.4" height="14.4" rx="2.12" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><rect x="8.7" y="8.7" width="6.6" height="6.6" rx="2.12" fill="currentColor" style="fill:var(--usi-retrofuturism-enamel, currentColor)" stroke="none"/></g>
+</symbol>
+<symbol id="usk-icon-palette" viewBox="0 0 24 24">
+  <title>Palette</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><path d="M12 3.8A8.2 8.2 0 1 0 12 20.2H13.3A1.65 1.65 0 0 0 14.2 17.2A1.4 1.4 0 0 1 15 14.6H17.4A2.8 2.8 0 0 0 20.2 11.8A8.2 8.2 0 0 0 12 3.8Z" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><circle cx="7.8" cy="11.6" r="1.1" fill="currentColor" style="fill:var(--usi-retrofuturism-enamel, currentColor)" stroke="none"/><circle cx="10.4" cy="7.5" r="1.1" fill="currentColor" style="fill:var(--usi-retrofuturism-enamel, currentColor)" stroke="none"/><circle cx="15.2" cy="8.1" r="1.1" fill="currentColor" style="fill:var(--usi-retrofuturism-enamel, currentColor)" stroke="none"/></g>
+</symbol>
+<symbol id="usk-icon-heart" viewBox="0 0 24 24">
+  <title>Heart</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><path d="M12 20L5.5 13.6C1 9.1 6.2 3.5 10.2 6.6L12 8.1L13.8 6.6C17.8 3.5 23 9.1 18.5 13.6Z" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><path d="M6.5 9.8C6.6 8.9 7.2 8.3 8.1 8.2" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/></g>
+</symbol>
+<symbol id="usk-icon-star" viewBox="0 0 24 24">
+  <title>Star</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><path d="M12 3.7L14.5 9L20.3 9.8L16.2 14L17.2 19.8L12 17L6.8 19.8L7.8 14L3.7 9.8L9.5 9Z" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><circle cx="12" cy="12.1" r="1.08" fill="currentColor" style="fill:var(--usi-retrofuturism-enamel, currentColor)" stroke="none"/></g>
+</symbol>
+<symbol id="usk-icon-target" viewBox="0 0 24 24">
+  <title>Target</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><circle cx="12" cy="12" r="8.25" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><circle cx="12" cy="12" r="4.7" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><circle cx="12" cy="12" r="1.52" fill="currentColor" style="fill:var(--usi-retrofuturism-enamel, currentColor)" stroke="none"/></g>
+</symbol>
+<symbol id="usk-icon-megaphone" viewBox="0 0 24 24">
+  <title>Megaphone</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><path d="M4.1 9.2H9.2L17 5.7V16.4L9.2 13H4.1Z M7.1 13L9 19.3H12L10.1 13.4" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><path d="M20 8.1L21 6.7M20.2 11.1H21.2M20 14.1L21 15.5" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/></g>
+</symbol>
+<symbol id="usk-icon-cursor" viewBox="0 0 24 24">
+  <title>Cursor</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><path d="M5.3 3.8L19.9 13.5L13.3 14.5L10.6 20.1Z" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><path d="M13.3 14.5L17.5 19.1" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/></g>
+</symbol>
+<symbol id="usk-icon-expand" viewBox="0 0 24 24">
+  <title>Expand</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><path d="M9 4H4V9M15 4H20V9M4 15V20H9M20 15V20H15" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><path d="M4 4L8.7 8.7M20 20L15.3 15.3" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/></g>
+</symbol>
+<symbol id="usk-icon-archive" viewBox="0 0 24 24">
+  <title>Archive</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><rect x="3.5" y="4.2" width="17" height="4.5" rx="1.5" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><path d="M5.4 8.7V19.8H18.6V8.7" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><path d="M9 12.5H15" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/></g>
+</symbol>
+<symbol id="usk-icon-keyboard" viewBox="0 0 24 24">
+  <title>Keyboard</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><rect x="3.6" y="6.1" width="16.8" height="11.8" rx="2.12" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><path d="M7.4 10.3H8M11.7 10.3H12.3M16 10.3H16.6M8.5 14.1H15.5" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/></g>
+</symbol>
+<symbol id="usk-icon-move" viewBox="0 0 24 24">
+  <title>Move</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><path d="M12 4V20M4 12H20" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><path d="M9.5 6.6L12 4L14.5 6.6M9.5 17.4L12 20L14.5 17.4M6.6 9.5L4 12L6.6 14.5M17.4 9.5L20 12L17.4 14.5" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/></g>
+</symbol>
+<symbol id="usk-icon-send" viewBox="0 0 24 24">
+  <title>Send</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><path d="M3.8 9.5L20.2 4L15.1 20L11 13.1Z" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><path d="M11 13.1L20.2 4" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/></g>
+</symbol>
+<symbol id="usk-icon-hand" viewBox="0 0 24 24">
+  <title>Hand</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><path d="M7 13.6V6.3Q7 4.8 8.4 4.8Q9.8 4.8 9.8 6.3V11M9.8 8.4V4.7Q9.8 3.4 11.1 3.4Q12.6 3.4 12.6 4.9V11M12.6 8V6.5Q12.6 5.1 14 5.1Q15.4 5.1 15.4 6.5V11.4M15.4 10Q15.4 8.7 16.8 8.7Q18.2 8.7 18.2 10.1V15.1Q18.2 20.4 13.2 20.4H11Q8.9 20.4 7.3 18.5L4.1 14.5Q3.2 13.3 4.3 12.4Q5.3 11.6 7 13.6Z" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><path d="M10.6 16H13.6" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/></g>
+</symbol>
+<symbol id="usk-icon-zoom-in" viewBox="0 0 24 24">
+  <title>Zoom in</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><circle cx="9.8" cy="9.8" r="5.6" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><path d="M13.9 13.9L20.2 20.2" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><path d="M6.65 9.8H12.95M9.8 6.65V12.95" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/></g>
+</symbol>
+<symbol id="usk-icon-zoom-out" viewBox="0 0 24 24">
+  <title>Zoom out</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><circle cx="9.8" cy="9.8" r="5.6" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><path d="M13.9 13.9L20.2 20.2" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><path d="M6.65 9.8H12.95" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/></g>
+</symbol>
+<symbol id="usk-icon-wifi-off" viewBox="0 0 24 24">
+  <title>Wi-Fi off</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><path d="M3.8 8.7A13 13 0 0 1 6.3 7.2M9.8 6.1A13 13 0 0 1 20.2 8.7M6.7 12.1A8.6 8.6 0 0 1 9.2 10.8M13.9 10.5A8.6 8.6 0 0 1 17.3 12.1M9.5 15.3A4 4 0 0 1 12.5 14.5" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><circle cx="12" cy="18.8" r="1.1" fill="currentColor" style="fill:var(--usi-retrofuturism-metal, currentColor)" stroke="none"/><path d="M4.2 4.2L19.8 19.8" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/></g>
+</symbol>
+<symbol id="usk-icon-unlock" viewBox="0 0 24 24">
+  <title>Unlock</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><rect x="5.2" y="10.3" width="13.6" height="10" rx="2.12" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><path d="M8 10.3V7.4A4 4 0 0 1 15.9 6.6" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><path d="M12 14.1V16.6" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/></g>
+</symbol>
+<symbol id="usk-icon-paint-brush" viewBox="0 0 24 24">
+  <title>Paint brush</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><path d="M8.9 14.6L17.3 5.1A1.65 1.65 0 0 1 19.9 7.1L12 17" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><path d="M12 17C11.3 20.3 7.7 20.9 3.8 19.8C5.3 18.9 5.7 17.9 6 16.9C6.5 14.9 7.6 14.2 8.9 14.6Z" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/></g>
+</symbol>
+<symbol id="usk-icon-door-open" viewBox="0 0 24 24">
+  <title>Door open</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><path d="M5 20.5V4.2H16.4V7.3M16.4 18V20.5H4" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><path d="M8.2 6.6L19.4 4.4V18.4L8.2 20.4Z" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/><circle cx="16.6" cy="12.1" r="0.88" fill="currentColor" style="fill:var(--usi-retrofuturism-enamel, currentColor)" stroke="none"/></g>
+</symbol>
+<symbol id="usk-icon-paint-bucket" viewBox="0 0 24 24">
+  <title>Paint bucket</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><path d="M4.4 12.4L11.8 5L18.7 11.9L11.3 19.3ZM7.9 4.2L12.3 8.6M4.8 12.4H18" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><path d="M20.3 15C22.1 17.2 22.1 19.2 20.3 19.2C18.5 19.2 18.5 17.2 20.3 15Z" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/></g>
+</symbol>
+<symbol id="usk-icon-pen-tool" viewBox="0 0 24 24">
+  <title>Pen tool</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><path d="M12 3.7L19.6 15.4L15.4 19.6L3.7 12L8.7 10.5L10.5 8.7Z M12.5 17.7L17.7 12.5" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><circle cx="11.7" cy="11.7" r="1.55" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/><path d="M10.6 10.6L4.5 4.5" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/></g>
+</symbol>
+<symbol id="usk-icon-rectangle" viewBox="0 0 24 24">
+  <title>Rectangle</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><rect x="4.1" y="6.4" width="15.8" height="11.2" rx="2.12" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><path d="M4.2 9V6.4H7M16.9 17.6H19.9V14.8" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/></g>
+</symbol>
+<symbol id="usk-icon-clipboard-check" viewBox="0 0 24 24">
+  <title>Clipboard check</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><path d="M9 5.5H5.5V20.5H18.5V5.5H15" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><rect x="9" y="3.3" width="6" height="4" rx="1.333" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/><path d="M8.8 13.1L11.1 15.4L15.7 10.8" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/></g>
+</symbol>
+<symbol id="usk-icon-package-check" viewBox="0 0 24 24">
+  <title>Package check</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><path d="M3.5 7.5L10.5 3.8L17.5 7.5V12M3.5 7.5V16L10.5 20M3.5 7.5L10.5 11.3L17.5 7.5M10.5 11.3V20" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><circle cx="17.1" cy="16.8" r="4.25" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><path d="M15.2 16.9L16.7 18.4L19.2 15.7" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/></g>
+</symbol>
+<symbol id="usk-icon-package-x" viewBox="0 0 24 24">
+  <title>Package X</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><path d="M3.5 7.5L10.5 3.8L17.5 7.5V12M3.5 7.5V16L10.5 20M3.5 7.5L10.5 11.3L17.5 7.5M10.5 11.3V20" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><circle cx="17.1" cy="16.8" r="4.25" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><path d="M15.7 15.4L18.5 18.2M18.5 15.4L15.7 18.2" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/></g>
+</symbol>
+<symbol id="usk-icon-boxes" viewBox="0 0 24 24">
+  <title>Boxes</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><rect x="8.5" y="4.1" width="7" height="6.5" rx="2.12" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><rect x="4" y="12.3" width="7.2" height="7.6" rx="2.12" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><rect x="12.8" y="12.3" width="7.2" height="7.6" rx="2.12" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><path d="M12 4.5V6.8M7.6 12.7V15.1M16.4 12.7V15.1" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/></g>
+</symbol>
+<symbol id="usk-icon-gauge" viewBox="0 0 24 24">
+  <title>Gauge</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><path d="M4.2 17.9V12.9A7.8 7.8 0 0 1 19.8 12.9V17.9Z" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><path d="M12 13.8L15.7 9.9" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/><circle cx="12" cy="13.8" r="1.3" fill="currentColor" style="fill:var(--usi-retrofuturism-enamel, currentColor)" stroke="none"/></g>
+</symbol>
+<symbol id="usk-icon-images" viewBox="0 0 24 24">
+  <title>Images</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><path d="M6.6 5H20V16.6" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><rect x="3.8" y="8.2" width="13" height="11.8" rx="2.12" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><path d="M4.2 17L8.3 13.9L11.2 16.1L13 14.8L16.6 17.7" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/><circle cx="12.8" cy="11.4" r="1" fill="currentColor" style="fill:var(--usi-retrofuturism-enamel, currentColor)" stroke="none"/></g>
+</symbol>
+<symbol id="usk-icon-recycle" viewBox="0 0 24 24">
+  <title>Recycle</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><path d="M6.6 8.2L10.5 3.9H13L16.3 9.2M18.4 12.4L20.2 16.2L18.6 18.6H12.6M8.3 18.6H4.9L3.8 16.2L6.5 11.8" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><path d="M12.9 8.6L16.3 9.2L17 5.8M14.8 16.2L12.6 18.6L14.8 20.8M3.8 12.3L6.5 11.8L7.5 14.6" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/></g>
+</symbol>
+<symbol id="usk-icon-contrast" viewBox="0 0 24 24">
+  <title>Contrast</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><circle cx="12" cy="12" r="8" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><path d="M12 4A8 8 0 0 1 12 20Z" fill="currentColor" style="fill:var(--usi-retrofuturism-enamel, currentColor)" stroke="none"/></g>
+</symbol>
+<symbol id="usk-icon-moon" viewBox="0 0 24 24">
+  <title>Moon</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><path d="M20 14.2A8.3 8.3 0 1 1 9.8 4A7.5 7.5 0 0 0 20 14.2Z" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><path d="M15.3 5.2V9M13.4 7.1H17.2" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/></g>
+</symbol>
+<symbol id="usk-icon-sun" viewBox="0 0 24 24">
+  <title>Sun</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><circle cx="12" cy="12" r="4.5" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/><path d="M12 3.4V5M12 19V20.6M3.4 12H5M19 12H20.6M5.9 5.9L7 7M17 17L18.1 18.1M5.9 18.1L7 17M17 7L18.1 5.9" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/></g>
+</symbol>
+<symbol id="usk-icon-replace" viewBox="0 0 24 24">
+  <title>Replace</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><path d="M4.2 8.3L19.8 8.3M17.30 10.80L19.8 8.3L17.30 5.80" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/><path d="M19.8 15.7L4.2 15.7M6.70 13.20L4.2 15.7L6.70 18.20" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/></g>
+</symbol>
+<symbol id="usk-icon-shopping-bag" viewBox="0 0 24 24">
+  <title>Shopping bag</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><rect x="5" y="8.1" width="14" height="12.1" rx="2.12" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><path d="M8.7 11.2V6.7A3.3 3.3 0 0 1 15.3 6.7V11.2" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/></g>
+</symbol>
+<symbol id="usk-icon-image-off" viewBox="0 0 24 24">
+  <title>Image off</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><path d="M4.3 7.3V19H16.7M8.2 5H19.7V15.5M6.2 16L9 13.7M14 12.1L16.6 10" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><path d="M4 4L20 20" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/></g>
+</symbol>
+<symbol id="usk-icon-sparkles" viewBox="0 0 24 24">
+  <title>Sparkles</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><path d="M10.2 4.2L11.9 9.5L17.1 11.2L11.9 12.9L10.2 18.2L8.5 12.9L3.3 11.2L8.5 9.5Z" fill="currentColor" style="fill:var(--usi-retrofuturism-metal, currentColor)" stroke="none"/><path d="M18.5 13.9L19.4 16.5L22 17.4L19.4 18.3L18.5 20.9L17.6 18.3L15 17.4L17.6 16.5Z" fill="currentColor" style="fill:var(--usi-retrofuturism-enamel, currentColor)" stroke="none"/></g>
+</symbol>
+<symbol id="usk-icon-file-text" viewBox="0 0 24 24">
+  <title>File text</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><path d="M6 3H14L19 8V21H6Z M14 3V8H19" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><path d="M9 11.6H16.2M9 14.6H16.2M9 17.6H14.2" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/></g>
+</symbol>
+<symbol id="usk-icon-ban" viewBox="0 0 24 24">
+  <title>Ban</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><circle cx="12" cy="12" r="8.15" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><path d="M6.3 6.3L17.7 17.7" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/></g>
+</symbol>
+<symbol id="usk-icon-banknote" viewBox="0 0 24 24">
+  <title>Banknote</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><rect x="3.8" y="6.5" width="16.4" height="11" rx="2.12" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><circle cx="12" cy="12" r="2.55" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/><path d="M7 11.2V12.8M17 11.2V12.8" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/></g>
+</symbol>
+<symbol id="usk-icon-parking" viewBox="0 0 24 24">
+  <title>Parking</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><circle cx="12" cy="12" r="8.05" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><path d="M9.8 16.1V7.8H12.6A2.5 2.5 0 0 1 12.6 12.8H9.8" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/></g>
+</symbol>
+<symbol id="usk-icon-scale" viewBox="0 0 24 24">
+  <title>Scale</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><path d="M12 4V19.8M7.5 19.8H16.5M5.3 7.4H18.7" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><path d="M5.3 7.4L2.9 13H7.7ZM18.7 7.4L16.3 13H21.1Z" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/></g>
+</symbol>
+<symbol id="usk-icon-shield-alert" viewBox="0 0 24 24">
+  <title>Shield alert</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><path d="M12 3.4L19.5 6.3V11.3C19.5 15.6 16.2 19 12 21C7.8 19 4.5 15.6 4.5 11.3V6.3Z" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><path d="M12 8V12.4" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/><circle cx="12" cy="15.4" r="0.9" fill="currentColor" style="fill:var(--usi-retrofuturism-enamel, currentColor)" stroke="none"/></g>
+</symbol>
+<symbol id="usk-icon-signpost" viewBox="0 0 24 24">
+  <title>Signpost</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><path d="M12 3.7V20.2" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><path d="M5 6.3H17L20 8.7L17 11.1H5ZM19 13.3H7L4 15.7L7 18.1H19Z" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/></g>
+</symbol>
+<symbol id="usk-icon-monitor" viewBox="0 0 24 24">
+  <title>Monitor</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><rect x="3.8" y="4.6" width="16.4" height="11.9" rx="2.12" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><path d="M12 16.5V20M7.5 20H16.5" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/></g>
+</symbol>
+<symbol id="usk-icon-smartphone" viewBox="0 0 24 24">
+  <title>Smartphone</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><rect x="7.1" y="3.6" width="9.8" height="16.8" rx="2.12" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><path d="M10.1 16.7H13.9" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/></g>
+</symbol>
+<symbol id="usk-icon-tablet" viewBox="0 0 24 24">
+  <title>Tablet</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><rect x="5.1" y="3.8" width="13.8" height="16.4" rx="2.12" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><path d="M10.5 16.7H13.5" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/></g>
+</symbol>
+<symbol id="usk-icon-ste-workforce" viewBox="0 0 24 24">
+  <title>STE Workforce</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><circle cx="12" cy="7.2" r="2.85" fill="currentColor" style="fill:var(--usi-retrofuturism-enamel, currentColor)" stroke="none"/><circle cx="5.7" cy="9.3" r="1.85" fill="currentColor" style="fill:var(--usi-retrofuturism-metal, currentColor)" stroke="none"/><circle cx="18.3" cy="9.3" r="1.85" fill="currentColor" style="fill:var(--usi-retrofuturism-metal, currentColor)" stroke="none"/><path d="M7.2 18.8V16.4A4.8 4.8 0 0 1 16.8 16.4V18.8Z" fill="currentColor" style="fill:var(--usi-retrofuturism-enamel, currentColor)" stroke="none"/><path d="M2.9 17.6V15.2A2.8 2.8 0 0 1 6.8 12.6L6.2 17.6ZM21.1 17.6H17.8L17.2 12.6A2.8 2.8 0 0 1 21.1 15.2Z" fill="currentColor" style="fill:var(--usi-retrofuturism-metal, currentColor)" stroke="none"/></g>
+</symbol>
+<symbol id="usk-icon-ste-payments" viewBox="0 0 24 24">
+  <title>STE Payments</title>
+  <g transform="translate(.24 .12) scale(.98 .99)"><path d="M15 17.1H4.1V6H19.9V11.8M4.1 9.6H19.9" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><path d="M7.3 13.4H9.9" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/><circle cx="17.6" cy="17.1" r="4.05" stroke="currentColor" style="stroke:var(--usi-retrofuturism-metal, currentColor)" stroke-width="2.04"/><path d="M15.9 17L17.2 18.3L19.5 15.9" stroke="currentColor" style="stroke:var(--usi-retrofuturism-enamel, currentColor)" stroke-width="2.08"/></g>
+</symbol>
+</defs>
+</svg>

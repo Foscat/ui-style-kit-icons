@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Volume" focusable="false" class="usk-icon" data-icon-style="technical-blueprint" fill="none" stroke-linejoin="miter" stroke-linecap="square">
+  <path d="M4.15 9.25h3.8l4.95-3.6v12.7l-4.95-3.6h-3.8Z" stroke="currentColor" stroke-width="1.52" style="stroke:var(--usi-technical-blueprint-ink, var(--usi-primary-ink, currentColor))"/>
+  <path d="M15.45 8.8a4.15 4.15 0 0 1 0 6.4m2.25-8.75a7.2 7.2 0 0 1 0 11.1" stroke="currentColor" stroke-width="1.32" style="stroke:var(--usi-technical-blueprint-ink, var(--usi-primary-ink, currentColor))"/>
+  <path d="M3.15 12h1.05m4.5 7.95h4.2m0-.65v1.3" stroke="currentColor" stroke-width="1.03" style="stroke:var(--usi-technical-blueprint-datum, var(--usi-accent-ink, currentColor))"/>
+</svg>

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Help" focusable="false" class="usk-icon" data-icon-style="data-terminal" fill="none">
+  <path d="M5 4h14v2h2v12h-2v2H5v-2H3V6h2Z M5 8v8h2v2h10v-2h2V8h-2V6H7v2Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-terminal-ink, var(--usi-ink, currentColor))"/>
+  <path d="M8 18h8v2H8Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-terminal-ink, var(--usi-ink, currentColor))"/>
+  <path d="M9 7h6v2h2v3h-2v1h-2v1h-2v-3h3V9h-4v2H8V9h1Zm2 8h2v2h-2Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-terminal-signal, var(--usi-accent-ink, currentColor))"/>
+</svg>

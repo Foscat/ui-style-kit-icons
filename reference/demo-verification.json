@@ -1,0 +1,34 @@
+{
+  "styles": 20,
+  "glyphsPerStyle": 80,
+  "paletteModes": 75,
+  "combinations": 1500,
+  "checked": 42675,
+  "layoutChecks": 60,
+  "verifiedWidthsPx": [
+    360,
+    768,
+    1440
+  ],
+  "browser": "Chromium",
+  "staticRoutes": [
+    "file URL",
+    "HTTP subdirectory",
+    "offline single HTML"
+  ],
+  "actions": [
+    "style swap",
+    "rapid selection",
+    "live color changes",
+    "reduced motion",
+    "forced colors",
+    "search",
+    "category",
+    "size",
+    "themed SVG download",
+    "one-ink SVG download",
+    "clipboard fallback",
+    "mobile inspector navigation"
+  ],
+  "paintSample": "First ten icons per family, using the gallery paint stylesheet"
+}

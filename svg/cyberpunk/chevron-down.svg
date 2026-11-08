@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Chevron down" focusable="false" class="usk-icon" data-icon-style="cyberpunk" fill="none" stroke-width="1.65" stroke-linejoin="bevel" stroke-linecap="square">
+  <g transform="rotate(90 12 12)">
+  <path d="M8.15 5.2 14.95 12l-6.8 6.8" stroke="currentColor" style="stroke:var(--usi-cyberpunk-rail, var(--usi-primary-ink, currentColor))"/>
+  <path d="M13.6 6.1 19.5 12l-5.9 5.9 M4.65 12h2.1" stroke="currentColor" style="stroke:var(--usi-cyberpunk-signal, var(--usi-accent-ink, currentColor))"/>
+  </g>
+</svg>

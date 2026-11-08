@@ -26,20 +26,24 @@ const required = [
   "README.md",
   "SECURITY.md",
   "contract/icon-contract.json",
-  "contract/pack-audit.json",
   "dist/registry.js",
   "dist/registry.json",
+  "dist/sprites/organic-modern.monochrome.svg",
+  "dist/sprites/organic-modern.svg",
+  "dist/ui-style-kit-icons.all.css",
   "dist/ui-style-kit-icons.css",
   "dist/ui-style-kit-icons.d.ts",
   "dist/ui-style-kit-icons.js",
   "dist/ui-style-kit-icons.svg",
-  "icons/home.svg",
   "manifest.json",
-  "packs/minimal-saas/manifest.json",
-  "packs/minimal-saas/package.json",
-  "packs/synthwave/icons/cassette.svg",
+  "monochrome/organic-modern/home.svg",
+  "paint/all.css",
+  "paint/inline-svg.mjs",
+  "reference/UI-STYLE-KIT-LICENSE.txt",
   "sprite/ui-style-kit-icons.inline.svg",
-  "style-source/system-style-source.md"
+  "sprite/organic-modern.monochrome.inline.svg",
+  "sprite/organic-modern.inline.svg",
+  "svg/organic-modern/home.svg"
 ];
 const excludedPrefixes = [
   ".github/",
@@ -52,7 +56,9 @@ const excludedPrefixes = [
   "test-results/",
   "tests/",
   "tmp/",
-  "packs/tactile-ui-style-icons/"
+  "icons/",
+  "packs/",
+  "style-source/"
 ];
 const excludedFiles = [
   ".nojekyll",
@@ -71,12 +77,11 @@ const missing = required.filter((file) => !names.includes(file));
 const unexpected = names.filter(
   (file) =>
     excludedFiles.includes(file) ||
-    /^packs\/[^/]+\/index\.html$/u.test(file) ||
     excludedPrefixes.some((prefix) => file.startsWith(prefix))
 );
 
 const exceedsSizeBudget =
-  packed.size > 1_000_000 || packed.unpackedSize > 8_000_000;
+  packed.size > 5_000_000 || packed.unpackedSize > 20_000_000;
 
 if (missing.length > 0 || unexpected.length > 0 || exceedsSizeBudget) {
   if (missing.length > 0) {

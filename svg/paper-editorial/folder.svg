@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Folder" focusable="false" class="usk-icon" data-icon-style="paper-editorial" fill="none" stroke-linecap="square" stroke-linejoin="miter">
+  <path d="M3.05 5.55h7.75l1.7 2.55h8.45v11.5H3.05Zm2.48 2.1v9.77h13.54v-7.4h-7.8L9.62 7.65Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-paper-editorial-ink, var(--usi-ink, currentColor))"/>
+  <path d="M5.55 10.42h7.35v2.25H5.55Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-paper-editorial-proof, var(--usi-accent-ink, currentColor))"/>
+  <path d="M8.1 15.03h8.25" stroke="currentColor" stroke-width="1.4" style="stroke:var(--usi-paper-editorial-ink, var(--usi-ink, currentColor))"/>
+</svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Warning" focusable="false" class="usk-icon" data-icon-style="retro-glass" fill="none" stroke-width="1.55" stroke-linejoin="round" stroke-linecap="round">
+  <path d="M10.5 4.1h3l7.15 12.8v2.45H3.35V16.9Z" fill="none" fill-opacity="0.34" stroke="currentColor" style="fill:var(--usi-retro-glass-pane, none);stroke:var(--usi-retro-glass-rim, var(--usi-primary-ink, currentColor))"/>
+  <path d="M12 8.25v4.6m3.6 4.5h3.25" stroke="currentColor" stroke-width="1.55" style="stroke:var(--usi-retro-glass-etch, var(--usi-accent-ink, currentColor))"/>
+  <circle cx="12" cy="15.9" r="1.05" fill="currentColor" style="fill:var(--usi-retro-glass-etch, var(--usi-accent-ink, currentColor))"/>
+  <path d="m6.2 16.05 2.35-4.2" stroke="none" stroke-width="1" style="stroke:var(--usi-retro-glass-shine, none)"/>
+</svg>

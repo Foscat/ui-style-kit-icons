@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Wrench" focusable="false" class="usk-icon" data-icon-style="clay" fill="none" stroke-linejoin="round" stroke-linecap="round">
+  <g transform="translate(0 0.63)"><path d="M13.17 4.49q2.46-1.98 5.49-.88l-2.69 2.78q-.52.56-.01 1.06l1.58 1.55q.52.52 1.07-.02l2.73-2.75q1.04 2.95-.87 5.31-1.79 2.18-5 1.65l-6.42 6.38q-1.98 1.9-3.83-.04-1.8-1.89.04-3.7l6.26-6.15q-.51-3.25 1.65-5.19Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-clay-rim, var(--usi-ink, currentColor))"/></g>
+  <path d="M13.17 4.49q2.46-1.98 5.49-.88l-2.69 2.78q-.52.56-.01 1.06l1.58 1.55q.52.52 1.07-.02l2.73-2.75q1.04 2.95-.87 5.31-1.79 2.18-5 1.65l-6.42 6.38q-1.98 1.9-3.83-.04-1.8-1.89.04-3.7l6.26-6.15q-.51-3.25 1.65-5.19Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-clay-face, var(--usi-accent-ink, currentColor))"/>
+</svg>

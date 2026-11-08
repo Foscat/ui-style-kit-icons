@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Clipboard" focusable="false" class="usk-icon" data-icon-style="editorial-luxe" fill="none" stroke-linejoin="round" stroke-linecap="round">
+  <path d="M8.2 5.8H5.25v14.45h13.5V5.8H15.8" stroke="currentColor" stroke-width="1.35" style="stroke:var(--usi-editorial-luxe-ink, var(--usi-primary-ink, currentColor))"/>
+  <path d="M8.2 4.75h1.65a2.2 2.2 0 0 1 4.3 0h1.65v3.1H8.2Zm1.4 1.12v.85h4.8v-.85h-1.45v-.65a.95.95 0 0 0-1.9 0v.65Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-editorial-luxe-ink, var(--usi-primary-ink, currentColor))"/>
+  <path d="M8.25 11.25h7.5m-7.5 3.4h7.5m-7.5 3.15h4.8" stroke="currentColor" stroke-width="1.22" style="stroke:var(--usi-editorial-luxe-foil, var(--usi-accent-ink, currentColor))"/>
+</svg>

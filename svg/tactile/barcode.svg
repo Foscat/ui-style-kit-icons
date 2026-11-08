@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Barcode" focusable="false" class="usk-icon" data-icon-style="tactile" fill="none" stroke="var(--usi-ink, currentColor)" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="3.25" y="5.1" width="17.5" height="13.8" rx="2.05" fill="var(--usi-tactile-recess, none)"/>
+  <path d="M6.95 8.65v6.7m3.05-6.7v6.7m4.55-6.7v6.7m2.5-6.7v6.7" stroke="var(--usi-ink, currentColor)" stroke-width="0.95"/>
+  <path d="M12.25 8.65v6.7" stroke="var(--usi-primary-ink, currentColor)" stroke-width="1.55"/>
+  <path d="M5 8.2q0-1.5 1.5-1.5h8" stroke="var(--usi-tactile-shade, none)" stroke-width="1"/>
+  <path d="M8.7 17.3h8.7" stroke="var(--usi-tactile-highlight, none)" stroke-width="0.8"/>
+</svg>

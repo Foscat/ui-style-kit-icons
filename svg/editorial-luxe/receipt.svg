@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Receipt" focusable="false" class="usk-icon" data-icon-style="editorial-luxe" fill="none" stroke-linejoin="round" stroke-linecap="round">
+  <path d="M5.5 3.65 7.67 5.1l2.16-1.45L12 5.1l2.17-1.45 2.16 1.45 2.17-1.45v16.7l-2.17-1.45-2.16 1.45L12 18.9l-2.17 1.45-2.16-1.45-2.17 1.45Z" stroke="currentColor" stroke-width="1.35" style="stroke:var(--usi-editorial-luxe-ink, var(--usi-primary-ink, currentColor))"/>
+  <path d="M8.3 8.3h7.4m-7.4 3.3h7.4" stroke="currentColor" stroke-width="1.23" style="stroke:var(--usi-editorial-luxe-ink, var(--usi-primary-ink, currentColor))"/>
+  <path d="M11.15 15.2h4.55" stroke="currentColor" stroke-width="1.42" style="stroke:var(--usi-editorial-luxe-foil, var(--usi-accent-ink, currentColor))"/>
+</svg>

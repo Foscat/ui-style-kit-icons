@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Chart bar" focusable="false" class="usk-icon" data-icon-style="clay" fill="none" stroke-linejoin="round" stroke-linecap="round">
+  <g transform="translate(0 0.66)"><path d="M4.09 13.39q0-1.18 1.21-1.18h1.32q1.22 0 1.22 1.18v4.19H4.09Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-clay-rim, var(--usi-ink, currentColor))"/></g>
+  <path d="M4.09 13.39q0-1.18 1.21-1.18h1.32q1.22 0 1.22 1.18v4.19H4.09Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-clay-face, var(--usi-accent-ink, currentColor))"/>
+  <g transform="translate(0 0.66)"><path d="M10.11 9.71q0-1.16 1.19-1.16h1.39q1.19 0 1.19 1.16v7.87h-3.77Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-clay-rim, var(--usi-ink, currentColor))"/></g>
+  <path d="M10.11 9.71q0-1.16 1.19-1.16h1.39q1.19 0 1.19 1.16v7.87h-3.77Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-clay-face, var(--usi-accent-ink, currentColor))"/>
+  <g transform="translate(0 0.66)"><path d="M16.16 6.12q0-1.21 1.18-1.21h1.37q1.2 0 1.2 1.19v11.48h-3.75Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-clay-rim, var(--usi-ink, currentColor))"/></g>
+  <path d="M16.16 6.12q0-1.21 1.18-1.21h1.37q1.2 0 1.2 1.19v11.48h-3.75Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-clay-face, var(--usi-accent-ink, currentColor))"/>
+  <path d="M4.03 19.59q7.52.09 15.92 0" fill="none" stroke="currentColor" stroke-width="2.1" style="stroke:var(--usi-clay-rim, var(--usi-ink, currentColor))"/>
+</svg>

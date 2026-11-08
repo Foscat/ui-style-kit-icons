@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Success" focusable="false" class="usk-icon" data-icon-style="organic-modern" fill="none" stroke-linejoin="round" stroke-linecap="round">
+  <path d="M12.52 3.48c4.75 0 8.02 3.31 8.02 8.22 0 5.22-3.51 8.86-8.81 8.86-4.77 0-8.27-3.27-8.27-8.06 0-5.24 3.75-9.02 9.06-9.02Zm-.04 1.87c-4.17 0-7.15 2.99-7.15 7.12 0 3.77 2.74 6.2 6.45 6.2 4.09 0 6.87-2.77 6.87-6.98 0-3.85-2.46-6.34-6.17-6.34Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-organic-modern-body, var(--usi-primary-ink, currentColor))"/>
+  <g transform="translate(2.52 2.52) scale(.79)">
+  <path d="M5.13 11.24c.46-.45 1.12-.38 1.66.13l3.23 3.14 6.84-7.27c.56-.59 1.28-.7 1.81-.21.53.48.52 1.11-.02 1.71l-7.73 8.43c-.46.5-1.16.55-1.67.07l-4.14-4.05c-.58-.57-.52-1.43.02-1.95Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-organic-modern-inlay, var(--usi-accent-ink, currentColor))"/>
+  </g>
+</svg>

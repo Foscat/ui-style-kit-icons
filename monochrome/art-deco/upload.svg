@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Upload" focusable="false" class="usk-icon" data-icon-style="art-deco" fill="none" stroke-linejoin="bevel" stroke-linecap="square">
+  <g transform="rotate(180 12 9.34)">
+  <path d="M10.95 3.45h2.1v7.4h1.35V9.5h2.05v2.13l-3.48 3.6h-1.94l-3.48-3.6V9.5H9.6v1.35h1.35Z" fill="currentColor" fill-rule="evenodd"/>
+  </g>
+  <path d="M3.85 14.4h1.75v2.16h1.25v1.39h10.3v-1.39h1.25V14.4h1.75v4.09h-1.4v1.22H5.25v-1.22h-1.4Z" fill="currentColor" fill-rule="evenodd"/>
+  <path d="M7.6 21h8.8" stroke="currentColor" stroke-width="1.03"/>
+</svg>

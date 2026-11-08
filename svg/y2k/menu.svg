@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Menu" focusable="false" class="usk-icon" data-icon-style="y2k" fill="none" stroke-width="1.65" stroke-linejoin="round" stroke-linecap="round">
+  <rect x="4" y="4.6" width="15.9" height="2.8" rx="1.4" fill="currentColor" style="fill:var(--usi-y2k-pop, var(--usi-accent-ink, currentColor))"/>
+  <rect x="4" y="10.6" width="11.9" height="2.8" rx="1.4" fill="currentColor" style="fill:var(--usi-y2k-pop, var(--usi-accent-ink, currentColor))"/>
+  <rect x="4" y="16.6" width="15.9" height="2.8" rx="1.4" fill="currentColor" style="fill:var(--usi-y2k-pop, var(--usi-accent-ink, currentColor))"/>
+  <path d="M6.4 5.8h4.5" stroke="none" stroke-width="1.15" style="stroke:var(--usi-y2k-shine, none)"/>
+  <path d="M6.4 17.8h4.5" stroke="none" stroke-width="1.15" style="stroke:var(--usi-y2k-shine, none)"/>
+</svg>

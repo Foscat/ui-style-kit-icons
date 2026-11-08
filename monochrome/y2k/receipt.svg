@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Receipt" focusable="false" class="usk-icon" data-icon-style="y2k" fill="none" stroke-width="1.65" stroke-linejoin="round" stroke-linecap="round">
+  <path d="M5.85 6.2a2.6 2.6 0 0 1 2.6-2.6h7.1a2.6 2.6 0 0 1 2.6 2.6v12.9a1.1 1.1 0 0 1-1.75.88l-1.23-.92a1.18 1.18 0 0 0-1.42 0l-1.04.78a1.18 1.18 0 0 1-1.42 0l-1.04-.78a1.18 1.18 0 0 0-1.42 0l-1.23.92a1.1 1.1 0 0 1-1.75-.88Z" stroke="currentColor" fill="none"/>
+  <path d="M9.05 8.1h5.9m-5.9 3.55h5.9m-5.9 3.55h3.5" stroke="currentColor" stroke-width="1.55"/>
+  <path d="M8.35 5.65h3.15" stroke="none" stroke-width="1.15"/>
+</svg>

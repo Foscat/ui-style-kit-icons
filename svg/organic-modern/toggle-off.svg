@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Toggle off" focusable="false" class="usk-icon" data-icon-style="organic-modern" fill="none" stroke-linejoin="round" stroke-linecap="round">
+  <path d="M3 12.45c0-3.47 2.63-5.67 5.91-5.67h6.29c3.57 0 5.8 2.02 5.8 5.12 0 3.31-2.5 5.32-5.84 5.32H8.58C5.47 17.22 3 15.46 3 12.45Zm1.88-.02c0 1.85 1.5 2.94 3.7 2.94h6.58c2.4 0 3.97-1.22 3.97-3.46 0-1.99-1.39-3.28-3.93-3.28H8.91c-2.33 0-4.03 1.38-4.03 3.8Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-organic-modern-body, var(--usi-primary-ink, currentColor))"/>
+  <g transform="translate(24 0) scale(-1 1)">
+  <path d="M15.1 9.65c1.56 0 2.83.82 2.83 2.24 0 1.46-1.2 2.43-2.85 2.43-1.56 0-2.55-.8-2.55-2.12 0-1.48 1.01-2.55 2.57-2.55Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-organic-modern-inlay, var(--usi-accent-ink, currentColor))"/>
+  </g>
+</svg>

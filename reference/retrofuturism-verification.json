@@ -1,0 +1,31 @@
+{
+  "iconCount": 80,
+  "paletteModes": 75,
+  "rasterSizesPx": [
+    16,
+    20,
+    24,
+    32
+  ],
+  "rasterChecks": 24000,
+  "stateChecks": 56,
+  "pilotAssetsMatched": 28,
+  "monochromeShapeComparisons": 6080,
+  "smallestPixelDifference": 3,
+  "closestShape": {
+    "name": "minus",
+    "style": "maximalist",
+    "size": 16
+  },
+  "minimumPaintContrast": 4.28,
+  "chromiumComputedPaintChecks": 385050,
+  "chromiumControls": [
+    "theme",
+    "mode",
+    "one ink",
+    "comparison",
+    "search",
+    "category",
+    "system forced colors"
+  ]
+}

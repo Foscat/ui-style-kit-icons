@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Cart" focusable="false" class="usk-icon" data-icon-style="y2k" fill="none" stroke-width="1.65" stroke-linejoin="round" stroke-linecap="round">
+  <path d="M6.75 7.85h11.7a1.8 1.8 0 0 1 1.75 2.2l-.75 3.15a2.7 2.7 0 0 1-2.62 2.08h-6.1a2.7 2.7 0 0 1-2.63-2.1Z" stroke="currentColor" fill="none"/>
+  <path d="M3.45 4.55h.65a2 2 0 0 1 1.95 1.6l.7 1.7" stroke="currentColor" stroke-width="1.7"/>
+  <circle cx="10.25" cy="19.15" r="1.65" fill="currentColor"/>
+  <circle cx="17.15" cy="19.15" r="1.65" fill="currentColor"/>
+  <path d="M9.85 10.2h4.4" stroke="none" stroke-width="1.15"/>
+</svg>

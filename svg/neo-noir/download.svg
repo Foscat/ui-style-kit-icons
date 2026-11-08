@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Download" focusable="false" class="usk-icon" data-icon-style="neo-noir" fill="none" stroke-linecap="butt" stroke-linejoin="bevel">
+  <path d="M9.9 3.45h4.2v6.07l2.12-1.89 2.38 2.19-6.59 5.86-6.64-5.86 2.38-2.19 2.15 1.89Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neo-noir-ink, var(--usi-ink, currentColor))"/>
+  <path d="M12 3.45h2.1v6.07l2.12-1.89 2.38 2.19-3.09 2.73L12 10.18Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neo-noir-light, var(--usi-accent-ink, currentColor))"/>
+  <path d="M3.55 14.36h2.76l-.69 3.25h12.2l.69-3.25h2.77l-1.27 6.08H2.27Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neo-noir-ink, var(--usi-ink, currentColor))"/>
+  <path d="M10.03 17.61h7.79l.69-3.25h2.77l-1.27 6.08h-10.6Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neo-noir-light, var(--usi-accent-ink, currentColor))"/>
+</svg>

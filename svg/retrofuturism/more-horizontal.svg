@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="More horizontal" focusable="false" class="usk-icon" data-icon-style="retrofuturism" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M7 8.1h10a3.9 3.9 0 0 1 0 7.8H7a3.9 3.9 0 0 1 0-7.8Z" stroke="currentColor" stroke-width="1.65" style="stroke:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+  <path d="M8.200000000000001 12a1.05 1.05 0 1 1-2.1 0 1.05 1.05 0 0 1 2.1 0Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+  <path d="M13.16 12a1.16 1.16 0 1 1-2.32 0 1.16 1.16 0 0 1 2.32 0Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-retrofuturism-enamel, var(--usi-secondary-ink, currentColor))"/>
+  <path d="M17.900000000000002 12a1.05 1.05 0 1 1-2.1 0 1.05 1.05 0 0 1 2.1 0Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-retrofuturism-metal, var(--usi-primary-ink, currentColor))"/>
+</svg>

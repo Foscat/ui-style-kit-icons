@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Upload" focusable="false" class="usk-icon" data-icon-style="tactile" fill="none" stroke="var(--usi-ink, currentColor)" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M10.7 14.35h2.6V8.3h3.25L12 3.45 7.45 8.3h3.25Z" fill="var(--usi-primary-ink, currentColor)" stroke="none"/>
+  <path d="M3.65 14.5h3.1l1.7 2.2h7.1l1.7-2.2h3.1v3.65a2.15 2.15 0 0 1-2.15 2.15H5.8a2.15 2.15 0 0 1-2.15-2.15Z" fill="var(--usi-tactile-face, none)"/>
+  <path d="M5.5 18.7h13" stroke="var(--usi-tactile-shade, none)" stroke-width="1"/>
+</svg>

@@ -1,3 +1,4 @@
+import { inlineSvg } from "../paint/inline-svg.mjs";
 import {
   aliases,
   contractVersion,
@@ -15,66 +16,61 @@ import {
 const svgCache = new Map();
 const liveIcons = new Set();
 const moduleBaseUrl = new URL("../", import.meta.url);
-const iconTokenPrefixes = [
-  "usk",
-  "saas",
-  "bento",
-  "max",
-  "brutal",
-  "tactile",
-  "neo",
-  "rg",
-  "y2k",
-  "cp",
-  "sw"
-];
-const iconTokenRoles = [
-  "primary",
-  "secondary",
-  "accent",
-  "success",
-  "warning",
-  "danger",
-  "muted"
-];
-const svgTokenBridge = [
-  ...iconTokenPrefixes.flatMap((prefix) =>
-    iconTokenRoles.map(
-      (role) =>
-        `--${prefix}-icon-${role}: var(--usk-icon-contrast-${role}) !important;`
-    )
-  ),
-  ...iconTokenPrefixes.map(
-    (prefix) =>
-      `--${prefix}-icon-border: var(--usk-icon-contrast-keyline) !important;`
-  )
-].join("\n");
-let fallbackPack = "system";
+let fallbackPack = "organic-modern";
 let fallbackAssetBaseUrl = moduleBaseUrl;
 let observer;
 
+/**
+ * Normalizes a public icon, family, or alias key.
+ *
+ * @param {unknown} value User-supplied key.
+ * @returns {string} Lowercase kebab-case key.
+ */
 function normalizeKey(value) {
   return String(value ?? "")
     .trim()
     .toLowerCase()
     .replaceAll("_", "-")
-    .replace(/\s+/g, "-");
+    .replace(/\s+/gu, "-");
 }
 
+/**
+ * Resolves a supported icon alias to its canonical Collection 01 name.
+ *
+ * @param {string} name Icon name or alias.
+ * @returns {string} Canonical icon name when an alias exists.
+ */
 export function normalizeIconName(name) {
   const normalized = normalizeKey(name);
   return aliases[normalized] ?? normalized;
 }
 
+/**
+ * Returns a registered Collection 01 family.
+ *
+ * @param {string} [packOrStyle] Family ID or supported style alias.
+ * @returns {Record<string, unknown>} Registry family record.
+ * @throws {RangeError} When the family is not part of Collection 01.
+ */
 export function getPack(packOrStyle = fallbackPack) {
   const normalized = normalizeKey(packOrStyle);
   const id = packRegistry[normalized]
     ? normalized
-    : styleAliases[normalized] ?? fallbackPack;
+    : styleAliases[normalized];
 
-  return packRegistry[id] ?? packRegistry.system;
+  if (!id || !packRegistry[id]) {
+    throw new RangeError(`Unknown icon family "${packOrStyle}".`);
+  }
+
+  return packRegistry[id];
 }
 
+/**
+ * Changes the fallback family used when no family is specified.
+ *
+ * @param {string} packOrStyle Family ID or supported style alias.
+ * @returns {string} Canonical family ID.
+ */
 export function setDefaultPack(packOrStyle) {
   fallbackPack = getPack(packOrStyle).id;
 
@@ -85,25 +81,30 @@ export function setDefaultPack(packOrStyle) {
   return fallbackPack;
 }
 
+/**
+ * Resolves a path-like value to a directory URL.
+ *
+ * @param {string | URL | undefined} value Directory value.
+ * @param {URL} [baseUrl] Resolution base.
+ * @returns {URL} URL with a trailing slash.
+ */
 function directoryUrl(value, baseUrl = moduleBaseUrl) {
   if (value instanceof URL) {
-    return new URL(
-      value.href.endsWith("/") ? value.href : `${value.href}/`
-    );
+    return new URL(value.href.endsWith("/") ? value.href : `${value.href}/`);
   }
 
   const text = String(value ?? "").trim();
+  const directory = text ? (text.endsWith("/") ? text : `${text}/`) : "./";
 
-  if (!text) {
-    return new URL(baseUrl);
-  }
-
-  return new URL(
-    text.endsWith("/") ? text : `${text}/`,
-    globalThis.document?.baseURI ?? baseUrl
-  );
+  return new URL(directory, globalThis.document?.baseURI ?? baseUrl);
 }
 
+/**
+ * Sets the package root used to load SVG artwork.
+ *
+ * @param {string | URL} value Package-root URL.
+ * @returns {string} Normalized absolute URL.
+ */
 export function setAssetBaseUrl(value) {
   fallbackAssetBaseUrl = directoryUrl(value);
 
@@ -114,54 +115,90 @@ export function setAssetBaseUrl(value) {
   return fallbackAssetBaseUrl.href;
 }
 
+/**
+ * Returns the active package-root URL.
+ *
+ * @returns {string} Absolute asset base URL.
+ */
 export function getAssetBaseUrl() {
   return fallbackAssetBaseUrl.href;
 }
 
+/**
+ * Resolves a themed or monochrome SVG URL.
+ *
+ * @param {string} name Icon name.
+ * @param {string} [packOrStyle] Family ID or style alias.
+ * @param {string | URL} [baseUrl] Package-root URL.
+ * @param {"themed" | "monochrome"} [variant="themed"] Artwork variant.
+ * @returns {string} Absolute SVG URL.
+ */
 export function resolveIconUrl(
   name,
   packOrStyle,
-  baseUrl = fallbackAssetBaseUrl
+  baseUrl = fallbackAssetBaseUrl,
+  variant = "themed"
 ) {
   const iconName = normalizeIconName(name);
   const pack = getPack(packOrStyle);
-  const icon = [...pack.coreIcons, ...pack.optionalIcons].find(
-    (candidate) => candidate.id === iconName
-  );
+  const icon = pack.coreIcons.find((candidate) => candidate.id === iconName);
 
   if (!icon) {
-    throw new RangeError(`Unknown icon "${name}" for pack "${pack.id}".`);
+    throw new RangeError(`Unknown icon "${name}" for family "${pack.id}".`);
   }
 
-  return new URL(
-    `${pack.sourcePath}/${icon.file}`,
-    directoryUrl(baseUrl)
-  ).href;
-}
-
-export function iconNames(packOrStyle = fallbackPack, { includeOptional = false } = {}) {
-  const pack = getPack(packOrStyle);
-  const names = pack.coreIcons.map(({ id }) => id);
-
-  if (includeOptional) {
-    names.push(...pack.optionalIcons.map(({ id }) => id));
+  if (!["themed", "monochrome"].includes(variant)) {
+    throw new RangeError(`Unknown icon variant "${variant}".`);
   }
 
-  return names;
+  const relativePath = variant === "monochrome" ? icon.monochromeFile : icon.file;
+  return new URL(relativePath, directoryUrl(baseUrl)).href;
 }
 
+/**
+ * Returns the canonical icon names for a family.
+ *
+ * @param {string} [packOrStyle] Family ID or style alias.
+ * @returns {string[]} Canonical icon names in manifest order.
+ */
+export function iconNames(packOrStyle = fallbackPack) {
+  return getPack(packOrStyle).coreIcons.map(({ id }) => id);
+}
+
+/**
+ * Detects unsafe CSS resource references inside SVG text.
+ *
+ * @param {string} value CSS or attribute text.
+ * @returns {boolean} Whether the text can execute or load an external resource.
+ */
+function containsUnsafeCssReference(value) {
+  if (/@import\b|expression\s*\(/iu.test(value)) {
+    return true;
+  }
+
+  return [...value.matchAll(/url\(\s*(['"]?)([^)'"]+)\1\s*\)/giu)].some(
+    ([, , target]) => !target.trim().startsWith("#")
+  );
+}
+
+/**
+ * Sanitizes supplied SVG markup for insertion into a shadow root.
+ *
+ * @param {string} svgText Complete SVG document.
+ * @returns {string} Sanitized inline SVG markup.
+ */
 function sanitizeSvg(svgText) {
-  const documentNode = new DOMParser().parseFromString(svgText, "image/svg+xml");
+  const normalized = inlineSvg(svgText);
+  const documentNode = new DOMParser().parseFromString(normalized, "image/svg+xml");
   const svg = documentNode.documentElement;
 
-  if (svg.nodeName.toLowerCase() !== "svg" || documentNode.querySelector("parsererror")) {
+  if (
+    svg.nodeName.toLowerCase() !== "svg" ||
+    documentNode.querySelector("parsererror")
+  ) {
     throw new TypeError("The icon response was not a valid SVG document.");
   }
 
-  /*
-   * Icons may be loaded from a caller-configured asset host. Preserve SVG
-   * drawing primitives while removing executable and remote-resource surfaces.
-   */
   svg
     .querySelectorAll(
       [
@@ -210,6 +247,7 @@ function sanitizeSvg(svgText) {
   svg.removeAttribute("width");
   svg.removeAttribute("height");
   svg.removeAttribute("role");
+  svg.removeAttribute("aria-label");
   svg.removeAttribute("aria-labelledby");
   svg.setAttribute("aria-hidden", "true");
   svg.setAttribute("focusable", "false");
@@ -218,16 +256,12 @@ function sanitizeSvg(svgText) {
   return svg.outerHTML;
 }
 
-function containsUnsafeCssReference(value) {
-  if (/@import\b|expression\s*\(/iu.test(value)) {
-    return true;
-  }
-
-  return [...value.matchAll(/url\(\s*(['"]?)([^)'"]+)\1\s*\)/giu)].some(
-    ([, , target]) => !target.trim().startsWith("#")
-  );
-}
-
+/**
+ * Loads and caches a sanitized SVG document.
+ *
+ * @param {string} url SVG URL.
+ * @returns {Promise<string>} Sanitized inline SVG markup.
+ */
 async function loadSvg(url) {
   if (!svgCache.has(url)) {
     const request = fetch(url).then(async (response) => {
@@ -249,6 +283,11 @@ async function loadSvg(url) {
   return svgCache.get(url);
 }
 
+/**
+ * Installs the shared observer for contextual family and asset-root changes.
+ *
+ * @returns {void}
+ */
 function ensureObserver() {
   if (observer || typeof MutationObserver === "undefined") {
     return;
@@ -273,6 +312,12 @@ function ensureObserver() {
   });
 }
 
+/**
+ * Resolves the closest family scope for an icon element.
+ *
+ * @param {Element} element Icon element.
+ * @returns {Record<string, unknown>} Registry family record.
+ */
 function contextualPack(element) {
   const explicit = element.getAttribute("pack");
 
@@ -290,6 +335,12 @@ function contextualPack(element) {
   return getPack(uiScope?.dataset.ui ?? fallbackPack);
 }
 
+/**
+ * Resolves the closest package-root scope for an icon element.
+ *
+ * @param {Element} element Icon element.
+ * @returns {URL} Package-root URL.
+ */
 function contextualAssetBaseUrl(element) {
   const explicit = element.getAttribute("asset-base");
 
@@ -298,18 +349,25 @@ function contextualAssetBaseUrl(element) {
   }
 
   const scope = element.closest("[data-icon-base]");
-
-  if (scope?.dataset.iconBase) {
-    return directoryUrl(scope.dataset.iconBase);
-  }
-
-  return fallbackAssetBaseUrl;
+  return scope?.dataset.iconBase
+    ? directoryUrl(scope.dataset.iconBase)
+    : fallbackAssetBaseUrl;
 }
 
 const HTMLElementBase = globalThis.HTMLElement ?? class {};
 
+/**
+ * Theme-aware custom element for Collection 01 artwork.
+ */
 export class UiStyleIconElement extends HTMLElementBase {
-  static observedAttributes = ["name", "pack", "label", "size", "asset-base", "frame"];
+  static observedAttributes = [
+    "name",
+    "pack",
+    "label",
+    "size",
+    "asset-base",
+    "variant"
+  ];
 
   #renderId = 0;
   #root;
@@ -347,26 +405,49 @@ export class UiStyleIconElement extends HTMLElementBase {
     return contextualPack(this).id;
   }
 
-  get frame() {
-    return this.getAttribute("frame") ?? "auto";
+  get variant() {
+    return this.getAttribute("variant") === "monochrome"
+      ? "monochrome"
+      : "themed";
   }
 
-  set frame(value) {
-    if (value === null || value === undefined || value === "auto") {
-      this.removeAttribute("frame");
+  set variant(value) {
+    if (!value || value === "themed") {
+      this.removeAttribute("variant");
     } else {
-      this.setAttribute("frame", value);
+      this.setAttribute("variant", value);
     }
   }
 
+  /**
+   * Reloads artwork after a public property or contextual scope changes.
+   *
+   * @returns {void}
+   */
   refresh() {
     const renderId = ++this.#renderId;
     const name = normalizeIconName(this.name);
-    const pack = contextualPack(this);
+    const variant = this.variant;
     const label = this.getAttribute("label")?.trim();
     const size = this.getAttribute("size")?.trim();
+    let pack;
+    let url;
+
+    try {
+      pack = contextualPack(this);
+      url = resolveIconUrl(
+        name,
+        pack.id,
+        contextualAssetBaseUrl(this),
+        variant
+      );
+    } catch (error) {
+      this.#renderError(error, name, variant);
+      return;
+    }
 
     this.dataset.pack = pack.id;
+    this.dataset.variant = variant;
     this.toggleAttribute("data-loading", true);
     this.removeAttribute("data-error");
 
@@ -386,15 +467,6 @@ export class UiStyleIconElement extends HTMLElementBase {
       this.style.removeProperty("--usk-icon-size");
     }
 
-    let url;
-
-    try {
-      url = resolveIconUrl(name, pack.id, contextualAssetBaseUrl(this));
-    } catch (error) {
-      this.#renderError(error);
-      return;
-    }
-
     loadSvg(url)
       .then((svg) => {
         if (renderId !== this.#renderId || !this.isConnected) {
@@ -404,393 +476,18 @@ export class UiStyleIconElement extends HTMLElementBase {
         this.#root.innerHTML = `
           <style>
             :host {
-              --usk-icon-contrast-primary: rgb(var(--usk-primary-rgb, 37 99 235));
-              --usk-icon-contrast-primary: color-mix(
-                in srgb,
-                rgb(var(--usk-primary-rgb, 37 99 235)) 45%,
-                currentColor 55%
-              );
-              --usk-icon-contrast-secondary: rgb(var(--usk-secondary-rgb, 100 116 139));
-              --usk-icon-contrast-secondary: color-mix(
-                in srgb,
-                rgb(var(--usk-secondary-rgb, 100 116 139)) 30%,
-                currentColor 70%
-              );
-              --usk-icon-contrast-accent: rgb(var(--usk-accent-rgb, 14 165 233));
-              --usk-icon-contrast-accent: color-mix(
-                in srgb,
-                rgb(var(--usk-accent-rgb, 14 165 233)) 30%,
-                currentColor 70%
-              );
-              --usk-icon-contrast-success: rgb(var(--usk-success-rgb, 22 163 74));
-              --usk-icon-contrast-success: color-mix(
-                in srgb,
-                rgb(var(--usk-success-rgb, 22 163 74)) 38%,
-                currentColor 62%
-              );
-              --usk-icon-contrast-warning: rgb(var(--usk-warning-rgb, 202 138 4));
-              --usk-icon-contrast-warning: color-mix(
-                in srgb,
-                rgb(var(--usk-warning-rgb, 202 138 4)) 38%,
-                currentColor 62%
-              );
-              --usk-icon-contrast-danger: rgb(var(--usk-danger-rgb, 220 38 38));
-              --usk-icon-contrast-danger: color-mix(
-                in srgb,
-                rgb(var(--usk-danger-rgb, 220 38 38)) 38%,
-                currentColor 62%
-              );
-              --usk-icon-contrast-muted: rgb(var(--usk-text-muted-rgb, 100 116 139));
-              --usk-icon-contrast-muted: color-mix(
-                in srgb,
-                rgb(var(--usk-text-muted-rgb, 100 116 139)) 20%,
-                currentColor 80%
-              );
-              --usk-icon-contrast-keyline: currentColor;
-              --usk-icon-foreground: currentColor;
-              --usk-icon-play: currentColor;
-              --usk-icon-primary: var(--usk-icon-contrast-primary);
-              --usk-icon-secondary: var(--usk-icon-contrast-secondary);
-              --usk-icon-accent: var(--usk-icon-contrast-accent);
-              --usk-icon-success: var(--usk-icon-contrast-success);
-              --usk-icon-warning: var(--usk-icon-contrast-warning);
-              --usk-icon-danger: var(--usk-icon-contrast-danger);
-              --usk-icon-muted: var(--usk-icon-contrast-muted);
-              --usk-icon-border: var(--usk-icon-contrast-keyline);
-              --saas-icon-primary: var(--usk-icon-contrast-primary);
-              --saas-icon-secondary: var(--usk-icon-contrast-secondary);
-              --saas-icon-accent: var(--usk-icon-contrast-accent);
-              --saas-icon-success: var(--usk-icon-contrast-success);
-              --saas-icon-warning: var(--usk-icon-contrast-warning);
-              --saas-icon-danger: var(--usk-icon-contrast-danger);
-              --saas-icon-muted: var(--usk-icon-contrast-muted);
-              --saas-icon-border: var(--usk-icon-contrast-keyline);
-              --bento-icon-primary: var(--usk-icon-contrast-primary);
-              --bento-icon-secondary: var(--usk-icon-contrast-secondary);
-              --bento-icon-accent: var(--usk-icon-contrast-accent);
-              --bento-icon-success: var(--usk-icon-contrast-success);
-              --bento-icon-warning: var(--usk-icon-contrast-warning);
-              --bento-icon-danger: var(--usk-icon-contrast-danger);
-              --bento-icon-muted: var(--usk-icon-contrast-muted);
-              --bento-icon-border: var(--usk-icon-contrast-keyline);
-              --max-icon-primary: var(--usk-icon-contrast-primary);
-              --max-icon-secondary: var(--usk-icon-contrast-secondary);
-              --max-icon-accent: var(--usk-icon-contrast-accent);
-              --max-icon-success: var(--usk-icon-contrast-success);
-              --max-icon-warning: var(--usk-icon-contrast-warning);
-              --max-icon-danger: var(--usk-icon-contrast-danger);
-              --max-icon-muted: var(--usk-icon-contrast-muted);
-              --max-icon-border: var(--usk-icon-contrast-keyline);
-              --brutal-icon-primary: var(--usk-icon-contrast-primary);
-              --brutal-icon-secondary: var(--usk-icon-contrast-secondary);
-              --brutal-icon-accent: var(--usk-icon-contrast-accent);
-              --brutal-icon-success: var(--usk-icon-contrast-success);
-              --brutal-icon-warning: var(--usk-icon-contrast-warning);
-              --brutal-icon-danger: var(--usk-icon-contrast-danger);
-              --brutal-icon-muted: var(--usk-icon-contrast-muted);
-              --brutal-icon-border: var(--usk-icon-contrast-keyline);
-              --tactile-icon-primary: var(--usk-icon-contrast-primary);
-              --tactile-icon-secondary: var(--usk-icon-contrast-secondary);
-              --tactile-icon-accent: var(--usk-icon-contrast-accent);
-              --tactile-icon-success: var(--usk-icon-contrast-success);
-              --tactile-icon-warning: var(--usk-icon-contrast-warning);
-              --tactile-icon-danger: var(--usk-icon-contrast-danger);
-              --tactile-icon-muted: var(--usk-icon-contrast-muted);
-              --tactile-icon-border: var(--usk-icon-contrast-keyline);
-              --neo-icon-primary: var(--usk-icon-contrast-primary);
-              --neo-icon-secondary: var(--usk-icon-contrast-secondary);
-              --neo-icon-accent: var(--usk-icon-contrast-accent);
-              --neo-icon-success: var(--usk-icon-contrast-success);
-              --neo-icon-warning: var(--usk-icon-contrast-warning);
-              --neo-icon-danger: var(--usk-icon-contrast-danger);
-              --neo-icon-muted: var(--usk-icon-contrast-muted);
-              --neo-icon-border: var(--usk-icon-contrast-keyline);
-              --rg-icon-primary: var(--usk-icon-contrast-primary);
-              --rg-icon-secondary: var(--usk-icon-contrast-secondary);
-              --rg-icon-accent: var(--usk-icon-contrast-accent);
-              --rg-icon-success: var(--usk-icon-contrast-success);
-              --rg-icon-warning: var(--usk-icon-contrast-warning);
-              --rg-icon-danger: var(--usk-icon-contrast-danger);
-              --rg-icon-muted: var(--usk-icon-contrast-muted);
-              --rg-icon-border: var(--usk-icon-contrast-keyline);
-              --y2k-icon-primary: var(--usk-icon-contrast-primary);
-              --y2k-icon-secondary: var(--usk-icon-contrast-secondary);
-              --y2k-icon-accent: var(--usk-icon-contrast-accent);
-              --y2k-icon-success: var(--usk-icon-contrast-success);
-              --y2k-icon-warning: var(--usk-icon-contrast-warning);
-              --y2k-icon-danger: var(--usk-icon-contrast-danger);
-              --y2k-icon-muted: var(--usk-icon-contrast-muted);
-              --y2k-icon-border: var(--usk-icon-contrast-keyline);
-              --cp-icon-primary: var(--usk-icon-contrast-primary);
-              --cp-icon-secondary: var(--usk-icon-contrast-secondary);
-              --cp-icon-accent: var(--usk-icon-contrast-accent);
-              --cp-icon-success: var(--usk-icon-contrast-success);
-              --cp-icon-warning: var(--usk-icon-contrast-warning);
-              --cp-icon-danger: var(--usk-icon-contrast-danger);
-              --cp-icon-muted: var(--usk-icon-contrast-muted);
-              --cp-icon-border: var(--usk-icon-contrast-keyline);
-              --sw-icon-primary: var(--usk-icon-contrast-primary);
-              --sw-icon-secondary: var(--usk-icon-contrast-secondary);
-              --sw-icon-accent: var(--usk-icon-contrast-accent);
-              --sw-icon-success: var(--usk-icon-contrast-success);
-              --sw-icon-warning: var(--usk-icon-contrast-warning);
-              --sw-icon-danger: var(--usk-icon-contrast-danger);
-              --sw-icon-muted: var(--usk-icon-contrast-muted);
-              --sw-icon-border: var(--usk-icon-contrast-keyline);
+              display: inline-block;
               inline-size: var(--usk-icon-size, 1.25em);
               block-size: var(--usk-icon-size, 1.25em);
-              display: inline-flex;
-              flex: 0 0 auto;
+              color: inherit;
+              line-height: 1;
               vertical-align: -0.125em;
             }
-            :host-context([data-mode="contrast"]) {
-              /*
-               * Contrast mode prioritizes an unambiguous silhouette while
-               * light and dark modes retain each theme's color identity.
-               */
-              --usk-icon-contrast-primary: currentColor !important;
-              --usk-icon-contrast-secondary: currentColor !important;
-              --usk-icon-contrast-accent: currentColor !important;
-              --usk-icon-contrast-success: currentColor !important;
-              --usk-icon-contrast-warning: currentColor !important;
-              --usk-icon-contrast-danger: currentColor !important;
-              --usk-icon-contrast-muted: currentColor !important;
-              --usk-icon-contrast-keyline: currentColor !important;
-            }
-            :host-context([data-mode="light"]) {
-              --usk-icon-contrast-keyline: rgb(15 23 42);
-            }
-            :host-context([data-mode="dark"]) {
-              --usk-icon-contrast-keyline: rgb(248 250 252);
-            }
-            :host([frame="none"]) {
-              --usk-icon-frame-opacity: 0;
-              --usk-icon-frame-decor-opacity: 0;
-            }
-            :host([frame="soft"]) {
-              --usk-icon-frame-opacity: 0.36;
-              --usk-icon-frame-decor-opacity: 0.10;
-            }
-            svg :is(
-              [data-icon-frame]:is(path, rect, circle, ellipse):not([fill="none"]),
-              [data-icon-frame] :is(path, rect, circle, ellipse):not([fill="none"])
-            ) {
-              fill-opacity: var(--usk-icon-frame-fill-alpha, 0.18) !important;
-            }
-            :host-context([data-mode="contrast"]) svg :is(
-              [data-icon-frame]:is(path, rect, circle, ellipse):not([fill="none"]),
-              [data-icon-frame] :is(path, rect, circle, ellipse):not([fill="none"])
-            ) {
-              /*
-               * Contrast mode keeps frame outlines while preventing scenic
-               * frame fills from competing with the semantic foreground.
-               */
-              fill-opacity: 0.08 !important;
-            }
             svg {
-              /*
-               * Authored SVG roots declare standalone fallback tokens and sizes.
-               * The component bridge remains authoritative when artwork is embedded.
-               */
-              ${svgTokenBridge}
-              inline-size: 100% !important;
-              block-size: 100% !important;
               display: block;
+              inline-size: 100%;
+              block-size: 100%;
               overflow: visible;
-              pointer-events: none;
-            }
-            svg.y2k-icon {
-              overflow: hidden;
-            }
-            svg [data-icon-frame="surface"] {
-              opacity: var(--usk-icon-frame-opacity, 1);
-            }
-            svg [data-icon-glyph="play"] {
-              fill: var(--usk-icon-play, var(--usk-icon-foreground, rgb(var(--usk-text-rgb, 255 255 255))));
-              stroke: none;
-              opacity: 1;
-            }
-            svg :is(
-              [class*="-bg-strong"],
-              [class*="-bg-soft"],
-              [class$="-bg"]
-            ):not(
-              [data-icon-frame],
-              [data-icon-frame] *,
-              [data-icon-audit],
-              [data-icon-audit] *
-            ) {
-              stroke: var(--usk-icon-contrast-keyline) !important;
-              stroke-width: var(--usk-icon-keyline-width, 3.5);
-              stroke-linejoin: round;
-            }
-            svg [class*="-primary"]:not([data-icon-frame], [data-icon-frame] *) {
-              fill: rgb(var(--usk-primary-rgb, 37 99 235) / var(--usk-icon-fill-alpha, 0.22)) !important;
-            }
-            svg [class*="-secondary"]:not([data-icon-frame], [data-icon-frame] *) {
-              fill: rgb(var(--usk-secondary-rgb, 100 116 139) / var(--usk-icon-fill-alpha, 0.22)) !important;
-            }
-            svg [class*="-accent"]:not([data-icon-frame], [data-icon-frame] *) {
-              fill: rgb(var(--usk-accent-rgb, 14 165 233) / var(--usk-icon-fill-alpha, 0.22)) !important;
-            }
-            svg [class*="-success"]:not([data-icon-frame], [data-icon-frame] *) {
-              fill: rgb(var(--usk-success-rgb, 22 163 74) / var(--usk-icon-fill-alpha, 0.22)) !important;
-            }
-            svg [class*="-warning"]:not([data-icon-frame], [data-icon-frame] *) {
-              fill: rgb(var(--usk-warning-rgb, 202 138 4) / var(--usk-icon-fill-alpha, 0.22)) !important;
-            }
-            svg [class*="-danger"]:not([data-icon-frame], [data-icon-frame] *) {
-              fill: rgb(var(--usk-danger-rgb, 220 38 38) / var(--usk-icon-fill-alpha, 0.22)) !important;
-            }
-            svg [fill^="url("]:not(
-              [data-icon-frame],
-              [data-icon-frame] *,
-              [data-icon-audit],
-              [data-icon-audit] *
-            ) {
-              /*
-               * Rich pack gradients remain visible as a tint while the
-               * contrast keyline carries the small-size silhouette.
-               */
-              fill-opacity: var(--usk-icon-gradient-fill-alpha, 0.16) !important;
-            }
-            svg :is(
-              [fill^="url("],
-              [fill*="--cp-icon-"],
-              [fill*="--sw-icon-"],
-              [fill*="--usk-surface-"]
-            ):not(
-              [data-icon-frame],
-              [data-icon-frame] *,
-              [data-icon-audit],
-              [data-icon-audit] *
-            ) {
-              stroke: var(--usk-icon-contrast-keyline) !important;
-              stroke-width: var(--usk-icon-fill-keyline-width, 3.5);
-              stroke-linejoin: round;
-            }
-            svg :is(
-              [stroke*="--usk-surface-"],
-              [stroke*="--usk-bg-"]
-            ):not(
-              [data-icon-frame],
-              [data-icon-frame] *,
-              [data-icon-audit],
-              [data-icon-audit] *
-            ) {
-              stroke: var(--usk-icon-contrast-keyline) !important;
-            }
-            svg [stroke*="-icon-"]:not(
-              [data-icon-frame],
-              [data-icon-frame] *,
-              [data-icon-audit],
-              [data-icon-audit] *
-            ) {
-              /*
-               * Semantic line work uses the foreground keyline; theme color
-               * remains in fills so fine strokes do not disappear by mode.
-               */
-              stroke: var(--usk-icon-contrast-keyline) !important;
-            }
-            svg [opacity]:is(
-              [fill*="-icon-"],
-              [class*="-primary"],
-              [class*="-secondary"],
-              [class*="-accent"],
-              [class*="-success"],
-              [class*="-warning"],
-              [class*="-danger"]
-            ):not(
-              [data-icon-frame],
-              [data-icon-frame] *,
-              [data-icon-audit],
-              [data-icon-audit] *
-            ) {
-              opacity: 1 !important;
-            }
-            svg :is(
-              [fill*="--cp-icon-primary"],
-              [fill*="--sw-icon-primary"]
-            ):not([data-icon-frame], [data-icon-frame] *) {
-              fill: rgb(var(--usk-primary-rgb, 37 99 235) / var(--usk-icon-fill-alpha, 0.22)) !important;
-            }
-            svg :is(
-              [fill*="--cp-icon-secondary"],
-              [fill*="--sw-icon-secondary"]
-            ):not([data-icon-frame], [data-icon-frame] *) {
-              fill: rgb(var(--usk-secondary-rgb, 100 116 139) / var(--usk-icon-fill-alpha, 0.22)) !important;
-            }
-            svg :is(
-              [fill*="--cp-icon-accent"],
-              [fill*="--sw-icon-accent"]
-            ):not([data-icon-frame], [data-icon-frame] *) {
-              fill: rgb(var(--usk-accent-rgb, 14 165 233) / var(--usk-icon-fill-alpha, 0.22)) !important;
-            }
-            svg :is(
-              [fill*="--cp-icon-success"],
-              [fill*="--sw-icon-success"]
-            ):not([data-icon-frame], [data-icon-frame] *) {
-              fill: rgb(var(--usk-success-rgb, 22 163 74) / var(--usk-icon-fill-alpha, 0.22)) !important;
-            }
-            svg :is(
-              [fill*="--cp-icon-warning"],
-              [fill*="--sw-icon-warning"]
-            ):not([data-icon-frame], [data-icon-frame] *) {
-              fill: rgb(var(--usk-warning-rgb, 202 138 4) / var(--usk-icon-fill-alpha, 0.22)) !important;
-            }
-            svg :is(
-              [fill*="--cp-icon-danger"],
-              [fill*="--sw-icon-danger"]
-            ):not([data-icon-frame], [data-icon-frame] *) {
-              fill: rgb(var(--usk-danger-rgb, 220 38 38) / var(--usk-icon-fill-alpha, 0.22)) !important;
-            }
-            svg stop[stop-color*="--cp-icon-primary"],
-            svg stop[stop-color*="--sw-icon-primary"] {
-              stop-color: var(--usk-icon-contrast-primary) !important;
-            }
-            svg stop[stop-color*="--cp-icon-secondary"],
-            svg stop[stop-color*="--sw-icon-secondary"] {
-              stop-color: var(--usk-icon-contrast-secondary) !important;
-            }
-            svg stop[stop-color*="--cp-icon-accent"],
-            svg stop[stop-color*="--sw-icon-accent"] {
-              stop-color: var(--usk-icon-contrast-accent) !important;
-            }
-            svg stop[stop-color*="--cp-icon-warning"],
-            svg stop[stop-color*="--sw-icon-warning"] {
-              stop-color: var(--usk-icon-contrast-warning) !important;
-            }
-            svg stop[stop-color*="--cp-icon-success"],
-            svg stop[stop-color*="--sw-icon-success"] {
-              stop-color: var(--usk-icon-contrast-success) !important;
-            }
-            svg stop[stop-color*="--cp-icon-danger"],
-            svg stop[stop-color*="--sw-icon-danger"] {
-              stop-color: var(--usk-icon-contrast-danger) !important;
-            }
-            svg :is(
-              [class*="-primary"],
-              [class*="-secondary"],
-              [class*="-accent"],
-              [class*="-success"],
-              [class*="-warning"],
-              [class*="-danger"]
-            ):not(
-              [data-icon-frame],
-              [data-icon-frame] *,
-              [data-icon-audit],
-              [data-icon-audit] *
-            ) {
-              /*
-               * Soft fills retain each pack's palette while a stable keyline
-               * keeps their silhouettes readable against light surfaces.
-               */
-              stroke: var(--usk-icon-contrast-keyline) !important;
-              stroke-width: var(--usk-icon-fill-keyline-width, 3.5);
-              stroke-linejoin: round;
-            }
-            @media (prefers-reduced-motion: reduce) {
-              svg { animation: none !important; transition: none !important; }
             }
           </style>
           ${svg}
@@ -800,35 +497,41 @@ export class UiStyleIconElement extends HTMLElementBase {
           new CustomEvent("usk-icon-load", {
             bubbles: true,
             composed: true,
-            detail: { name, pack: pack.id, url }
+            detail: { name, pack: pack.id, variant, url }
           })
         );
       })
-      .catch((error) => this.#renderError(error));
+      .catch((error) => this.#renderError(error, name, variant));
   }
 
-  #renderError(error) {
+  /**
+   * Renders an empty fallback and reports a load or contract error.
+   *
+   * @param {unknown} error Failure value.
+   * @param {string} [name] Requested icon name.
+   * @param {"themed" | "monochrome"} [variant="themed"] Requested variant.
+   * @returns {void}
+   */
+  #renderError(error, name = this.name, variant = this.variant) {
     this.toggleAttribute("data-loading", false);
     this.setAttribute("data-error", "");
-    this.#root.innerHTML = `
-      <style>
-        :host {
-          inline-size: var(--usk-icon-size, 1.25em);
-          block-size: var(--usk-icon-size, 1.25em);
-          display: inline-block;
-        }
-      </style>
-    `;
+    this.#root.innerHTML = `<style>:host{display:inline-block;inline-size:var(--usk-icon-size,1.25em);block-size:var(--usk-icon-size,1.25em)}</style>`;
     this.dispatchEvent(
       new CustomEvent("usk-icon-error", {
         bubbles: true,
         composed: true,
-        detail: { name: this.name, pack: this.pack, error }
+        detail: { name, pack: this.getAttribute("pack") ?? "", variant, error }
       })
     );
   }
 }
 
+/**
+ * Registers the UI Style Kit icon custom element once.
+ *
+ * @param {string} [tagName="usk-icon"] Custom-element tag name.
+ * @returns {CustomElementConstructor | undefined} Registered constructor.
+ */
 export function defineUiStyleIcon(tagName = "usk-icon") {
   if (
     typeof globalThis.customElements !== "undefined" &&

@@ -1,71 +1,62 @@
 #!/usr/bin/env node
-import { spawnSync } from "node:child_process";
-import fs from "node:fs";
+import assert from "node:assert/strict";
+import { readFile } from "node:fs/promises";
 import path from "node:path";
-import { pathToFileURL } from "node:url";
 
 const root = process.cwd();
-const contractPath = path.join(root, "contract/icon-contract.json");
-const { PACK_DEFINITIONS } = await import(pathToFileURL(path.join(root, "src/packs.mjs")));
-// Contract validation is scoped to registered public packs, not local drop-in folders.
-const packRoots = [
-  ...PACK_DEFINITIONS.map((definition) => definition.sourcePath)
-].sort((a, b) => (a === "." ? -1 : b === "." ? 1 : a.localeCompare(b)));
+const packageJson = await readJson("package.json");
+const manifest = await readJson("manifest.json");
+const contract = await readJson("contract/icon-contract.json");
+const registry = await readJson("dist/registry.json");
+const iconIds = Object.keys(manifest.icons);
+const styleIds = Object.keys(manifest.styles);
 
-const requiredRootFiles = [
-  "dist/ui-style-kit-icons.css",
-  "dist/ui-style-kit-icons.js",
-  "dist/ui-style-kit-icons.d.ts",
-  "dist/registry.js",
-  "dist/registry.json",
-  "sprite/ui-style-kit-icons.inline.svg",
-  "style-source/system-style-source.md",
-  "contract/icon-contract.json",
-  "contract/pack-audit.json",
-  "contract/pack-audit.md"
-];
+assert.equal(manifest.version, packageJson.version);
+assert.equal(manifest.contractVersion, contract.schemaVersion);
+assert.equal(contract.packageVersion, packageJson.version);
+assert.equal(contract.collection, manifest.collection);
+assert.equal(contract.requiredIconCount, iconIds.length);
+assert.equal(contract.styleCount, styleIds.length);
+assert.deepEqual(contract.aliases, manifest.aliases);
+assert.deepEqual(
+  contract.icons.map(({ id }) => id),
+  iconIds,
+  "The generated contract must preserve manifest icon order."
+);
+assert.equal(registry.version, packageJson.version);
+assert.equal(registry.contractVersion, contract.schemaVersion);
+assert.equal(registry.requiredIconCount, contract.requiredIconCount);
+assert.equal(registry.packCount, contract.styleCount);
+assert.deepEqual(registry.coreIconIds, iconIds);
+assert.deepEqual(registry.aliases, manifest.aliases);
+assert.deepEqual(registry.styleAliases, manifest.styleAliases);
+assert.deepEqual(
+  registry.packs.map(({ id }) => id),
+  styleIds
+);
 
-const missing = requiredRootFiles.filter((file) => !fs.existsSync(path.join(root, file)));
-
-for (const packRoot of packRoots.filter((packRoot) => packRoot !== ".")) {
-  const manifest = JSON.parse(
-    fs.readFileSync(path.join(root, packRoot, "manifest.json"), "utf8")
+for (const pack of registry.packs) {
+  assert.equal(pack.version, packageJson.version, pack.id);
+  assert.equal(pack.contractVersion, contract.schemaVersion, pack.id);
+  assert.equal(pack.iconCount, contract.requiredIconCount, pack.id);
+  assert.equal(pack.optionalIconCount, 0, pack.id);
+  assert.deepEqual(
+    pack.coreIcons.map(({ id }) => id),
+    iconIds,
+    pack.id
   );
-  const styleSourcePath = path.join(
-    root,
-    packRoot,
-    "style-source",
-    `${manifest.style}-style-source.md`
-  );
-
-  if (!fs.existsSync(styleSourcePath)) {
-    missing.push(path.relative(root, styleSourcePath).replaceAll(path.sep, "/"));
-  }
 }
 
-if (missing.length > 0) {
-  console.error(`Missing required public files:\n${missing.map((file) => `- ${file}`).join("\n")}`);
-  process.exit(1);
+console.log(
+  `Validated the ${contract.requiredIconCount}-icon contract across ${registry.packCount} families.`
+);
+
+/**
+ * Reads a repository JSON document.
+ *
+ * @param {string} relativePath Repository-relative file path.
+ * @returns {Promise<Record<string, unknown>>} Parsed JSON document.
+ */
+async function readJson(relativePath) {
+  return JSON.parse(await readFile(path.join(root, relativePath), "utf8"));
 }
-
-for (const packRoot of packRoots) {
-  const result = spawnSync(
-    process.execPath,
-    ["contract/validate-icon-pack.js", contractPath, packRoot],
-    { cwd: root, encoding: "utf8" }
-  );
-
-  if (result.status !== 0) {
-    process.stderr.write(result.stderr || result.stdout);
-    process.exit(result.status ?? 1);
-  }
-}
-
-const registry = JSON.parse(fs.readFileSync(path.join(root, "dist/registry.json"), "utf8"));
-
-if (registry.packCount !== registry.packs.length) {
-  console.error("dist/registry.json packCount does not match packs.length.");
-  process.exit(1);
-}
-
-console.log(`Validated ${packRoots.length} icon pack roots and ${registry.packs.length} registry packs.`);

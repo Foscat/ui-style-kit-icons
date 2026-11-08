@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Building" focusable="false" class="usk-icon" data-icon-style="tactile" fill="none" stroke="var(--usi-ink, currentColor)" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M4.5 20.15V7.45q0-1.45 1.45-1.45H10v-1.4q0-1.05 1.05-1.05h6.95q1.5 0 1.5 1.5v15.1Z" fill="var(--usi-tactile-face, none)"/>
+  <path d="M10 6v14.15m3.1 0v-4.6h3.35v4.6" stroke="var(--usi-ink, currentColor)" stroke-width="1.1"/>
+  <path d="M6.8 9.25h.95m-.95 3.3h.95m-.95 3.3h.95m5.35-8.2h3.35m-3.35 3.55h3.35" stroke="var(--usi-primary-ink, currentColor)" stroke-width="1.4"/>
+  <path d="M11.8 5.15h5.8" stroke="var(--usi-tactile-highlight, none)" stroke-width="0.8"/>
+  <path d="M17.9 8.9v9.45" stroke="var(--usi-tactile-shade, none)" stroke-width="0.75"/>
+</svg>

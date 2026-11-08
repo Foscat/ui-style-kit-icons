@@ -47,21 +47,35 @@ const publicSubpaths = [
   "ui-style-kit-icons/registry.json",
   "ui-style-kit-icons/contract.json",
   "ui-style-kit-icons/css.css",
+  "ui-style-kit-icons/css/all.css",
+  "ui-style-kit-icons/inline-svg",
   "ui-style-kit-icons/sprite.svg",
-  "ui-style-kit-icons/icons/home.svg",
-  "ui-style-kit-icons/packs/synthwave/icons/cassette.svg"
+  "ui-style-kit-icons/sprites/organic-modern.svg",
+  "ui-style-kit-icons/inline-sprites/organic-modern.inline.svg",
+  "ui-style-kit-icons/svg/organic-modern/home.svg",
+  "ui-style-kit-icons/monochrome/organic-modern/home.svg"
 ];
 
 for (const specifier of publicSubpaths) {
   import.meta.resolve(specifier);
 }
 
-if (typeof runtime.defineUiStyleIcon !== "function" || registry.packs.length !== 12) {
+if (
+  typeof runtime.defineUiStyleIcon !== "function" ||
+  registry.packs.length !== registry.packCount ||
+  registry.packs.length !== 20
+) {
   throw new Error("Package runtime or registry exports are incomplete.");
 }
 
 console.log(`Checked ${files.length} JavaScript files and package ESM imports.`);
 
+/**
+ * Collects JavaScript modules that must pass Node's syntax parser.
+ *
+ * @param {string} dir Directory to inspect.
+ * @returns {string[]} Repository-relative JavaScript paths.
+ */
 function collectJavaScriptFiles(dir) {
   const discovered = [];
 

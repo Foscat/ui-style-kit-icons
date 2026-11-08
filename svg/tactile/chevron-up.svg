@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Chevron up" focusable="false" class="usk-icon" data-icon-style="tactile" fill="none" stroke="var(--usi-ink, currentColor)" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round">
+  <g transform="rotate(-90 12 12)">
+  <path d="M8.15 4.55 15.5 10.85q1.3 1.15 0 2.3l-7.35 6.3-2.05-2.35L12.05 12 6.1 6.9Z" fill="var(--usi-tactile-face, none)"/>
+  <path d="m8.19 6.56 6.14 5.25" stroke="var(--usi-tactile-highlight, none)" stroke-width="0.75"/>
+  <path d="m8.04 17.45 6.26-5.33" stroke="var(--usi-tactile-shade, none)" stroke-width="0.75"/>
+  </g>
+</svg>

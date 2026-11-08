@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Eye" focusable="false" class="usk-icon" data-icon-style="tactile" fill="none" stroke="var(--usi-ink, currentColor)" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M2.8 12q3.9-6.35 9.2-6.35T21.2 12Q17.3 18.35 12 18.35T2.8 12Z" fill="var(--usi-tactile-recess, none)"/>
+  <circle cx="12" cy="12" r="3.55" fill="var(--usi-tactile-face, none)"/>
+  <circle cx="12" cy="12" r="1.2" fill="var(--usi-primary-ink, currentColor)" stroke="none"/>
+  <path d="M4.85 11.75q1.6-2.27 4.25-3.45" stroke="var(--usi-tactile-highlight, none)" stroke-width="0.8"/>
+</svg>

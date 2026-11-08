@@ -1,0 +1,700 @@
+<svg xmlns="http://www.w3.org/2000/svg" data-icon-family="bento" data-icon-variant="themed">
+<defs>
+<symbol id="usk-icon-home" viewBox="0 0 24 24">
+  <title>Home</title>
+  <path d="m5 10.5 5.4-5.4q1.6-1.6 3.2 0l5.4 5.4V18q0 2.5-2.5 2.5h-9Q5 20.5 5 18Z" stroke="none" fill="var(--usi-primary-wash, none)" data-fill-role="primary-wash" /><path d="m5 10.5 5.4-5.4q1.6-1.6 3.2 0l5.4 5.4V18q0 2.5-2.5 2.5h-9Q5 20.5 5 18ZM9.5 20.5V15a2.5 2.5 0 0 1 5 0v5.5" />
+</symbol>
+<symbol id="usk-icon-search" viewBox="0 0 24 24">
+  <title>Search</title>
+  <circle cx="10.25" cy="10.25" r="6" stroke="none" fill="var(--usi-primary-wash, none)" data-fill-role="primary-wash" /><circle cx="10.25" cy="10.25" r="6" /><path d="m14.75 14.75 5.75 5.75" stroke="var(--usi-secondary-ink, currentColor)" data-stroke-role="secondary-ink" />
+</symbol>
+<symbol id="usk-icon-user" viewBox="0 0 24 24">
+  <title>User</title>
+  <circle cx="12" cy="7" r="3.5" stroke="none" fill="var(--usi-primary-wash, none)" data-fill-role="primary-wash" /><circle cx="12" cy="7" r="3.5" stroke="var(--usi-secondary-ink, currentColor)" data-stroke-role="secondary-ink" /><path d="M4.5 20v-1.5q0-5 7.5-5t7.5 5V20Z" stroke="none" fill="var(--usi-primary-wash, none)" data-fill-role="primary-wash" /><path d="M4.5 20v-1.5q0-5 7.5-5t7.5 5V20Z" />
+</symbol>
+<symbol id="usk-icon-folder" viewBox="0 0 24 24">
+  <title>Folder</title>
+  <path d="M3 8V6q0-2 2-2h4l2.5 2H19q2 0 2 2v10q0 2-2 2H5q-2 0-2-2Z" stroke="none" fill="var(--usi-primary-wash, none)" data-fill-role="primary-wash" /><path d="M3 8V6q0-2 2-2h4l2.5 2H19q2 0 2 2v10q0 2-2 2H5q-2 0-2-2ZM3 10h18" />
+</symbol>
+<symbol id="usk-icon-settings" viewBox="0 0 24 24">
+  <title>Settings</title>
+  <path d="M18.754,8.768L18.754,8.768Q18.560,9.283 19.061,9.510L20.451,10.138Q20.952,10.365 20.952,10.915L20.952,13.085Q20.952,13.635 20.451,13.862L19.061,14.490Q18.560,14.717 18.754,15.232L19.292,16.659Q19.486,17.174 19.097,17.563L17.563,19.097Q17.174,19.486 16.659,19.292L15.232,18.754Q14.717,18.560 14.490,19.061L13.862,20.451Q13.635,20.952 13.085,20.952L10.915,20.952Q10.365,20.952 10.138,20.451L9.510,19.061Q9.283,18.560 8.768,18.754L7.341,19.292Q6.826,19.486 6.437,19.097L4.903,17.563Q4.514,17.174 4.708,16.659L5.246,15.232Q5.440,14.717 4.939,14.490L3.549,13.862Q3.048,13.635 3.048,13.085L3.048,10.915Q3.048,10.365 3.549,10.138L4.939,9.510Q5.440,9.283 5.246,8.768L4.708,7.341Q4.514,6.826 4.903,6.437L6.437,4.903Q6.826,4.514 7.341,4.708L8.768,5.246Q9.283,5.440 9.510,4.939L10.138,3.549Q10.365,3.048 10.915,3.048L13.085,3.048Q13.635,3.048 13.862,3.549L14.490,4.939Q14.717,5.440 15.232,5.246L16.659,4.708Q17.174,4.514 17.563,4.903L19.097,6.437Q19.486,6.826 19.292,7.341Z" /><circle cx="12" cy="12" r="3.1" />
+</symbol>
+<symbol id="usk-icon-bell" viewBox="0 0 24 24">
+  <title>Bell</title>
+  <path d="M6 14.5v-4a6 6 0 0 1 12 0v4l2 3H4Z" stroke="none" fill="var(--usi-primary-wash, none)" data-fill-role="primary-wash" /><path d="M6 14.5v-4a6 6 0 0 1 12 0v4l2 3H4ZM12 3.5v-1" /><rect x="9.5" y="19.5" width="5" height="2" rx="1" fill="var(--usi-secondary-ink, currentColor)" stroke="none" data-fill-role="secondary-ink" />
+</symbol>
+<symbol id="usk-icon-mail" viewBox="0 0 24 24">
+  <title>Mail</title>
+  <rect x="3" y="5.5" width="18" height="13" rx="3" stroke="none" fill="var(--usi-primary-wash, none)" data-fill-role="primary-wash" /><rect x="3" y="5.5" width="18" height="13" rx="3" /><path d="m3.5 7 7 5.5q1.5 1 3 0l7-5.5" />
+</symbol>
+<symbol id="usk-icon-calendar" viewBox="0 0 24 24">
+  <title>Calendar</title>
+  <rect x="3" y="5" width="18" height="15.5" rx="3.5" stroke="none" fill="var(--usi-primary-wash, none)" data-fill-role="primary-wash" /><rect x="3" y="5" width="18" height="15.5" rx="3.5" /><path d="M7 3.5v4m10-4v4M3 9.5h18m-13.5 4h2m5 0h2m-9 4h2m5 0h2" stroke="var(--usi-secondary-ink, currentColor)" data-stroke-role="secondary-ink" />
+</symbol>
+<symbol id="usk-icon-download" viewBox="0 0 24 24">
+  <title>Download</title>
+  <path d="M12 3.5v12m-4.5-4.5 4 4q.5.5 1 0l4-4M4 16v2q0 2.5 2.5 2.5h11q2.5 0 2.5-2.5v-2" />
+</symbol>
+<symbol id="usk-icon-trash" viewBox="0 0 24 24">
+  <title>Trash</title>
+  <path d="M5 7h14M9 7V4q0-1 1-1h4q1 0 1 1v3M6.5 7l1 11.5q.2 2 2.2 2h4.6q2 0 2.2-2L17.5 7M10 11v5.5m4-5.5v5.5" />
+</symbol>
+<symbol id="usk-icon-warning" viewBox="0 0 24 24">
+  <title>Warning</title>
+  <path d="M10.5 4.5q1.5-2.5 3 0l7 12.5q1.5 2.5-1.5 2.5H5q-3 0-1.5-2.5Z" stroke="none" fill="var(--usi-warning-wash, none)" data-fill-role="warning-wash" /><path d="M10.5 4.5q1.5-2.5 3 0l7 12.5q1.5 2.5-1.5 2.5H5q-3 0-1.5-2.5Z" /><rect x="11" y="8.5" width="2" height="5.5" rx="1" fill="var(--usi-warning-ink, currentColor)" stroke="none" data-fill-role="warning-ink" /><circle cx="12" cy="16.5" r="1" fill="var(--usi-warning-ink, currentColor)" stroke="none" data-fill-role="warning-ink" />
+</symbol>
+<symbol id="usk-icon-link" viewBox="0 0 24 24">
+  <title>Link</title>
+  <path d="M9 8H7a4 4 0 0 0 0 8h2m6-8h2a4 4 0 0 1 0 8h-2M8 12h8" />
+</symbol>
+<symbol id="usk-icon-menu" viewBox="0 0 24 24">
+  <title>Menu</title>
+  <path d="M5 6.5h14M7 12h10M5 17.5h14" />
+</symbol>
+<symbol id="usk-icon-more-horizontal" viewBox="0 0 24 24">
+  <title>More horizontal</title>
+  <circle cx="5.5" cy="12" r="1.25" fill="var(--usi-primary-ink, currentColor)" stroke="none" data-fill-role="primary-ink" /><circle cx="12" cy="12" r="1.25" fill="var(--usi-primary-ink, currentColor)" stroke="none" data-fill-role="primary-ink" /><circle cx="18.5" cy="12" r="1.25" fill="var(--usi-primary-ink, currentColor)" stroke="none" data-fill-role="primary-ink" />
+</symbol>
+<symbol id="usk-icon-plus" viewBox="0 0 24 24">
+  <title>Plus</title>
+  <path d="M12 6v12M6 12h12" />
+</symbol>
+<symbol id="usk-icon-minus" viewBox="0 0 24 24">
+  <title>Minus</title>
+  <path d="M6 12h12" />
+</symbol>
+<symbol id="usk-icon-check" viewBox="0 0 24 24">
+  <title>Check</title>
+  <path d="m5.5 12 4 4q.5.5 1 0l8-8.5" />
+</symbol>
+<symbol id="usk-icon-close" viewBox="0 0 24 24">
+  <title>Close</title>
+  <path d="m6 6 12 12M18 6 6 18" />
+</symbol>
+<symbol id="usk-icon-arrow-left" viewBox="0 0 24 24">
+  <title>Arrow left</title>
+  <g transform="matrix(-1 0 0 1 24 0)"><path d="M5 12h13.5M13.5 6.5l5 5q.5.5 0 1l-5 5" /></g>
+</symbol>
+<symbol id="usk-icon-arrow-right" viewBox="0 0 24 24">
+  <title>Arrow right</title>
+  <path d="M5 12h13.5M13.5 6.5l5 5q.5.5 0 1l-5 5" />
+</symbol>
+<symbol id="usk-icon-arrow-up" viewBox="0 0 24 24">
+  <title>Arrow up</title>
+  <g transform="rotate(-90 12 12)"><path d="M5 12h13.5M13.5 6.5l5 5q.5.5 0 1l-5 5" /></g>
+</symbol>
+<symbol id="usk-icon-arrow-down" viewBox="0 0 24 24">
+  <title>Arrow down</title>
+  <g transform="rotate(90 12 12)"><path d="M5 12h13.5M13.5 6.5l5 5q.5.5 0 1l-5 5" /></g>
+</symbol>
+<symbol id="usk-icon-chevron-left" viewBox="0 0 24 24">
+  <title>Chevron left</title>
+  <g transform="matrix(-1 0 0 1 24 0)"><path d="m9 5.75 5.5 5.75q.5.5 0 1L9 18.25" /></g>
+</symbol>
+<symbol id="usk-icon-chevron-right" viewBox="0 0 24 24">
+  <title>Chevron right</title>
+  <path d="m9 5.75 5.5 5.75q.5.5 0 1L9 18.25" />
+</symbol>
+<symbol id="usk-icon-chevron-up" viewBox="0 0 24 24">
+  <title>Chevron up</title>
+  <g transform="rotate(-90 12 12)"><path d="m9 5.75 5.5 5.75q.5.5 0 1L9 18.25" /></g>
+</symbol>
+<symbol id="usk-icon-chevron-down" viewBox="0 0 24 24">
+  <title>Chevron down</title>
+  <g transform="rotate(90 12 12)"><path d="m9 5.75 5.5 5.75q.5.5 0 1L9 18.25" /></g>
+</symbol>
+<symbol id="usk-icon-edit" viewBox="0 0 24 24">
+  <title>Edit</title>
+  <g transform="rotate(45 12 12)"><path d="M9.5 16V4.5Q9.5 3 11 3h2q1.5 0 1.5 1.5V16L12 21.5Z" stroke="none" fill="var(--usi-primary-wash, none)" data-fill-role="primary-wash" /><path d="M9.5 16V4.5Q9.5 3 11 3h2q1.5 0 1.5 1.5V16L12 21.5Z" /><path d="M9.5 7h5m-5 9h5" /><path fill="var(--usi-secondary-ink, currentColor)" stroke="none" d="M10.9 19.1h2.2L12 21.5Z" data-fill-role="secondary-ink" /></g>
+</symbol>
+<symbol id="usk-icon-upload" viewBox="0 0 24 24">
+  <title>Upload</title>
+  <path d="M12 16V4m-4.5 4.5 4-4q.5-.5 1 0l4 4M4 16v2q0 2.5 2.5 2.5h11q2.5 0 2.5-2.5v-2" />
+</symbol>
+<symbol id="usk-icon-filter" viewBox="0 0 24 24">
+  <title>Filter</title>
+  <path d="M4 4.5h16q1 0 .3.8L14 12v6.5l-4 2V12L3.7 5.3Q3 4.5 4 4.5Z" stroke="none" fill="var(--usi-primary-wash, none)" data-fill-role="primary-wash" /><path d="M4 4.5h16q1 0 .3.8L14 12v6.5l-4 2V12L3.7 5.3Q3 4.5 4 4.5Z" />
+</symbol>
+<symbol id="usk-icon-grid" viewBox="0 0 24 24">
+  <title>Grid</title>
+  <rect x="3.5" y="3.5" width="7" height="6" rx="2" stroke="none" fill="var(--usi-primary-wash, none)" data-fill-role="primary-wash" /><rect x="3.5" y="3.5" width="7" height="6" rx="2" /><rect x="14" y="3.5" width="6.5" height="6" rx="2" stroke="none" fill="var(--usi-primary-wash, none)" data-fill-role="primary-wash" /><rect x="14" y="3.5" width="6.5" height="6" rx="2" stroke="var(--usi-secondary-ink, currentColor)" data-stroke-role="secondary-ink" /><rect x="3.5" y="12.5" width="17" height="8" rx="2.5" stroke="none" fill="var(--usi-primary-wash, none)" data-fill-role="primary-wash" /><rect x="3.5" y="12.5" width="17" height="8" rx="2.5" />
+</symbol>
+<symbol id="usk-icon-eye" viewBox="0 0 24 24">
+  <title>Eye</title>
+  <path d="M3 12c4.5-7.5 13.5-7.5 18 0-4.5 7.5-13.5 7.5-18 0Z" stroke="none" fill="var(--usi-primary-wash, none)" data-fill-role="primary-wash" /><path d="M3 12c4.5-7.5 13.5-7.5 18 0-4.5 7.5-13.5 7.5-18 0Z" /><circle cx="12" cy="12" r="2.6" fill="var(--usi-secondary-ink, currentColor)" stroke="none" data-fill-role="secondary-ink" />
+</symbol>
+<symbol id="usk-icon-lock" viewBox="0 0 24 24">
+  <title>Lock</title>
+  <rect x="4.5" y="10" width="15" height="11" rx="3" stroke="none" fill="var(--usi-primary-wash, none)" data-fill-role="primary-wash" /><rect x="4.5" y="10" width="15" height="11" rx="3" /><path d="M8 10V7a4 4 0 0 1 8 0v3" /><circle cx="12" cy="14.5" r="1.5" fill="var(--usi-secondary-ink, currentColor)" stroke="none" data-fill-role="secondary-ink" /><rect x="11.25" y="15" width="1.5" height="3" rx=".75" fill="var(--usi-secondary-ink, currentColor)" stroke="none" data-fill-role="secondary-ink" />
+</symbol>
+<symbol id="usk-icon-info" viewBox="0 0 24 24">
+  <title>Info</title>
+  <rect x="3.5" y="3.5" width="17" height="17" rx="6" stroke="none" fill="var(--usi-primary-wash, none)" data-fill-role="primary-wash" /><rect x="3.5" y="3.5" width="17" height="17" rx="6" /><path d="M12 11v6" /><circle cx="12" cy="7.5" r="1" fill="var(--usi-primary-ink, currentColor)" stroke="none" data-fill-role="primary-ink" />
+</symbol>
+<symbol id="usk-icon-success" viewBox="0 0 24 24">
+  <title>Success</title>
+  <rect x="3.5" y="3.5" width="17" height="17" rx="6" stroke="none" fill="var(--usi-success-wash, none)" data-fill-role="success-wash" /><rect x="3.5" y="3.5" width="17" height="17" rx="6" /><path d="m7.5 12 3 3 6-6" />
+</symbol>
+<symbol id="usk-icon-error" viewBox="0 0 24 24">
+  <title>Error</title>
+  <rect x="3.5" y="3.5" width="17" height="17" rx="6" stroke="none" fill="var(--usi-danger-wash, none)" data-fill-role="danger-wash" /><rect x="3.5" y="3.5" width="17" height="17" rx="6" /><path d="m9 9 6 6m0-6-6 6" />
+</symbol>
+<symbol id="usk-icon-help" viewBox="0 0 24 24">
+  <title>Help</title>
+  <rect x="3.5" y="3.5" width="17" height="17" rx="6" stroke="none" fill="var(--usi-primary-wash, none)" data-fill-role="primary-wash" /><rect x="3.5" y="3.5" width="17" height="17" rx="6" /><path d="M9 9a3 3 0 1 1 4.7 2.5q-1.7 1-1.7 2.5" /><circle cx="12" cy="17" r=".9" fill="var(--usi-primary-ink, currentColor)" stroke="none" data-fill-role="primary-ink" />
+</symbol>
+<symbol id="usk-icon-checkbox" viewBox="0 0 24 24">
+  <title>Checkbox</title>
+  <rect x="4.25" y="4.25" width="15.5" height="15.5" rx="3.5" stroke="none" fill="var(--usi-primary-wash, none)" data-fill-role="primary-wash" /><rect x="4.25" y="4.25" width="15.5" height="15.5" rx="3.5" />
+</symbol>
+<symbol id="usk-icon-checkbox-checked" viewBox="0 0 24 24">
+  <title>Checkbox checked</title>
+  <rect x="4.25" y="4.25" width="15.5" height="15.5" rx="3.5" stroke="none" fill="var(--usi-primary-wash, none)" data-fill-role="primary-wash" /><rect x="4.25" y="4.25" width="15.5" height="15.5" rx="3.5" /><path d="m7.5 12 3 3 6-6" />
+</symbol>
+<symbol id="usk-icon-checkbox-indeterminate" viewBox="0 0 24 24">
+  <title>Checkbox indeterminate</title>
+  <rect x="4.25" y="4.25" width="15.5" height="15.5" rx="3.5" stroke="none" fill="var(--usi-primary-wash, none)" data-fill-role="primary-wash" /><rect x="4.25" y="4.25" width="15.5" height="15.5" rx="3.5" /><path d="M8 12h8" />
+</symbol>
+<symbol id="usk-icon-radio" viewBox="0 0 24 24">
+  <title>Radio</title>
+  <circle cx="12" cy="12" r="7.25" stroke="none" fill="var(--usi-primary-wash, none)" data-fill-role="primary-wash" /><circle cx="12" cy="12" r="7.25" />
+</symbol>
+<symbol id="usk-icon-radio-selected" viewBox="0 0 24 24">
+  <title>Radio selected</title>
+  <circle cx="12" cy="12" r="7.25" stroke="none" fill="var(--usi-primary-wash, none)" data-fill-role="primary-wash" /><circle cx="12" cy="12" r="7.25" /><circle cx="12" cy="12" r="2.75" fill="var(--usi-secondary-ink, currentColor)" stroke="none" data-fill-role="secondary-ink" />
+</symbol>
+<symbol id="usk-icon-eye-off" viewBox="0 0 24 24">
+  <title>Eye off</title>
+  <path d="M8.5 6.5Q16 4.5 21 12q-1.6 2.5-3.5 4M14.5 17.5Q7.8 19.5 3 12q1.6-2.5 3.5-4M12.5 8.8a3.2 3.2 0 0 1 2.7 2.7M11.5 15.2a3.2 3.2 0 0 1-2.7-2.7M3.5 3.5l17 17" />
+</symbol>
+<symbol id="usk-icon-refresh" viewBox="0 0 24 24">
+  <title>Refresh</title>
+  <path d="M19.5 5v5h-5m5 0a7.75 7.75 0 1 0-.7 7.3" />
+</symbol>
+<symbol id="usk-icon-external-link" viewBox="0 0 24 24">
+  <title>External link</title>
+  <path d="M10 5H7q-3 0-3 3v9q0 3 3 3h9.5q3 0 3-3v-3M14 3.5h6v6m0-6L11.5 12" />
+</symbol>
+<symbol id="usk-icon-undo" viewBox="0 0 24 24">
+  <title>Undo</title>
+  <path d="m8.5 5-5 5 5 5M4 10h9a6.5 6.5 0 0 1 6.5 6.5V20" />
+</symbol>
+<symbol id="usk-icon-redo" viewBox="0 0 24 24">
+  <title>Redo</title>
+  <path d="m15.5 5 5 5-5 5M20 10h-9a6.5 6.5 0 0 0-6.5 6.5V20" />
+</symbol>
+<symbol id="usk-icon-toggle-off" viewBox="0 0 24 24">
+  <title>Toggle off</title>
+  <rect x="3" y="6" width="18" height="12" rx="6" stroke="none" fill="var(--usi-primary-wash, none)" data-fill-role="primary-wash" /><rect x="3" y="6" width="18" height="12" rx="6" /><circle cx="8" cy="12" r="3.1" fill="var(--usi-primary-ink, currentColor)" stroke="none" data-fill-role="primary-ink" />
+</symbol>
+<symbol id="usk-icon-toggle-on" viewBox="0 0 24 24">
+  <title>Toggle on</title>
+  <rect x="3" y="6" width="18" height="12" rx="6" stroke="none" fill="var(--usi-primary-wash, none)" data-fill-role="primary-wash" /><rect x="3" y="6" width="18" height="12" rx="6" /><circle cx="16" cy="12" r="3.1" fill="var(--usi-secondary-ink, currentColor)" stroke="none" data-fill-role="secondary-ink" />
+</symbol>
+<symbol id="usk-icon-file" viewBox="0 0 24 24">
+  <title>File</title>
+  <path d="M8 3.5h5.5L19.5 9v8.5q0 3-3 3H8q-3 0-3-3v-11q0-3 3-3Z" stroke="none" fill="var(--usi-primary-wash, none)" data-fill-role="primary-wash" /><path d="M8 3.5h5.5L19.5 9v8.5q0 3-3 3H8q-3 0-3-3v-11q0-3 3-3Zm5.5 0v5q0 .5.5.5h5.5M8.5 13.5h7m-7 3.5h5" />
+</symbol>
+<symbol id="usk-icon-copy" viewBox="0 0 24 24">
+  <title>Copy</title>
+  <rect x="8" y="7" width="12" height="14" rx="3" stroke="none" fill="var(--usi-primary-wash, none)" data-fill-role="primary-wash" /><rect x="8" y="7" width="12" height="14" rx="3" /><path d="M15 7V6q0-3-3-3H6q-3 0-3 3v8q0 3 3 3h2" /><path d="M11 10h5" stroke="var(--usi-secondary-ink, currentColor)" data-stroke-role="secondary-ink" />
+</symbol>
+<symbol id="usk-icon-save" viewBox="0 0 24 24">
+  <title>Save</title>
+  <path d="M6 3.5h10L20.5 8v9.5q0 3-3 3H6q-3 0-3-3v-11q0-3 3-3Z" stroke="none" fill="var(--usi-primary-wash, none)" data-fill-role="primary-wash" /><path d="M6 3.5h10L20.5 8v9.5q0 3-3 3H6q-3 0-3-3v-11q0-3 3-3ZM7 3.5v6h8v-6" /><rect x="6.5" y="13" width="11" height="7.5" rx="1.5" stroke="none" fill="var(--usi-primary-wash, none)" data-fill-role="primary-wash" /><rect x="6.5" y="13" width="11" height="7.5" rx="1.5" />
+</symbol>
+<symbol id="usk-icon-image" viewBox="0 0 24 24">
+  <title>Image</title>
+  <rect x="3" y="4.5" width="18" height="15.5" rx="3.5" stroke="none" fill="var(--usi-primary-wash, none)" data-fill-role="primary-wash" /><rect x="3" y="4.5" width="18" height="15.5" rx="3.5" /><path d="m4 16.5 4-4q.8-.8 1.6 0l4 4M12 15l2.6-2.6q.8-.8 1.6 0l3.8 4.1" /><circle cx="8" cy="9" r="1.25" fill="var(--usi-secondary-ink, currentColor)" stroke="none" data-fill-role="secondary-ink" />
+</symbol>
+<symbol id="usk-icon-camera" viewBox="0 0 24 24">
+  <title>Camera</title>
+  <path d="M6 7.5h12q3 0 3 3v6q0 3-3 3H6q-3 0-3-3v-6q0-3 3-3Z" stroke="none" fill="var(--usi-primary-wash, none)" data-fill-role="primary-wash" /><path d="M6 7.5h12q3 0 3 3v6q0 3-3 3H6q-3 0-3-3v-6q0-3 3-3Zm1 0 2-3h6l2 3" /><circle cx="12" cy="13.5" r="3.5" /><circle cx="12" cy="13.5" r="1.25" fill="var(--usi-secondary-ink, currentColor)" stroke="none" data-fill-role="secondary-ink" />
+</symbol>
+<symbol id="usk-icon-play" viewBox="0 0 24 24">
+  <title>Play</title>
+  <path d="M8 6q0-1.5 1.3-.7l10 5.8q1.5.9 0 1.8l-10 5.8Q8 19.5 8 18Z" stroke="none" fill="var(--usi-primary-wash, none)" data-fill-role="primary-wash" /><path d="M8 6q0-1.5 1.3-.7l10 5.8q1.5.9 0 1.8l-10 5.8Q8 19.5 8 18Z" />
+</symbol>
+<symbol id="usk-icon-pause" viewBox="0 0 24 24">
+  <title>Pause</title>
+  <rect x="6" y="5.5" width="3.5" height="13" rx="1.75" stroke="none" fill="var(--usi-primary-wash, none)" data-fill-role="primary-wash" /><rect x="6" y="5.5" width="3.5" height="13" rx="1.75" /><rect x="14.5" y="5.5" width="3.5" height="13" rx="1.75" stroke="none" fill="var(--usi-primary-wash, none)" data-fill-role="primary-wash" /><rect x="14.5" y="5.5" width="3.5" height="13" rx="1.75" />
+</symbol>
+<symbol id="usk-icon-stop" viewBox="0 0 24 24">
+  <title>Stop</title>
+  <rect x="6" y="6" width="12" height="12" rx="3.25" stroke="none" fill="var(--usi-primary-wash, none)" data-fill-role="primary-wash" /><rect x="6" y="6" width="12" height="12" rx="3.25" />
+</symbol>
+<symbol id="usk-icon-skip-back" viewBox="0 0 24 24">
+  <title>Skip back</title>
+  <rect x="4" y="5" width="2.5" height="14" rx="1.25" fill="var(--usi-primary-ink, currentColor)" stroke="none" data-fill-role="primary-ink" /><path d="M19 6q0-1.5-1.3-.6l-8.8 5.7q-1.4.9 0 1.8l8.8 5.7q1.3.9 1.3-.6Z" stroke="none" fill="var(--usi-primary-wash, none)" data-fill-role="primary-wash" /><path d="M19 6q0-1.5-1.3-.6l-8.8 5.7q-1.4.9 0 1.8l8.8 5.7q1.3.9 1.3-.6Z" />
+</symbol>
+<symbol id="usk-icon-skip-forward" viewBox="0 0 24 24">
+  <title>Skip forward</title>
+  <rect x="17.5" y="5" width="2.5" height="14" rx="1.25" fill="var(--usi-primary-ink, currentColor)" stroke="none" data-fill-role="primary-ink" /><path d="M5 6q0-1.5 1.3-.6l8.8 5.7q1.4.9 0 1.8l-8.8 5.7Q5 19.5 5 18Z" stroke="none" fill="var(--usi-primary-wash, none)" data-fill-role="primary-wash" /><path d="M5 6q0-1.5 1.3-.6l8.8 5.7q1.4.9 0 1.8l-8.8 5.7Q5 19.5 5 18Z" />
+</symbol>
+<symbol id="usk-icon-volume" viewBox="0 0 24 24">
+  <title>Volume</title>
+  <path d="M3.5 9h3L11 5.5q.5-.4.5.5v12q0 .9-.5.5L6.5 15h-3Z" stroke="none" fill="var(--usi-primary-wash, none)" data-fill-role="primary-wash" /><path d="M3.5 9h3L11 5.5q.5-.4.5.5v12q0 .9-.5.5L6.5 15h-3Z" /><path d="M15 8.5q3.5 3.5 0 7m3-10.5q7 7 0 14" />
+</symbol>
+<symbol id="usk-icon-volume-off" viewBox="0 0 24 24">
+  <title>Volume off</title>
+  <path d="M3.5 9h3L11 5.5q.5-.4.5.5v12q0 .9-.5.5L6.5 15h-3Z" stroke="none" fill="var(--usi-primary-wash, none)" data-fill-role="primary-wash" /><path d="M3.5 9h3L11 5.5q.5-.4.5.5v12q0 .9-.5.5L6.5 15h-3Z" /><path d="m16 9 5 6m0-6-5 6" />
+</symbol>
+<symbol id="usk-icon-microphone" viewBox="0 0 24 24">
+  <title>Microphone</title>
+  <rect x="8.5" y="3.5" width="7" height="10.5" rx="3.5" stroke="none" fill="var(--usi-primary-wash, none)" data-fill-role="primary-wash" /><rect x="8.5" y="3.5" width="7" height="10.5" rx="3.5" /><path d="M5.5 10.5v2a6.5 6.5 0 0 0 13 0v-2M12 19v2m-3.5 0h7" />
+</symbol>
+<symbol id="usk-icon-attachment" viewBox="0 0 24 24">
+  <title>Attachment</title>
+  <path d="m9.5 14.5 6.5-6.5a2.5 2.5 0 0 0-3.5-3.5L5 12a4.5 4.5 0 0 0 6.4 6.4l7.1-7.1" />
+</symbol>
+<symbol id="usk-icon-print" viewBox="0 0 24 24">
+  <title>Print</title>
+  <path d="M7 8V3.5h10V8M7 17H6q-3 0-3-3v-3q0-3 3-3h12q3 0 3 3v3q0 3-3 3h-1" /><rect x="7" y="14" width="10" height="7" rx="1.3" stroke="none" fill="var(--usi-primary-wash, none)" data-fill-role="primary-wash" /><rect x="7" y="14" width="10" height="7" rx="1.3" /><path d="M9 17h6" />
+</symbol>
+<symbol id="usk-icon-share" viewBox="0 0 24 24">
+  <title>Share</title>
+  <path d="m7.7 10.8 8.1-4.6m-8.1 7 8.1 4.6" /><circle cx="5.5" cy="12" r="2.5" stroke="none" fill="var(--usi-primary-wash, none)" data-fill-role="primary-wash" /><circle cx="5.5" cy="12" r="2.5" /><circle cx="18" cy="5" r="2.5" stroke="none" fill="var(--usi-primary-wash, none)" data-fill-role="primary-wash" /><circle cx="18" cy="5" r="2.5" stroke="var(--usi-secondary-ink, currentColor)" data-stroke-role="secondary-ink" /><circle cx="18" cy="19" r="2.5" stroke="none" fill="var(--usi-primary-wash, none)" data-fill-role="primary-wash" /><circle cx="18" cy="19" r="2.5" stroke="var(--usi-secondary-ink, currentColor)" data-stroke-role="secondary-ink" />
+</symbol>
+<symbol id="usk-icon-cart" viewBox="0 0 24 24">
+  <title>Cart</title>
+  <path d="M3.5 4.5h2l2.5 11q.3 1.5 2 1.5h8q1.7 0 2-1.5l1.5-7.5H6.3M8.5 12H18" /><circle cx="9" cy="20.5" r="1.2" fill="var(--usi-primary-ink, currentColor)" stroke="none" data-fill-role="primary-ink" /><circle cx="18" cy="20.5" r="1.2" fill="var(--usi-primary-ink, currentColor)" stroke="none" data-fill-role="primary-ink" />
+</symbol>
+<symbol id="usk-icon-credit-card" viewBox="0 0 24 24">
+  <title>Credit card</title>
+  <rect x="2.75" y="5" width="18.5" height="14" rx="3.5" stroke="none" fill="var(--usi-primary-wash, none)" data-fill-role="primary-wash" /><rect x="2.75" y="5" width="18.5" height="14" rx="3.5" /><rect x="6" y="9" width="4" height="3" rx=".75" stroke="none" fill="var(--usi-primary-wash, none)" data-fill-role="primary-wash" /><rect x="6" y="9" width="4" height="3" rx=".75" stroke="var(--usi-secondary-ink, currentColor)" data-stroke-role="secondary-ink" /><path d="M6 16h4m3 0h4" />
+</symbol>
+<symbol id="usk-icon-receipt" viewBox="0 0 24 24">
+  <title>Receipt</title>
+  <path d="M5 6q0-3 3-3h8q3 0 3 3v15l-3-2-2 2-2-2-2 2-2-2-3 2Z" stroke="none" fill="var(--usi-primary-wash, none)" data-fill-role="primary-wash" /><path d="M5 6q0-3 3-3h8q3 0 3 3v15l-3-2-2 2-2-2-2 2-2-2-3 2ZM8 7.5h8m-8 4.5h8m-8 4.5h5.5" />
+</symbol>
+<symbol id="usk-icon-tag" viewBox="0 0 24 24">
+  <title>Tag</title>
+  <path d="M6 3.5h4.5q1 0 1.7.7l8.6 8.6q1.2 1.2 0 2.4l-5.6 5.6q-1.2 1.2-2.4 0l-8.6-8.6q-.7-.7-.7-1.7V6q0-2.5 2.5-2.5Z" stroke="none" fill="var(--usi-primary-wash, none)" data-fill-role="primary-wash" /><path d="M6 3.5h4.5q1 0 1.7.7l8.6 8.6q1.2 1.2 0 2.4l-5.6 5.6q-1.2 1.2-2.4 0l-8.6-8.6q-.7-.7-.7-1.7V6q0-2.5 2.5-2.5Z" /><circle cx="7.5" cy="7.5" r="1.5" fill="var(--usi-secondary-ink, currentColor)" stroke="none" data-fill-role="secondary-ink" />
+</symbol>
+<symbol id="usk-icon-package" viewBox="0 0 24 24">
+  <title>Package</title>
+  <path d="M10.5 3.8q1.5-.8 3 0l6 3.3Q21 7.9 21 9.6v5q0 1.7-1.5 2.5l-6 3.3q-1.5.8-3 0l-6-3.3Q3 16.3 3 14.6v-5q0-1.7 1.5-2.5Z" stroke="none" fill="var(--usi-primary-wash, none)" data-fill-role="primary-wash" /><path d="M10.5 3.8q1.5-.8 3 0l6 3.3Q21 7.9 21 9.6v5q0 1.7-1.5 2.5l-6 3.3q-1.5.8-3 0l-6-3.3Q3 16.3 3 14.6v-5q0-1.7 1.5-2.5ZM3.8 8 12 12.5 20.2 8M12 12.5v8.2" />
+</symbol>
+<symbol id="usk-icon-warehouse" viewBox="0 0 24 24">
+  <title>Warehouse</title>
+  <path d="m3.5 10 7-5.5q1.5-1.2 3 0l7 5.5v10h-17Z" stroke="none" fill="var(--usi-primary-wash, none)" data-fill-role="primary-wash" /><path d="m3.5 10 7-5.5q1.5-1.2 3 0l7 5.5v10h-17Z" /><rect x="8" y="12.5" width="8" height="7.5" rx="1.5" stroke="none" fill="var(--usi-primary-wash, none)" data-fill-role="primary-wash" /><rect x="8" y="12.5" width="8" height="7.5" rx="1.5" /><path d="M8 15h8m-8 2.5h8" />
+</symbol>
+<symbol id="usk-icon-truck" viewBox="0 0 24 24">
+  <title>Truck</title>
+  <rect x="3" y="5" width="11" height="12" rx="2.5" stroke="none" fill="var(--usi-primary-wash, none)" data-fill-role="primary-wash" /><rect x="3" y="5" width="11" height="12" rx="2.5" /><path d="M14 10h3.5q1 0 1.5 1l2 3v3h-7Z" stroke="none" fill="var(--usi-primary-wash, none)" data-fill-role="primary-wash" /><path d="M14 10h3.5q1 0 1.5 1l2 3v3h-7Z" /><path fill="var(--usi-secondary-ink, currentColor)" stroke="none" d="M16 11.5h1.5l2 3H16Z" data-fill-role="secondary-ink" /><circle cx="6.5" cy="19" r="1.5" fill="var(--usi-primary-ink, currentColor)" stroke="none" data-fill-role="primary-ink" /><circle cx="18" cy="19" r="1.5" fill="var(--usi-primary-ink, currentColor)" stroke="none" data-fill-role="primary-ink" />
+</symbol>
+<symbol id="usk-icon-map-pin" viewBox="0 0 24 24">
+  <title>Map pin</title>
+  <path d="M19.5 10q0 5.5-7.5 11-7.5-5.5-7.5-11a7.5 7.5 0 1 1 15 0Z" stroke="none" fill="var(--usi-primary-wash, none)" data-fill-role="primary-wash" /><path d="M19.5 10q0 5.5-7.5 11-7.5-5.5-7.5-11a7.5 7.5 0 1 1 15 0Z" /><circle cx="12" cy="10" r="2.5" />
+</symbol>
+<symbol id="usk-icon-car" viewBox="0 0 24 24">
+  <title>Car</title>
+  <path d="m4 10.5 1.5-4q.5-2 2.5-2h8q2 0 2.5 2l1.5 4V19H4Z" stroke="none" fill="var(--usi-primary-wash, none)" data-fill-role="primary-wash" /><path d="m4 10.5 1.5-4q.5-2 2.5-2h8q2 0 2.5 2l1.5 4V19H4Zm2 8.5v2m12-2v2" /><path d="M7 7h10l1.2 3.5H5.8Z" stroke="none" fill="var(--usi-primary-wash, none)" data-fill-role="primary-wash" /><path d="M7 7h10l1.2 3.5H5.8Z" /><rect x="6" y="13.5" width="3" height="2" rx="1" fill="var(--usi-primary-ink, currentColor)" stroke="none" data-fill-role="primary-ink" /><rect x="15" y="13.5" width="3" height="2" rx="1" fill="var(--usi-primary-ink, currentColor)" stroke="none" data-fill-role="primary-ink" />
+</symbol>
+<symbol id="usk-icon-wrench" viewBox="0 0 24 24">
+  <title>Wrench</title>
+  <path d="M13.5 3.5a6 6 0 0 0-6 8l-4 4q-1.5 1.5 0 3l2 2q1.5 1.5 3 0l4-4a6 6 0 0 0 8-6l-4.5 2L13 9Z" stroke="none" fill="var(--usi-primary-wash, none)" data-fill-role="primary-wash" /><path d="M13.5 3.5a6 6 0 0 0-6 8l-4 4q-1.5 1.5 0 3l2 2q1.5 1.5 3 0l4-4a6 6 0 0 0 8-6l-4.5 2L13 9Z" />
+</symbol>
+<symbol id="usk-icon-barcode" viewBox="0 0 24 24">
+  <title>Barcode</title>
+  <rect x="3.5" y="5.5" width="2" height="13" rx=".65" fill="var(--usi-primary-ink, currentColor)" stroke="none" data-fill-role="primary-ink" /><rect x="7" y="5.5" width="1.5" height="13" rx=".65" fill="var(--usi-primary-ink, currentColor)" stroke="none" data-fill-role="primary-ink" /><rect x="10.5" y="5.5" width="2.5" height="13" rx=".65" fill="var(--usi-primary-ink, currentColor)" stroke="none" data-fill-role="primary-ink" /><rect x="15" y="5.5" width="1.5" height="13" rx=".65" fill="var(--usi-primary-ink, currentColor)" stroke="none" data-fill-role="primary-ink" /><rect x="18.5" y="5.5" width="2" height="13" rx=".65" fill="var(--usi-primary-ink, currentColor)" stroke="none" data-fill-role="primary-ink" />
+</symbol>
+<symbol id="usk-icon-clipboard" viewBox="0 0 24 24">
+  <title>Clipboard</title>
+  <path d="M8 5H7q-2 0-2 2v11q0 3 3 3h8q3 0 3-3V7q0-2-2-2h-1M8 11h8m-8 4h8m-8 3h5" /><rect x="8" y="3" width="8" height="4" rx="1.5" />
+</symbol>
+<symbol id="usk-icon-chart-bar" viewBox="0 0 24 24">
+  <title>Chart bar</title>
+  <path d="M3.5 4v16.5h17" /><rect x="6" y="13" width="3" height="5" rx="1" fill="var(--usi-primary-ink, currentColor)" stroke="none" data-fill-role="primary-ink" /><rect x="11" y="9" width="3" height="9" rx="1" fill="var(--usi-secondary-ink, currentColor)" stroke="none" data-fill-role="secondary-ink" /><rect x="16" y="5" width="3" height="13" rx="1" fill="var(--usi-primary-ink, currentColor)" stroke="none" data-fill-role="primary-ink" />
+</symbol>
+<symbol id="usk-icon-users" viewBox="0 0 24 24">
+  <title>Users</title>
+  <circle cx="8.5" cy="7" r="3" stroke="none" fill="var(--usi-primary-wash, none)" data-fill-role="primary-wash" /><circle cx="8.5" cy="7" r="3" /><circle cx="17" cy="8" r="2.5" stroke="none" fill="var(--usi-primary-wash, none)" data-fill-role="primary-wash" /><circle cx="17" cy="8" r="2.5" stroke="var(--usi-secondary-ink, currentColor)" data-stroke-role="secondary-ink" /><path d="M3 20v-2q0-4.5 5.5-4.5T14 18v2Z" stroke="none" fill="var(--usi-primary-wash, none)" data-fill-role="primary-wash" /><path d="M3 20v-2q0-4.5 5.5-4.5T14 18v2Zm13-6q5 0 5 5.5v.5h-3.5" />
+</symbol>
+<symbol id="usk-icon-briefcase" viewBox="0 0 24 24">
+  <title>Briefcase</title>
+  <rect x="3" y="7" width="18" height="13.5" rx="3" stroke="none" fill="var(--usi-primary-wash, none)" data-fill-role="primary-wash" /><rect x="3" y="7" width="18" height="13.5" rx="3" /><path d="M8 7V5q0-2 2-2h4q2 0 2 2v2M3 12.5h7m4 0h7" /><rect x="10" y="11" width="4" height="3" rx="1" stroke="none" fill="var(--usi-primary-wash, none)" data-fill-role="primary-wash" /><rect x="10" y="11" width="4" height="3" rx="1" stroke="var(--usi-secondary-ink, currentColor)" data-stroke-role="secondary-ink" />
+</symbol>
+<symbol id="usk-icon-building" viewBox="0 0 24 24">
+  <title>Building</title>
+  <path d="M5.5 20.5v-14q0-3 3-3h7q3 0 3 3v14m-15 0h17M10 20.5V16h4v4.5" /><rect x="8" y="7" width="2.5" height="2.5" rx=".5" fill="var(--usi-secondary-ink, currentColor)" stroke="none" data-fill-role="secondary-ink" /><rect x="13.5" y="7" width="2.5" height="2.5" rx=".5" fill="var(--usi-secondary-ink, currentColor)" stroke="none" data-fill-role="secondary-ink" /><rect x="8" y="11.5" width="2.5" height="2.5" rx=".5" fill="var(--usi-secondary-ink, currentColor)" stroke="none" data-fill-role="secondary-ink" /><rect x="13.5" y="11.5" width="2.5" height="2.5" rx=".5" fill="var(--usi-secondary-ink, currentColor)" stroke="none" data-fill-role="secondary-ink" />
+</symbol>
+<symbol id="usk-icon-dashboard" viewBox="0 0 24 24">
+  <title>Dashboard</title>
+  <rect x="3.7" y="4.5" width="16.6" height="15" rx="2.4" fill="none" style="fill:var(--usi-primary-wash, none)" stroke="none"/><rect x="3.7" y="4.5" width="16.6" height="15" rx="2.4" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><path d="M4 9H20M10 9V19" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><path d="M13 13H17M13 16H18" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/>
+</symbol>
+<symbol id="usk-icon-list" viewBox="0 0 24 24">
+  <title>List</title>
+  <circle cx="5" cy="6" r="1.05" fill="currentColor" style="fill:var(--usi-secondary-ink, currentColor)" stroke="none"/><circle cx="5" cy="12" r="1.05" fill="currentColor" style="fill:var(--usi-secondary-ink, currentColor)" stroke="none"/><circle cx="5" cy="18" r="1.05" fill="currentColor" style="fill:var(--usi-secondary-ink, currentColor)" stroke="none"/><path d="M9 6H20M9 12H20M9 18H20" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/>
+</symbol>
+<symbol id="usk-icon-table" viewBox="0 0 24 24">
+  <title>Table</title>
+  <rect x="3.8" y="4.7" width="16.4" height="14.6" rx="2.4" fill="none" style="fill:var(--usi-primary-wash, none)" stroke="none"/><rect x="3.8" y="4.7" width="16.4" height="14.6" rx="2.4" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><path d="M4 9.6H20M4 14.4H20M10 5V19" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><path d="M13 7.1H17" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/>
+</symbol>
+<symbol id="usk-icon-sort" viewBox="0 0 24 24">
+  <title>Sort</title>
+  <path d="M7 18.5L7 5.5M9.70 8.20L7 5.5L4.30 8.20" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/><path d="M17 5.5L17 18.5M14.30 15.80L17 18.5L19.70 15.80" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/>
+</symbol>
+<symbol id="usk-icon-clock" viewBox="0 0 24 24">
+  <title>Clock</title>
+  <circle cx="12" cy="12" r="8.15" fill="none" style="fill:var(--usi-primary-wash, none)" stroke="none"/><circle cx="12" cy="12" r="8.15" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><path d="M12 7V12L15.2 14.2" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/>
+</symbol>
+<symbol id="usk-icon-history" viewBox="0 0 24 24">
+  <title>History</title>
+  <path d="M4.3 9.7A8 8 0 1 1 4.9 16" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><path d="M4 5.1V10.2H9" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/><path d="M12 7.6V12L15.2 14.2" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/>
+</symbol>
+<symbol id="usk-icon-spinner" viewBox="0 0 24 24">
+  <title>Spinner</title>
+  <path d="M4 12A8 8 0 0 1 12 4" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/><path d="M20 12A8 8 0 0 1 12 20" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><circle cx="18.1" cy="6.8" r="1.12" fill="currentColor" style="fill:var(--usi-secondary-ink, currentColor)" stroke="none"/><circle cx="5.9" cy="17.2" r="1.12" fill="currentColor" style="fill:var(--usi-primary-ink, currentColor)" stroke="none"/>
+</symbol>
+<symbol id="usk-icon-log-in" viewBox="0 0 24 24">
+  <title>Log in</title>
+  <path d="M13 4H20V20H13" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><path d="M3.8 12L15.4 12M12.15 15.25L15.4 12L12.15 8.75" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/>
+</symbol>
+<symbol id="usk-icon-log-out" viewBox="0 0 24 24">
+  <title>Log out</title>
+  <path d="M11 4H4V20H11" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><path d="M8.6 12L20.2 12M16.95 15.25L20.2 12L16.95 8.75" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/>
+</symbol>
+<symbol id="usk-icon-shield-check" viewBox="0 0 24 24">
+  <title>Shield check</title>
+  <path d="M12 3.4L19.5 6.3V11.3C19.5 15.6 16.2 19 12 21C7.8 19 4.5 15.6 4.5 11.3V6.3Z" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><path d="M8.6 12L11 14.4L15.5 9.8" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/>
+</symbol>
+<symbol id="usk-icon-key" viewBox="0 0 24 24">
+  <title>Key</title>
+  <circle cx="8.2" cy="8.1" r="4" fill="none" style="fill:var(--usi-primary-wash, none)" stroke="none"/><circle cx="8.2" cy="8.1" r="4" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><path d="M11 11L19.4 19.4M15.2 15.3L17.2 13.3M17.7 17.8L19.7 15.8" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/>
+</symbol>
+<symbol id="usk-icon-phone" viewBox="0 0 24 24">
+  <title>Phone</title>
+  <path d="M6.2 4.1L9.3 7.2L8.2 10.1C9.6 12.6 11.6 14.6 14.2 16L17.1 14.9L20 17.9L18.1 20.1C17.5 20.8 16.4 21 15.5 20.7C9.8 18.9 5.1 14.2 3.3 8.5C3 7.6 3.2 6.5 3.9 5.9Z" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><path d="M13 4.2C16.6 4.7 19.3 7.4 19.8 11" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/>
+</symbol>
+<symbol id="usk-icon-map" viewBox="0 0 24 24">
+  <title>Map</title>
+  <path d="M3.8 6.4L9.3 4L14.7 6.4L20.2 4V17.6L14.7 20L9.3 17.6L3.8 20Z" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><path d="M9.3 4V17.6M14.7 6.4V20" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/>
+</symbol>
+<symbol id="usk-icon-layers" viewBox="0 0 24 24">
+  <title>Layers</title>
+  <path d="M3.9 8L12 3.9L20.1 8L12 12.1Z" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><path d="M4 12.4L12 16.5L20 12.4M4 16.8L12 20.8L20 16.8" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/>
+</symbol>
+<symbol id="usk-icon-locate" viewBox="0 0 24 24">
+  <title>Locate</title>
+  <circle cx="12" cy="12" r="5.8" fill="none" style="fill:var(--usi-primary-wash, none)" stroke="none"/><circle cx="12" cy="12" r="5.8" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><circle cx="12" cy="12" r="1.65" fill="currentColor" style="fill:var(--usi-secondary-ink, currentColor)" stroke="none"/><path d="M12 3.4V6.2M12 17.8V20.6M3.4 12H6.2M17.8 12H20.6" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/>
+</symbol>
+<symbol id="usk-icon-shelf" viewBox="0 0 24 24">
+  <title>Shelf</title>
+  <path d="M4 4V20M20 4V20M4 11.4H20M4 18.3H20" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><rect x="7" y="6.4" width="4" height="4.8" rx="1.333" fill="currentColor" style="fill:var(--usi-secondary-ink, currentColor)" stroke="none"/><rect x="13.3" y="12.7" width="4" height="5.5" rx="1.333" fill="currentColor" style="fill:var(--usi-secondary-ink, currentColor)" stroke="none"/>
+</symbol>
+<symbol id="usk-icon-bin-location" viewBox="0 0 24 24">
+  <title>Bin location</title>
+  <path d="M4.4 13.5V20H19.6V13.5M4 13.5H8.2M15.8 13.5H20" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><path d="M16 7.4C16 9.7 12 13.4 12 13.4S8 9.7 8 7.4A4 4 0 1 1 16 7.4Z" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/><circle cx="12" cy="7.3" r="1" fill="currentColor" style="fill:var(--usi-secondary-ink, currentColor)" stroke="none"/>
+</symbol>
+<symbol id="usk-icon-vin-scan" viewBox="0 0 24 24">
+  <title>VIN scan</title>
+  <path d="M8 4H4V8M16 4H20V8M4 16V20H8M20 16V20H16" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><path d="M7 13.5L8.6 9.2H15.4L17 13.5V16H7Z" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><path d="M7.3 13.2H16.7M8.6 16V17M15.4 16V17" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/>
+</symbol>
+<symbol id="usk-icon-shift" viewBox="0 0 24 24">
+  <title>Shift</title>
+  <path d="M4 19V6H19V10M8 3.6V7.8M15.5 3.6V7.8M4 10.4H11.4M4 19H9.2" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><circle cx="16.2" cy="16.1" r="4.75" fill="none" style="fill:var(--usi-primary-wash, none)" stroke="none"/><circle cx="16.2" cy="16.1" r="4.75" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><path d="M16.2 13.2V16.1L18.2 17.2" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/>
+</symbol>
+<symbol id="usk-icon-timesheet" viewBox="0 0 24 24">
+  <title>Timesheet</title>
+  <path d="M9 5.7H5.4V20.4H10.1M14.8 5.7H18.6V10.6" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><rect x="9" y="3.5" width="6" height="4.2" rx="1.4" fill="none" style="fill:var(--usi-primary-wash, none)" stroke="none"/><rect x="9" y="3.5" width="6" height="4.2" rx="1.4" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><circle cx="16.5" cy="16.4" r="4.65" fill="none" style="fill:var(--usi-primary-wash, none)" stroke="none"/><circle cx="16.5" cy="16.4" r="4.65" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><path d="M16.5 13.5V16.4L18.4 17.5" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/>
+</symbol>
+<symbol id="usk-icon-payroll" viewBox="0 0 24 24">
+  <title>Payroll</title>
+  <path d="M6 3H14L19 8V21H6Z M14 3V8H19" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><path d="M9 11.4H16M9 14.7H16M9 18H11.8" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/><circle cx="15.9" cy="18" r="1.18" fill="currentColor" style="fill:var(--usi-secondary-ink, currentColor)" stroke="none"/>
+</symbol>
+<symbol id="usk-icon-calendar-range" viewBox="0 0 24 24">
+  <title>Calendar range</title>
+  <rect x="3.8" y="5.7" width="16.4" height="14.7" rx="2.4" fill="none" style="fill:var(--usi-primary-wash, none)" stroke="none"/><rect x="3.8" y="5.7" width="16.4" height="14.7" rx="2.4" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><path d="M8 3.5V7.4M16 3.5V7.4M4 10H20" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/><path d="M8 15.4H16" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/><circle cx="7.2" cy="15.4" r="1.1" fill="currentColor" style="fill:var(--usi-secondary-ink, currentColor)" stroke="none"/><circle cx="16.8" cy="15.4" r="1.1" fill="currentColor" style="fill:var(--usi-secondary-ink, currentColor)" stroke="none"/>
+</symbol>
+<symbol id="usk-icon-invoice" viewBox="0 0 24 24">
+  <title>Invoice</title>
+  <path d="M6 3H14L19 8V21H6Z M14 3V8H19" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><path d="M9 11.7H15.9M9 15.1H11.9M14.1 17.7H16.3" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/><path d="M15.2 16.6V18.8" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/>
+</symbol>
+<symbol id="usk-icon-refund" viewBox="0 0 24 24">
+  <title>Refund</title>
+  <path d="M5 10.2V5.3H20V17.1H15.8M5 7.9H20" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><path d="M11 12.5L7.3 16.2L11 19.9M7.3 16.2H12.8" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/>
+</symbol>
+<symbol id="usk-icon-payout" viewBox="0 0 24 24">
+  <title>Payout</title>
+  <path d="M4.5 7.4H19.5V4.5H4.5Z M4.5 7.4V15H10" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><path d="M12.5 11.4L20.4 19.3M16.58 19.30L20.4 19.3L20.40 15.48" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/>
+</symbol>
+<symbol id="usk-icon-wallet" viewBox="0 0 24 24">
+  <title>Wallet</title>
+  <path d="M20 9V6.2H5C4.1 6.2 3.6 6.8 3.6 7.7V17.8H20V14.8M6 6.2L16.4 4V6.2" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><rect x="13.8" y="9.2" width="7.1" height="5.4" rx="1.8" fill="none" style="fill:var(--usi-primary-wash, none)" stroke="none"/><rect x="13.8" y="9.2" width="7.1" height="5.4" rx="1.8" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/><circle cx="16.2" cy="11.9" r="0.85" fill="currentColor" style="fill:var(--usi-secondary-ink, currentColor)" stroke="none"/>
+</symbol>
+<symbol id="usk-icon-browser" viewBox="0 0 24 24">
+  <title>Browser</title>
+  <rect x="3.4" y="5.2" width="17.2" height="13.8" rx="2.4" fill="none" style="fill:var(--usi-primary-wash, none)" stroke="none"/><rect x="3.4" y="5.2" width="17.2" height="13.8" rx="2.4" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><path d="M3.8 9.2H20" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/><circle cx="6.7" cy="7.25" r="0.72" fill="currentColor" style="fill:var(--usi-secondary-ink, currentColor)" stroke="none"/><circle cx="9.3" cy="7.25" r="0.72" fill="currentColor" style="fill:var(--usi-secondary-ink, currentColor)" stroke="none"/>
+</symbol>
+<symbol id="usk-icon-message" viewBox="0 0 24 24">
+  <title>Message</title>
+  <path d="M4.2 4.7H19.8V16.9H10.5L6.1 20V16.9H4.2Z" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><path d="M8 9.3H16M8 12.7H14" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/>
+</symbol>
+<symbol id="usk-icon-video" viewBox="0 0 24 24">
+  <title>Video</title>
+  <rect x="3.6" y="6.4" width="11.6" height="11.2" rx="2.4" fill="none" style="fill:var(--usi-primary-wash, none)" stroke="none"/><rect x="3.6" y="6.4" width="11.6" height="11.2" rx="2.4" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><path d="M15.2 9.5L20.4 6.7V17.3L15.2 14.5" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/>
+</symbol>
+<symbol id="usk-icon-database" viewBox="0 0 24 24">
+  <title>Database</title>
+  <path d="M5 6.5C5 2.2 19 2.2 19 6.5V17.5C19 21.8 5 21.8 5 17.5Z" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><path d="M5 6.5C5 10.8 19 10.8 19 6.5M5 12C5 16.3 19 16.3 19 12" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/>
+</symbol>
+<symbol id="usk-icon-server" viewBox="0 0 24 24">
+  <title>Server</title>
+  <rect x="3.8" y="4.1" width="16.4" height="6.7" rx="2.233" fill="none" style="fill:var(--usi-primary-wash, none)" stroke="none"/><rect x="3.8" y="4.1" width="16.4" height="6.7" rx="2.233" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><rect x="3.8" y="13.2" width="16.4" height="6.7" rx="2.233" fill="none" style="fill:var(--usi-primary-wash, none)" stroke="none"/><rect x="3.8" y="13.2" width="16.4" height="6.7" rx="2.233" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><path d="M8 7.4H9.2M8 16.6H9.2M13.4 7.4H17M13.4 16.6H17" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/>
+</symbol>
+<symbol id="usk-icon-api" viewBox="0 0 24 24">
+  <title>API</title>
+  <path d="M9 5H5V19H9M15 5H19V19H15M5 12H9M15 12H19" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><rect x="9" y="9" width="6" height="6" rx="2" fill="none" style="fill:var(--usi-primary-wash, none)" stroke="none"/><rect x="9" y="9" width="6" height="6" rx="2" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/>
+</symbol>
+<symbol id="usk-icon-shield" viewBox="0 0 24 24">
+  <title>Shield</title>
+  <path d="M12 3.4L19.5 6.3V11.3C19.5 15.6 16.2 19 12 21C7.8 19 4.5 15.6 4.5 11.3V6.3Z" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><path d="M12 7V16.5" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/>
+</symbol>
+<symbol id="usk-icon-activity" viewBox="0 0 24 24">
+  <title>Activity</title>
+  <path d="M3.7 12H7.5L10 5.1L14 18.9L16.3 12H20.3" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/>
+</symbol>
+<symbol id="usk-icon-tax" viewBox="0 0 24 24">
+  <title>Tax</title>
+  <circle cx="7.5" cy="7.5" r="2.8" fill="none" style="fill:var(--usi-primary-wash, none)" stroke="none"/><circle cx="7.5" cy="7.5" r="2.8" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><circle cx="16.5" cy="16.5" r="2.8" fill="none" style="fill:var(--usi-primary-wash, none)" stroke="none"/><circle cx="16.5" cy="16.5" r="2.8" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><path d="M5 19L19 5" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/>
+</symbol>
+<symbol id="usk-icon-code" viewBox="0 0 24 24">
+  <title>Code</title>
+  <path d="M8 7L3.8 12L8 17M16 7L20.2 12L16 17" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><path d="M13.5 5.6L10.5 18.4" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/>
+</symbol>
+<symbol id="usk-icon-terminal" viewBox="0 0 24 24">
+  <title>Terminal</title>
+  <rect x="3.5" y="5.1" width="17" height="13.8" rx="2.4" fill="none" style="fill:var(--usi-primary-wash, none)" stroke="none"/><rect x="3.5" y="5.1" width="17" height="13.8" rx="2.4" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><path d="M7.2 9.2L10.5 12L7.2 14.8M12.7 14.8H16.8" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/>
+</symbol>
+<symbol id="usk-icon-rocket" viewBox="0 0 24 24">
+  <title>Rocket</title>
+  <path d="M10 16L7.9 13.9C10.5 7.7 15.3 4.5 20.2 3.8C19.5 8.7 16.3 13.5 10 16ZM7.9 13.9L4 14.5L5.8 10.1L10.3 9.6M10 16L9.5 20L13.9 18.2L14.5 13.7" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><circle cx="14.9" cy="9.1" r="1.4" fill="currentColor" style="fill:var(--usi-secondary-ink, currentColor)" stroke="none"/><path d="M6.4 17.6L3.8 20.2" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/>
+</symbol>
+<symbol id="usk-icon-bug" viewBox="0 0 24 24">
+  <title>Bug</title>
+  <rect x="7.2" y="8.1" width="9.6" height="11.6" rx="2.4" fill="none" style="fill:var(--usi-primary-wash, none)" stroke="none"/><rect x="7.2" y="8.1" width="9.6" height="11.6" rx="2.4" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><path d="M9 8.1V6A3 3 0 0 1 15 6V8.1M12 9V18.8" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/><path d="M4 9.6L7.2 11.2M4 14H7.2M4 18.6L7.2 17M20 9.6L16.8 11.2M20 14H16.8M20 18.6L16.8 17" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/>
+</symbol>
+<symbol id="usk-icon-cloud" viewBox="0 0 24 24">
+  <title>Cloud</title>
+  <path d="M7.2 18.3A4.1 4.1 0 1 1 8 10.2A5.1 5.1 0 0 1 17.7 11.3A3.55 3.55 0 1 1 17 18.3Z" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><path d="M8.6 15.2H15.4" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/>
+</symbol>
+<symbol id="usk-icon-globe" viewBox="0 0 24 24">
+  <title>Globe</title>
+  <circle cx="12" cy="12" r="8.3" fill="none" style="fill:var(--usi-primary-wash, none)" stroke="none"/><circle cx="12" cy="12" r="8.3" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><path d="M12 3.8C6.4 8.3 6.4 15.7 12 20.2C17.6 15.7 17.6 8.3 12 3.8Z M4.2 12H19.8" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/>
+</symbol>
+<symbol id="usk-icon-scan" viewBox="0 0 24 24">
+  <title>Scan</title>
+  <path d="M8 4H4V8M16 4H20V8M4 16V20H8M20 16V20H16" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><path d="M6.4 12H17.6" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/>
+</symbol>
+<symbol id="usk-icon-network" viewBox="0 0 24 24">
+  <title>Network</title>
+  <path d="M12 8.6V12.7M6.1 16.1V12.7H17.9V16.1" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><circle cx="12" cy="5.9" r="2.55" fill="none" style="fill:var(--usi-primary-wash, none)" stroke="none"/><circle cx="12" cy="5.9" r="2.55" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/><rect x="3.6" y="16.1" width="5.2" height="4.3" rx="1.433" fill="none" style="fill:var(--usi-primary-wash, none)" stroke="none"/><rect x="3.6" y="16.1" width="5.2" height="4.3" rx="1.433" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><rect x="15.2" y="16.1" width="5.2" height="4.3" rx="1.433" fill="none" style="fill:var(--usi-primary-wash, none)" stroke="none"/><rect x="15.2" y="16.1" width="5.2" height="4.3" rx="1.433" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/>
+</symbol>
+<symbol id="usk-icon-cpu" viewBox="0 0 24 24">
+  <title>CPU</title>
+  <rect x="6.8" y="6.8" width="10.4" height="10.4" rx="2.4" fill="none" style="fill:var(--usi-primary-wash, none)" stroke="none"/><rect x="6.8" y="6.8" width="10.4" height="10.4" rx="2.4" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><rect x="10" y="10" width="4" height="4" rx="1.333" fill="currentColor" style="fill:var(--usi-secondary-ink, currentColor)" stroke="none"/><path d="M9 4V6.8M15 4V6.8M9 17.2V20M15 17.2V20M4 9H6.8M4 15H6.8M17.2 9H20M17.2 15H20" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/>
+</symbol>
+<symbol id="usk-icon-module" viewBox="0 0 24 24">
+  <title>Module</title>
+  <rect x="3.9" y="4.7" width="16.2" height="14.6" rx="2.4" fill="none" style="fill:var(--usi-primary-wash, none)" stroke="none"/><rect x="3.9" y="4.7" width="16.2" height="14.6" rx="2.4" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><path d="M10 5V19" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><rect x="13" y="8" width="4.4" height="4.3" rx="1.433" fill="currentColor" style="fill:var(--usi-secondary-ink, currentColor)" stroke="none"/>
+</symbol>
+<symbol id="usk-icon-stack" viewBox="0 0 24 24">
+  <title>Stack</title>
+  <rect x="5.5" y="4.1" width="13" height="6.7" rx="2.233" fill="none" style="fill:var(--usi-primary-wash, none)" stroke="none"/><rect x="5.5" y="4.1" width="13" height="6.7" rx="2.233" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><path d="M5.5 13.8H18.5M5.5 17.1H18.5M5.5 20.4H18.5" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/>
+</symbol>
+<symbol id="usk-icon-tile" viewBox="0 0 24 24">
+  <title>Tile</title>
+  <rect x="4.8" y="4.8" width="14.4" height="14.4" rx="2.4" fill="none" style="fill:var(--usi-primary-wash, none)" stroke="none"/><rect x="4.8" y="4.8" width="14.4" height="14.4" rx="2.4" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><rect x="8.7" y="8.7" width="6.6" height="6.6" rx="2.2" fill="currentColor" style="fill:var(--usi-secondary-ink, currentColor)" stroke="none"/>
+</symbol>
+<symbol id="usk-icon-palette" viewBox="0 0 24 24">
+  <title>Palette</title>
+  <path d="M12 3.8A8.2 8.2 0 1 0 12 20.2H13.3A1.65 1.65 0 0 0 14.2 17.2A1.4 1.4 0 0 1 15 14.6H17.4A2.8 2.8 0 0 0 20.2 11.8A8.2 8.2 0 0 0 12 3.8Z" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><circle cx="7.8" cy="11.6" r="1.1" fill="currentColor" style="fill:var(--usi-secondary-ink, currentColor)" stroke="none"/><circle cx="10.4" cy="7.5" r="1.1" fill="currentColor" style="fill:var(--usi-secondary-ink, currentColor)" stroke="none"/><circle cx="15.2" cy="8.1" r="1.1" fill="currentColor" style="fill:var(--usi-secondary-ink, currentColor)" stroke="none"/>
+</symbol>
+<symbol id="usk-icon-heart" viewBox="0 0 24 24">
+  <title>Heart</title>
+  <path d="M12 20L5.5 13.6C1 9.1 6.2 3.5 10.2 6.6L12 8.1L13.8 6.6C17.8 3.5 23 9.1 18.5 13.6Z" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><path d="M6.5 9.8C6.6 8.9 7.2 8.3 8.1 8.2" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/>
+</symbol>
+<symbol id="usk-icon-star" viewBox="0 0 24 24">
+  <title>Star</title>
+  <path d="M12 3.7L14.5 9L20.3 9.8L16.2 14L17.2 19.8L12 17L6.8 19.8L7.8 14L3.7 9.8L9.5 9Z" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><circle cx="12" cy="12.1" r="1.08" fill="currentColor" style="fill:var(--usi-secondary-ink, currentColor)" stroke="none"/>
+</symbol>
+<symbol id="usk-icon-target" viewBox="0 0 24 24">
+  <title>Target</title>
+  <circle cx="12" cy="12" r="8.25" fill="none" style="fill:var(--usi-primary-wash, none)" stroke="none"/><circle cx="12" cy="12" r="8.25" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><circle cx="12" cy="12" r="4.7" fill="none" style="fill:var(--usi-primary-wash, none)" stroke="none"/><circle cx="12" cy="12" r="4.7" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><circle cx="12" cy="12" r="1.52" fill="currentColor" style="fill:var(--usi-secondary-ink, currentColor)" stroke="none"/>
+</symbol>
+<symbol id="usk-icon-megaphone" viewBox="0 0 24 24">
+  <title>Megaphone</title>
+  <path d="M4.1 9.2H9.2L17 5.7V16.4L9.2 13H4.1Z M7.1 13L9 19.3H12L10.1 13.4" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><path d="M20 8.1L21 6.7M20.2 11.1H21.2M20 14.1L21 15.5" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/>
+</symbol>
+<symbol id="usk-icon-cursor" viewBox="0 0 24 24">
+  <title>Cursor</title>
+  <path d="M5.3 3.8L19.9 13.5L13.3 14.5L10.6 20.1Z" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><path d="M13.3 14.5L17.5 19.1" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/>
+</symbol>
+<symbol id="usk-icon-expand" viewBox="0 0 24 24">
+  <title>Expand</title>
+  <path d="M9 4H4V9M15 4H20V9M4 15V20H9M20 15V20H15" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><path d="M4 4L8.7 8.7M20 20L15.3 15.3" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/>
+</symbol>
+<symbol id="usk-icon-archive" viewBox="0 0 24 24">
+  <title>Archive</title>
+  <rect x="3.5" y="4.2" width="17" height="4.5" rx="1.5" fill="none" style="fill:var(--usi-primary-wash, none)" stroke="none"/><rect x="3.5" y="4.2" width="17" height="4.5" rx="1.5" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><path d="M5.4 8.7V19.8H18.6V8.7" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><path d="M9 12.5H15" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/>
+</symbol>
+<symbol id="usk-icon-keyboard" viewBox="0 0 24 24">
+  <title>Keyboard</title>
+  <rect x="3.6" y="6.1" width="16.8" height="11.8" rx="2.4" fill="none" style="fill:var(--usi-primary-wash, none)" stroke="none"/><rect x="3.6" y="6.1" width="16.8" height="11.8" rx="2.4" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><path d="M7.4 10.3H8M11.7 10.3H12.3M16 10.3H16.6M8.5 14.1H15.5" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/>
+</symbol>
+<symbol id="usk-icon-move" viewBox="0 0 24 24">
+  <title>Move</title>
+  <path d="M12 4V20M4 12H20" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><path d="M9.5 6.6L12 4L14.5 6.6M9.5 17.4L12 20L14.5 17.4M6.6 9.5L4 12L6.6 14.5M17.4 9.5L20 12L17.4 14.5" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/>
+</symbol>
+<symbol id="usk-icon-send" viewBox="0 0 24 24">
+  <title>Send</title>
+  <path d="M3.8 9.5L20.2 4L15.1 20L11 13.1Z" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><path d="M11 13.1L20.2 4" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/>
+</symbol>
+<symbol id="usk-icon-hand" viewBox="0 0 24 24">
+  <title>Hand</title>
+  <path d="M7 13.6V6.3Q7 4.8 8.4 4.8Q9.8 4.8 9.8 6.3V11M9.8 8.4V4.7Q9.8 3.4 11.1 3.4Q12.6 3.4 12.6 4.9V11M12.6 8V6.5Q12.6 5.1 14 5.1Q15.4 5.1 15.4 6.5V11.4M15.4 10Q15.4 8.7 16.8 8.7Q18.2 8.7 18.2 10.1V15.1Q18.2 20.4 13.2 20.4H11Q8.9 20.4 7.3 18.5L4.1 14.5Q3.2 13.3 4.3 12.4Q5.3 11.6 7 13.6Z" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><path d="M10.6 16H13.6" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/>
+</symbol>
+<symbol id="usk-icon-zoom-in" viewBox="0 0 24 24">
+  <title>Zoom in</title>
+  <circle cx="9.8" cy="9.8" r="5.6" fill="none" style="fill:var(--usi-primary-wash, none)" stroke="none"/><circle cx="9.8" cy="9.8" r="5.6" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><path d="M13.9 13.9L20.2 20.2" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><path d="M6.65 9.8H12.95M9.8 6.65V12.95" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/>
+</symbol>
+<symbol id="usk-icon-zoom-out" viewBox="0 0 24 24">
+  <title>Zoom out</title>
+  <circle cx="9.8" cy="9.8" r="5.6" fill="none" style="fill:var(--usi-primary-wash, none)" stroke="none"/><circle cx="9.8" cy="9.8" r="5.6" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><path d="M13.9 13.9L20.2 20.2" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><path d="M6.65 9.8H12.95" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/>
+</symbol>
+<symbol id="usk-icon-wifi-off" viewBox="0 0 24 24">
+  <title>Wi-Fi off</title>
+  <path d="M3.8 8.7A13 13 0 0 1 6.3 7.2M9.8 6.1A13 13 0 0 1 20.2 8.7M6.7 12.1A8.6 8.6 0 0 1 9.2 10.8M13.9 10.5A8.6 8.6 0 0 1 17.3 12.1M9.5 15.3A4 4 0 0 1 12.5 14.5" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><circle cx="12" cy="18.8" r="1.1" fill="currentColor" style="fill:var(--usi-primary-ink, currentColor)" stroke="none"/><path d="M4.2 4.2L19.8 19.8" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/>
+</symbol>
+<symbol id="usk-icon-unlock" viewBox="0 0 24 24">
+  <title>Unlock</title>
+  <rect x="5.2" y="10.3" width="13.6" height="10" rx="2.4" fill="none" style="fill:var(--usi-primary-wash, none)" stroke="none"/><rect x="5.2" y="10.3" width="13.6" height="10" rx="2.4" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><path d="M8 10.3V7.4A4 4 0 0 1 15.9 6.6" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><path d="M12 14.1V16.6" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/>
+</symbol>
+<symbol id="usk-icon-paint-brush" viewBox="0 0 24 24">
+  <title>Paint brush</title>
+  <path d="M8.9 14.6L17.3 5.1A1.65 1.65 0 0 1 19.9 7.1L12 17" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><path d="M12 17C11.3 20.3 7.7 20.9 3.8 19.8C5.3 18.9 5.7 17.9 6 16.9C6.5 14.9 7.6 14.2 8.9 14.6Z" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/>
+</symbol>
+<symbol id="usk-icon-door-open" viewBox="0 0 24 24">
+  <title>Door open</title>
+  <path d="M5 20.5V4.2H16.4V7.3M16.4 18V20.5H4" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><path d="M8.2 6.6L19.4 4.4V18.4L8.2 20.4Z" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/><circle cx="16.6" cy="12.1" r="0.88" fill="currentColor" style="fill:var(--usi-secondary-ink, currentColor)" stroke="none"/>
+</symbol>
+<symbol id="usk-icon-paint-bucket" viewBox="0 0 24 24">
+  <title>Paint bucket</title>
+  <path d="M4.4 12.4L11.8 5L18.7 11.9L11.3 19.3ZM7.9 4.2L12.3 8.6M4.8 12.4H18" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><path d="M20.3 15C22.1 17.2 22.1 19.2 20.3 19.2C18.5 19.2 18.5 17.2 20.3 15Z" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/>
+</symbol>
+<symbol id="usk-icon-pen-tool" viewBox="0 0 24 24">
+  <title>Pen tool</title>
+  <path d="M12 3.7L19.6 15.4L15.4 19.6L3.7 12L8.7 10.5L10.5 8.7Z M12.5 17.7L17.7 12.5" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><circle cx="11.7" cy="11.7" r="1.55" fill="none" style="fill:var(--usi-primary-wash, none)" stroke="none"/><circle cx="11.7" cy="11.7" r="1.55" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/><path d="M10.6 10.6L4.5 4.5" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/>
+</symbol>
+<symbol id="usk-icon-rectangle" viewBox="0 0 24 24">
+  <title>Rectangle</title>
+  <rect x="4.1" y="6.4" width="15.8" height="11.2" rx="2.4" fill="none" style="fill:var(--usi-primary-wash, none)" stroke="none"/><rect x="4.1" y="6.4" width="15.8" height="11.2" rx="2.4" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><path d="M4.2 9V6.4H7M16.9 17.6H19.9V14.8" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/>
+</symbol>
+<symbol id="usk-icon-clipboard-check" viewBox="0 0 24 24">
+  <title>Clipboard check</title>
+  <path d="M9 5.5H5.5V20.5H18.5V5.5H15" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><rect x="9" y="3.3" width="6" height="4" rx="1.333" fill="none" style="fill:var(--usi-primary-wash, none)" stroke="none"/><rect x="9" y="3.3" width="6" height="4" rx="1.333" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/><path d="M8.8 13.1L11.1 15.4L15.7 10.8" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/>
+</symbol>
+<symbol id="usk-icon-package-check" viewBox="0 0 24 24">
+  <title>Package check</title>
+  <path d="M3.5 7.5L10.5 3.8L17.5 7.5V12M3.5 7.5V16L10.5 20M3.5 7.5L10.5 11.3L17.5 7.5M10.5 11.3V20" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><circle cx="17.1" cy="16.8" r="4.25" fill="none" style="fill:var(--usi-primary-wash, none)" stroke="none"/><circle cx="17.1" cy="16.8" r="4.25" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><path d="M15.2 16.9L16.7 18.4L19.2 15.7" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/>
+</symbol>
+<symbol id="usk-icon-package-x" viewBox="0 0 24 24">
+  <title>Package X</title>
+  <path d="M3.5 7.5L10.5 3.8L17.5 7.5V12M3.5 7.5V16L10.5 20M3.5 7.5L10.5 11.3L17.5 7.5M10.5 11.3V20" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><circle cx="17.1" cy="16.8" r="4.25" fill="none" style="fill:var(--usi-primary-wash, none)" stroke="none"/><circle cx="17.1" cy="16.8" r="4.25" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><path d="M15.7 15.4L18.5 18.2M18.5 15.4L15.7 18.2" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/>
+</symbol>
+<symbol id="usk-icon-boxes" viewBox="0 0 24 24">
+  <title>Boxes</title>
+  <rect x="8.5" y="4.1" width="7" height="6.5" rx="2.167" fill="none" style="fill:var(--usi-primary-wash, none)" stroke="none"/><rect x="8.5" y="4.1" width="7" height="6.5" rx="2.167" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><rect x="4" y="12.3" width="7.2" height="7.6" rx="2.4" fill="none" style="fill:var(--usi-primary-wash, none)" stroke="none"/><rect x="4" y="12.3" width="7.2" height="7.6" rx="2.4" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><rect x="12.8" y="12.3" width="7.2" height="7.6" rx="2.4" fill="none" style="fill:var(--usi-primary-wash, none)" stroke="none"/><rect x="12.8" y="12.3" width="7.2" height="7.6" rx="2.4" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><path d="M12 4.5V6.8M7.6 12.7V15.1M16.4 12.7V15.1" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/>
+</symbol>
+<symbol id="usk-icon-gauge" viewBox="0 0 24 24">
+  <title>Gauge</title>
+  <path d="M4.2 17.9V12.9A7.8 7.8 0 0 1 19.8 12.9V17.9Z" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><path d="M12 13.8L15.7 9.9" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/><circle cx="12" cy="13.8" r="1.3" fill="currentColor" style="fill:var(--usi-secondary-ink, currentColor)" stroke="none"/>
+</symbol>
+<symbol id="usk-icon-images" viewBox="0 0 24 24">
+  <title>Images</title>
+  <path d="M6.6 5H20V16.6" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><rect x="3.8" y="8.2" width="13" height="11.8" rx="2.4" fill="none" style="fill:var(--usi-primary-wash, none)" stroke="none"/><rect x="3.8" y="8.2" width="13" height="11.8" rx="2.4" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><path d="M4.2 17L8.3 13.9L11.2 16.1L13 14.8L16.6 17.7" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/><circle cx="12.8" cy="11.4" r="1" fill="currentColor" style="fill:var(--usi-secondary-ink, currentColor)" stroke="none"/>
+</symbol>
+<symbol id="usk-icon-recycle" viewBox="0 0 24 24">
+  <title>Recycle</title>
+  <path d="M6.6 8.2L10.5 3.9H13L16.3 9.2M18.4 12.4L20.2 16.2L18.6 18.6H12.6M8.3 18.6H4.9L3.8 16.2L6.5 11.8" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><path d="M12.9 8.6L16.3 9.2L17 5.8M14.8 16.2L12.6 18.6L14.8 20.8M3.8 12.3L6.5 11.8L7.5 14.6" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/>
+</symbol>
+<symbol id="usk-icon-contrast" viewBox="0 0 24 24">
+  <title>Contrast</title>
+  <circle cx="12" cy="12" r="8" fill="none" style="fill:var(--usi-primary-wash, none)" stroke="none"/><circle cx="12" cy="12" r="8" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><path d="M12 4A8 8 0 0 1 12 20Z" fill="currentColor" style="fill:var(--usi-secondary-ink, currentColor)" stroke="none"/>
+</symbol>
+<symbol id="usk-icon-moon" viewBox="0 0 24 24">
+  <title>Moon</title>
+  <path d="M20 14.2A8.3 8.3 0 1 1 9.8 4A7.5 7.5 0 0 0 20 14.2Z" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><path d="M15.3 5.2V9M13.4 7.1H17.2" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/>
+</symbol>
+<symbol id="usk-icon-sun" viewBox="0 0 24 24">
+  <title>Sun</title>
+  <circle cx="12" cy="12" r="4.5" fill="none" style="fill:var(--usi-primary-wash, none)" stroke="none"/><circle cx="12" cy="12" r="4.5" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/><path d="M12 3.4V5M12 19V20.6M3.4 12H5M19 12H20.6M5.9 5.9L7 7M17 17L18.1 18.1M5.9 18.1L7 17M17 7L18.1 5.9" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/>
+</symbol>
+<symbol id="usk-icon-replace" viewBox="0 0 24 24">
+  <title>Replace</title>
+  <path d="M4.2 8.3L19.8 8.3M17.30 10.80L19.8 8.3L17.30 5.80" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/><path d="M19.8 15.7L4.2 15.7M6.70 13.20L4.2 15.7L6.70 18.20" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/>
+</symbol>
+<symbol id="usk-icon-shopping-bag" viewBox="0 0 24 24">
+  <title>Shopping bag</title>
+  <rect x="5" y="8.1" width="14" height="12.1" rx="2.4" fill="none" style="fill:var(--usi-primary-wash, none)" stroke="none"/><rect x="5" y="8.1" width="14" height="12.1" rx="2.4" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><path d="M8.7 11.2V6.7A3.3 3.3 0 0 1 15.3 6.7V11.2" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/>
+</symbol>
+<symbol id="usk-icon-image-off" viewBox="0 0 24 24">
+  <title>Image off</title>
+  <path d="M4.3 7.3V19H16.7M8.2 5H19.7V15.5M6.2 16L9 13.7M14 12.1L16.6 10" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><path d="M4 4L20 20" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/>
+</symbol>
+<symbol id="usk-icon-sparkles" viewBox="0 0 24 24">
+  <title>Sparkles</title>
+  <path d="M10.2 4.2L11.9 9.5L17.1 11.2L11.9 12.9L10.2 18.2L8.5 12.9L3.3 11.2L8.5 9.5Z" fill="currentColor" style="fill:var(--usi-primary-ink, currentColor)" stroke="none"/><path d="M18.5 13.9L19.4 16.5L22 17.4L19.4 18.3L18.5 20.9L17.6 18.3L15 17.4L17.6 16.5Z" fill="currentColor" style="fill:var(--usi-secondary-ink, currentColor)" stroke="none"/>
+</symbol>
+<symbol id="usk-icon-file-text" viewBox="0 0 24 24">
+  <title>File text</title>
+  <path d="M6 3H14L19 8V21H6Z M14 3V8H19" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><path d="M9 11.6H16.2M9 14.6H16.2M9 17.6H14.2" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/>
+</symbol>
+<symbol id="usk-icon-ban" viewBox="0 0 24 24">
+  <title>Ban</title>
+  <circle cx="12" cy="12" r="8.15" fill="none" style="fill:var(--usi-primary-wash, none)" stroke="none"/><circle cx="12" cy="12" r="8.15" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><path d="M6.3 6.3L17.7 17.7" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/>
+</symbol>
+<symbol id="usk-icon-banknote" viewBox="0 0 24 24">
+  <title>Banknote</title>
+  <rect x="3.8" y="6.5" width="16.4" height="11" rx="2.4" fill="none" style="fill:var(--usi-primary-wash, none)" stroke="none"/><rect x="3.8" y="6.5" width="16.4" height="11" rx="2.4" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><circle cx="12" cy="12" r="2.55" fill="none" style="fill:var(--usi-primary-wash, none)" stroke="none"/><circle cx="12" cy="12" r="2.55" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/><path d="M7 11.2V12.8M17 11.2V12.8" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/>
+</symbol>
+<symbol id="usk-icon-parking" viewBox="0 0 24 24">
+  <title>Parking</title>
+  <circle cx="12" cy="12" r="8.05" fill="none" style="fill:var(--usi-primary-wash, none)" stroke="none"/><circle cx="12" cy="12" r="8.05" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><path d="M9.8 16.1V7.8H12.6A2.5 2.5 0 0 1 12.6 12.8H9.8" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/>
+</symbol>
+<symbol id="usk-icon-scale" viewBox="0 0 24 24">
+  <title>Scale</title>
+  <path d="M12 4V19.8M7.5 19.8H16.5M5.3 7.4H18.7" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><path d="M5.3 7.4L2.9 13H7.7ZM18.7 7.4L16.3 13H21.1Z" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/>
+</symbol>
+<symbol id="usk-icon-shield-alert" viewBox="0 0 24 24">
+  <title>Shield alert</title>
+  <path d="M12 3.4L19.5 6.3V11.3C19.5 15.6 16.2 19 12 21C7.8 19 4.5 15.6 4.5 11.3V6.3Z" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><path d="M12 8V12.4" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/><circle cx="12" cy="15.4" r="0.9" fill="currentColor" style="fill:var(--usi-secondary-ink, currentColor)" stroke="none"/>
+</symbol>
+<symbol id="usk-icon-signpost" viewBox="0 0 24 24">
+  <title>Signpost</title>
+  <path d="M12 3.7V20.2" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><path d="M5 6.3H17L20 8.7L17 11.1H5ZM19 13.3H7L4 15.7L7 18.1H19Z" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/>
+</symbol>
+<symbol id="usk-icon-monitor" viewBox="0 0 24 24">
+  <title>Monitor</title>
+  <rect x="3.8" y="4.6" width="16.4" height="11.9" rx="2.4" fill="none" style="fill:var(--usi-primary-wash, none)" stroke="none"/><rect x="3.8" y="4.6" width="16.4" height="11.9" rx="2.4" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><path d="M12 16.5V20M7.5 20H16.5" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/>
+</symbol>
+<symbol id="usk-icon-smartphone" viewBox="0 0 24 24">
+  <title>Smartphone</title>
+  <rect x="7.1" y="3.6" width="9.8" height="16.8" rx="2.4" fill="none" style="fill:var(--usi-primary-wash, none)" stroke="none"/><rect x="7.1" y="3.6" width="9.8" height="16.8" rx="2.4" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><path d="M10.1 16.7H13.9" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/>
+</symbol>
+<symbol id="usk-icon-tablet" viewBox="0 0 24 24">
+  <title>Tablet</title>
+  <rect x="5.1" y="3.8" width="13.8" height="16.4" rx="2.4" fill="none" style="fill:var(--usi-primary-wash, none)" stroke="none"/><rect x="5.1" y="3.8" width="13.8" height="16.4" rx="2.4" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><path d="M10.5 16.7H13.5" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/>
+</symbol>
+<symbol id="usk-icon-ste-workforce" viewBox="0 0 24 24">
+  <title>STE Workforce</title>
+  <circle cx="12" cy="7.2" r="2.85" fill="currentColor" style="fill:var(--usi-secondary-ink, currentColor)" stroke="none"/><circle cx="5.7" cy="9.3" r="1.85" fill="currentColor" style="fill:var(--usi-primary-ink, currentColor)" stroke="none"/><circle cx="18.3" cy="9.3" r="1.85" fill="currentColor" style="fill:var(--usi-primary-ink, currentColor)" stroke="none"/><path d="M7.2 18.8V16.4A4.8 4.8 0 0 1 16.8 16.4V18.8Z" fill="currentColor" style="fill:var(--usi-secondary-ink, currentColor)" stroke="none"/><path d="M2.9 17.6V15.2A2.8 2.8 0 0 1 6.8 12.6L6.2 17.6ZM21.1 17.6H17.8L17.2 12.6A2.8 2.8 0 0 1 21.1 15.2Z" fill="currentColor" style="fill:var(--usi-primary-ink, currentColor)" stroke="none"/>
+</symbol>
+<symbol id="usk-icon-ste-payments" viewBox="0 0 24 24">
+  <title>STE Payments</title>
+  <path d="M15 17.1H4.1V6H19.9V11.8M4.1 9.6H19.9" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><path d="M7.3 13.4H9.9" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/><circle cx="17.6" cy="17.1" r="4.05" fill="none" style="fill:var(--usi-primary-wash, none)" stroke="none"/><circle cx="17.6" cy="17.1" r="4.05" stroke="currentColor" style="stroke:var(--usi-primary-ink, currentColor)" stroke-width="1.76"/><path d="M15.9 17L17.2 18.3L19.5 15.9" stroke="currentColor" style="stroke:var(--usi-secondary-ink, currentColor)" stroke-width="1.82"/>
+</symbol>
+</defs>
+</svg>

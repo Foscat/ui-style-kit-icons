@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Wrench" focusable="false" class="usk-icon" data-icon-style="y2k" fill="none" stroke-width="1.65" stroke-linejoin="round" stroke-linecap="round">
+  <path d="M12.6 8.95c-.24-2.8 1.66-4.85 4.45-4.85.65 0 1.23.13 1.77.38L16.1 7.2l.45 1.78 1.8.48 2.05-2.05c.29.54.4 1.18.4 1.82 0 2.75-2.15 4.8-5.02 4.57l-5.95 5.85a3.25 3.25 0 0 1-4.6-4.6Z" stroke="currentColor" fill="none" style="stroke:var(--usi-y2k-shell, var(--usi-primary-ink, currentColor));fill:var(--usi-y2k-gel, none)"/>
+  <circle cx="7.65" cy="17.35" r="1.1" fill="currentColor" style="fill:var(--usi-y2k-pop, var(--usi-accent-ink, currentColor))"/>
+  <path d="m9.15 14.4 2.65-2.65" stroke="none" stroke-width="1.15" style="stroke:var(--usi-y2k-shine, none)"/>
+</svg>

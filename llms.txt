@@ -1,73 +1,41 @@
 # UI Style Kit Icons
 
-UI Style Kit Icons is a zero-runtime-dependency, theme-aware SVG icon library.
-It owns icon semantics, runtime, sprites, and artwork. ui-style-kit-css owns
-visual theme paint, layout-style-css owns layout primitives, and
-interactive-surface-css owns interaction affordances.
+Source version: 2.0.0
+Contract version: 1
+Collection: 01
+Repository: https://github.com/Foscat/ui-style-kit-icons
+Demo: https://foscat.github.io/ui-style-kit-icons/
 
-## Canonical links
+UI Style Kit Icons publishes 174 semantic icons across 20 families. Each family
+has a theme-aware SVG under svg/<family>/ and a one-ink SVG under
+monochrome/<family>/. The 6,960 authoritative asset hashes are recorded in
+reference/asset-hashes.json.
 
-- Demo: https://foscat.github.io/ui-style-kit-icons/
-- GitHub: https://github.com/Foscat/ui-style-kit-icons
-- npm: https://www.npmjs.com/package/ui-style-kit-icons
-- Wiki: https://github.com/Foscat/ui-style-kit-icons/wiki
-- UI Style Kit CSS: https://github.com/Foscat/ui-style-kit-css
-- Layout Style CSS: https://github.com/Foscat/Layout-Style-CSS
-- Interactive Surface CSS: https://github.com/Foscat/Interactive-Surface-CSS
+Primary imports:
 
-## Public contract
+- ui-style-kit-icons/element
+- ui-style-kit-icons/registry
+- ui-style-kit-icons/contract.json
+- ui-style-kit-icons/css.css
+- ui-style-kit-icons/inline-svg
+- ui-style-kit-icons/svg/<family>/<icon-id>.svg
+- ui-style-kit-icons/monochrome/<family>/<icon-id>.svg
 
-- Package version: 1.0.0
-- Contract version: 1.0.0
-- Required semantic icons: 64
-- Selectable packs: 12
-- Runtime dependencies: none
-- Optional peer: ui-style-kit-css >=2.1.0 <3
+The custom element defaults to Organic Modern. Use pack or data-icon-pack to
+choose a family and variant="monochrome" for one-ink artwork. Unknown retired
+families fail instead of resolving to unrelated artwork.
 
-Import `ui-style-kit-icons/element`, then use
-`<usk-icon name="dashboard"></usk-icon>`. The component works standalone and
-inherits currentColor. With ui-style-kit-css, it consumes the shared `--usk-*`
-RGB roles for all 10 themes and light, dark, and contrast modes.
+The paint layer aligns with ui-style-kit-css >=2.7.1 <3 and supports 25 palettes
+in light, dark, and contrast modes. Motion Style CSS 1.0.0 is vendored only for
+the demo's lifecycle choreography.
 
-The custom element resolves the closest `data-icon-pack` first, then the closest
-`data-ui`. Retrofuturism maps to synthwave. Bauhaus maps to the neutral system
-pack. Set `label` when the icon conveys meaning; omit it when adjacent text
-already names the action.
+Development commands:
 
-Use `ui-style-kit-icons/registry` for pack metadata and
-`ui-style-kit-icons/contract.json` for the canonical semantic list. Use
-`ui-style-kit-icons/css/all.css` for all inline SVG and sprite token layers.
-Standalone SVGs are canonical artwork. Core icons retain pack-specific
-reference-led object construction when `frame="none"` is used; optional pack
-extras keep their authored forms.
+- npm run demo
+- npm run build
+- npm run assets:check
+- npm run verify
+- npm run pages:build
 
-The demo must be served over HTTP with `npm run demo`. Build the GitHub Pages
-artifact with `npm run pages:build`. Run `npm run verify` for the complete
-package, browser, contract, contrast, and Pages gate. Run
-`npm run release:verify` before npm publishing. Run
-`npm run visual:prototype` to review the paired reference-led approval set.
-
-The demo pins ui-style-kit-css 2.1.0, interactive-surface-css 1.5.0, and
-layout-style-css 2.1.0 as development-only packages. Its stylesheet order is:
-
-1. ui-style-kit-css/visual.css
-2. ui-style-kit-css/interactive-surface-theme.css
-3. interactive-surface-css/state-core.css
-4. layout-style-css/min.css
-5. ui-style-kit-icons/css.css
-6. layered local demo.css
-
-The demo predeclares `@layer demo, ui-style-kit, ly;`. UI Style Kit owns theme
-and native-element paint, Interactive Surface owns interaction states, Layout
-Style owns composition, and local CSS owns demo-specific dimensions. The icon
-package itself has zero runtime dependencies; Interactive Surface and Layout
-Style are not consumer peers.
-
-## Documentation map
-
-- README: https://github.com/Foscat/ui-style-kit-icons/blob/main/README.md
-- Changelog: https://github.com/Foscat/ui-style-kit-icons/blob/main/CHANGELOG.md
-- Icon contract: https://github.com/Foscat/ui-style-kit-icons/blob/main/contract/icon-contract.md
-- Reference-led icon grammar: https://github.com/Foscat/ui-style-kit-icons/blob/main/style-source/reference-led-icon-grammar.md
-- Contributing: https://github.com/Foscat/ui-style-kit-icons/blob/main/CONTRIBUTING.md
-- Security: https://github.com/Foscat/ui-style-kit-icons/blob/main/SECURITY.md
+Local verification, registry publication, GitHub Actions, Pages deployment,
+and live-site acceptance are separate evidence classes.

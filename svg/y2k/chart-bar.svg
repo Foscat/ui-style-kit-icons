@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Chart bar" focusable="false" class="usk-icon" data-icon-style="y2k" fill="none" stroke-width="1.65" stroke-linejoin="round" stroke-linecap="round">
+  <path d="M3.45 5.25v11.6a3.6 3.6 0 0 0 3.6 3.6h13.5" stroke="currentColor" fill="none" style="stroke:var(--usi-y2k-shell, var(--usi-primary-ink, currentColor))"/>
+  <path d="M6.8 16.75v-4.5a1.6 1.6 0 0 1 3.2 0v4.5a1.6 1.6 0 0 1-3.2 0Z" stroke="currentColor" fill="none" style="stroke:var(--usi-y2k-shell, var(--usi-primary-ink, currentColor));fill:var(--usi-y2k-gel, none)"/>
+  <path d="M11.95 16.75v-7a1.6 1.6 0 0 1 3.2 0v7a1.6 1.6 0 0 1-3.2 0Z" stroke="currentColor" fill="none" style="stroke:var(--usi-y2k-shell, var(--usi-primary-ink, currentColor));fill:var(--usi-y2k-gel, none)"/>
+  <rect x="17.1" y="4.35" width="3.2" height="14" rx="1.6" fill="currentColor" style="fill:var(--usi-y2k-pop, var(--usi-accent-ink, currentColor))"/>
+  <path d="M18.7 6.5v3.7" stroke="none" stroke-width="1.15" style="stroke:var(--usi-y2k-shine, none)"/>
+</svg>

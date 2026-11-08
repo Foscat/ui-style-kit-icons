@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Building" focusable="false" class="usk-icon" data-icon-style="art-deco" fill="none" stroke-linejoin="bevel" stroke-linecap="square">
+  <path d="M8.15 4.5h1.5V3.2h4.7v1.3h1.5v1.6h2.4v12.6h2.35v1.75H3.4V18.7h2.35V6.1h2.4Zm1.75 1.75v1.6H7.5V18.7h3.05v-3.7h2.9v3.7h3.05V7.85h-2.4v-1.6Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-art-deco-ink, var(--usi-ink, currentColor))"/>
+  <path d="M8.88 9.25h2.15v2.2H8.88Zm4.09 0h2.15v2.2h-2.15Zm-4.09 3.25h2.15v1.35H8.88Zm4.09 0h2.15v1.35h-2.15Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-art-deco-metal, var(--usi-accent-ink, currentColor))"/>
+</svg>

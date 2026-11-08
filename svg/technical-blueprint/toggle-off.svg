@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Toggle off" focusable="false" class="usk-icon" data-icon-style="technical-blueprint" fill="none" stroke-linejoin="miter" stroke-linecap="square">
+  <g transform="translate(24 0) scale(-1 1)">
+  <path d="M3.75 8.25h16.5v7.5H3.75ZM13.15 9.82h5.52v4.36h-5.52Z" stroke="currentColor" stroke-width="1.45" style="stroke:var(--usi-technical-blueprint-ink, var(--usi-primary-ink, currentColor))"/>
+  <path d="M6.5 12h4.25m-3.35-.7v1.4m8.55-1.36v1.32M3.75 17.45v1.25h2m14.5-1.25v1.25h-2" stroke="currentColor" stroke-width="1.06" style="stroke:var(--usi-technical-blueprint-datum, var(--usi-accent-ink, currentColor))"/>
+  </g>
+</svg>

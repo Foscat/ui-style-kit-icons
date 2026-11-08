@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Chevron up" focusable="false" class="usk-icon" data-icon-style="technical-blueprint" fill="none" stroke-linejoin="miter" stroke-linecap="square">
+  <g transform="rotate(-90 12 12)">
+  <path d="m8.85 5.1 6.85 6.9-6.85 6.9" stroke="currentColor" stroke-width="1.75" style="stroke:var(--usi-technical-blueprint-ink, var(--usi-primary-ink, currentColor))"/>
+  <path d="M5.3 12h7.1m-5.4-1.35v2.7M9.35 7.15l2.5-2.48m-2.5 12.18 2.5 2.48" stroke="currentColor" stroke-width="1.05" style="stroke:var(--usi-technical-blueprint-datum, var(--usi-accent-ink, currentColor))"/>
+  </g>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Toggle on" focusable="false" class="usk-icon" data-icon-style="tactile" fill="none" stroke="var(--usi-ink, currentColor)" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="2.65" y="5.6" width="18.7" height="12.8" rx="6.4" fill="var(--usi-tactile-recess, none)"/>
+  <path d="M4.33 11.3A4.75 4.75 0 0 1 9.05 7.2h4.9" stroke="var(--usi-tactile-shade, none)" stroke-width="1.05"/>
+  <path d="M5.05 14.9a4.75 4.75 0 0 0 4 1.88h5.9" stroke="var(--usi-tactile-highlight, none)" stroke-width="0.85"/>
+  <circle cx="14.8" cy="12" r="3.85" fill="var(--usi-tactile-face, none)" stroke="var(--usi-ink, currentColor)" stroke-width="1.25"/>
+  <path d="M12.55 11.2a2.4 2.4 0 0 1 2.25-1.6" stroke="var(--usi-tactile-highlight, none)" stroke-width="0.8"/>
+  <path d="M14.8 11.25v1.5" stroke="var(--usi-primary-ink, currentColor)" stroke-width="1.25"/>
+</svg>

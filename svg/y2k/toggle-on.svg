@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Toggle on" focusable="false" class="usk-icon" data-icon-style="y2k" fill="none" stroke-width="1.65" stroke-linejoin="round" stroke-linecap="round">
+  <path d="M12.05 7.65H7.3a4.35 4.35 0 0 0 0 8.7h4.75" stroke="currentColor" fill="none" style="stroke:var(--usi-y2k-shell, var(--usi-primary-ink, currentColor));fill:var(--usi-y2k-gel, none)"/>
+  <path d="M21.2 12a5.6 5.6 0 1 1-11.2 0 5.6 5.6 0 0 1 11.2 0Z" stroke="currentColor" fill="none" style="stroke:var(--usi-y2k-shell, var(--usi-primary-ink, currentColor));fill:var(--usi-y2k-gel, none)"/>
+  <path d="M15.6 10.45v3.1" stroke="currentColor" stroke-width="1.8" style="stroke:var(--usi-y2k-pop, var(--usi-accent-ink, currentColor))"/>
+  <circle cx="6.45" cy="12" r="1" fill="currentColor" style="fill:var(--usi-y2k-pop, var(--usi-accent-ink, currentColor))"/>
+  <path d="M12 10.5a3.65 3.65 0 0 1 2.05-2" stroke="none" stroke-width="1.15" style="stroke:var(--usi-y2k-shine, none)"/>
+</svg>

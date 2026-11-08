@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Error" focusable="false" class="usk-icon" data-icon-style="technical-blueprint" fill="none" stroke-linejoin="miter" stroke-linecap="square">
+  <path d="M19.1 12a7.1 7.1 0 1 1-14.2 0 7.1 7.1 0 1 1 14.2 0Z" stroke="currentColor" stroke-width="1.42"/>
+  <path d="M12 3.25v3.1m0 11.3v3.1M3.25 12h3.1m11.3 0h3.1" stroke="currentColor" stroke-width="1.05"/>
+  <path d="m9.3 9.3 5.4 5.4m0-5.4-5.4 5.4" stroke="currentColor" stroke-width="1.55"/>
+</svg>

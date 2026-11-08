@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Arrow left" focusable="false" class="usk-icon" data-icon-style="clay" fill="none" stroke-linejoin="round" stroke-linecap="round">
+  <g transform="translate(24 0) scale(-1 1)">
+  <g transform="translate(0 1.12)"><path d="M3.41 11.46c0-1.12.67-1.88 1.85-1.88l8.46-.03-1.7-1.84c-.69-.75-.63-1.82.12-2.49.69-.61 1.62-.54 2.32.08l5.57 4.97c.88.79.88 1.67.04 2.46l-5.54 5.1c-.76.69-1.71.7-2.43.05-.73-.68-.72-1.67-.04-2.43l1.64-1.83-8.41.03c-1.19 0-1.88-.82-1.88-2.19Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-clay-rim, var(--usi-ink, currentColor))"/></g>
+  <path d="M3.41 11.46c0-1.12.67-1.88 1.85-1.88l8.46-.03-1.7-1.84c-.69-.75-.63-1.82.12-2.49.69-.61 1.62-.54 2.32.08l5.57 4.97c.88.79.88 1.67.04 2.46l-5.54 5.1c-.76.69-1.71.7-2.43.05-.73-.68-.72-1.67-.04-2.43l1.64-1.83-8.41.03c-1.19 0-1.88-.82-1.88-2.19Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-clay-face, var(--usi-accent-ink, currentColor))"/>
+  </g>
+</svg>

@@ -1,0 +1,302 @@
+{
+  "midnight-gold/light": {
+    "neo-noir-ink": "#172033",
+    "neo-noir-light": "#845e1b"
+  },
+  "midnight-gold/dark": {
+    "neo-noir-ink": "#f7edd7",
+    "neo-noir-light": "#d6a84f"
+  },
+  "midnight-gold/contrast": {
+    "neo-noir-ink": "#ffffff",
+    "neo-noir-light": "#ffd400"
+  },
+  "ocean-steel/light": {
+    "neo-noir-ink": "#10242e",
+    "neo-noir-light": "#087d9d"
+  },
+  "ocean-steel/dark": {
+    "neo-noir-ink": "#e9fbff",
+    "neo-noir-light": "#53f0ff"
+  },
+  "ocean-steel/contrast": {
+    "neo-noir-ink": "#ffffff",
+    "neo-noir-light": "#00e5ff"
+  },
+  "forest-moss/light": {
+    "neo-noir-ink": "#182417",
+    "neo-noir-light": "#3f7d3a"
+  },
+  "forest-moss/dark": {
+    "neo-noir-ink": "#edf7e8",
+    "neo-noir-light": "#b9ef6b"
+  },
+  "forest-moss/contrast": {
+    "neo-noir-ink": "#ffffff",
+    "neo-noir-light": "#b6ff00"
+  },
+  "sunset-ember/light": {
+    "neo-noir-ink": "#2a1711",
+    "neo-noir-light": "#c4512b"
+  },
+  "sunset-ember/dark": {
+    "neo-noir-ink": "#fff0e8",
+    "neo-noir-light": "#ff8a5b"
+  },
+  "sunset-ember/contrast": {
+    "neo-noir-ink": "#ffffff",
+    "neo-noir-light": "#ff6a00"
+  },
+  "royal-plum/light": {
+    "neo-noir-ink": "#24152d",
+    "neo-noir-light": "#c05ac6"
+  },
+  "royal-plum/dark": {
+    "neo-noir-ink": "#faecff",
+    "neo-noir-light": "#ff9cf6"
+  },
+  "royal-plum/contrast": {
+    "neo-noir-ink": "#ffffff",
+    "neo-noir-light": "#ff00f5"
+  },
+  "graphite-cyan/light": {
+    "neo-noir-ink": "#171d21",
+    "neo-noir-light": "#007c89"
+  },
+  "graphite-cyan/dark": {
+    "neo-noir-ink": "#edf6f8",
+    "neo-noir-light": "#3ed9e8"
+  },
+  "graphite-cyan/contrast": {
+    "neo-noir-ink": "#ffffff",
+    "neo-noir-light": "#00f0ff"
+  },
+  "desert-sage/light": {
+    "neo-noir-ink": "#2b2419",
+    "neo-noir-light": "#8b6a37"
+  },
+  "desert-sage/dark": {
+    "neo-noir-ink": "#f8efdf",
+    "neo-noir-light": "#f1c46e"
+  },
+  "desert-sage/contrast": {
+    "neo-noir-ink": "#ffffff",
+    "neo-noir-light": "#ffb000"
+  },
+  "rose-quartz/light": {
+    "neo-noir-ink": "#2b151d",
+    "neo-noir-light": "#b8476d"
+  },
+  "rose-quartz/dark": {
+    "neo-noir-ink": "#fff0f4",
+    "neo-noir-light": "#ff8fb3"
+  },
+  "rose-quartz/contrast": {
+    "neo-noir-ink": "#ffffff",
+    "neo-noir-light": "#f000ff"
+  },
+  "cyber-lime/light": {
+    "neo-noir-ink": "#172214",
+    "neo-noir-light": "#147f86"
+  },
+  "cyber-lime/dark": {
+    "neo-noir-ink": "#efffe9",
+    "neo-noir-light": "#a8ff3d"
+  },
+  "cyber-lime/contrast": {
+    "neo-noir-ink": "#ffffff",
+    "neo-noir-light": "#aaff00"
+  },
+  "arctic-indigo/light": {
+    "neo-noir-ink": "#141b2e",
+    "neo-noir-light": "#405eb8"
+  },
+  "arctic-indigo/dark": {
+    "neo-noir-ink": "#edf3ff",
+    "neo-noir-light": "#76d8f3"
+  },
+  "arctic-indigo/contrast": {
+    "neo-noir-ink": "#ffffff",
+    "neo-noir-light": "#00d9ff"
+  },
+  "chrome-navy/light": {
+    "neo-noir-ink": "#0d1b2a",
+    "neo-noir-light": "#3e6b8e"
+  },
+  "chrome-navy/dark": {
+    "neo-noir-ink": "#eff4fa",
+    "neo-noir-light": "#7ea9d3"
+  },
+  "chrome-navy/contrast": {
+    "neo-noir-ink": "#ffffff",
+    "neo-noir-light": "#00e6ff"
+  },
+  "recycled-emerald/light": {
+    "neo-noir-ink": "#0e2c29",
+    "neo-noir-light": "#0f766e"
+  },
+  "recycled-emerald/dark": {
+    "neo-noir-ink": "#ecfbf7",
+    "neo-noir-light": "#45d1af"
+  },
+  "recycled-emerald/contrast": {
+    "neo-noir-ink": "#ffffff",
+    "neo-noir-light": "#00f0ff"
+  },
+  "industrial-orange/light": {
+    "neo-noir-ink": "#181512",
+    "neo-noir-light": "#b74e16"
+  },
+  "industrial-orange/dark": {
+    "neo-noir-ink": "#f7f2eb",
+    "neo-noir-light": "#ff8a3d"
+  },
+  "industrial-orange/contrast": {
+    "neo-noir-ink": "#ffffff",
+    "neo-noir-light": "#ff9a42"
+  },
+  "performance-red/light": {
+    "neo-noir-ink": "#121317",
+    "neo-noir-light": "#c8102e"
+  },
+  "performance-red/dark": {
+    "neo-noir-ink": "#f9f9fa",
+    "neo-noir-light": "#ff4c66"
+  },
+  "performance-red/contrast": {
+    "neo-noir-ink": "#ffffff",
+    "neo-noir-light": "#ff3656"
+  },
+  "heritage-brass/light": {
+    "neo-noir-ink": "#2a1f1a",
+    "neo-noir-light": "#6b0f1a"
+  },
+  "heritage-brass/dark": {
+    "neo-noir-ink": "#fbf5ec",
+    "neo-noir-light": "#e7b85f"
+  },
+  "heritage-brass/contrast": {
+    "neo-noir-ink": "#ffffff",
+    "neo-noir-light": "#ffd36b"
+  },
+  "service-blue-red/light": {
+    "neo-noir-ink": "#11243b",
+    "neo-noir-light": "#d62b2b"
+  },
+  "service-blue-red/dark": {
+    "neo-noir-ink": "#f3f7fb",
+    "neo-noir-light": "#ff6a6a"
+  },
+  "service-blue-red/contrast": {
+    "neo-noir-ink": "#ffffff",
+    "neo-noir-light": "#66b5ff"
+  },
+  "newsprint-crimson/light": {
+    "neo-noir-ink": "#2c2622",
+    "neo-noir-light": "#7a2329"
+  },
+  "newsprint-crimson/dark": {
+    "neo-noir-ink": "#f4ebdd",
+    "neo-noir-light": "#d87c83"
+  },
+  "newsprint-crimson/contrast": {
+    "neo-noir-ink": "#ffffff",
+    "neo-noir-light": "#ff7a84"
+  },
+  "foundry-amber/light": {
+    "neo-noir-ink": "#1d1c1a",
+    "neo-noir-light": "#a95700"
+  },
+  "foundry-amber/dark": {
+    "neo-noir-ink": "#f4f2ed",
+    "neo-noir-light": "#f0a03a"
+  },
+  "foundry-amber/contrast": {
+    "neo-noir-ink": "#ffffff",
+    "neo-noir-light": "#ffb000"
+  },
+  "soft-orchid/light": {
+    "neo-noir-ink": "#241a3a",
+    "neo-noir-light": "#6552b8"
+  },
+  "soft-orchid/dark": {
+    "neo-noir-ink": "#f5f0ff",
+    "neo-noir-light": "#a994f2"
+  },
+  "soft-orchid/contrast": {
+    "neo-noir-ink": "#ffffff",
+    "neo-noir-light": "#71ffe2"
+  },
+  "electric-noir/light": {
+    "neo-noir-ink": "#14111c",
+    "neo-noir-light": "#8c1a78"
+  },
+  "electric-noir/dark": {
+    "neo-noir-ink": "#f6f4fa",
+    "neo-noir-light": "#e24ac4"
+  },
+  "electric-noir/contrast": {
+    "neo-noir-ink": "#ffffff",
+    "neo-noir-light": "#00d7ff"
+  },
+  "signal-yellow/light": {
+    "neo-noir-ink": "#211d0c",
+    "neo-noir-light": "#704f00"
+  },
+  "signal-yellow/dark": {
+    "neo-noir-ink": "#fff9de",
+    "neo-noir-light": "#ffd83b"
+  },
+  "signal-yellow/contrast": {
+    "neo-noir-ink": "#ffffff",
+    "neo-noir-light": "#ffd600"
+  },
+  "botanical-green/light": {
+    "neo-noir-ink": "#0e2617",
+    "neo-noir-light": "#0d7e42"
+  },
+  "botanical-green/dark": {
+    "neo-noir-ink": "#ebfcf1",
+    "neo-noir-light": "#52de8b"
+  },
+  "botanical-green/contrast": {
+    "neo-noir-ink": "#ffffff",
+    "neo-noir-light": "#00ff70"
+  },
+  "cobalt-electric/light": {
+    "neo-noir-ink": "#0e1b39",
+    "neo-noir-light": "#0052cc"
+  },
+  "cobalt-electric/dark": {
+    "neo-noir-ink": "#eff4ff",
+    "neo-noir-light": "#6f95ff"
+  },
+  "cobalt-electric/contrast": {
+    "neo-noir-ink": "#ffffff",
+    "neo-noir-light": "#4c85ff"
+  },
+  "stone-graphite/light": {
+    "neo-noir-ink": "#1b1d1c",
+    "neo-noir-light": "#5b615d"
+  },
+  "stone-graphite/dark": {
+    "neo-noir-ink": "#f5f6f5",
+    "neo-noir-light": "#a4aaa6"
+  },
+  "stone-graphite/contrast": {
+    "neo-noir-ink": "#ffffff",
+    "neo-noir-light": "#cdcdcd"
+  },
+  "walnut-clay/light": {
+    "neo-noir-ink": "#31241d",
+    "neo-noir-light": "#be6f52"
+  },
+  "walnut-clay/dark": {
+    "neo-noir-ink": "#faf1e9",
+    "neo-noir-light": "#eba988"
+  },
+  "walnut-clay/contrast": {
+    "neo-noir-ink": "#ffffff",
+    "neo-noir-light": "#ffae80"
+  }
+}

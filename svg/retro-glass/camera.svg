@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Camera" focusable="false" class="usk-icon" data-icon-style="retro-glass" fill="none" stroke-width="1.55" stroke-linejoin="round" stroke-linecap="round">
+  <path d="M3.75 8.45H7.5l1.7-2.65h5.6l1.7 2.65h1.9l1.85 1.85v8H5.6l-1.85-1.85Z" fill="none" fill-opacity="0.34" stroke="currentColor" style="fill:var(--usi-retro-glass-pane, none);stroke:var(--usi-retro-glass-rim, var(--usi-primary-ink, currentColor))"/>
+  <path d="M10.6 10.35h2.8l1.9 1.9v2.25l-1.9 1.9h-2.8l-1.9-1.9v-2.25Z" stroke="currentColor" stroke-width="1.4" style="stroke:var(--usi-retro-glass-etch, var(--usi-accent-ink, currentColor))"/>
+  <circle cx="17.5" cy="10.95" r="0.85" fill="currentColor" style="fill:var(--usi-retro-glass-etch, var(--usi-accent-ink, currentColor))"/>
+  <path d="M5.55 10.1h1.45" stroke="none" stroke-width="1" style="stroke:var(--usi-retro-glass-shine, none)"/>
+</svg>

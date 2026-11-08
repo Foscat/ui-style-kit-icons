@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Credit card" focusable="false" class="usk-icon" data-icon-style="art-deco" fill="none" stroke-linejoin="bevel" stroke-linecap="square">
+  <path d="M5.35 5.55h13.3l2.05 2.05v8.8l-2.05 2.05H5.35L3.3 16.4V7.6Zm.74 1.8-.99.99v1.17h13.8V8.34l-.99-.99ZM5.1 11.3v4.36l.99.99h11.82l.99-.99V11.3Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-art-deco-ink, var(--usi-ink, currentColor))"/>
+  <path d="M7.05 12.85h2.7v2.15h-2.7Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-art-deco-metal, var(--usi-accent-ink, currentColor))"/>
+  <path d="M11.35 13.92h5.65M7.5 20.05h9" stroke="currentColor" stroke-width="1.04" style="stroke:var(--usi-art-deco-metal, var(--usi-accent-ink, currentColor))"/>
+</svg>

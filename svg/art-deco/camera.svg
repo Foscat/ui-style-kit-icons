@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Camera" focusable="false" class="usk-icon" data-icon-style="art-deco" fill="none" stroke-linejoin="bevel" stroke-linecap="square">
+  <path d="M5 7.35h3.1l1.45-2.6h4.9l1.45 2.6H19l1.6 1.6v8.8l-1.6 1.6H5l-1.6-1.6v-8.8Zm.75 1.8-.55.55V17l.55.55h12.5l.55-.55V9.7l-.55-.55h-3.4l-1.45-2.6h-2.8l-1.45 2.6Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-art-deco-ink, var(--usi-ink, currentColor))"/>
+  <path d="M12 9.75l3.85 3.85L12 17.45 8.15 13.6Zm0 2.17-1.68 1.68L12 15.28l1.68-1.68Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-art-deco-metal, var(--usi-accent-ink, currentColor))"/>
+  <path d="M6.65 11h1.05m8.6 0h1.05" stroke="currentColor" stroke-width="1.04" style="stroke:var(--usi-art-deco-metal, var(--usi-accent-ink, currentColor))"/>
+</svg>

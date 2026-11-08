@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Checkbox indeterminate" focusable="false" class="usk-icon" data-icon-style="organic-modern" fill="none" stroke-linejoin="round" stroke-linecap="round">
+  <path d="M4.05 8.02c0-2.56 1.37-3.93 3.96-3.93h7.73c2.79 0 4.2 1.4 4.2 4.15v7.74c0 2.59-1.41 3.93-3.98 3.93H8.04c-2.58 0-3.99-1.33-3.99-3.91Zm1.94.12v7.84c0 1.26.72 2.01 2.01 2.01h7.99c1.34 0 2.01-.7 2.01-2.01V8.26c0-1.52-.74-2.25-2.25-2.25H8.01c-1.29 0-2.02.76-2.02 2.13Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-organic-modern-body, var(--usi-primary-ink, currentColor))"/>
+  <g transform="translate(3.36 3.36) scale(.72)">
+  <path d="M6.1 11.1c3.8-.33 8.06-.33 11.8 0 .7.06 1.1.49 1.1 1.04s-.43.95-1.1 1c-3.74.26-8 .26-11.8 0-.7-.05-1.1-.45-1.1-1s.42-.99 1.1-1.04Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-organic-modern-inlay, var(--usi-accent-ink, currentColor))"/>
+  </g>
+</svg>

@@ -1,145 +1,207 @@
-# UI Style Kit Icon Standard
+# UI Style Kit Icons contract
 
-Contract version: `1.0.0`
+- Contract version: `1`
+- Package version: `2.0.0`
+- Collection: `01`
+- Families: **20**
+- Required icons per family: **174**
+- Artwork variants: **themed** and **monochrome**
 
-This standard separates **semantic implementation icons** from **style-expression extras**.
+Every registered family must provide one SVG for every canonical icon in both
+source patterns. Family order and icon order come from `manifest.json`.
 
-The goal: when a project changes `data-ui`, the icon ID stays the same and only the visual language changes.
+## Categories
 
-## Contract
+| Category | Icons |
+| --- | ---: |
+| navigation | 12 |
+| actions | 25 |
+| interface | 44 |
+| feedback | 19 |
+| forms | 7 |
+| files | 8 |
+| media | 13 |
+| commerce | 12 |
+| inventory | 16 |
+| location | 8 |
+| reports | 2 |
+| business | 8 |
 
-- Required core icons: **64**
-- File name: `icons/<icon-id>.svg`
-- Sprite symbol: `#<style-prefix>-icon-<icon-id>`
-- CSS class: `.<style-prefix>-icon`
-- IDs are stable semantic names, not visual descriptions.
-- Optional style extras are allowed, but they must not replace the required core set.
-- Aliases are build-time compatibility helpers only. Published packs should prefer canonical IDs.
+## Canonical icons
 
-## Required Core Icons
-
-| # | ID | Label | Meaning |
-| ---: | --- | --- | --- |
-| 1 | `home` | Home | Primary landing or app home destination |
-| 2 | `dashboard` | Dashboard | Main overview, admin home, metrics hub |
-| 3 | `browser` | Browser | Web page, app shell, external web surface |
-| 4 | `search` | Search | Find, query, inspect |
-| 5 | `user` | User | Single account, profile, member |
-| 6 | `users` | Users | Audience, team, members, group |
-| 7 | `settings` | Settings | Configuration and preferences |
-| 8 | `bell` | Notifications | Alerts, reminders, updates |
-| 9 | `message` | Message | Chat, comments, support conversation |
-| 10 | `mail` | Email | Email, inbox, message delivery |
-| 11 | `calendar` | Calendar | Dates, schedule, publishing plan |
-| 12 | `upload` | Upload | Send local content into the app |
-| 13 | `download` | Download | Export or retrieve content |
-| 14 | `folder` | Folder | Collection, directory, grouped files |
-| 15 | `file` | File | Single document or generic file |
-| 16 | `image` | Image | Photo, visual asset, thumbnail |
-| 17 | `video` | Video | Video media, player, reel |
-| 18 | `camera` | Camera | Capture, photo/video source |
-| 19 | `database` | Database | Persistent data store |
-| 20 | `server` | Server | Backend service or infrastructure |
-| 21 | `api` | API | Integration, endpoint, developer interface |
-| 22 | `lock` | Lock | Private, secured, restricted |
-| 23 | `shield` | Shield | Safety, moderation, protection |
-| 24 | `key` | Key | Credentials, access keys, permissions |
-| 25 | `chart` | Chart | Analytics, reports, graph |
-| 26 | `activity` | Activity | Pulse, usage, live status |
-| 27 | `credit-card` | Credit Card | Payment card, billing method |
-| 28 | `wallet` | Wallet | Balance, payouts, money account |
-| 29 | `cart` | Cart | Checkout cart, purchase flow |
-| 30 | `invoice` | Invoice | Receipt, billing document |
-| 31 | `tax` | Tax | Tax document, compliance finance |
-| 32 | `login` | Login | Sign in, enter account |
-| 33 | `logout` | Logout | Sign out, leave account |
-| 34 | `edit` | Edit | Modify, compose, revise |
-| 35 | `trash` | Trash | Delete, remove, discard |
-| 36 | `plus` | Plus | Add, create, increase |
-| 37 | `minus` | Minus | Remove, decrease, collapse |
-| 38 | `filter` | Filter | Refine visible results |
-| 39 | `menu` | Menu | Navigation menu, list |
-| 40 | `code` | Code | Source code, embed, developer |
-| 41 | `terminal` | Terminal | Console, command line, logs |
-| 42 | `rocket` | Rocket | Launch, publish, deploy |
-| 43 | `bug` | Bug | Issue, defect, debug |
-| 44 | `help` | Help | Question, support, guidance |
-| 45 | `link` | Link | URL, connection, relationship |
-| 46 | `cloud` | Cloud | Cloud sync, hosted storage |
-| 47 | `globe` | Globe | Public web, world, domain |
-| 48 | `warning` | Warning | Caution, risk, validation issue |
-| 49 | `scan` | Scan | Scan, detect, verify, focus target |
-| 50 | `network` | Network | Connected nodes, graph, distributed system |
-| 51 | `cpu` | CPU | Compute, processor, AI/system resource |
-| 52 | `layers` | Layers | Stacked layers, versions, z-order |
-| 53 | `eye` | Eye | View, visibility, preview |
-| 54 | `grid` | Grid | Grid view, layout matrix |
-| 55 | `module` | Module | Component, widget, reusable block |
-| 56 | `stack` | Stack | Stacked cards, queue, layered set |
-| 57 | `tile` | Tile | Bento tile, card tile, app block |
-| 58 | `phone` | Phone | Mobile device, call, responsive preview |
-| 59 | `palette` | Palette | Theme, color, visual style |
-| 60 | `heart` | Heart | Favorite, like, affinity |
-| 61 | `star` | Star | Featured, rating, saved item |
-| 62 | `target` | Target | Goal, campaign, precision |
-| 63 | `megaphone` | Megaphone | Announcement, marketing, broadcast |
-| 64 | `cursor` | Cursor | Pointer, click, interaction |
-
-## Alias Map
-
-| Alias | Canonical |
-| --- | --- |
-| `chat` | `message` |
-| `credit` | `credit-card` |
-| `card` | `credit-card` |
-| `media-image` | `image` |
-| `media-video` | `video` |
-| `brush` | `palette` |
-| `sticker` | `star` |
-| `stamp` | `target` |
-| `flag` | `target` |
-| `bolt` | `activity` |
-| `lightning` | `activity` |
-
-## Optional Style Extras
-
-| Style | Optional IDs |
-| --- | --- |
-| `synthwave` | `cassette`, `cd`, `horizon-grid`, `neon-sunset`, `night-drive`, `skyline`, `wave` |
-| `cyberpunk` | `circuit`, `chrome-palm`, `crystal`, `orbit`, `starburst` |
-| `y2k` | `cd`, `floppy`, `gamepad`, `music`, `sparkle`, `sticker` |
-| `brutalism` | `bolt`, `flag`, `stamp` |
-| `retro-glass` | `aurora`, `cube`, `droplet`, `lens`, `orb`, `pane`, `prism`, `sparkle`, `window-stack` |
-| `bento` | `mosaic`, `split`, `widget` |
-
-## Artwork And Build Rules
-
-1. Standalone SVGs are the canonical semantic artwork. Build scripts must not
-   generate or replace semantic geometry.
-2. A pack is valid only when every canonical ID exists as `icons/<id>.svg`.
-3. Optional extras go after the core list and should be marked as extras in `manifest.json`.
-4. The manifest should include `contractVersion`, `requiredIconCount`, `coreIcons`, `optionalIcons`, and `aliases`.
-5. The runtime integration should import by semantic ID, never by style-specific ID.
-6. Embedded SVG sizing must defer to `--usk-icon-size` so a pack cannot override the runtime host size.
-7. Essential icon paint must retain at least 3:1 graphical contrast across every supported color scheme and mode.
-8. Generated sprites must merge every distinct source style block used by the pack.
-9. Core icons must retain recognizable pack identity when frame surfaces and decoration are hidden.
-10. Pack identity must be carried by the semantic object, not by a detached badge or background that obscures meaning.
-
-The borderless construction grammar, prototype approval gate, and research
-basis are documented in
-[`style-source/reference-led-icon-grammar.md`](../style-source/reference-led-icon-grammar.md).
-
-## Recommended Package Shape
-
-```text
-<style>-ui-style-icons/
-  dist/<style>-ui-style-icons.css
-  dist/<style>-ui-style-icons.svg
-  icons/<canonical-id>.svg
-  sprite/<style>-ui-style-icons.inline.svg
-  style-source/<style>-style-source.md
-  manifest.json
-  package.json
-  README.md
-```
+| ID | Label | Category | Search keywords |
+| --- | --- | --- | --- |
+| `home` | Home | navigation | - |
+| `search` | Search | actions | find, query, magnifier |
+| `user` | User | interface | person, account |
+| `folder` | Folder | interface | - |
+| `settings` | Settings | interface | gear, preferences |
+| `bell` | Bell | interface | - |
+| `mail` | Mail | interface | - |
+| `calendar` | Calendar | interface | - |
+| `download` | Download | actions | - |
+| `trash` | Trash | actions | delete, remove, bin |
+| `warning` | Warning | interface | caution, alert |
+| `link` | Link | interface | - |
+| `menu` | Menu | navigation | - |
+| `more-horizontal` | More horizontal | navigation | ellipsis, overflow, actions |
+| `plus` | Plus | actions | add, increase |
+| `minus` | Minus | actions | subtract, decrease |
+| `check` | Check | actions | confirm, done, complete |
+| `close` | Close | actions | dismiss, cancel, x |
+| `arrow-left` | Arrow left | navigation | - |
+| `arrow-right` | Arrow right | navigation | - |
+| `arrow-up` | Arrow up | navigation | - |
+| `arrow-down` | Arrow down | navigation | - |
+| `chevron-left` | Chevron left | navigation | - |
+| `chevron-right` | Chevron right | navigation | - |
+| `chevron-up` | Chevron up | navigation | - |
+| `chevron-down` | Chevron down | navigation | - |
+| `edit` | Edit | actions | pencil, modify |
+| `upload` | Upload | actions | - |
+| `filter` | Filter | actions | - |
+| `grid` | Grid | interface | layout, tiles |
+| `eye` | Eye | interface | show, view, visibility |
+| `lock` | Lock | interface | security, protected |
+| `info` | Info | feedback | information, notice |
+| `success` | Success | feedback | complete, valid, done |
+| `error` | Error | feedback | failure, invalid, alert |
+| `help` | Help | feedback | question, support |
+| `checkbox` | Checkbox | forms | unchecked, form, selection |
+| `checkbox-checked` | Checkbox checked | forms | checked, form, selection |
+| `checkbox-indeterminate` | Checkbox indeterminate | forms | mixed, partial, form |
+| `radio` | Radio | forms | unselected, option, form |
+| `radio-selected` | Radio selected | forms | selected, option, form |
+| `eye-off` | Eye off | feedback | hide, hidden, conceal, password |
+| `refresh` | Refresh | feedback | reload, retry, sync |
+| `external-link` | External link | feedback | outbound, new tab |
+| `undo` | Undo | feedback | revert, back |
+| `redo` | Redo | feedback | restore, forward |
+| `toggle-off` | Toggle off | forms | switch, disabled, off |
+| `toggle-on` | Toggle on | forms | switch, enabled, on |
+| `file` | File | files | document, page |
+| `copy` | Copy | files | duplicate, clipboard |
+| `save` | Save | files | disk, commit |
+| `image` | Image | media | photo, picture, landscape |
+| `camera` | Camera | media | photograph, capture |
+| `play` | Play | media | start, resume, playback |
+| `pause` | Pause | media | hold, playback |
+| `stop` | Stop | media | end, recording, playback |
+| `skip-back` | Skip back | media | previous, track, playback |
+| `skip-forward` | Skip forward | media | next, track, playback |
+| `volume` | Volume | media | sound, speaker, audio |
+| `volume-off` | Volume off | media | mute, muted, speaker, audio |
+| `microphone` | Microphone | media | voice, record, audio |
+| `attachment` | Attachment | files | attach, paperclip, upload |
+| `print` | Print | files | printer, paper |
+| `share` | Share | files | send, destinations |
+| `cart` | Cart | commerce | shopping, purchase, checkout, basket |
+| `credit-card` | Credit card | commerce | payment, billing, card, pos |
+| `receipt` | Receipt | commerce | bill, invoice, order, payment |
+| `tag` | Tag | commerce | price, label, item |
+| `package` | Package | inventory | box, stock, inventory, parcel |
+| `warehouse` | Warehouse | inventory | storage, yard, stock, inventory |
+| `truck` | Truck | inventory | delivery, shipping, fulfillment, dispatch |
+| `map-pin` | Map pin | location | location, address, position, yard |
+| `car` | Car | inventory | vehicle, automotive, intake |
+| `wrench` | Wrench | inventory | repair, service, tool, maintenance |
+| `barcode` | Barcode | inventory | scan, scanner, inventory, sku |
+| `clipboard` | Clipboard | inventory | work, list, picking, queue, intake |
+| `chart-bar` | Chart bar | reports | reports, analytics, statistics |
+| `users` | Users | business | team, staff, accounts, people |
+| `briefcase` | Briefcase | business | business, work, project |
+| `building` | Building | business | company, organization, office |
+| `dashboard` | Dashboard | navigation | overview, admin, layout |
+| `list` | List | interface | rows, display, catalog |
+| `table` | Table | interface | spreadsheet, rows, columns, data |
+| `sort` | Sort | actions | ascending, descending, order |
+| `clock` | Clock | feedback | time, pending, timer |
+| `history` | History | feedback | activity, previous, recent, audit |
+| `spinner` | Spinner | feedback | progress, loading, busy |
+| `log-in` | Log in | actions | login, sign, in, session, login |
+| `log-out` | Log out | actions | logout, sign, out, exit, session, logout |
+| `shield-check` | Shield check | feedback | verified, safe, permission |
+| `key` | Key | interface | credential, password, token, access |
+| `phone` | Phone | interface | contact, call, telephone, handset |
+| `map` | Map | location | yard, navigation, route, folded |
+| `layers` | Layers | location | map, overlay, depth, levels |
+| `locate` | Locate | location | target, location, recenter, position |
+| `shelf` | Shelf | inventory | storage, rack, warehouse, shelving |
+| `bin-location` | Bin location | inventory | storage, slot, placement, pin |
+| `vin-scan` | VIN scan | inventory | vehicle, identification, scanner, intake |
+| `shift` | Shift | business | schedule, calendar, clock, workforce |
+| `timesheet` | Timesheet | business | hours, time, approval, attendance |
+| `payroll` | Payroll | business | payslip, compensation, pay, run |
+| `calendar-range` | Calendar range | business | schedule, dates, period |
+| `invoice` | Invoice | commerce | billing, statement, amount, due |
+| `refund` | Refund | commerce | return, payment, reversal |
+| `payout` | Payout | commerce | transfer, withdrawal, disbursement |
+| `wallet` | Wallet | commerce | balance, payment, cash |
+| `browser` | Browser | interface | web, window, site, app |
+| `message` | Message | interface | chat, conversation, reply, comment, chat |
+| `video` | Video | media | record, movie, camera, media-video |
+| `database` | Database | interface | data, storage, records, cylinder |
+| `server` | Server | interface | host, infrastructure, rack |
+| `api` | API | interface | integration, endpoint, connected, ports |
+| `shield` | Shield | interface | security, protection |
+| `activity` | Activity | feedback | pulse, heartbeat, realtime, monitoring, bolt, lightning |
+| `tax` | Tax | commerce | percent, rate, withholding |
+| `code` | Code | interface | source, developer, brackets |
+| `terminal` | Terminal | interface | console, prompt, cli |
+| `rocket` | Rocket | interface | launch, deploy, start |
+| `bug` | Bug | interface | debug, issue, error, developer |
+| `cloud` | Cloud | interface | sync, remote, hosting |
+| `globe` | Globe | location | world, language, international |
+| `scan` | Scan | actions | scanner, frame, scan, line |
+| `network` | Network | interface | connections, nodes, link, services |
+| `cpu` | CPU | interface | chip, processor, computer, hardware |
+| `module` | Module | interface | layout, template, split, panel |
+| `stack` | Stack | interface | stacked, services, panels |
+| `tile` | Tile | interface | cell, block, panel, square |
+| `palette` | Palette | interface | paint, color, theme, swatches, brush |
+| `heart` | Heart | feedback | favorite, like, wishlist |
+| `star` | Star | feedback | favorite, rating, sticker |
+| `target` | Target | interface | goal, bullseye, focus, stamp, flag |
+| `megaphone` | Megaphone | interface | announcement, broadcast, marketing |
+| `cursor` | Cursor | interface | pointer, select, selection, mouse |
+| `expand` | Expand | actions | fullscreen, maximize, resize |
+| `archive` | Archive | files | storage, store, historical |
+| `keyboard` | Keyboard | interface | shortcut, input, keys |
+| `move` | Move | actions | drag, pan, reposition, four, way |
+| `send` | Send | actions | paper, plane, message |
+| `hand` | Hand | actions | pan, grab, drag, move, hand |
+| `zoom-in` | Zoom in | actions | magnify, enlarge, yard, map |
+| `zoom-out` | Zoom out | actions | magnify, reduce, yard, map |
+| `wifi-off` | Wi-Fi off | feedback | offline, network, disconnected |
+| `unlock` | Unlock | interface | unlocked, open, access |
+| `paint-brush` | Paint brush | actions | brush, paint, draw, editor |
+| `door-open` | Door open | location | gate, entry, exit, access |
+| `paint-bucket` | Paint bucket | actions | fill, color, editor |
+| `pen-tool` | Pen tool | actions | bezier, vector, pen, editor |
+| `rectangle` | Rectangle | actions | draw, shape, horizontal, editor |
+| `clipboard-check` | Clipboard check | inventory | verified, intake, review, approved, checklist |
+| `package-check` | Package check | inventory | picked, ready, fulfilled, accepted |
+| `package-x` | Package X | inventory | remove, package, unavailable, canceled |
+| `boxes` | Boxes | inventory | inventory, parts, stacked, packages |
+| `gauge` | Gauge | reports | speedometer, performance, metrics |
+| `images` | Images | media | gallery, photos, stacked, images |
+| `recycle` | Recycle | inventory | salvage, circular, reuse |
+| `contrast` | Contrast | interface | accessibility, theme, high, contrast |
+| `moon` | Moon | interface | dark, theme, night |
+| `sun` | Sun | interface | light, theme, daylight |
+| `replace` | Replace | actions | swap, exchange, substitute |
+| `shopping-bag` | Shopping bag | commerce | purchase, store, basket, order |
+| `image-off` | Image off | media | missing, photo, media, unavailable |
+| `sparkles` | Sparkles | interface | suggested, assistant, new, feature |
+| `file-text` | File text | files | document, notes, policy, text |
+| `ban` | Ban | feedback | blocked, prohibited, unavailable |
+| `banknote` | Banknote | commerce | cash, money, currency |
+| `parking` | Parking | location | yard, vehicle, parking, area |
+| `scale` | Scale | inventory | weigh, balance, measure, weight |
+| `shield-alert` | Shield alert | feedback | security, warning, risk |
+| `signpost` | Signpost | location | yard, directions, signs, row |
+| `monitor` | Monitor | interface | desktop, display, screen |
+| `smartphone` | Smartphone | interface | mobile, device, phone, screen |
+| `tablet` | Tablet | interface | touch, device, screen |
+| `ste-workforce` | STE Workforce | business | module, brand, team, payroll |
+| `ste-payments` | STE Payments | commerce | module, brand, payment, card, confirmation |

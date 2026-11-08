@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Edit" focusable="false" class="usk-icon" data-icon-style="tactile" fill="none" stroke="var(--usi-ink, currentColor)" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round">
+  <g transform="rotate(45 12 12)">
+  <path d="M8.7 15.5V4.65q0-1.15 1.15-1.15h4.3q1.15 0 1.15 1.15V15.5L12 21.45Z" fill="var(--usi-tactile-face, none)"/>
+  <path d="M9.55 4.65q0-.3.3-.3h4.3q.3 0 .3.3v2.3h-4.9Z" fill="var(--usi-tactile-recess, none)" stroke="none"/>
+  <path d="M8.8 7.05h6.4m-6.4 2.1h6.4m-6.4 6.35h6.4" stroke="var(--usi-ink, currentColor)" stroke-width="1.1"/>
+  <path d="M10.95 19.52h2.1L12 21.45Z" fill="var(--usi-ink, currentColor)" stroke="none"/>
+  <path d="M12 10.8v3.2" stroke="var(--usi-primary-ink, currentColor)" stroke-width="0.95"/>
+  <path d="M10.2 10.45v3.65" stroke="var(--usi-tactile-highlight, none)" stroke-width="0.8"/>
+  <path d="M13.8 10.45v3.65" stroke="var(--usi-tactile-shade, none)" stroke-width="1"/>
+  </g>
+</svg>

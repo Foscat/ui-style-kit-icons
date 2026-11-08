@@ -2,6 +2,35 @@
 
 All notable changes to UI Style Kit Icons are documented in this file.
 
+## [2.0.0] - 2026-11-08
+
+### Added
+
+- Collection 01 with 174 canonical icons across 20 theme-aware families.
+- Matching monochrome artwork for every family and icon, for 6,960 locked SVG
+  assets in total.
+- Consumer coverage mappings, legacy icon aliases, and deterministic expansion
+  generators for the published contract and sampled STE application surfaces.
+- Twenty-five-palette paint snapshots, browser-safe inline SVG normalization,
+  family-specific themed and monochrome sprites, and a self-contained Icon
+  Studio demo.
+
+### Changed
+
+- Made `manifest.json` the authoritative asset catalog and generate the public
+  registry, declarations, sprites, and semantic contract from it.
+- Updated the package paint contract to `ui-style-kit-css >=2.7.1 <3`.
+- Added a `variant="monochrome"` custom-element option and direct `svg/`,
+  `monochrome/`, `paint/`, and sprite package exports.
+- Replaced the legacy Pages gallery with the supplied Collection 01 studio.
+
+### Removed
+
+- Retired the legacy `icons/`, `packs/`, and `style-source/` trees, including
+  the system, Neumorphism, Synthwave, and Synthwave Web App families.
+- Removed frame-specific tests and generation tools that described the former
+  256-unit artwork rather than the new 24-unit collection.
+
 ## [1.0.0] - 2026-07-25
 
 ### Added
@@ -56,4 +85,5 @@ All notable changes to UI Style Kit Icons are documented in this file.
   dialog, direct-file warning, and GitHub Pages metadata.
 - Removed stale duplicate pack and favicon drop-in folders.
 
+[2.0.0]: https://github.com/Foscat/ui-style-kit-icons/releases/tag/v2.0.0
 [1.0.0]: https://github.com/Foscat/ui-style-kit-icons/releases/tag/v1.0.0

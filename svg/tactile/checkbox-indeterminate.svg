@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Checkbox indeterminate" focusable="false" class="usk-icon" data-icon-style="tactile" fill="none" stroke="var(--usi-ink, currentColor)" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="3.7" y="3.7" width="16.6" height="16.6" rx="2.6" fill="var(--usi-tactile-recess, none)"/>
+  <path d="M5.55 10V7.55q0-2 2-2h8.9" stroke="var(--usi-tactile-shade, none)" stroke-width="1"/>
+  <path d="M18.5 14.3v2.15q0 2.05-2.05 2.05H8.5" stroke="var(--usi-tactile-highlight, none)" stroke-width="0.8"/>
+  <path d="M8 12h8" stroke="var(--usi-primary-ink, currentColor)" stroke-width="1.85"/>
+</svg>

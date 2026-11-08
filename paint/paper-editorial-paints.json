@@ -1,0 +1,302 @@
+{
+  "midnight-gold/light": {
+    "paper-editorial-ink": "#172033",
+    "paper-editorial-proof": "#845e1b"
+  },
+  "midnight-gold/dark": {
+    "paper-editorial-ink": "#f7edd7",
+    "paper-editorial-proof": "#d6a84f"
+  },
+  "midnight-gold/contrast": {
+    "paper-editorial-ink": "#ffffff",
+    "paper-editorial-proof": "#ffd400"
+  },
+  "ocean-steel/light": {
+    "paper-editorial-ink": "#10242e",
+    "paper-editorial-proof": "#087d9d"
+  },
+  "ocean-steel/dark": {
+    "paper-editorial-ink": "#e9fbff",
+    "paper-editorial-proof": "#53f0ff"
+  },
+  "ocean-steel/contrast": {
+    "paper-editorial-ink": "#ffffff",
+    "paper-editorial-proof": "#00e5ff"
+  },
+  "forest-moss/light": {
+    "paper-editorial-ink": "#182417",
+    "paper-editorial-proof": "#3f7d3a"
+  },
+  "forest-moss/dark": {
+    "paper-editorial-ink": "#edf7e8",
+    "paper-editorial-proof": "#b9ef6b"
+  },
+  "forest-moss/contrast": {
+    "paper-editorial-ink": "#ffffff",
+    "paper-editorial-proof": "#b6ff00"
+  },
+  "sunset-ember/light": {
+    "paper-editorial-ink": "#2a1711",
+    "paper-editorial-proof": "#c4512b"
+  },
+  "sunset-ember/dark": {
+    "paper-editorial-ink": "#fff0e8",
+    "paper-editorial-proof": "#ff8a5b"
+  },
+  "sunset-ember/contrast": {
+    "paper-editorial-ink": "#ffffff",
+    "paper-editorial-proof": "#ff6a00"
+  },
+  "royal-plum/light": {
+    "paper-editorial-ink": "#24152d",
+    "paper-editorial-proof": "#c05ac6"
+  },
+  "royal-plum/dark": {
+    "paper-editorial-ink": "#faecff",
+    "paper-editorial-proof": "#ff9cf6"
+  },
+  "royal-plum/contrast": {
+    "paper-editorial-ink": "#ffffff",
+    "paper-editorial-proof": "#ff00f5"
+  },
+  "graphite-cyan/light": {
+    "paper-editorial-ink": "#171d21",
+    "paper-editorial-proof": "#007c89"
+  },
+  "graphite-cyan/dark": {
+    "paper-editorial-ink": "#edf6f8",
+    "paper-editorial-proof": "#3ed9e8"
+  },
+  "graphite-cyan/contrast": {
+    "paper-editorial-ink": "#ffffff",
+    "paper-editorial-proof": "#00f0ff"
+  },
+  "desert-sage/light": {
+    "paper-editorial-ink": "#2b2419",
+    "paper-editorial-proof": "#8b6a37"
+  },
+  "desert-sage/dark": {
+    "paper-editorial-ink": "#f8efdf",
+    "paper-editorial-proof": "#f1c46e"
+  },
+  "desert-sage/contrast": {
+    "paper-editorial-ink": "#ffffff",
+    "paper-editorial-proof": "#ffb000"
+  },
+  "rose-quartz/light": {
+    "paper-editorial-ink": "#2b151d",
+    "paper-editorial-proof": "#b8476d"
+  },
+  "rose-quartz/dark": {
+    "paper-editorial-ink": "#fff0f4",
+    "paper-editorial-proof": "#ff8fb3"
+  },
+  "rose-quartz/contrast": {
+    "paper-editorial-ink": "#ffffff",
+    "paper-editorial-proof": "#f000ff"
+  },
+  "cyber-lime/light": {
+    "paper-editorial-ink": "#172214",
+    "paper-editorial-proof": "#147f86"
+  },
+  "cyber-lime/dark": {
+    "paper-editorial-ink": "#efffe9",
+    "paper-editorial-proof": "#a8ff3d"
+  },
+  "cyber-lime/contrast": {
+    "paper-editorial-ink": "#ffffff",
+    "paper-editorial-proof": "#aaff00"
+  },
+  "arctic-indigo/light": {
+    "paper-editorial-ink": "#141b2e",
+    "paper-editorial-proof": "#405eb8"
+  },
+  "arctic-indigo/dark": {
+    "paper-editorial-ink": "#edf3ff",
+    "paper-editorial-proof": "#76d8f3"
+  },
+  "arctic-indigo/contrast": {
+    "paper-editorial-ink": "#ffffff",
+    "paper-editorial-proof": "#00d9ff"
+  },
+  "chrome-navy/light": {
+    "paper-editorial-ink": "#0d1b2a",
+    "paper-editorial-proof": "#3e6b8e"
+  },
+  "chrome-navy/dark": {
+    "paper-editorial-ink": "#eff4fa",
+    "paper-editorial-proof": "#7ea9d3"
+  },
+  "chrome-navy/contrast": {
+    "paper-editorial-ink": "#ffffff",
+    "paper-editorial-proof": "#00e6ff"
+  },
+  "recycled-emerald/light": {
+    "paper-editorial-ink": "#0e2c29",
+    "paper-editorial-proof": "#0f766e"
+  },
+  "recycled-emerald/dark": {
+    "paper-editorial-ink": "#ecfbf7",
+    "paper-editorial-proof": "#45d1af"
+  },
+  "recycled-emerald/contrast": {
+    "paper-editorial-ink": "#ffffff",
+    "paper-editorial-proof": "#00f0ff"
+  },
+  "industrial-orange/light": {
+    "paper-editorial-ink": "#181512",
+    "paper-editorial-proof": "#b74e16"
+  },
+  "industrial-orange/dark": {
+    "paper-editorial-ink": "#f7f2eb",
+    "paper-editorial-proof": "#ff8a3d"
+  },
+  "industrial-orange/contrast": {
+    "paper-editorial-ink": "#ffffff",
+    "paper-editorial-proof": "#ff9a42"
+  },
+  "performance-red/light": {
+    "paper-editorial-ink": "#121317",
+    "paper-editorial-proof": "#c8102e"
+  },
+  "performance-red/dark": {
+    "paper-editorial-ink": "#f9f9fa",
+    "paper-editorial-proof": "#ff4c66"
+  },
+  "performance-red/contrast": {
+    "paper-editorial-ink": "#ffffff",
+    "paper-editorial-proof": "#ff3656"
+  },
+  "heritage-brass/light": {
+    "paper-editorial-ink": "#2a1f1a",
+    "paper-editorial-proof": "#6b0f1a"
+  },
+  "heritage-brass/dark": {
+    "paper-editorial-ink": "#fbf5ec",
+    "paper-editorial-proof": "#e7b85f"
+  },
+  "heritage-brass/contrast": {
+    "paper-editorial-ink": "#ffffff",
+    "paper-editorial-proof": "#ffd36b"
+  },
+  "service-blue-red/light": {
+    "paper-editorial-ink": "#11243b",
+    "paper-editorial-proof": "#d62b2b"
+  },
+  "service-blue-red/dark": {
+    "paper-editorial-ink": "#f3f7fb",
+    "paper-editorial-proof": "#ff6a6a"
+  },
+  "service-blue-red/contrast": {
+    "paper-editorial-ink": "#ffffff",
+    "paper-editorial-proof": "#66b5ff"
+  },
+  "newsprint-crimson/light": {
+    "paper-editorial-ink": "#2c2622",
+    "paper-editorial-proof": "#7a2329"
+  },
+  "newsprint-crimson/dark": {
+    "paper-editorial-ink": "#f4ebdd",
+    "paper-editorial-proof": "#d87c83"
+  },
+  "newsprint-crimson/contrast": {
+    "paper-editorial-ink": "#ffffff",
+    "paper-editorial-proof": "#ff7a84"
+  },
+  "foundry-amber/light": {
+    "paper-editorial-ink": "#1d1c1a",
+    "paper-editorial-proof": "#a95700"
+  },
+  "foundry-amber/dark": {
+    "paper-editorial-ink": "#f4f2ed",
+    "paper-editorial-proof": "#f0a03a"
+  },
+  "foundry-amber/contrast": {
+    "paper-editorial-ink": "#ffffff",
+    "paper-editorial-proof": "#ffb000"
+  },
+  "soft-orchid/light": {
+    "paper-editorial-ink": "#241a3a",
+    "paper-editorial-proof": "#6552b8"
+  },
+  "soft-orchid/dark": {
+    "paper-editorial-ink": "#f5f0ff",
+    "paper-editorial-proof": "#a994f2"
+  },
+  "soft-orchid/contrast": {
+    "paper-editorial-ink": "#ffffff",
+    "paper-editorial-proof": "#71ffe2"
+  },
+  "electric-noir/light": {
+    "paper-editorial-ink": "#14111c",
+    "paper-editorial-proof": "#8c1a78"
+  },
+  "electric-noir/dark": {
+    "paper-editorial-ink": "#f6f4fa",
+    "paper-editorial-proof": "#e24ac4"
+  },
+  "electric-noir/contrast": {
+    "paper-editorial-ink": "#ffffff",
+    "paper-editorial-proof": "#00d7ff"
+  },
+  "signal-yellow/light": {
+    "paper-editorial-ink": "#211d0c",
+    "paper-editorial-proof": "#704f00"
+  },
+  "signal-yellow/dark": {
+    "paper-editorial-ink": "#fff9de",
+    "paper-editorial-proof": "#ffd83b"
+  },
+  "signal-yellow/contrast": {
+    "paper-editorial-ink": "#ffffff",
+    "paper-editorial-proof": "#ffd600"
+  },
+  "botanical-green/light": {
+    "paper-editorial-ink": "#0e2617",
+    "paper-editorial-proof": "#0d7e42"
+  },
+  "botanical-green/dark": {
+    "paper-editorial-ink": "#ebfcf1",
+    "paper-editorial-proof": "#52de8b"
+  },
+  "botanical-green/contrast": {
+    "paper-editorial-ink": "#ffffff",
+    "paper-editorial-proof": "#00ff70"
+  },
+  "cobalt-electric/light": {
+    "paper-editorial-ink": "#0e1b39",
+    "paper-editorial-proof": "#0052cc"
+  },
+  "cobalt-electric/dark": {
+    "paper-editorial-ink": "#eff4ff",
+    "paper-editorial-proof": "#6f95ff"
+  },
+  "cobalt-electric/contrast": {
+    "paper-editorial-ink": "#ffffff",
+    "paper-editorial-proof": "#4c85ff"
+  },
+  "stone-graphite/light": {
+    "paper-editorial-ink": "#1b1d1c",
+    "paper-editorial-proof": "#5b615d"
+  },
+  "stone-graphite/dark": {
+    "paper-editorial-ink": "#f5f6f5",
+    "paper-editorial-proof": "#a4aaa6"
+  },
+  "stone-graphite/contrast": {
+    "paper-editorial-ink": "#ffffff",
+    "paper-editorial-proof": "#cdcdcd"
+  },
+  "walnut-clay/light": {
+    "paper-editorial-ink": "#31241d",
+    "paper-editorial-proof": "#be6f52"
+  },
+  "walnut-clay/dark": {
+    "paper-editorial-ink": "#faf1e9",
+    "paper-editorial-proof": "#eba988"
+  },
+  "walnut-clay/contrast": {
+    "paper-editorial-ink": "#ffffff",
+    "paper-editorial-proof": "#ffae80"
+  }
+}

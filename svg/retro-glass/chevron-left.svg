@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Chevron left" focusable="false" class="usk-icon" data-icon-style="retro-glass" fill="none" stroke-width="1.55" stroke-linejoin="round" stroke-linecap="round">
+  <g transform="rotate(180 12 12)">
+  <path d="M7.25 5.15h2.9l7.25 5.8v2.1l-7.25 5.8h-2.9l8.1-6.85Z" fill="none" fill-opacity="0.34" stroke="currentColor" style="fill:var(--usi-retro-glass-pane, none);stroke:var(--usi-retro-glass-rim, var(--usi-primary-ink, currentColor))"/>
+  <path d="M13.45 5.45 20.25 11v2l-6.8 5.55" stroke="currentColor" stroke-width="1.2" style="stroke:var(--usi-retro-glass-etch, var(--usi-accent-ink, currentColor))"/>
+  <path d="m9.1 6.55 3.5 2.85" stroke="none" stroke-width="1" style="stroke:var(--usi-retro-glass-shine, none)"/>
+  </g>
+</svg>

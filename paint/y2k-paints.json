@@ -1,0 +1,452 @@
+{
+  "midnight-gold/light": {
+    "y2k-shell": "#845e1b",
+    "y2k-pop": "#22314f",
+    "y2k-gel": "#ead8b6",
+    "y2k-shine": "#fcfaf6"
+  },
+  "midnight-gold/dark": {
+    "y2k-shell": "#f3d27a",
+    "y2k-pop": "#7a8eba",
+    "y2k-gel": "#3c3a34",
+    "y2k-shine": "#e6e5e5"
+  },
+  "midnight-gold/contrast": {
+    "y2k-shell": "#00d9ff",
+    "y2k-pop": "#ffea00",
+    "y2k-gel": "none",
+    "y2k-shine": "none"
+  },
+  "ocean-steel/light": {
+    "y2k-shell": "#06647e",
+    "y2k-pop": "#10242e",
+    "y2k-gel": "#b5d8e2",
+    "y2k-shine": "#f5fafb"
+  },
+  "ocean-steel/dark": {
+    "y2k-shell": "#73e3f4",
+    "y2k-pop": "#8cb7c9",
+    "y2k-gel": "#195564",
+    "y2k-shine": "#e1e9eb"
+  },
+  "ocean-steel/contrast": {
+    "y2k-shell": "#00e5ff",
+    "y2k-pop": "#ffff00",
+    "y2k-gel": "none",
+    "y2k-shine": "none"
+  },
+  "forest-moss/light": {
+    "y2k-shell": "#2f612b",
+    "y2k-pop": "#182417",
+    "y2k-gel": "#c5d8c4",
+    "y2k-shine": "#f7faf7"
+  },
+  "forest-moss/dark": {
+    "y2k-shell": "#a2ed99",
+    "y2k-pop": "#d2bd72",
+    "y2k-gel": "#32532f",
+    "y2k-shine": "#e4e9e4"
+  },
+  "forest-moss/contrast": {
+    "y2k-shell": "#6cff5f",
+    "y2k-pop": "#b6ff00",
+    "y2k-gel": "none",
+    "y2k-shine": "none"
+  },
+  "sunset-ember/light": {
+    "y2k-shell": "#9f3f20",
+    "y2k-pop": "#7c3f5c",
+    "y2k-gel": "#edcbbf",
+    "y2k-shine": "#fdf8f7"
+  },
+  "sunset-ember/dark": {
+    "y2k-shell": "#ffad8a",
+    "y2k-pop": "#fff0e8",
+    "y2k-gel": "#673523",
+    "y2k-shine": "#ebe5e2"
+  },
+  "sunset-ember/contrast": {
+    "y2k-shell": "#ff9d00",
+    "y2k-pop": "#ff4fb8",
+    "y2k-gel": "none",
+    "y2k-shine": "none"
+  },
+  "royal-plum/light": {
+    "y2k-shell": "#63317f",
+    "y2k-pop": "#9e4ba4",
+    "y2k-gel": "#d7c5e3",
+    "y2k-shine": "#faf7fb"
+  },
+  "royal-plum/dark": {
+    "y2k-shell": "#ebb8ff",
+    "y2k-pop": "#9da8ff",
+    "y2k-gel": "#553762",
+    "y2k-shine": "#e9e5eb"
+  },
+  "royal-plum/contrast": {
+    "y2k-shell": "#e45cff",
+    "y2k-pop": "#ff00f5",
+    "y2k-gel": "none",
+    "y2k-shine": "none"
+  },
+  "graphite-cyan/light": {
+    "y2k-shell": "#00636e",
+    "y2k-pop": "#3f4850",
+    "y2k-gel": "#b3d8dc",
+    "y2k-shine": "#f5fafa"
+  },
+  "graphite-cyan/dark": {
+    "y2k-shell": "#7bf3ff",
+    "y2k-pop": "#aab5bc",
+    "y2k-gel": "#1f5259",
+    "y2k-shine": "#e2e9e9"
+  },
+  "graphite-cyan/contrast": {
+    "y2k-shell": "#00f0ff",
+    "y2k-pop": "#f2f2f2",
+    "y2k-gel": "none",
+    "y2k-shine": "none"
+  },
+  "desert-sage/light": {
+    "y2k-shell": "#70532f",
+    "y2k-pop": "#2b2419",
+    "y2k-gel": "#ddd2c5",
+    "y2k-shine": "#fbf9f7"
+  },
+  "desert-sage/dark": {
+    "y2k-shell": "#f0d39a",
+    "y2k-pop": "#a8ce99",
+    "y2k-gel": "#584a31",
+    "y2k-shine": "#e9e7e4"
+  },
+  "desert-sage/contrast": {
+    "y2k-shell": "#ffd166",
+    "y2k-pop": "#ffb000",
+    "y2k-gel": "none",
+    "y2k-shine": "none"
+  },
+  "rose-quartz/light": {
+    "y2k-shell": "#963757",
+    "y2k-pop": "#2b151d",
+    "y2k-gel": "#eac8d3",
+    "y2k-shine": "#fcf8f9"
+  },
+  "rose-quartz/dark": {
+    "y2k-shell": "#ffb6cd",
+    "y2k-pop": "#fff0f4",
+    "y2k-gel": "#663647",
+    "y2k-shine": "#ebe5e7"
+  },
+  "rose-quartz/contrast": {
+    "y2k-shell": "#ff8ab3",
+    "y2k-pop": "#f000ff",
+    "y2k-gel": "none",
+    "y2k-shine": "none"
+  },
+  "cyber-lime/light": {
+    "y2k-shell": "#417013",
+    "y2k-pop": "#14777c",
+    "y2k-gel": "#cfe2bc",
+    "y2k-shine": "#f9fbf6"
+  },
+  "cyber-lime/dark": {
+    "y2k-shell": "#caff7f",
+    "y2k-pop": "#3debf2",
+    "y2k-gel": "#3c5d1b",
+    "y2k-shine": "#e6eae1"
+  },
+  "cyber-lime/contrast": {
+    "y2k-shell": "#aaff00",
+    "y2k-pop": "#00f0ff",
+    "y2k-gel": "none",
+    "y2k-shine": "none"
+  },
+  "arctic-indigo/light": {
+    "y2k-shell": "#314894",
+    "y2k-pop": "#141b2e",
+    "y2k-gel": "#c6cfea",
+    "y2k-shine": "#f8f9fc"
+  },
+  "arctic-indigo/dark": {
+    "y2k-shell": "#b7c5ff",
+    "y2k-pop": "#76d8f3",
+    "y2k-gel": "#37436b",
+    "y2k-shine": "#e5e7ec"
+  },
+  "arctic-indigo/contrast": {
+    "y2k-shell": "#9fb2ff",
+    "y2k-pop": "#00d9ff",
+    "y2k-gel": "none",
+    "y2k-shine": "none"
+  },
+  "chrome-navy/light": {
+    "y2k-shell": "#1a3556",
+    "y2k-pop": "#4e7093",
+    "y2k-gel": "#ced4dc",
+    "y2k-shine": "#f9f9fa"
+  },
+  "chrome-navy/dark": {
+    "y2k-shell": "#c7d5e5",
+    "y2k-pop": "#eff4fa",
+    "y2k-gel": "#314a62",
+    "y2k-shine": "#e4e7eb"
+  },
+  "chrome-navy/contrast": {
+    "y2k-shell": "#9cc5f0",
+    "y2k-pop": "#e6f0ff",
+    "y2k-gel": "none",
+    "y2k-shine": "none"
+  },
+  "recycled-emerald/light": {
+    "y2k-shell": "#0c5147",
+    "y2k-pop": "#217e60",
+    "y2k-gel": "#b7ceca",
+    "y2k-shine": "#f6f9f8"
+  },
+  "recycled-emerald/dark": {
+    "y2k-shell": "#8bffd6",
+    "y2k-pop": "#ecfbf7",
+    "y2k-gel": "#20594c",
+    "y2k-shine": "#e2e9e8"
+  },
+  "recycled-emerald/contrast": {
+    "y2k-shell": "#38f0b9",
+    "y2k-pop": "#a0ffd9",
+    "y2k-gel": "none",
+    "y2k-shine": "none"
+  },
+  "industrial-orange/light": {
+    "y2k-shell": "#8e3f12",
+    "y2k-pop": "#2b2b2b",
+    "y2k-gel": "#e9cab9",
+    "y2k-shine": "#fcf8f6"
+  },
+  "industrial-orange/dark": {
+    "y2k-shell": "#ffb36b",
+    "y2k-pop": "#c6bfb6",
+    "y2k-gel": "#5f3c25",
+    "y2k-shine": "#eae6e3"
+  },
+  "industrial-orange/contrast": {
+    "y2k-shell": "#ffb36b",
+    "y2k-pop": "#f4f1ec",
+    "y2k-gel": "none",
+    "y2k-shine": "none"
+  },
+  "performance-red/light": {
+    "y2k-shell": "#a30e25",
+    "y2k-pop": "#bb4051",
+    "y2k-gel": "#efb7c0",
+    "y2k-shine": "#fdf6f7"
+  },
+  "performance-red/dark": {
+    "y2k-shell": "#ff8394",
+    "y2k-pop": "#d1d3d8",
+    "y2k-gel": "#5b252e",
+    "y2k-shine": "#eae3e4"
+  },
+  "performance-red/contrast": {
+    "y2k-shell": "#ff95a3",
+    "y2k-pop": "#f2f2f2",
+    "y2k-gel": "none",
+    "y2k-shine": "none"
+  },
+  "heritage-brass/light": {
+    "y2k-shell": "#5b0d16",
+    "y2k-pop": "#896934",
+    "y2k-gel": "#dec9c8",
+    "y2k-shine": "#fbf8f8"
+  },
+  "heritage-brass/dark": {
+    "y2k-shell": "#f0c87d",
+    "y2k-pop": "#f6ebd7",
+    "y2k-gel": "#533a2a",
+    "y2k-shine": "#e9e5e3"
+  },
+  "heritage-brass/contrast": {
+    "y2k-shell": "#ffd36b",
+    "y2k-pop": "#fff3d9",
+    "y2k-gel": "none",
+    "y2k-shine": "none"
+  },
+  "service-blue-red/light": {
+    "y2k-shell": "#0b3155",
+    "y2k-pop": "#b14c52",
+    "y2k-gel": "#cad4dd",
+    "y2k-shine": "#f8f9fb"
+  },
+  "service-blue-red/dark": {
+    "y2k-shell": "#a5cbf1",
+    "y2k-pop": "#ff9a9a",
+    "y2k-gel": "#2c4966",
+    "y2k-shine": "#e4e7eb"
+  },
+  "service-blue-red/contrast": {
+    "y2k-shell": "#8cc6ff",
+    "y2k-pop": "#ffaaaa",
+    "y2k-gel": "none",
+    "y2k-shine": "none"
+  },
+  "newsprint-crimson/light": {
+    "y2k-shell": "#6a1e24",
+    "y2k-pop": "#865f50",
+    "y2k-gel": "#dcc4bc",
+    "y2k-shine": "#faf7f6"
+  },
+  "newsprint-crimson/dark": {
+    "y2k-shell": "#f0a597",
+    "y2k-pop": "#f4ebdd",
+    "y2k-gel": "#583635",
+    "y2k-shine": "#e9e5e5"
+  },
+  "newsprint-crimson/contrast": {
+    "y2k-shell": "#ff9aa3",
+    "y2k-pop": "#fff3da",
+    "y2k-gel": "none",
+    "y2k-shine": "none"
+  },
+  "foundry-amber/light": {
+    "y2k-shell": "#864600",
+    "y2k-pop": "#3a3a3c",
+    "y2k-gel": "#e5cdb3",
+    "y2k-shine": "#fcf9f5"
+  },
+  "foundry-amber/dark": {
+    "y2k-shell": "#ffd17a",
+    "y2k-pop": "#aeb3b8",
+    "y2k-gel": "#5b4427",
+    "y2k-shine": "#eae7e3"
+  },
+  "foundry-amber/contrast": {
+    "y2k-shell": "#ffc247",
+    "y2k-pop": "#f2f2f2",
+    "y2k-gel": "none",
+    "y2k-shine": "none"
+  },
+  "soft-orchid/light": {
+    "y2k-shell": "#4b3b98",
+    "y2k-pop": "#7f649d",
+    "y2k-gel": "#d1cbea",
+    "y2k-shine": "#f9f8fc"
+  },
+  "soft-orchid/dark": {
+    "y2k-shell": "#d1b7f5",
+    "y2k-pop": "#f5f0ff",
+    "y2k-gel": "#463b67",
+    "y2k-shine": "#e7e6eb"
+  },
+  "soft-orchid/contrast": {
+    "y2k-shell": "#c9b5ff",
+    "y2k-pop": "#71ffe2",
+    "y2k-gel": "none",
+    "y2k-shine": "none"
+  },
+  "electric-noir/light": {
+    "y2k-shell": "#721562",
+    "y2k-pop": "#2d738e",
+    "y2k-gel": "#ddbad7",
+    "y2k-shine": "#fbf6fa"
+  },
+  "electric-noir/dark": {
+    "y2k-shell": "#ff7ae1",
+    "y2k-pop": "#4ba6c9",
+    "y2k-gel": "#501e4e",
+    "y2k-shine": "#e8e2e8"
+  },
+  "electric-noir/contrast": {
+    "y2k-shell": "#ff7be0",
+    "y2k-pop": "#00d7ff",
+    "y2k-gel": "none",
+    "y2k-shine": "none"
+  },
+  "signal-yellow/light": {
+    "y2k-shell": "#704f00",
+    "y2k-pop": "#25324e",
+    "y2k-gel": "#fff0b3",
+    "y2k-shine": "#fffdf5"
+  },
+  "signal-yellow/dark": {
+    "y2k-shell": "#ffe866",
+    "y2k-pop": "#8ec6ff",
+    "y2k-gel": "#635417",
+    "y2k-shine": "#ebe9e1"
+  },
+  "signal-yellow/contrast": {
+    "y2k-shell": "#ffea00",
+    "y2k-pop": "#00d9ff",
+    "y2k-gel": "none",
+    "y2k-shine": "none"
+  },
+  "botanical-green/light": {
+    "y2k-shell": "#086132",
+    "y2k-pop": "#793058",
+    "y2k-gel": "#b6d8c6",
+    "y2k-shine": "#f6faf8"
+  },
+  "botanical-green/dark": {
+    "y2k-shell": "#80f0a9",
+    "y2k-pop": "#ee94c7",
+    "y2k-gel": "#205936",
+    "y2k-shine": "#e2e9e5"
+  },
+  "botanical-green/contrast": {
+    "y2k-shell": "#67ffa6",
+    "y2k-pop": "#ff5cb2",
+    "y2k-gel": "none",
+    "y2k-shine": "none"
+  },
+  "cobalt-electric/light": {
+    "y2k-shell": "#0040a3",
+    "y2k-pop": "#4364d3",
+    "y2k-gel": "#b3cbf0",
+    "y2k-shine": "#f5f8fd"
+  },
+  "cobalt-electric/dark": {
+    "y2k-shell": "#a4bcff",
+    "y2k-pop": "#ff8593",
+    "y2k-gel": "#283b6e",
+    "y2k-shine": "#e3e6ec"
+  },
+  "cobalt-electric/contrast": {
+    "y2k-shell": "#84a8ff",
+    "y2k-pop": "#ff697d",
+    "y2k-gel": "none",
+    "y2k-shine": "none"
+  },
+  "stone-graphite/light": {
+    "y2k-shell": "#343c38",
+    "y2k-pop": "#6e7270",
+    "y2k-gel": "#d3d4d4",
+    "y2k-shine": "#f9f9f9"
+  },
+  "stone-graphite/dark": {
+    "y2k-shell": "#dce0dd",
+    "y2k-pop": "#a4aaa6",
+    "y2k-gel": "#505351",
+    "y2k-shine": "#e8e9e8"
+  },
+  "stone-graphite/contrast": {
+    "y2k-shell": "#ffffff",
+    "y2k-pop": "#cdcdcd",
+    "y2k-gel": "none",
+    "y2k-shine": "none"
+  },
+  "walnut-clay/light": {
+    "y2k-shell": "#693c2b",
+    "y2k-pop": "#9c5d45",
+    "y2k-gel": "#d4c7c1",
+    "y2k-shine": "#f9f8f7"
+  },
+  "walnut-clay/dark": {
+    "y2k-shell": "#f0bc9c",
+    "y2k-pop": "#faf1e9",
+    "y2k-gel": "#5a4033",
+    "y2k-shine": "#eae6e4"
+  },
+  "walnut-clay/contrast": {
+    "y2k-shell": "#ffc2a0",
+    "y2k-pop": "#ffffff",
+    "y2k-gel": "none",
+    "y2k-shine": "none"
+  }
+}

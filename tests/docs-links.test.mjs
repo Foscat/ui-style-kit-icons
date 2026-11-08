@@ -17,79 +17,60 @@ const markdownDocuments = [
   "CONTRIBUTING.md",
   "SECURITY.md",
   "contract/icon-contract.md",
-  "style-source/system-style-source.md"
+  "reference/organic-modern-approval.md"
 ].map((file) => join(root, file));
 
-test("published docs describe the supported library and demo surfaces", async () => {
+test("published docs describe Collection 01 and the supported package surface", async () => {
   const readme = await readFile(join(root, "README.md"), "utf8");
   const llms = await readFile(join(root, "llms.txt"), "utf8");
-  const html = await readFile(join(root, "index.html"), "utf8");
+  const html = await readFile(join(root, "docs", "index.html"), "utf8");
 
-  for (const text of [readme, llms, html]) {
+  for (const text of [readme, llms]) {
+    assert.match(text, new RegExp(escapeRegExp(packageJson.version), "u"));
+    assert.match(text, /20 (?:families|theme-aware families)/u);
+    assert.match(text, /174 semantic icons|174 canonical icons/u);
     assert.match(
       text,
-      new RegExp(escapeRegExp(packageJson.version), "u")
+      new RegExp(
+        `Contract version: \`?${escapeRegExp(contract.schemaVersion)}\`?`,
+        "u"
+      )
     );
-    assert.match(text, /12/u);
-    assert.doesNotMatch(text, /0\.3\.0/u);
   }
 
   for (const subpath of [
     "ui-style-kit-icons/element",
     "ui-style-kit-icons/registry",
-    "ui-style-kit-icons/registry.json",
     "ui-style-kit-icons/contract.json",
     "ui-style-kit-icons/css.css",
-    "ui-style-kit-icons/sprite.svg",
-    "ui-style-kit-icons/packs/<pack-id>/icons/<icon-id>.svg"
+    "ui-style-kit-icons/inline-svg",
+    "ui-style-kit-icons/svg/<family>/<icon-id>.svg",
+    "ui-style-kit-icons/monochrome/<family>/<icon-id>.svg"
   ]) {
     assert.match(readme, new RegExp(escapeRegExp(subpath), "u"));
   }
 
+  assert.match(readme, /ui-style-kit-css >=2\.7\.1 <3/u);
+  for (const publicApi of [
+    "getPack",
+    "setDefaultPack",
+    "setAssetBaseUrl",
+    "resolveIconUrl",
+    "iconNames"
+  ]) {
+    assert.match(readme, new RegExp(`\\b${publicApi}\\b`, "u"));
+  }
+  assert.match(readme, /label="[^"]+"/u);
+  assert.match(readme, /asset-base/u);
   assert.match(readme, /npm run demo/u);
   assert.match(readme, /npm run pages:build/u);
-  assert.match(readme, /ui-style-kit-css@2\.1\.0/u);
-  assert.match(readme, /interactive-surface-css@1\.5\.0/u);
-  assert.match(readme, /layout-style-css@2\.1\.0/u);
-  assert.match(readme, /standalone/iu);
-  assert.match(llms, /npm run demo/u);
-  assert.match(llms, /ui-style-kit-css 2\.1\.0/u);
-  assert.match(llms, /interactive-surface-css 1\.5\.0/u);
-  assert.match(llms, /layout-style-css 2\.1\.0/u);
-  assertStylesheetOrder(readme);
-  assertStylesheetOrder(llms);
-  assert.match(html, /fileProtocolNotice/u);
-  assert.match(
-    html,
-    /https:\/\/github\.com\/Foscat\/ui-style-kit-icons/u
-  );
-  assert.doesNotMatch(
-    html,
-    /https:\/\/github\.com\/Foscat\/ui-style-kit-css-icons/u
-  );
-  assert.match(
-    readme,
-    new RegExp(
-      `Contract version: \`${escapeRegExp(contract.schemaVersion)}\``,
-      "u"
-    )
-  );
-  assert.match(
-    llms,
-    new RegExp(`Contract version: ${escapeRegExp(contract.schemaVersion)}`, "u")
-  );
-  assert.match(
-    html,
-    new RegExp(
-      `<dt>Contract</dt><dd>${escapeRegExp(
-        contract.schemaVersion.replace(/\.0$/u, "")
-      )}</dd>`,
-      "u"
-    )
-  );
+  assert.doesNotMatch(readme, /ui-style-kit-icons\/packs\//u);
+  assert.doesNotMatch(readme, /ui-style-kit-icons\/icons\//u);
+  assert.match(html, /https:\/\/github\.com\/Foscat\/ui-style-kit-icons/u);
+  assert.doesNotMatch(html, /ui-style-kit-css-icons/u);
 });
 
-test("local Markdown links resolve without requiring a separate wiki checkout", async () => {
+test("local Markdown links resolve within the repository", async () => {
   for (const documentPath of markdownDocuments) {
     const markdown = await readFile(documentPath, "utf8");
     const links = [...markdown.matchAll(/\[[^\]]+\]\(([^)]+)\)/gu)].map(
@@ -118,24 +99,12 @@ test("local Markdown links resolve without requiring a separate wiki checkout", 
   }
 });
 
+/**
+ * Escapes a literal value for use in a regular expression.
+ *
+ * @param {string} value Literal value.
+ * @returns {string} Escaped pattern text.
+ */
 function escapeRegExp(value) {
   return value.replace(/[.*+?^${}()|[\]\\]/gu, "\\$&");
-}
-
-function assertStylesheetOrder(document) {
-  const orderedImports = [
-    "ui-style-kit-css/visual.css",
-    "ui-style-kit-css/interactive-surface-theme.css",
-    "interactive-surface-css/state-core.css",
-    "layout-style-css/min.css",
-    "ui-style-kit-icons/css.css"
-  ];
-  let previous = -1;
-
-  for (const stylesheet of orderedImports) {
-    const index = document.indexOf(stylesheet, previous + 1);
-
-    assert.ok(index > previous, `${stylesheet} is missing or out of order.`);
-    previous = index;
-  }
 }

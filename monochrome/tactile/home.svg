@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Home" focusable="false" class="usk-icon" data-icon-style="tactile" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M5.55 12.8 12 6.6l6.45 6.2v5.85q0 1.65-1.65 1.65H7.2q-1.65 0-1.65-1.65Z" fill="none" stroke="none"/>
+  <path d="M5.55 12.8v5.85q0 1.65 1.65 1.65h9.6q1.65 0 1.65-1.65V12.8"/>
+  <path d="M9.6 20.3v-4.4a2.4 2.4 0 0 1 4.8 0v4.4" fill="none" stroke="currentColor" stroke-width="1.35"/>
+  <path d="M7 13.7v4.55q0 .62.62.62" stroke="none" stroke-width="0.8"/>
+  <path d="M3.6 11.35 11.12 4.08q.88-.85 1.76 0l7.52 7.27-1.65 1.75L12 6.6l-6.75 6.5Z" fill="none"/>
+  <path d="m5.38 11.32 6.28-6.07q.34-.33.68 0l3.67 3.53" stroke="none" stroke-width="0.86"/>
+  <path d="m17.2 9.96 1.63 1.55" stroke="none" stroke-width="0.86"/>
+</svg>

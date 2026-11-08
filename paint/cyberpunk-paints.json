@@ -1,0 +1,302 @@
+{
+  "midnight-gold/light": {
+    "cyberpunk-rail": "#b8872f",
+    "cyberpunk-signal": "#22314f"
+  },
+  "midnight-gold/dark": {
+    "cyberpunk-rail": "#d6a84f",
+    "cyberpunk-signal": "#f3d27a"
+  },
+  "midnight-gold/contrast": {
+    "cyberpunk-rail": "#ffd400",
+    "cyberpunk-signal": "#00d9ff"
+  },
+  "ocean-steel/light": {
+    "cyberpunk-rail": "#087d9d",
+    "cyberpunk-signal": "#39566b"
+  },
+  "ocean-steel/dark": {
+    "cyberpunk-rail": "#36c4dd",
+    "cyberpunk-signal": "#8cb7c9"
+  },
+  "ocean-steel/contrast": {
+    "cyberpunk-rail": "#00e5ff",
+    "cyberpunk-signal": "#ffff00"
+  },
+  "forest-moss/light": {
+    "cyberpunk-rail": "#3f7d3a",
+    "cyberpunk-signal": "#182417"
+  },
+  "forest-moss/dark": {
+    "cyberpunk-rail": "#82d27a",
+    "cyberpunk-signal": "#d2bd72"
+  },
+  "forest-moss/contrast": {
+    "cyberpunk-rail": "#6cff5f",
+    "cyberpunk-signal": "#b6ff00"
+  },
+  "sunset-ember/light": {
+    "cyberpunk-rail": "#c4512b",
+    "cyberpunk-signal": "#7c3f5c"
+  },
+  "sunset-ember/dark": {
+    "cyberpunk-rail": "#ff8a5b",
+    "cyberpunk-signal": "#e38ab5"
+  },
+  "sunset-ember/contrast": {
+    "cyberpunk-rail": "#ff6a00",
+    "cyberpunk-signal": "#ffd000"
+  },
+  "royal-plum/light": {
+    "cyberpunk-rail": "#7b3fa0",
+    "cyberpunk-signal": "#c05ac6"
+  },
+  "royal-plum/dark": {
+    "cyberpunk-rail": "#d891f2",
+    "cyberpunk-signal": "#faecff"
+  },
+  "royal-plum/contrast": {
+    "cyberpunk-rail": "#e45cff",
+    "cyberpunk-signal": "#ff00f5"
+  },
+  "graphite-cyan/light": {
+    "cyberpunk-rail": "#007c89",
+    "cyberpunk-signal": "#3f4850"
+  },
+  "graphite-cyan/dark": {
+    "cyberpunk-rail": "#3ed9e8",
+    "cyberpunk-signal": "#7bf3ff"
+  },
+  "graphite-cyan/contrast": {
+    "cyberpunk-rail": "#00f0ff",
+    "cyberpunk-signal": "#f2f2f2"
+  },
+  "desert-sage/light": {
+    "cyberpunk-rail": "#8c6a3d",
+    "cyberpunk-signal": "#2b2419"
+  },
+  "desert-sage/dark": {
+    "cyberpunk-rail": "#d9b878",
+    "cyberpunk-signal": "#f8efdf"
+  },
+  "desert-sage/contrast": {
+    "cyberpunk-rail": "#ffd166",
+    "cyberpunk-signal": "#ffb000"
+  },
+  "rose-quartz/light": {
+    "cyberpunk-rail": "#b8476d",
+    "cyberpunk-signal": "#7a557e"
+  },
+  "rose-quartz/dark": {
+    "cyberpunk-rail": "#ff8fb3",
+    "cyberpunk-signal": "#fff0f4"
+  },
+  "rose-quartz/contrast": {
+    "cyberpunk-rail": "#ff4f93",
+    "cyberpunk-signal": "#ff8ab3"
+  },
+  "cyber-lime/light": {
+    "cyberpunk-rail": "#5f9f1f",
+    "cyberpunk-signal": "#147f86"
+  },
+  "cyber-lime/dark": {
+    "cyberpunk-rail": "#a8ff3d",
+    "cyberpunk-signal": "#3debf2"
+  },
+  "cyber-lime/contrast": {
+    "cyberpunk-rail": "#aaff00",
+    "cyberpunk-signal": "#00f0ff"
+  },
+  "arctic-indigo/light": {
+    "cyberpunk-rail": "#405eb8",
+    "cyberpunk-signal": "#141b2e"
+  },
+  "arctic-indigo/dark": {
+    "cyberpunk-rail": "#91a8ff",
+    "cyberpunk-signal": "#edf3ff"
+  },
+  "arctic-indigo/contrast": {
+    "cyberpunk-rail": "#6f8cff",
+    "cyberpunk-signal": "#b8c4ff"
+  },
+  "chrome-navy/light": {
+    "cyberpunk-rail": "#1f3a5f",
+    "cyberpunk-signal": "#5a7fa6"
+  },
+  "chrome-navy/dark": {
+    "cyberpunk-rail": "#7ea9d3",
+    "cyberpunk-signal": "#c7d5e5"
+  },
+  "chrome-navy/contrast": {
+    "cyberpunk-rail": "#9cc5f0",
+    "cyberpunk-signal": "#00e6ff"
+  },
+  "recycled-emerald/light": {
+    "cyberpunk-rail": "#0e5b4f",
+    "cyberpunk-signal": "#0e2c29"
+  },
+  "recycled-emerald/dark": {
+    "cyberpunk-rail": "#45d1af",
+    "cyberpunk-signal": "#8bffd6"
+  },
+  "recycled-emerald/contrast": {
+    "cyberpunk-rail": "#38f0b9",
+    "cyberpunk-signal": "#a0ffd9"
+  },
+  "industrial-orange/light": {
+    "cyberpunk-rail": "#b74e16",
+    "cyberpunk-signal": "#2b2b2b"
+  },
+  "industrial-orange/dark": {
+    "cyberpunk-rail": "#ff8a3d",
+    "cyberpunk-signal": "#c6bfb6"
+  },
+  "industrial-orange/contrast": {
+    "cyberpunk-rail": "#ff9a42",
+    "cyberpunk-signal": "#f4f1ec"
+  },
+  "performance-red/light": {
+    "cyberpunk-rail": "#c8102e",
+    "cyberpunk-signal": "#e84c61"
+  },
+  "performance-red/dark": {
+    "cyberpunk-rail": "#ff4c66",
+    "cyberpunk-signal": "#ff8394"
+  },
+  "performance-red/contrast": {
+    "cyberpunk-rail": "#ff3656",
+    "cyberpunk-signal": "#ff95a3"
+  },
+  "heritage-brass/light": {
+    "cyberpunk-rail": "#6b0f1a",
+    "cyberpunk-signal": "#896934"
+  },
+  "heritage-brass/dark": {
+    "cyberpunk-rail": "#c98a5d",
+    "cyberpunk-signal": "#f6ebd7"
+  },
+  "heritage-brass/contrast": {
+    "cyberpunk-rail": "#c88a36",
+    "cyberpunk-signal": "#ffd36b"
+  },
+  "service-blue-red/light": {
+    "cyberpunk-rail": "#0d3b66",
+    "cyberpunk-signal": "#e95a5a"
+  },
+  "service-blue-red/dark": {
+    "cyberpunk-rail": "#6ca9e3",
+    "cyberpunk-signal": "#ff9a9a"
+  },
+  "service-blue-red/contrast": {
+    "cyberpunk-rail": "#66b5ff",
+    "cyberpunk-signal": "#ffaaaa"
+  },
+  "newsprint-crimson/light": {
+    "cyberpunk-rail": "#7a2329",
+    "cyberpunk-signal": "#865f50"
+  },
+  "newsprint-crimson/dark": {
+    "cyberpunk-rail": "#d87c83",
+    "cyberpunk-signal": "#c8b9a6"
+  },
+  "newsprint-crimson/contrast": {
+    "cyberpunk-rail": "#ff7a84",
+    "cyberpunk-signal": "#ffb3a7"
+  },
+  "foundry-amber/light": {
+    "cyberpunk-rail": "#a95700",
+    "cyberpunk-signal": "#3a3a3c"
+  },
+  "foundry-amber/dark": {
+    "cyberpunk-rail": "#f0a03a",
+    "cyberpunk-signal": "#ffd17a"
+  },
+  "foundry-amber/contrast": {
+    "cyberpunk-rail": "#ffb000",
+    "cyberpunk-signal": "#ffd36b"
+  },
+  "soft-orchid/light": {
+    "cyberpunk-rail": "#6552b8",
+    "cyberpunk-signal": "#241a3a"
+  },
+  "soft-orchid/dark": {
+    "cyberpunk-rail": "#a994f2",
+    "cyberpunk-signal": "#e7c6ff"
+  },
+  "soft-orchid/contrast": {
+    "cyberpunk-rail": "#b89cff",
+    "cyberpunk-signal": "#ffd0f2"
+  },
+  "electric-noir/light": {
+    "cyberpunk-rail": "#8c1a78",
+    "cyberpunk-signal": "#2e7590"
+  },
+  "electric-noir/dark": {
+    "cyberpunk-rail": "#e24ac4",
+    "cyberpunk-signal": "#4ba6c9"
+  },
+  "electric-noir/contrast": {
+    "cyberpunk-rail": "#ff59d7",
+    "cyberpunk-signal": "#00d7ff"
+  },
+  "signal-yellow/light": {
+    "cyberpunk-rail": "#704f00",
+    "cyberpunk-signal": "#25324e"
+  },
+  "signal-yellow/dark": {
+    "cyberpunk-rail": "#ffd83b",
+    "cyberpunk-signal": "#8ec6ff"
+  },
+  "signal-yellow/contrast": {
+    "cyberpunk-rail": "#ffd600",
+    "cyberpunk-signal": "#00d9ff"
+  },
+  "botanical-green/light": {
+    "cyberpunk-rail": "#0d7e42",
+    "cyberpunk-signal": "#793058"
+  },
+  "botanical-green/dark": {
+    "cyberpunk-rail": "#52de8b",
+    "cyberpunk-signal": "#ee94c7"
+  },
+  "botanical-green/contrast": {
+    "cyberpunk-rail": "#00ff70",
+    "cyberpunk-signal": "#67ffa6"
+  },
+  "cobalt-electric/light": {
+    "cyberpunk-rail": "#0052cc",
+    "cyberpunk-signal": "#5279ff"
+  },
+  "cobalt-electric/dark": {
+    "cyberpunk-rail": "#6f95ff",
+    "cyberpunk-signal": "#ff8593"
+  },
+  "cobalt-electric/contrast": {
+    "cyberpunk-rail": "#4c85ff",
+    "cyberpunk-signal": "#84a8ff"
+  },
+  "stone-graphite/light": {
+    "cyberpunk-rail": "#383c3a",
+    "cyberpunk-signal": "#6e7270"
+  },
+  "stone-graphite/dark": {
+    "cyberpunk-rail": "#d0d4d1",
+    "cyberpunk-signal": "#a4aaa6"
+  },
+  "stone-graphite/contrast": {
+    "cyberpunk-rail": "#ffffff",
+    "cyberpunk-signal": "#cdcdcd"
+  },
+  "walnut-clay/light": {
+    "cyberpunk-rail": "#704330",
+    "cyberpunk-signal": "#be6f52"
+  },
+  "walnut-clay/dark": {
+    "cyberpunk-rail": "#da9e7c",
+    "cyberpunk-signal": "#faf1e9"
+  },
+  "walnut-clay/contrast": {
+    "cyberpunk-rail": "#ffae80",
+    "cyberpunk-signal": "#d0eaa6"
+  }
+}

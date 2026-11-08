@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Warehouse" focusable="false" class="usk-icon" data-icon-style="neo-noir" fill="none" stroke-linecap="butt" stroke-linejoin="bevel">
+  <path d="M4.44 8.87 13.34 4.06l8.09 4.98-2.32 10.91h-4.37l.48-2.28h2.33l1.63-7.63-6-3.55-6.83 3.64-1.61 7.54h2.46l-.48 2.28H2.05Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neo-noir-ink, var(--usi-ink, currentColor))"/>
+  <path d="M8.66 11.04h7.03l-.42 1.99H8.24Zm-.71 3.32h7.03l-.42 1.99H7.53Zm-.69 3.31h7.03l-.48 2.28H6.78Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neo-noir-light, var(--usi-accent-ink, currentColor))"/>
+</svg>

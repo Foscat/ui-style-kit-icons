@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Settings" focusable="false" class="usk-icon" data-icon-style="editorial-luxe" fill="none" stroke-linejoin="round" stroke-linecap="round">
+  <path d="M10.65 3.4h2.7l.54 2.4 1.1.55 2.2-.85 1.9 1.9-.85 2.2.55 1.1 2.4.54v2.7l-2.4.54-.55 1.1.85 2.2-1.9 1.9-2.2-.85-1.1.55-.54 2.4h-2.7l-.54-2.4-1.1-.55-2.2.85-1.9-1.9.85-2.2-.55-1.1-2.4-.54v-2.7l2.4-.54.55-1.1-.85-2.2 1.9-1.9 2.2.85 1.1-.55Z M12 6.92a5.63 5.63 0 1 0 0 11.26 5.63 5.63 0 0 0 0-11.26Z" fill="currentColor" fill-rule="evenodd"/>
+  <path d="M15 12.55a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" stroke="currentColor" stroke-width="1.28"/>
+  <circle cx="12" cy="12.55" r="0.82" fill="currentColor"/>
+</svg>

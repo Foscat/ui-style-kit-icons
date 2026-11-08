@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Map pin" focusable="false" class="usk-icon" data-icon-style="tactile" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M19.25 9.6c0 4.85-5.4 9.9-7.25 11.1-1.85-1.2-7.25-6.25-7.25-11.1a7.25 7.25 0 1 1 14.5 0Z M14.65 9.6a2.65 2.65 0 1 1-5.3 0 2.65 2.65 0 1 1 5.3 0Z" fill-rule="evenodd" fill="none"/>
+  <path d="M6.5 9.6A5.5 5.5 0 0 1 12 4.1" stroke="none" stroke-width="0.8"/>
+  <path d="M17.4 11.1q-.85 3.2-4.4 6.9" stroke="none" stroke-width="1"/>
+</svg>

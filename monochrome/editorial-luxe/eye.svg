@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Eye" focusable="false" class="usk-icon" data-icon-style="editorial-luxe" fill="none" stroke-linejoin="round" stroke-linecap="round">
+  <path d="M2.95 12c2.25-3.75 5.35-5.65 9.05-5.65s6.8 1.9 9.05 5.65c-2.25 3.75-5.35 5.65-9.05 5.65S5.2 15.75 2.95 12Zm1.9 0c2.05 2.7 4.32 4.1 7.15 4.1s5.1-1.4 7.15-4.1C17.1 9.3 14.83 7.9 12 7.9S6.9 9.3 4.85 12Z" fill="currentColor" fill-rule="evenodd"/>
+  <path d="M15.1 12a3.1 3.1 0 1 1-6.2 0 3.1 3.1 0 0 1 6.2 0Z" stroke="currentColor" stroke-width="1.28"/>
+  <circle cx="12" cy="12" r="1.2" fill="currentColor"/>
+</svg>

@@ -1,7 +1,7 @@
 {
   "name": "ui-style-kit-icons",
-  "version": "1.0.0",
-  "description": "Theme-aware SVG icon library for ui-style-kit-css and layout-style-css projects.",
+  "version": "2.0.0",
+  "description": "Theme-aware and monochrome SVG icons for the UI Style Kit ecosystem.",
   "type": "module",
   "engines": {
     "node": ">=20"
@@ -23,34 +23,33 @@
   "sideEffects": [
     "dist/ui-style-kit-icons.js",
     "dist/*.css",
-    "packs/**/*.css"
+    "paint/*.css"
   ],
   "scripts": {
     "build": "node scripts/build-dist.mjs",
-    "assets:build": "node scripts/build-brand-assets.mjs",
-    "icons:refine": "node scripts/refine-svg-sources.mjs",
+    "assets:build": "node scripts/build-social-preview.mjs",
+    "assets:check": "node scripts/check-collection.mjs",
+    "contracts:write": "node scripts/sync-collection-contract.mjs",
+    "coverage:build": "python scripts/build-coverage.py",
+    "coverage:check": "python scripts/check-coverage.py",
     "demo": "node scripts/serve-demo.mjs",
+    "demo:build": "python scripts/build-demo.py",
     "pages:build": "node scripts/build-pages.mjs",
     "check:js": "node scripts/check-js.mjs",
     "check:contracts": "node scripts/check-contracts.mjs",
     "check:consumer": "node scripts/check-consumer.mjs",
     "check:demo": "node scripts/demo-smoke.mjs",
-    "check:ecosystem": "node scripts/check-ecosystem.mjs",
     "check:release": "node scripts/check-release.mjs",
-    "check:svg": "node scripts/check-svg-visuals.mjs",
-    "visual:prototype": "node scripts/check-svg-visuals.mjs --prototype --review --browser=chrome",
-    "visual:review": "node scripts/check-svg-visuals.mjs --review",
     "check:types": "tsc -p tests/types/tsconfig.json",
     "check:package": "node scripts/check-package.mjs",
     "format:check": "node scripts/format-check.mjs",
-    "pack:audit": "node scripts/pack-audit.mjs",
     "test": "node --test tests/*.test.mjs",
-    "test:unit": "node --test tests/docs-links.test.mjs tests/package-integrity.test.mjs tests/preview-html.test.mjs",
+    "test:unit": "node --test tests/collection-assets.test.mjs tests/runtime-api.test.mjs tests/docs-links.test.mjs tests/pages-artifact.test.mjs",
     "version:sync": "node scripts/sync-version.mjs",
-    "check": "npm run build && npm run pack:audit && npm run check:js && npm run check:types && npm run check:contracts && npm run check:ecosystem && npm run check:svg && npm run pages:build && npm test && npm run format:check",
+    "check": "npm run build && npm run assets:check && npm run coverage:check && npm run check:js && npm run check:types && npm run check:contracts && npm run pages:build && npm test && npm run format:check",
     "verify": "npm run check && npm run check:package && npm run check:consumer",
     "release:verify": "npm run verify && npm run check:demo && npm run check:release && npm audit --audit-level=moderate",
-    "prepack": "npm run build && npm run pack:audit && npm run check:js && npm run check:types && npm run check:contracts && npm run check:ecosystem && npm run test:unit && npm run format:check",
+    "prepack": "npm run build && npm run assets:check && npm run check:js && npm run check:types && npm run check:contracts && npm run test:unit && npm run format:check",
     "prepublishOnly": "npm run release:verify"
   },
   "files": [
@@ -61,17 +60,11 @@
     "SECURITY.md",
     "contract",
     "dist",
-    "icons",
-    "packs/*/LICENSE",
-    "packs/*/README.md",
-    "packs/*/dist/**",
-    "packs/*/icons/**",
-    "packs/*/manifest.json",
-    "packs/*/package.json",
-    "packs/*/sprite/**",
-    "packs/*/style-source/**",
+    "monochrome",
+    "paint",
+    "reference",
+    "svg",
     "sprite",
-    "style-source",
     "manifest.json"
   ],
   "style": "dist/ui-style-kit-icons.css",
@@ -108,15 +101,21 @@
     "./all.css": "./dist/ui-style-kit-icons.all.css",
     "./css/all": "./dist/ui-style-kit-icons.all.css",
     "./css/all.css": "./dist/ui-style-kit-icons.all.css",
+    "./paint": "./dist/ui-style-kit-icons.css",
+    "./paint.css": "./dist/ui-style-kit-icons.css",
+    "./paint/*": "./paint/*",
+    "./inline-svg": "./paint/inline-svg.mjs",
     "./dist/*": "./dist/*",
     "./sprite": "./dist/ui-style-kit-icons.svg",
     "./sprite.svg": "./dist/ui-style-kit-icons.svg",
+    "./sprites/*": "./dist/sprites/*",
     "./inline-sprite": "./sprite/ui-style-kit-icons.inline.svg",
+    "./inline-sprites/*": "./sprite/*",
     "./manifest.json": "./manifest.json",
     "./package.json": "./package.json",
-    "./style-source/*": "./style-source/*",
-    "./icons/*": "./icons/*",
-    "./packs/*": "./packs/*"
+    "./reference/*": "./reference/*",
+    "./svg/*": "./svg/*",
+    "./monochrome/*": "./monochrome/*"
   },
   "keywords": [
     "css",
@@ -125,10 +124,11 @@
     "ui-style-kit",
     "theme-aware",
     "cyberpunk",
-    "synthwave"
+    "monochrome",
+    "icon-system"
   ],
   "peerDependencies": {
-    "ui-style-kit-css": ">=2.1.0 <3"
+    "ui-style-kit-css": ">=2.7.1 <3"
   },
   "peerDependenciesMeta": {
     "ui-style-kit-css": {
@@ -136,11 +136,9 @@
     }
   },
   "devDependencies": {
-    "interactive-surface-css": "1.5.0",
-    "layout-style-css": "2.1.0",
     "playwright": "1.62.0",
     "typescript": "7.0.2",
-    "ui-style-kit-css": "2.1.0"
+    "ui-style-kit-css": "2.7.1"
   },
   "license": "MIT"
 }

@@ -1,0 +1,815 @@
+<svg xmlns="http://www.w3.org/2000/svg" data-icon-family="neumorphism" data-icon-variant="themed" style="display:none">
+<symbol id="usk-icon-home" viewBox="0 0 24 24">
+  <title>Home</title>
+  <path d="M3.43 10.84a1.8 1.8 0 0 1 .21-2.67l6.7-5.1a2.65 2.65 0 0 1 3.32.02l6.73 5.06c1.44 1.08.91 2.89-.53 3.4l-.37.12v5.77a3.14 3.14 0 0 1-3.25 3.06h-2.02v-5.03a2.22 2.22 0 1 0-4.44 0v5.03H7.76a3.14 3.14 0 0 1-3.25-3.06v-5.78a1.94 1.94 0 0 1-1.08-.82Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+    <path d="M3.64 8.17l6.7-5.1a2.65 2.65 0 0 1 3.32.02l6.73 5.06c.9.68 1 1.65.59 2.4L13.17 4.7a1.82 1.82 0 0 0-2.21.01L3.31 10.6a1.77 1.77 0 0 1 .33-2.43ZM4.51 16.53a4.05 4.05 0 0 0 3.25 1.62h2.02v2.35H7.76a3.14 3.14 0 0 1-3.25-3.06Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-search" viewBox="0 0 24 24">
+  <title>Search</title>
+  <path d="M10.06 2.98a7.16 7.16 0 1 1 0 14.32 7.16 7.16 0 0 1 0-14.32Zm-.24 2.31a4.68 4.68 0 1 0 0 9.36 4.68 4.68 0 0 0 0-9.36Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+    <path d="M3.44 7.4a7.16 7.16 0 0 1 10.65-3.18 7.31 7.31 0 0 0-7.63 2.32 4.67 4.67 0 0 0-1.23 3.64H2.9a7.12 7.12 0 0 1 .54-2.78Zm11.68 6.16 5.45 4.23a2 2 0 0 1-2.54 3.09l-4.84-4.98Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-user" viewBox="0 0 24 24">
+  <title>User</title>
+  <path d="M12 3.11a4.14 4.14 0 1 1 0 8.28 4.14 4.14 0 0 1 0-8.28Zm-7.81 14.3c0-2.96 3.56-4.57 7.81-4.57s7.81 1.61 7.81 4.57v.56c0 1.43-1.08 2.23-2.63 2.23H6.82c-1.55 0-2.63-.8-2.63-2.23Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+    <path d="M7.94 6.52A4.14 4.14 0 0 1 12 3.11c1.42 0 2.66.69 3.4 1.76-1.2-.39-2.53-.33-3.76.03-1.28.36-2.07 1.07-2.55 2.16Zm-3.75 10.89c0-2.96 3.56-4.57 7.81-4.57 2.28 0 4.37.46 5.82 1.36a19 19 0 0 0-7.34.19c-2.09.45-3.67 1.49-4.17 3.5-.19.77.07 1.55.51 2.31-1.55 0-2.63-.8-2.63-2.23Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-folder" viewBox="0 0 24 24">
+  <title>Folder</title>
+  <path d="M3.09 7.35c0-1.5 1.01-2.51 2.5-2.51h3.92c1 0 1.68.32 2.23 1.02l.98 1.25h5.69c1.5 0 2.5 1.01 2.5 2.51v6.67c0 1.77-1.13 2.87-2.86 2.87H5.95c-1.73 0-2.86-1.1-2.86-2.87Zm4.05 5.04a1.04 1.04 0 0 0 0 2.08h9.72a1.04 1.04 0 0 0 0-2.08Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+    <path d="M3.09 7.35c0-1.5 1.01-2.51 2.5-2.51h3.92c1 0 1.68.32 2.23 1.02l.98 1.25h5.69c1.5 0 2.5 1.01 2.5 2.51v.71c-.67-.8-1.5-1.06-2.91-1.06h-5.95l-1.67-2.04a1.43 1.43 0 0 0-1.08-.45H5.75c-.46 0-.67.23-.67.7v3.58H3.09Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-settings" viewBox="0 0 24 24">
+  <title>Settings</title>
+  <path d="M8.82 5.96Q9.11 5.79 9.42 5.68L9.91 5.50Q10.23 5.38 10.29 4.78L10.39 3.84Q10.45 3.24 11.32 3.24L12.68 3.24Q13.55 3.24 13.61 3.84L13.71 4.78Q13.77 5.38 14.09 5.50L14.58 5.68Q14.89 5.79 15.18 5.96L15.64 6.22Q15.93 6.39 16.19 6.60L16.59 6.94Q16.84 7.16 17.40 6.91L18.27 6.52Q18.82 6.28 19.25 7.03L19.93 8.21Q20.36 8.96 19.87 9.31L19.11 9.87Q18.62 10.23 18.67 10.56L18.77 11.07Q18.82 11.40 18.82 11.74L18.82 12.26Q18.82 12.60 18.77 12.93L18.67 13.44Q18.62 13.77 19.11 14.13L19.87 14.69Q20.36 15.04 19.93 15.79L19.25 16.97Q18.82 17.72 18.27 17.48L17.40 17.09Q16.84 16.84 16.59 17.06L16.19 17.40Q15.93 17.61 15.64 17.78L15.18 18.04Q14.89 18.21 14.58 18.32L14.09 18.50Q13.77 18.62 13.71 19.22L13.61 20.16Q13.55 20.76 12.68 20.76L11.32 20.76Q10.45 20.76 10.39 20.16L10.29 19.22Q10.23 18.62 9.91 18.50L9.42 18.32Q9.11 18.21 8.82 18.04L8.36 17.78Q8.07 17.61 7.81 17.40L7.41 17.06Q7.16 16.84 6.60 17.09L5.73 17.48Q5.18 17.72 4.75 16.97L4.07 15.79Q3.64 15.04 4.13 14.69L4.89 14.13Q5.38 13.77 5.33 13.44L5.23 12.93Q5.18 12.60 5.18 12.26L5.18 11.74Q5.18 11.40 5.23 11.07L5.33 10.56Q5.38 10.23 4.89 9.87L4.13 9.31Q3.64 8.96 4.07 8.21L4.75 7.03Q5.18 6.28 5.73 6.52L6.60 6.91Q7.16 7.16 7.41 6.94L7.81 6.60Q8.07 6.39 8.36 6.22Z M12 7.64a4.36 4.36 0 1 0 0 8.72 4.36 4.36 0 1 0 0-8.72Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+    <path d="M7.01 10.23a5.29 5.29 0 0 1 8.11-2.82 4.37 4.37 0 0 0-5.29 1.06 4.28 4.28 0 0 0-1 1.76Zm8.16 4.77a4.3 4.3 0 0 0 1.15-2.53h1.6a6.1 6.1 0 0 1-3.01 4.41Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-bell" viewBox="0 0 24 24">
+  <title>Bell</title>
+  <path d="M11.02 3.66a.98.98 0 0 1 1.96 0v1.4c2.77.39 4.52 2.35 4.52 5.07v2.31c0 1.15.58 2.03 1.51 2.78a1.53 1.53 0 0 1-.96 2.72H5.95a1.53 1.53 0 0 1-.96-2.72c.93-.75 1.51-1.63 1.51-2.78v-2.31c0-2.72 1.75-4.68 4.52-5.07Zm.98 3.32c-2.12 0-3.46 1.29-3.46 3.27v2.19c0 1.35-.48 2.59-1.37 3.58h9.66a5.35 5.35 0 0 1-1.37-3.58v-2.19c0-1.98-1.34-3.27-3.46-3.27Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+    <path d="M9.25 19.1h5.5a2.82 2.82 0 0 1-5.5 0ZM6.5 10.13c0-2.65 1.63-4.49 3.82-4.91l-.27 1.54C8.26 7.43 7.8 8.61 7.8 10.13Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-mail" viewBox="0 0 24 24">
+  <title>Mail</title>
+  <path d="M6.64 4.94h10.72a3.57 3.57 0 0 1 3.57 3.57v6.98a3.57 3.57 0 0 1-3.57 3.57H6.64a3.57 3.57 0 0 1-3.57-3.57V8.51a3.57 3.57 0 0 1 3.57-3.57Zm0 2.07c-.83 0-1.5.67-1.5 1.5v6.98c0 .83.67 1.5 1.5 1.5h10.72c.83 0 1.5-.67 1.5-1.5V8.51c0-.83-.67-1.5-1.5-1.5Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+    <path d="m5.95 8.49 4.55 3.51a2.43 2.43 0 0 0 3 0l4.55-3.51" stroke="currentColor" stroke-width="1.92" style="stroke:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-calendar" viewBox="0 0 24 24">
+  <title>Calendar</title>
+  <path d="M6.86 5.29h.51V4.2a1.12 1.12 0 1 1 2.24 0v1.09h4.77V4.2a1.12 1.12 0 1 1 2.24 0v1.09h.52a3.58 3.58 0 0 1 3.58 3.58v8.19a3.58 3.58 0 0 1-3.58 3.58H6.86a3.58 3.58 0 0 1-3.58-3.58V8.87a3.58 3.58 0 0 1 3.58-3.58Zm0 2.1a1.48 1.48 0 0 0-1.48 1.48v.7h13.24v-.7c0-.82-.66-1.48-1.48-1.48Zm-1.48 4.22v5.45c0 .82.66 1.48 1.48 1.48h10.28c.82 0 1.48-.66 1.48-1.48v-5.45Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+    <path d="M8.22 14.06h2.05m3.35 0h2.06m-7.46 2.39h4.15" stroke="currentColor" stroke-width="1.54" style="stroke:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-download" viewBox="0 0 24 24">
+  <title>Download</title>
+  <path d="M10.59 4.5a1.41 1.41 0 1 1 2.82 0v6.02l1.74-1.66a1.36 1.36 0 0 1 1.88 1.96l-4.08 3.95a1.37 1.37 0 0 1-1.9 0l-4.08-3.95a1.36 1.36 0 0 1 1.88-1.96l1.74 1.66Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+    <path d="M10.59 4.5a1.41 1.41 0 0 1 2.7-.55h-.5c-.64 0-.99.42-.99 1.03v6.65l-1.21-1.11Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+    <path d="M3.17 14.16a1.3 1.3 0 1 1 2.6 0v2.17c0 1.06.64 1.65 1.72 1.65h9.02c1.08 0 1.72-.59 1.72-1.65v-2.17a1.3 1.3 0 1 1 2.6 0v2.17c0 2.54-1.74 4.25-4.32 4.25H7.49c-2.58 0-4.32-1.71-4.32-4.25Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+    <path d="M3.17 14.16a1.3 1.3 0 0 1 2.55-.34c-.72-.29-1.12.19-1.12.88v1.63c0 1.3.58 2.14 1.52 2.63-1.76-.46-2.95-1.56-2.95-3.35Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-trash" viewBox="0 0 24 24">
+  <title>Trash</title>
+  <path d="M5.83 8.43h12.34l-.82 8.81a3.52 3.52 0 0 1-3.51 3.19h-3.68a3.52 3.52 0 0 1-3.51-3.19Zm2.21 2.04.72 6.58c.07.75.67 1.3 1.42 1.3h3.64c.75 0 1.35-.55 1.42-1.3l.72-6.58Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+    <path d="M4.84 5.69h4.09V4.62c0-.73.59-1.32 1.32-1.32h3.5c.73 0 1.32.59 1.32 1.32v1.07h4.09a1.02 1.02 0 0 1 0 2.04H4.84a1.02 1.02 0 1 1 0-2.04Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+    <path d="M12 12.56v3.76" stroke="currentColor" stroke-width="1.55" style="stroke:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-warning" viewBox="0 0 24 24">
+  <title>Warning</title>
+  <path d="M9.79 5.48a2.57 2.57 0 0 1 4.43 0l6.3 10.91a2.57 2.57 0 0 1-2.21 3.86H5.69a2.57 2.57 0 0 1-2.22-3.86Zm1.94 1.08L5.48 17.36c-.17.28-.02.64.31.64h12.42c.33 0 .48-.36.31-.64L12.27 6.56a.31.31 0 0 0-.54 0Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+    <path d="M11.01 9.39a.99.99 0 0 1 1.98 0v3.37a.99.99 0 0 1-1.98 0ZM12 14.63a1.1 1.1 0 1 1 0 2.2 1.1 1.1 0 0 1 0-2.2Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-link" viewBox="0 0 24 24">
+  <title>Link</title>
+  <g transform="rotate(-36 12 12)">
+    <path d="M10.1 16.1H7.05a4.04 4.04 0 0 1 0-8.08h2.41m.64 8.08a4.04 4.04 0 0 0 2.14-7.48" stroke="currentColor" stroke-width="2.45" style="stroke:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+    <path d="M13.9 7.9h3.05a4.04 4.04 0 0 1 0 8.08h-2.41m-.64-8.08a4.04 4.04 0 0 0-2.14 7.48" stroke="currentColor" stroke-width="2.45" style="stroke:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+    </g>
+</symbol>
+<symbol id="usk-icon-menu" viewBox="0 0 24 24">
+  <title>Menu</title>
+  <path d="M4.8 6.59h14.4M4.8 12h14.4M4.8 17.41h14.4" stroke="currentColor" stroke-width="2.62" style="stroke:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+    <path d="M4.8 6.15h9.11M4.8 11.56h6.04M4.8 16.97h9.11" stroke="currentColor" stroke-width="1.48" style="stroke:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-more-horizontal" viewBox="0 0 24 24">
+  <title>More horizontal</title>
+  <path d="M5.63 9.91a2.09 2.09 0 1 1 0 4.18 2.09 2.09 0 0 1 0-4.18Zm12.74 0a2.09 2.09 0 1 1 0 4.18 2.09 2.09 0 0 1 0-4.18Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+    <path d="M12 9.34a2.66 2.66 0 1 1 0 5.32 2.66 2.66 0 0 1 0-5.32Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-plus" viewBox="0 0 24 24">
+  <title>Plus</title>
+  <path d="M10.49 5.37a1.51 1.51 0 1 1 3.02 0v5.12h5.12a1.51 1.51 0 1 1 0 3.02h-5.12v5.12a1.51 1.51 0 1 1-3.02 0v-5.12H5.37a1.51 1.51 0 1 1 0-3.02h5.12Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+    <path d="M5.5 11.05h5.7m-.1-.15V5.47" stroke="currentColor" stroke-width="1.14" style="stroke:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-minus" viewBox="0 0 24 24">
+  <title>Minus</title>
+  <path d="M5.21 12h13.58" stroke="currentColor" stroke-width="3.12" style="stroke:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+    <path d="M5.37 11.32h8.16" stroke="currentColor" stroke-width="1.32" style="stroke:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-check" viewBox="0 0 24 24">
+  <title>Check</title>
+  <path d="M5.14 11.75 9.77 16.2l8.77-8.45" stroke="currentColor" stroke-width="3.34" style="stroke:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+    <path d="m10.6 14.48 7.81-7.54" stroke="currentColor" stroke-width="1.45" style="stroke:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-close" viewBox="0 0 24 24">
+  <title>Close</title>
+  <path d="M6.79 6.68 17.21 17.32m0-10.64L6.79 17.32" stroke="currentColor" stroke-width="2.92" style="stroke:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+    <path d="m12.73 11.42 4.74-4.93" stroke="currentColor" stroke-width="1.26" style="stroke:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-arrow-left" viewBox="0 0 24 24">
+  <title>Arrow left</title>
+  <g transform="translate(24 0) scale(-1 1)">
+    <path d="M4.8 9.42h8.63l-1.62-1.53a1.95 1.95 0 0 1 2.7-2.81l5.83 5.53a1.9 1.9 0 0 1 0 2.78l-5.83 5.53a1.95 1.95 0 0 1-2.7-2.81l1.62-1.53H4.8a2.58 2.58 0 0 1 0-5.16Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+    <path d="M4.8 9.42h8.63l-1.62-1.53a1.95 1.95 0 0 1 2.7-2.81l5.83 5.53c.37.35.58.79.61 1.22l-6.94-5.51-.67.54 3.9 4.1H4.8c-.68 0-1.14.41-1.27.93H2.22A2.58 2.58 0 0 1 4.8 9.42Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+    </g>
+</symbol>
+<symbol id="usk-icon-arrow-right" viewBox="0 0 24 24">
+  <title>Arrow right</title>
+  <path d="M4.8 9.42h8.63l-1.62-1.53a1.95 1.95 0 0 1 2.7-2.81l5.83 5.53a1.9 1.9 0 0 1 0 2.78l-5.83 5.53a1.95 1.95 0 0 1-2.7-2.81l1.62-1.53H4.8a2.58 2.58 0 0 1 0-5.16Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+    <path d="M4.8 9.42h8.63l-1.62-1.53a1.95 1.95 0 0 1 2.7-2.81l5.83 5.53c.37.35.58.79.61 1.22l-6.94-5.51-.67.54 3.9 4.1H4.8c-.68 0-1.14.41-1.27.93H2.22A2.58 2.58 0 0 1 4.8 9.42Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-arrow-up" viewBox="0 0 24 24">
+  <title>Arrow up</title>
+  <g transform="rotate(-90 12 12)">
+    <path d="M4.8 9.42h8.63l-1.62-1.53a1.95 1.95 0 0 1 2.7-2.81l5.83 5.53a1.9 1.9 0 0 1 0 2.78l-5.83 5.53a1.95 1.95 0 0 1-2.7-2.81l1.62-1.53H4.8a2.58 2.58 0 0 1 0-5.16Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+    <path d="M4.8 9.42h8.63l-1.62-1.53a1.95 1.95 0 0 1 2.7-2.81l5.83 5.53c.37.35.58.79.61 1.22l-6.94-5.51-.67.54 3.9 4.1H4.8c-.68 0-1.14.41-1.27.93H2.22A2.58 2.58 0 0 1 4.8 9.42Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+    </g>
+</symbol>
+<symbol id="usk-icon-arrow-down" viewBox="0 0 24 24">
+  <title>Arrow down</title>
+  <g transform="rotate(90 12 12)">
+    <path d="M4.8 9.42h8.63l-1.62-1.53a1.95 1.95 0 0 1 2.7-2.81l5.83 5.53a1.9 1.9 0 0 1 0 2.78l-5.83 5.53a1.95 1.95 0 0 1-2.7-2.81l1.62-1.53H4.8a2.58 2.58 0 0 1 0-5.16Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+    <path d="M4.8 9.42h8.63l-1.62-1.53a1.95 1.95 0 0 1 2.7-2.81l5.83 5.53c.37.35.58.79.61 1.22l-6.94-5.51-.67.54 3.9 4.1H4.8c-.68 0-1.14.41-1.27.93H2.22A2.58 2.58 0 0 1 4.8 9.42Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+    </g>
+</symbol>
+<symbol id="usk-icon-chevron-left" viewBox="0 0 24 24">
+  <title>Chevron left</title>
+  <g transform="translate(24 0) scale(-1 1)">
+    <path d="M8.66 4.82a1.68 1.68 0 0 1 1.2.49l5.72 5.53a1.64 1.64 0 0 1 0 2.36l-5.72 5.49a1.68 1.68 0 1 1-2.33-2.42L11.98 12 7.53 7.73a1.68 1.68 0 0 1 1.13-2.91Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+    <path d="M8.66 4.82a1.68 1.68 0 0 1 1.2.49l5.72 5.53c.41.39.52.88.47 1.29L8.95 6.37a1.56 1.56 0 0 0-1.93.08 1.68 1.68 0 0 1 1.64-1.63Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+    </g>
+</symbol>
+<symbol id="usk-icon-chevron-right" viewBox="0 0 24 24">
+  <title>Chevron right</title>
+  <path d="M8.66 4.82a1.68 1.68 0 0 1 1.2.49l5.72 5.53a1.64 1.64 0 0 1 0 2.36l-5.72 5.49a1.68 1.68 0 1 1-2.33-2.42L11.98 12 7.53 7.73a1.68 1.68 0 0 1 1.13-2.91Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+    <path d="M8.66 4.82a1.68 1.68 0 0 1 1.2.49l5.72 5.53c.41.39.52.88.47 1.29L8.95 6.37a1.56 1.56 0 0 0-1.93.08 1.68 1.68 0 0 1 1.64-1.63Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-chevron-up" viewBox="0 0 24 24">
+  <title>Chevron up</title>
+  <g transform="rotate(-90 12 12)">
+    <path d="M8.66 4.82a1.68 1.68 0 0 1 1.2.49l5.72 5.53a1.64 1.64 0 0 1 0 2.36l-5.72 5.49a1.68 1.68 0 1 1-2.33-2.42L11.98 12 7.53 7.73a1.68 1.68 0 0 1 1.13-2.91Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+    <path d="M8.66 4.82a1.68 1.68 0 0 1 1.2.49l5.72 5.53c.41.39.52.88.47 1.29L8.95 6.37a1.56 1.56 0 0 0-1.93.08 1.68 1.68 0 0 1 1.64-1.63Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+    </g>
+</symbol>
+<symbol id="usk-icon-chevron-down" viewBox="0 0 24 24">
+  <title>Chevron down</title>
+  <g transform="rotate(90 12 12)">
+    <path d="M8.66 4.82a1.68 1.68 0 0 1 1.2.49l5.72 5.53a1.64 1.64 0 0 1 0 2.36l-5.72 5.49a1.68 1.68 0 1 1-2.33-2.42L11.98 12 7.53 7.73a1.68 1.68 0 0 1 1.13-2.91Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+    <path d="M8.66 4.82a1.68 1.68 0 0 1 1.2.49l5.72 5.53c.41.39.52.88.47 1.29L8.95 6.37a1.56 1.56 0 0 0-1.93.08 1.68 1.68 0 0 1 1.64-1.63Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+    </g>
+</symbol>
+<symbol id="usk-icon-edit" viewBox="0 0 24 24">
+  <title>Edit</title>
+  <path d="m4.06 15.62 11.28-11.3a3 3 0 0 1 4.24 0l.18.18a3 3 0 0 1 0 4.24L8.43 20.07l-4.82.63a.42.42 0 0 1-.47-.48Zm1.56 1.28-.39 1.73 1.74-.4 1.32-1.33-1.32-1.35Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+    <path d="M8.18 13.7 16.32 5.53a1.47 1.47 0 0 1 2.08.01l.15.15a1.47 1.47 0 0 1 0 2.08L10.4 15.9l-1.21-1.22 7.76-7.78-.66-.66-7.77 7.78Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-upload" viewBox="0 0 24 24">
+  <title>Upload</title>
+  <g transform="rotate(180 12 8.99)">
+    <path d="M10.59 4.5a1.41 1.41 0 1 1 2.82 0v6.02l1.74-1.66a1.36 1.36 0 0 1 1.88 1.96l-4.08 3.95a1.37 1.37 0 0 1-1.9 0l-4.08-3.95a1.36 1.36 0 0 1 1.88-1.96l1.74 1.66Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+    <path d="M10.59 4.5a1.41 1.41 0 0 1 2.7-.55h-.5c-.64 0-.99.42-.99 1.03v6.65l-1.21-1.11Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+    </g>
+    <path d="M3.17 14.16a1.3 1.3 0 1 1 2.6 0v2.17c0 1.06.64 1.65 1.72 1.65h9.02c1.08 0 1.72-.59 1.72-1.65v-2.17a1.3 1.3 0 1 1 2.6 0v2.17c0 2.54-1.74 4.25-4.32 4.25H7.49c-2.58 0-4.32-1.71-4.32-4.25Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+    <path d="M3.17 14.16a1.3 1.3 0 0 1 2.55-.34c-.72-.29-1.12.19-1.12.88v1.63c0 1.3.58 2.14 1.52 2.63-1.76-.46-2.95-1.56-2.95-3.35Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-filter" viewBox="0 0 24 24">
+  <title>Filter</title>
+  <path d="M5.31 4.62h13.38a1.99 1.99 0 0 1 1.44 3.36l-5.77 5.78v3.51a1.57 1.57 0 0 1-.81 1.38l-2.78 1.58a.9.9 0 0 1-1.34-.79v-5.68L3.87 7.98a1.99 1.99 0 0 1 1.44-3.36Zm.48 2.04 5.51 5.72v4.46l1.03-.59v-3.9l5.69-5.69Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+    <path d="M5.31 4.62h13.38c.98 0 1.75.59 1.96 1.48-.64-.27-1.29-.35-2.17-.35H5.47a1.22 1.22 0 0 0-1.17 1.62 1.99 1.99 0 0 1 1.01-2.75Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-grid" viewBox="0 0 24 24">
+  <title>Grid</title>
+  <path d="M6.14 3.2h11.72a2.94 2.94 0 0 1 2.94 2.94v11.72a2.94 2.94 0 0 1-2.94 2.94H6.14a2.94 2.94 0 0 1-2.94-2.94V6.14A2.94 2.94 0 0 1 6.14 3.2Zm.22 2.21a.95.95 0 0 0-.95.95v3.52c0 .52.42.95.95.95h3.52c.52 0 .95-.43.95-.95V6.36a.95.95 0 0 0-.95-.95Zm7.76 0a.95.95 0 0 0-.95.95v3.52c0 .52.43.95.95.95h3.52c.53 0 .95-.43.95-.95V6.36a.95.95 0 0 0-.95-.95Zm-7.76 7.76a.95.95 0 0 0-.95.95v3.52c0 .53.42.95.95.95h3.52c.52 0 .95-.42.95-.95v-3.52a.95.95 0 0 0-.95-.95Zm7.76 0a.95.95 0 0 0-.95.95v3.52c0 .53.43.95.95.95h3.52c.53 0 .95-.42.95-.95v-3.52a.95.95 0 0 0-.95-.95Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+    <path d="M3.2 6.14A2.94 2.94 0 0 1 6.14 3.2h11.72c1.18 0 2.18.69 2.65 1.68-.82-.44-1.43-.52-2.65-.52H6.14c-.98 0-1.71.74-1.71 1.78v11.72c0 1.19.1 1.81.49 2.66a2.94 2.94 0 0 1-1.72-2.66Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-eye" viewBox="0 0 24 24">
+  <title>Eye</title>
+  <path d="M2.79 12c2.26-3.75 5.32-5.69 9.21-5.69s6.95 1.94 9.21 5.69c-2.26 3.75-5.32 5.69-9.21 5.69S5.05 15.75 2.79 12Zm2.49 0c1.76 2.57 3.99 3.79 6.72 3.79 2.79 0 4.98-1.22 6.72-3.79-1.74-2.57-3.93-3.79-6.72-3.79-2.73 0-4.96 1.22-6.72 3.79Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+    <path d="M12 9.4a2.6 2.6 0 1 1 0 5.2 2.6 2.6 0 0 1 0-5.2Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-lock" viewBox="0 0 24 24">
+  <title>Lock</title>
+  <path d="M6.91 9.27V7.79a5.09 5.09 0 1 1 10.18 0v1.48a3.25 3.25 0 0 1 2.6 3.17v4.76c0 1.79-1.43 3.25-3.22 3.25H7.53a3.22 3.22 0 0 1-3.22-3.25v-4.76c0-1.55 1.13-2.88 2.6-3.17Zm2.33-.06h5.52V7.79a2.76 2.76 0 1 0-5.52 0Zm2.76 3.13a1.43 1.43 0 0 0-.82 2.61v2.07a.82.82 0 1 0 1.64 0v-2.07a1.43 1.43 0 0 0-.82-2.61Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+    <path d="M4.31 12.44a3.22 3.22 0 0 1 3.22-3.23h8.94a3.22 3.22 0 0 1 2.79 1.61c-.79-.38-1.7-.47-2.79-.47H7.53c-1.17 0-1.91.95-1.91 2.09v4.76c0 1.33.34 2.2.91 3.09-1.3-.45-2.22-1.66-2.22-3.09Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-info" viewBox="0 0 24 24">
+  <title>Info</title>
+  <path d="M12.02 3.24c5.49 0 8.71 3.33 8.71 8.65 0 5.39-3.25 8.87-8.71 8.87-5.35 0-8.75-3.29-8.75-8.87 0-5.33 3.37-8.65 8.75-8.65Z M12 7.2a1.14 1.14 0 1 0 0 2.28 1.14 1.14 0 0 0 0-2.28Zm-1.01 4.28v4.76a1.01 1.01 0 0 0 2.02 0v-4.76a1.01 1.01 0 0 0-2.02 0Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+    <path d="M12.02 3.24c3.26 0 5.83 1.26 7.26 3.48-1.69-1.22-4.23-1.77-7.26-1.77-4.15 0-6.99 2.7-7.18 6.77-.12 2.48.37 4.49 1.57 6.03-2.04-1.37-3.14-3.32-3.14-5.86 0-5.33 3.37-8.65 8.75-8.65Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-success" viewBox="0 0 24 24">
+  <title>Success</title>
+  <path d="M12.02 3.24c5.49 0 8.71 3.33 8.71 8.65 0 5.39-3.25 8.87-8.71 8.87-5.35 0-8.75-3.29-8.75-8.87 0-5.33 3.37-8.65 8.75-8.65Z M7.35 11.85q-.63.65.04 1.28l2.68 2.56q.75.69 1.46.02l4.93-4.8q.65-.63.02-1.32-.6-.65-1.3-.01l-4.42 4.1-2.12-1.89q-.68-.63-1.29.06Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+    <path d="M12.02 3.24c3.26 0 5.83 1.26 7.26 3.48-1.69-1.22-4.23-1.77-7.26-1.77-4.15 0-6.99 2.7-7.18 6.77-.12 2.48.37 4.49 1.57 6.03-2.04-1.37-3.14-3.32-3.14-5.86 0-5.33 3.37-8.65 8.75-8.65Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-error" viewBox="0 0 24 24">
+  <title>Error</title>
+  <path d="M12.02 3.24c5.49 0 8.71 3.33 8.71 8.65 0 5.39-3.25 8.87-8.71 8.87-5.35 0-8.75-3.29-8.75-8.87 0-5.33 3.37-8.65 8.75-8.65Z M8.12 8.46q-.64.63.02 1.3L10.38 12l-2.24 2.24q-.66.67-.02 1.3.65.64 1.3-.02L11.67 13.3l2.24 2.22q.65.66 1.3.02.64-.63-.02-1.3L12.96 12l2.23-2.24q.66-.67.02-1.3-.65-.64-1.3.02l-2.24 2.22-2.25-2.22q-.65-.66-1.3-.02Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+    <path d="M12.02 3.24c3.26 0 5.83 1.26 7.26 3.48-1.69-1.22-4.23-1.77-7.26-1.77-4.15 0-6.99 2.7-7.18 6.77-.12 2.48.37 4.49 1.57 6.03-2.04-1.37-3.14-3.32-3.14-5.86 0-5.33 3.37-8.65 8.75-8.65Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-help" viewBox="0 0 24 24">
+  <title>Help</title>
+  <path d="M12.02 3.24c5.49 0 8.71 3.33 8.71 8.65 0 5.39-3.25 8.87-8.71 8.87-5.35 0-8.75-3.29-8.75-8.87 0-5.33 3.37-8.65 8.75-8.65Z M8.45 9.25c.4-1.45 1.71-2.34 3.53-2.34 1.99 0 3.36 1.11 3.36 2.67 0 1.34-.74 1.98-1.75 2.67-.6.4-.78.7-.79 1.26h-1.82c.01-1.08.44-1.82 1.38-2.48.73-.51.98-.82.98-1.33 0-.53-.46-.92-1.28-.92-.81 0-1.31.38-1.51 1.05Zm3.49 5.33a1.16 1.16 0 1 0 0 2.32 1.16 1.16 0 0 0 0-2.32Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+    <path d="M12.02 3.24c3.26 0 5.83 1.26 7.26 3.48-1.69-1.22-4.23-1.77-7.26-1.77-4.15 0-6.99 2.7-7.18 6.77-.12 2.48.37 4.49 1.57 6.03-2.04-1.37-3.14-3.32-3.14-5.86 0-5.33 3.37-8.65 8.75-8.65Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-checkbox" viewBox="0 0 24 24">
+  <title>Checkbox</title>
+  <path d="M7.38 3.85h9.24a3.53 3.53 0 0 1 3.53 3.53v9.24a3.53 3.53 0 0 1-3.53 3.53H7.38a3.53 3.53 0 0 1-3.53-3.53V7.38a3.53 3.53 0 0 1 3.53-3.53Z M7.55 6.16a1.39 1.39 0 0 0-1.39 1.39v8.9c0 .77.62 1.39 1.39 1.39h8.9c.77 0 1.39-.62 1.39-1.39v-8.9c0-.77-.62-1.39-1.39-1.39Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+    <path d="M7.38 3.85h9.24c1.39 0 2.65.84 3.19 2.07-1.03-.45-2-.5-3.19-.5H7.38A1.96 1.96 0 0 0 5.42 7.38v9.24c0 1.19.05 2.16.5 3.19a3.53 3.53 0 0 1-2.07-3.19V7.38a3.53 3.53 0 0 1 3.53-3.53Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-checkbox-checked" viewBox="0 0 24 24">
+  <title>Checkbox checked</title>
+  <path d="M7.38 3.85h9.24a3.53 3.53 0 0 1 3.53 3.53v9.24a3.53 3.53 0 0 1-3.53 3.53H7.38a3.53 3.53 0 0 1-3.53-3.53V7.38a3.53 3.53 0 0 1 3.53-3.53Z M7.35 11.85q-.63.65.04 1.28l2.68 2.56q.75.69 1.46.02l4.93-4.8q.65-.63.02-1.32-.6-.65-1.3-.01l-4.42 4.1-2.12-1.89q-.68-.63-1.29.06Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+    <path d="M7.38 3.85h9.24c1.39 0 2.65.84 3.19 2.07-1.03-.45-2-.5-3.19-.5H7.38A1.96 1.96 0 0 0 5.42 7.38v9.24c0 1.19.05 2.16.5 3.19a3.53 3.53 0 0 1-2.07-3.19V7.38a3.53 3.53 0 0 1 3.53-3.53Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-checkbox-indeterminate" viewBox="0 0 24 24">
+  <title>Checkbox indeterminate</title>
+  <path d="M7.38 3.85h9.24a3.53 3.53 0 0 1 3.53 3.53v9.24a3.53 3.53 0 0 1-3.53 3.53H7.38a3.53 3.53 0 0 1-3.53-3.53V7.38a3.53 3.53 0 0 1 3.53-3.53Z M8.63 10.92h6.74a1.08 1.08 0 1 1 0 2.16H8.63a1.08 1.08 0 1 1 0-2.16Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+    <path d="M7.38 3.85h9.24c1.39 0 2.65.84 3.19 2.07-1.03-.45-2-.5-3.19-.5H7.38A1.96 1.96 0 0 0 5.42 7.38v9.24c0 1.19.05 2.16.5 3.19a3.53 3.53 0 0 1-2.07-3.19V7.38a3.53 3.53 0 0 1 3.53-3.53Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-radio" viewBox="0 0 24 24">
+  <title>Radio</title>
+  <path d="M12 3.83a8.17 8.17 0 1 1 0 16.34 8.17 8.17 0 1 1 0-16.34Zm.14 2.46a5.73 5.73 0 1 0 0 11.46 5.73 5.73 0 1 0 0-11.46Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+    <path d="M12 3.83a8.17 8.17 0 0 1 6.11 2.74 8.04 8.04 0 0 0-6.02-1.13 6.08 6.08 0 0 0-5.3 6.15 8.18 8.18 0 0 0 1.04 5.07 8.17 8.17 0 0 1 4.17-12.83Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-radio-selected" viewBox="0 0 24 24">
+  <title>Radio selected</title>
+  <path d="M12 3.83a8.17 8.17 0 1 1 0 16.34 8.17 8.17 0 1 1 0-16.34Zm.14 2.46a5.73 5.73 0 1 0 0 11.46 5.73 5.73 0 1 0 0-11.46Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+    <path d="M12 3.83a8.17 8.17 0 0 1 6.11 2.74 8.04 8.04 0 0 0-6.02-1.13 6.08 6.08 0 0 0-5.3 6.15 8.18 8.18 0 0 0 1.04 5.07 8.17 8.17 0 0 1 4.17-12.83Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+    <path d="M12.12 8.5a3.5 3.5 0 1 1 0 7 3.5 3.5 0 0 1 0-7Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-eye-off" viewBox="0 0 24 24">
+  <title>Eye off</title>
+  <path d="M4.11 12q1.3-2.28 3.59-3.4m3.55-1.33c3.53-.25 6.55 1.39 8.64 4.73-.66 1.13-1.48 2.1-2.44 2.87m-2.6 1.55a8.8 8.8 0 0 1-2.85.45c-3.17 0-5.97-1.62-7.89-4.87" stroke="currentColor" stroke-width="1.93" style="stroke:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+    <path d="M4.59 4.55 19.41 19.45" stroke="currentColor" stroke-width="2.34" style="stroke:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-refresh" viewBox="0 0 24 24">
+  <title>Refresh</title>
+  <path d="M5.08 10.36a7.12 7.12 0 0 1 12.63-3.23l.9 1.06m-.01-3.2v3.38h-3.41" stroke="currentColor" stroke-width="2.27" style="stroke:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+    <path d="M18.92 13.64a7.12 7.12 0 0 1-12.63 3.23l-.9-1.06m.01 3.2v-3.38h3.41" stroke="currentColor" stroke-width="2.27" style="stroke:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-external-link" viewBox="0 0 24 24">
+  <title>External link</title>
+  <path d="M10.57 6.93H7.86a2.74 2.74 0 0 0-2.74 2.74v6.49a2.74 2.74 0 0 0 2.74 2.74h6.49a2.74 2.74 0 0 0 2.74-2.74v-2.71" stroke="currentColor" stroke-width="2.36" style="stroke:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+    <path d="M13.02 5.12h5.86v5.86m-.06-5.73-7.38 7.38" stroke="currentColor" stroke-width="2.44" style="stroke:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-undo" viewBox="0 0 24 24">
+  <title>Undo</title>
+  <path d="M8.47 4.78a1.3 1.3 0 0 1 1.76 1.92L8.15 8.63h6.83c3.34 0 5.46 2.17 5.46 5.37 0 3.16-2.21 5.43-5.3 5.43h-3.2a1.3 1.3 0 0 1 0-2.6h3.2c1.58 0 2.7-1.13 2.7-2.83 0-1.69-1.1-2.77-2.86-2.77H8.15l2.08 1.93a1.3 1.3 0 0 1-1.76 1.92l-4.38-4.2a1.3 1.3 0 0 1 0-1.88Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+    <path d="M8.47 4.78a1.3 1.3 0 0 1 1.94.21c-.66-.13-1.12.1-1.55.52L4.73 9.59c-.32.31-.53.58-.64 1.29a1.3 1.3 0 0 1 0-1.88Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-redo" viewBox="0 0 24 24">
+  <title>Redo</title>
+  <g transform="translate(24 0) scale(-1 1)">
+    <path d="M8.47 4.78a1.3 1.3 0 0 1 1.76 1.92L8.15 8.63h6.83c3.34 0 5.46 2.17 5.46 5.37 0 3.16-2.21 5.43-5.3 5.43h-3.2a1.3 1.3 0 0 1 0-2.6h3.2c1.58 0 2.7-1.13 2.7-2.83 0-1.69-1.1-2.77-2.86-2.77H8.15l2.08 1.93a1.3 1.3 0 0 1-1.76 1.92l-4.38-4.2a1.3 1.3 0 0 1 0-1.88Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+    <path d="M8.47 4.78a1.3 1.3 0 0 1 1.94.21c-.66-.13-1.12.1-1.55.52L4.73 9.59c-.32.31-.53.58-.64 1.29a1.3 1.3 0 0 1 0-1.88Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+    </g>
+</symbol>
+<symbol id="usk-icon-toggle-off" viewBox="0 0 24 24">
+  <title>Toggle off</title>
+  <path d="M8.4 5.24h7.2a6.76 6.76 0 1 1 0 13.52H8.4a6.76 6.76 0 1 1 0-13.52Zm0 2.01a4.75 4.75 0 1 0 0 9.5h7.2a4.75 4.75 0 1 0 0-9.5Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+    <path d="M8.4 5.24h7.2a6.76 6.76 0 0 1 5.59 2.95 7.05 7.05 0 0 0-5.59-1.73H8.4a5.52 5.52 0 0 0-5.39 5.44H1.64A6.76 6.76 0 0 1 8.4 5.24Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+    <path d="M8.39 8.37a3.63 3.63 0 1 1 0 7.26 3.63 3.63 0 1 1 0-7.26Z M8.39 10.38a1.62 1.62 0 1 0 0 3.24 1.62 1.62 0 0 0 0-3.24Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-toggle-on" viewBox="0 0 24 24">
+  <title>Toggle on</title>
+  <path d="M8.4 5.24h7.2a6.76 6.76 0 1 1 0 13.52H8.4a6.76 6.76 0 1 1 0-13.52Zm0 2.01a4.75 4.75 0 1 0 0 9.5h7.2a4.75 4.75 0 1 0 0-9.5Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+    <path d="M8.4 5.24h7.2a6.76 6.76 0 0 1 5.59 2.95 7.05 7.05 0 0 0-5.59-1.73H8.4a5.52 5.52 0 0 0-5.39 5.44H1.64A6.76 6.76 0 0 1 8.4 5.24Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+    <g transform="translate(7.22 0)">
+    <path d="M8.39 8.37a3.63 3.63 0 1 1 0 7.26 3.63 3.63 0 1 1 0-7.26Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+    </g>
+</symbol>
+<symbol id="usk-icon-file" viewBox="0 0 24 24">
+  <title>File</title>
+  <path d="M7.13 3.18h5.79c.72 0 1.39.28 1.9.79l3.55 3.55c.51.51.79 1.18.79 1.9v8.49a2.91 2.91 0 0 1-2.91 2.91H7.13a2.91 2.91 0 0 1-2.91-2.91V6.09a2.91 2.91 0 0 1 2.91-2.91Zm0 2.15c-.42 0-.76.34-.76.76v11.82c0 .42.34.76.76.76h9.12c.42 0 .76-.34.76-.76v-7.55h-2.67a2.28 2.28 0 0 1-2.28-2.28V5.33Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+    <path d="M12.92 3.18c.72 0 1.39.28 1.9.79l3.55 3.55c.51.51.79 1.18.79 1.9h-4.82c-.74 0-1.42-.62-1.42-1.35Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+    <path d="M8.96 12.51h5.64m-5.64 2.86h4.14" stroke="currentColor" stroke-width="1.39" style="stroke:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-copy" viewBox="0 0 24 24">
+  <title>Copy</title>
+  <path d="M12.65 4.21H6.43a2.19 2.19 0 0 0-2.19 2.19v8.67c0 1.21.98 2.19 2.19 2.19" stroke="currentColor" stroke-width="2.19" style="stroke:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+    <path d="M10.97 7.13h4.33c.61 0 1.15.21 1.56.62l2.41 2.41c.41.41.62.95.62 1.56v6.53a2.41 2.41 0 0 1-2.41 2.41h-6.51a2.41 2.41 0 0 1-2.41-2.41V9.54a2.41 2.41 0 0 1 2.41-2.41Zm0 1.97c-.24 0-.44.2-.44.44v8.71c0 .24.2.44.44.44h6.51c.24 0 .44-.2.44-.44v-6.2h-1.76a1.9 1.9 0 0 1-1.9-1.9V9.1Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-save" viewBox="0 0 24 24">
+  <title>Save</title>
+  <path d="M6.7 3.57h9.43c.81 0 1.46.27 2.01.83l1.45 1.45c.56.55.84 1.23.84 2.01v9.44a3.13 3.13 0 0 1-3.13 3.13H6.7a3.13 3.13 0 0 1-3.13-3.13V6.7A3.13 3.13 0 0 1 6.7 3.57Zm0 2.05c-.59 0-1.08.49-1.08 1.08v10.6c0 .59.49 1.08 1.08 1.08h.64V13.3c0-1.04.84-1.88 1.88-1.88h5.56c1.04 0 1.88.84 1.88 1.88v5.08h.64c.59 0 1.08-.49 1.08-1.08V7.86c0-.24-.07-.39-.23-.55l-1.46-1.46a.72.72 0 0 0-.56-.23h-.78v2.12a1.62 1.62 0 0 1-1.62 1.62h-3.46a1.62 1.62 0 0 1-1.62-1.62V5.62Zm2.59 7.75v5.01h5.42v-5.01Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+    <path d="M10.56 5.62h2.88v1.84h-2.88Zm-.17 9.21h3.22v1.45h-3.22Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-image" viewBox="0 0 24 24">
+  <title>Image</title>
+  <path d="M6.87 4.5h10.26a3.8 3.8 0 0 1 3.8 3.8v7.4a3.8 3.8 0 0 1-3.8 3.8H6.87a3.8 3.8 0 0 1-3.8-3.8V8.3a3.8 3.8 0 0 1 3.8-3.8Zm0 2.14c-.92 0-1.66.74-1.66 1.66v7.4c0 .92.74 1.66 1.66 1.66h10.26c.92 0 1.66-.74 1.66-1.66V8.3c0-.92-.74-1.66-1.66-1.66Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+    <path d="M6.45 15.47 9.28 12a1.01 1.01 0 0 1 1.58 0l1.15 1.4 2.2-2.92a1.03 1.03 0 0 1 1.64-.02l2.21 2.85v2.54c0 .55-.45.99-1 .99H7.45c-.55 0-1-.44-1-.99Zm2.54-7.72a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 1 1 0-2.5Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-camera" viewBox="0 0 24 24">
+  <title>Camera</title>
+  <path d="M6.47 6.37h2.16l.85-1.48a1.87 1.87 0 0 1 1.62-.94h2.41c.68 0 1.29.36 1.62.94l.85 1.48h1.55a3.78 3.78 0 0 1 3.78 3.78v5.85a3.78 3.78 0 0 1-3.78 3.78H6.47A3.78 3.78 0 0 1 2.69 16v-5.85a3.78 3.78 0 0 1 3.78-3.78Zm5.54 2.41a4.31 4.31 0 1 0 0 8.62 4.31 4.31 0 1 0 0-8.62Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+    <path d="M2.69 10.15a3.78 3.78 0 0 1 3.78-3.78h2.16l.85-1.48a1.87 1.87 0 0 1 1.62-.94h2.41c.61 0 1.11.27 1.47.73l-3.64.64-1.19 2.46H6.47a2.36 2.36 0 0 0-2.36 2.37v2.42H2.69Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+    <path d="M12.01 10.52a2.57 2.57 0 1 1 0 5.14 2.57 2.57 0 1 1 0-5.14Zm-.16 1.03a1.3 1.3 0 1 0 0 2.6 1.3 1.3 0 1 0 0-2.6Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-play" viewBox="0 0 24 24">
+  <title>Play</title>
+  <path d="M6.55 5.14c0-1.21 1.22-1.85 2.25-1.24l11.31 6.7a1.65 1.65 0 0 1 0 2.8L8.8 20.1c-1.03.61-2.25-.03-2.25-1.24Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+    <path d="M6.55 5.14c0-1.21 1.22-1.85 2.25-1.24l11.31 6.7c.55.33.83.83.83 1.39L8.77 5.92c-.47-.23-.82.02-.82.53v12.6c0 .42.06.76.16 1.12-.91.05-1.56-.44-1.56-1.31Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-pause" viewBox="0 0 24 24">
+  <title>Pause</title>
+  <path d="M6.6 4.59h1.73c.91 0 1.65.74 1.65 1.65v11.52c0 .91-.74 1.65-1.65 1.65H6.6c-.91 0-1.65-.74-1.65-1.65V6.24c0-.91.74-1.65 1.65-1.65Zm9.07 0h1.73c.91 0 1.65.74 1.65 1.65v11.52c0 .91-.74 1.65-1.65 1.65h-1.73c-.91 0-1.65-.74-1.65-1.65V6.24c0-.91.74-1.65 1.65-1.65Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+    <path d="M6.6 4.59h1.73c.54 0 1.02.27 1.32.67L7.1 5.8c-.53.11-.69.39-.69.92v11.04c0 .59.09 1.1.3 1.65H6.6c-.91 0-1.65-.74-1.65-1.65V6.24c0-.91.74-1.65 1.65-1.65Zm9.07 0h1.73c.54 0 1.02.27 1.32.67l-2.55.54c-.53.11-.69.39-.69.92v11.04c0 .59.09 1.1.3 1.65h-.11c-.91 0-1.65-.74-1.65-1.65V6.24c0-.91.74-1.65 1.65-1.65Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-stop" viewBox="0 0 24 24">
+  <title>Stop</title>
+  <path d="M7.57 4.42h8.86a3.15 3.15 0 0 1 3.15 3.15v8.86a3.15 3.15 0 0 1-3.15 3.15H7.57a3.15 3.15 0 0 1-3.15-3.15V7.57a3.15 3.15 0 0 1 3.15-3.15Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+    <path d="M7.57 4.42h8.86c1.21 0 2.26.68 2.79 1.67-.97-.33-1.71-.38-2.8-.38H7.7a1.98 1.98 0 0 0-1.98 1.98v8.71c0 1.09.06 1.83.39 2.8a3.15 3.15 0 0 1-1.69-2.77V7.57a3.15 3.15 0 0 1 3.15-3.15Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-skip-back" viewBox="0 0 24 24">
+  <title>Skip back</title>
+  <g transform="translate(24 0) scale(-1 1)">
+    <path d="M4.73 6.58c0-1.11 1.17-1.72 2.12-1.13l9.02 5.62a1.1 1.1 0 0 1 0 1.86l-9.02 5.62c-.95.59-2.12-.02-2.12-1.13Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+    <path d="M18.5 4.72h.01c.85 0 1.54.69 1.54 1.54v11.48c0 .85-.69 1.54-1.54 1.54-.85 0-1.54-.69-1.54-1.54V6.26c0-.85.68-1.54 1.53-1.54Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+    </g>
+</symbol>
+<symbol id="usk-icon-skip-forward" viewBox="0 0 24 24">
+  <title>Skip forward</title>
+  <path d="M4.73 6.58c0-1.11 1.17-1.72 2.12-1.13l9.02 5.62a1.1 1.1 0 0 1 0 1.86l-9.02 5.62c-.95.59-2.12-.02-2.12-1.13Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+    <path d="M18.5 4.72h.01c.85 0 1.54.69 1.54 1.54v11.48c0 .85-.69 1.54-1.54 1.54-.85 0-1.54-.69-1.54-1.54V6.26c0-.85.68-1.54 1.53-1.54Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-volume" viewBox="0 0 24 24">
+  <title>Volume</title>
+  <path d="M5.7 8.33h2.14l3.95-3.15c1-.79 2.48-.12 2.48 1.16v11.32c0 1.28-1.48 1.95-2.48 1.16l-3.95-3.15H5.7a2.45 2.45 0 0 1-2.45-2.45v-2.44A2.45 2.45 0 0 1 5.7 8.33Zm.08 2.2c-.24 0-.43.2-.43.43v2.08c0 .23.19.43.43.43h2.81l3.61 2.84V7.69l-3.61 2.84Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+    <path d="M16.56 9.22a4.24 4.24 0 0 1 0 5.56m2.28-8.2a7.64 7.64 0 0 1 0 10.84" stroke="currentColor" stroke-width="1.8" style="stroke:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-volume-off" viewBox="0 0 24 24">
+  <title>Volume off</title>
+  <path d="M5.7 8.33h2.14l3.95-3.15c1-.79 2.48-.12 2.48 1.16v11.32c0 1.28-1.48 1.95-2.48 1.16l-3.95-3.15H5.7a2.45 2.45 0 0 1-2.45-2.45v-2.44A2.45 2.45 0 0 1 5.7 8.33Zm.08 2.2c-.24 0-.43.2-.43.43v2.08c0 .23.19.43.43.43h2.81l3.61 2.84V7.69l-3.61 2.84Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+    <path d="M16.55 9.89 20.8 14.11m-.01-4.22-4.24 4.22" stroke="currentColor" stroke-width="2.11" style="stroke:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-microphone" viewBox="0 0 24 24">
+  <title>Microphone</title>
+  <path d="M12 2.87a3.77 3.77 0 0 1 3.77 3.77v4.65a3.77 3.77 0 0 1-7.54 0V6.64A3.77 3.77 0 0 1 12 2.87Zm0 2.03c-.96 0-1.74.78-1.74 1.74v4.65a1.74 1.74 0 0 0 3.48 0V6.64c0-.96-.78-1.74-1.74-1.74Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+    <path d="M5.86 10.99v.43a6.14 6.14 0 0 0 12.28 0v-.43M12 17.57v3.01m-2.82 0h5.64" stroke="currentColor" stroke-width="2.05" style="stroke:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-attachment" viewBox="0 0 24 24">
+  <title>Attachment</title>
+  <path d="m6.32 12.56 7.79-7.9a4.18 4.18 0 0 1 5.93 5.89l-8.24 8.28a4.68 4.68 0 0 1-6.63-6.61l6.8-6.85" stroke="currentColor" stroke-width="2.16" style="stroke:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+    <path d="m8.21 11.42-1.72 1.75a2.63 2.63 0 0 0 3.72 3.71l7.43-7.48a1.19 1.19 0 0 0-1.69-1.69l-5.86 5.94" stroke="currentColor" stroke-width="1.66" style="stroke:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-print" viewBox="0 0 24 24">
+  <title>Print</title>
+  <path d="M6.08 7.77V5.95a2.68 2.68 0 0 1 2.68-2.68h6.48a2.68 2.68 0 0 1 2.68 2.68v1.82h.24a3.33 3.33 0 0 1 3.33 3.33v3.18a3.33 3.33 0 0 1-3.33 3.33h-.55v.56a2.56 2.56 0 0 1-2.56 2.56h-6.1a2.56 2.56 0 0 1-2.56-2.56v-.56h-.55a3.33 3.33 0 0 1-3.33-3.33V11.1a3.33 3.33 0 0 1 3.33-3.33Zm2.05 0h7.74V5.95c0-.35-.28-.63-.63-.63H8.76c-.35 0-.63.28-.63.63ZM5.84 9.81a1.29 1.29 0 0 0-1.29 1.29v3.18c0 .71.58 1.29 1.29 1.29h.55v-1.9h11.22v1.9h.55c.71 0 1.29-.58 1.29-1.29V11.1c0-.71-.58-1.29-1.29-1.29Zm2.59 5.9v2.46c0 .28.23.51.52.51h6.1c.29 0 .52-.23.52-.51v-2.46Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+    <path d="M16.43 11.57h.91m-6.95 5.61h3.22" stroke="currentColor" stroke-width="1.39" style="stroke:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-share" viewBox="0 0 24 24">
+  <title>Share</title>
+  <path d="m7.05 11.15 8.77-4.31m-8.77 6.01 8.77 4.31" stroke="currentColor" stroke-width="2.1" style="stroke:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+    <path d="M5.38 9.42a2.58 2.58 0 1 1 0 5.16 2.58 2.58 0 1 1 0-5.16Zm12.75-6.03a2.58 2.58 0 1 1 0 5.16 2.58 2.58 0 1 1 0-5.16Zm0 12.06a2.58 2.58 0 1 1 0 5.16 2.58 2.58 0 1 1 0-5.16Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-cart" viewBox="0 0 24 24">
+  <title>Cart</title>
+  <path d="M3.49 4.25h2.5c.9 0 1.39.51 1.62 1.23l.38 1.18h11.14a1.87 1.87 0 0 1 1.8 2.34l-1.31 4.64a2.71 2.71 0 0 1-2.61 1.98h-6.46a2.65 2.65 0 0 1-2.54-1.91L5.85 6.28H3.49a1.02 1.02 0 1 1 0-2.03Zm5.14 4.45 1.36 4.45c.08.27.3.43.56.43h6.46c.31 0 .53-.15.62-.45l1.25-4.43Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+    <path d="M10.66 17.34a1.91 1.91 0 1 1 0 3.82 1.91 1.91 0 1 1 0-3.82Zm6.45 0a1.91 1.91 0 1 1 0 3.82 1.91 1.91 0 1 1 0-3.82Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-credit-card" viewBox="0 0 24 24">
+  <title>Credit card</title>
+  <path d="M6.4 5.08h11.2a3.59 3.59 0 0 1 3.59 3.59v6.66a3.59 3.59 0 0 1-3.59 3.59H6.4a3.59 3.59 0 0 1-3.59-3.59V8.67A3.59 3.59 0 0 1 6.4 5.08Zm0 2.04c-.86 0-1.55.69-1.55 1.55v6.66c0 .86.69 1.55 1.55 1.55h11.2c.86 0 1.55-.69 1.55-1.55V8.67c0-.86-.69-1.55-1.55-1.55Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+    <path d="M4.85 9.25h14.3v2.18H4.85Zm2.75 4.04h3.24a.88.88 0 1 1 0 1.76H7.6a.88.88 0 1 1 0-1.76Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-receipt" viewBox="0 0 24 24">
+  <title>Receipt</title>
+  <path d="M5.13 4.73c0-.79.81-1.34 1.52-1.02l2.41 1.08 2.55-1.12a.94.94 0 0 1 .78 0l2.55 1.12 2.41-1.08c.71-.32 1.52.23 1.52 1.02v14.54c0 .79-.81 1.34-1.52 1.02l-2.41-1.08-2.55 1.12a.94.94 0 0 1-.78 0l-2.55-1.12-2.41 1.08c-.71.32-1.52-.23-1.52-1.02Zm2.01 1.55v11.44l1.57-.71a.85.85 0 0 1 .7 0l2.59 1.17 2.59-1.17a.85.85 0 0 1 .7 0l1.57.71V6.28l-1.57.71a.85.85 0 0 1-.7 0L12 5.82 9.41 6.99a.85.85 0 0 1-.7 0Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+    <path d="M9.13 9.18h5.74m-5.74 2.86h5.74m-5.74 2.8h3.52" stroke="currentColor" stroke-width="1.54" style="stroke:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-tag" viewBox="0 0 24 24">
+  <title>Tag</title>
+  <path d="M5.79 3.95h5.08c.91 0 1.75.35 2.4.99l6.12 6.04a3.27 3.27 0 0 1 .01 4.64l-3.77 3.77a3.27 3.27 0 0 1-4.64-.01l-6.04-6.12a3.4 3.4 0 0 1-.99-2.4V5.78c0-1.01.82-1.83 1.83-1.83Zm.29 2.13v4.78c0 .34.12.64.36.87l6.08 6.11a1.12 1.12 0 0 0 1.59 0l3.76-3.74a1.12 1.12 0 0 0 0-1.59l-6.13-6.07a1.21 1.21 0 0 0-.87-.36Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+    <path d="M8.57 7.33a1.6 1.6 0 1 1 0 3.2 1.6 1.6 0 1 1 0-3.2Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+    <path d="m13.95 15.4 1.49-1.47" stroke="currentColor" stroke-width="1.42" style="stroke:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-package" viewBox="0 0 24 24">
+  <title>Package</title>
+  <path d="M10.38 3.8a3.28 3.28 0 0 1 3.24 0l5.72 3.23a3.2 3.2 0 0 1 1.62 2.8v4.34a3.2 3.2 0 0 1-1.62 2.8l-5.72 3.23a3.28 3.28 0 0 1-3.24 0l-5.72-3.23a3.2 3.2 0 0 1-1.62-2.8V9.83a3.2 3.2 0 0 1 1.62-2.8Zm1.07 1.87L6.7 8.35 12 11.32l5.3-2.97-4.75-2.68a1.1 1.1 0 0 0-1.1 0Zm-6.28 4.16v4.34c0 .42.22.79.59 1l5.2 2.93v-4.92Zm7.87 3.35v4.92l5.2-2.93c.37-.21.59-.58.59-1V9.83Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+    <path d="m9.22 7.3 4.83 2.77v2.5" stroke="currentColor" stroke-width="1.46" style="stroke:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-warehouse" viewBox="0 0 24 24">
+  <title>Warehouse</title>
+  <path d="M3.12 10.53c0-1.2.59-2.2 1.62-2.78l5.67-3.2a3.22 3.22 0 0 1 3.18 0l5.67 3.2c1.03.58 1.62 1.58 1.62 2.78v6.71c0 1.41-1.02 2.43-2.43 2.43h-2.82v-2.05h2.82c.23 0 .38-.15.38-.38v-6.71c0-.45-.21-.8-.59-1.01l-5.67-3.2a1.17 1.17 0 0 0-1.14 0l-5.67 3.2c-.38.21-.59.56-.59 1.01v6.71c0 .23.15.38.38.38h2.82v2.05H5.55c-1.41 0-2.43-1.02-2.43-2.43Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+    <path d="M8.69 11.95h6.62m-6.62 3.35h6.62m-6.62 3.35h6.62" stroke="currentColor" stroke-width="1.78" style="stroke:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-truck" viewBox="0 0 24 24">
+  <title>Truck</title>
+  <path d="M5.18 5.16h8.05c1.34 0 2.31.9 2.44 2.15h1.52c.98 0 1.71.4 2.27 1.17l1.36 1.9c.46.64.63 1.12.63 1.91v3.41a2.14 2.14 0 0 1-2.14 2.14h-.57v-2.06h.57c.05 0 .08-.03.08-.08v-3.41c0-.32-.05-.5-.23-.74l-1.36-1.9c-.14-.2-.32-.28-.61-.28h-1.51v6.41h.14v2.06H8.03v-2.06h5.59V7.65c0-.23-.16-.43-.39-.43H5.18c-.3 0-.57.21-.57.51v7.54c0 .29.22.51.51.51h.35v2.06h-.35a2.57 2.57 0 0 1-2.57-2.57V7.73a2.57 2.57 0 0 1 2.63-2.57Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+    <path d="M6.58 16.28a2.44 2.44 0 1 1 0 4.88 2.44 2.44 0 1 1 0-4.88Zm0 1.68a.76.76 0 1 0 0 1.52.76.76 0 1 0 0-1.52Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+    <g transform="translate(10.58 0)">
+    <path d="M6.58 16.28a2.44 2.44 0 1 1 0 4.88 2.44 2.44 0 1 1 0-4.88Zm0 1.68a.76.76 0 1 0 0 1.52.76.76 0 1 0 0-1.52Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+    </g>
+</symbol>
+<symbol id="usk-icon-map-pin" viewBox="0 0 24 24">
+  <title>Map pin</title>
+  <path d="M12 3.11c4.43 0 7.35 2.93 7.35 6.8 0 3.94-3.68 7.52-6.53 10.45a1.14 1.14 0 0 1-1.64 0c-2.85-2.93-6.53-6.51-6.53-10.45 0-3.87 2.92-6.8 7.35-6.8Zm0 2.17c-3.12 0-5.14 1.93-5.14 4.62 0 2.75 2.5 5.46 5.14 8.23 2.64-2.77 5.14-5.48 5.14-8.23 0-2.69-2.02-4.62-5.14-4.62Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+    <path d="M12 7.42a2.49 2.49 0 1 1 0 4.98 2.49 2.49 0 1 1 0-4.98Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-car" viewBox="0 0 24 24">
+  <title>Car</title>
+  <path d="m5.43 9.77 1.17-2.7a2.75 2.75 0 0 1 2.52-1.65h5.76c1.1 0 2.08.64 2.52 1.65l1.17 2.7a3.25 3.25 0 0 1 2.49 3.16v2.23a2.83 2.83 0 0 1-1.89 2.67v.56a1.23 1.23 0 1 1-2.46 0v-.4H7.29v.4a1.23 1.23 0 1 1-2.46 0v-.56a2.83 2.83 0 0 1-1.89-2.67v-2.23a3.25 3.25 0 0 1 2.49-3.16Zm2.37-.03h8.4l-.78-1.8a.62.62 0 0 0-.58-.38H9.16a.62.62 0 0 0-.58.38Zm-1.61 2.13a1.07 1.07 0 0 0-1.07 1.06v2.23c0 .35.28.64.64.64h12.48c.36 0 .64-.29.64-.64v-2.23c0-.59-.48-1.06-1.07-1.06Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+    <path d="M7.13 13.84h1.44m6.86 0h1.44" stroke="currentColor" stroke-width="1.73" style="stroke:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-wrench" viewBox="0 0 24 24">
+  <title>Wrench</title>
+  <path d="M12.94 4.67a5.49 5.49 0 0 1 5.88-.53l-2.53 2.49a.75.75 0 0 0 0 1.05l.42.42a.75.75 0 0 0 1.05 0l2.56-2.51a5.49 5.49 0 0 1-5.95 7.81l-6.38 6.38a2.7 2.7 0 0 1-3.82-3.82l6.38-6.39a5.49 5.49 0 0 1 2.39-4.9Zm-6.88 12.8a.87.87 0 1 0 0 1.74.87.87 0 1 0 0-1.74Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+    <path d="m8.31 15.74 4.21-4.21" stroke="currentColor" stroke-width="1.44" style="stroke:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-barcode" viewBox="0 0 24 24">
+  <title>Barcode</title>
+  <path d="M6.12 8.26v7.48m3.77-7.48v7.48m4.15-7.48v7.48m3.84-7.48v7.48" stroke="currentColor" stroke-width="1.8" style="stroke:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+    <path d="M4.11 6.57V5.24h2.84m10.1 0h2.84v1.33M4.11 17.43v1.33h2.84m10.1 0h2.84v-1.33" stroke="currentColor" stroke-width="1.7" style="stroke:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-clipboard" viewBox="0 0 24 24">
+  <title>Clipboard</title>
+  <path d="M8.34 5.16h1.64a2.14 2.14 0 0 1 4.04 0h1.64c.93 0 1.54.6 1.61 1.45a3.11 3.11 0 0 1 2.55 3.06v8.07a3.11 3.11 0 0 1-3.11 3.11H7.29a3.11 3.11 0 0 1-3.11-3.11V9.67a3.11 3.11 0 0 1 2.55-3.06c.07-.85.68-1.45 1.61-1.45Zm.34 1.79v1.02h6.64V6.95Zm-1.9 1.84a1.06 1.06 0 0 0-.56.88v8.07c0 .59.48 1.07 1.07 1.07h9.42c.59 0 1.07-.48 1.07-1.07V9.67c0-.37-.19-.7-.48-.88-.28.62-.77.97-1.64.97H8.34c-.87 0-1.36-.35-1.56-.97Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+    <path d="M8.81 12.14h6.38m-6.38 3.14h4.43" stroke="currentColor" stroke-width="1.61" style="stroke:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-chart-bar" viewBox="0 0 24 24">
+  <title>Chart bar</title>
+  <path d="M4.15 19.57h15.7" stroke="currentColor" stroke-width="2.05" style="stroke:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+    <path d="M4.85 13.2a1 1 0 0 1 1-1h1.22a1 1 0 0 1 1 1v4.25H4.85Zm5.54-3.34a1 1 0 0 1 1-1h1.22a1 1 0 0 1 1 1v7.59h-3.22Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+    <path d="M15.93 5.18a1 1 0 0 1 1-1h1.22a1 1 0 0 1 1 1v12.27h-3.22Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-users" viewBox="0 0 24 24">
+  <title>Users</title>
+  <path d="M8.95 4.11a3.43 3.43 0 1 1 0 6.86 3.43 3.43 0 1 1 0-6.86Zm-6.26 13.8c0-2.36 2.6-4.28 6.26-4.28s6.26 1.92 6.26 4.28v.37c0 1.2-.91 1.88-2.17 1.88H4.86c-1.26 0-2.17-.68-2.17-1.88Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+    <path d="M17.2 5.32a2.75 2.75 0 1 1 0 5.5 2.75 2.75 0 1 1 0-5.5Zm.03 7.76c2.48 0 4.08 1.22 4.08 3.15v.37c0 .91-.67 1.47-1.58 1.47h-2.76v-.16c0-1.72-.89-3.22-2.44-4.34.76-.31 1.69-.49 2.7-.49Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-briefcase" viewBox="0 0 24 24">
+  <title>Briefcase</title>
+  <path d="M7.6 7.51V6.29a2.23 2.23 0 0 1 2.23-2.23h4.34a2.23 2.23 0 0 1 2.23 2.23v1.22h1.3a3.55 3.55 0 0 1 3.55 3.55v5.33a3.55 3.55 0 0 1-3.55 3.55H6.3a3.55 3.55 0 0 1-3.55-3.55v-5.33A3.55 3.55 0 0 1 6.3 7.51Zm2.01 0h4.78V6.29c0-.13-.09-.22-.22-.22H9.83c-.13 0-.22.09-.22.22ZM6.3 9.62c-.79 0-1.44.65-1.44 1.44v5.33c0 .79.65 1.44 1.44 1.44h11.4c.79 0 1.44-.65 1.44-1.44v-5.33c0-.79-.65-1.44-1.44-1.44Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+    <path d="M5.82 11.93c1.7.99 3.71 1.42 6.18 1.42s4.48-.43 6.18-1.42M12 13.35v1.63" stroke="currentColor" stroke-width="1.68" style="stroke:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-building" viewBox="0 0 24 24">
+  <title>Building</title>
+  <path d="M7.52 3.61h8.96a3.03 3.03 0 0 1 3.03 3.03v12.24h.28a1.06 1.06 0 1 1 0 2.12h-6.21v-4.31c0-.4-.33-.73-.73-.73h-1.7c-.4 0-.73.33-.73.73V21H4.21a1.06 1.06 0 1 1 0-2.12h.28V6.64a3.03 3.03 0 0 1 3.03-3.03Zm0 2.12c-.5 0-.91.41-.91.91v12.24H8.3v-2.19a2.85 2.85 0 0 1 2.85-2.85h1.7a2.85 2.85 0 0 1 2.85 2.85v2.19h1.69V6.64c0-.5-.41-.91-.91-.91Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-neumorphism-ink, var(--usi-ink, currentColor))"/>
+    <path d="M8.93 8.29h1.52m3.1 0h1.52m-6.14 3.36h1.52m3.1 0h1.52" stroke="currentColor" stroke-width="1.58" style="stroke:var(--usi-neumorphism-relief, var(--usi-accent-ink, currentColor))"/>
+</symbol>
+<symbol id="usk-icon-dashboard" viewBox="0 0 24 24">
+  <title>Dashboard</title>
+  <rect x="3.7" y="4.5" width="16.6" height="15" rx="2.8" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><rect x="3.7" y="4.5" width="16.6" height="15" rx="2.8" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><path d="M4 9H20M10 9V19" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><path d="M4 9H20M10 9V19" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><path d="M13 13H17M13 16H18" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/>
+</symbol>
+<symbol id="usk-icon-list" viewBox="0 0 24 24">
+  <title>List</title>
+  <circle cx="5" cy="6" r="1.05" fill="currentColor" style="fill:var(--usi-neumorphism-relief, currentColor)" stroke="none"/><circle cx="5" cy="12" r="1.05" fill="currentColor" style="fill:var(--usi-neumorphism-relief, currentColor)" stroke="none"/><circle cx="5" cy="18" r="1.05" fill="currentColor" style="fill:var(--usi-neumorphism-relief, currentColor)" stroke="none"/><path d="M9 6H20M9 12H20M9 18H20" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><path d="M9 6H20M9 12H20M9 18H20" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/>
+</symbol>
+<symbol id="usk-icon-table" viewBox="0 0 24 24">
+  <title>Table</title>
+  <rect x="3.8" y="4.7" width="16.4" height="14.6" rx="2.8" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><rect x="3.8" y="4.7" width="16.4" height="14.6" rx="2.8" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><path d="M4 9.6H20M4 14.4H20M10 5V19" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><path d="M4 9.6H20M4 14.4H20M10 5V19" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><path d="M13 7.1H17" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/>
+</symbol>
+<symbol id="usk-icon-sort" viewBox="0 0 24 24">
+  <title>Sort</title>
+  <path d="M7 18.5L7 5.5M9.70 8.20L7 5.5L4.30 8.20" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/><path d="M17 5.5L17 18.5M14.30 15.80L17 18.5L19.70 15.80" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><path d="M17 5.5L17 18.5M14.30 15.80L17 18.5L19.70 15.80" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/>
+</symbol>
+<symbol id="usk-icon-clock" viewBox="0 0 24 24">
+  <title>Clock</title>
+  <circle cx="12" cy="12" r="8.15" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><circle cx="12" cy="12" r="8.15" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><path d="M12 7V12L15.2 14.2" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/>
+</symbol>
+<symbol id="usk-icon-history" viewBox="0 0 24 24">
+  <title>History</title>
+  <path d="M4.3 9.7A8 8 0 1 1 4.9 16" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><path d="M4.3 9.7A8 8 0 1 1 4.9 16" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><path d="M4 5.1V10.2H9" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/><path d="M12 7.6V12L15.2 14.2" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/>
+</symbol>
+<symbol id="usk-icon-spinner" viewBox="0 0 24 24">
+  <title>Spinner</title>
+  <path d="M4 12A8 8 0 0 1 12 4" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/><path d="M20 12A8 8 0 0 1 12 20" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><path d="M20 12A8 8 0 0 1 12 20" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><circle cx="18.1" cy="6.8" r="1.12" fill="currentColor" style="fill:var(--usi-neumorphism-relief, currentColor)" stroke="none"/><circle cx="5.9" cy="17.2" r="1.12" fill="currentColor" style="fill:var(--usi-neumorphism-ink, currentColor)" stroke="none"/>
+</symbol>
+<symbol id="usk-icon-log-in" viewBox="0 0 24 24">
+  <title>Log in</title>
+  <path d="M13 4H20V20H13" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><path d="M13 4H20V20H13" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><path d="M3.8 12L15.4 12M12.15 15.25L15.4 12L12.15 8.75" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/>
+</symbol>
+<symbol id="usk-icon-log-out" viewBox="0 0 24 24">
+  <title>Log out</title>
+  <path d="M11 4H4V20H11" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><path d="M11 4H4V20H11" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><path d="M8.6 12L20.2 12M16.95 15.25L20.2 12L16.95 8.75" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/>
+</symbol>
+<symbol id="usk-icon-shield-check" viewBox="0 0 24 24">
+  <title>Shield check</title>
+  <path d="M12 3.4L19.5 6.3V11.3C19.5 15.6 16.2 19 12 21C7.8 19 4.5 15.6 4.5 11.3V6.3Z" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><path d="M12 3.4L19.5 6.3V11.3C19.5 15.6 16.2 19 12 21C7.8 19 4.5 15.6 4.5 11.3V6.3Z" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><path d="M8.6 12L11 14.4L15.5 9.8" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/>
+</symbol>
+<symbol id="usk-icon-key" viewBox="0 0 24 24">
+  <title>Key</title>
+  <circle cx="8.2" cy="8.1" r="4" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><circle cx="8.2" cy="8.1" r="4" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><path d="M11 11L19.4 19.4M15.2 15.3L17.2 13.3M17.7 17.8L19.7 15.8" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/>
+</symbol>
+<symbol id="usk-icon-phone" viewBox="0 0 24 24">
+  <title>Phone</title>
+  <path d="M6.2 4.1L9.3 7.2L8.2 10.1C9.6 12.6 11.6 14.6 14.2 16L17.1 14.9L20 17.9L18.1 20.1C17.5 20.8 16.4 21 15.5 20.7C9.8 18.9 5.1 14.2 3.3 8.5C3 7.6 3.2 6.5 3.9 5.9Z" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><path d="M6.2 4.1L9.3 7.2L8.2 10.1C9.6 12.6 11.6 14.6 14.2 16L17.1 14.9L20 17.9L18.1 20.1C17.5 20.8 16.4 21 15.5 20.7C9.8 18.9 5.1 14.2 3.3 8.5C3 7.6 3.2 6.5 3.9 5.9Z" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><path d="M13 4.2C16.6 4.7 19.3 7.4 19.8 11" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/>
+</symbol>
+<symbol id="usk-icon-map" viewBox="0 0 24 24">
+  <title>Map</title>
+  <path d="M3.8 6.4L9.3 4L14.7 6.4L20.2 4V17.6L14.7 20L9.3 17.6L3.8 20Z" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><path d="M3.8 6.4L9.3 4L14.7 6.4L20.2 4V17.6L14.7 20L9.3 17.6L3.8 20Z" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><path d="M9.3 4V17.6M14.7 6.4V20" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/>
+</symbol>
+<symbol id="usk-icon-layers" viewBox="0 0 24 24">
+  <title>Layers</title>
+  <path d="M3.9 8L12 3.9L20.1 8L12 12.1Z" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><path d="M3.9 8L12 3.9L20.1 8L12 12.1Z" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><path d="M4 12.4L12 16.5L20 12.4M4 16.8L12 20.8L20 16.8" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/>
+</symbol>
+<symbol id="usk-icon-locate" viewBox="0 0 24 24">
+  <title>Locate</title>
+  <circle cx="12" cy="12" r="5.8" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><circle cx="12" cy="12" r="5.8" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><circle cx="12" cy="12" r="1.65" fill="currentColor" style="fill:var(--usi-neumorphism-relief, currentColor)" stroke="none"/><path d="M12 3.4V6.2M12 17.8V20.6M3.4 12H6.2M17.8 12H20.6" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><path d="M12 3.4V6.2M12 17.8V20.6M3.4 12H6.2M17.8 12H20.6" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/>
+</symbol>
+<symbol id="usk-icon-shelf" viewBox="0 0 24 24">
+  <title>Shelf</title>
+  <path d="M4 4V20M20 4V20M4 11.4H20M4 18.3H20" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><path d="M4 4V20M20 4V20M4 11.4H20M4 18.3H20" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><rect x="7" y="6.4" width="4" height="4.8" rx="1.333" fill="currentColor" style="fill:var(--usi-neumorphism-relief, currentColor)" stroke="none"/><rect x="13.3" y="12.7" width="4" height="5.5" rx="1.333" fill="currentColor" style="fill:var(--usi-neumorphism-relief, currentColor)" stroke="none"/>
+</symbol>
+<symbol id="usk-icon-bin-location" viewBox="0 0 24 24">
+  <title>Bin location</title>
+  <path d="M4.4 13.5V20H19.6V13.5M4 13.5H8.2M15.8 13.5H20" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><path d="M4.4 13.5V20H19.6V13.5M4 13.5H8.2M15.8 13.5H20" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><path d="M16 7.4C16 9.7 12 13.4 12 13.4S8 9.7 8 7.4A4 4 0 1 1 16 7.4Z" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/><circle cx="12" cy="7.3" r="1" fill="currentColor" style="fill:var(--usi-neumorphism-relief, currentColor)" stroke="none"/>
+</symbol>
+<symbol id="usk-icon-vin-scan" viewBox="0 0 24 24">
+  <title>VIN scan</title>
+  <path d="M8 4H4V8M16 4H20V8M4 16V20H8M20 16V20H16" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><path d="M8 4H4V8M16 4H20V8M4 16V20H8M20 16V20H16" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><path d="M7 13.5L8.6 9.2H15.4L17 13.5V16H7Z" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><path d="M7 13.5L8.6 9.2H15.4L17 13.5V16H7Z" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><path d="M7.3 13.2H16.7M8.6 16V17M15.4 16V17" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/>
+</symbol>
+<symbol id="usk-icon-shift" viewBox="0 0 24 24">
+  <title>Shift</title>
+  <path d="M4 19V6H19V10M8 3.6V7.8M15.5 3.6V7.8M4 10.4H11.4M4 19H9.2" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><path d="M4 19V6H19V10M8 3.6V7.8M15.5 3.6V7.8M4 10.4H11.4M4 19H9.2" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><circle cx="16.2" cy="16.1" r="4.75" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><circle cx="16.2" cy="16.1" r="4.75" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><path d="M16.2 13.2V16.1L18.2 17.2" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/>
+</symbol>
+<symbol id="usk-icon-timesheet" viewBox="0 0 24 24">
+  <title>Timesheet</title>
+  <path d="M9 5.7H5.4V20.4H10.1M14.8 5.7H18.6V10.6" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><path d="M9 5.7H5.4V20.4H10.1M14.8 5.7H18.6V10.6" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><rect x="9" y="3.5" width="6" height="4.2" rx="1.4" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><rect x="9" y="3.5" width="6" height="4.2" rx="1.4" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><circle cx="16.5" cy="16.4" r="4.65" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><circle cx="16.5" cy="16.4" r="4.65" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><path d="M16.5 13.5V16.4L18.4 17.5" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/>
+</symbol>
+<symbol id="usk-icon-payroll" viewBox="0 0 24 24">
+  <title>Payroll</title>
+  <path d="M6 3H14L19 8V21H6Z M14 3V8H19" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><path d="M6 3H14L19 8V21H6Z M14 3V8H19" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><path d="M9 11.4H16M9 14.7H16M9 18H11.8" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/><circle cx="15.9" cy="18" r="1.18" fill="currentColor" style="fill:var(--usi-neumorphism-relief, currentColor)" stroke="none"/>
+</symbol>
+<symbol id="usk-icon-calendar-range" viewBox="0 0 24 24">
+  <title>Calendar range</title>
+  <rect x="3.8" y="5.7" width="16.4" height="14.7" rx="2.8" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><rect x="3.8" y="5.7" width="16.4" height="14.7" rx="2.8" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><path d="M8 3.5V7.4M16 3.5V7.4M4 10H20" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/><path d="M8 15.4H16" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/><circle cx="7.2" cy="15.4" r="1.1" fill="currentColor" style="fill:var(--usi-neumorphism-relief, currentColor)" stroke="none"/><circle cx="16.8" cy="15.4" r="1.1" fill="currentColor" style="fill:var(--usi-neumorphism-relief, currentColor)" stroke="none"/>
+</symbol>
+<symbol id="usk-icon-invoice" viewBox="0 0 24 24">
+  <title>Invoice</title>
+  <path d="M6 3H14L19 8V21H6Z M14 3V8H19" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><path d="M6 3H14L19 8V21H6Z M14 3V8H19" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><path d="M9 11.7H15.9M9 15.1H11.9M14.1 17.7H16.3" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/><path d="M15.2 16.6V18.8" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/>
+</symbol>
+<symbol id="usk-icon-refund" viewBox="0 0 24 24">
+  <title>Refund</title>
+  <path d="M5 10.2V5.3H20V17.1H15.8M5 7.9H20" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><path d="M5 10.2V5.3H20V17.1H15.8M5 7.9H20" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><path d="M11 12.5L7.3 16.2L11 19.9M7.3 16.2H12.8" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/>
+</symbol>
+<symbol id="usk-icon-payout" viewBox="0 0 24 24">
+  <title>Payout</title>
+  <path d="M4.5 7.4H19.5V4.5H4.5Z M4.5 7.4V15H10" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><path d="M4.5 7.4H19.5V4.5H4.5Z M4.5 7.4V15H10" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><path d="M12.5 11.4L20.4 19.3M16.58 19.30L20.4 19.3L20.40 15.48" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/>
+</symbol>
+<symbol id="usk-icon-wallet" viewBox="0 0 24 24">
+  <title>Wallet</title>
+  <path d="M20 9V6.2H5C4.1 6.2 3.6 6.8 3.6 7.7V17.8H20V14.8M6 6.2L16.4 4V6.2" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><path d="M20 9V6.2H5C4.1 6.2 3.6 6.8 3.6 7.7V17.8H20V14.8M6 6.2L16.4 4V6.2" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><rect x="13.8" y="9.2" width="7.1" height="5.4" rx="1.8" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/><circle cx="16.2" cy="11.9" r="0.85" fill="currentColor" style="fill:var(--usi-neumorphism-relief, currentColor)" stroke="none"/>
+</symbol>
+<symbol id="usk-icon-browser" viewBox="0 0 24 24">
+  <title>Browser</title>
+  <rect x="3.4" y="5.2" width="17.2" height="13.8" rx="2.8" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><rect x="3.4" y="5.2" width="17.2" height="13.8" rx="2.8" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><path d="M3.8 9.2H20" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/><circle cx="6.7" cy="7.25" r="0.72" fill="currentColor" style="fill:var(--usi-neumorphism-relief, currentColor)" stroke="none"/><circle cx="9.3" cy="7.25" r="0.72" fill="currentColor" style="fill:var(--usi-neumorphism-relief, currentColor)" stroke="none"/>
+</symbol>
+<symbol id="usk-icon-message" viewBox="0 0 24 24">
+  <title>Message</title>
+  <path d="M4.2 4.7H19.8V16.9H10.5L6.1 20V16.9H4.2Z" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><path d="M4.2 4.7H19.8V16.9H10.5L6.1 20V16.9H4.2Z" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><path d="M8 9.3H16M8 12.7H14" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/>
+</symbol>
+<symbol id="usk-icon-video" viewBox="0 0 24 24">
+  <title>Video</title>
+  <rect x="3.6" y="6.4" width="11.6" height="11.2" rx="2.8" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><rect x="3.6" y="6.4" width="11.6" height="11.2" rx="2.8" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><path d="M15.2 9.5L20.4 6.7V17.3L15.2 14.5" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/>
+</symbol>
+<symbol id="usk-icon-database" viewBox="0 0 24 24">
+  <title>Database</title>
+  <path d="M5 6.5C5 2.2 19 2.2 19 6.5V17.5C19 21.8 5 21.8 5 17.5Z" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><path d="M5 6.5C5 2.2 19 2.2 19 6.5V17.5C19 21.8 5 21.8 5 17.5Z" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><path d="M5 6.5C5 10.8 19 10.8 19 6.5M5 12C5 16.3 19 16.3 19 12" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/>
+</symbol>
+<symbol id="usk-icon-server" viewBox="0 0 24 24">
+  <title>Server</title>
+  <rect x="3.8" y="4.1" width="16.4" height="6.7" rx="2.233" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><rect x="3.8" y="4.1" width="16.4" height="6.7" rx="2.233" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><rect x="3.8" y="13.2" width="16.4" height="6.7" rx="2.233" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><rect x="3.8" y="13.2" width="16.4" height="6.7" rx="2.233" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><path d="M8 7.4H9.2M8 16.6H9.2M13.4 7.4H17M13.4 16.6H17" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/>
+</symbol>
+<symbol id="usk-icon-api" viewBox="0 0 24 24">
+  <title>API</title>
+  <path d="M9 5H5V19H9M15 5H19V19H15M5 12H9M15 12H19" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><path d="M9 5H5V19H9M15 5H19V19H15M5 12H9M15 12H19" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><rect x="9" y="9" width="6" height="6" rx="2" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/>
+</symbol>
+<symbol id="usk-icon-shield" viewBox="0 0 24 24">
+  <title>Shield</title>
+  <path d="M12 3.4L19.5 6.3V11.3C19.5 15.6 16.2 19 12 21C7.8 19 4.5 15.6 4.5 11.3V6.3Z" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><path d="M12 3.4L19.5 6.3V11.3C19.5 15.6 16.2 19 12 21C7.8 19 4.5 15.6 4.5 11.3V6.3Z" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><path d="M12 7V16.5" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/>
+</symbol>
+<symbol id="usk-icon-activity" viewBox="0 0 24 24">
+  <title>Activity</title>
+  <path d="M3.7 12H7.5L10 5.1L14 18.9L16.3 12H20.3" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/>
+</symbol>
+<symbol id="usk-icon-tax" viewBox="0 0 24 24">
+  <title>Tax</title>
+  <circle cx="7.5" cy="7.5" r="2.8" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><circle cx="7.5" cy="7.5" r="2.8" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><circle cx="16.5" cy="16.5" r="2.8" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><circle cx="16.5" cy="16.5" r="2.8" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><path d="M5 19L19 5" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/>
+</symbol>
+<symbol id="usk-icon-code" viewBox="0 0 24 24">
+  <title>Code</title>
+  <path d="M8 7L3.8 12L8 17M16 7L20.2 12L16 17" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><path d="M8 7L3.8 12L8 17M16 7L20.2 12L16 17" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><path d="M13.5 5.6L10.5 18.4" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/>
+</symbol>
+<symbol id="usk-icon-terminal" viewBox="0 0 24 24">
+  <title>Terminal</title>
+  <rect x="3.5" y="5.1" width="17" height="13.8" rx="2.8" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><rect x="3.5" y="5.1" width="17" height="13.8" rx="2.8" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><path d="M7.2 9.2L10.5 12L7.2 14.8M12.7 14.8H16.8" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/>
+</symbol>
+<symbol id="usk-icon-rocket" viewBox="0 0 24 24">
+  <title>Rocket</title>
+  <path d="M10 16L7.9 13.9C10.5 7.7 15.3 4.5 20.2 3.8C19.5 8.7 16.3 13.5 10 16ZM7.9 13.9L4 14.5L5.8 10.1L10.3 9.6M10 16L9.5 20L13.9 18.2L14.5 13.7" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><path d="M10 16L7.9 13.9C10.5 7.7 15.3 4.5 20.2 3.8C19.5 8.7 16.3 13.5 10 16ZM7.9 13.9L4 14.5L5.8 10.1L10.3 9.6M10 16L9.5 20L13.9 18.2L14.5 13.7" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><circle cx="14.9" cy="9.1" r="1.4" fill="currentColor" style="fill:var(--usi-neumorphism-relief, currentColor)" stroke="none"/><path d="M6.4 17.6L3.8 20.2" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/>
+</symbol>
+<symbol id="usk-icon-bug" viewBox="0 0 24 24">
+  <title>Bug</title>
+  <rect x="7.2" y="8.1" width="9.6" height="11.6" rx="2.8" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><rect x="7.2" y="8.1" width="9.6" height="11.6" rx="2.8" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><path d="M9 8.1V6A3 3 0 0 1 15 6V8.1M12 9V18.8" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/><path d="M4 9.6L7.2 11.2M4 14H7.2M4 18.6L7.2 17M20 9.6L16.8 11.2M20 14H16.8M20 18.6L16.8 17" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><path d="M4 9.6L7.2 11.2M4 14H7.2M4 18.6L7.2 17M20 9.6L16.8 11.2M20 14H16.8M20 18.6L16.8 17" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/>
+</symbol>
+<symbol id="usk-icon-cloud" viewBox="0 0 24 24">
+  <title>Cloud</title>
+  <path d="M7.2 18.3A4.1 4.1 0 1 1 8 10.2A5.1 5.1 0 0 1 17.7 11.3A3.55 3.55 0 1 1 17 18.3Z" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><path d="M7.2 18.3A4.1 4.1 0 1 1 8 10.2A5.1 5.1 0 0 1 17.7 11.3A3.55 3.55 0 1 1 17 18.3Z" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><path d="M8.6 15.2H15.4" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/>
+</symbol>
+<symbol id="usk-icon-globe" viewBox="0 0 24 24">
+  <title>Globe</title>
+  <circle cx="12" cy="12" r="8.3" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><circle cx="12" cy="12" r="8.3" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><path d="M12 3.8C6.4 8.3 6.4 15.7 12 20.2C17.6 15.7 17.6 8.3 12 3.8Z M4.2 12H19.8" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/>
+</symbol>
+<symbol id="usk-icon-scan" viewBox="0 0 24 24">
+  <title>Scan</title>
+  <path d="M8 4H4V8M16 4H20V8M4 16V20H8M20 16V20H16" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><path d="M8 4H4V8M16 4H20V8M4 16V20H8M20 16V20H16" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><path d="M6.4 12H17.6" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/>
+</symbol>
+<symbol id="usk-icon-network" viewBox="0 0 24 24">
+  <title>Network</title>
+  <path d="M12 8.6V12.7M6.1 16.1V12.7H17.9V16.1" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><path d="M12 8.6V12.7M6.1 16.1V12.7H17.9V16.1" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><circle cx="12" cy="5.9" r="2.55" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/><rect x="3.6" y="16.1" width="5.2" height="4.3" rx="1.433" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><rect x="3.6" y="16.1" width="5.2" height="4.3" rx="1.433" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><rect x="15.2" y="16.1" width="5.2" height="4.3" rx="1.433" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><rect x="15.2" y="16.1" width="5.2" height="4.3" rx="1.433" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/>
+</symbol>
+<symbol id="usk-icon-cpu" viewBox="0 0 24 24">
+  <title>CPU</title>
+  <rect x="6.8" y="6.8" width="10.4" height="10.4" rx="2.8" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><rect x="6.8" y="6.8" width="10.4" height="10.4" rx="2.8" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><rect x="10" y="10" width="4" height="4" rx="1.333" fill="currentColor" style="fill:var(--usi-neumorphism-relief, currentColor)" stroke="none"/><path d="M9 4V6.8M15 4V6.8M9 17.2V20M15 17.2V20M4 9H6.8M4 15H6.8M17.2 9H20M17.2 15H20" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><path d="M9 4V6.8M15 4V6.8M9 17.2V20M15 17.2V20M4 9H6.8M4 15H6.8M17.2 9H20M17.2 15H20" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/>
+</symbol>
+<symbol id="usk-icon-module" viewBox="0 0 24 24">
+  <title>Module</title>
+  <rect x="3.9" y="4.7" width="16.2" height="14.6" rx="2.8" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><rect x="3.9" y="4.7" width="16.2" height="14.6" rx="2.8" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><path d="M10 5V19" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><path d="M10 5V19" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><rect x="13" y="8" width="4.4" height="4.3" rx="1.433" fill="currentColor" style="fill:var(--usi-neumorphism-relief, currentColor)" stroke="none"/>
+</symbol>
+<symbol id="usk-icon-stack" viewBox="0 0 24 24">
+  <title>Stack</title>
+  <rect x="5.5" y="4.1" width="13" height="6.7" rx="2.233" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><rect x="5.5" y="4.1" width="13" height="6.7" rx="2.233" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><path d="M5.5 13.8H18.5M5.5 17.1H18.5M5.5 20.4H18.5" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/>
+</symbol>
+<symbol id="usk-icon-tile" viewBox="0 0 24 24">
+  <title>Tile</title>
+  <rect x="4.8" y="4.8" width="14.4" height="14.4" rx="2.8" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><rect x="4.8" y="4.8" width="14.4" height="14.4" rx="2.8" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><rect x="8.7" y="8.7" width="6.6" height="6.6" rx="2.2" fill="currentColor" style="fill:var(--usi-neumorphism-relief, currentColor)" stroke="none"/>
+</symbol>
+<symbol id="usk-icon-palette" viewBox="0 0 24 24">
+  <title>Palette</title>
+  <path d="M12 3.8A8.2 8.2 0 1 0 12 20.2H13.3A1.65 1.65 0 0 0 14.2 17.2A1.4 1.4 0 0 1 15 14.6H17.4A2.8 2.8 0 0 0 20.2 11.8A8.2 8.2 0 0 0 12 3.8Z" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><path d="M12 3.8A8.2 8.2 0 1 0 12 20.2H13.3A1.65 1.65 0 0 0 14.2 17.2A1.4 1.4 0 0 1 15 14.6H17.4A2.8 2.8 0 0 0 20.2 11.8A8.2 8.2 0 0 0 12 3.8Z" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><circle cx="7.8" cy="11.6" r="1.1" fill="currentColor" style="fill:var(--usi-neumorphism-relief, currentColor)" stroke="none"/><circle cx="10.4" cy="7.5" r="1.1" fill="currentColor" style="fill:var(--usi-neumorphism-relief, currentColor)" stroke="none"/><circle cx="15.2" cy="8.1" r="1.1" fill="currentColor" style="fill:var(--usi-neumorphism-relief, currentColor)" stroke="none"/>
+</symbol>
+<symbol id="usk-icon-heart" viewBox="0 0 24 24">
+  <title>Heart</title>
+  <path d="M12 20L5.5 13.6C1 9.1 6.2 3.5 10.2 6.6L12 8.1L13.8 6.6C17.8 3.5 23 9.1 18.5 13.6Z" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><path d="M12 20L5.5 13.6C1 9.1 6.2 3.5 10.2 6.6L12 8.1L13.8 6.6C17.8 3.5 23 9.1 18.5 13.6Z" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><path d="M6.5 9.8C6.6 8.9 7.2 8.3 8.1 8.2" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/>
+</symbol>
+<symbol id="usk-icon-star" viewBox="0 0 24 24">
+  <title>Star</title>
+  <path d="M12 3.7L14.5 9L20.3 9.8L16.2 14L17.2 19.8L12 17L6.8 19.8L7.8 14L3.7 9.8L9.5 9Z" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><path d="M12 3.7L14.5 9L20.3 9.8L16.2 14L17.2 19.8L12 17L6.8 19.8L7.8 14L3.7 9.8L9.5 9Z" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><circle cx="12" cy="12.1" r="1.08" fill="currentColor" style="fill:var(--usi-neumorphism-relief, currentColor)" stroke="none"/>
+</symbol>
+<symbol id="usk-icon-target" viewBox="0 0 24 24">
+  <title>Target</title>
+  <circle cx="12" cy="12" r="8.25" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><circle cx="12" cy="12" r="8.25" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><circle cx="12" cy="12" r="4.7" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><circle cx="12" cy="12" r="4.7" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><circle cx="12" cy="12" r="1.52" fill="currentColor" style="fill:var(--usi-neumorphism-relief, currentColor)" stroke="none"/>
+</symbol>
+<symbol id="usk-icon-megaphone" viewBox="0 0 24 24">
+  <title>Megaphone</title>
+  <path d="M4.1 9.2H9.2L17 5.7V16.4L9.2 13H4.1Z M7.1 13L9 19.3H12L10.1 13.4" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><path d="M4.1 9.2H9.2L17 5.7V16.4L9.2 13H4.1Z M7.1 13L9 19.3H12L10.1 13.4" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><path d="M20 8.1L21 6.7M20.2 11.1H21.2M20 14.1L21 15.5" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/>
+</symbol>
+<symbol id="usk-icon-cursor" viewBox="0 0 24 24">
+  <title>Cursor</title>
+  <path d="M5.3 3.8L19.9 13.5L13.3 14.5L10.6 20.1Z" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><path d="M5.3 3.8L19.9 13.5L13.3 14.5L10.6 20.1Z" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><path d="M13.3 14.5L17.5 19.1" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/>
+</symbol>
+<symbol id="usk-icon-expand" viewBox="0 0 24 24">
+  <title>Expand</title>
+  <path d="M9 4H4V9M15 4H20V9M4 15V20H9M20 15V20H15" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><path d="M9 4H4V9M15 4H20V9M4 15V20H9M20 15V20H15" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><path d="M4 4L8.7 8.7M20 20L15.3 15.3" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/>
+</symbol>
+<symbol id="usk-icon-archive" viewBox="0 0 24 24">
+  <title>Archive</title>
+  <rect x="3.5" y="4.2" width="17" height="4.5" rx="1.5" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><rect x="3.5" y="4.2" width="17" height="4.5" rx="1.5" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><path d="M5.4 8.7V19.8H18.6V8.7" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><path d="M5.4 8.7V19.8H18.6V8.7" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><path d="M9 12.5H15" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/>
+</symbol>
+<symbol id="usk-icon-keyboard" viewBox="0 0 24 24">
+  <title>Keyboard</title>
+  <rect x="3.6" y="6.1" width="16.8" height="11.8" rx="2.8" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><rect x="3.6" y="6.1" width="16.8" height="11.8" rx="2.8" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><path d="M7.4 10.3H8M11.7 10.3H12.3M16 10.3H16.6M8.5 14.1H15.5" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/>
+</symbol>
+<symbol id="usk-icon-move" viewBox="0 0 24 24">
+  <title>Move</title>
+  <path d="M12 4V20M4 12H20" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><path d="M12 4V20M4 12H20" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><path d="M9.5 6.6L12 4L14.5 6.6M9.5 17.4L12 20L14.5 17.4M6.6 9.5L4 12L6.6 14.5M17.4 9.5L20 12L17.4 14.5" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/>
+</symbol>
+<symbol id="usk-icon-send" viewBox="0 0 24 24">
+  <title>Send</title>
+  <path d="M3.8 9.5L20.2 4L15.1 20L11 13.1Z" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><path d="M3.8 9.5L20.2 4L15.1 20L11 13.1Z" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><path d="M11 13.1L20.2 4" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/>
+</symbol>
+<symbol id="usk-icon-hand" viewBox="0 0 24 24">
+  <title>Hand</title>
+  <path d="M7 13.6V6.3Q7 4.8 8.4 4.8Q9.8 4.8 9.8 6.3V11M9.8 8.4V4.7Q9.8 3.4 11.1 3.4Q12.6 3.4 12.6 4.9V11M12.6 8V6.5Q12.6 5.1 14 5.1Q15.4 5.1 15.4 6.5V11.4M15.4 10Q15.4 8.7 16.8 8.7Q18.2 8.7 18.2 10.1V15.1Q18.2 20.4 13.2 20.4H11Q8.9 20.4 7.3 18.5L4.1 14.5Q3.2 13.3 4.3 12.4Q5.3 11.6 7 13.6Z" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><path d="M7 13.6V6.3Q7 4.8 8.4 4.8Q9.8 4.8 9.8 6.3V11M9.8 8.4V4.7Q9.8 3.4 11.1 3.4Q12.6 3.4 12.6 4.9V11M12.6 8V6.5Q12.6 5.1 14 5.1Q15.4 5.1 15.4 6.5V11.4M15.4 10Q15.4 8.7 16.8 8.7Q18.2 8.7 18.2 10.1V15.1Q18.2 20.4 13.2 20.4H11Q8.9 20.4 7.3 18.5L4.1 14.5Q3.2 13.3 4.3 12.4Q5.3 11.6 7 13.6Z" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><path d="M10.6 16H13.6" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/>
+</symbol>
+<symbol id="usk-icon-zoom-in" viewBox="0 0 24 24">
+  <title>Zoom in</title>
+  <circle cx="9.8" cy="9.8" r="5.6" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><circle cx="9.8" cy="9.8" r="5.6" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><path d="M13.9 13.9L20.2 20.2" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><path d="M13.9 13.9L20.2 20.2" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><path d="M6.65 9.8H12.95M9.8 6.65V12.95" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/>
+</symbol>
+<symbol id="usk-icon-zoom-out" viewBox="0 0 24 24">
+  <title>Zoom out</title>
+  <circle cx="9.8" cy="9.8" r="5.6" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><circle cx="9.8" cy="9.8" r="5.6" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><path d="M13.9 13.9L20.2 20.2" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><path d="M13.9 13.9L20.2 20.2" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><path d="M6.65 9.8H12.95" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/>
+</symbol>
+<symbol id="usk-icon-wifi-off" viewBox="0 0 24 24">
+  <title>Wi-Fi off</title>
+  <path d="M3.8 8.7A13 13 0 0 1 6.3 7.2M9.8 6.1A13 13 0 0 1 20.2 8.7M6.7 12.1A8.6 8.6 0 0 1 9.2 10.8M13.9 10.5A8.6 8.6 0 0 1 17.3 12.1M9.5 15.3A4 4 0 0 1 12.5 14.5" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><path d="M3.8 8.7A13 13 0 0 1 6.3 7.2M9.8 6.1A13 13 0 0 1 20.2 8.7M6.7 12.1A8.6 8.6 0 0 1 9.2 10.8M13.9 10.5A8.6 8.6 0 0 1 17.3 12.1M9.5 15.3A4 4 0 0 1 12.5 14.5" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><circle cx="12" cy="18.8" r="1.1" fill="currentColor" style="fill:var(--usi-neumorphism-ink, currentColor)" stroke="none"/><path d="M4.2 4.2L19.8 19.8" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/>
+</symbol>
+<symbol id="usk-icon-unlock" viewBox="0 0 24 24">
+  <title>Unlock</title>
+  <rect x="5.2" y="10.3" width="13.6" height="10" rx="2.8" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><rect x="5.2" y="10.3" width="13.6" height="10" rx="2.8" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><path d="M8 10.3V7.4A4 4 0 0 1 15.9 6.6" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><path d="M8 10.3V7.4A4 4 0 0 1 15.9 6.6" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><path d="M12 14.1V16.6" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/>
+</symbol>
+<symbol id="usk-icon-paint-brush" viewBox="0 0 24 24">
+  <title>Paint brush</title>
+  <path d="M8.9 14.6L17.3 5.1A1.65 1.65 0 0 1 19.9 7.1L12 17" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><path d="M8.9 14.6L17.3 5.1A1.65 1.65 0 0 1 19.9 7.1L12 17" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><path d="M12 17C11.3 20.3 7.7 20.9 3.8 19.8C5.3 18.9 5.7 17.9 6 16.9C6.5 14.9 7.6 14.2 8.9 14.6Z" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/>
+</symbol>
+<symbol id="usk-icon-door-open" viewBox="0 0 24 24">
+  <title>Door open</title>
+  <path d="M5 20.5V4.2H16.4V7.3M16.4 18V20.5H4" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><path d="M5 20.5V4.2H16.4V7.3M16.4 18V20.5H4" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><path d="M8.2 6.6L19.4 4.4V18.4L8.2 20.4Z" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/><circle cx="16.6" cy="12.1" r="0.88" fill="currentColor" style="fill:var(--usi-neumorphism-relief, currentColor)" stroke="none"/>
+</symbol>
+<symbol id="usk-icon-paint-bucket" viewBox="0 0 24 24">
+  <title>Paint bucket</title>
+  <path d="M4.4 12.4L11.8 5L18.7 11.9L11.3 19.3ZM7.9 4.2L12.3 8.6M4.8 12.4H18" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><path d="M4.4 12.4L11.8 5L18.7 11.9L11.3 19.3ZM7.9 4.2L12.3 8.6M4.8 12.4H18" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><path d="M20.3 15C22.1 17.2 22.1 19.2 20.3 19.2C18.5 19.2 18.5 17.2 20.3 15Z" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/>
+</symbol>
+<symbol id="usk-icon-pen-tool" viewBox="0 0 24 24">
+  <title>Pen tool</title>
+  <path d="M12 3.7L19.6 15.4L15.4 19.6L3.7 12L8.7 10.5L10.5 8.7Z M12.5 17.7L17.7 12.5" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><path d="M12 3.7L19.6 15.4L15.4 19.6L3.7 12L8.7 10.5L10.5 8.7Z M12.5 17.7L17.7 12.5" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><circle cx="11.7" cy="11.7" r="1.55" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/><path d="M10.6 10.6L4.5 4.5" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/>
+</symbol>
+<symbol id="usk-icon-rectangle" viewBox="0 0 24 24">
+  <title>Rectangle</title>
+  <rect x="4.1" y="6.4" width="15.8" height="11.2" rx="2.8" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><rect x="4.1" y="6.4" width="15.8" height="11.2" rx="2.8" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><path d="M4.2 9V6.4H7M16.9 17.6H19.9V14.8" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/>
+</symbol>
+<symbol id="usk-icon-clipboard-check" viewBox="0 0 24 24">
+  <title>Clipboard check</title>
+  <path d="M9 5.5H5.5V20.5H18.5V5.5H15" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><path d="M9 5.5H5.5V20.5H18.5V5.5H15" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><rect x="9" y="3.3" width="6" height="4" rx="1.333" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/><path d="M8.8 13.1L11.1 15.4L15.7 10.8" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/>
+</symbol>
+<symbol id="usk-icon-package-check" viewBox="0 0 24 24">
+  <title>Package check</title>
+  <path d="M3.5 7.5L10.5 3.8L17.5 7.5V12M3.5 7.5V16L10.5 20M3.5 7.5L10.5 11.3L17.5 7.5M10.5 11.3V20" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><path d="M3.5 7.5L10.5 3.8L17.5 7.5V12M3.5 7.5V16L10.5 20M3.5 7.5L10.5 11.3L17.5 7.5M10.5 11.3V20" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><circle cx="17.1" cy="16.8" r="4.25" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><circle cx="17.1" cy="16.8" r="4.25" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><path d="M15.2 16.9L16.7 18.4L19.2 15.7" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/>
+</symbol>
+<symbol id="usk-icon-package-x" viewBox="0 0 24 24">
+  <title>Package X</title>
+  <path d="M3.5 7.5L10.5 3.8L17.5 7.5V12M3.5 7.5V16L10.5 20M3.5 7.5L10.5 11.3L17.5 7.5M10.5 11.3V20" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><path d="M3.5 7.5L10.5 3.8L17.5 7.5V12M3.5 7.5V16L10.5 20M3.5 7.5L10.5 11.3L17.5 7.5M10.5 11.3V20" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><circle cx="17.1" cy="16.8" r="4.25" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><circle cx="17.1" cy="16.8" r="4.25" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><path d="M15.7 15.4L18.5 18.2M18.5 15.4L15.7 18.2" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/>
+</symbol>
+<symbol id="usk-icon-boxes" viewBox="0 0 24 24">
+  <title>Boxes</title>
+  <rect x="8.5" y="4.1" width="7" height="6.5" rx="2.167" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><rect x="8.5" y="4.1" width="7" height="6.5" rx="2.167" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><rect x="4" y="12.3" width="7.2" height="7.6" rx="2.4" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><rect x="4" y="12.3" width="7.2" height="7.6" rx="2.4" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><rect x="12.8" y="12.3" width="7.2" height="7.6" rx="2.4" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><rect x="12.8" y="12.3" width="7.2" height="7.6" rx="2.4" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><path d="M12 4.5V6.8M7.6 12.7V15.1M16.4 12.7V15.1" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/>
+</symbol>
+<symbol id="usk-icon-gauge" viewBox="0 0 24 24">
+  <title>Gauge</title>
+  <path d="M4.2 17.9V12.9A7.8 7.8 0 0 1 19.8 12.9V17.9Z" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><path d="M4.2 17.9V12.9A7.8 7.8 0 0 1 19.8 12.9V17.9Z" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><path d="M12 13.8L15.7 9.9" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/><circle cx="12" cy="13.8" r="1.3" fill="currentColor" style="fill:var(--usi-neumorphism-relief, currentColor)" stroke="none"/>
+</symbol>
+<symbol id="usk-icon-images" viewBox="0 0 24 24">
+  <title>Images</title>
+  <path d="M6.6 5H20V16.6" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><path d="M6.6 5H20V16.6" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><rect x="3.8" y="8.2" width="13" height="11.8" rx="2.8" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><rect x="3.8" y="8.2" width="13" height="11.8" rx="2.8" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><path d="M4.2 17L8.3 13.9L11.2 16.1L13 14.8L16.6 17.7" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/><circle cx="12.8" cy="11.4" r="1" fill="currentColor" style="fill:var(--usi-neumorphism-relief, currentColor)" stroke="none"/>
+</symbol>
+<symbol id="usk-icon-recycle" viewBox="0 0 24 24">
+  <title>Recycle</title>
+  <path d="M6.6 8.2L10.5 3.9H13L16.3 9.2M18.4 12.4L20.2 16.2L18.6 18.6H12.6M8.3 18.6H4.9L3.8 16.2L6.5 11.8" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><path d="M6.6 8.2L10.5 3.9H13L16.3 9.2M18.4 12.4L20.2 16.2L18.6 18.6H12.6M8.3 18.6H4.9L3.8 16.2L6.5 11.8" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><path d="M12.9 8.6L16.3 9.2L17 5.8M14.8 16.2L12.6 18.6L14.8 20.8M3.8 12.3L6.5 11.8L7.5 14.6" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/>
+</symbol>
+<symbol id="usk-icon-contrast" viewBox="0 0 24 24">
+  <title>Contrast</title>
+  <circle cx="12" cy="12" r="8" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><circle cx="12" cy="12" r="8" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><path d="M12 4A8 8 0 0 1 12 20Z" fill="currentColor" style="fill:var(--usi-neumorphism-relief, currentColor)" stroke="none"/>
+</symbol>
+<symbol id="usk-icon-moon" viewBox="0 0 24 24">
+  <title>Moon</title>
+  <path d="M20 14.2A8.3 8.3 0 1 1 9.8 4A7.5 7.5 0 0 0 20 14.2Z" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><path d="M20 14.2A8.3 8.3 0 1 1 9.8 4A7.5 7.5 0 0 0 20 14.2Z" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><path d="M15.3 5.2V9M13.4 7.1H17.2" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/>
+</symbol>
+<symbol id="usk-icon-sun" viewBox="0 0 24 24">
+  <title>Sun</title>
+  <circle cx="12" cy="12" r="4.5" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/><path d="M12 3.4V5M12 19V20.6M3.4 12H5M19 12H20.6M5.9 5.9L7 7M17 17L18.1 18.1M5.9 18.1L7 17M17 7L18.1 5.9" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><path d="M12 3.4V5M12 19V20.6M3.4 12H5M19 12H20.6M5.9 5.9L7 7M17 17L18.1 18.1M5.9 18.1L7 17M17 7L18.1 5.9" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/>
+</symbol>
+<symbol id="usk-icon-replace" viewBox="0 0 24 24">
+  <title>Replace</title>
+  <path d="M4.2 8.3L19.8 8.3M17.30 10.80L19.8 8.3L17.30 5.80" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/><path d="M19.8 15.7L4.2 15.7M6.70 13.20L4.2 15.7L6.70 18.20" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><path d="M19.8 15.7L4.2 15.7M6.70 13.20L4.2 15.7L6.70 18.20" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/>
+</symbol>
+<symbol id="usk-icon-shopping-bag" viewBox="0 0 24 24">
+  <title>Shopping bag</title>
+  <rect x="5" y="8.1" width="14" height="12.1" rx="2.8" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><rect x="5" y="8.1" width="14" height="12.1" rx="2.8" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><path d="M8.7 11.2V6.7A3.3 3.3 0 0 1 15.3 6.7V11.2" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/>
+</symbol>
+<symbol id="usk-icon-image-off" viewBox="0 0 24 24">
+  <title>Image off</title>
+  <path d="M4.3 7.3V19H16.7M8.2 5H19.7V15.5M6.2 16L9 13.7M14 12.1L16.6 10" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><path d="M4.3 7.3V19H16.7M8.2 5H19.7V15.5M6.2 16L9 13.7M14 12.1L16.6 10" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><path d="M4 4L20 20" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/>
+</symbol>
+<symbol id="usk-icon-sparkles" viewBox="0 0 24 24">
+  <title>Sparkles</title>
+  <path d="M10.2 4.2L11.9 9.5L17.1 11.2L11.9 12.9L10.2 18.2L8.5 12.9L3.3 11.2L8.5 9.5Z" fill="currentColor" style="fill:var(--usi-neumorphism-ink, currentColor)" stroke="none"/><path d="M18.5 13.9L19.4 16.5L22 17.4L19.4 18.3L18.5 20.9L17.6 18.3L15 17.4L17.6 16.5Z" fill="currentColor" style="fill:var(--usi-neumorphism-relief, currentColor)" stroke="none"/>
+</symbol>
+<symbol id="usk-icon-file-text" viewBox="0 0 24 24">
+  <title>File text</title>
+  <path d="M6 3H14L19 8V21H6Z M14 3V8H19" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><path d="M6 3H14L19 8V21H6Z M14 3V8H19" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><path d="M9 11.6H16.2M9 14.6H16.2M9 17.6H14.2" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/>
+</symbol>
+<symbol id="usk-icon-ban" viewBox="0 0 24 24">
+  <title>Ban</title>
+  <circle cx="12" cy="12" r="8.15" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><circle cx="12" cy="12" r="8.15" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><path d="M6.3 6.3L17.7 17.7" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/>
+</symbol>
+<symbol id="usk-icon-banknote" viewBox="0 0 24 24">
+  <title>Banknote</title>
+  <rect x="3.8" y="6.5" width="16.4" height="11" rx="2.8" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><rect x="3.8" y="6.5" width="16.4" height="11" rx="2.8" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><circle cx="12" cy="12" r="2.55" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/><path d="M7 11.2V12.8M17 11.2V12.8" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><path d="M7 11.2V12.8M17 11.2V12.8" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/>
+</symbol>
+<symbol id="usk-icon-parking" viewBox="0 0 24 24">
+  <title>Parking</title>
+  <circle cx="12" cy="12" r="8.05" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><circle cx="12" cy="12" r="8.05" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><path d="M9.8 16.1V7.8H12.6A2.5 2.5 0 0 1 12.6 12.8H9.8" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/>
+</symbol>
+<symbol id="usk-icon-scale" viewBox="0 0 24 24">
+  <title>Scale</title>
+  <path d="M12 4V19.8M7.5 19.8H16.5M5.3 7.4H18.7" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><path d="M12 4V19.8M7.5 19.8H16.5M5.3 7.4H18.7" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><path d="M5.3 7.4L2.9 13H7.7ZM18.7 7.4L16.3 13H21.1Z" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/>
+</symbol>
+<symbol id="usk-icon-shield-alert" viewBox="0 0 24 24">
+  <title>Shield alert</title>
+  <path d="M12 3.4L19.5 6.3V11.3C19.5 15.6 16.2 19 12 21C7.8 19 4.5 15.6 4.5 11.3V6.3Z" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><path d="M12 3.4L19.5 6.3V11.3C19.5 15.6 16.2 19 12 21C7.8 19 4.5 15.6 4.5 11.3V6.3Z" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><path d="M12 8V12.4" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/><circle cx="12" cy="15.4" r="0.9" fill="currentColor" style="fill:var(--usi-neumorphism-relief, currentColor)" stroke="none"/>
+</symbol>
+<symbol id="usk-icon-signpost" viewBox="0 0 24 24">
+  <title>Signpost</title>
+  <path d="M12 3.7V20.2" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><path d="M12 3.7V20.2" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><path d="M5 6.3H17L20 8.7L17 11.1H5ZM19 13.3H7L4 15.7L7 18.1H19Z" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/>
+</symbol>
+<symbol id="usk-icon-monitor" viewBox="0 0 24 24">
+  <title>Monitor</title>
+  <rect x="3.8" y="4.6" width="16.4" height="11.9" rx="2.8" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><rect x="3.8" y="4.6" width="16.4" height="11.9" rx="2.8" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><path d="M12 16.5V20M7.5 20H16.5" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/>
+</symbol>
+<symbol id="usk-icon-smartphone" viewBox="0 0 24 24">
+  <title>Smartphone</title>
+  <rect x="7.1" y="3.6" width="9.8" height="16.8" rx="2.8" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><rect x="7.1" y="3.6" width="9.8" height="16.8" rx="2.8" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><path d="M10.1 16.7H13.9" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/>
+</symbol>
+<symbol id="usk-icon-tablet" viewBox="0 0 24 24">
+  <title>Tablet</title>
+  <rect x="5.1" y="3.8" width="13.8" height="16.4" rx="2.8" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><rect x="5.1" y="3.8" width="13.8" height="16.4" rx="2.8" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><path d="M10.5 16.7H13.5" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/>
+</symbol>
+<symbol id="usk-icon-ste-workforce" viewBox="0 0 24 24">
+  <title>STE Workforce</title>
+  <circle cx="12" cy="7.2" r="2.85" fill="currentColor" style="fill:var(--usi-neumorphism-relief, currentColor)" stroke="none"/><circle cx="5.7" cy="9.3" r="1.85" fill="currentColor" style="fill:var(--usi-neumorphism-ink, currentColor)" stroke="none"/><circle cx="18.3" cy="9.3" r="1.85" fill="currentColor" style="fill:var(--usi-neumorphism-ink, currentColor)" stroke="none"/><path d="M7.2 18.8V16.4A4.8 4.8 0 0 1 16.8 16.4V18.8Z" fill="currentColor" style="fill:var(--usi-neumorphism-relief, currentColor)" stroke="none"/><path d="M2.9 17.6V15.2A2.8 2.8 0 0 1 6.8 12.6L6.2 17.6ZM21.1 17.6H17.8L17.2 12.6A2.8 2.8 0 0 1 21.1 15.2Z" fill="currentColor" style="fill:var(--usi-neumorphism-ink, currentColor)" stroke="none"/>
+</symbol>
+<symbol id="usk-icon-ste-payments" viewBox="0 0 24 24">
+  <title>STE Payments</title>
+  <path d="M15 17.1H4.1V6H19.9V11.8M4.1 9.6H19.9" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><path d="M15 17.1H4.1V6H19.9V11.8M4.1 9.6H19.9" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><path d="M7.3 13.4H9.9" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/><circle cx="17.6" cy="17.1" r="4.05" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="2.18" transform="translate(0 .45)"/><circle cx="17.6" cy="17.1" r="4.05" stroke="currentColor" style="stroke:var(--usi-neumorphism-ink, currentColor)" stroke-width="2.18"/><path d="M15.9 17L17.2 18.3L19.5 15.9" stroke="currentColor" style="stroke:var(--usi-neumorphism-relief, currentColor)" stroke-width="1.95"/>
+</symbol>
+</svg>

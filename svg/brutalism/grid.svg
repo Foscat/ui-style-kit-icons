@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Grid" focusable="false" class="usk-icon" data-icon-style="brutalism" fill="none">
+  <path d="M3.3 3.3h9.15v10.1H3.3Z M5.65 5.65v5.4h4.45v-5.4Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-brutalism-body, var(--usi-primary-ink, currentColor))"/>
+  <rect x="14.75" y="3.3" width="5.95" height="5.75" fill="currentColor" style="fill:var(--usi-brutalism-accent, var(--usi-secondary-ink, currentColor))"/>
+  <rect x="14.75" y="11.35" width="5.95" height="9.35" fill="currentColor" style="fill:var(--usi-brutalism-detail, var(--usi-accent-ink, currentColor))"/>
+  <rect x="3.3" y="15.7" width="9.15" height="5" fill="currentColor" style="fill:var(--usi-brutalism-body, var(--usi-primary-ink, currentColor))"/>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Calendar" focusable="false" class="usk-icon" data-icon-style="tactile" fill="none" stroke="var(--usi-ink, currentColor)" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="3.9" y="6.4" width="16.2" height="14.1" rx="2.2" fill="var(--usi-tactile-face, none)"/>
+  <path d="M4.73 10.35V8.6q0-1.37 1.37-1.37h11.8q1.37 0 1.37 1.37v1.75Z" fill="var(--usi-tactile-recess, none)" stroke="none"/>
+  <path d="M4 10.35h16" stroke="var(--usi-ink, currentColor)" stroke-width="1.2"/>
+  <rect x="6.6" y="3.65" width="2.2" height="4.35" rx="1.1" fill="var(--usi-tactile-face, none)" stroke="var(--usi-ink, currentColor)" stroke-width="1.2"/>
+  <rect x="15.2" y="3.65" width="2.2" height="4.35" rx="1.1" fill="var(--usi-tactile-face, none)" stroke="var(--usi-ink, currentColor)" stroke-width="1.2"/>
+  <path d="M8.1 12.75h2v1.65h-2Zm5.8 0h2v1.65h-2Zm-5.8 3.02h2v1.65h-2Zm5.8 0h2v1.65h-2Z" fill="var(--usi-primary-ink, currentColor)" stroke="none"/>
+  <path d="M6.55 18.9h10.9" stroke="var(--usi-tactile-shade, none)" stroke-width="1"/>
+</svg>

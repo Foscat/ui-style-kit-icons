@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Skip back" focusable="false" class="usk-icon" data-icon-style="neumorphism" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <g transform="translate(24 0) scale(-1 1)">
+  <path d="M4.73 6.58c0-1.11 1.17-1.72 2.12-1.13l9.02 5.62a1.1 1.1 0 0 1 0 1.86l-9.02 5.62c-.95.59-2.12-.02-2.12-1.13Z" fill="currentColor" fill-rule="evenodd"/>
+  <path d="M18.5 4.72h.01c.85 0 1.54.69 1.54 1.54v11.48c0 .85-.69 1.54-1.54 1.54-.85 0-1.54-.69-1.54-1.54V6.26c0-.85.68-1.54 1.53-1.54Z" fill="currentColor" fill-rule="evenodd"/>
+  </g>
+</svg>

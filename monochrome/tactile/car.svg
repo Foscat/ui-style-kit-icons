@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Car" focusable="false" class="usk-icon" data-icon-style="tactile" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M4.5 11.35 6.4 6.6q.5-1.25 1.85-1.25h7.5q1.35 0 1.85 1.25l1.9 4.75" fill="none"/>
+  <rect x="3.3" y="10.95" width="17.4" height="6.8" rx="2.05" fill="none"/>
+  <path d="M5.15 17.75v1.25m13.7-1.25V19" stroke="currentColor" stroke-width="2.15"/>
+  <path d="M6.45 14.25h2.2m6.7 0h2.2" stroke="currentColor" stroke-width="1.55"/>
+  <path d="M8.1 7.05h7.8" stroke="none" stroke-width="0.8"/>
+  <path d="M10.1 16.1h3.8" stroke="none" stroke-width="0.7"/>
+</svg>

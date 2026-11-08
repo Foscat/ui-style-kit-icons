@@ -1,0 +1,302 @@
+{
+  "midnight-gold/light": {
+    "technical-blueprint-ink": "#845e1b",
+    "technical-blueprint-datum": "#22314f"
+  },
+  "midnight-gold/dark": {
+    "technical-blueprint-ink": "#f3d27a",
+    "technical-blueprint-datum": "#d6a84f"
+  },
+  "midnight-gold/contrast": {
+    "technical-blueprint-ink": "#00d9ff",
+    "technical-blueprint-datum": "#ffea00"
+  },
+  "ocean-steel/light": {
+    "technical-blueprint-ink": "#06647e",
+    "technical-blueprint-datum": "#39566b"
+  },
+  "ocean-steel/dark": {
+    "technical-blueprint-ink": "#73e3f4",
+    "technical-blueprint-datum": "#36c4dd"
+  },
+  "ocean-steel/contrast": {
+    "technical-blueprint-ink": "#00e5ff",
+    "technical-blueprint-datum": "#ffff00"
+  },
+  "forest-moss/light": {
+    "technical-blueprint-ink": "#2f612b",
+    "technical-blueprint-datum": "#627838"
+  },
+  "forest-moss/dark": {
+    "technical-blueprint-ink": "#a2ed99",
+    "technical-blueprint-datum": "#b9ef6b"
+  },
+  "forest-moss/contrast": {
+    "technical-blueprint-ink": "#6cff5f",
+    "technical-blueprint-datum": "#b6ff00"
+  },
+  "sunset-ember/light": {
+    "technical-blueprint-ink": "#9f3f20",
+    "technical-blueprint-datum": "#c4512b"
+  },
+  "sunset-ember/dark": {
+    "technical-blueprint-ink": "#ffad8a",
+    "technical-blueprint-datum": "#ff8a5b"
+  },
+  "sunset-ember/contrast": {
+    "technical-blueprint-ink": "#ff9d00",
+    "technical-blueprint-datum": "#ffd000"
+  },
+  "royal-plum/light": {
+    "technical-blueprint-ink": "#63317f",
+    "technical-blueprint-datum": "#c05ac6"
+  },
+  "royal-plum/dark": {
+    "technical-blueprint-ink": "#ebb8ff",
+    "technical-blueprint-datum": "#9da8ff"
+  },
+  "royal-plum/contrast": {
+    "technical-blueprint-ink": "#e45cff",
+    "technical-blueprint-datum": "#ff00f5"
+  },
+  "graphite-cyan/light": {
+    "technical-blueprint-ink": "#00636e",
+    "technical-blueprint-datum": "#1e7a85"
+  },
+  "graphite-cyan/dark": {
+    "technical-blueprint-ink": "#7bf3ff",
+    "technical-blueprint-datum": "#3ed9e8"
+  },
+  "graphite-cyan/contrast": {
+    "technical-blueprint-ink": "#00f0ff",
+    "technical-blueprint-datum": "#f2f2f2"
+  },
+  "desert-sage/light": {
+    "technical-blueprint-ink": "#70532f",
+    "technical-blueprint-datum": "#5f7655"
+  },
+  "desert-sage/dark": {
+    "technical-blueprint-ink": "#f0d39a",
+    "technical-blueprint-datum": "#f1c46e"
+  },
+  "desert-sage/contrast": {
+    "technical-blueprint-ink": "#ffd166",
+    "technical-blueprint-datum": "#ffb000"
+  },
+  "rose-quartz/light": {
+    "technical-blueprint-ink": "#963757",
+    "technical-blueprint-datum": "#b8476d"
+  },
+  "rose-quartz/dark": {
+    "technical-blueprint-ink": "#ffb6cd",
+    "technical-blueprint-datum": "#ff8fb3"
+  },
+  "rose-quartz/contrast": {
+    "technical-blueprint-ink": "#ff8ab3",
+    "technical-blueprint-datum": "#f000ff"
+  },
+  "cyber-lime/light": {
+    "technical-blueprint-ink": "#417013",
+    "technical-blueprint-datum": "#147f86"
+  },
+  "cyber-lime/dark": {
+    "technical-blueprint-ink": "#caff7f",
+    "technical-blueprint-datum": "#a8ff3d"
+  },
+  "cyber-lime/contrast": {
+    "technical-blueprint-ink": "#aaff00",
+    "technical-blueprint-datum": "#00f0ff"
+  },
+  "arctic-indigo/light": {
+    "technical-blueprint-ink": "#314894",
+    "technical-blueprint-datum": "#405eb8"
+  },
+  "arctic-indigo/dark": {
+    "technical-blueprint-ink": "#b7c5ff",
+    "technical-blueprint-datum": "#76d8f3"
+  },
+  "arctic-indigo/contrast": {
+    "technical-blueprint-ink": "#9fb2ff",
+    "technical-blueprint-datum": "#00d9ff"
+  },
+  "chrome-navy/light": {
+    "technical-blueprint-ink": "#1a3556",
+    "technical-blueprint-datum": "#3e6b8e"
+  },
+  "chrome-navy/dark": {
+    "technical-blueprint-ink": "#c7d5e5",
+    "technical-blueprint-datum": "#7ea9d3"
+  },
+  "chrome-navy/contrast": {
+    "technical-blueprint-ink": "#9cc5f0",
+    "technical-blueprint-datum": "#00e6ff"
+  },
+  "recycled-emerald/light": {
+    "technical-blueprint-ink": "#0c5147",
+    "technical-blueprint-datum": "#0f766e"
+  },
+  "recycled-emerald/dark": {
+    "technical-blueprint-ink": "#8bffd6",
+    "technical-blueprint-datum": "#45d1af"
+  },
+  "recycled-emerald/contrast": {
+    "technical-blueprint-ink": "#38f0b9",
+    "technical-blueprint-datum": "#00f0ff"
+  },
+  "industrial-orange/light": {
+    "technical-blueprint-ink": "#8e3f12",
+    "technical-blueprint-datum": "#b74e16"
+  },
+  "industrial-orange/dark": {
+    "technical-blueprint-ink": "#ffb36b",
+    "technical-blueprint-datum": "#ff8a3d"
+  },
+  "industrial-orange/contrast": {
+    "technical-blueprint-ink": "#ffb36b",
+    "technical-blueprint-datum": "#ff9a42"
+  },
+  "performance-red/light": {
+    "technical-blueprint-ink": "#a30e25",
+    "technical-blueprint-datum": "#e84c61"
+  },
+  "performance-red/dark": {
+    "technical-blueprint-ink": "#ff8394",
+    "technical-blueprint-datum": "#ff4c66"
+  },
+  "performance-red/contrast": {
+    "technical-blueprint-ink": "#ff95a3",
+    "technical-blueprint-datum": "#ff3656"
+  },
+  "heritage-brass/light": {
+    "technical-blueprint-ink": "#5b0d16",
+    "technical-blueprint-datum": "#896934"
+  },
+  "heritage-brass/dark": {
+    "technical-blueprint-ink": "#f0c87d",
+    "technical-blueprint-datum": "#c98a5d"
+  },
+  "heritage-brass/contrast": {
+    "technical-blueprint-ink": "#ffd36b",
+    "technical-blueprint-datum": "#c88a36"
+  },
+  "service-blue-red/light": {
+    "technical-blueprint-ink": "#0b3155",
+    "technical-blueprint-datum": "#d62b2b"
+  },
+  "service-blue-red/dark": {
+    "technical-blueprint-ink": "#a5cbf1",
+    "technical-blueprint-datum": "#ff6a6a"
+  },
+  "service-blue-red/contrast": {
+    "technical-blueprint-ink": "#8cc6ff",
+    "technical-blueprint-datum": "#ff6666"
+  },
+  "newsprint-crimson/light": {
+    "technical-blueprint-ink": "#6a1e24",
+    "technical-blueprint-datum": "#865f50"
+  },
+  "newsprint-crimson/dark": {
+    "technical-blueprint-ink": "#f0a597",
+    "technical-blueprint-datum": "#d87c83"
+  },
+  "newsprint-crimson/contrast": {
+    "technical-blueprint-ink": "#ff9aa3",
+    "technical-blueprint-datum": "#ff7a84"
+  },
+  "foundry-amber/light": {
+    "technical-blueprint-ink": "#864600",
+    "technical-blueprint-datum": "#956625"
+  },
+  "foundry-amber/dark": {
+    "technical-blueprint-ink": "#ffd17a",
+    "technical-blueprint-datum": "#f0a03a"
+  },
+  "foundry-amber/contrast": {
+    "technical-blueprint-ink": "#ffc247",
+    "technical-blueprint-datum": "#ffb000"
+  },
+  "soft-orchid/light": {
+    "technical-blueprint-ink": "#4b3b98",
+    "technical-blueprint-datum": "#6552b8"
+  },
+  "soft-orchid/dark": {
+    "technical-blueprint-ink": "#d1b7f5",
+    "technical-blueprint-datum": "#a994f2"
+  },
+  "soft-orchid/contrast": {
+    "technical-blueprint-ink": "#c9b5ff",
+    "technical-blueprint-datum": "#71ffe2"
+  },
+  "electric-noir/light": {
+    "technical-blueprint-ink": "#721562",
+    "technical-blueprint-datum": "#2e7590"
+  },
+  "electric-noir/dark": {
+    "technical-blueprint-ink": "#ff7ae1",
+    "technical-blueprint-datum": "#e24ac4"
+  },
+  "electric-noir/contrast": {
+    "technical-blueprint-ink": "#ff7be0",
+    "technical-blueprint-datum": "#00d7ff"
+  },
+  "signal-yellow/light": {
+    "technical-blueprint-ink": "#704f00",
+    "technical-blueprint-datum": "#80732e"
+  },
+  "signal-yellow/dark": {
+    "technical-blueprint-ink": "#ffe866",
+    "technical-blueprint-datum": "#ffd83b"
+  },
+  "signal-yellow/contrast": {
+    "technical-blueprint-ink": "#ffea00",
+    "technical-blueprint-datum": "#00d9ff"
+  },
+  "botanical-green/light": {
+    "technical-blueprint-ink": "#086132",
+    "technical-blueprint-datum": "#297e4a"
+  },
+  "botanical-green/dark": {
+    "technical-blueprint-ink": "#80f0a9",
+    "technical-blueprint-datum": "#52de8b"
+  },
+  "botanical-green/contrast": {
+    "technical-blueprint-ink": "#67ffa6",
+    "technical-blueprint-datum": "#00ff70"
+  },
+  "cobalt-electric/light": {
+    "technical-blueprint-ink": "#0040a3",
+    "technical-blueprint-datum": "#0052cc"
+  },
+  "cobalt-electric/dark": {
+    "technical-blueprint-ink": "#a4bcff",
+    "technical-blueprint-datum": "#6f95ff"
+  },
+  "cobalt-electric/contrast": {
+    "technical-blueprint-ink": "#84a8ff",
+    "technical-blueprint-datum": "#4c85ff"
+  },
+  "stone-graphite/light": {
+    "technical-blueprint-ink": "#343c38",
+    "technical-blueprint-datum": "#5b615d"
+  },
+  "stone-graphite/dark": {
+    "technical-blueprint-ink": "#dce0dd",
+    "technical-blueprint-datum": "#a4aaa6"
+  },
+  "stone-graphite/contrast": {
+    "technical-blueprint-ink": "#ffffff",
+    "technical-blueprint-datum": "#cdcdcd"
+  },
+  "walnut-clay/light": {
+    "technical-blueprint-ink": "#693c2b",
+    "technical-blueprint-datum": "#be6f52"
+  },
+  "walnut-clay/dark": {
+    "technical-blueprint-ink": "#f0bc9c",
+    "technical-blueprint-datum": "#da9e7c"
+  },
+  "walnut-clay/contrast": {
+    "technical-blueprint-ink": "#ffc2a0",
+    "technical-blueprint-datum": "#d0eaa6"
+  }
+}

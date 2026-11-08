@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Chevron left" focusable="false" class="usk-icon" data-icon-style="art-deco" fill="none" stroke-linejoin="bevel" stroke-linecap="square">
+  <g transform="rotate(180 12 12)">
+  <path d="M8.05 4.7h2.65l6.6 6.37v1.86l-6.6 6.37H8.05v-1.9h1.72l5.56-5.4-5.56-5.4H8.05Z" fill="currentColor" fill-rule="evenodd"/>
+  <path d="M6.15 8.75H8l3.3 3.25L8 15.25H6.15" stroke="currentColor" stroke-width="1.14"/>
+  </g>
+</svg>

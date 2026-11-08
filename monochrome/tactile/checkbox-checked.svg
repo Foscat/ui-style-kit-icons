@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Checkbox checked" focusable="false" class="usk-icon" data-icon-style="tactile" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="3.7" y="3.7" width="16.6" height="16.6" rx="2.6" fill="none"/>
+  <path d="M5.55 10V7.55q0-2 2-2h8.9" stroke="none" stroke-width="1"/>
+  <path d="M18.5 14.3v2.15q0 2.05-2.05 2.05H8.5" stroke="none" stroke-width="0.8"/>
+  <path d="m7.65 12.1 2.75 2.75 5.95-5.95" stroke="currentColor" stroke-width="1.85"/>
+</svg>

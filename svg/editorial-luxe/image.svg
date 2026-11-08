@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Image" focusable="false" class="usk-icon" data-icon-style="editorial-luxe" fill="none" stroke-linejoin="round" stroke-linecap="round">
+  <path d="M3.7 5.1h16.6v13.8H3.7Z" stroke="currentColor" stroke-width="1.35" style="stroke:var(--usi-editorial-luxe-ink, var(--usi-primary-ink, currentColor))"/>
+  <path d="m4.45 17.7 4.25-5.3 2.55 2.6 3.85-5.25 4.45 5.75v2.2h-1.55l-2.9-5.55-3.72 5.14-2.6-2.54-2.3 2.95Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-editorial-luxe-ink, var(--usi-primary-ink, currentColor))"/>
+  <circle cx="8.1" cy="9.2" r="1.42" fill="currentColor" style="fill:var(--usi-editorial-luxe-foil, var(--usi-accent-ink, currentColor))"/>
+  <path d="M6 20.7h12" stroke="currentColor" stroke-width="1.02" style="stroke:var(--usi-editorial-luxe-foil, var(--usi-accent-ink, currentColor))"/>
+</svg>

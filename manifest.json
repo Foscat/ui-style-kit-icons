@@ -1,399 +1,1895 @@
 {
   "name": "ui-style-kit-icons",
-  "version": "1.0.0",
-  "contractVersion": "1.0.0",
-  "style": "system",
-  "styleSource": "UI Style Kit",
-  "requiredIconCount": 64,
-  "iconCount": 64,
-  "coreIcons": [
-    {
-      "id": "home",
-      "label": "Home",
-      "file": "icons/home.svg",
-      "symbol": "#usk-icon-home"
-    },
-    {
-      "id": "dashboard",
-      "label": "Dashboard",
-      "file": "icons/dashboard.svg",
-      "symbol": "#usk-icon-dashboard"
-    },
-    {
-      "id": "browser",
-      "label": "Browser",
-      "file": "icons/browser.svg",
-      "symbol": "#usk-icon-browser"
-    },
-    {
-      "id": "search",
-      "label": "Search",
-      "file": "icons/search.svg",
-      "symbol": "#usk-icon-search"
-    },
-    {
-      "id": "user",
-      "label": "User",
-      "file": "icons/user.svg",
-      "symbol": "#usk-icon-user"
-    },
-    {
-      "id": "users",
-      "label": "Users",
-      "file": "icons/users.svg",
-      "symbol": "#usk-icon-users"
-    },
-    {
-      "id": "settings",
-      "label": "Settings",
-      "file": "icons/settings.svg",
-      "symbol": "#usk-icon-settings"
-    },
-    {
-      "id": "bell",
-      "label": "Notifications",
-      "file": "icons/bell.svg",
-      "symbol": "#usk-icon-bell"
-    },
-    {
-      "id": "message",
-      "label": "Message",
-      "file": "icons/message.svg",
-      "symbol": "#usk-icon-message"
-    },
-    {
-      "id": "mail",
-      "label": "Email",
-      "file": "icons/mail.svg",
-      "symbol": "#usk-icon-mail"
-    },
-    {
-      "id": "calendar",
-      "label": "Calendar",
-      "file": "icons/calendar.svg",
-      "symbol": "#usk-icon-calendar"
-    },
-    {
-      "id": "upload",
-      "label": "Upload",
-      "file": "icons/upload.svg",
-      "symbol": "#usk-icon-upload"
-    },
-    {
-      "id": "download",
-      "label": "Download",
-      "file": "icons/download.svg",
-      "symbol": "#usk-icon-download"
-    },
-    {
-      "id": "folder",
-      "label": "Folder",
-      "file": "icons/folder.svg",
-      "symbol": "#usk-icon-folder"
-    },
-    {
-      "id": "file",
-      "label": "File",
-      "file": "icons/file.svg",
-      "symbol": "#usk-icon-file"
-    },
-    {
-      "id": "image",
-      "label": "Image",
-      "file": "icons/image.svg",
-      "symbol": "#usk-icon-image"
-    },
-    {
-      "id": "video",
-      "label": "Video",
-      "file": "icons/video.svg",
-      "symbol": "#usk-icon-video"
-    },
-    {
-      "id": "camera",
-      "label": "Camera",
-      "file": "icons/camera.svg",
-      "symbol": "#usk-icon-camera"
-    },
-    {
-      "id": "database",
-      "label": "Database",
-      "file": "icons/database.svg",
-      "symbol": "#usk-icon-database"
-    },
-    {
-      "id": "server",
-      "label": "Server",
-      "file": "icons/server.svg",
-      "symbol": "#usk-icon-server"
-    },
-    {
-      "id": "api",
-      "label": "API",
-      "file": "icons/api.svg",
-      "symbol": "#usk-icon-api"
-    },
-    {
-      "id": "lock",
-      "label": "Lock",
-      "file": "icons/lock.svg",
-      "symbol": "#usk-icon-lock"
-    },
-    {
-      "id": "shield",
-      "label": "Shield",
-      "file": "icons/shield.svg",
-      "symbol": "#usk-icon-shield"
-    },
-    {
-      "id": "key",
-      "label": "Key",
-      "file": "icons/key.svg",
-      "symbol": "#usk-icon-key"
-    },
-    {
-      "id": "chart",
-      "label": "Chart",
-      "file": "icons/chart.svg",
-      "symbol": "#usk-icon-chart"
-    },
-    {
-      "id": "activity",
-      "label": "Activity",
-      "file": "icons/activity.svg",
-      "symbol": "#usk-icon-activity"
-    },
-    {
-      "id": "credit-card",
-      "label": "Credit Card",
-      "file": "icons/credit-card.svg",
-      "symbol": "#usk-icon-credit-card"
-    },
-    {
-      "id": "wallet",
-      "label": "Wallet",
-      "file": "icons/wallet.svg",
-      "symbol": "#usk-icon-wallet"
-    },
-    {
-      "id": "cart",
-      "label": "Cart",
-      "file": "icons/cart.svg",
-      "symbol": "#usk-icon-cart"
-    },
-    {
-      "id": "invoice",
-      "label": "Invoice",
-      "file": "icons/invoice.svg",
-      "symbol": "#usk-icon-invoice"
-    },
-    {
-      "id": "tax",
-      "label": "Tax",
-      "file": "icons/tax.svg",
-      "symbol": "#usk-icon-tax"
-    },
-    {
-      "id": "login",
-      "label": "Login",
-      "file": "icons/login.svg",
-      "symbol": "#usk-icon-login"
-    },
-    {
-      "id": "logout",
-      "label": "Logout",
-      "file": "icons/logout.svg",
-      "symbol": "#usk-icon-logout"
-    },
-    {
-      "id": "edit",
-      "label": "Edit",
-      "file": "icons/edit.svg",
-      "symbol": "#usk-icon-edit"
-    },
-    {
-      "id": "trash",
-      "label": "Trash",
-      "file": "icons/trash.svg",
-      "symbol": "#usk-icon-trash"
-    },
-    {
-      "id": "plus",
-      "label": "Plus",
-      "file": "icons/plus.svg",
-      "symbol": "#usk-icon-plus"
-    },
-    {
-      "id": "minus",
-      "label": "Minus",
-      "file": "icons/minus.svg",
-      "symbol": "#usk-icon-minus"
-    },
-    {
-      "id": "filter",
-      "label": "Filter",
-      "file": "icons/filter.svg",
-      "symbol": "#usk-icon-filter"
-    },
-    {
-      "id": "menu",
-      "label": "Menu",
-      "file": "icons/menu.svg",
-      "symbol": "#usk-icon-menu"
-    },
-    {
-      "id": "code",
-      "label": "Code",
-      "file": "icons/code.svg",
-      "symbol": "#usk-icon-code"
-    },
-    {
-      "id": "terminal",
-      "label": "Terminal",
-      "file": "icons/terminal.svg",
-      "symbol": "#usk-icon-terminal"
-    },
-    {
-      "id": "rocket",
-      "label": "Rocket",
-      "file": "icons/rocket.svg",
-      "symbol": "#usk-icon-rocket"
-    },
-    {
-      "id": "bug",
-      "label": "Bug",
-      "file": "icons/bug.svg",
-      "symbol": "#usk-icon-bug"
-    },
-    {
-      "id": "help",
-      "label": "Help",
-      "file": "icons/help.svg",
-      "symbol": "#usk-icon-help"
-    },
-    {
-      "id": "link",
-      "label": "Link",
-      "file": "icons/link.svg",
-      "symbol": "#usk-icon-link"
-    },
-    {
-      "id": "cloud",
-      "label": "Cloud",
-      "file": "icons/cloud.svg",
-      "symbol": "#usk-icon-cloud"
-    },
-    {
-      "id": "globe",
-      "label": "Globe",
-      "file": "icons/globe.svg",
-      "symbol": "#usk-icon-globe"
-    },
-    {
-      "id": "warning",
-      "label": "Warning",
-      "file": "icons/warning.svg",
-      "symbol": "#usk-icon-warning"
-    },
-    {
-      "id": "scan",
-      "label": "Scan",
-      "file": "icons/scan.svg",
-      "symbol": "#usk-icon-scan"
-    },
-    {
-      "id": "network",
-      "label": "Network",
-      "file": "icons/network.svg",
-      "symbol": "#usk-icon-network"
-    },
-    {
-      "id": "cpu",
-      "label": "CPU",
-      "file": "icons/cpu.svg",
-      "symbol": "#usk-icon-cpu"
-    },
-    {
-      "id": "layers",
-      "label": "Layers",
-      "file": "icons/layers.svg",
-      "symbol": "#usk-icon-layers"
-    },
-    {
-      "id": "eye",
-      "label": "Eye",
-      "file": "icons/eye.svg",
-      "symbol": "#usk-icon-eye"
-    },
-    {
-      "id": "grid",
-      "label": "Grid",
-      "file": "icons/grid.svg",
-      "symbol": "#usk-icon-grid"
-    },
-    {
-      "id": "module",
-      "label": "Module",
-      "file": "icons/module.svg",
-      "symbol": "#usk-icon-module"
-    },
-    {
-      "id": "stack",
-      "label": "Stack",
-      "file": "icons/stack.svg",
-      "symbol": "#usk-icon-stack"
-    },
-    {
-      "id": "tile",
-      "label": "Tile",
-      "file": "icons/tile.svg",
-      "symbol": "#usk-icon-tile"
-    },
-    {
-      "id": "phone",
-      "label": "Phone",
-      "file": "icons/phone.svg",
-      "symbol": "#usk-icon-phone"
-    },
-    {
-      "id": "palette",
-      "label": "Palette",
-      "file": "icons/palette.svg",
-      "symbol": "#usk-icon-palette"
-    },
-    {
-      "id": "heart",
-      "label": "Heart",
-      "file": "icons/heart.svg",
-      "symbol": "#usk-icon-heart"
-    },
-    {
-      "id": "star",
-      "label": "Star",
-      "file": "icons/star.svg",
-      "symbol": "#usk-icon-star"
-    },
-    {
-      "id": "target",
-      "label": "Target",
-      "file": "icons/target.svg",
-      "symbol": "#usk-icon-target"
-    },
-    {
-      "id": "megaphone",
-      "label": "Megaphone",
-      "file": "icons/megaphone.svg",
-      "symbol": "#usk-icon-megaphone"
-    },
-    {
-      "id": "cursor",
-      "label": "Cursor",
-      "file": "icons/cursor.svg",
-      "symbol": "#usk-icon-cursor"
-    }
+  "version": "2.0.0",
+  "contractVersion": "1",
+  "collection": "01",
+  "schemaVersion": 1,
+  "iconsPerStyle": 174,
+  "styleCount": 20,
+  "themeCount": 25,
+  "modes": [
+    "light",
+    "dark",
+    "contrast"
   ],
-  "optionalIcons": [],
+  "styles": {
+    "minimal-saas": {
+      "label": "Minimal SaaS",
+      "description": "Clean outlines and neutral geometry",
+      "motion": "slide"
+    },
+    "bento": {
+      "label": "Bento",
+      "description": "Rounded modules and soft tiles",
+      "motion": "cascade"
+    },
+    "maximalist": {
+      "label": "Maximalist",
+      "description": "Expressive silhouettes and bold layers",
+      "motion": "elastic"
+    },
+    "bauhaus": {
+      "label": "Bauhaus",
+      "description": "Hard edges and measured geometry",
+      "motion": "curtain"
+    },
+    "tactile": {
+      "label": "Tactile",
+      "description": "Recessed details and sculpted faces",
+      "motion": "form"
+    },
+    "brutalism": {
+      "label": "Brutalism",
+      "description": "Heavy outlines and blunt silhouettes",
+      "motion": "slide"
+    },
+    "cyberpunk": {
+      "label": "Cyberpunk",
+      "description": "Angular cuts and electric accents",
+      "motion": "curtain"
+    },
+    "y2k": {
+      "label": "Y2K",
+      "description": "Gloss, chrome, and soft-tech curves",
+      "motion": "portal"
+    },
+    "retro-glass": {
+      "label": "Retro Glass",
+      "description": "Etched marks and translucent color",
+      "motion": "form"
+    },
+    "editorial-luxe": {
+      "label": "Editorial Lux",
+      "description": "Engraved lines and foil accents",
+      "motion": "slide"
+    },
+    "organic-modern": {
+      "label": "Organic Modern",
+      "description": "Rounded shapes and solid color inlays",
+      "motion": "cascade"
+    },
+    "industrial-utility": {
+      "label": "Industrial Utility",
+      "description": "Workwear hardware and practical silhouettes",
+      "motion": "slide"
+    },
+    "technical-blueprint": {
+      "label": "Technical Blueprint",
+      "description": "Measured linework and drafting accents",
+      "motion": "curtain"
+    },
+    "art-deco": {
+      "label": "Art Deco",
+      "description": "Stepped profiles and geometric trim",
+      "motion": "curtain"
+    },
+    "clay": {
+      "label": "Clay",
+      "description": "Soft forms with rounded color blocks",
+      "motion": "elastic"
+    },
+    "data-terminal": {
+      "label": "Data Terminal",
+      "description": "Pixel steps and high-visibility indicators",
+      "motion": "slide"
+    },
+    "paper-editorial": {
+      "label": "Paper Editorial",
+      "description": "Printed linework and cut-paper accents",
+      "motion": "form"
+    },
+    "neo-noir": {
+      "label": "Neo-Noir",
+      "description": "Canted silhouettes and directional highlights",
+      "motion": "curtain"
+    },
+    "neumorphism": {
+      "label": "Neumorphism",
+      "description": "Rounded relief and recessed details",
+      "motion": "form"
+    },
+    "retrofuturism": {
+      "label": "Retrofuturism",
+      "description": "Swept edges, instrument rims, and two-tone enamel",
+      "motion": "portal"
+    }
+  },
+  "styleAliases": {
+    "": "organic-modern",
+    "default": "organic-modern",
+    "system": "organic-modern",
+    "saas": "minimal-saas",
+    "playful": "maximalist",
+    "skeuomorphic": "tactile",
+    "skeuomorphism": "tactile",
+    "brutalist": "brutalism",
+    "glassmorphism": "retro-glass",
+    "editorial": "editorial-luxe",
+    "organic": "organic-modern"
+  },
+  "icons": {
+    "home": {
+      "label": "Home",
+      "category": "navigation",
+      "keywords": [],
+      "slice": 0
+    },
+    "search": {
+      "label": "Search",
+      "category": "actions",
+      "keywords": [
+        "find",
+        "query",
+        "magnifier"
+      ],
+      "slice": 0
+    },
+    "user": {
+      "label": "User",
+      "category": "interface",
+      "keywords": [
+        "person",
+        "account"
+      ],
+      "slice": 0
+    },
+    "folder": {
+      "label": "Folder",
+      "category": "interface",
+      "keywords": [],
+      "slice": 0
+    },
+    "settings": {
+      "label": "Settings",
+      "category": "interface",
+      "keywords": [
+        "gear",
+        "preferences"
+      ],
+      "slice": 0
+    },
+    "bell": {
+      "label": "Bell",
+      "category": "interface",
+      "keywords": [],
+      "slice": 0
+    },
+    "mail": {
+      "label": "Mail",
+      "category": "interface",
+      "keywords": [],
+      "slice": 0
+    },
+    "calendar": {
+      "label": "Calendar",
+      "category": "interface",
+      "keywords": [],
+      "slice": 0
+    },
+    "download": {
+      "label": "Download",
+      "category": "actions",
+      "keywords": [],
+      "slice": 0
+    },
+    "trash": {
+      "label": "Trash",
+      "category": "actions",
+      "keywords": [
+        "delete",
+        "remove",
+        "bin"
+      ],
+      "slice": 0
+    },
+    "warning": {
+      "label": "Warning",
+      "category": "interface",
+      "keywords": [
+        "caution",
+        "alert"
+      ],
+      "slice": 0
+    },
+    "link": {
+      "label": "Link",
+      "category": "interface",
+      "keywords": [],
+      "slice": 0
+    },
+    "menu": {
+      "label": "Menu",
+      "category": "navigation",
+      "keywords": [],
+      "slice": 1
+    },
+    "more-horizontal": {
+      "label": "More horizontal",
+      "category": "navigation",
+      "keywords": [
+        "ellipsis",
+        "overflow",
+        "actions"
+      ],
+      "slice": 1
+    },
+    "plus": {
+      "label": "Plus",
+      "category": "actions",
+      "keywords": [
+        "add",
+        "increase"
+      ],
+      "slice": 1
+    },
+    "minus": {
+      "label": "Minus",
+      "category": "actions",
+      "keywords": [
+        "subtract",
+        "decrease"
+      ],
+      "slice": 1
+    },
+    "check": {
+      "label": "Check",
+      "category": "actions",
+      "keywords": [
+        "confirm",
+        "done",
+        "complete"
+      ],
+      "slice": 1
+    },
+    "close": {
+      "label": "Close",
+      "category": "actions",
+      "keywords": [
+        "dismiss",
+        "cancel",
+        "x"
+      ],
+      "slice": 1
+    },
+    "arrow-left": {
+      "label": "Arrow left",
+      "category": "navigation",
+      "keywords": [],
+      "slice": 1
+    },
+    "arrow-right": {
+      "label": "Arrow right",
+      "category": "navigation",
+      "keywords": [],
+      "slice": 1
+    },
+    "arrow-up": {
+      "label": "Arrow up",
+      "category": "navigation",
+      "keywords": [],
+      "slice": 1
+    },
+    "arrow-down": {
+      "label": "Arrow down",
+      "category": "navigation",
+      "keywords": [],
+      "slice": 1
+    },
+    "chevron-left": {
+      "label": "Chevron left",
+      "category": "navigation",
+      "keywords": [],
+      "slice": 1
+    },
+    "chevron-right": {
+      "label": "Chevron right",
+      "category": "navigation",
+      "keywords": [],
+      "slice": 1
+    },
+    "chevron-up": {
+      "label": "Chevron up",
+      "category": "navigation",
+      "keywords": [],
+      "slice": 1
+    },
+    "chevron-down": {
+      "label": "Chevron down",
+      "category": "navigation",
+      "keywords": [],
+      "slice": 1
+    },
+    "edit": {
+      "label": "Edit",
+      "category": "actions",
+      "keywords": [
+        "pencil",
+        "modify"
+      ],
+      "slice": 1
+    },
+    "upload": {
+      "label": "Upload",
+      "category": "actions",
+      "keywords": [],
+      "slice": 1
+    },
+    "filter": {
+      "label": "Filter",
+      "category": "actions",
+      "keywords": [],
+      "slice": 1
+    },
+    "grid": {
+      "label": "Grid",
+      "category": "interface",
+      "keywords": [
+        "layout",
+        "tiles"
+      ],
+      "slice": 1
+    },
+    "eye": {
+      "label": "Eye",
+      "category": "interface",
+      "keywords": [
+        "show",
+        "view",
+        "visibility"
+      ],
+      "slice": 1
+    },
+    "lock": {
+      "label": "Lock",
+      "category": "interface",
+      "keywords": [
+        "security",
+        "protected"
+      ],
+      "slice": 1
+    },
+    "info": {
+      "label": "Info",
+      "category": "feedback",
+      "keywords": [
+        "information",
+        "notice"
+      ],
+      "slice": 2
+    },
+    "success": {
+      "label": "Success",
+      "category": "feedback",
+      "keywords": [
+        "complete",
+        "valid",
+        "done"
+      ],
+      "slice": 2
+    },
+    "error": {
+      "label": "Error",
+      "category": "feedback",
+      "keywords": [
+        "failure",
+        "invalid",
+        "alert"
+      ],
+      "slice": 2
+    },
+    "help": {
+      "label": "Help",
+      "category": "feedback",
+      "keywords": [
+        "question",
+        "support"
+      ],
+      "slice": 2
+    },
+    "checkbox": {
+      "label": "Checkbox",
+      "category": "forms",
+      "keywords": [
+        "unchecked",
+        "form",
+        "selection"
+      ],
+      "slice": 2
+    },
+    "checkbox-checked": {
+      "label": "Checkbox checked",
+      "category": "forms",
+      "keywords": [
+        "checked",
+        "form",
+        "selection"
+      ],
+      "slice": 2
+    },
+    "checkbox-indeterminate": {
+      "label": "Checkbox indeterminate",
+      "category": "forms",
+      "keywords": [
+        "mixed",
+        "partial",
+        "form"
+      ],
+      "slice": 2
+    },
+    "radio": {
+      "label": "Radio",
+      "category": "forms",
+      "keywords": [
+        "unselected",
+        "option",
+        "form"
+      ],
+      "slice": 2
+    },
+    "radio-selected": {
+      "label": "Radio selected",
+      "category": "forms",
+      "keywords": [
+        "selected",
+        "option",
+        "form"
+      ],
+      "slice": 2
+    },
+    "eye-off": {
+      "label": "Eye off",
+      "category": "feedback",
+      "keywords": [
+        "hide",
+        "hidden",
+        "conceal",
+        "password"
+      ],
+      "slice": 2
+    },
+    "refresh": {
+      "label": "Refresh",
+      "category": "feedback",
+      "keywords": [
+        "reload",
+        "retry",
+        "sync"
+      ],
+      "slice": 2
+    },
+    "external-link": {
+      "label": "External link",
+      "category": "feedback",
+      "keywords": [
+        "outbound",
+        "new tab"
+      ],
+      "slice": 2
+    },
+    "undo": {
+      "label": "Undo",
+      "category": "feedback",
+      "keywords": [
+        "revert",
+        "back"
+      ],
+      "slice": 2
+    },
+    "redo": {
+      "label": "Redo",
+      "category": "feedback",
+      "keywords": [
+        "restore",
+        "forward"
+      ],
+      "slice": 2
+    },
+    "toggle-off": {
+      "label": "Toggle off",
+      "category": "forms",
+      "keywords": [
+        "switch",
+        "disabled",
+        "off"
+      ],
+      "slice": 2
+    },
+    "toggle-on": {
+      "label": "Toggle on",
+      "category": "forms",
+      "keywords": [
+        "switch",
+        "enabled",
+        "on"
+      ],
+      "slice": 2
+    },
+    "file": {
+      "label": "File",
+      "category": "files",
+      "keywords": [
+        "document",
+        "page"
+      ],
+      "slice": 3
+    },
+    "copy": {
+      "label": "Copy",
+      "category": "files",
+      "keywords": [
+        "duplicate",
+        "clipboard"
+      ],
+      "slice": 3
+    },
+    "save": {
+      "label": "Save",
+      "category": "files",
+      "keywords": [
+        "disk",
+        "commit"
+      ],
+      "slice": 3
+    },
+    "image": {
+      "label": "Image",
+      "category": "media",
+      "keywords": [
+        "photo",
+        "picture",
+        "landscape"
+      ],
+      "slice": 3
+    },
+    "camera": {
+      "label": "Camera",
+      "category": "media",
+      "keywords": [
+        "photograph",
+        "capture"
+      ],
+      "slice": 3
+    },
+    "play": {
+      "label": "Play",
+      "category": "media",
+      "keywords": [
+        "start",
+        "resume",
+        "playback"
+      ],
+      "slice": 3
+    },
+    "pause": {
+      "label": "Pause",
+      "category": "media",
+      "keywords": [
+        "hold",
+        "playback"
+      ],
+      "slice": 3
+    },
+    "stop": {
+      "label": "Stop",
+      "category": "media",
+      "keywords": [
+        "end",
+        "recording",
+        "playback"
+      ],
+      "slice": 3
+    },
+    "skip-back": {
+      "label": "Skip back",
+      "category": "media",
+      "keywords": [
+        "previous",
+        "track",
+        "playback"
+      ],
+      "slice": 3
+    },
+    "skip-forward": {
+      "label": "Skip forward",
+      "category": "media",
+      "keywords": [
+        "next",
+        "track",
+        "playback"
+      ],
+      "slice": 3
+    },
+    "volume": {
+      "label": "Volume",
+      "category": "media",
+      "keywords": [
+        "sound",
+        "speaker",
+        "audio"
+      ],
+      "slice": 3
+    },
+    "volume-off": {
+      "label": "Volume off",
+      "category": "media",
+      "keywords": [
+        "mute",
+        "muted",
+        "speaker",
+        "audio"
+      ],
+      "slice": 3
+    },
+    "microphone": {
+      "label": "Microphone",
+      "category": "media",
+      "keywords": [
+        "voice",
+        "record",
+        "audio"
+      ],
+      "slice": 3
+    },
+    "attachment": {
+      "label": "Attachment",
+      "category": "files",
+      "keywords": [
+        "attach",
+        "paperclip",
+        "upload"
+      ],
+      "slice": 3
+    },
+    "print": {
+      "label": "Print",
+      "category": "files",
+      "keywords": [
+        "printer",
+        "paper"
+      ],
+      "slice": 3
+    },
+    "share": {
+      "label": "Share",
+      "category": "files",
+      "keywords": [
+        "send",
+        "destinations"
+      ],
+      "slice": 3
+    },
+    "cart": {
+      "label": "Cart",
+      "category": "commerce",
+      "keywords": [
+        "shopping",
+        "purchase",
+        "checkout",
+        "basket"
+      ],
+      "slice": 4
+    },
+    "credit-card": {
+      "label": "Credit card",
+      "category": "commerce",
+      "keywords": [
+        "payment",
+        "billing",
+        "card",
+        "pos"
+      ],
+      "slice": 4
+    },
+    "receipt": {
+      "label": "Receipt",
+      "category": "commerce",
+      "keywords": [
+        "bill",
+        "invoice",
+        "order",
+        "payment"
+      ],
+      "slice": 4
+    },
+    "tag": {
+      "label": "Tag",
+      "category": "commerce",
+      "keywords": [
+        "price",
+        "label",
+        "item"
+      ],
+      "slice": 4
+    },
+    "package": {
+      "label": "Package",
+      "category": "inventory",
+      "keywords": [
+        "box",
+        "stock",
+        "inventory",
+        "parcel"
+      ],
+      "slice": 4
+    },
+    "warehouse": {
+      "label": "Warehouse",
+      "category": "inventory",
+      "keywords": [
+        "storage",
+        "yard",
+        "stock",
+        "inventory"
+      ],
+      "slice": 4
+    },
+    "truck": {
+      "label": "Truck",
+      "category": "inventory",
+      "keywords": [
+        "delivery",
+        "shipping",
+        "fulfillment",
+        "dispatch"
+      ],
+      "slice": 4
+    },
+    "map-pin": {
+      "label": "Map pin",
+      "category": "location",
+      "keywords": [
+        "location",
+        "address",
+        "position",
+        "yard"
+      ],
+      "slice": 4
+    },
+    "car": {
+      "label": "Car",
+      "category": "inventory",
+      "keywords": [
+        "vehicle",
+        "automotive",
+        "intake"
+      ],
+      "slice": 4
+    },
+    "wrench": {
+      "label": "Wrench",
+      "category": "inventory",
+      "keywords": [
+        "repair",
+        "service",
+        "tool",
+        "maintenance"
+      ],
+      "slice": 4
+    },
+    "barcode": {
+      "label": "Barcode",
+      "category": "inventory",
+      "keywords": [
+        "scan",
+        "scanner",
+        "inventory",
+        "sku"
+      ],
+      "slice": 4
+    },
+    "clipboard": {
+      "label": "Clipboard",
+      "category": "inventory",
+      "keywords": [
+        "work",
+        "list",
+        "picking",
+        "queue",
+        "intake"
+      ],
+      "slice": 4
+    },
+    "chart-bar": {
+      "label": "Chart bar",
+      "category": "reports",
+      "keywords": [
+        "reports",
+        "analytics",
+        "statistics"
+      ],
+      "slice": 4
+    },
+    "users": {
+      "label": "Users",
+      "category": "business",
+      "keywords": [
+        "team",
+        "staff",
+        "accounts",
+        "people"
+      ],
+      "slice": 4
+    },
+    "briefcase": {
+      "label": "Briefcase",
+      "category": "business",
+      "keywords": [
+        "business",
+        "work",
+        "project"
+      ],
+      "slice": 4
+    },
+    "building": {
+      "label": "Building",
+      "category": "business",
+      "keywords": [
+        "company",
+        "organization",
+        "office"
+      ],
+      "slice": 4
+    },
+    "dashboard": {
+      "label": "Dashboard",
+      "category": "navigation",
+      "keywords": [
+        "overview",
+        "admin",
+        "layout"
+      ],
+      "slice": 5
+    },
+    "list": {
+      "label": "List",
+      "category": "interface",
+      "keywords": [
+        "rows",
+        "display",
+        "catalog"
+      ],
+      "slice": 5
+    },
+    "table": {
+      "label": "Table",
+      "category": "interface",
+      "keywords": [
+        "spreadsheet",
+        "rows",
+        "columns",
+        "data"
+      ],
+      "slice": 5
+    },
+    "sort": {
+      "label": "Sort",
+      "category": "actions",
+      "keywords": [
+        "ascending",
+        "descending",
+        "order"
+      ],
+      "slice": 5
+    },
+    "clock": {
+      "label": "Clock",
+      "category": "feedback",
+      "keywords": [
+        "time",
+        "pending",
+        "timer"
+      ],
+      "slice": 5
+    },
+    "history": {
+      "label": "History",
+      "category": "feedback",
+      "keywords": [
+        "activity",
+        "previous",
+        "recent",
+        "audit"
+      ],
+      "slice": 5
+    },
+    "spinner": {
+      "label": "Spinner",
+      "category": "feedback",
+      "keywords": [
+        "progress",
+        "loading",
+        "busy"
+      ],
+      "slice": 5
+    },
+    "log-in": {
+      "label": "Log in",
+      "category": "actions",
+      "keywords": [
+        "login",
+        "sign",
+        "in",
+        "session",
+        "login"
+      ],
+      "slice": 5
+    },
+    "log-out": {
+      "label": "Log out",
+      "category": "actions",
+      "keywords": [
+        "logout",
+        "sign",
+        "out",
+        "exit",
+        "session",
+        "logout"
+      ],
+      "slice": 5
+    },
+    "shield-check": {
+      "label": "Shield check",
+      "category": "feedback",
+      "keywords": [
+        "verified",
+        "safe",
+        "permission"
+      ],
+      "slice": 5
+    },
+    "key": {
+      "label": "Key",
+      "category": "interface",
+      "keywords": [
+        "credential",
+        "password",
+        "token",
+        "access"
+      ],
+      "slice": 5
+    },
+    "phone": {
+      "label": "Phone",
+      "category": "interface",
+      "keywords": [
+        "contact",
+        "call",
+        "telephone",
+        "handset"
+      ],
+      "slice": 5
+    },
+    "map": {
+      "label": "Map",
+      "category": "location",
+      "keywords": [
+        "yard",
+        "navigation",
+        "route",
+        "folded"
+      ],
+      "slice": 5
+    },
+    "layers": {
+      "label": "Layers",
+      "category": "location",
+      "keywords": [
+        "map",
+        "overlay",
+        "depth",
+        "levels"
+      ],
+      "slice": 5
+    },
+    "locate": {
+      "label": "Locate",
+      "category": "location",
+      "keywords": [
+        "target",
+        "location",
+        "recenter",
+        "position"
+      ],
+      "slice": 5
+    },
+    "shelf": {
+      "label": "Shelf",
+      "category": "inventory",
+      "keywords": [
+        "storage",
+        "rack",
+        "warehouse",
+        "shelving"
+      ],
+      "slice": 5
+    },
+    "bin-location": {
+      "label": "Bin location",
+      "category": "inventory",
+      "keywords": [
+        "storage",
+        "slot",
+        "placement",
+        "pin"
+      ],
+      "slice": 5
+    },
+    "vin-scan": {
+      "label": "VIN scan",
+      "category": "inventory",
+      "keywords": [
+        "vehicle",
+        "identification",
+        "scanner",
+        "intake"
+      ],
+      "slice": 5
+    },
+    "shift": {
+      "label": "Shift",
+      "category": "business",
+      "keywords": [
+        "schedule",
+        "calendar",
+        "clock",
+        "workforce"
+      ],
+      "slice": 5
+    },
+    "timesheet": {
+      "label": "Timesheet",
+      "category": "business",
+      "keywords": [
+        "hours",
+        "time",
+        "approval",
+        "attendance"
+      ],
+      "slice": 5
+    },
+    "payroll": {
+      "label": "Payroll",
+      "category": "business",
+      "keywords": [
+        "payslip",
+        "compensation",
+        "pay",
+        "run"
+      ],
+      "slice": 5
+    },
+    "calendar-range": {
+      "label": "Calendar range",
+      "category": "business",
+      "keywords": [
+        "schedule",
+        "dates",
+        "period"
+      ],
+      "slice": 5
+    },
+    "invoice": {
+      "label": "Invoice",
+      "category": "commerce",
+      "keywords": [
+        "billing",
+        "statement",
+        "amount",
+        "due"
+      ],
+      "slice": 5
+    },
+    "refund": {
+      "label": "Refund",
+      "category": "commerce",
+      "keywords": [
+        "return",
+        "payment",
+        "reversal"
+      ],
+      "slice": 5
+    },
+    "payout": {
+      "label": "Payout",
+      "category": "commerce",
+      "keywords": [
+        "transfer",
+        "withdrawal",
+        "disbursement"
+      ],
+      "slice": 5
+    },
+    "wallet": {
+      "label": "Wallet",
+      "category": "commerce",
+      "keywords": [
+        "balance",
+        "payment",
+        "cash"
+      ],
+      "slice": 5
+    },
+    "browser": {
+      "label": "Browser",
+      "category": "interface",
+      "keywords": [
+        "web",
+        "window",
+        "site",
+        "app"
+      ],
+      "slice": 5
+    },
+    "message": {
+      "label": "Message",
+      "category": "interface",
+      "keywords": [
+        "chat",
+        "conversation",
+        "reply",
+        "comment",
+        "chat"
+      ],
+      "slice": 5
+    },
+    "video": {
+      "label": "Video",
+      "category": "media",
+      "keywords": [
+        "record",
+        "movie",
+        "camera",
+        "media-video"
+      ],
+      "slice": 5
+    },
+    "database": {
+      "label": "Database",
+      "category": "interface",
+      "keywords": [
+        "data",
+        "storage",
+        "records",
+        "cylinder"
+      ],
+      "slice": 5
+    },
+    "server": {
+      "label": "Server",
+      "category": "interface",
+      "keywords": [
+        "host",
+        "infrastructure",
+        "rack"
+      ],
+      "slice": 5
+    },
+    "api": {
+      "label": "API",
+      "category": "interface",
+      "keywords": [
+        "integration",
+        "endpoint",
+        "connected",
+        "ports"
+      ],
+      "slice": 5
+    },
+    "shield": {
+      "label": "Shield",
+      "category": "interface",
+      "keywords": [
+        "security",
+        "protection"
+      ],
+      "slice": 5
+    },
+    "activity": {
+      "label": "Activity",
+      "category": "feedback",
+      "keywords": [
+        "pulse",
+        "heartbeat",
+        "realtime",
+        "monitoring",
+        "bolt",
+        "lightning"
+      ],
+      "slice": 5
+    },
+    "tax": {
+      "label": "Tax",
+      "category": "commerce",
+      "keywords": [
+        "percent",
+        "rate",
+        "withholding"
+      ],
+      "slice": 5
+    },
+    "code": {
+      "label": "Code",
+      "category": "interface",
+      "keywords": [
+        "source",
+        "developer",
+        "brackets"
+      ],
+      "slice": 5
+    },
+    "terminal": {
+      "label": "Terminal",
+      "category": "interface",
+      "keywords": [
+        "console",
+        "prompt",
+        "cli"
+      ],
+      "slice": 5
+    },
+    "rocket": {
+      "label": "Rocket",
+      "category": "interface",
+      "keywords": [
+        "launch",
+        "deploy",
+        "start"
+      ],
+      "slice": 5
+    },
+    "bug": {
+      "label": "Bug",
+      "category": "interface",
+      "keywords": [
+        "debug",
+        "issue",
+        "error",
+        "developer"
+      ],
+      "slice": 5
+    },
+    "cloud": {
+      "label": "Cloud",
+      "category": "interface",
+      "keywords": [
+        "sync",
+        "remote",
+        "hosting"
+      ],
+      "slice": 5
+    },
+    "globe": {
+      "label": "Globe",
+      "category": "location",
+      "keywords": [
+        "world",
+        "language",
+        "international"
+      ],
+      "slice": 5
+    },
+    "scan": {
+      "label": "Scan",
+      "category": "actions",
+      "keywords": [
+        "scanner",
+        "frame",
+        "scan",
+        "line"
+      ],
+      "slice": 5
+    },
+    "network": {
+      "label": "Network",
+      "category": "interface",
+      "keywords": [
+        "connections",
+        "nodes",
+        "link",
+        "services"
+      ],
+      "slice": 5
+    },
+    "cpu": {
+      "label": "CPU",
+      "category": "interface",
+      "keywords": [
+        "chip",
+        "processor",
+        "computer",
+        "hardware"
+      ],
+      "slice": 5
+    },
+    "module": {
+      "label": "Module",
+      "category": "interface",
+      "keywords": [
+        "layout",
+        "template",
+        "split",
+        "panel"
+      ],
+      "slice": 5
+    },
+    "stack": {
+      "label": "Stack",
+      "category": "interface",
+      "keywords": [
+        "stacked",
+        "services",
+        "panels"
+      ],
+      "slice": 5
+    },
+    "tile": {
+      "label": "Tile",
+      "category": "interface",
+      "keywords": [
+        "cell",
+        "block",
+        "panel",
+        "square"
+      ],
+      "slice": 5
+    },
+    "palette": {
+      "label": "Palette",
+      "category": "interface",
+      "keywords": [
+        "paint",
+        "color",
+        "theme",
+        "swatches",
+        "brush"
+      ],
+      "slice": 5
+    },
+    "heart": {
+      "label": "Heart",
+      "category": "feedback",
+      "keywords": [
+        "favorite",
+        "like",
+        "wishlist"
+      ],
+      "slice": 5
+    },
+    "star": {
+      "label": "Star",
+      "category": "feedback",
+      "keywords": [
+        "favorite",
+        "rating",
+        "sticker"
+      ],
+      "slice": 5
+    },
+    "target": {
+      "label": "Target",
+      "category": "interface",
+      "keywords": [
+        "goal",
+        "bullseye",
+        "focus",
+        "stamp",
+        "flag"
+      ],
+      "slice": 5
+    },
+    "megaphone": {
+      "label": "Megaphone",
+      "category": "interface",
+      "keywords": [
+        "announcement",
+        "broadcast",
+        "marketing"
+      ],
+      "slice": 5
+    },
+    "cursor": {
+      "label": "Cursor",
+      "category": "interface",
+      "keywords": [
+        "pointer",
+        "select",
+        "selection",
+        "mouse"
+      ],
+      "slice": 5
+    },
+    "expand": {
+      "label": "Expand",
+      "category": "actions",
+      "keywords": [
+        "fullscreen",
+        "maximize",
+        "resize"
+      ],
+      "slice": 5
+    },
+    "archive": {
+      "label": "Archive",
+      "category": "files",
+      "keywords": [
+        "storage",
+        "store",
+        "historical"
+      ],
+      "slice": 5
+    },
+    "keyboard": {
+      "label": "Keyboard",
+      "category": "interface",
+      "keywords": [
+        "shortcut",
+        "input",
+        "keys"
+      ],
+      "slice": 5
+    },
+    "move": {
+      "label": "Move",
+      "category": "actions",
+      "keywords": [
+        "drag",
+        "pan",
+        "reposition",
+        "four",
+        "way"
+      ],
+      "slice": 5
+    },
+    "send": {
+      "label": "Send",
+      "category": "actions",
+      "keywords": [
+        "paper",
+        "plane",
+        "message"
+      ],
+      "slice": 5
+    },
+    "hand": {
+      "label": "Hand",
+      "category": "actions",
+      "keywords": [
+        "pan",
+        "grab",
+        "drag",
+        "move",
+        "hand"
+      ],
+      "slice": 5
+    },
+    "zoom-in": {
+      "label": "Zoom in",
+      "category": "actions",
+      "keywords": [
+        "magnify",
+        "enlarge",
+        "yard",
+        "map"
+      ],
+      "slice": 5
+    },
+    "zoom-out": {
+      "label": "Zoom out",
+      "category": "actions",
+      "keywords": [
+        "magnify",
+        "reduce",
+        "yard",
+        "map"
+      ],
+      "slice": 5
+    },
+    "wifi-off": {
+      "label": "Wi-Fi off",
+      "category": "feedback",
+      "keywords": [
+        "offline",
+        "network",
+        "disconnected"
+      ],
+      "slice": 5
+    },
+    "unlock": {
+      "label": "Unlock",
+      "category": "interface",
+      "keywords": [
+        "unlocked",
+        "open",
+        "access"
+      ],
+      "slice": 5
+    },
+    "paint-brush": {
+      "label": "Paint brush",
+      "category": "actions",
+      "keywords": [
+        "brush",
+        "paint",
+        "draw",
+        "editor"
+      ],
+      "slice": 5
+    },
+    "door-open": {
+      "label": "Door open",
+      "category": "location",
+      "keywords": [
+        "gate",
+        "entry",
+        "exit",
+        "access"
+      ],
+      "slice": 5
+    },
+    "paint-bucket": {
+      "label": "Paint bucket",
+      "category": "actions",
+      "keywords": [
+        "fill",
+        "color",
+        "editor"
+      ],
+      "slice": 5
+    },
+    "pen-tool": {
+      "label": "Pen tool",
+      "category": "actions",
+      "keywords": [
+        "bezier",
+        "vector",
+        "pen",
+        "editor"
+      ],
+      "slice": 5
+    },
+    "rectangle": {
+      "label": "Rectangle",
+      "category": "actions",
+      "keywords": [
+        "draw",
+        "shape",
+        "horizontal",
+        "editor"
+      ],
+      "slice": 5
+    },
+    "clipboard-check": {
+      "label": "Clipboard check",
+      "category": "inventory",
+      "keywords": [
+        "verified",
+        "intake",
+        "review",
+        "approved",
+        "checklist"
+      ],
+      "slice": 5
+    },
+    "package-check": {
+      "label": "Package check",
+      "category": "inventory",
+      "keywords": [
+        "picked",
+        "ready",
+        "fulfilled",
+        "accepted"
+      ],
+      "slice": 5
+    },
+    "package-x": {
+      "label": "Package X",
+      "category": "inventory",
+      "keywords": [
+        "remove",
+        "package",
+        "unavailable",
+        "canceled"
+      ],
+      "slice": 5
+    },
+    "boxes": {
+      "label": "Boxes",
+      "category": "inventory",
+      "keywords": [
+        "inventory",
+        "parts",
+        "stacked",
+        "packages"
+      ],
+      "slice": 5
+    },
+    "gauge": {
+      "label": "Gauge",
+      "category": "reports",
+      "keywords": [
+        "speedometer",
+        "performance",
+        "metrics"
+      ],
+      "slice": 5
+    },
+    "images": {
+      "label": "Images",
+      "category": "media",
+      "keywords": [
+        "gallery",
+        "photos",
+        "stacked",
+        "images"
+      ],
+      "slice": 5
+    },
+    "recycle": {
+      "label": "Recycle",
+      "category": "inventory",
+      "keywords": [
+        "salvage",
+        "circular",
+        "reuse"
+      ],
+      "slice": 5
+    },
+    "contrast": {
+      "label": "Contrast",
+      "category": "interface",
+      "keywords": [
+        "accessibility",
+        "theme",
+        "high",
+        "contrast"
+      ],
+      "slice": 5
+    },
+    "moon": {
+      "label": "Moon",
+      "category": "interface",
+      "keywords": [
+        "dark",
+        "theme",
+        "night"
+      ],
+      "slice": 5
+    },
+    "sun": {
+      "label": "Sun",
+      "category": "interface",
+      "keywords": [
+        "light",
+        "theme",
+        "daylight"
+      ],
+      "slice": 5
+    },
+    "replace": {
+      "label": "Replace",
+      "category": "actions",
+      "keywords": [
+        "swap",
+        "exchange",
+        "substitute"
+      ],
+      "slice": 5
+    },
+    "shopping-bag": {
+      "label": "Shopping bag",
+      "category": "commerce",
+      "keywords": [
+        "purchase",
+        "store",
+        "basket",
+        "order"
+      ],
+      "slice": 5
+    },
+    "image-off": {
+      "label": "Image off",
+      "category": "media",
+      "keywords": [
+        "missing",
+        "photo",
+        "media",
+        "unavailable"
+      ],
+      "slice": 5
+    },
+    "sparkles": {
+      "label": "Sparkles",
+      "category": "interface",
+      "keywords": [
+        "suggested",
+        "assistant",
+        "new",
+        "feature"
+      ],
+      "slice": 5
+    },
+    "file-text": {
+      "label": "File text",
+      "category": "files",
+      "keywords": [
+        "document",
+        "notes",
+        "policy",
+        "text"
+      ],
+      "slice": 5
+    },
+    "ban": {
+      "label": "Ban",
+      "category": "feedback",
+      "keywords": [
+        "blocked",
+        "prohibited",
+        "unavailable"
+      ],
+      "slice": 5
+    },
+    "banknote": {
+      "label": "Banknote",
+      "category": "commerce",
+      "keywords": [
+        "cash",
+        "money",
+        "currency"
+      ],
+      "slice": 5
+    },
+    "parking": {
+      "label": "Parking",
+      "category": "location",
+      "keywords": [
+        "yard",
+        "vehicle",
+        "parking",
+        "area"
+      ],
+      "slice": 5
+    },
+    "scale": {
+      "label": "Scale",
+      "category": "inventory",
+      "keywords": [
+        "weigh",
+        "balance",
+        "measure",
+        "weight"
+      ],
+      "slice": 5
+    },
+    "shield-alert": {
+      "label": "Shield alert",
+      "category": "feedback",
+      "keywords": [
+        "security",
+        "warning",
+        "risk"
+      ],
+      "slice": 5
+    },
+    "signpost": {
+      "label": "Signpost",
+      "category": "location",
+      "keywords": [
+        "yard",
+        "directions",
+        "signs",
+        "row"
+      ],
+      "slice": 5
+    },
+    "monitor": {
+      "label": "Monitor",
+      "category": "interface",
+      "keywords": [
+        "desktop",
+        "display",
+        "screen"
+      ],
+      "slice": 5
+    },
+    "smartphone": {
+      "label": "Smartphone",
+      "category": "interface",
+      "keywords": [
+        "mobile",
+        "device",
+        "phone",
+        "screen"
+      ],
+      "slice": 5
+    },
+    "tablet": {
+      "label": "Tablet",
+      "category": "interface",
+      "keywords": [
+        "touch",
+        "device",
+        "screen"
+      ],
+      "slice": 5
+    },
+    "ste-workforce": {
+      "label": "STE Workforce",
+      "category": "business",
+      "keywords": [
+        "module",
+        "brand",
+        "team",
+        "payroll"
+      ],
+      "slice": 5
+    },
+    "ste-payments": {
+      "label": "STE Payments",
+      "category": "commerce",
+      "keywords": [
+        "module",
+        "brand",
+        "payment",
+        "card",
+        "confirmation"
+      ],
+      "slice": 5
+    }
+  },
+  "themes": [
+    "midnight-gold",
+    "ocean-steel",
+    "forest-moss",
+    "sunset-ember",
+    "royal-plum",
+    "graphite-cyan",
+    "desert-sage",
+    "rose-quartz",
+    "cyber-lime",
+    "arctic-indigo",
+    "chrome-navy",
+    "recycled-emerald",
+    "industrial-orange",
+    "performance-red",
+    "heritage-brass",
+    "service-blue-red",
+    "newsprint-crimson",
+    "foundry-amber",
+    "soft-orchid",
+    "electric-noir",
+    "signal-yellow",
+    "botanical-green",
+    "cobalt-electric",
+    "stone-graphite",
+    "walnut-clay"
+  ],
+  "uiStyleKitVersion": "2.7.1",
+  "motionStyleVersion": "1.0.0",
   "aliases": {
+    "chart": "chart-bar",
+    "login": "log-in",
+    "logout": "log-out",
     "chat": "message",
     "credit": "credit-card",
     "card": "credit-card",

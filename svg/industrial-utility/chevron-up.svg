@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Chevron up" focusable="false" class="usk-icon" data-icon-style="industrial-utility" fill="none" stroke-linejoin="round" stroke-linecap="round">
+  <g transform="rotate(-90 12 12)">
+  <path d="M7.7 4.52h2.34l7.73 6.67v1.62l-7.73 6.67H7.7v-2.34L13.8 12 7.7 6.86Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-industrial-utility-frame, var(--usi-ink, currentColor))"/>
+  <path d="M6.2 10.86h3.7l1.35 1.14-1.35 1.14H6.2Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-industrial-utility-signal, var(--usi-accent-ink, currentColor))"/>
+  </g>
+</svg>

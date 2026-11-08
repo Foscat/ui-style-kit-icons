@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Microphone" focusable="false" class="usk-icon" data-icon-style="clay" fill="none" stroke-linejoin="round" stroke-linecap="round">
+  <g transform="translate(0 0.6)"><path d="M12.05 3.17q3.31.01 3.31 3.18v4.94q0 3.18-3.32 3.22-3.39.04-3.39-3.2V6.37q0-3.21 3.4-3.2Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-clay-rim, var(--usi-ink, currentColor))"/></g>
+  <path d="M12.05 3.17q3.31.01 3.31 3.18v4.94q0 3.18-3.32 3.22-3.39.04-3.39-3.2V6.37q0-3.21 3.4-3.2Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-clay-face, var(--usi-accent-ink, currentColor))"/>
+  <path d="M5.85 10.92v.7q.04 5.47 6.17 5.46 6.11 0 6.13-5.46v-.7M12.02 17.14v3.32m-2.77 0h5.5" fill="none" stroke="currentColor" stroke-width="2.04" style="stroke:var(--usi-clay-rim, var(--usi-ink, currentColor))"/>
+</svg>

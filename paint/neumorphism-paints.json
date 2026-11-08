@@ -1,0 +1,302 @@
+{
+  "midnight-gold/light": {
+    "neumorphism-ink": "#172033",
+    "neumorphism-relief": "#845e1b"
+  },
+  "midnight-gold/dark": {
+    "neumorphism-ink": "#f7edd7",
+    "neumorphism-relief": "#d6a84f"
+  },
+  "midnight-gold/contrast": {
+    "neumorphism-ink": "#ffffff",
+    "neumorphism-relief": "#ffd400"
+  },
+  "ocean-steel/light": {
+    "neumorphism-ink": "#10242e",
+    "neumorphism-relief": "#087d9d"
+  },
+  "ocean-steel/dark": {
+    "neumorphism-ink": "#e9fbff",
+    "neumorphism-relief": "#53f0ff"
+  },
+  "ocean-steel/contrast": {
+    "neumorphism-ink": "#ffffff",
+    "neumorphism-relief": "#00e5ff"
+  },
+  "forest-moss/light": {
+    "neumorphism-ink": "#182417",
+    "neumorphism-relief": "#3f7d3a"
+  },
+  "forest-moss/dark": {
+    "neumorphism-ink": "#edf7e8",
+    "neumorphism-relief": "#b9ef6b"
+  },
+  "forest-moss/contrast": {
+    "neumorphism-ink": "#ffffff",
+    "neumorphism-relief": "#b6ff00"
+  },
+  "sunset-ember/light": {
+    "neumorphism-ink": "#2a1711",
+    "neumorphism-relief": "#c4512b"
+  },
+  "sunset-ember/dark": {
+    "neumorphism-ink": "#fff0e8",
+    "neumorphism-relief": "#ff8a5b"
+  },
+  "sunset-ember/contrast": {
+    "neumorphism-ink": "#ffffff",
+    "neumorphism-relief": "#ff6a00"
+  },
+  "royal-plum/light": {
+    "neumorphism-ink": "#24152d",
+    "neumorphism-relief": "#c05ac6"
+  },
+  "royal-plum/dark": {
+    "neumorphism-ink": "#faecff",
+    "neumorphism-relief": "#ff9cf6"
+  },
+  "royal-plum/contrast": {
+    "neumorphism-ink": "#ffffff",
+    "neumorphism-relief": "#ff00f5"
+  },
+  "graphite-cyan/light": {
+    "neumorphism-ink": "#171d21",
+    "neumorphism-relief": "#007c89"
+  },
+  "graphite-cyan/dark": {
+    "neumorphism-ink": "#edf6f8",
+    "neumorphism-relief": "#3ed9e8"
+  },
+  "graphite-cyan/contrast": {
+    "neumorphism-ink": "#ffffff",
+    "neumorphism-relief": "#00f0ff"
+  },
+  "desert-sage/light": {
+    "neumorphism-ink": "#2b2419",
+    "neumorphism-relief": "#8b6a37"
+  },
+  "desert-sage/dark": {
+    "neumorphism-ink": "#f8efdf",
+    "neumorphism-relief": "#f1c46e"
+  },
+  "desert-sage/contrast": {
+    "neumorphism-ink": "#ffffff",
+    "neumorphism-relief": "#ffb000"
+  },
+  "rose-quartz/light": {
+    "neumorphism-ink": "#2b151d",
+    "neumorphism-relief": "#b8476d"
+  },
+  "rose-quartz/dark": {
+    "neumorphism-ink": "#fff0f4",
+    "neumorphism-relief": "#ff8fb3"
+  },
+  "rose-quartz/contrast": {
+    "neumorphism-ink": "#ffffff",
+    "neumorphism-relief": "#f000ff"
+  },
+  "cyber-lime/light": {
+    "neumorphism-ink": "#172214",
+    "neumorphism-relief": "#147f86"
+  },
+  "cyber-lime/dark": {
+    "neumorphism-ink": "#efffe9",
+    "neumorphism-relief": "#a8ff3d"
+  },
+  "cyber-lime/contrast": {
+    "neumorphism-ink": "#ffffff",
+    "neumorphism-relief": "#aaff00"
+  },
+  "arctic-indigo/light": {
+    "neumorphism-ink": "#141b2e",
+    "neumorphism-relief": "#405eb8"
+  },
+  "arctic-indigo/dark": {
+    "neumorphism-ink": "#edf3ff",
+    "neumorphism-relief": "#76d8f3"
+  },
+  "arctic-indigo/contrast": {
+    "neumorphism-ink": "#ffffff",
+    "neumorphism-relief": "#00d9ff"
+  },
+  "chrome-navy/light": {
+    "neumorphism-ink": "#0d1b2a",
+    "neumorphism-relief": "#3e6b8e"
+  },
+  "chrome-navy/dark": {
+    "neumorphism-ink": "#eff4fa",
+    "neumorphism-relief": "#7ea9d3"
+  },
+  "chrome-navy/contrast": {
+    "neumorphism-ink": "#ffffff",
+    "neumorphism-relief": "#00e6ff"
+  },
+  "recycled-emerald/light": {
+    "neumorphism-ink": "#0e2c29",
+    "neumorphism-relief": "#0f766e"
+  },
+  "recycled-emerald/dark": {
+    "neumorphism-ink": "#ecfbf7",
+    "neumorphism-relief": "#45d1af"
+  },
+  "recycled-emerald/contrast": {
+    "neumorphism-ink": "#ffffff",
+    "neumorphism-relief": "#00f0ff"
+  },
+  "industrial-orange/light": {
+    "neumorphism-ink": "#181512",
+    "neumorphism-relief": "#b74e16"
+  },
+  "industrial-orange/dark": {
+    "neumorphism-ink": "#f7f2eb",
+    "neumorphism-relief": "#ff8a3d"
+  },
+  "industrial-orange/contrast": {
+    "neumorphism-ink": "#ffffff",
+    "neumorphism-relief": "#ff9a42"
+  },
+  "performance-red/light": {
+    "neumorphism-ink": "#121317",
+    "neumorphism-relief": "#c8102e"
+  },
+  "performance-red/dark": {
+    "neumorphism-ink": "#f9f9fa",
+    "neumorphism-relief": "#ff4c66"
+  },
+  "performance-red/contrast": {
+    "neumorphism-ink": "#ffffff",
+    "neumorphism-relief": "#ff3656"
+  },
+  "heritage-brass/light": {
+    "neumorphism-ink": "#2a1f1a",
+    "neumorphism-relief": "#6b0f1a"
+  },
+  "heritage-brass/dark": {
+    "neumorphism-ink": "#fbf5ec",
+    "neumorphism-relief": "#e7b85f"
+  },
+  "heritage-brass/contrast": {
+    "neumorphism-ink": "#ffffff",
+    "neumorphism-relief": "#ffd36b"
+  },
+  "service-blue-red/light": {
+    "neumorphism-ink": "#11243b",
+    "neumorphism-relief": "#d62b2b"
+  },
+  "service-blue-red/dark": {
+    "neumorphism-ink": "#f3f7fb",
+    "neumorphism-relief": "#ff6a6a"
+  },
+  "service-blue-red/contrast": {
+    "neumorphism-ink": "#ffffff",
+    "neumorphism-relief": "#66b5ff"
+  },
+  "newsprint-crimson/light": {
+    "neumorphism-ink": "#2c2622",
+    "neumorphism-relief": "#7a2329"
+  },
+  "newsprint-crimson/dark": {
+    "neumorphism-ink": "#f4ebdd",
+    "neumorphism-relief": "#d87c83"
+  },
+  "newsprint-crimson/contrast": {
+    "neumorphism-ink": "#ffffff",
+    "neumorphism-relief": "#ff7a84"
+  },
+  "foundry-amber/light": {
+    "neumorphism-ink": "#1d1c1a",
+    "neumorphism-relief": "#a95700"
+  },
+  "foundry-amber/dark": {
+    "neumorphism-ink": "#f4f2ed",
+    "neumorphism-relief": "#f0a03a"
+  },
+  "foundry-amber/contrast": {
+    "neumorphism-ink": "#ffffff",
+    "neumorphism-relief": "#ffb000"
+  },
+  "soft-orchid/light": {
+    "neumorphism-ink": "#241a3a",
+    "neumorphism-relief": "#6552b8"
+  },
+  "soft-orchid/dark": {
+    "neumorphism-ink": "#f5f0ff",
+    "neumorphism-relief": "#a994f2"
+  },
+  "soft-orchid/contrast": {
+    "neumorphism-ink": "#ffffff",
+    "neumorphism-relief": "#71ffe2"
+  },
+  "electric-noir/light": {
+    "neumorphism-ink": "#14111c",
+    "neumorphism-relief": "#8c1a78"
+  },
+  "electric-noir/dark": {
+    "neumorphism-ink": "#f6f4fa",
+    "neumorphism-relief": "#e24ac4"
+  },
+  "electric-noir/contrast": {
+    "neumorphism-ink": "#ffffff",
+    "neumorphism-relief": "#00d7ff"
+  },
+  "signal-yellow/light": {
+    "neumorphism-ink": "#211d0c",
+    "neumorphism-relief": "#704f00"
+  },
+  "signal-yellow/dark": {
+    "neumorphism-ink": "#fff9de",
+    "neumorphism-relief": "#ffd83b"
+  },
+  "signal-yellow/contrast": {
+    "neumorphism-ink": "#ffffff",
+    "neumorphism-relief": "#ffd600"
+  },
+  "botanical-green/light": {
+    "neumorphism-ink": "#0e2617",
+    "neumorphism-relief": "#0d7e42"
+  },
+  "botanical-green/dark": {
+    "neumorphism-ink": "#ebfcf1",
+    "neumorphism-relief": "#52de8b"
+  },
+  "botanical-green/contrast": {
+    "neumorphism-ink": "#ffffff",
+    "neumorphism-relief": "#00ff70"
+  },
+  "cobalt-electric/light": {
+    "neumorphism-ink": "#0e1b39",
+    "neumorphism-relief": "#0052cc"
+  },
+  "cobalt-electric/dark": {
+    "neumorphism-ink": "#eff4ff",
+    "neumorphism-relief": "#6f95ff"
+  },
+  "cobalt-electric/contrast": {
+    "neumorphism-ink": "#ffffff",
+    "neumorphism-relief": "#4c85ff"
+  },
+  "stone-graphite/light": {
+    "neumorphism-ink": "#1b1d1c",
+    "neumorphism-relief": "#5b615d"
+  },
+  "stone-graphite/dark": {
+    "neumorphism-ink": "#f5f6f5",
+    "neumorphism-relief": "#a4aaa6"
+  },
+  "stone-graphite/contrast": {
+    "neumorphism-ink": "#ffffff",
+    "neumorphism-relief": "#cdcdcd"
+  },
+  "walnut-clay/light": {
+    "neumorphism-ink": "#31241d",
+    "neumorphism-relief": "#be6f52"
+  },
+  "walnut-clay/dark": {
+    "neumorphism-ink": "#faf1e9",
+    "neumorphism-relief": "#eba988"
+  },
+  "walnut-clay/contrast": {
+    "neumorphism-ink": "#ffffff",
+    "neumorphism-relief": "#ffae80"
+  }
+}

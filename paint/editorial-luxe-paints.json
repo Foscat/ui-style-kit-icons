@@ -1,0 +1,302 @@
+{
+  "midnight-gold/light": {
+    "editorial-luxe-ink": "#172033",
+    "editorial-luxe-foil": "#846a3b"
+  },
+  "midnight-gold/dark": {
+    "editorial-luxe-ink": "#f7edd7",
+    "editorial-luxe-foil": "#f3d27a"
+  },
+  "midnight-gold/contrast": {
+    "editorial-luxe-ink": "#00d9ff",
+    "editorial-luxe-foil": "#ffea00"
+  },
+  "ocean-steel/light": {
+    "editorial-luxe-ink": "#10242e",
+    "editorial-luxe-foil": "#137a87"
+  },
+  "ocean-steel/dark": {
+    "editorial-luxe-ink": "#e9fbff",
+    "editorial-luxe-foil": "#53f0ff"
+  },
+  "ocean-steel/contrast": {
+    "editorial-luxe-ink": "#ffffff",
+    "editorial-luxe-foil": "#00ffff"
+  },
+  "forest-moss/light": {
+    "editorial-luxe-ink": "#182417",
+    "editorial-luxe-foil": "#627838"
+  },
+  "forest-moss/dark": {
+    "editorial-luxe-ink": "#edf7e8",
+    "editorial-luxe-foil": "#b9ef6b"
+  },
+  "forest-moss/contrast": {
+    "editorial-luxe-ink": "#6cff5f",
+    "editorial-luxe-foil": "#b6ff00"
+  },
+  "sunset-ember/light": {
+    "editorial-luxe-ink": "#2a1711",
+    "editorial-luxe-foil": "#996429"
+  },
+  "sunset-ember/dark": {
+    "editorial-luxe-ink": "#fff0e8",
+    "editorial-luxe-foil": "#ffc166"
+  },
+  "sunset-ember/contrast": {
+    "editorial-luxe-ink": "#ffffff",
+    "editorial-luxe-foil": "#ffd000"
+  },
+  "royal-plum/light": {
+    "editorial-luxe-ink": "#63317f",
+    "editorial-luxe-foil": "#c05ac6"
+  },
+  "royal-plum/dark": {
+    "editorial-luxe-ink": "#faecff",
+    "editorial-luxe-foil": "#ff9cf6"
+  },
+  "royal-plum/contrast": {
+    "editorial-luxe-ink": "#e45cff",
+    "editorial-luxe-foil": "#ff00f5"
+  },
+  "graphite-cyan/light": {
+    "editorial-luxe-ink": "#171d21",
+    "editorial-luxe-foil": "#1e7a85"
+  },
+  "graphite-cyan/dark": {
+    "editorial-luxe-ink": "#edf6f8",
+    "editorial-luxe-foil": "#7bf3ff"
+  },
+  "graphite-cyan/contrast": {
+    "editorial-luxe-ink": "#ffffff",
+    "editorial-luxe-foil": "#00f0ff"
+  },
+  "desert-sage/light": {
+    "editorial-luxe-ink": "#2b2419",
+    "editorial-luxe-foil": "#8b6a37"
+  },
+  "desert-sage/dark": {
+    "editorial-luxe-ink": "#f8efdf",
+    "editorial-luxe-foil": "#f1c46e"
+  },
+  "desert-sage/contrast": {
+    "editorial-luxe-ink": "#ffd166",
+    "editorial-luxe-foil": "#ffb000"
+  },
+  "rose-quartz/light": {
+    "editorial-luxe-ink": "#2b151d",
+    "editorial-luxe-foil": "#a05970"
+  },
+  "rose-quartz/dark": {
+    "editorial-luxe-ink": "#fff0f4",
+    "editorial-luxe-foil": "#ffadc5"
+  },
+  "rose-quartz/contrast": {
+    "editorial-luxe-ink": "#ff8ab3",
+    "editorial-luxe-foil": "#f000ff"
+  },
+  "cyber-lime/light": {
+    "editorial-luxe-ink": "#417013",
+    "editorial-luxe-foil": "#147f86"
+  },
+  "cyber-lime/dark": {
+    "editorial-luxe-ink": "#caff7f",
+    "editorial-luxe-foil": "#3debf2"
+  },
+  "cyber-lime/contrast": {
+    "editorial-luxe-ink": "#ffffff",
+    "editorial-luxe-foil": "#ccff00"
+  },
+  "arctic-indigo/light": {
+    "editorial-luxe-ink": "#141b2e",
+    "editorial-luxe-foil": "#2e7d9d"
+  },
+  "arctic-indigo/dark": {
+    "editorial-luxe-ink": "#b7c5ff",
+    "editorial-luxe-foil": "#76d8f3"
+  },
+  "arctic-indigo/contrast": {
+    "editorial-luxe-ink": "#9fb2ff",
+    "editorial-luxe-foil": "#00d9ff"
+  },
+  "chrome-navy/light": {
+    "editorial-luxe-ink": "#1a3556",
+    "editorial-luxe-foil": "#3e6b8e"
+  },
+  "chrome-navy/dark": {
+    "editorial-luxe-ink": "#eff4fa",
+    "editorial-luxe-foil": "#a8c1dc"
+  },
+  "chrome-navy/contrast": {
+    "editorial-luxe-ink": "#9cc5f0",
+    "editorial-luxe-foil": "#00e6ff"
+  },
+  "recycled-emerald/light": {
+    "editorial-luxe-ink": "#0e2c29",
+    "editorial-luxe-foil": "#0f766e"
+  },
+  "recycled-emerald/dark": {
+    "editorial-luxe-ink": "#ecfbf7",
+    "editorial-luxe-foil": "#67ddd1"
+  },
+  "recycled-emerald/contrast": {
+    "editorial-luxe-ink": "#38f0b9",
+    "editorial-luxe-foil": "#00f0ff"
+  },
+  "industrial-orange/light": {
+    "editorial-luxe-ink": "#181512",
+    "editorial-luxe-foil": "#9b622e"
+  },
+  "industrial-orange/dark": {
+    "editorial-luxe-ink": "#f7f2eb",
+    "editorial-luxe-foil": "#ffb36b"
+  },
+  "industrial-orange/contrast": {
+    "editorial-luxe-ink": "#ffffff",
+    "editorial-luxe-foil": "#ffc36f"
+  },
+  "performance-red/light": {
+    "editorial-luxe-ink": "#a30e25",
+    "editorial-luxe-foil": "#e84c61"
+  },
+  "performance-red/dark": {
+    "editorial-luxe-ink": "#f9f9fa",
+    "editorial-luxe-foil": "#ff8394"
+  },
+  "performance-red/contrast": {
+    "editorial-luxe-ink": "#ffffff",
+    "editorial-luxe-foil": "#ff95a3"
+  },
+  "heritage-brass/light": {
+    "editorial-luxe-ink": "#5b0d16",
+    "editorial-luxe-foil": "#896934"
+  },
+  "heritage-brass/dark": {
+    "editorial-luxe-ink": "#fbf5ec",
+    "editorial-luxe-foil": "#e7b85f"
+  },
+  "heritage-brass/contrast": {
+    "editorial-luxe-ink": "#ffffff",
+    "editorial-luxe-foil": "#ffd36b"
+  },
+  "service-blue-red/light": {
+    "editorial-luxe-ink": "#0b3155",
+    "editorial-luxe-foil": "#d62b2b"
+  },
+  "service-blue-red/dark": {
+    "editorial-luxe-ink": "#a5cbf1",
+    "editorial-luxe-foil": "#ff6a6a"
+  },
+  "service-blue-red/contrast": {
+    "editorial-luxe-ink": "#8cc6ff",
+    "editorial-luxe-foil": "#ff6666"
+  },
+  "newsprint-crimson/light": {
+    "editorial-luxe-ink": "#6a1e24",
+    "editorial-luxe-foil": "#865f50"
+  },
+  "newsprint-crimson/dark": {
+    "editorial-luxe-ink": "#f4ebdd",
+    "editorial-luxe-foil": "#f0a597"
+  },
+  "newsprint-crimson/contrast": {
+    "editorial-luxe-ink": "#ffffff",
+    "editorial-luxe-foil": "#ffb3a7"
+  },
+  "foundry-amber/light": {
+    "editorial-luxe-ink": "#1d1c1a",
+    "editorial-luxe-foil": "#956625"
+  },
+  "foundry-amber/dark": {
+    "editorial-luxe-ink": "#f4f2ed",
+    "editorial-luxe-foil": "#ffd17a"
+  },
+  "foundry-amber/contrast": {
+    "editorial-luxe-ink": "#ffffff",
+    "editorial-luxe-foil": "#ffd36b"
+  },
+  "soft-orchid/light": {
+    "editorial-luxe-ink": "#241a3a",
+    "editorial-luxe-foil": "#6952a3"
+  },
+  "soft-orchid/dark": {
+    "editorial-luxe-ink": "#f5f0ff",
+    "editorial-luxe-foil": "#d1b7f5"
+  },
+  "soft-orchid/contrast": {
+    "editorial-luxe-ink": "#c9b5ff",
+    "editorial-luxe-foil": "#71ffe2"
+  },
+  "electric-noir/light": {
+    "editorial-luxe-ink": "#721562",
+    "editorial-luxe-foil": "#2e7590"
+  },
+  "electric-noir/dark": {
+    "editorial-luxe-ink": "#f6f4fa",
+    "editorial-luxe-foil": "#ff7ae1"
+  },
+  "electric-noir/contrast": {
+    "editorial-luxe-ink": "#ff7be0",
+    "editorial-luxe-foil": "#00d7ff"
+  },
+  "signal-yellow/light": {
+    "editorial-luxe-ink": "#704f00",
+    "editorial-luxe-foil": "#80732e"
+  },
+  "signal-yellow/dark": {
+    "editorial-luxe-ink": "#fff9de",
+    "editorial-luxe-foil": "#ffe866"
+  },
+  "signal-yellow/contrast": {
+    "editorial-luxe-ink": "#ffffff",
+    "editorial-luxe-foil": "#ffea00"
+  },
+  "botanical-green/light": {
+    "editorial-luxe-ink": "#0e2617",
+    "editorial-luxe-foil": "#297e4a"
+  },
+  "botanical-green/dark": {
+    "editorial-luxe-ink": "#ebfcf1",
+    "editorial-luxe-foil": "#6bf0a4"
+  },
+  "botanical-green/contrast": {
+    "editorial-luxe-ink": "#67ffa6",
+    "editorial-luxe-foil": "#ff5cb2"
+  },
+  "cobalt-electric/light": {
+    "editorial-luxe-ink": "#0040a3",
+    "editorial-luxe-foil": "#5279ff"
+  },
+  "cobalt-electric/dark": {
+    "editorial-luxe-ink": "#a4bcff",
+    "editorial-luxe-foil": "#ff8593"
+  },
+  "cobalt-electric/contrast": {
+    "editorial-luxe-ink": "#84a8ff",
+    "editorial-luxe-foil": "#ff697d"
+  },
+  "stone-graphite/light": {
+    "editorial-luxe-ink": "#343c38",
+    "editorial-luxe-foil": "#5b615d"
+  },
+  "stone-graphite/dark": {
+    "editorial-luxe-ink": "#dce0dd",
+    "editorial-luxe-foil": "#a4aaa6"
+  },
+  "stone-graphite/contrast": {
+    "editorial-luxe-ink": "#ffffff",
+    "editorial-luxe-foil": "#cdcdcd"
+  },
+  "walnut-clay/light": {
+    "editorial-luxe-ink": "#693c2b",
+    "editorial-luxe-foil": "#be6f52"
+  },
+  "walnut-clay/dark": {
+    "editorial-luxe-ink": "#faf1e9",
+    "editorial-luxe-foil": "#eba988"
+  },
+  "walnut-clay/contrast": {
+    "editorial-luxe-ink": "#ffffff",
+    "editorial-luxe-foil": "#ffc2a0"
+  }
+}

@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-label="Close" focusable="false" class="usk-icon" data-icon-style="organic-modern" fill="none" stroke-linejoin="round" stroke-linecap="round">
+  <path d="M6.45 6.25c.45-.39 1.07-.3 1.51.15l4.06 4.04 4.1-4.29c.47-.48 1.15-.5 1.6-.08s.44 1.1-.01 1.57l-4.08 4.38 4.07 4.32c.46.49.47 1.12.03 1.55-.45.43-1.15.4-1.58-.07l-4.12-4.26-4.24 4.28c-.48.48-1.14.51-1.58.06-.43-.44-.38-1.08.09-1.57l4.19-4.32-4.07-4.18c-.47-.48-.46-1.17.03-1.58Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-organic-modern-body, var(--usi-primary-ink, currentColor))"/>
+  <path d="M9.63 20.25c1.24-1.04 3.16-1.06 4.68-.18-.71 1.5-3.62 1.51-4.68.18Z" fill="currentColor" fill-rule="evenodd" style="fill:var(--usi-organic-modern-inlay, var(--usi-accent-ink, currentColor))"/>
+</svg>
